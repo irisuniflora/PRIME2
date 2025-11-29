@@ -34,8 +34,13 @@
 
         <!-- Quiz Screen -->
         <div id="quiz-screen" class="screen">
+            <!-- Book Title Header -->
+            <div class="book-title-header">
+                <span class="book-title-text" id="quiz-book-title">Book Title</span>
+            </div>
+
             <div class="quiz-header">
-                <button class="back-btn" onclick="goBack()">← Exit</button>
+                <button class="back-btn" onclick="showExitModal()">← Exit</button>
                 <span class="progress-text"><span id="current-q">1</span> / 12</span>
                 <button class="script-btn" onclick="toggleScript()">📖 Book Info</button>
             </div>
@@ -145,6 +150,16 @@
         </div>
         <div class="script-body" id="script-body">
             <!-- Book info content -->
+        </div>
+    </div>
+
+    <!-- Exit Confirmation Modal -->
+    <div class="exit-modal-overlay" id="exit-modal-overlay" onclick="hideExitModal()"></div>
+    <div class="exit-modal" id="exit-modal">
+        <p class="exit-modal-text">Are you sure you want to exit?</p>
+        <div class="exit-modal-buttons">
+            <button class="exit-modal-btn cancel" onclick="hideExitModal()">Cancel</button>
+            <button class="exit-modal-btn confirm" onclick="confirmExit()">Exit</button>
         </div>
     </div>
 

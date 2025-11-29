@@ -134,6 +134,11 @@ function filterByGrade(grade) {
 function selectBook(bookKey) {
     currentBook = quizData[bookKey];
     currentBookKey = bookKey;
+
+    // Update book title in quiz header
+    const bookTitle = currentBook.title || currentBook.book_title;
+    document.getElementById('quiz-book-title').textContent = bookTitle;
+
     prepareQuestions();
     showScreen('quiz-screen');
     renderQuestion();
@@ -363,11 +368,25 @@ function showScreen(screenId) {
     document.getElementById(screenId).classList.add('active');
 }
 
-// Exit quiz
+// Exit modal functions
+function showExitModal() {
+    document.getElementById('exit-modal').classList.add('active');
+    document.getElementById('exit-modal-overlay').classList.add('active');
+}
+
+function hideExitModal() {
+    document.getElementById('exit-modal').classList.remove('active');
+    document.getElementById('exit-modal-overlay').classList.remove('active');
+}
+
+function confirmExit() {
+    hideExitModal();
+    showScreen('book-select');
+}
+
+// Exit quiz (legacy)
 function goBack() {
-    if (confirm('Are you sure you want to exit the quiz?')) {
-        showScreen('book-select');
-    }
+    showExitModal();
 }
 
 // 홈으로
