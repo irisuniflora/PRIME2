@@ -1,0 +1,489 @@
+{
+  "title": "Mr. Hynde Is Out of His Mind",
+  "author": "Dan Gutman",
+  "genre": "Humor / Realistic Fiction",
+  "book_level": "3.5",
+  "total_questions": 60,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "What is the narrator's name?",
+      "options": ["Ryan", "Michael", "A.J.", "Andrea"],
+      "correct_answer": "C",
+      "explanation": "The narrator introduces himself as A.J. who hates school."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "What subject does A.J. hate the most?",
+      "options": ["Reading", "Writing", "Math", "Music"],
+      "correct_answer": "D",
+      "explanation": "A.J. says music is the most boring subject in the history of the world."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "What is the name of the old music teacher?",
+      "options": ["Mr. Hind", "Mr. Loring", "Mr. Klutz", "Miss Daisy"],
+      "correct_answer": "B",
+      "explanation": "Mr. Loring is the old music teacher who taught boring songs."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "What is the new music teacher's name?",
+      "options": ["Mr. Loring", "Mr. Hind", "Mr. Klutz", "Mr. Ryan"],
+      "correct_answer": "B",
+      "explanation": "Mr. Hind is the new music teacher who likes rap and hip-hop."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Who is A.J.'s teacher?",
+      "options": ["Miss Daisy", "Andrea", "Emily", "Mrs. Klutz"],
+      "correct_answer": "A",
+      "explanation": "Miss Daisy is A.J.'s classroom teacher."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Who does A.J. call a 'brown-noser'?",
+      "options": ["Ryan", "Michael", "Andrea", "Emily"],
+      "correct_answer": "C",
+      "explanation": "A.J. calls Andrea a brown-noser because she loves school and always tries to impress teachers."
+    },
+    {
+      "id": 7,
+      "difficulty": "easy",
+      "question": "Who are A.J.'s best friends?",
+      "options": ["Andrea and Emily", "Ryan and Michael", "Mr. Hind and Mr. Klutz", "Miss Daisy and Andrea"],
+      "correct_answer": "B",
+      "explanation": "Ryan and Michael are A.J.'s best friends who agree with him about most things."
+    },
+    {
+      "id": 8,
+      "difficulty": "easy",
+      "question": "What does A.J. want to be when he grows up?",
+      "options": ["A singer", "A teacher", "A dirt bike racer", "A rapper"],
+      "correct_answer": "C",
+      "explanation": "A.J. says when he grows up, he's going to be a professional dirt bike racer."
+    },
+    {
+      "id": 9,
+      "difficulty": "easy",
+      "question": "Who is the school principal?",
+      "options": ["Mr. Loring", "Mr. Hind", "Mr. Klutz", "Miss Daisy"],
+      "correct_answer": "C",
+      "explanation": "Mr. Klutz is the school principal who is completely bald."
+    },
+    {
+      "id": 10,
+      "difficulty": "easy",
+      "question": "What kind of music does Mr. Hind like?",
+      "options": ["Classical music", "Rap and hip-hop", "Country music", "Opera"],
+      "correct_answer": "B",
+      "explanation": "Mr. Hind loves rap and hip-hop music and teaches the kids about it."
+    },
+    {
+      "id": 11,
+      "difficulty": "easy",
+      "question": "What instrument does Andrea play?",
+      "options": ["Drums", "Guitar", "Piano and violin", "Flute"],
+      "correct_answer": "C",
+      "explanation": "Andrea takes piano lessons and violin lessons."
+    },
+    {
+      "id": 12,
+      "difficulty": "easy",
+      "question": "What event is announced at the beginning of the story?",
+      "options": ["Summer vacation", "TV Turn-Off Month", "Christmas break", "Music festival"],
+      "correct_answer": "B",
+      "explanation": "TV Turn-Off Week became TV Turn-Off Month - four weeks without TV."
+    },
+    {
+      "id": 13,
+      "difficulty": "easy",
+      "question": "What play do the students perform?",
+      "options": ["The Princess and the Pea", "Beauty and the Beast", "Cinderella", "Snow White"],
+      "correct_answer": "B",
+      "explanation": "Mr. Hind has them put on a hip-hop version of Beauty and the Beast."
+    },
+    {
+      "id": 14,
+      "difficulty": "easy",
+      "question": "Who plays Beauty in the play?",
+      "options": ["Emily", "A.J.", "Andrea", "Miss Daisy"],
+      "correct_answer": "C",
+      "explanation": "Andrea is chosen to be Beauty in the play."
+    },
+    {
+      "id": 15,
+      "difficulty": "easy",
+      "question": "Who plays the Beast in the play?",
+      "options": ["Ryan", "Michael", "A.J.", "Mr. Hind"],
+      "correct_answer": "C",
+      "explanation": "A.J. volunteers to be the Beast when he hears he can torture Beauty."
+    },
+    {
+      "id": 16,
+      "difficulty": "easy",
+      "question": "What does Mr. Hind wear when he first appears?",
+      "options": ["A suit and tie", "A purple cape with sequins", "A tuxedo", "Regular clothes"],
+      "correct_answer": "B",
+      "explanation": "Mr. Hind wears a purple cape with sequins, sunglasses, and a baseball cap."
+    },
+    {
+      "id": 17,
+      "difficulty": "easy",
+      "question": "What is Mr. Klutz's most noticeable feature?",
+      "options": ["He's very tall", "He's completely bald", "He has a beard", "He wears glasses"],
+      "correct_answer": "B",
+      "explanation": "Mr. Klutz is completely bald with no hair at all on his head."
+    },
+    {
+      "id": 18,
+      "difficulty": "easy",
+      "question": "What subject does Mr. Hind teach about with rulers?",
+      "options": ["Math", "Percussion", "Reading", "Dance"],
+      "correct_answer": "B",
+      "explanation": "Mr. Hind uses rulers to hit objects and teach about percussion."
+    },
+    {
+      "id": 19,
+      "difficulty": "easy",
+      "question": "What does A.J. call the cafeteria?",
+      "options": ["The lunchroom", "The vomitorium", "The eating hall", "The food court"],
+      "correct_answer": "B",
+      "explanation": "A.J. calls the cafeteria the 'vomitorium.'"
+    },
+    {
+      "id": 20,
+      "difficulty": "easy",
+      "question": "What does Mr. Hind want to become someday?",
+      "options": ["Principal", "A famous rapper", "A classical musician", "A TV star"],
+      "correct_answer": "B",
+      "explanation": "Mr. Hind is working on his own CD and hopes to become a famous rapper."
+    },
+    {
+      "id": 21,
+      "difficulty": "medium",
+      "question": "A.J. didn't like Mr. Loring's music class because ---.",
+      "options": ["Mr. Loring was mean", "they had to sing the same boring old songs over and over", "there was too much homework", "the room was too cold"],
+      "correct_answer": "B",
+      "explanation": "Mr. Loring made them sing songs like 'Who Stole the Cookie from the Cookie Jar' so many times that A.J. never wanted to eat cookies again."
+    },
+    {
+      "id": 22,
+      "difficulty": "medium",
+      "question": "When Mr. Hind first entered the classroom, there was ---.",
+      "options": ["complete silence", "purple smoke, laser beams, and loud music", "classical music playing", "students already singing"],
+      "correct_answer": "B",
+      "explanation": "Purple smoke, laser beams, and drum beats from a boombox created a dramatic entrance for Mr. Hind."
+    },
+    {
+      "id": 23,
+      "difficulty": "medium",
+      "question": "Andrea wanted to get Mr. Hind fired because ---.",
+      "options": ["he was mean to her", "she thought he was incompetent and didn't teach real music", "he gave too much homework", "he yelled at her"],
+      "correct_answer": "B",
+      "explanation": "Andrea said Mr. Hind was 'incompetent' because he didn't play traditional instruments or teach about classical composers."
+    },
+    {
+      "id": 24,
+      "difficulty": "medium",
+      "question": "When Mr. Klutz walked in on Mr. Hind's noisy lesson, he ---.",
+      "options": ["fired Mr. Hind immediately", "started rapping and said Mr. Hind was cool", "told everyone to be quiet", "left without saying anything"],
+      "correct_answer": "B",
+      "explanation": "Mr. Klutz surprised everyone by rapping and saying 'I rule the school, and I say Mr. Hind is cool.'"
+    },
+    {
+      "id": 25,
+      "difficulty": "medium",
+      "question": "Mr. Hind played Mr. Klutz's bald head like ---.",
+      "options": ["a piano", "a drum", "a bongo", "a guitar"],
+      "correct_answer": "C",
+      "explanation": "Mr. Hind started drumming the top of Principal Klutz's bald head like it was a bongo."
+    },
+    {
+      "id": 26,
+      "difficulty": "medium",
+      "question": "A.J. volunteered to be the Beast because ---.",
+      "options": ["he liked acting", "he heard the Beast gets to torture Beauty", "Andrea asked him to", "no one else wanted to"],
+      "correct_answer": "B",
+      "explanation": "When Mr. Hind said 'the Beast gets to lock Beauty in the dungeon and torture her,' A.J. immediately volunteered."
+    },
+    {
+      "id": 27,
+      "difficulty": "medium",
+      "question": "A.J. didn't want to kiss Andrea in the play, so Mr. Hind told him to ---.",
+      "options": ["just skip that part", "pretend she was something he liked, like a dirt bike", "have someone else be the Beast", "close his eyes and think of nothing"],
+      "correct_answer": "B",
+      "explanation": "Mr. Hind said to pretend Andrea was a dirt bike, just like he pretended green beans were oatmeal cookies when he was young."
+    },
+    {
+      "id": 28,
+      "difficulty": "medium",
+      "question": "Andrea said she would pretend A.J. was ---.",
+      "options": ["a football", "a dirt bike", "an encyclopedia", "a piano"],
+      "correct_answer": "C",
+      "explanation": "Andrea said she would pretend A.J. was an encyclopedia during the kiss scene."
+    },
+    {
+      "id": 29,
+      "difficulty": "medium",
+      "question": "A.J.'s rule about Andrea is that ---.",
+      "options": ["he agrees with everything she says", "anything she likes, he doesn't like, and anything she dislikes, he likes", "they are best friends", "he ignores her completely"],
+      "correct_answer": "B",
+      "explanation": "A.J. says 'Anything Andrea doesn't like, I like. And anything Andrea likes, I don't like.'"
+    },
+    {
+      "id": 30,
+      "difficulty": "medium",
+      "question": "Mr. Hind taught that percussion is ---.",
+      "options": ["saying bad words", "when one object hits another object", "a type of singing", "playing piano"],
+      "correct_answer": "B",
+      "explanation": "Andrea correctly defined percussion as 'when one object hits against another object.'"
+    },
+    {
+      "id": 31,
+      "difficulty": "medium",
+      "question": "During the percussion lesson, Mr. Hind put a garbage can on his foot and ---.",
+      "options": ["fell over", "tap danced while drumming on things", "sat down", "threw it away"],
+      "correct_answer": "B",
+      "explanation": "Mr. Hind tap danced with a garbage can on his foot while hitting things with rulers."
+    },
+    {
+      "id": 32,
+      "difficulty": "medium",
+      "question": "A.J. was confused about multiplication because ---.",
+      "options": ["he didn't do his homework", "2+2 and 2x2 both equal 4, which didn't make sense to him", "the teacher didn't explain it", "he didn't like numbers"],
+      "correct_answer": "B",
+      "explanation": "A.J. couldn't understand how addition and multiplication could give the same answer for 2+2 and 2x2."
+    },
+    {
+      "id": 33,
+      "difficulty": "medium",
+      "question": "A.J. calls Andrea 'goody two-shoes' because ---.",
+      "options": ["she wears nice shoes", "she loves everything about school and tries to be perfect", "she is good at sports", "she has two pairs of shoes"],
+      "correct_answer": "B",
+      "explanation": "Andrea loves school, homework, and always tries to impress teachers, which A.J. finds annoying."
+    },
+    {
+      "id": 34,
+      "difficulty": "medium",
+      "question": "Ryan said he would kiss a football because ---.",
+      "options": ["he was joking", "that's what he really liked", "A.J. told him to", "it was part of the play"],
+      "correct_answer": "B",
+      "explanation": "When A.J. said he'd pretend Andrea was a dirt bike, Ryan said he'd kiss a football because that's what he likes."
+    },
+    {
+      "id": 35,
+      "difficulty": "medium",
+      "question": "TV Turn-Off Month was even worse than A.J. expected because ---.",
+      "options": ["it was only one week", "it lasted four whole weeks instead of one", "there was homework too", "he had to read books"],
+      "correct_answer": "B",
+      "explanation": "TV Turn-Off Week had been so 'successful' that they made it TV Turn-Off Month - four weeks."
+    },
+    {
+      "id": 36,
+      "difficulty": "medium",
+      "question": "Mr. Hind introduced himself as ---.",
+      "options": ["a regular teacher", "Jam Master Hind, the one-man funky groove machine", "a classical musician", "the new principal"],
+      "correct_answer": "B",
+      "explanation": "Two assistants announced him as 'Jam Master Hind, the one-man funky groove machine.'"
+    },
+    {
+      "id": 37,
+      "difficulty": "medium",
+      "question": "A.J. doesn't want to be in the play after learning he has to ---.",
+      "options": ["memorize lines", "kiss Andrea at the end", "wear a costume", "dance on stage"],
+      "correct_answer": "B",
+      "explanation": "A.J. is horrified when Michael shows him the script says 'Beauty and the Beast kiss.'"
+    },
+    {
+      "id": 38,
+      "difficulty": "medium",
+      "question": "When A.J. asks Andrea if she can 'sing solo,' his joke is ---.",
+      "options": ["that she should sing alone", "that she should 'sing so low we can't hear you'", "that solo means quiet", "that she's a good singer"],
+      "correct_answer": "B",
+      "explanation": "A.J.'s joke is 'sing solo' meaning 'so low' that no one can hear her."
+    },
+    {
+      "id": 39,
+      "difficulty": "medium",
+      "question": "The play is a 'hip-hop' version which means ---.",
+      "options": ["it's exactly like the original", "Mr. Hind adds rap and modern music to it", "there's no music at all", "only classical music is used"],
+      "correct_answer": "B",
+      "explanation": "Mr. Hind makes everything hip-hop style, including the school play."
+    },
+    {
+      "id": 40,
+      "difficulty": "medium",
+      "question": "Andrea's mother is the PTA vice president, which is important because ---.",
+      "options": ["she can give Andrea extra homework", "if enough parents complain, they can get a teacher fired", "she chooses the school plays", "she runs the cafeteria"],
+      "correct_answer": "B",
+      "explanation": "Andrea threatens to have her mother complain to get Mr. Hind fired."
+    },
+    {
+      "id": 41,
+      "difficulty": "hard",
+      "question": "Why does A.J. start liking rap music after meeting Mr. Hind?",
+      "options": ["Because the music is actually good", "Because Andrea hates it, and he likes anything Andrea hates", "Because his friends like it", "Because his parents told him to"],
+      "correct_answer": "B",
+      "explanation": "A.J. admits he 'didn't even like rap music very much, but I think I'm gonna like it now that I know Andrea hates it.'"
+    },
+    {
+      "id": 42,
+      "difficulty": "hard",
+      "question": "What does the story suggest about different styles of teaching?",
+      "options": ["Only traditional teaching works", "Engaging and fun methods can make boring subjects exciting", "Teachers should never be creative", "Students hate all music"],
+      "correct_answer": "B",
+      "explanation": "Mr. Hind's energetic, unconventional methods make music class exciting for students who hated Mr. Loring's boring approach."
+    },
+    {
+      "id": 43,
+      "difficulty": "hard",
+      "question": "What does Mr. Klutz's reaction to Mr. Hind's teaching style reveal?",
+      "options": ["Principals hate fun", "Good leaders support teachers who connect with students, even if methods are unconventional", "Bald people like music", "Principals can't rap"],
+      "correct_answer": "B",
+      "explanation": "Mr. Klutz supports Mr. Hind by rapping and saying he's cool, showing good leadership means backing effective teachers."
+    },
+    {
+      "id": 44,
+      "difficulty": "hard",
+      "question": "Why is it ironic that A.J. ends up enjoying music class?",
+      "options": ["Because he always loved music", "Because he claimed music was 'the most boring subject' but now looks forward to it", "Because Andrea taught him", "Because his parents made him"],
+      "correct_answer": "B",
+      "explanation": "A.J. started the story saying he hated music most of all, but Mr. Hind's methods changed his mind."
+    },
+    {
+      "id": 45,
+      "difficulty": "hard",
+      "question": "What does Mr. Hind's green beans story teach about overcoming challenges?",
+      "options": ["Never eat vegetables", "You can make difficult things easier by changing how you think about them", "Parents are always wrong", "Only eat what you like"],
+      "correct_answer": "B",
+      "explanation": "By pretending green beans were oatmeal cookies, young Mr. Hind made them easier to eat - similar to A.J. pretending Andrea is a dirt bike."
+    },
+    {
+      "id": 46,
+      "difficulty": "hard",
+      "question": "What theme does the rivalry between A.J. and Andrea represent?",
+      "options": ["Boys are smarter than girls", "Different personalities can clash but still work together", "School is boring", "Teachers play favorites"],
+      "correct_answer": "B",
+      "explanation": "Despite constantly disagreeing, A.J. and Andrea end up working together in the play, showing opposites can collaborate."
+    },
+    {
+      "id": 47,
+      "difficulty": "hard",
+      "question": "Why might the author have made TV Turn-Off Month happen during this story?",
+      "options": ["To punish the kids", "To show that music and creativity can fill the entertainment gap left by TV", "To make parents happy", "No particular reason"],
+      "correct_answer": "B",
+      "explanation": "With no TV, the kids have to find other entertainment - and music class with Mr. Hind becomes better than TV."
+    },
+    {
+      "id": 48,
+      "difficulty": "hard",
+      "question": "What does Andrea's complaint that Mr. Hind 'doesn't play any musical instruments' reveal about her thinking?",
+      "options": ["She's always right", "She has a narrow definition of what 'real' music is", "Turntables aren't instruments", "Teachers must play piano"],
+      "correct_answer": "B",
+      "explanation": "Andrea dismisses hip-hop and DJing as 'not real music,' showing she has a limited view of what music can be."
+    },
+    {
+      "id": 49,
+      "difficulty": "hard",
+      "question": "What is the significance of both A.J. and Andrea going to Mr. Hind about not wanting to kiss each other?",
+      "options": ["They both hate the play", "Despite being opposites, they share the same fear about the kiss", "They want to quit school", "They like each other secretly"],
+      "correct_answer": "B",
+      "explanation": "This shows that even people who seem completely different can have the same worries and insecurities."
+    },
+    {
+      "id": 50,
+      "difficulty": "hard",
+      "question": "Why is Mr. Hind described as 'out of his mind' in the title?",
+      "options": ["He is actually crazy", "His unconventional, energetic teaching style seems crazy to traditional expectations", "He forgot his lessons", "He can't teach"],
+      "correct_answer": "B",
+      "explanation": "His wild entrances, rap music, and dancing seem 'crazy' compared to traditional teaching, but it's effective."
+    },
+    {
+      "id": 51,
+      "difficulty": "hard",
+      "question": "What does A.J.'s exaggeration 'the most boring subject in the history of the world' tell us about his character?",
+      "options": ["He's a historian", "He uses dramatic language and humor to express his opinions", "He knows all of history", "He's serious about everything"],
+      "correct_answer": "B",
+      "explanation": "A.J. constantly uses hyperbole like 'in the history of the world' for humor and to emphasize his feelings."
+    },
+    {
+      "id": 52,
+      "difficulty": "hard",
+      "question": "What is ironic about Andrea wanting Mr. Hind fired?",
+      "options": ["She loves all teachers", "She claims to love music but rejects a teacher who makes others love it", "She's the best singer", "Teachers can't be fired"],
+      "correct_answer": "B",
+      "explanation": "Andrea says she loves music, but she tries to fire the teacher who finally makes music class exciting for everyone else."
+    },
+    {
+      "id": 53,
+      "difficulty": "hard",
+      "question": "What does the story suggest about the definition of 'music'?",
+      "options": ["Only classical music counts", "Music can include many styles including rap, percussion, and DJ scratching", "Music must be boring", "Only singing is music"],
+      "correct_answer": "B",
+      "explanation": "Mr. Hind shows that percussion, rap, and turntable scratching are all valid forms of music."
+    },
+    {
+      "id": 54,
+      "difficulty": "hard",
+      "question": "Why might A.J. keep telling jokes even when no one laughs?",
+      "options": ["He doesn't know they're bad", "He enjoys making jokes and believes someone will eventually laugh", "His friends tell him to", "Teachers require it"],
+      "correct_answer": "B",
+      "explanation": "A.J. says he'll 'keep telling that joke until somebody laughs,' showing persistence and self-confidence."
+    },
+    {
+      "id": 55,
+      "difficulty": "hard",
+      "question": "What does the contrast between Mr. Loring and Mr. Hind represent?",
+      "options": ["Old is always bad", "Different generations and teaching styles can have very different effects on students", "Only young teachers are good", "Music never changes"],
+      "correct_answer": "B",
+      "explanation": "The old, traditional Mr. Loring bored students while the young, modern Mr. Hind engages them, showing how approach matters."
+    },
+    {
+      "id": 56,
+      "difficulty": "hard",
+      "question": "What lesson does Mr. Hind's advice about kissing teach?",
+      "options": ["Never kiss anyone", "Things you don't want to do now might seem different later, so it's okay to try", "Only kiss dirt bikes", "Avoid all plays"],
+      "correct_answer": "B",
+      "explanation": "Mr. Hind says 'someday you're gonna wanna kiss girls' and to take chances now because opportunities may not come later."
+    },
+    {
+      "id": 57,
+      "difficulty": "hard",
+      "question": "What does A.J.'s comment 'I used to like that song' about the cookie jar song reveal?",
+      "options": ["He never liked songs", "Repetition can ruin something you once enjoyed", "Cookies are bad", "Songs are always boring"],
+      "correct_answer": "B",
+      "explanation": "Too much repetition made A.J. hate a song he once liked, showing how overdoing things can backfire."
+    },
+    {
+      "id": 58,
+      "difficulty": "hard",
+      "question": "Why is it significant that Emily 'always agrees with Andrea'?",
+      "options": ["They are twins", "It shows Emily lacks independent thinking and follows Andrea blindly", "Teachers told them to", "They are sisters"],
+      "correct_answer": "B",
+      "explanation": "A.J. finds Emily annoying because 'Emily agrees with everything Andrea says,' showing she doesn't think for herself."
+    },
+    {
+      "id": 59,
+      "difficulty": "hard",
+      "question": "What does A.J. mean when he says music class with Mr. Hind is 'better than TV'?",
+      "options": ["He hates TV now", "Something he thought was boring became more entertaining than his favorite thing", "TV is broken", "Mr. Hind has a TV"],
+      "correct_answer": "B",
+      "explanation": "A.J. loves TV and hated music, so saying music class is better than TV shows how much Mr. Hind changed his view."
+    },
+    {
+      "id": 60,
+      "difficulty": "hard",
+      "question": "What is the overall message of Mr. Hynde Is Out of His Mind?",
+      "options": ["School should be boring", "Passionate, creative teaching can make any subject exciting and change students' attitudes", "Music is only for talented people", "Rules should never be broken"],
+      "correct_answer": "B",
+      "explanation": "The book shows that an enthusiastic, unconventional teacher can transform a hated subject into something students love."
+    }
+  ]
+}

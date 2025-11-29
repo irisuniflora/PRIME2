@@ -1,0 +1,129 @@
+{
+  "title": "Biscuit Wants to Play",
+  "author": "Alyssa Satin Capucilli",
+  "genre": "Early Reader",
+  "book_level": "1.0",
+  "total_questions": 15,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "What is the name of the puppy in the story?",
+      "options": ["Daisy", "Biscuit", "Fluffy", "Buddy"],
+      "correct_answer": "B",
+      "explanation": "The puppy in the story is named Biscuit."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Who is Daisy?",
+      "options": ["A dog", "A cat with two kittens", "A girl", "A bird"],
+      "correct_answer": "B",
+      "explanation": "Daisy is a cat who has two kittens."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "How many kittens does Daisy have?",
+      "options": ["One", "Two", "Three", "Four"],
+      "correct_answer": "B",
+      "explanation": "The story says 'Daisy has two kittens.'"
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "What does Biscuit want to do?",
+      "options": ["Sleep", "Eat", "Play", "Run away"],
+      "correct_answer": "C",
+      "explanation": "Biscuit wants to play with the kittens."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "What toy does Biscuit see?",
+      "options": ["A bone", "His ball", "A rope", "A stick"],
+      "correct_answer": "B",
+      "explanation": "Biscuit sees his ball."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "question": "The kittens want to play with ---.",
+      "options": ["only Biscuit", "a leaf", "their mother", "the basket"],
+      "correct_answer": "B",
+      "explanation": "The story says 'The kittens want to play with a leaf.'"
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "After seeing the leaf, the kittens see ---.",
+      "options": ["a ball", "a bird", "a cricket", "a mouse"],
+      "correct_answer": "C",
+      "explanation": "The kittens see a cricket."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The kittens chase a butterfly and then they ---.",
+      "options": ["catch it", "fall asleep", "get stuck in a tree", "go home"],
+      "correct_answer": "C",
+      "explanation": "The kittens jump and get stuck in the tree."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "When the kittens are stuck, Biscuit ---.",
+      "options": ["runs away", "barks loudly", "helps the kittens", "goes to sleep"],
+      "correct_answer": "C",
+      "explanation": "Biscuit sees the kittens and can help them."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "At the end of the story, the kittens ---.",
+      "options": ["stay in the tree", "go back in the basket", "want to play with Biscuit too", "run away from Biscuit"],
+      "correct_answer": "C",
+      "explanation": "The story ends with 'The kittens want to play with Biscuit, too.'"
+    },
+    {
+      "id": 11,
+      "difficulty": "hard",
+      "question": "What lesson does this story teach about friendship?",
+      "options": ["Dogs and cats cannot be friends", "When you help others, they become your friends", "Playing is not important", "Kittens are better than puppies"],
+      "correct_answer": "B",
+      "explanation": "Biscuit helps the kittens when they are stuck, and then they want to play with him, showing that helping others leads to friendship."
+    },
+    {
+      "id": 12,
+      "difficulty": "hard",
+      "question": "Why do the kittens finally want to play with Biscuit?",
+      "options": ["Because Daisy tells them to", "Because Biscuit helped them when they were stuck", "Because they have no other toys", "Because Biscuit has a ball"],
+      "correct_answer": "B",
+      "explanation": "After Biscuit helps the kittens get down from the tree, they want to play with him."
+    },
+    {
+      "id": 13,
+      "difficulty": "hard",
+      "question": "What does the pattern of 'Biscuit wants to play too' show about Biscuit?",
+      "options": ["He is tired", "He is persistent and really wants to be friends with the kittens", "He is scared", "He doesn't like the kittens"],
+      "correct_answer": "B",
+      "explanation": "Biscuit keeps wanting to join in, showing he is patient and really wants to be friends."
+    },
+    {
+      "id": 14,
+      "difficulty": "hard",
+      "question": "What might happen if Biscuit had not helped the kittens?",
+      "options": ["They would have stayed friends anyway", "The kittens might have stayed stuck and not become friends with Biscuit", "Nothing different", "Daisy would have helped"],
+      "correct_answer": "B",
+      "explanation": "Biscuit's help was the turning point that made the kittens want to play with him."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "question": "What is the main message of this story?",
+      "options": ["Cats are better than dogs", "Being kind and helpful is the best way to make friends", "Playing with balls is fun", "Butterflies are pretty"],
+      "correct_answer": "B",
+      "explanation": "The story shows that Biscuit's kindness in helping the kittens led to them becoming friends who wanted to play together."
+    }
+  ]
+}

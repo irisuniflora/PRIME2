@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git --version)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(cat:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(npx http-server -p 3000)",
+      "Bash(node fix-answers.js:*)",
+      "Bash(node -e:*)",
+      "Bash(node add-explanations.js:*)",
+      "Bash(node extend-options.js:*)",
+      "Bash(del extend-options.js)",
+      "Bash(dir:*)",
+      "Bash(node export-to-json.js:*)",
+      "Bash(node add-new-quizzes.js:*)",
+      "Bash(node remove-book.js:*)",
+      "Bash(del \"Diary of a Wimpy Kid.json\")",
+      "Bash(ren:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

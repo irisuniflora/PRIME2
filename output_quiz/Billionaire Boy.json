@@ -1,0 +1,489 @@
+{
+  "title": "Billionaire Boy",
+  "author": "David Walliams",
+  "genre": "Comedy, Children's Fiction",
+  "book_level": "4.5",
+  "total_questions": 60,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "What is the main character's full name?",
+      "options": ["Bob Spud", "Joe Spud", "Raj Spud", "Tom Spud"],
+      "correct_answer": "B",
+      "explanation": "The main character is Joe Spud, a 12-year-old billionaire boy."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "How old is Joe at the start of the story?",
+      "options": ["10 years old", "11 years old", "12 years old", "13 years old"],
+      "correct_answer": "C",
+      "explanation": "The text says 'He was only 12, but he was ridiculously, preposterously rich.'"
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "What is the name of the product that made Joe's dad rich?",
+      "options": ["Freshbum", "Bumfresh", "Cleanwipe", "Softroll"],
+      "correct_answer": "A",
+      "explanation": "Mr Spud invented 'Freshbum,' a moist on one side and dry on the other loo roll."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "What is Joe's best friend's name?",
+      "options": ["Raj", "Dave", "Bob", "Alan"],
+      "correct_answer": "C",
+      "explanation": "Bob is the fat boy who becomes Joe's best friend at his new school."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "What did Mr Spud's job involve before he became rich?",
+      "options": ["Making cars", "Rolling loo roll paper", "Selling newspapers", "Teaching school"],
+      "correct_answer": "B",
+      "explanation": "Mr Spud 'had to roll the paper around the cardboard inner tube' at a loo roll factory."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "What is the name of the posh school Joe used to attend?",
+      "options": ["St. Peter's School", "St. Cuthbert's School for Boys", "Westminster Academy", "Royal Boys School"],
+      "correct_answer": "B",
+      "explanation": "Joe attended 'St. Cuthbert's School for Boys' which cost £200,000 a term."
+    },
+    {
+      "id": 7,
+      "difficulty": "easy",
+      "question": "Who runs the local newsagent shop?",
+      "options": ["Bob", "Mr Spud", "Raj", "Mrs Trafe"],
+      "correct_answer": "C",
+      "explanation": "Raj runs the local newsagent shop where the boys go to buy chocolate."
+    },
+    {
+      "id": 8,
+      "difficulty": "easy",
+      "question": "What are the names of the twin bullies?",
+      "options": ["Tom and Jerry", "Dave and Sue Grub", "Pete and Kate", "Jim and Jane"],
+      "correct_answer": "B",
+      "explanation": "The Grubs are twin bullies named Dave and Sue Grub."
+    },
+    {
+      "id": 9,
+      "difficulty": "easy",
+      "question": "What did Joe crash at the beginning of the story?",
+      "options": ["A bicycle", "A golf buggy", "A Formula One racing car", "A speedboat"],
+      "correct_answer": "C",
+      "explanation": "Joe crashes his Formula One car while trying to eat a Mars bar and drive at the same time."
+    },
+    {
+      "id": 10,
+      "difficulty": "easy",
+      "question": "How much pocket money does Joe get per week?",
+      "options": ["£1,000", "£10,000", "£100,000", "£1,000,000"],
+      "correct_answer": "C",
+      "explanation": "The text lists '£100,000 a week pocket money' among Joe's possessions."
+    },
+    {
+      "id": 11,
+      "difficulty": "easy",
+      "question": "What is the dinner lady's name?",
+      "options": ["Mrs Spite", "Mrs Trafe", "Mrs Cook", "Mrs Grub"],
+      "correct_answer": "B",
+      "explanation": "Mrs Trafe is the dinner lady whose cooking is described as truly revolting."
+    },
+    {
+      "id": 12,
+      "difficulty": "easy",
+      "question": "What did Mr Spud put on his bald head?",
+      "options": ["A hat", "A wig", "A toupee", "Nothing"],
+      "correct_answer": "C",
+      "explanation": "Mr Spud bought toupees for £10,000 each, including blonde, brown, ginger and afro options."
+    },
+    {
+      "id": 13,
+      "difficulty": "easy",
+      "question": "What is the name of their enormous house?",
+      "options": ["Spud Manor", "Fresh Bum Towers", "Billionaire House", "Rich Palace"],
+      "correct_answer": "B",
+      "explanation": "Mr Spud named their house 'Fresh Bum Towers' after his product."
+    },
+    {
+      "id": 14,
+      "difficulty": "easy",
+      "question": "What chocolate bar does Joe buy for Bob at Raj's shop?",
+      "options": ["Mars bar", "Snickers", "Cadbury's Dairy Milk", "Kit Kat"],
+      "correct_answer": "C",
+      "explanation": "Bob chooses 'a giant bar of Cadbury's Dairy Milk' which costs £3.20."
+    },
+    {
+      "id": 15,
+      "difficulty": "easy",
+      "question": "What happened to Bob's dad?",
+      "options": ["He moved away", "He died of cancer", "He got a new job", "He went to prison"],
+      "correct_answer": "B",
+      "explanation": "Bob tells Joe 'My dad died last year' from cancer."
+    },
+    {
+      "id": 16,
+      "difficulty": "easy",
+      "question": "What is the history teacher's nickname?",
+      "options": ["The Monster", "The Dragon", "The Witch", "The Beast"],
+      "correct_answer": "C",
+      "explanation": "Miss Spite is called 'the Witch' by the students."
+    },
+    {
+      "id": 17,
+      "difficulty": "easy",
+      "question": "How much did Mr Spud give Joe for his 12th birthday?",
+      "options": ["One hundred pounds", "One thousand pounds", "One million pounds", "Two million pounds"],
+      "correct_answer": "D",
+      "explanation": "Mr Spud initially gave one million but increased it to two million when Joe complained."
+    },
+    {
+      "id": 18,
+      "difficulty": "easy",
+      "question": "Where did Bob's parents meet?",
+      "options": ["At school", "At Tesco", "At a party", "At church"],
+      "correct_answer": "B",
+      "explanation": "Bob's mum 'works at Tesco, on the checkout. That's where she met my dad.'"
+    },
+    {
+      "id": 19,
+      "difficulty": "easy",
+      "question": "What animal did the Spuds have as a butler for a while?",
+      "options": ["A gorilla", "An orangutan", "A chimpanzee", "A monkey"],
+      "correct_answer": "B",
+      "explanation": "They 'even had a butler called Otis who was also an orangutan.'"
+    },
+    {
+      "id": 20,
+      "difficulty": "easy",
+      "question": "What does Joe really want for his birthday?",
+      "options": ["A new car", "More money", "A friend", "A bigger house"],
+      "correct_answer": "C",
+      "explanation": "When asked what he wants, Joe says 'A friend.'"
+    },
+    {
+      "id": 21,
+      "difficulty": "medium",
+      "question": "According to the story, Joe was quite fat because ---.",
+      "options": ["he never exercised", "he could buy all the chocolate in the world", "he ate too much fast food", "he had a medical condition"],
+      "correct_answer": "B",
+      "explanation": "The text states 'He was quite fat, you see. Well, you would be, wouldn't you, if you could buy all the chocolate in the world.'"
+    },
+    {
+      "id": 22,
+      "difficulty": "medium",
+      "question": "At St Cuthbert's School, the posh kids bullied Joe because ---.",
+      "options": ["he was poor", "his dad made money from loo rolls which was considered vulgar", "he wasn't smart enough", "he couldn't play sports"],
+      "correct_answer": "B",
+      "explanation": "The posh kids called Joe names like 'Bum-Boy' because 'his dad had made his money out of loo rolls. They said that was awfully vulgar.'"
+    },
+    {
+      "id": 23,
+      "difficulty": "medium",
+      "question": "Joe didn't arrive at his new school in a Rolls-Royce because ---.",
+      "options": ["the car was broken", "he wanted to walk for exercise", "he didn't want the other kids to know he was rich", "his dad wouldn't let him"],
+      "correct_answer": "C",
+      "explanation": "He didn't want to arrive by Rolls-Royce because 'That would be a pretty good hint to the other kids that he was rich.'"
+    },
+    {
+      "id": 24,
+      "difficulty": "medium",
+      "question": "During cross-country running, Joe paid Bob fifty pounds because ---.",
+      "options": ["Bob won the race", "Joe wanted Bob to come last so Joe wouldn't be last", "Bob needed money for food", "Joe felt sorry for Bob"],
+      "correct_answer": "B",
+      "explanation": "Joe had a stitch and didn't want to be last, so he paid Bob fifty pounds to 'come last.'"
+    },
+    {
+      "id": 25,
+      "difficulty": "medium",
+      "question": "Mr Spud invented Freshbum while working at the factory because ---.",
+      "options": ["his boss asked him to", "he had lots of time to daydream during his boring job", "he studied chemistry", "another worker gave him the idea"],
+      "correct_answer": "B",
+      "explanation": "The text says 'The only good thing about working in a factory was that Mr Spud had lots of time to daydream. One day, he had a daydream that was to revolutionize bottom wiping forever.'"
+    },
+    {
+      "id": 26,
+      "difficulty": "medium",
+      "question": "When Joe's parents split up, his mother Carol left because ---.",
+      "options": ["she was unhappy with the money", "she had been having an affair with Joe's Cub Scout leader", "Mr Spud was too busy working", "she wanted to travel alone"],
+      "correct_answer": "B",
+      "explanation": "Carol 'had been having a torrid affair with Joe's Cub Scout leader, Alan.'"
+    },
+    {
+      "id": 27,
+      "difficulty": "medium",
+      "question": "Raj recognized Joe from a magazine because ---.",
+      "options": ["Joe had been on TV", "Joe's photo was in the Sunday Times rich list as Britain's richest child", "Raj knew Mr Spud personally", "Joe was famous at school"],
+      "correct_answer": "B",
+      "explanation": "Raj found the Sunday Times rich list showing 'Britain's richest children, number one, Joe Spud, age twelve, Freshbum heir, estimated worth ten billion.'"
+    },
+    {
+      "id": 28,
+      "difficulty": "medium",
+      "question": "The Grubs threw Bob into a wheelie bin because ---.",
+      "options": ["Bob owed them money", "they wanted to steal his chocolate", "Bob insulted them", "it was a school tradition"],
+      "correct_answer": "B",
+      "explanation": "The Grubs demanded 'Give us your chocolate' and after taking it, 'they deposited him into the wheelie bin.'"
+    },
+    {
+      "id": 29,
+      "difficulty": "medium",
+      "question": "Bob didn't tell anyone about the bullying because ---.",
+      "options": ["he thought it was funny", "he didn't know who to tell", "the Grubs threatened to really beat him up if he told", "the teachers already knew"],
+      "correct_answer": "C",
+      "explanation": "Bob said 'The Grubs said if I ever told anyone that they would really beat me up. They know where I live.'"
+    },
+    {
+      "id": 30,
+      "difficulty": "medium",
+      "question": "When Bob found out Joe was a billionaire, he gave back the fifty pounds because ---.",
+      "options": ["he was angry at Joe", "he didn't care about money, he just liked hanging out with Joe", "he felt guilty taking it", "Joe asked for it back"],
+      "correct_answer": "B",
+      "explanation": "Bob said 'I don't want your money... I just liked hanging out with you today.'"
+    },
+    {
+      "id": 31,
+      "difficulty": "medium",
+      "question": "No one ate in the school canteen because ---.",
+      "options": ["the food was too expensive", "Mrs Trafe's cooking was truly revolting", "the Grubs controlled the canteen", "it was always closed"],
+      "correct_answer": "B",
+      "explanation": "The text says 'The kids in the school would rather die than eat anything she cooked.'"
+    },
+    {
+      "id": 32,
+      "difficulty": "medium",
+      "question": "Mr Spud used to make birthday presents for Joe from loo roll inner tubes because ---.",
+      "options": ["Joe loved crafts", "the family was so poor they couldn't afford real toys", "it was a family tradition", "Joe asked for them"],
+      "correct_answer": "B",
+      "explanation": "The text explains 'Because the family was so poor, Mr Spud used to make birthday and Christmas presents for his son from the loo roll inner tubes.'"
+    },
+    {
+      "id": 33,
+      "difficulty": "medium",
+      "question": "Joe wanted to attend a normal school because ---.",
+      "options": ["he hated learning", "the posh school was too far away", "he hoped to make friends and be treated like a normal kid", "his dad couldn't afford St Cuthbert's anymore"],
+      "correct_answer": "C",
+      "explanation": "Joe says 'I want to go to a normal school with normal kids. I want to make a friend, Dad.'"
+    },
+    {
+      "id": 34,
+      "difficulty": "medium",
+      "question": "The Spuds' house was so large that ---.",
+      "options": ["it took five minutes just to drive up the driveway", "Joe often got lost", "they needed helicopters to travel inside", "it required 100 servants"],
+      "correct_answer": "A",
+      "explanation": "The text says 'It took five minutes just to motor up the drive.'"
+    },
+    {
+      "id": 35,
+      "difficulty": "medium",
+      "question": "Joe couldn't get on the bus because ---.",
+      "options": ["he didn't know which bus to take", "the driver wouldn't accept a £50 note for a £2 fare", "he missed the bus", "he was too fat to fit"],
+      "correct_answer": "B",
+      "explanation": "'Joe hadn't realised that a £50 note was not going to be welcome to pay for a £2 bus fare and had to get off the bus.'"
+    },
+    {
+      "id": 36,
+      "difficulty": "medium",
+      "question": "Bob's mum works two jobs as a Tesco checkout worker and ---.",
+      "options": ["a teacher", "a cleaner at an old people's home", "a nurse", "a cook"],
+      "correct_answer": "B",
+      "explanation": "Bob says 'She's got another job too. She's a cleaner at an old people's home in the evenings.'"
+    },
+    {
+      "id": 37,
+      "difficulty": "medium",
+      "question": "When Miss Spite discovered Joe didn't have his homework, she gave him ---.",
+      "options": ["detention for a week", "15 minutes to get his essay brought to school", "a failing grade immediately", "extra homework as punishment"],
+      "correct_answer": "B",
+      "explanation": "Miss Spite says 'I will give you 15 minutes exactly to place said essay in my hand.'"
+    },
+    {
+      "id": 38,
+      "difficulty": "medium",
+      "question": "At cross-country running, Bob appeared in his vest and Y-fronts because ---.",
+      "options": ["he forgot his kit at home", "someone had hidden his running kit", "he was trying to be funny", "it was a dare"],
+      "correct_answer": "B",
+      "explanation": "When Mr Bruce asked about his kit, Bob answered 'Someone must have hidden it, sir.'"
+    },
+    {
+      "id": 39,
+      "difficulty": "medium",
+      "question": "The kids at school chanted 'Blob' at Bob because ---.",
+      "options": ["it was his nickname making fun of his weight", "it was his real name", "he liked the name", "the teachers started it"],
+      "correct_answer": "A",
+      "explanation": "The kids cruelly chanted 'Blob, blob, blob' as Bob finished last in cross-country, mocking him."
+    },
+    {
+      "id": 40,
+      "difficulty": "medium",
+      "question": "According to the Sunday Times rich list, Joe's estimated worth was ---.",
+      "options": ["one billion pounds", "five billion pounds", "ten billion pounds", "one hundred billion pounds"],
+      "correct_answer": "C",
+      "explanation": "The magazine listed 'Joe Spud, age twelve, Freshbum heir, estimated worth ten billion.'"
+    },
+    {
+      "id": 41,
+      "difficulty": "hard",
+      "question": "What does Joe's list of possessions (100-inch TVs, 500 trainers, crocodiles, etc.) reveal about wealth?",
+      "options": ["That money can buy happiness", "That having endless material possessions doesn't guarantee friendship or happiness", "That rich people are always happy", "That everyone should want to be rich"],
+      "correct_answer": "B",
+      "explanation": "Despite having everything money can buy, Joe has no friends and is lonely, showing material wealth doesn't equal happiness."
+    },
+    {
+      "id": 42,
+      "difficulty": "hard",
+      "question": "Why is it significant that Joe and Bob both ended up last in cross-country running?",
+      "options": ["It shows they are both bad at sports", "It becomes a bonding experience that starts their friendship based on shared experience rather than money", "It proves the PE teacher was unfair", "It means they should both quit school"],
+      "correct_answer": "B",
+      "explanation": "The shared experience of struggling together creates the foundation for their friendship, which is based on understanding rather than wealth."
+    },
+    {
+      "id": 43,
+      "difficulty": "hard",
+      "question": "What does the contrast between St Cuthbert's and the local comprehensive school represent?",
+      "options": ["The quality of education", "The difference between class-based exclusion and genuine human connection", "That posh schools are always bad", "That public schools are better"],
+      "correct_answer": "B",
+      "explanation": "At St Cuthbert's, Joe was bullied for being 'new money,' but at the comprehensive, he could find genuine friendship based on personality rather than social class."
+    },
+    {
+      "id": 44,
+      "difficulty": "hard",
+      "question": "What theme is illustrated by Bob returning the fifty pounds after learning Joe is a billionaire?",
+      "options": ["That poor people don't want money", "That true friendship values the person over their wealth", "That Bob was too proud", "That money causes problems"],
+      "correct_answer": "B",
+      "explanation": "Bob's refusal shows he values Joe for who he is, not what he has, demonstrating the story's theme about authentic friendship."
+    },
+    {
+      "id": 45,
+      "difficulty": "hard",
+      "question": "What is ironic about Mr Spud insisting on eating expensive food like caviar despite hating it?",
+      "options": ["Rich people always love expensive food", "He's trying to appear wealthy by adopting behaviors he thinks rich people do, even when it makes him unhappy", "Caviar is actually delicious", "He's on a special diet"],
+      "correct_answer": "B",
+      "explanation": "Mr Spud admits caviar is 'absolutely disgusting' but says 'we are rich, son. We have to eat all this posh stuff now,' showing how wealth can disconnect people from genuine enjoyment."
+    },
+    {
+      "id": 46,
+      "difficulty": "hard",
+      "question": "Why is it significant that Bob's dad used to joke about going into Tesco for milk but leaving with a wife?",
+      "options": ["It shows he was funny", "It represents how genuine love can develop from ordinary circumstances, contrasting with Mr Spud's superficial relationships", "It proves shopping is dangerous", "It shows he was irresponsible"],
+      "correct_answer": "B",
+      "explanation": "This contrasts with Mr Spud dating Page Three girls for their looks, showing the difference between authentic love and superficial relationships bought with money."
+    },
+    {
+      "id": 47,
+      "difficulty": "hard",
+      "question": "What does Mrs Trafe's revolting menu (gerbils on toast, hair lasagna, etc.) add to the story's humor?",
+      "options": ["It makes fun of school food", "It uses absurd exaggeration to create comedy while showing the boys can bond over shared experiences", "It's meant to be taken seriously", "It shows the school needs more funding"],
+      "correct_answer": "B",
+      "explanation": "The ridiculously gross menu uses hyperbole for comic effect while creating another shared experience for Joe and Bob to bond over."
+    },
+    {
+      "id": 48,
+      "difficulty": "hard",
+      "question": "What does Joe's decision to hide his wealth at the new school reveal about his character?",
+      "options": ["He is ashamed of being rich", "He understands that money creates artificial relationships and wants to be valued for himself", "He wants to trick people", "He thinks being poor is better"],
+      "correct_answer": "B",
+      "explanation": "Joe learned from St Cuthbert's that money affects how people treat him, so he wants a fresh start where he can be judged on his personality."
+    },
+    {
+      "id": 49,
+      "difficulty": "hard",
+      "question": "What is the significance of Joe's dad buying toupees that make him look like he has 'a dead rodent on his head'?",
+      "options": ["He has poor taste", "Money can't buy authenticity or self-acceptance, and trying to appear different than you are looks foolish", "Toupees are always bad", "He should have bought more expensive ones"],
+      "correct_answer": "B",
+      "explanation": "The toupee symbolizes how wealth is used to mask insecurities, but the result is ridiculous rather than convincing."
+    },
+    {
+      "id": 50,
+      "difficulty": "hard",
+      "question": "Why might Bob's advice that 'the best way to beat bullies is to stand up to them' be both wise and problematic?",
+      "options": ["It's always the right approach", "While it shows courage, the reality is that standing up to the Grubs could get Bob seriously hurt, highlighting the gap between ideal advice and practical reality", "Bullies always back down", "It means fighting back violently"],
+      "correct_answer": "B",
+      "explanation": "The advice is morally sound but practically dangerous for Bob, which is why Joe thinks there might be 'another way' using his resources."
+    },
+    {
+      "id": 51,
+      "difficulty": "hard",
+      "question": "What does the book suggest about 'old money' versus 'new money' through the attitudes at St Cuthbert's?",
+      "options": ["Old money is always better", "Class prejudice exists even among the wealthy, with inherited wealth looking down on earned wealth", "New money is more respectable", "There is no real difference"],
+      "correct_answer": "B",
+      "explanation": "The posh boys with inherited wealth consider Joe's earned fortune 'vulgar,' showing that class snobbery creates hierarchies even among the rich."
+    },
+    {
+      "id": 52,
+      "difficulty": "hard",
+      "question": "What does the detail about the orangutan butler 'Otis' who 'had to be given the sack' suggest about the Spuds' lifestyle?",
+      "options": ["They love animals", "Their wealth has led to absurd, thoughtless decisions that don't work out practically", "Orangutans make good butlers", "They needed more staff"],
+      "correct_answer": "B",
+      "explanation": "Having an orangutan butler is an example of ridiculous extravagance that was impractical, showing how extreme wealth leads to absurd choices."
+    },
+    {
+      "id": 53,
+      "difficulty": "hard",
+      "question": "Why is it significant that Joe kept a 'sad-looking little loo roll space rocket' his dad made when they were poor?",
+      "options": ["He collects space things", "It represents a connection to a time when love was expressed through effort rather than money", "He forgot to throw it away", "It's worth money now"],
+      "correct_answer": "B",
+      "explanation": "The homemade gift represents the authentic parent-child bond from before wealth, contrasting with the £2 million birthday check."
+    },
+    {
+      "id": 54,
+      "difficulty": "hard",
+      "question": "What does Miss Spite's love of teacher catchphrases reveal about her character?",
+      "options": ["She is a good teacher", "She enjoys power and control, using authority phrases for her own satisfaction rather than students' benefit", "All teachers use catchphrases", "She is just following rules"],
+      "correct_answer": "B",
+      "explanation": "Miss Spite uses catchphrases with 'evil relish' and is 'desperate for someone to have failed,' showing she enjoys punishing students rather than teaching them."
+    },
+    {
+      "id": 55,
+      "difficulty": "hard",
+      "question": "What is the effect of making one of the Grub twins female but having them be indistinguishable?",
+      "options": ["It's a mistake in the story", "It creates comedy while commenting on how bullying behavior makes people seem inhuman and identical", "It shows twins are always identical", "It doesn't mean anything"],
+      "correct_answer": "B",
+      "explanation": "The joke that Dave and Sue are indistinguishable despite being different genders uses absurdity to dehumanize the bullies while creating humor."
+    },
+    {
+      "id": 56,
+      "difficulty": "hard",
+      "question": "What does Joe's guilt about paying Bob to come last, and his desire to 'make up for it,' reveal about his development?",
+      "options": ["He's manipulative", "He's learning that real friendship isn't transactional and wants to help Bob genuinely", "He wants to control Bob", "He regrets losing money"],
+      "correct_answer": "B",
+      "explanation": "Joe feels guilty about using money to solve problems and wants to help Bob with the bullies in a way that demonstrates genuine friendship."
+    },
+    {
+      "id": 57,
+      "difficulty": "hard",
+      "question": "What social commentary does the story make through Mr Spud dating 'Sapphire, 19, from Essex'?",
+      "options": ["Age doesn't matter in relationships", "Wealth attracts superficial relationships where both parties may be using each other for status", "He should date older women", "Page Three models are all the same"],
+      "correct_answer": "B",
+      "explanation": "The 27-year age gap and Sapphire's description ('likes shopping, hates thinking') suggests wealth attracts relationships based on status rather than genuine connection."
+    },
+    {
+      "id": 58,
+      "difficulty": "hard",
+      "question": "Why does the author include the detail that Joe 'had spent so long living a life of wealth and privilege' that he wondered how to 'fit in with these kids'?",
+      "options": ["To show Joe is better than other kids", "To highlight how wealth can isolate people from normal experiences and create social anxiety", "To prove rich kids can't make friends", "To show public schools are scary"],
+      "correct_answer": "B",
+      "explanation": "This shows how extreme wealth creates isolation and makes normal social interactions feel unfamiliar and challenging."
+    },
+    {
+      "id": 59,
+      "difficulty": "hard",
+      "question": "What is the deeper meaning of Joe asking for a 'friend' as his birthday present?",
+      "options": ["He's greedy and wants more", "It reveals that the one thing money cannot buy is genuine human connection", "He doesn't know what he wants", "Friends can be bought"],
+      "correct_answer": "B",
+      "explanation": "Despite having unlimited money, Joe cannot purchase the thing he most wants, highlighting the story's central theme about money's limitations."
+    },
+    {
+      "id": 60,
+      "difficulty": "hard",
+      "question": "What is the overall message of Billionaire Boy about wealth and happiness?",
+      "options": ["Being rich is always terrible", "Money provides material comfort but cannot replace genuine human relationships, kindness, and being valued for who you are", "Poor people are always happier", "Everyone should give away their money"],
+      "correct_answer": "B",
+      "explanation": "The story shows that while poverty has hardships (like Bob's family), wealth without authentic relationships and identity leads to loneliness and dissatisfaction."
+    }
+  ]
+}

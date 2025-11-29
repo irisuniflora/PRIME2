@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIME - Personalized Reading Improvement Mentor & Evaluator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Book Selection Screen -->
+        <div id="book-select" class="screen active">
+            <h1>PRIME</h1>
+            <p class="subtitle">Personalized Reading Improvement Mentor & Evaluator</p>
+
+            <!-- Search Bar -->
+            <div class="search-container">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="search-input" placeholder="Search books..." oninput="filterBooks()">
+            </div>
+
+            <!-- Grade Level Filter -->
+            <div class="grade-filter">
+                <button class="grade-btn active" data-grade="all" onclick="filterByGrade('all')">All</button>
+                <button class="grade-btn" data-grade="1-2" onclick="filterByGrade('1-2')">Grade 1-2</button>
+                <button class="grade-btn" data-grade="3-4" onclick="filterByGrade('3-4')">Grade 3-4</button>
+                <button class="grade-btn" data-grade="5+" onclick="filterByGrade('5+')">Grade 5+</button>
+            </div>
+
+            <div class="book-grid" id="book-grid">
+                <!-- Books populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <button class="back-btn" onclick="goBack()">← Exit</button>
+                <span class="progress-text"><span id="current-q">1</span> / 12</span>
+                <button class="script-btn" onclick="toggleScript()">📖 Book Info</button>
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+
+            <div class="quiz-content">
+                <div class="difficulty-badge" id="difficulty-badge">
+                    <span class="difficulty-text">Easy</span>
+                </div>
+
+                <div class="question-box">
+                    <p class="question-text" id="question-text"></p>
+                </div>
+
+                <div class="options" id="options">
+                    <!-- Options populated by JavaScript -->
+                </div>
+
+                <button class="check-btn" id="check-btn" onclick="checkAnswer()" disabled>Check Answer</button>
+
+                <!-- Inline Result Display -->
+                <div class="result-box" id="result-box" style="display:none;">
+                    <div class="result-header">
+                        <span class="result-title" id="result-title"></span>
+                    </div>
+                    <p class="result-explanation" id="explanation-text"></p>
+                    <button class="next-btn" onclick="nextQuestion()">Next Question</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="screen">
+            <div class="result-container">
+                <!-- Header Section -->
+                <div class="result-header-section">
+                    <p class="result-label">Quiz Complete!</p>
+                    <span class="grade-letter" id="result-grade">0</span>
+                </div>
+
+                <!-- Stats Cards -->
+                <div class="stats-section">
+                    <div class="stat-card">
+                        <span class="stat-number" id="result-correct">0</span>
+                        <span class="stat-label">Correct</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="result-wrong">0</span>
+                        <span class="stat-label">Wrong</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="result-percentage">0%</span>
+                        <span class="stat-label">Accuracy</span>
+                    </div>
+                </div>
+
+                <!-- Difficulty Breakdown -->
+                <div class="difficulty-section">
+                    <h3 class="section-title">Score by Difficulty</h3>
+
+                    <div class="difficulty-row">
+                        <span class="diff-label">Easy</span>
+                        <div class="diff-bar-container">
+                            <div class="diff-bar easy-bar" id="easy-bar"></div>
+                        </div>
+                        <span class="diff-score"><span id="easy-correct">0</span>/<span id="easy-total">4</span></span>
+                    </div>
+
+                    <div class="difficulty-row">
+                        <span class="diff-label">Medium</span>
+                        <div class="diff-bar-container">
+                            <div class="diff-bar medium-bar" id="medium-bar"></div>
+                        </div>
+                        <span class="diff-score"><span id="medium-correct">0</span>/<span id="medium-total">4</span></span>
+                    </div>
+
+                    <div class="difficulty-row">
+                        <span class="diff-label">Hard</span>
+                        <div class="diff-bar-container">
+                            <div class="diff-bar hard-bar" id="hard-bar"></div>
+                        </div>
+                        <span class="diff-score"><span id="hard-correct">0</span>/<span id="hard-total">4</span></span>
+                    </div>
+                </div>
+
+                <!-- Buttons -->
+                <div class="result-buttons">
+                    <button class="home-btn" onclick="goHome()">Home</button>
+                    <button class="retry-btn" onclick="retryQuiz()">Try Again</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Book Info Overlay -->
+    <div class="script-overlay" id="script-overlay" onclick="toggleScript()"></div>
+
+    <!-- Book Info Side Panel -->
+    <div class="script-panel" id="script-panel">
+        <div class="script-header">
+            <h3>Book Info</h3>
+            <button class="close-btn" onclick="toggleScript()">✕</button>
+        </div>
+        <div class="script-body" id="script-body">
+            <!-- Book info content -->
+        </div>
+    </div>
+
+    <script src="quiz-data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
