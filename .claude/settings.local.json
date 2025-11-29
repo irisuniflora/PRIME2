@@ -26,7 +26,9 @@
       "Bash(gh:*)",
       "Bash(node fix-quiz-data.js:*)",
       "Bash(node check-explanations.js:*)",
-      "Bash(node rebuild-quiz-data.js:*)"
+      "Bash(node rebuild-quiz-data.js:*)",
+      "Bash(git mv:*)",
+      "Bash(taskkill:*)"
     ],
     "deny": [],
     "ask": []
