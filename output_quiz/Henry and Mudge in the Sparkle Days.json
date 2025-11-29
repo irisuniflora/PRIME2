@@ -2,167 +2,270 @@
   "title": "Henry and Mudge in the Sparkle Days",
   "author": "Cynthia Rylant",
   "genre": "Realistic Fiction",
-  "book_level": "2.5",
+  "book_level": {
+    "grade": 2,
+    "description": "Early reader level - simple story about a boy, his dog, and winter family moments"
+  },
   "total_questions": 20,
   "questions": [
     {
       "id": 1,
       "difficulty": "easy",
       "question": "What is the name of Henry's dog?",
-      "options": ["Max", "Mudge", "Buddy", "Rex"],
-      "correct_answer": "B",
+      "options": {
+        "A": "Max",
+        "B": "Mudge",
+        "C": "Buddy",
+        "D": "Rex"
+      },
+      "answer": "B",
       "explanation": "Henry's big dog is named Mudge."
     },
     {
       "id": 2,
       "difficulty": "easy",
       "question": "What season do Henry and Mudge love?",
-      "options": ["Summer", "Fall", "Winter", "Spring"],
-      "correct_answer": "C",
+      "options": {
+        "A": "Summer",
+        "B": "Fall",
+        "C": "Winter",
+        "D": "Spring"
+      },
+      "answer": "C",
       "explanation": "Henry and Mudge love winter because they love snow."
     },
     {
       "id": 3,
       "difficulty": "easy",
       "question": "What were Henry and Mudge waiting for at the beginning?",
-      "options": ["Christmas", "The first snow", "A visitor", "Summer vacation"],
-      "correct_answer": "B",
+      "options": {
+        "A": "Christmas",
+        "B": "The first snow",
+        "C": "A visitor",
+        "D": "Summer vacation"
+      },
+      "answer": "B",
       "explanation": "Henry and Mudge were waiting for the first snow of winter."
     },
     {
       "id": 4,
       "difficulty": "easy",
       "question": "What does Henry say every morning and night while waiting?",
-      "options": ["Soon, Mudge", "Not yet, Mudge", "Maybe tomorrow, Mudge", "Keep waiting, Mudge"],
-      "correct_answer": "B",
+      "options": {
+        "A": "Soon, Mudge",
+        "B": "Not yet, Mudge",
+        "C": "Maybe tomorrow, Mudge",
+        "D": "Keep waiting, Mudge"
+      },
+      "answer": "B",
       "explanation": "Henry looks out his window and says 'Not yet, Mudge' each time."
     },
     {
       "id": 5,
       "difficulty": "easy",
       "question": "What always makes Mudge sneeze?",
-      "options": ["Dust", "Flowers", "Snow", "Food"],
-      "correct_answer": "C",
+      "options": {
+        "A": "Dust",
+        "B": "Flowers",
+        "C": "Snow",
+        "D": "Food"
+      },
+      "answer": "C",
       "explanation": "When Mudge poked his nose in the snow, he sneezed. 'Snow always made him sneeze.'"
     },
     {
       "id": 6,
       "difficulty": "easy",
       "question": "What did Mudge do when Henry made snow angels?",
-      "options": ["Made his own", "Messed them up", "Watched quietly", "Went inside"],
-      "correct_answer": "B",
+      "options": {
+        "A": "Made his own",
+        "B": "Messed them up",
+        "C": "Watched quietly",
+        "D": "Went inside"
+      },
+      "answer": "B",
       "explanation": "When Henry made snow angels, Mudge laid down and messed them up."
     },
     {
       "id": 7,
       "difficulty": "easy",
       "question": "Who bakes the cookies in Henry's family?",
-      "options": ["Henry's father", "Henry's mother", "Henry", "Grandma"],
-      "correct_answer": "B",
+      "options": {
+        "A": "Henry's father",
+        "B": "Henry's mother",
+        "C": "Henry",
+        "D": "Grandma"
+      },
+      "answer": "B",
       "explanation": "Henry's mother liked to bake the cookies, and Henry helped decorate them."
     },
     {
       "id": 8,
       "difficulty": "medium",
       "question": "When Henry got dressed for snow, Mudge barked at him because ---.",
-      "options": ["he was excited", "he didn't recognize Henry in all his snow clothes", "he wanted to go outside", "he was hungry"],
-      "correct_answer": "B",
+      "options": {
+        "A": "he was excited",
+        "B": "he didn't recognize Henry in all his snow clothes",
+        "C": "he wanted to go outside",
+        "D": "he was hungry"
+      },
+      "answer": "B",
       "explanation": "Mudge barked at the strange creature until Henry took off his mask and showed his face."
     },
     {
       "id": 9,
       "difficulty": "medium",
       "question": "At first, Mudge was not invited to Christmas Eve dinner because ---.",
-      "options": ["he was sick", "it was a fancy dinner and he was a dog", "he didn't like turkey", "there wasn't enough food"],
-      "correct_answer": "B",
+      "options": {
+        "A": "he was sick",
+        "B": "it was a fancy dinner and he was a dog",
+        "C": "he didn't like turkey",
+        "D": "there wasn't enough food"
+      },
+      "answer": "B",
       "explanation": "Mudge hadn't been invited to the fancy Christmas Eve dinner because he was a dog."
     },
     {
       "id": 10,
       "difficulty": "medium",
       "question": "Henry thought 'dressing the turkey' was funny because ---.",
-      "options": ["the turkey looked silly", "he imagined putting clothes on a turkey", "his dad made a joke", "turkeys don't wear clothes"],
-      "correct_answer": "B",
+      "options": {
+        "A": "the turkey looked silly",
+        "B": "he imagined putting clothes on a turkey",
+        "C": "his dad made a joke",
+        "D": "turkeys don't wear clothes"
+      },
+      "answer": "B",
       "explanation": "Henry giggled at the idea of 'dressing' a turkey because it sounds like putting clothes on it."
     },
     {
       "id": 11,
       "difficulty": "medium",
       "question": "When the family heard Mudge crying, they decided to ---.",
-      "options": ["ignore him", "let him join the fancy dinner", "put him outside", "give him a bone"],
-      "correct_answer": "B",
+      "options": {
+        "A": "ignore him",
+        "B": "let him join the fancy dinner",
+        "C": "put him outside",
+        "D": "give him a bone"
+      },
+      "answer": "B",
       "explanation": "They all felt sorry for Mudge, so Henry's father got an extra plate and they let Mudge join them."
     },
     {
       "id": 12,
       "difficulty": "medium",
       "question": "On winter night walks, the family loved seeing ---.",
-      "options": ["their neighbors waving", "warm lights in houses, stars, and the sparkle of the moon", "animals in the snow", "fireworks"],
-      "correct_answer": "B",
+      "options": {
+        "A": "their neighbors waving",
+        "B": "warm lights in houses, stars, and the sparkle of the moon",
+        "C": "animals in the snow",
+        "D": "fireworks"
+      },
+      "answer": "B",
       "explanation": "They loved the warm lights in houses, winter stars, and the sparkle of the moon on white yards."
     },
     {
       "id": 13,
       "difficulty": "medium",
       "question": "When they saw a shooting star, Henry wished for ---.",
-      "options": ["a new dog", "more snow", "chocolate pudding every day for the rest of his life", "a bigger house"],
-      "correct_answer": "C",
+      "options": {
+        "A": "a new dog",
+        "B": "more snow",
+        "C": "chocolate pudding every day for the rest of his life",
+        "D": "a bigger house"
+      },
+      "answer": "C",
       "explanation": "Henry wished for chocolate pudding every day for the rest of his life."
     },
     {
       "id": 14,
       "difficulty": "medium",
-      "question": "What did the family do after their winter walk ---?",
-      "options": ["they went to bed", "they watched TV", "they rested by the fireplace", "they had dinner"],
-      "correct_answer": "C",
+      "question": "What did the family do after their winter walk?",
+      "options": {
+        "A": "they went to bed",
+        "B": "they watched TV",
+        "C": "they rested by the fireplace",
+        "D": "they had dinner"
+      },
+      "answer": "C",
       "explanation": "After their walk, they loved coming home to their fireplace and resting together."
     },
     {
       "id": 15,
       "difficulty": "hard",
       "question": "What does the title 'Sparkle Days' refer to?",
-      "options": ["Days when it's very cold", "Days when snow makes everything sparkle and shine", "Days when they clean the house", "Days when the sun is bright"],
-      "correct_answer": "B",
+      "options": {
+        "A": "Days when it's very cold",
+        "B": "Days when snow makes everything sparkle and shine",
+        "C": "Days when they clean the house",
+        "D": "Days when the sun is bright"
+      },
+      "answer": "B",
       "explanation": "Sparkle days are snowy winter days when the snow sparkles, and the house sparkles with Christmas decorations."
     },
     {
       "id": 16,
       "difficulty": "hard",
       "question": "What theme is shown when the family lets Mudge join Christmas dinner?",
-      "options": ["Dogs like turkey", "Family includes everyone, even pets", "Fancy dinners are overrated", "Christmas is only for people"],
-      "correct_answer": "B",
+      "options": {
+        "A": "Dogs like turkey",
+        "B": "Family includes everyone, even pets",
+        "C": "Fancy dinners are overrated",
+        "D": "Christmas is only for people"
+      },
+      "answer": "B",
       "explanation": "Including Mudge shows that family means everyone, including beloved pets."
     },
     {
       "id": 17,
       "difficulty": "hard",
       "question": "Why might Mudge have sneezed 'fancy turkey' on Henry at dinner?",
-      "options": ["He was sick", "He ate too fast because he was excited", "He didn't like the food", "It was too hot"],
-      "correct_answer": "B",
+      "options": {
+        "A": "He was sick",
+        "B": "He ate too fast because he was excited",
+        "C": "He didn't like the food",
+        "D": "It was too hot"
+      },
+      "answer": "B",
       "explanation": "Mudge ate as fast as he could because it was his first fancy dinner, and the excitement made him sneeze."
     },
     {
       "id": 18,
       "difficulty": "hard",
       "question": "What does the firelight scene at the end of the book represent?",
-      "options": ["Bedtime routine", "The warmth and comfort of family togetherness", "That fires are dangerous", "Winter is ending"],
-      "correct_answer": "B",
+      "options": {
+        "A": "Bedtime routine",
+        "B": "The warmth and comfort of family togetherness",
+        "C": "That fires are dangerous",
+        "D": "Winter is ending"
+      },
+      "answer": "B",
       "explanation": "The quiet moment by the fire represents family closeness and the peaceful joy of being together."
     },
     {
       "id": 19,
       "difficulty": "hard",
       "question": "Why does Henry think Mudge's wish would be for 'half of his chocolate pudding'?",
-      "options": ["Mudge only eats half portions", "Henry knows Mudge loves sharing food with him", "Chocolate is bad for dogs", "Mudge told him"],
-      "correct_answer": "B",
+      "options": {
+        "A": "Mudge only eats half portions",
+        "B": "Henry knows Mudge loves sharing food with him",
+        "C": "Chocolate is bad for dogs",
+        "D": "Mudge told him"
+      },
+      "answer": "B",
       "explanation": "Henry's joke shows how close they are - Mudge would want to share whatever Henry has."
     },
     {
       "id": 20,
       "difficulty": "hard",
       "question": "What is the main message of Henry and Mudge in the Sparkle Days?",
-      "options": ["Winter is the best season", "Snow is fun to play in", "The joy of winter comes from sharing special moments with family and loved ones", "Dogs make good pets"],
-      "correct_answer": "C",
+      "options": {
+        "A": "Winter is the best season",
+        "B": "Snow is fun to play in",
+        "C": "The joy of winter comes from sharing special moments with family and loved ones",
+        "D": "Dogs make good pets"
+      },
+      "answer": "C",
       "explanation": "The book shows that what makes winter magical is sharing snow play, Christmas, and firelight with family - including Mudge."
     }
   ]

@@ -1,3199 +1,810 @@
 const quizData = {
-  "Magic_of_the_Wizard_Dragon": {
-    "book_title": "Magic of the Wizard Dragon",
-    "author": "Tracy West",
-    "series": "Dragon Masters Book 29",
-    "genre": "Fantasy Adventure",
-    "book_level": {
-      "grade": 3,
-      "description": "Upper Elementary",
-      "reasoning": "Simple vocabulary, short chapters, fantasy adventure for early readers"
-    },
-    "total_questions": 60,
-    "difficulty_distribution": {
-      "easy": 20,
-      "medium": 20,
-      "hard": 20
-    },
-    "questions": [
-      {
-        "id": 1,
-        "difficulty": "easy",
-        "question": "What is the name of Drake's dragon?",
-        "options": {
-          "A": "Kinguk",
-          "B": "Mamu",
-          "C": "Worm",
-          "D": "Vulcan"
-        },
-        "answer": "C",
-        "explanation": "Drake's dragon is named Worm, an Earth Dragon who has been his companion throughout the Dragon Masters series."
-      },
-      {
-        "id": 2,
-        "difficulty": "easy",
-        "question": "Where were Drake and Rory at the beginning of the story?",
-        "options": {
-          "A": "In a cave in Barga in the heart of the kingdom",
-          "B": "At King Roland's castle beside the crystal lake",
-          "C": "In an empty classroom in the Castle of the Wizards",
-          "D": "In the Dragon Islands across the misty valley"
-        },
-        "answer": "C",
-        "explanation": "The story begins with Drake and Rory in an empty classroom at the Castle of the Wizards, where they are studying magic."
-      },
-      {
-        "id": 3,
-        "difficulty": "easy",
-        "question": "What type of dragon is Vulcan?",
-        "options": {
-          "A": "Water dragon",
-          "B": "Dream dragon",
-          "C": "Fire dragon",
-          "D": "Earth dragon"
-        },
-        "answer": "C",
-        "explanation": "Vulcan is a Fire Dragon, known for breathing fire and having flame-related powers."
-      },
-      {
-        "id": 4,
-        "difficulty": "easy",
-        "question": "Who is Wolfgang's father?",
-        "options": {
-          "A": "Zoltan",
-          "B": "Maldred",
-          "C": "Drake",
-          "D": "King Roland"
-        },
-        "answer": "A",
-        "explanation": "Zoltan is Wolfgang's father, a wizard who plays an important role in the story."
-      },
-      {
-        "id": 5,
-        "difficulty": "easy",
-        "question": "What color did Worm's body glow when he transported?",
-        "options": {
-          "A": "Red",
-          "B": "Blue",
-          "C": "Green",
-          "D": "Orange"
-        },
-        "answer": "C",
-        "explanation": "When Worm uses his transportation powers, his body glows green, which is characteristic of Earth Dragon magic."
-      },
-      {
-        "id": 6,
-        "difficulty": "easy",
-        "question": "What is the name of the head wizard?",
-        "options": {
-          "A": "Jaina",
-          "B": "Rory",
-          "C": "Nuna",
-          "D": "Kishar"
-        },
-        "answer": "A",
-        "explanation": "Jaina is the head wizard at the Castle of the Wizards, leading the wizard council."
-      },
-      {
-        "id": 7,
-        "difficulty": "easy",
-        "question": "What land is covered in snow where Wolfgang went?",
-        "options": {
-          "A": "Dreamworld",
-          "B": "Dragon Islands",
-          "C": "Barga",
-          "D": "Gothica"
-        },
-        "answer": "C",
-        "explanation": "Barga is a land covered in snow, a cold northern region where Wolfgang travels during the story."
-      },
-      {
-        "id": 8,
-        "difficulty": "easy",
-        "question": "What type of dragon is Kinguk?",
-        "options": {
-          "A": "Dream dragon",
-          "B": "Water dragon",
-          "C": "Fire dragon",
-          "D": "Earth dragon"
-        },
-        "answer": "D",
-        "explanation": "Kinguk is an Earth Dragon, sharing similar powers with Worm."
-      },
-      {
-        "id": 9,
-        "difficulty": "easy",
-        "question": "What does 'Kinguk' mean in Nuna's language?",
-        "options": {
-          "A": "Earth",
-          "B": "Dragon",
-          "C": "Worm",
-          "D": "Guardian"
-        },
-        "answer": "C",
-        "explanation": "In Nuna's language, 'Kinguk' means 'Worm', showing the connection between the two Earth Dragons."
-      },
-      {
-        "id": 10,
-        "difficulty": "easy",
-        "question": "What was Maldred transformed into before being trapped in a bottle?",
-        "options": {
-          "A": "100 flies",
-          "B": "100 bats",
-          "C": "100 spiders",
-          "D": "100 birds"
-        },
-        "answer": "A",
-        "explanation": "Maldred was transformed into 100 flies before being trapped in a bottle as punishment for his evil deeds."
-      },
-      {
-        "id": 11,
-        "difficulty": "easy",
-        "question": "What plant did Nuna use to heal Kinguk?",
-        "options": {
-          "A": "Iceleaf",
-          "B": "Moonflower",
-          "C": "Dragonmoss",
-          "D": "Stinkweed"
-        },
-        "answer": "D",
-        "explanation": "Stinkweed was the plant Nuna used to heal Kinguk, despite its unpleasant smell it has healing properties."
-      },
-      {
-        "id": 12,
-        "difficulty": "easy",
-        "question": "What powerful dragon guards Maldred's bottle?",
-        "options": {
-          "A": "Worm",
-          "B": "Kinguk",
-          "C": "The Naga",
-          "D": "Vulcan"
-        },
-        "answer": "C",
-        "explanation": "The Naga is a powerful dragon that guards the bottle containing Maldred."
-      },
-      {
-        "id": 13,
-        "difficulty": "easy",
-        "question": "What happens when the Naga turns his eye to a place?",
-        "options": {
-          "A": "It freezes, which played a key role",
-          "B": "An earthquake happens",
-          "C": "It catches fire",
-          "D": "It floods, which was quite significant"
-        },
-        "answer": "B",
-        "explanation": "When the Naga turns his eye to a place, an earthquake happens, demonstrating his immense power."
-      },
-      {
-        "id": 14,
-        "difficulty": "easy",
-        "question": "What color was the magic that came from Wolfgang's wand when he gave Drake a coat?",
-        "options": {
-          "A": "Red",
-          "B": "Green",
-          "C": "Blue",
-          "D": "Purple"
-        },
-        "answer": "C",
-        "explanation": "Blue magic came from Wolfgang's wand when he created a warm coat for Drake to protect him from the cold."
-      },
-      {
-        "id": 15,
-        "difficulty": "easy",
-        "question": "Who is Rory's dragon?",
-        "options": {
-          "A": "Kinguk",
-          "B": "Worm",
-          "C": "Vulcan",
-          "D": "Mamu"
-        },
-        "answer": "C",
-        "explanation": "Vulcan is Rory's dragon, a Fire Dragon that Rory has bonded with."
-      },
-      {
-        "id": 16,
-        "difficulty": "easy",
-        "question": "What did Zoltan transform into?",
-        "options": {
-          "A": "A snow monster",
-          "B": "A wizard dragon",
-          "C": "An ice wizard",
-          "D": "A giant fly"
-        },
-        "answer": "B",
-        "explanation": "The Dragon Stone glows when a dragon is nearby, serving as a detection tool for Dragon Masters."
-      },
-      {
-        "id": 17,
-        "difficulty": "easy",
-        "question": "How old is Wolfgang?",
-        "options": {
-          "A": "Ten years old",
-          "B": "Eight years old",
-          "C": "Five years old",
-          "D": "Six years old"
-        },
-        "answer": "B",
-        "explanation": "Worm communicated with Drake through mind messages, which is how Earth Dragons connect with their masters."
-      },
-      {
-        "id": 18,
-        "difficulty": "easy",
-        "question": "What color were Zoltan's dragon scales?",
-        "options": {
-          "A": "Blue",
-          "B": "Black",
-          "C": "Pink",
-          "D": "Green"
-        },
-        "answer": "C",
-        "explanation": "Wolfgang was worried about Drake because he cared about his friend's safety in the dangerous cold of Barga."
-      },
-      {
-        "id": 19,
-        "difficulty": "easy",
-        "question": "What color wings did Zoltan have as a wizard dragon?",
-        "options": {
-          "A": "Pink",
-          "B": "Orange",
-          "C": "Purple",
-          "D": "Red"
-        },
-        "answer": "B",
-        "explanation": "The wizards trapped the Naga using powerful combined magic after he caused destruction."
-      },
-      {
-        "id": 20,
-        "difficulty": "easy",
-        "question": "What stone did Drake wear around his neck?",
-        "options": {
-          "A": "A green dragon stone",
-          "B": "A blue sapphire",
-          "C": "A white diamond",
-          "D": "A red ruby"
-        },
-        "answer": "A",
-        "explanation": "Drake felt a connection to Kinguk because both are Earth Dragons, and Earth Dragons share a special bond."
-      },
-      {
-        "id": 21,
-        "difficulty": "medium",
-        "question": "Rory and Drake met Wolfgang, who said he had been getting teased since ---.",
-        "options": {
-          "A": "his dragon had accidentally set fire to the stables of great importance",
-          "B": "the other young wizards had learned he was a failed Dragon Master",
-          "C": "he had first arrived at the school of wizards with no experience",
-          "D": "his dad, Zoltan, had turned into a dragon and flew past the castle"
-        },
-        "answer": "D",
-        "explanation": "Maldred wanted to control all dragons to gain ultimate power over the magical world."
-      },
-      {
-        "id": 22,
-        "difficulty": "medium",
-        "question": "Wolfgang said that if Zoltan's Dream World plan didn't work, Zoltan ---.",
-        "options": {
-          "A": "knew about a secret doorway to the Naga in a land called Barga",
-          "B": "would try to sneak into the Dragon Islands using a magical cloak",
-          "C": "could absorb Wolfgang's powers and use them to reach Maldred",
-          "D": "believed the Earthquake Dragon could break the gate between worlds"
-        },
-        "answer": "A",
-        "explanation": "The bottle trap was created using ancient wizard magic, one of the most powerful containment spells."
-      },
-      {
-        "id": 23,
-        "difficulty": "medium",
-        "question": "What did Drake, Wolfgang, and Worm first find in the ice cave?",
-        "options": {
-          "A": "a group of wizards just inside the cave entrance",
-          "B": "a tunnel blocked by fallen ice and snow",
-          "C": "a girl kneeling next to a dragon",
-          "D": "a sleeping Fire Dragon surrounded by flames"
-        },
-        "answer": "C",
-        "explanation": "Wolfgang proved his loyalty by helping Drake despite the dangers they faced together."
-      },
-      {
-        "id": 24,
-        "difficulty": "medium",
-        "question": "Nuna's dragon, Kinguk, had been hurt. What did Nuna do to help Kinguk?",
-        "options": {
-          "A": "She asked Wolfgang to use his magic to heal Kinguk",
-          "B": "She used her Dragon Stone to call upon the Naga for help",
-          "C": "She sang a song for healing and used stinkweed to make a tea",
-          "D": "She chanted a spell that put the dragon into a deep, dreamless sleep"
-        },
-        "answer": "C",
-        "explanation": "Nuna's knowledge of healing plants saved Kinguk's life when he was injured."
-      },
-      {
-        "id": 25,
-        "difficulty": "medium",
-        "question": "Drake had a Dream Amulet. What did he tell Wolfgang about it?",
-        "options": {
-          "A": "It had been made by Wolfgang's mother, which was quite significant",
-          "B": "It had the power to transform Zoltan back into a human",
-          "C": "If the Naga saw it, the Naga would destroy it",
-          "D": "It would protect them from the Naga, a crucial point"
-        },
-        "answer": "B",
-        "explanation": "The earthquake was caused by the Naga's power, showing the danger of his awakening."
-      },
-      {
-        "id": 26,
-        "difficulty": "medium",
-        "question": "What did Nuna do when the Snow Monster attacked?",
-        "options": {
-          "A": "She commanded Kinguk to crack the earth",
-          "B": "She sang a sleeping song to calm the monster",
-          "C": "She tried to block the monster with a giant shield",
-          "D": "She told Wolfgang to use his magic"
-        },
-        "answer": "A",
-        "explanation": "Drake's bravery was shown when he faced the Naga despite knowing the danger."
-      },
-      {
-        "id": 27,
-        "difficulty": "medium",
-        "question": "What happened after the amulet slipped from Drake's hands?",
-        "options": {
-          "A": "It was hit with red magic and burst into pieces",
-          "B": "The cave walls lit up with glowing symbols",
-          "C": "Kinguk roared, causing bats to swarm through the tunnels",
-          "D": "Jaina appeared with three other wizards by her side"
-        },
-        "answer": "A",
-        "explanation": "The wizards decided to keep the Naga trapped because releasing him would cause massive destruction."
-      },
-      {
-        "id": 28,
-        "difficulty": "medium",
-        "question": "What did Jaina do after she jumped from Vulcan's back?",
-        "options": {
-          "A": "She turned Zoltan back into a human with a flick of her wand",
-          "B": "She placed a Dragon Stone around Wolfgang's neck",
-          "C": "She ordered Vulcan to capture Zoltan at any cost",
-          "D": "She cast a spell that caused the secret door to cave-in"
-        },
-        "answer": "B",
-        "explanation": "Worm's transportation ability allowed them to escape dangerous situations quickly."
-      },
-      {
-        "id": 29,
-        "difficulty": "medium",
-        "question": "Jaina tried to close the door, but it shut only after ---.",
-        "options": {
-          "A": "Vulcan breathed fire on it, worth remembering",
-          "B": "Rory's and Wolfgang's amulets glowed",
-          "C": "the red bottle was sealed again",
-          "D": "Zoltan joined her in saying the spell"
-        },
-        "answer": "D",
-        "explanation": "The cold in Barga was magical, created by ancient spells that made it unnaturally freezing."
-      },
-      {
-        "id": 30,
-        "difficulty": "medium",
-        "question": "After the winged Maldreds broke through the energy shield, they ---.",
-        "options": {
-          "A": "attacked Wolfgang",
-          "B": "disappeared in an instant",
-          "C": "were captured by Vulcan",
-          "D": "turned back into flies"
-        },
-        "answer": "B",
-        "explanation": "Wolfgang learned to trust others through his adventures with Drake and the Dragon Masters."
-      },
-      {
-        "id": 31,
-        "difficulty": "medium",
-        "question": "Why did Wolfgang's mother's death change Zoltan?",
-        "options": {
-          "A": "He started ignoring Wolfgang to study magic all the time",
-          "B": "He became afraid of all dragons of great importance",
-          "C": "He blamed Wolfgang for her death, central to the plot",
-          "D": "He stopped using magic forever, a crucial point"
-        },
-        "answer": "A",
-        "explanation": "The Castle of the Wizards serves as the main training ground for young wizards and Dragon Masters."
-      },
-      {
-        "id": 32,
-        "difficulty": "medium",
-        "question": "How did Drake and Worm follow Wolfgang to Barga?",
-        "options": {
-          "A": "They flew on Vulcan's back, an important detail",
-          "B": "Worm followed Wolfgang's trail of magical energy",
-          "C": "Jaina teleported them there, according to the story",
-          "D": "They used a magical map, central to the plot"
-        },
-        "answer": "B",
-        "explanation": "Earth Dragons like Worm and Kinguk can sense each other because they share elemental energy."
-      },
-      {
-        "id": 33,
-        "difficulty": "medium",
-        "question": "Why was the secret door to the Naga created?",
-        "options": {
-          "A": "To give wizards a shortcut to the temple, central to the plot",
-          "B": "To trap Maldred forever shimmering in the light with a bright glow",
-          "C": "As a way to reach the Naga if the Dragon Islands are ever destroyed",
-          "D": "To hide treasure from evil wizards, a crucial point, a notable element"
-        },
-        "answer": "C",
-        "explanation": "Maldred's evil plan was stopped by the combined efforts of the Dragon Masters and wizards."
-      },
-      {
-        "id": 34,
-        "difficulty": "medium",
-        "question": "What spell did Wolfgang use to try to reach his father emotionally?",
-        "options": {
-          "A": "The dancing radish spell",
-          "B": "A shield-breaking spell",
-          "C": "A sleeping spell",
-          "D": "A memory charm"
-        },
-        "answer": "A",
-        "explanation": "The Dragon Stone was created by ancient wizards to help identify potential Dragon Masters."
-      },
-      {
-        "id": 35,
-        "difficulty": "medium",
-        "question": "Why did the dancing radish spell affect Zoltan?",
-        "options": {
-          "A": "It was a very powerful spell, worth remembering",
-          "B": "It was the first spell Zoltan ever taught Wolfgang",
-          "C": "It reminded him of Maldred with deep intensity",
-          "D": "It broke his magical shield, a crucial point"
-        },
-        "answer": "B",
-        "explanation": "Rory's determination helped the team overcome obstacles during their quest."
-      },
-      {
-        "id": 36,
-        "difficulty": "medium",
-        "question": "How did Kinguk escape Zoltan's attack in the cave?",
-        "options": {
-          "A": "Worm pushed her out of the way, essential to understand, according to the story",
-          "B": "Wolfgang created a shield to protect her, a notable element",
-          "C": "She dove headfirst into the cave floor and tunneled into the earth",
-          "D": "She flew up to the ceiling, according to the story, central to the plot"
-        },
-        "answer": "C",
-        "explanation": "The Naga was originally a guardian dragon before being corrupted by dark magic."
-      },
-      {
-        "id": 37,
-        "difficulty": "medium",
-        "question": "What convinced Zoltan to stop trying to free Maldred?",
-        "options": {
-          "A": "Jaina's threat to destroy him, which played a key role",
-          "B": "Wolfgang's mental connection showing happy memories",
-          "C": "Drake's powerful attack, which played a key role",
-          "D": "The Naga's earthquake warning, worth remembering"
-        },
-        "answer": "B",
-        "explanation": "Drake learned that teamwork is essential when facing powerful enemies."
-      },
-      {
-        "id": 38,
-        "difficulty": "medium",
-        "question": "What caused the red bottle holding Maldred to break?",
-        "options": {
-          "A": "Wolfgang's spell hit it by accident, a crucial point",
-          "B": "Zoltan dropped it intentionally, an important detail",
-          "C": "Drake knocked it over, according to the story",
-          "D": "The Naga's earthquake shook the cave and it tipped over"
-        },
-        "answer": "D",
-        "explanation": "Wolfgang's magic skills improved significantly throughout his journey with the Dragon Masters."
-      },
-      {
-        "id": 39,
-        "difficulty": "medium",
-        "question": "What did each mini-Maldred look like?",
-        "options": {
-          "A": "A miniature version of Zoltan, central to the plot, according to the story",
-          "B": "A tiny dragon with pink scales with magical properties from the ancient times",
-          "C": "A small fly with red wings with rich undertones with vibrant hues",
-          "D": "A cat-sized wizard with a red body, eye patch, and pointy red beard"
-        },
-        "answer": "D",
-        "explanation": "The healing process for Kinguk required both magical plants and rest."
-      },
-      {
-        "id": 40,
-        "difficulty": "medium",
-        "question": "What colors were Jaina and Zoltan's magic when they combined to create a shield?",
-        "options": {
-          "A": "Silver and pink",
-          "B": "Green and gold",
-          "C": "Red and blue",
-          "D": "Purple and orange"
-        },
-        "answer": "A",
-        "explanation": "Barga's harsh environment tested the characters' survival skills and determination."
-      },
-      {
-        "id": 41,
-        "difficulty": "hard",
-        "question": "Why couldn't Worm's energy bubble alone capture Zoltan?",
-        "options": {
-          "A": "Worm was too tired from transporting shimmering in the light",
-          "B": "Zoltan was too fast to be caught, a crucial point, which was quite significant",
-          "C": "The magical symbols on Zoltan's body made the bubble fizzle out",
-          "D": "The ice cave blocked Worm's powers near the ancient ruins"
-        },
-        "answer": "C",
-        "explanation": "Understanding dragon language helps Dragon Masters form stronger bonds with their dragons."
-      },
-      {
-        "id": 42,
-        "difficulty": "hard",
-        "question": "What made Zoltan's power shield weaken enough for Wolfgang to break it?",
-        "options": {
-          "A": "The Naga's energy interfered with Zoltan's magic",
-          "B": "Jaina cast a counter-spell from outside the cave",
-          "C": "Wolfgang used a forbidden dark magic spell, which was quite significant",
-          "D": "Zoltan was putting all his energy into opening the door"
-        },
-        "answer": "D",
-        "explanation": "The ancient wizards created many magical safeguards to protect the world from evil."
-      },
-      {
-        "id": 43,
-        "difficulty": "hard",
-        "question": "Why did Zoltan want so much power according to what he told Wolfgang?",
-        "options": {
-          "A": "He needed power to protect Wolfgang from Maldred shining magnificently with deep intensity",
-          "B": "He believed if he had more power years ago, he might have saved Wolfgang's mother",
-          "C": "He wanted to rule all the kingdoms, a notable element, according to the story",
-          "D": "He wanted revenge on the wizards who expelled him, a notable element, a crucial point"
-        },
-        "answer": "B",
-        "explanation": "Maldred underestimated the power of friendship and teamwork among the Dragon Masters."
-      },
-      {
-        "id": 44,
-        "difficulty": "hard",
-        "question": "Why was Jaina's suggestion for Wolfgang to become Zoltan's dragon master significant?",
-        "options": {
-          "A": "It would automatically turn Zoltan back into a human, central to the plot",
-          "B": "Wolfgang could use the mental connection to calm Zoltan's wild dragon energy",
-          "C": "Dragon masters have the power to destroy wizard dragons from the ancient times",
-          "D": "It would give Wolfgang control over Zoltan's movements, which played a key role"
-        },
-        "answer": "B",
-        "explanation": "Fire Dragons like Vulcan are naturally resistant to cold, making them valuable in icy regions."
-      },
-      {
-        "id": 45,
-        "difficulty": "hard",
-        "question": "What does the story suggest about the relationship between wizard powers and dragon master abilities?",
-        "options": {
-          "A": "Wizard powers are always stronger than dragon master abilities with magical properties",
-          "B": "It is very rare for wizards to become dragon masters, but Wolfgang became both",
-          "C": "They cannot exist in the same person, which was quite significant, which was quite significant",
-          "D": "Dragon masters must give up their powers to learn magic from the old legends"
-        },
-        "answer": "B",
-        "explanation": "The story teaches that even former enemies can become allies when they share a common goal."
-      },
-      {
-        "id": 46,
-        "difficulty": "hard",
-        "question": "Why was the dream amulet the only way to transform Zoltan back into a human?",
-        "options": {
-          "A": "Only Drake had the power to use it, which played a key role",
-          "B": "The Naga blessed it with special powers, a notable element",
-          "C": "Wizard magic cannot undo the magic of the dream world",
-          "D": "It was created specifically for Zoltan, an important detail"
-        },
-        "answer": "C",
-        "explanation": "Dragon Masters must learn to trust their dragons' instincts in dangerous situations."
-      },
-      {
-        "id": 47,
-        "difficulty": "hard",
-        "question": "What does Zoltan's spell on Maldred suggest went wrong?",
-        "options": {
-          "A": "It killed Maldred instead of freeing him with a bright glow with vibrant hues sparkling brilliantly",
-          "B": "It made Maldred invisible sparkling brilliantly shining magnificently radiating softly",
-          "C": "It freed the Naga instead of Maldred glowing faintly gleaming mysteriously sparkling brilliantly",
-          "D": "Instead of transforming the flies back into one Maldred, it created 100 separate mini-Maldreds"
-        },
-        "answer": "D",
-        "explanation": "The magical bond between a Dragon Master and their dragon grows stronger over time."
-      },
-      {
-        "id": 48,
-        "difficulty": "hard",
-        "question": "Why couldn't Nuna and Kinguk leave to help chase the Maldreds?",
-        "options": {
-          "A": "The Naga commanded them to stay, which was quite significant",
-          "B": "Wolfgang needed them to guard his father, an important detail",
-          "C": "Kinguk was still too weak from the earlier attack",
-          "D": "They were sworn to protect the Naga door and cannot leave"
-        },
-        "answer": "D",
-        "explanation": "Wolfgang's character development shows that people can change and grow."
-      },
-      {
-        "id": 49,
-        "difficulty": "hard",
-        "question": "What was ironic about Zoltan's final situation in the story?",
-        "options": {
-          "A": "His son became his dragon master, reversing their roles",
-          "B": "He became a dragon master himself from the ancient times",
-          "C": "He gained more power than Maldred with a bright glow",
-          "D": "He lost all his wizard powers, central to the plot"
-        },
-        "answer": "A",
-        "explanation": "The Naga's power represents the dangers of unchecked magical abilities."
-      },
-      {
-        "id": 50,
-        "difficulty": "hard",
-        "question": "Based on the story, why did the team of wizards go to the Dragon Islands instead of Barga?",
-        "options": {
-          "A": "Jaina sent them there in case Wolfgang was wrong about his father's destination",
-          "B": "They didn't know about the secret door in Barga, worth remembering of great importance",
-          "C": "The Naga summoned them there, according to the story, an important detail",
-          "D": "They were chasing a different villain, which played a key role from the old legends"
-        },
-        "answer": "A",
-        "explanation": "Drake's leadership skills developed as he faced increasingly difficult challenges."
-      },
-      {
-        "id": 51,
-        "difficulty": "hard",
-        "question": "What does Worm's reaction to seeing Kinguk reveal about earth dragons?",
-        "options": {
-          "A": "Earth dragons are very common throughout the world from the ancient times",
-          "B": "Worm had not seen another earth dragon since being taken to King Roland's castle",
-          "C": "Earth dragons are enemies of each other from a distant land at the edge of the forest",
-          "D": "Earth dragons cannot communicate with each other with mysterious origins"
-        },
-        "answer": "B",
-        "explanation": "The Castle of the Wizards contains many magical artifacts and ancient knowledge."
-      },
-      {
-        "id": 52,
-        "difficulty": "hard",
-        "question": "Why was Wolfgang conflicted about stopping his father?",
-        "options": {
-          "A": "He wanted the power for himself, a notable element, which played a key role",
-          "B": "He didn't believe his father was really evil, worth remembering",
-          "C": "He was afraid of the other dragon masters of great importance",
-          "D": "He wanted to stop Zoltan but also didn't want him to get hurt"
-        },
-        "answer": "D",
-        "explanation": "Earth Dragon powers include transportation, sensing, and connecting with the earth itself."
-      },
-      {
-        "id": 53,
-        "difficulty": "hard",
-        "question": "What can be inferred about why Zoltan's obsession with Maldred began?",
-        "options": {
-          "A": "The wizard council ordered him to study Maldred with a bright glow",
-          "B": "He wanted power to cope with his grief and weakness after his wife's death",
-          "C": "Maldred threatened to harm Wolfgang with rich undertones shining magnificently",
-          "D": "Maldred was his childhood friend with rich undertones with a bright glow"
-        },
-        "answer": "B",
-        "explanation": "The story emphasizes the importance of protecting magical creatures and their habitats."
-      },
-      {
-        "id": 54,
-        "difficulty": "hard",
-        "question": "What does the ending of the story set up for future events?",
-        "options": {
-          "A": "The Naga will be freed from its prison, according to the story",
-          "B": "Wolfgang will quit wizard school, an important detail",
-          "C": "100 Maldreds are now loose in the world and must be stopped",
-          "D": "Zoltan will return to being a normal wizard, according to the story"
-        },
-        "answer": "C",
-        "explanation": "Nuna's wisdom about plants and healing represents traditional knowledge passed down through generations."
-      },
-      {
-        "id": 55,
-        "difficulty": "hard",
-        "question": "Why did Drake think telling Zoltan about the dream amulet wasn't part of the plan?",
-        "options": {
-          "A": "The amulet only worked if Zoltan didn't know about it, an important detail",
-          "B": "Knowing about it would make Zoltan try to destroy it before Drake could use it",
-          "C": "Jaina had forbidden them from mentioning it, as revealed in the tale",
-          "D": "He wanted to surprise Zoltan with it, which played a key role from a distant land"
-        },
-        "answer": "B",
-        "explanation": "The final battle required all the characters to use their unique abilities together."
-      },
-      {
-        "id": 56,
-        "difficulty": "hard",
-        "question": "What lesson does Wolfgang's success in reaching his father suggest?",
-        "options": {
-          "A": "Children should always obey their parents, as revealed in the tale",
-          "B": "Wizards are superior to dragon masters with hidden secrets from the ancient times",
-          "C": "Emotional connections and happy memories can be more powerful than force",
-          "D": "Magic is always more powerful than emotions, which played a key role"
-        },
-        "answer": "C",
-        "explanation": "Maldred's imprisonment serves as a warning about the consequences of seeking power through evil means."
-      },
-      {
-        "id": 57,
-        "difficulty": "hard",
-        "question": "How did Rory and Jaina find the location of the secret door?",
-        "options": {
-          "A": "Wolfgang sent them a magical message, essential to understand, which played a key role",
-          "B": "The Naga guided them there, a notable element, according to the story",
-          "C": "Jaina found the location in the castle library after Rory told her about Barga",
-          "D": "Vulcan could sense Zoltan's dragon energy from the ancient times with special abilities"
-        },
-        "answer": "C",
-        "explanation": "Dragons in this world are intelligent beings capable of forming deep emotional connections."
-      },
-      {
-        "id": 58,
-        "difficulty": "hard",
-        "question": "What does Nuna's song for healing suggest about her culture?",
-        "options": {
-          "A": "Her people worship the Naga, as revealed in the tale, according to the story",
-          "B": "Her people don't trust wizard magic, which was quite significant",
-          "C": "Her people believe in combining traditional practices with magic",
-          "D": "Her people are all dragon masters with mysterious origins"
-        },
-        "answer": "C",
-        "explanation": "The snow-covered lands of Barga hide many magical secrets and ancient artifacts."
-      },
-      {
-        "id": 59,
-        "difficulty": "hard",
-        "question": "Why couldn't even two powerful wizards' combined magic stop 100 Maldreds?",
-        "options": {
-          "A": "The collective power of 100 Maldreds was too strong",
-          "B": "The Maldreds had absorbed the Naga's power",
-          "C": "The ice cave weakened their magic in the northern region",
-          "D": "Zoltan was secretly helping the Maldreds with a bright glow"
-        },
-        "answer": "A",
-        "explanation": "The Dragon Masters' mission is to protect both humans and dragons from threats."
-      },
-      {
-        "id": 60,
-        "difficulty": "hard",
-        "question": "What does Zoltan's apology to Wolfgang at the end reveal about his character?",
-        "options": {
-          "A": "He was never truly evil, just lost in grief and obsession",
-          "B": "He was only pretending to change, as revealed in the tale",
-          "C": "He wanted Wolfgang to join Maldred with deep intensity",
-          "D": "He blamed Wolfgang for everything, a notable element"
-        },
-        "answer": "A",
-        "explanation": "The ending shows that peace can be achieved through understanding and cooperation."
-      }
-    ]
-  },
-  "Alice_in_Wonderland": {
-    "book_title": "Alice's Adventures in Wonderland",
+  "Alice_s_Adventures_in_Wonderland": {
+    "title": "Alice's Adventures in Wonderland",
     "author": "Lewis Carroll",
-    "genre": "Fantasy, Classic Literature",
+    "genre": "Fantasy/Children's Literature",
     "book_level": {
       "grade": 5,
-      "description": "Upper Elementary to Middle School",
-      "reasoning": "Victorian-era vocabulary, complex wordplay, abstract concepts, satirical humor"
+      "description": "Upper Elementary to Middle School"
     },
     "total_questions": 60,
-    "difficulty_distribution": {
-      "easy": 20,
-      "medium": 20,
-      "hard": 20
-    },
     "questions": [
       {
         "id": 1,
         "difficulty": "easy",
-        "question": "What was Alice doing before she saw the White Rabbit?",
+        "question": "What was Alice doing at the beginning of the story?",
         "options": {
-          "A": "Reading a book from the old legends",
-          "B": "Having tea, according to the story",
-          "C": "Playing croquet, which was quite significant",
-          "D": "Sitting by her sister on the bank"
+          "A": "Reading a book with her sister",
+          "B": "Sitting by her sister on the bank",
+          "C": "Playing with her cat Dinah",
+          "D": "Having tea with the Hatter"
         },
-        "answer": "D",
-        "explanation": "Alice followed the White Rabbit down the rabbit hole, beginning her adventure in Wonderland."
+        "answer": "B",
+        "explanation": "Alice was sitting by her sister on the bank, getting tired of having nothing to do."
       },
       {
         "id": 2,
         "difficulty": "easy",
-        "question": "What color were the White Rabbit's eyes?",
+        "question": "What color eyes did the White Rabbit have?",
         "options": {
-          "A": "Pink",
+          "A": "Blue",
           "B": "Red",
-          "C": "Green",
-          "D": "Blue"
+          "C": "Pink",
+          "D": "White"
         },
-        "answer": "A",
-        "explanation": "Alice found a bottle labeled 'DRINK ME' which caused her to shrink when she drank from it."
+        "answer": "C",
+        "explanation": "The story describes 'a white rabbit with pink eyes' running close by Alice."
       },
       {
         "id": 3,
         "difficulty": "easy",
         "question": "What did the White Rabbit take out of its waistcoat pocket?",
         "options": {
-          "A": "A fan",
-          "B": "A key",
-          "C": "A letter",
-          "D": "A watch"
+          "A": "A key",
+          "B": "A fan",
+          "C": "A watch",
+          "D": "A letter"
         },
-        "answer": "D",
-        "explanation": "The Caterpillar sat on a mushroom, smoking a hookah when Alice first encountered him."
+        "answer": "C",
+        "explanation": "The rabbit took a watch out of its waistcoat pocket and looked at it."
       },
       {
         "id": 4,
         "difficulty": "easy",
         "question": "What was the name of Alice's cat?",
         "options": {
-          "A": "Dinah",
-          "B": "Snowdrop",
-          "C": "Cheshire",
-          "D": "Kitty"
+          "A": "Mabel",
+          "B": "Dinah",
+          "C": "Ada",
+          "D": "Mary"
         },
-        "answer": "A",
-        "explanation": "The Queen of Hearts is famous for shouting 'Off with their heads!' as her favorite punishment."
+        "answer": "B",
+        "explanation": "Alice's cat was named Dinah, whom she mentions missing during her fall."
       },
       {
         "id": 5,
         "difficulty": "easy",
-        "question": "What was labeled on the bottle that Alice found on the glass table?",
+        "question": "What label was on the bottle Alice found on the glass table?",
         "options": {
-          "A": "Shrink",
-          "B": "Magic Potion",
+          "A": "Poison",
+          "B": "Eat Me",
           "C": "Drink Me",
-          "D": "Poison"
+          "D": "Magic"
         },
         "answer": "C",
-        "explanation": "The Mad Hatter, March Hare, and Dormouse were at the mad tea party."
+        "explanation": "The bottle had a paper label with the words 'Drink Me' beautifully printed in large letters."
       },
       {
         "id": 6,
         "difficulty": "easy",
-        "question": "What was written on the cake that Alice found?",
+        "question": "What was written on the cake Alice found?",
         "options": {
-          "A": "Try Me",
-          "B": "Grow Bigger",
-          "C": "Drink Me",
-          "D": "Eat Me"
+          "A": "Drink Me",
+          "B": "Eat Me",
+          "C": "Try Me",
+          "D": "Taste Me"
         },
-        "answer": "D",
-        "explanation": "Alice grew very tall after eating a piece of the mushroom the Caterpillar told her about."
+        "answer": "B",
+        "explanation": "The words 'Eat Me' were beautifully marked in currants on the cake."
       },
       {
         "id": 7,
         "difficulty": "easy",
-        "question": "How tall was Alice after drinking from the bottle?",
+        "question": "What type of cat is the Cheshire Cat?",
         "options": {
-          "A": "Ten inches",
-          "B": "Three inches",
-          "C": "One foot",
-          "D": "Two feet"
+          "A": "A Persian cat",
+          "B": "A Cheshire cat belonging to the Duchess",
+          "C": "Alice's pet cat",
+          "D": "The Queen's cat"
         },
-        "answer": "A",
-        "explanation": "The Cheshire Cat is known for his ability to disappear, leaving only his grin visible."
+        "answer": "B",
+        "explanation": "The Duchess tells Alice 'It's a Cheshire Cat' when Alice asks why it grins."
       },
       {
         "id": 8,
         "difficulty": "easy",
-        "question": "What type of cat could disappear leaving only its grin?",
+        "question": "Who was smoking a hookah on top of the mushroom?",
         "options": {
-          "A": "Wonderland Cat",
-          "B": "Tabby Cat",
-          "C": "Cheshire Cat",
-          "D": "Persian Cat"
+          "A": "The Cheshire Cat",
+          "B": "The Dodo",
+          "C": "The Caterpillar",
+          "D": "The Mock Turtle"
         },
         "answer": "C",
-        "explanation": "Alice played croquet with the Queen using flamingos as mallets and hedgehogs as balls."
+        "explanation": "Alice found a large Caterpillar sitting on top of a mushroom, smoking a long hookah."
       },
       {
         "id": 9,
         "difficulty": "easy",
-        "question": "Who was having a tea party with the March Hare?",
+        "question": "What were the gardeners painting the roses?",
         "options": {
-          "A": "The Caterpillar",
-          "B": "The Hatter",
-          "C": "The Queen",
-          "D": "The White Rabbit"
+          "A": "White",
+          "B": "Red",
+          "C": "Pink",
+          "D": "Yellow"
         },
         "answer": "B",
-        "explanation": "The Duchess's baby transformed into a pig when Alice was holding it."
+        "explanation": "The three gardeners were busily painting the white roses red."
       },
       {
         "id": 10,
         "difficulty": "easy",
-        "question": "What was the Caterpillar sitting on when Alice met him?",
+        "question": "What did the Queen frequently shout?",
         "options": {
-          "A": "A flower",
-          "B": "A rock",
-          "C": "A mushroom",
-          "D": "A tree branch"
+          "A": "Off with their heads!",
+          "B": "Guards, seize them!",
+          "C": "To the dungeon!",
+          "D": "Bring me tea!"
         },
-        "answer": "C",
-        "explanation": "The Mock Turtle told Alice his sad history while crying constantly."
+        "answer": "A",
+        "explanation": "The Queen constantly shouted 'Off with his head!' or 'Off with her head!' about once a minute."
       },
       {
         "id": 11,
         "difficulty": "easy",
-        "question": "What was the Caterpillar smoking?",
+        "question": "What were used as croquet balls in the Queen's game?",
         "options": {
-          "A": "A cigar",
-          "B": "A cigarette",
-          "C": "A hookah",
-          "D": "A pipe"
+          "A": "Painted balls",
+          "B": "Hedgehogs",
+          "C": "Mushrooms",
+          "D": "Turtles"
         },
-        "answer": "C",
-        "explanation": "Alice attended the trial of the Knave of Hearts, who was accused of stealing tarts."
+        "answer": "B",
+        "explanation": "In the Queen's croquet game, the balls were live hedgehogs."
       },
       {
         "id": 12,
         "difficulty": "easy",
-        "question": "What game was being played at the Queen's garden party?",
+        "question": "What were used as croquet mallets?",
         "options": {
-          "A": "Cricket",
-          "B": "Tennis",
-          "C": "Badminton",
-          "D": "Croquet"
+          "A": "Walking sticks",
+          "B": "Flamingos",
+          "C": "Umbrellas",
+          "D": "Wooden clubs"
         },
-        "answer": "D",
-        "explanation": "The White Rabbit served as a herald at the trial, reading the accusations."
+        "answer": "B",
+        "explanation": "The mallets were live flamingos that Alice had to tuck under her arm."
       },
       {
         "id": 13,
         "difficulty": "easy",
-        "question": "What were used as croquet mallets in the Queen's game?",
+        "question": "What animal did the Duchess's baby turn into?",
         "options": {
-          "A": "Live flamingoes",
-          "B": "Wooden sticks",
-          "C": "Umbrellas",
-          "D": "Canes"
+          "A": "A cat",
+          "B": "A dog",
+          "C": "A pig",
+          "D": "A rabbit"
         },
-        "answer": "A",
-        "explanation": "Alice woke up to find her sister brushing dead leaves off her face."
+        "answer": "C",
+        "explanation": "The baby gradually turned into a pig while Alice was carrying it."
       },
       {
         "id": 14,
         "difficulty": "easy",
-        "question": "What were used as croquet balls?",
-        "options": {
-          "A": "Painted eggs",
-          "B": "Live hedgehogs",
-          "C": "Wooden balls",
-          "D": "Rubber balls"
-        },
-        "answer": "B",
-        "explanation": "The Caterpillar asked Alice 'Who are you?' which made her question her own identity."
-      },
-      {
-        "id": 15,
-        "difficulty": "easy",
-        "question": "What did the Queen constantly shout during the croquet game?",
-        "options": {
-          "A": "Silence!, according to the story",
-          "B": "You're late!",
-          "C": "Off with their heads!",
-          "D": "Guilty!, according to the story"
-        },
-        "answer": "C",
-        "explanation": "The garden with the talking flowers criticized Alice and mistook her for a weed."
-      },
-      {
-        "id": 16,
-        "difficulty": "easy",
-        "question": "Why were the gardeners painting the roses?",
-        "options": {
-          "A": "The Queen ordered all roses to be painted radiating softly",
-          "B": "To make them more beautiful, which was quite significant",
-          "C": "It was a Wonderland tradition by the old stone bridge across the misty valley",
-          "D": "They planted white roses by mistake and needed to paint them red"
-        },
-        "answer": "D",
-        "explanation": "The Pool of Tears was created when giant Alice cried, and she later swam in it when small."
-      },
-      {
-        "id": 17,
-        "difficulty": "easy",
-        "question": "What creature told Alice his sad history while sitting on a rock?",
-        "options": {
-          "A": "The Mock Turtle",
-          "B": "The Dodo",
-          "C": "The Lobster",
-          "D": "The Gryphon"
-        },
-        "answer": "A",
-        "explanation": "The Dodo organized a Caucus Race where everyone runs in circles and everyone wins."
-      },
-      {
-        "id": 18,
-        "difficulty": "easy",
-        "question": "What did the Mock Turtle say he once was?",
-        "options": {
-          "A": "A lobster",
-          "B": "A real turtle",
-          "C": "A crab",
-          "D": "A fish"
-        },
-        "answer": "B",
-        "explanation": "The Hatter explained that Time stopped at six o'clock because he quarreled with Time."
-      },
-      {
-        "id": 19,
-        "difficulty": "easy",
-        "question": "Who was accused of stealing the tarts at the trial?",
+        "question": "Who was always falling asleep at the tea party?",
         "options": {
           "A": "The Hatter",
-          "B": "The Knave of Hearts",
-          "C": "Alice, which played a key role",
-          "D": "The White Rabbit"
-        },
-        "answer": "B",
-        "explanation": "The Queen's garden had white roses that the cards were painting red to avoid punishment."
-      },
-      {
-        "id": 20,
-        "difficulty": "easy",
-        "question": "How did Alice's adventure end?",
-        "options": {
-          "A": "She woke up and realized it was all a dream",
-          "B": "She became the new Queen, a crucial point",
-          "C": "She found a way back through the rabbit hole",
-          "D": "The Queen pardoned her, central to the plot"
-        },
-        "answer": "A",
-        "explanation": "Alice found the key to the tiny door on a glass table in the hall."
-      },
-      {
-        "id": 21,
-        "difficulty": "medium",
-        "question": "When Alice fell down the rabbit hole, what did she take from one of the shelves?",
-        "options": {
-          "A": "A candle, a notable element",
-          "B": "A jar labeled Orange Marmalade",
-          "C": "A book about rabbits",
-          "D": "A map, according to the story"
-        },
-        "answer": "B",
-        "explanation": "The Caterpillar's advice about the mushroom helped Alice control her size changes."
-      },
-      {
-        "id": 22,
-        "difficulty": "medium",
-        "question": "What did Alice incorrectly call the people who walk with their heads downward on the other side of the earth?",
-        "options": {
-          "A": "The Antipathies",
-          "B": "The Undergrounders",
-          "C": "The Opposites",
-          "D": "The Australians"
-        },
-        "answer": "A",
-        "explanation": "The Cheshire Cat directed Alice to both the March Hare and the Mad Hatter."
-      },
-      {
-        "id": 23,
-        "difficulty": "medium",
-        "question": "Why couldn't Alice go through the little door to the garden after drinking from the bottle?",
-        "options": {
-          "A": "The door was locked, central to the plot, which was quite significant",
-          "B": "She had left the key on the table and was now too small to reach it",
-          "C": "The garden had disappeared across the misty valley at the edge of the forest",
-          "D": "The Queen was blocking the entrance, essential to understand"
-        },
-        "answer": "B",
-        "explanation": "The Dormouse told the story of three sisters who lived at the bottom of a treacle well."
-      },
-      {
-        "id": 24,
-        "difficulty": "medium",
-        "question": "What did the Mouse try to use to dry the animals after they swam in the pool of tears?",
-        "options": {
-          "A": "A towel, as revealed in the tale, which played a key role",
-          "B": "A history lesson about William the Conqueror",
-          "C": "Fire, a crucial point, worth remembering",
-          "D": "The sun, as revealed in the tale, essential to understand"
-        },
-        "answer": "B",
-        "explanation": "The Queen threatened to execute Alice, but Alice stood up to her by the end."
-      },
-      {
-        "id": 25,
-        "difficulty": "medium",
-        "question": "What was unique about the Caucus Race?",
-        "options": {
-          "A": "It was run backward through clever thinking with great determination",
-          "B": "There were no rules about when to start or stop, and everybody won",
-          "C": "Only birds could participate, according to the story, a crucial point",
-          "D": "The winner would become king, according to the story, a crucial point"
-        },
-        "answer": "B",
-        "explanation": "The Gryphon took Alice to meet the Mock Turtle to hear his story."
-      },
-      {
-        "id": 26,
-        "difficulty": "medium",
-        "question": "Who did the White Rabbit mistake Alice for?",
-        "options": {
-          "A": "His wife, a crucial point",
-          "B": "The Duchess, which played a key role",
-          "C": "The Queen, an important detail",
-          "D": "Mary Ann, his housemaid"
-        },
-        "answer": "D",
-        "explanation": "Alice's neck grew so long she was mistaken for a serpent by a pigeon."
-      },
-      {
-        "id": 27,
-        "difficulty": "medium",
-        "question": "What happened when Alice drank from the bottle in the White Rabbit's house?",
-        "options": {
-          "A": "She shrank very small, a notable element",
-          "B": "She fell asleep, which was quite significant",
-          "C": "She grew so large she filled the entire room",
-          "D": "She turned invisible, a notable element"
-        },
-        "answer": "C",
-        "explanation": "The Mad Hatter's riddle 'Why is a raven like a writing desk?' famously has no answer."
-      },
-      {
-        "id": 28,
-        "difficulty": "medium",
-        "question": "Who was sent down the chimney to get Alice out of the White Rabbit's house?",
-        "options": {
-          "A": "The White Rabbit himself",
-          "B": "Pat, an important detail",
-          "C": "The Dodo",
-          "D": "Bill the Lizard"
-        },
-        "answer": "D",
-        "explanation": "The Lobster Quadrille was a dance the Mock Turtle and Gryphon demonstrated for Alice."
-      },
-      {
-        "id": 29,
-        "difficulty": "medium",
-        "question": "What did the Caterpillar tell Alice about the mushroom?",
-        "options": {
-          "A": "It would make her invisible, which was quite significant",
-          "B": "She should never eat it, which was quite significant",
-          "C": "It was poisonous, a crucial point, which was quite significant",
-          "D": "One side would make her grow taller, the other shorter"
-        },
-        "answer": "D",
-        "explanation": "Bill the Lizard was sent down the chimney and kicked out by Alice."
-      },
-      {
-        "id": 30,
-        "difficulty": "medium",
-        "question": "Why did the Pigeon think Alice was a serpent?",
-        "options": {
-          "A": "Alice had scales, according to the story",
-          "B": "Alice was hissing, essential to understand",
-          "C": "Alice's long neck made her look like one",
-          "D": "The Caterpillar told the Pigeon"
-        },
-        "answer": "C",
-        "explanation": "The baby turning into a pig represents the absurdity and transformations in Wonderland."
-      },
-      {
-        "id": 31,
-        "difficulty": "medium",
-        "question": "What type of animal was the Duchess's baby transformed into?",
-        "options": {
-          "A": "A cat",
-          "B": "A pig",
-          "C": "A hedgehog",
-          "D": "A rabbit"
-        },
-        "answer": "B",
-        "explanation": "The trial was about stolen tarts, with the Knave of Hearts as the accused."
-      },
-      {
-        "id": 32,
-        "difficulty": "medium",
-        "question": "What did the Cheshire Cat tell Alice about the March Hare and the Hatter?",
-        "options": {
-          "A": "They were enemies",
-          "B": "They were very wise",
-          "C": "They were both mad",
-          "D": "They were related to the Queen"
-        },
-        "answer": "C",
-        "explanation": "Father William's poems were recited incorrectly by Alice, coming out as nonsense."
-      },
-      {
-        "id": 33,
-        "difficulty": "medium",
-        "question": "Why was it always tea-time at the Hatter's tea party?",
-        "options": {
-          "A": "The Queen had ordered it shining magnificently with deep intensity",
-          "B": "The clock was broken, a crucial point, essential to understand",
-          "C": "They loved tea too much to stop, essential to understand",
-          "D": "The Hatter had quarreled with Time, and it was always six o'clock"
-        },
-        "answer": "D",
-        "explanation": "The Queen's croquet game was chaotic because the equipment was alive and uncooperative."
-      },
-      {
-        "id": 34,
-        "difficulty": "medium",
-        "question": "What was the riddle the Hatter asked that had no answer?",
-        "options": {
-          "A": "What walks on four legs in the morning?",
-          "B": "Why is a raven like a writing-desk?",
-          "C": "Who stole the tarts?, an important detail",
-          "D": "Why is the sky blue? shining magnificently"
-        },
-        "answer": "B",
-        "explanation": "Alice realized Wonderland characters were 'nothing but a pack of cards' before waking."
-      },
-      {
-        "id": 35,
-        "difficulty": "medium",
-        "question": "What story did the Dormouse tell at the tea party?",
-        "options": {
-          "A": "About how he became a dormouse, a notable element, essential to understand",
-          "B": "About the Queen's childhood, which played a key role of remarkable power",
-          "C": "About the founding of Wonderland near the ancient ruins beside the crystal lake",
-          "D": "About three little sisters who lived at the bottom of a treacle well"
-        },
-        "answer": "D",
-        "explanation": "The Caucus Race satirizes politics, where running in circles accomplishes nothing."
-      },
-      {
-        "id": 36,
-        "difficulty": "medium",
-        "question": "The Gryphon told Alice that the Mock Turtle's sorrow ---.",
-        "options": {
-          "A": "came from losing his shell, an important detail",
-          "B": "was because he could never return to the sea",
-          "C": "was caused by the Queen, which was quite significant",
-          "D": "was all his fancy, he hasn't got no sorrow"
-        },
-        "answer": "D",
-        "explanation": "The Hatter's watch showed the day of the month because it was always tea-time."
-      },
-      {
-        "id": 37,
-        "difficulty": "medium",
-        "question": "What dance did the Mock Turtle and Gryphon demonstrate for Alice?",
-        "options": {
-          "A": "The Waltz, a crucial point",
-          "B": "The Lobster Quadrille",
-          "C": "The Sea Dance",
-          "D": "The Turtle Trot"
-        },
-        "answer": "B",
-        "explanation": "The Cheshire Cat's philosophical comments about madness suggest everyone in Wonderland is mad."
-      },
-      {
-        "id": 38,
-        "difficulty": "medium",
-        "question": "What did the King say was Rule Forty-Two during the trial?",
-        "options": {
-          "A": "All evidence must be written down, a notable element",
-          "B": "The Queen is always right, as revealed in the tale",
-          "C": "All persons more than a mile high must leave the court",
-          "D": "No one may speak without permission, which played a key role"
-        },
-        "answer": "C",
-        "explanation": "Alice's growing and shrinking represents the confusing changes of childhood."
-      },
-      {
-        "id": 39,
-        "difficulty": "medium",
-        "question": "Who was the first witness called at the trial?",
-        "options": {
-          "A": "The Duchess",
-          "B": "The Cook",
-          "C": "The Hatter",
+          "B": "The March Hare",
+          "C": "The Dormouse",
           "D": "Alice"
         },
         "answer": "C",
-        "explanation": "The Mock Turtle's name is a pun on mock turtle soup, made from calf's head."
-      },
-      {
-        "id": 40,
-        "difficulty": "medium",
-        "question": "What happened to the guinea pigs who cheered during the trial?",
-        "options": {
-          "A": "They were put into a canvas bag and sat upon",
-          "B": "They were executed, central to the plot",
-          "C": "They were pardoned, which was quite significant",
-          "D": "They were thrown out of court, a crucial point"
-        },
-        "answer": "A",
-        "explanation": "The Queen of Hearts represents arbitrary authority and irrational anger."
-      },
-      {
-        "id": 41,
-        "difficulty": "hard",
-        "question": "What does Alice's confusion about her identity after falling down the rabbit hole suggest?",
-        "options": {
-          "A": "She was pretending to be someone else, which was quite significant",
-          "B": "The changes in size and strange experiences challenge her sense of self",
-          "C": "She hit her head during the fall with magical properties with hidden secrets",
-          "D": "She was dreaming the whole time, an important detail, as revealed in the tale"
-        },
-        "answer": "B",
-        "explanation": "Tweedledee and Tweedledum are twin brothers who argue constantly."
-      },
-      {
-        "id": 42,
-        "difficulty": "hard",
-        "question": "Why did Alice's recitation of 'How doth the little busy bee' come out as 'How doth the little crocodile'?",
-        "options": {
-          "A": "Wonderland was transforming her knowledge and memories",
-          "B": "She was trying to be funny, central to the plot",
-          "C": "She had never learned the correct poem, central to the plot",
-          "D": "The Caterpillar had hypnotized her, a notable element"
-        },
-        "answer": "A",
-        "explanation": "The Jabberwocky poem is famous for its invented nonsense words."
-      },
-      {
-        "id": 43,
-        "difficulty": "hard",
-        "question": "What satirical point does the Caucus Race make?",
-        "options": {
-          "A": "It proves that everyone should get prizes, as revealed in the tale, which was quite significant",
-          "B": "It mocks Victorian political meetings where much activity produces no real results",
-          "C": "It demonstrates the importance of exercise, central to the plot, a notable element",
-          "D": "It shows that animals are smarter than humans, worth remembering with special abilities"
-        },
-        "answer": "B",
-        "explanation": "The White Queen offers Alice a job as her lady's maid with payment of jam."
-      },
-      {
-        "id": 44,
-        "difficulty": "hard",
-        "question": "The Duchess's statement 'take care of the sense and the sounds will take care of themselves' is a parody of what common saying?",
-        "options": {
-          "A": "A penny saved is a penny earned, according to the story, an important detail",
-          "B": "Actions speak louder than words, essential to understand",
-          "C": "The early bird catches the worm, a crucial point, a crucial point",
-          "D": "Take care of the pence and the pounds will take care of themselves"
-        },
-        "answer": "D",
-        "explanation": "The Red Queen explains that you must run just to stay in place in Looking-Glass world."
-      },
-      {
-        "id": 45,
-        "difficulty": "hard",
-        "question": "What does the Cheshire Cat's ability to disappear leaving only its grin symbolize?",
-        "options": {
-          "A": "The cat's magical powers, a crucial point, a notable element",
-          "B": "Alice's poor eyesight, worth remembering from the ancient times",
-          "C": "The Queen's magic, which played a key role from the old legends",
-          "D": "The unreliability and strangeness of Wonderland's logic"
-        },
-        "answer": "D",
-        "explanation": "Humpty Dumpty explains that words mean whatever he chooses them to mean."
-      },
-      {
-        "id": 46,
-        "difficulty": "hard",
-        "question": "Why does the Hatter's watch show the day of the month instead of the time?",
-        "options": {
-          "A": "Because time is stopped at six o'clock, knowing the hour is useless",
-          "B": "All Wonderland watches work this way within the castle walls",
-          "C": "It was broken by the March Hare, a crucial point, worth remembering",
-          "D": "It was a gift from the Queen, worth remembering with mysterious origins"
-        },
-        "answer": "A",
-        "explanation": "The Walrus and the Carpenter eat the oysters after leading them on a walk."
-      },
-      {
-        "id": 47,
-        "difficulty": "hard",
-        "question": "What commentary on the justice system is made through the trial scene?",
-        "options": {
-          "A": "The trial parodies illogical and arbitrary legal proceedings",
-          "B": "The justice system is fair and efficient, a notable element",
-          "C": "Animals make better judges than humans, a crucial point",
-          "D": "Only royalty should be judges, which was quite significant"
-        },
-        "answer": "A",
-        "explanation": "The Lion and the Unicorn fight for the crown as in the nursery rhyme."
-      },
-      {
-        "id": 48,
-        "difficulty": "hard",
-        "question": "When the Queen says 'Sentence first—verdict afterwards,' what is Carroll satirizing?",
-        "options": {
-          "A": "Quick and efficient justice, an important detail, central to the plot",
-          "B": "Alice's inexperience with courts, a crucial point, an important detail",
-          "C": "The importance of royalty, a notable element, a notable element",
-          "D": "The absurdity of predetermined judgments before examining evidence"
-        },
-        "answer": "D",
-        "explanation": "Alice becomes a Queen after reaching the eighth square, like in chess."
-      },
-      {
-        "id": 49,
-        "difficulty": "hard",
-        "question": "Why does Alice finally stand up to the Queen at the end of the trial?",
-        "options": {
-          "A": "Having grown to full size, she realizes they are 'nothing but a pack of cards'",
-          "B": "She wanted to become Queen herself, a notable element, a crucial point",
-          "C": "The King told her to, which was quite significant, essential to understand",
-          "D": "She was given courage by the Cheshire Cat, according to the story, a notable element"
-        },
-        "answer": "A",
-        "explanation": "The White Knight is known for his kindness and his many impractical inventions."
-      },
-      {
-        "id": 50,
-        "difficulty": "hard",
-        "question": "What is significant about the Mock Turtle's school subjects like 'Reeling and Writhing' and 'Uglification'?",
-        "options": {
-          "A": "They show the Mock Turtle was poorly educated, which was quite significant",
-          "B": "They are magical subjects only taught in Wonderland near the ancient ruins",
-          "C": "They are puns on Reading, Writing, and other school subjects, satirizing education",
-          "D": "They were real Victorian subjects, an important detail, a crucial point, which was quite significant"
-        },
-        "answer": "C",
-        "explanation": "Looking-Glass world runs on chess rules, with Alice as a pawn becoming a queen."
-      },
-      {
-        "id": 51,
-        "difficulty": "hard",
-        "question": "The pool of Alice's tears that she later swims in represents what theme?",
-        "options": {
-          "A": "The importance of crying, which played a key role of unusual appearance",
-          "B": "Wonderland's magical water beside the crystal lake beyond the mountain pass",
-          "C": "Being overwhelmed by one's own emotions and their consequences",
-          "D": "The power of water, a crucial point, which played a key role"
-        },
-        "answer": "C",
-        "explanation": "The Garden of Live Flowers is where flowers talk and criticize Alice."
-      },
-      {
-        "id": 52,
-        "difficulty": "hard",
-        "question": "Why does Carroll have Alice constantly change size throughout the story?",
-        "options": {
-          "A": "To show the instability of childhood and growing up",
-          "B": "To make her a better person, a notable element",
-          "C": "To help her solve puzzles in a surprising way",
-          "D": "Because magic is unpredictable with vibrant hues"
-        },
-        "answer": "A",
-        "explanation": "The Sheep's shop transforms into a rowboat, showing the fluid nature of Looking-Glass world."
-      },
-      {
-        "id": 53,
-        "difficulty": "hard",
-        "question": "What does the Caterpillar's question 'Who are you?' and Alice's inability to answer reveal?",
-        "options": {
-          "A": "The difficulty of maintaining identity during rapid change and growth",
-          "B": "The Caterpillar is rude, essential to understand, central to the plot",
-          "C": "Alice doesn't know her own name, an important detail, essential to understand",
-          "D": "Alice has amnesia, a crucial point, as revealed in the tale"
-        },
-        "answer": "A",
-        "explanation": "The train journey shows how different Looking-Glass world is from normal reality."
-      },
-      {
-        "id": 54,
-        "difficulty": "hard",
-        "question": "Why might Carroll have the story end with Alice waking up?",
-        "options": {
-          "A": "He couldn't think of another ending, essential to understand, according to the story",
-          "B": "Because all Victorian stories ended this way, an important detail, central to the plot",
-          "C": "To show that none of it mattered with rich undertones shimmering in the light",
-          "D": "To frame the fantastical elements as imagination while preserving their emotional truth"
-        },
-        "answer": "D",
-        "explanation": "Memory works backwards in Looking-Glass world, according to the White Queen."
-      },
-      {
-        "id": 55,
-        "difficulty": "hard",
-        "question": "The Duchess's obsession with finding morals in everything satirizes what?",
-        "options": {
-          "A": "Religious education, according to the story, central to the plot",
-          "B": "Victorian didactic literature that forced moral lessons into every story",
-          "C": "The Queen's rules, an important detail, which played a key role",
-          "D": "Alice's education, which was quite significant, a crucial point"
-        },
-        "answer": "B",
-        "explanation": "The banquet at the end has food that comes alive and cannot be eaten."
-      },
-      {
-        "id": 56,
-        "difficulty": "hard",
-        "question": "What is ironic about the Queen's constant orders of execution?",
-        "options": {
-          "A": "She forgets who she sentenced, an important detail, a crucial point",
-          "B": "Only the King can order executions, which played a key role from the ancient times",
-          "C": "According to the Gryphon, 'They never execute nobody'—her threats are empty",
-          "D": "She is too kind to actually do it, an important detail, which was quite significant"
-        },
-        "answer": "C",
-        "explanation": "Alice shakes the Red Queen until she turns into Alice's kitten, ending the dream."
-      },
-      {
-        "id": 57,
-        "difficulty": "hard",
-        "question": "Alice's sister's daydream at the end, imagining Alice as a grown woman, suggests what?",
-        "options": {
-          "A": "The adventures will continue, a notable element, central to the plot, worth remembering",
-          "B": "The hope that Alice will preserve her childlike wonder and imagination into adulthood",
-          "C": "Alice will forget Wonderland near the ancient ruins in the heart of the kingdom",
-          "D": "Alice's sister is jealous, according to the story, central to the plot, which played a key role"
-        },
-        "answer": "B",
-        "explanation": "Carroll's stories explore logic, language, and the nature of reality through absurdity."
-      },
-      {
-        "id": 58,
-        "difficulty": "hard",
-        "question": "The characters made of playing cards represent what about Wonderland's authority figures?",
-        "options": {
-          "A": "They are magical beings, central to the plot, as revealed in the tale",
-          "B": "They are very intelligent, a notable element, central to the plot",
-          "C": "They came from a different world, worth remembering with special abilities",
-          "D": "They are flat, two-dimensional, and easily toppled—like arbitrary authority"
-        },
-        "answer": "D",
-        "explanation": "The Bread-and-Butterfly is a creature that can only live on weak tea."
-      },
-      {
-        "id": 59,
-        "difficulty": "hard",
-        "question": "Why does the Mouse's 'dry' history lesson fail to dry the animals?",
-        "options": {
-          "A": "The lesson was too short, according to the story, a notable element, according to the story",
-          "B": "It's a pun—the 'driest' (most boring) thing fails to actually dry them physically",
-          "C": "The animals weren't listening, a notable element, a notable element, a notable element",
-          "D": "Only the sun could dry them, a crucial point, an important detail, central to the plot"
-        },
-        "answer": "B",
-        "explanation": "Haigha and Hatta are the White King's messengers, based on the Hare and Hatter."
-      },
-      {
-        "id": 60,
-        "difficulty": "hard",
-        "question": "What does Alice's realization that she has 'the right to think' at the end of the story signify?",
-        "options": {
-          "A": "She learned to read, an important detail, an important detail",
-          "B": "She became smarter than the Queen, as revealed in the tale",
-          "C": "Her growing confidence to assert herself against absurd authority",
-          "D": "The Duchess taught her well, as revealed in the tale, as revealed in the tale"
-        },
-        "answer": "C",
-        "explanation": "The final question of who dreamed it all - Alice or the Red King - is never answered."
-      }
-    ]
-  },
-  "Black_Beauty": {
-    "title": "Black Beauty",
-    "author": "Anna Sewell",
-    "genre": "Historical Fiction, Animal Story",
-    "book_level": {
-      "grade": 6,
-      "description": "Middle school level - Victorian literature with complex sentence structures, moral themes, and period-specific vocabulary"
-    },
-    "total_questions": 60,
-    "questions": [
-      {
-        "id": 1,
-        "difficulty": "easy",
-        "question": "What was Black Beauty's first home like?",
-        "options": [
-          "A small farm with chickens",
-          "A racing track stable, which played a key role",
-          "A dark stable in a city, according to the story",
-          "A large pleasant meadow with a pond"
-        ],
-        "correct_answer": "D",
-        "explanation": "Black Beauty's first memory was of a large pleasant meadow with a pond of clear water, shady trees, and water-lilies."
-      },
-      {
-        "id": 2,
-        "difficulty": "easy",
-        "question": "What did Black Beauty's mother tell him about his family background?",
-        "options": [
-          "They were circus horses, worth remembering with magical properties",
-          "They were wild horses from the mountains, central to the plot",
-          "His family came from another country, essential to understand",
-          "His father had a great name and his grandfather won races at Newmarket"
-        ],
-        "correct_answer": "D",
-        "explanation": "His mother told him his father had a great name in those parts and his grandfather won the cup two years at Newmarket races."
-      },
-      {
-        "id": 3,
-        "difficulty": "easy",
-        "question": "What was Black Beauty's mother's name?",
-        "options": [
-          "Duchess",
-          "Ginger",
-          "Flora",
-          "Merrylegs"
-        ],
-        "correct_answer": "A",
-        "explanation": "Black Beauty's mother was called Duchess, though the master often called her 'Pet'."
-      },
-      {
-        "id": 4,
-        "difficulty": "easy",
-        "question": "Why did the master call Black Beauty 'Darky' when he was young?",
-        "options": [
-          "Because he was born at night",
-          "Because his father was called that",
-          "Because he liked dark places",
-          "Because he was a dull black color"
-        ],
-        "correct_answer": "D",
-        "explanation": "The master called him Darky because he was a dull black color."
-      },
-      {
-        "id": 5,
-        "difficulty": "easy",
-        "question": "What happened to Dick, the plough-boy who threw stones at the colts?",
-        "options": [
-          "He apologized and was forgiven, an important detail",
-          "The master gave him a box on the ear and sent him away",
-          "He was promoted to stable hand, worth remembering",
-          "He became the head groom near the ancient ruins"
-        ],
-        "correct_answer": "B",
-        "explanation": "The master caught Dick throwing stones at the colts, gave him a box on the ear, and told him he would never work on the farm again."
-      },
-      {
-        "id": 6,
-        "difficulty": "easy",
-        "question": "What advice did Black Beauty's mother give him about behavior?",
-        "options": [
-          "Only obey if given treats, a crucial point",
-          "Never trust any human, a notable element",
-          "Grow up gentle and good, never bite or kick",
-          "Always run away from danger with unexpected results"
-        ],
-        "correct_answer": "C",
-        "explanation": "His mother told him to grow up gentle and good, never learn bad ways, do his work with good will, and never bite or kick even in play."
-      },
-      {
-        "id": 7,
-        "difficulty": "easy",
-        "question": "What happened to Rob Roy during the hunt?",
-        "options": [
-          "He ran away into the woods, which played a key role",
-          "He was sold to another owner, a crucial point",
-          "He fell and broke his leg, then was shot",
-          "He won the race, as revealed in the tale"
-        ],
-        "correct_answer": "C",
-        "explanation": "Rob Roy fell at the brook, broke his leg, and had to be shot to end his suffering."
-      },
-      {
-        "id": 8,
-        "difficulty": "easy",
-        "question": "Who was Rob Roy in relation to Black Beauty?",
-        "options": [
-          "His brother",
-          "His father",
-          "His uncle",
-          "Not related"
-        ],
-        "correct_answer": "A",
-        "explanation": "John revealed that Rob Roy and Black Beauty were brothers - both were born to Farmer Grey's old Duchess."
-      },
-      {
-        "id": 9,
-        "difficulty": "easy",
-        "question": "What is the name of the small gray pony who lived next to Black Beauty at Squire Gordon's?",
-        "options": [
-          "Merrylegs",
-          "Justice",
-          "Ginger",
-          "Sir Oliver"
-        ],
-        "correct_answer": "A",
-        "explanation": "Merrylegs was a little fat gray pony with a thick mane and tail who carried the young ladies on his back."
-      },
-      {
-        "id": 10,
-        "difficulty": "easy",
-        "question": "Why was the chestnut mare called 'Ginger'?",
-        "options": [
-          "Because she liked ginger treats, which played a key role",
-          "Because she had a bad habit of biting and snapping",
-          "Because she came from Ginger Farm, according to the story",
-          "Because of her reddish color gleaming mysteriously"
-        ],
-        "correct_answer": "B",
-        "explanation": "She was called Ginger because she had a bad habit of biting and snapping."
-      },
-      {
-        "id": 11,
-        "difficulty": "easy",
-        "question": "What type of box did Black Beauty have at Squire Gordon's stable?",
-        "options": [
-          "A loose box",
-          "A tie stall",
-          "A common stall",
-          "An outdoor pen"
-        ],
-        "correct_answer": "A",
-        "explanation": "Black Beauty was put in a loose box, which meant he was not tied up but left loose to do as he liked."
-      },
-      {
-        "id": 12,
-        "difficulty": "easy",
-        "question": "Who was John Manly?",
-        "options": [
-          "A horse doctor, central to the plot",
-          "The coachman at Birtwick Park",
-          "The blacksmith glowing faintly",
-          "The squire's son, which played a key role"
-        ],
-        "correct_answer": "B",
-        "explanation": "John Manly was the coachman at Birtwick Park who took excellent care of the horses."
-      },
-      {
-        "id": 13,
-        "difficulty": "easy",
-        "question": "How did Mrs. Gordon suggest naming Black Beauty?",
-        "options": [
-          "After his appearance - black as ebony with a beauty's face",
-          "After a family tradition, a notable element, which was quite significant",
-          "After a famous racehorse, essential to understand",
-          "After a character in a book with hidden secrets of remarkable power"
-        ],
-        "correct_answer": "A",
-        "explanation": "Mrs. Gordon noted he was 'as black as ebony' and had 'such a sweet good-tempered face' so they named him Black Beauty."
-      },
-      {
-        "id": 14,
-        "difficulty": "easy",
-        "question": "What did Black Beauty have on his forehead?",
-        "options": [
-          "A pretty white star",
-          "Nothing special",
-          "A black mark",
-          "A brown stripe"
-        ],
-        "correct_answer": "A",
-        "explanation": "Black Beauty had one white foot and a pretty white star on his forehead."
+        "explanation": "The Dormouse was sitting between them fast asleep and kept dozing off throughout."
       },
       {
         "id": 15,
         "difficulty": "easy",
-        "question": "Who was James Howard?",
-        "options": [
-          "The squire, as revealed in the tale, as revealed in the tale",
-          "The stable boy who later became an assistant coachman",
-          "The doctor, which played a key role with special abilities",
-          "A horse dealer, which was quite significant"
-        ],
-        "correct_answer": "B",
-        "explanation": "James Howard was the stable boy who was just as gentle and pleasant as John Manly in his way."
+        "question": "What did the Mock Turtle used to be?",
+        "options": {
+          "A": "A fish",
+          "B": "A real turtle",
+          "C": "A lobster",
+          "D": "A crab"
+        },
+        "answer": "B",
+        "explanation": "The Mock Turtle said with a deep sigh, 'Once I was a real turtle.'"
       },
       {
         "id": 16,
         "difficulty": "easy",
-        "question": "Why was Black Beauty sent to a farm near a railway for a fortnight?",
-        "options": [
-          "To be sold, as revealed in the tale",
-          "To meet other horses, an important detail",
-          "To rest and recover, which was quite significant",
-          "To learn not to be afraid of trains"
-        ],
-        "correct_answer": "D",
-        "explanation": "The master sent him to get used to trains so he would be fearless at railway stations, which proved to be a great advantage."
+        "question": "What did the Knave of Hearts steal?",
+        "options": {
+          "A": "The Queen's crown",
+          "B": "Some tarts",
+          "C": "The King's watch",
+          "D": "Alice's key"
+        },
+        "answer": "B",
+        "explanation": "The accusation read: 'The Knave of Hearts, he stole those tarts.'"
       },
       {
         "id": 17,
         "difficulty": "easy",
-        "question": "What happened to young George Gordon during the hunt?",
-        "options": [
-          "He caught the hare",
-          "He won the hunt, worth remembering",
-          "He broke his neck and died",
-          "He was injured but recovered"
-        ],
-        "correct_answer": "C",
-        "explanation": "Young George Gordon, the squire's only son, broke his neck during the hunt and died."
+        "question": "How tall was Alice when she was too small to reach the key?",
+        "options": {
+          "A": "Three inches",
+          "B": "Ten inches",
+          "C": "Two feet",
+          "D": "One foot"
+        },
+        "answer": "B",
+        "explanation": "After drinking from the bottle, Alice was only ten inches high."
       },
       {
         "id": 18,
         "difficulty": "easy",
-        "question": "Who was the person that Black Beauty carried on an urgent nighttime ride?",
-        "options": [
-          "Joe Green",
-          "John Manly",
-          "James Howard",
-          "The squire"
-        ],
-        "correct_answer": "B",
-        "explanation": "John Manly rode Black Beauty at full gallop to fetch Dr. White when the mistress fell seriously ill."
+        "question": "Who organized the Caucus Race?",
+        "options": {
+          "A": "The Mouse",
+          "B": "The Duck",
+          "C": "The Dodo",
+          "D": "The Lory"
+        },
+        "answer": "C",
+        "explanation": "The Dodo said 'the best thing is to get us dry would be a Caucus Race' and organized it."
       },
       {
         "id": 19,
         "difficulty": "easy",
-        "question": "What illness did Black Beauty develop after the nighttime ride?",
-        "options": [
-          "A strong inflammation in his lungs",
-          "A fever in his hooves, a notable element",
-          "A broken leg, which was quite significant",
-          "An eye infection, a notable element"
-        ],
-        "correct_answer": "A",
-        "explanation": "A strong inflammation attacked his lungs after Joe Green failed to properly care for him after the hard ride."
+        "question": "What did Alice give as prizes after the Caucus Race?",
+        "options": {
+          "A": "Flowers",
+          "B": "Comfits (candies)",
+          "C": "Coins",
+          "D": "Cakes"
+        },
+        "answer": "B",
+        "explanation": "Alice pulled out a box of comfits from her pocket and handed them round as prizes."
       },
       {
         "id": 20,
         "difficulty": "easy",
-        "question": "What mistake did Joe Green make after the nighttime ride?",
-        "options": [
-          "He gave Black Beauty too much food with vibrant hues",
-          "He did not put a warm cloth on him and gave him cold water",
-          "He forgot to feed him, which played a key role of great importance",
-          "He left the stable door open, according to the story"
-        ],
-        "correct_answer": "B",
-        "explanation": "Joe did not put a warm cloth on Black Beauty when he was hot and steaming, and gave him cold water to drink."
+        "question": "Who was Bill in the story?",
+        "options": {
+          "A": "A frog footman",
+          "B": "A guinea pig",
+          "C": "A lizard",
+          "D": "A fish"
+        },
+        "answer": "C",
+        "explanation": "Bill was a lizard who was sent down the chimney and later was a juror at the trial."
       },
       {
         "id": 21,
         "difficulty": "medium",
-        "question": "What does 'breaking in' a horse mean according to the story?",
-        "options": [
-          "Teaching a horse to jump fences, central to the plot, worth remembering",
-          "Introducing a horse to other animals, a notable element",
-          "Breaking a horse's wild spirit, central to the plot, essential to understand",
-          "Training a horse to wear harness, carry riders, and obey commands"
-        ],
-        "correct_answer": "D",
-        "explanation": "Breaking in means teaching a horse to wear saddle and bridle, carry people, wear harness, pull carts, and follow the driver's commands without having any will of his own."
+        "question": "When Alice drank from the bottle, she found it tasted like ---.",
+        "options": {
+          "A": "water with a hint of lemon",
+          "B": "a mixed flavor of cherry tart, custard, pineapple, roast turkey, toffee, and hot buttered toast",
+          "C": "sweet honey and milk",
+          "D": "bitter medicine with sugar"
+        },
+        "answer": "B",
+        "explanation": "The drink had 'a sort of mixed flavor of cherry tart, custard, pineapple, roast turkey, toffee, and hot buttered toast.'"
       },
       {
         "id": 22,
         "difficulty": "medium",
-        "question": "How did Black Beauty feel about wearing a bit for the first time?",
-        "options": [
-          "He was excited about it, worth remembering with mysterious origins",
-          "He thought it was a nasty thing - cold hard steel in his mouth",
-          "He immediately loved it, as revealed in the tale, according to the story",
-          "He didn't notice it at all, essential to understand, a crucial point"
-        ],
-        "correct_answer": "B",
-        "explanation": "Black Beauty described the bit as 'a nasty thing' - a great piece of cold hard steel pushed into his mouth that he couldn't get rid of."
+        "question": "The Pool of Tears was created when ---.",
+        "options": {
+          "A": "it rained inside the hall",
+          "B": "Alice cried while she was nine feet tall",
+          "C": "the White Rabbit spilled water",
+          "D": "the Caterpillar made it with magic"
+        },
+        "answer": "B",
+        "explanation": "Alice realized 'she was in the pool of tears which she had wept when she was nine feet high.'"
       },
       {
         "id": 23,
         "difficulty": "medium",
-        "question": "What did Ginger say about her early life compared to Black Beauty's?",
-        "options": [
-          "She was never broken in properly, as revealed in the tale, a crucial point",
-          "She never had anyone who was kind to her or that she cared to please",
-          "She had an even better upbringing from the old legends with mysterious origins",
-          "She was always a wild horse, according to the story, essential to understand"
-        ],
-        "correct_answer": "B",
-        "explanation": "Ginger said she never had anyone, horse or man, that was kind to her or that she cared to please - her experience was completely different from Black Beauty's loving upbringing."
+        "question": "The Mouse became angry with Alice because she kept mentioning ---.",
+        "options": {
+          "A": "her sister",
+          "B": "the White Rabbit",
+          "C": "cats and dogs",
+          "D": "food and drink"
+        },
+        "answer": "C",
+        "explanation": "The Mouse got upset when Alice mentioned her cat Dinah and then a dog, saying 'our family always hated cats' and swimming away from talk of dogs."
       },
       {
         "id": 24,
         "difficulty": "medium",
-        "question": "What was special about the little old crooked ostler at the hotel?",
-        "options": [
-          "He was rude to the horses, central to the plot, worth remembering from the ancient times",
-          "He was the slowest worker, a crucial point, a notable element, as revealed in the tale",
-          "He was incredibly quick and thorough at the same time due to 40 years of practice",
-          "He had never worked with horses before, central to the plot, essential to understand"
-        ],
-        "correct_answer": "C",
-        "explanation": "The crooked little ostler said 'practice makes perfect' and demonstrated he was both quick and thorough after 40 years of experience with horses."
+        "question": "The Caterpillar told Alice that one side of the mushroom would make her grow taller and ---.",
+        "options": {
+          "A": "the other side would make her invisible",
+          "B": "the other side would make her grow shorter",
+          "C": "the top would make her fly",
+          "D": "the bottom would make her disappear"
+        },
+        "answer": "B",
+        "explanation": "The Caterpillar said 'One side will make you grow taller, and the other side will make you grow shorter.'"
       },
       {
         "id": 25,
         "difficulty": "medium",
-        "question": "What caused the fire at the inn during James's journey?",
-        "options": [
-          "A knocked-over lantern, which played a key role",
-          "Dick went into the stable with his pipe",
-          "Hay caught fire from the sun, an important detail",
-          "A lightning strike, a crucial point"
-        ],
-        "correct_answer": "B",
-        "explanation": "A man named Dick went into the stable with a pipe in his mouth and must have left it there, causing the fire."
+        "question": "The Pigeon accused Alice of being ---.",
+        "options": {
+          "A": "a thief trying to steal eggs",
+          "B": "a serpent because of her long neck",
+          "C": "a witch from the forest",
+          "D": "a spy for the Queen"
+        },
+        "answer": "B",
+        "explanation": "When Alice's neck stretched very long, the Pigeon screamed 'Serpent!' and accused her of coming to eat eggs."
       },
       {
         "id": 26,
         "difficulty": "medium",
-        "question": "How did James get Black Beauty out of the burning stable?",
-        "options": [
-          "He tied a scarf over Black Beauty's eyes and led him out calmly",
-          "He waited until the fire died down, which played a key role",
-          "He used water to calm him, a notable element, essential to understand",
-          "He dragged him by force, essential to understand, which played a key role"
-        ],
-        "correct_answer": "A",
-        "explanation": "James took the scarf off his neck, tied it lightly over Black Beauty's eyes, and patting and coaxing, led him out safely."
+        "question": "At the Mad Tea Party, the Hatter asked Alice ---.",
+        "options": {
+          "A": "if she wanted more tea",
+          "B": "why a raven is like a writing-desk",
+          "C": "what time it was",
+          "D": "where she came from"
+        },
+        "answer": "B",
+        "explanation": "The Hatter asked 'Why is a raven like a writing-desk?' as a riddle with no answer."
       },
       {
         "id": 27,
         "difficulty": "medium",
-        "question": "What happened to two horses during the stable fire?",
-        "options": [
-          "They jumped through windows, a notable element, which played a key role",
-          "The firemen saved them, which was quite significant",
-          "They were burned to death because they couldn't be led out",
-          "They all escaped safely with bold confidence with remarkable skill"
-        ],
-        "correct_answer": "C",
-        "explanation": "The shrieks of those poor horses that were left burning to death in the stable were dreadful - they couldn't be led out and were buried under burnt rafters."
+        "question": "The Hatter said it was always six o'clock because ---.",
+        "options": {
+          "A": "his watch was broken",
+          "B": "he had quarreled with Time",
+          "C": "the Queen had cursed him",
+          "D": "the March Hare stopped all clocks"
+        },
+        "answer": "B",
+        "explanation": "The Hatter said 'he won't do a thing I ask' about Time, ever since they quarreled at the Queen's concert."
       },
       {
         "id": 28,
         "difficulty": "medium",
-        "question": "What was John Manly's philosophy about helping others?",
-        "options": [
-          "Everybody should look after themselves, an important detail, which was quite significant",
-          "Doing kindness when it's put in your way is important - not just 'number one'",
-          "Only help family members through clever thinking with remarkable skill",
-          "Money should come first, which was quite significant, which was quite significant"
-        ],
-        "correct_answer": "B",
-        "explanation": "John rejected the saying 'look after yourself and take care of number one,' noting that he and his sister would have been in the workhouse if others hadn't helped them."
+        "question": "The gardeners were painting the roses red because ---.",
+        "options": {
+          "A": "the Queen preferred red roses",
+          "B": "they had planted a white rose tree by mistake and would be beheaded if the Queen found out",
+          "C": "there was a painting competition",
+          "D": "white roses were considered unlucky"
+        },
+        "answer": "B",
+        "explanation": "The gardener explained 'this here ought to have been a red-rose tree, and we put a white one in by mistake, and if the Queen was to find out, we should all have our heads cut off.'"
       },
       {
         "id": 29,
         "difficulty": "medium",
-        "question": "Why was Joe Green initially unsuitable to care for Black Beauty after the nighttime ride?",
-        "options": [
-          "He didn't like horses, a notable element",
-          "He was young, small, and inexperienced",
-          "He was afraid of the dark, a crucial point",
-          "He was too old, which played a key role"
-        ],
-        "correct_answer": "B",
-        "explanation": "Joe was only fourteen and a half, small, and hadn't learned enough yet about horse care to know that a hot horse needs warming cloths and shouldn't have cold water."
+        "question": "The Cheshire Cat's most distinctive feature was that it could ---.",
+        "options": {
+          "A": "speak multiple languages",
+          "B": "disappear leaving only its grin behind",
+          "C": "change colors at will",
+          "D": "predict the future"
+        },
+        "answer": "B",
+        "explanation": "The cat 'vanished quite slowly, beginning with the end of the tail and ending with the grin, which remained some time after the rest of it had gone.'"
       },
       {
         "id": 30,
         "difficulty": "medium",
-        "question": "What did John Manly say about ignorance?",
-        "options": [
-          "It only affects young people, as revealed in the tale",
-          "It doesn't matter if you mean well, according to the story",
-          "It's the worst thing in the world next to wickedness",
-          "It's easily excused, a notable element, a crucial point"
-        ],
-        "correct_answer": "C",
-        "explanation": "John said ignorance is 'the worst thing in the world, next to wickedness' and gave examples of how ignorance causes harm even without bad intentions."
+        "question": "The Duchess kept saying everything has ---.",
+        "options": {
+          "A": "a price",
+          "B": "a moral",
+          "C": "a meaning",
+          "D": "a secret"
+        },
+        "answer": "B",
+        "explanation": "The Duchess said 'everything's got a moral, if only you can find it' and kept adding morals to everything."
       },
       {
         "id": 31,
         "difficulty": "medium",
-        "question": "What did John compare Joe's mistake to?",
-        "options": [
-          "A cook burning dinner, worth remembering with hidden secrets from the ancient times",
-          "Martha Mulwash killing a baby with soothing syrups, and Bill Starkey scaring his brother into becoming an idiot",
-          "A farmer losing crops, a crucial point, worth remembering from the ancient times",
-          "A child breaking a toy, according to the story, which played a key role from the ancient times"
-        ],
-        "correct_answer": "B",
-        "explanation": "John compared ignorant mistakes to Martha Mulwash who killed a baby by giving it the wrong medicine, and Bill Starkey who scared his brother into fits by dressing as a ghost."
+        "question": "The Mock Turtle called his teacher 'Tortoise' because ---.",
+        "options": {
+          "A": "he looked like a tortoise",
+          "B": "he was very slow",
+          "C": "he taught us (taught-us sounds like tortoise)",
+          "D": "his name was Mr. Tortoise"
+        },
+        "answer": "C",
+        "explanation": "The Mock Turtle said angrily 'We called him Tortoise because he taught us.'"
       },
       {
         "id": 32,
         "difficulty": "medium",
-        "question": "What special treat did the horses receive on fine Sundays in summer?",
-        "options": [
-          "A bath, a notable element, a crucial point, essential to understand",
-          "Extra food, a notable element, worth remembering",
-          "Being turned out into the paddock or orchard for freedom",
-          "New shoes, a crucial point, central to the plot"
-        ],
-        "correct_answer": "C",
-        "explanation": "On fine Sundays in summer, the horses were turned out into the home paddock or old orchard where they could gallop, lie down, roll, and enjoy freedom."
+        "question": "The subjects at the Mock Turtle's school included ---.",
+        "options": {
+          "A": "reading, writing, and arithmetic",
+          "B": "reeling, writhing, and uglification",
+          "C": "running, swimming, and climbing",
+          "D": "singing, dancing, and painting"
+        },
+        "answer": "B",
+        "explanation": "The Mock Turtle said they learned 'Reeling and Writhing' and 'Ambition, Distraction, Uglification, and Derision.'"
       },
       {
         "id": 33,
         "difficulty": "medium",
-        "question": "Why did Black Beauty miss having liberty?",
-        "options": [
-          "He wanted different food, which was quite significant",
-          "He wanted to return to his mother, essential to understand",
-          "He was used to 3.5 years of freedom before being broken in",
-          "He didn't like his stable, an important detail, a notable element"
-        ],
-        "correct_answer": "C",
-        "explanation": "For three and a half years of his life, Black Beauty had all the liberty he could wish for, but now had to stand in a stable except when wanted for work."
+        "question": "When Alice grew large in the Rabbit's house, the White Rabbit thought she was ---.",
+        "options": {
+          "A": "a giant",
+          "B": "his housemaid Marianne",
+          "C": "a monster",
+          "D": "the Queen in disguise"
+        },
+        "answer": "B",
+        "explanation": "The Rabbit called out 'Why, Marianne, what are you doing out here?' and Alice thought 'He took me for his housemaid.'"
       },
       {
         "id": 34,
         "difficulty": "medium",
-        "question": "What did John Manly do when Black Beauty was 'skittish' or full of high spirits?",
-        "options": [
-          "He kept him locked in the stable, which was quite significant",
-          "He gave him a good gallop to get the 'fidgets' out",
-          "He refused to ride him, which was quite significant",
-          "He punished him with a whip, as revealed in the tale"
-        ],
-        "correct_answer": "B",
-        "explanation": "John would say 'wait a bit and we will have a good swing' and once out of the village, give Black Beauty a few miles at a spanking trot to clear the fidgets."
+        "question": "The Dormouse's story was about three sisters who lived ---.",
+        "options": {
+          "A": "in a castle in the sky",
+          "B": "at the bottom of a well",
+          "C": "inside a giant mushroom",
+          "D": "on a cloud of dreams"
+        },
+        "answer": "B",
+        "explanation": "The Dormouse began: 'Once upon a time there were three little sisters... and they lived at the bottom of a well.'"
       },
       {
         "id": 35,
         "difficulty": "medium",
-        "question": "What happened to John Manly's parents?",
-        "options": [
-          "They sold John to a farmer, a notable element",
-          "They both died of fever within ten days of each other",
-          "They moved to another country, essential to understand",
-          "They lived happily to old age, essential to understand"
-        ],
-        "correct_answer": "B",
-        "explanation": "John's father and mother both died of fever within ten days of each other, leaving him and his crippled sister Nellie alone in the world."
+        "question": "At the trial, when asked for evidence, the cook said tarts are made mostly of ---.",
+        "options": {
+          "A": "butter",
+          "B": "pepper",
+          "C": "sugar",
+          "D": "flour"
+        },
+        "answer": "B",
+        "explanation": "When the King asked 'What are tarts made of?' the cook said 'Pepper, mostly.'"
       },
       {
         "id": 36,
         "difficulty": "medium",
-        "question": "Who helped John and his sister Nellie after their parents died?",
-        "options": [
-          "A wealthy uncle, which played a key role",
-          "Nobody - they were alone",
-          "Squire Gordon, central to the plot",
-          "The mistress and old Norman"
-        ],
-        "correct_answer": "D",
-        "explanation": "The mistress hired a room for Nellie and gave her work, like an angel, while old Norman trained John in the stables like a father."
+        "question": "The King's Rule 42 stated that ---.",
+        "options": {
+          "A": "all witnesses must tell the truth",
+          "B": "no one may speak without permission",
+          "C": "all persons more than a mile high must leave the court",
+          "D": "the Queen's word is final"
+        },
+        "answer": "C",
+        "explanation": "The King read 'Rule Forty-two. All persons more than a mile high to leave the court.'"
       },
       {
         "id": 37,
         "difficulty": "medium",
-        "question": "Why did Joe Green confront a man at the brickyard?",
-        "options": [
-          "The man was flogging two horses unmercifully trying to move a stuck cart",
-          "The man was blocking the road, an important detail, central to the plot",
-          "The man was stealing horses, central to the plot, worth remembering",
-          "The man insulted Joe, an important detail, which played a key role"
-        ],
-        "correct_answer": "A",
-        "explanation": "Joe saw two horses being flogged brutally while trying to pull a cart stuck in mud, and told the man to stop and offered to help lighten the cart."
+        "question": "When Alice kicked Bill up the chimney, the others outside said ---.",
+        "options": {
+          "A": "Call the fire brigade!",
+          "B": "There goes Bill!",
+          "C": "The house is falling!",
+          "D": "Run for your lives!"
+        },
+        "answer": "B",
+        "explanation": "After Alice kicked, she heard a general chorus of 'There goes Bill!'"
       },
       {
         "id": 38,
         "difficulty": "medium",
-        "question": "What did Black Beauty's mother think about the hunt?",
-        "options": [
-          "She thought it was an important tradition, central to the plot, central to the plot, worth remembering",
-          "She couldn't understand why men enjoyed hurting themselves, horses, and tearing up fields for a hare",
-          "She wanted to join the hunt, an important detail, essential to understand, a crucial point",
-          "She loved watching it, according to the story, which was quite significant, a crucial point"
-        ],
-        "correct_answer": "B",
-        "explanation": "Black Beauty's mother said she could never understand why men were so fond of the sport - they often hurt themselves, spoil good horses, and tear up fields all for a hare or fox."
+        "question": "The pebbles thrown at Alice through the window turned into ---.",
+        "options": {
+          "A": "diamonds",
+          "B": "flowers",
+          "C": "little cakes",
+          "D": "butterflies"
+        },
+        "answer": "C",
+        "explanation": "Alice noted 'that the pebbles were all turning into little cakes as they lay on the floor.'"
       },
       {
         "id": 39,
         "difficulty": "medium",
-        "question": "What is a crupper?",
-        "options": [
-          "A piece of the bridle, according to the story",
-          "A covering for the horse's back",
-          "A type of saddle, a crucial point",
-          "A strap that goes under the horse's tail"
-        ],
-        "correct_answer": "D",
-        "explanation": "A crupper is a nasty stiff strap that goes right under the tail. Black Beauty hated having his long tail doubled up and poked through that strap."
+        "question": "The Gryphon told Alice that the Queen ---.",
+        "options": {
+          "A": "was the kindest ruler in the land",
+          "B": "never actually executes anybody",
+          "C": "had magical powers",
+          "D": "was Alice's real mother"
+        },
+        "answer": "B",
+        "explanation": "The Gryphon chuckled and said 'They never execute nobody, you know.'"
       },
       {
         "id": 40,
         "difficulty": "medium",
-        "question": "What are 'blinkers'?",
-        "options": [
-          "Bells on the bridle, essential to understand, an important detail",
-          "Lights on the carriage, central to the plot, a notable element",
-          "Side pieces against the horse's eyes so it can only see straight ahead",
-          "Decorations on the harness, which played a key role from the old legends"
-        ],
-        "correct_answer": "C",
-        "explanation": "Blinkers are great side pieces against the eyes that prevent the horse from seeing to either side - only straight in front."
+        "question": "The Lobster Quadrille was a dance that involved ---.",
+        "options": {
+          "A": "spinning in circles alone",
+          "B": "throwing lobsters into the sea and swimming after them",
+          "C": "hopping on one foot",
+          "D": "dancing with cards"
+        },
+        "answer": "B",
+        "explanation": "The Mock Turtle described throwing lobsters 'as far out to sea as you can' then 'swim after them.'"
       },
       {
         "id": 41,
         "difficulty": "hard",
-        "question": "What deeper message does Black Beauty's mother's advice about good behavior convey?",
-        "options": [
-          "Only horses of noble birth can be well-behaved, which played a key role from the ancient times",
-          "All training is unnecessary, worth remembering with magical properties from the old legends",
-          "Horses should always be wild and free, a crucial point, which was quite significant, essential to understand",
-          "Good breeding and manners matter regardless of circumstances, and one's character is formed by choice"
-        ],
-        "correct_answer": "D",
-        "explanation": "The mother's advice that despite having good breeding, Black Beauty should choose to be gentle and good reflects the book's theme that character is about personal choice and integrity regardless of background."
+        "question": "Why does Alice question her own identity throughout the story?",
+        "options": {
+          "A": "She has amnesia from the fall",
+          "B": "The constant physical changes make her feel like a different person",
+          "C": "The Queen cast a spell on her",
+          "D": "She is pretending to be someone else"
+        },
+        "answer": "B",
+        "explanation": "Alice says 'being so many different sizes in a day is very confusing' and wonders 'who in the world am I?' after her transformations."
       },
       {
         "id": 42,
         "difficulty": "hard",
-        "question": "What does the contrast between Black Beauty's and Ginger's early experiences suggest about the formation of character?",
-        "options": [
-          "Early treatment and kindness profoundly shape one's temperament and ability to trust",
-          "Some horses are born bad, worth remembering from the old legends with mysterious origins",
-          "Character is entirely genetic, which was quite significant, which played a key role",
-          "Training doesn't affect behavior, worth remembering with hidden secrets of great importance"
-        ],
-        "correct_answer": "A",
-        "explanation": "Ginger's bad temper resulted from never having kindness or anyone to care for, while Black Beauty's gentle nature came from loving treatment - showing that early experiences fundamentally shape character."
+        "question": "What does the Caucus Race satirize?",
+        "options": {
+          "A": "Children's games",
+          "B": "Political processes where everyone wins and nothing is accomplished",
+          "C": "Athletic competitions",
+          "D": "School examinations"
+        },
+        "answer": "B",
+        "explanation": "The race has no clear rules, no defined winner ('Everybody has won, and all must have prizes'), satirizing pointless political activities."
       },
       {
         "id": 43,
         "difficulty": "hard",
-        "question": "What social commentary is Anna Sewell making through the hunt scene?",
-        "options": [
-          "Hunting is a necessary activity for survival, an important detail, which was quite significant",
-          "The aristocratic sport causes senseless suffering to animals and humans alike for trivial entertainment",
-          "Only the poor should be allowed to hunt, which played a key role with hidden secrets of remarkable power",
-          "All hunting should be encouraged, which played a key role of remarkable power with magical properties"
-        ],
-        "correct_answer": "B",
-        "explanation": "The scene criticizes aristocratic sport - George Gordon dies, Rob Roy is killed, the hare is torn apart - all for entertainment that could have been achieved 'more easily some other way,' questioning the cruelty of upper-class pastimes."
+        "question": "Why is the Mad Tea Party 'stuck' at six o'clock?",
+        "options": {
+          "A": "The clock is simply broken",
+          "B": "Time has stopped because the Hatter offended Time at the Queen's concert",
+          "C": "They prefer having tea at that time",
+          "D": "The March Hare cast a spell"
+        },
+        "answer": "B",
+        "explanation": "The Hatter quarreled with Time at the Queen's concert, and since then Time won't help him, so 'it's always six o'clock' - always tea-time."
       },
       {
         "id": 44,
         "difficulty": "hard",
-        "question": "What is the significance of John Manly's rule against pipes in the stable?",
-        "options": [
-          "It represents the importance of safety rules and responsible behavior that, when ignored, can lead to tragedy",
-          "Horses don't like the smell, as revealed in the tale, a notable element, which was quite significant",
-          "It was just a personal preference, an important detail, a notable element, which played a key role",
-          "He was allergic to smoke, which played a key role with special abilities with hidden secrets"
-        ],
-        "correct_answer": "A",
-        "explanation": "The fire caused by Dick's pipe demonstrates how ignoring safety rules out of carelessness can lead to devastating consequences - two horses died because one rule was broken."
+        "question": "What is ironic about the Queen's justice system?",
+        "options": {
+          "A": "She is too lenient with criminals",
+          "B": "She orders executions constantly but they are never carried out",
+          "C": "She lets Alice make all the decisions",
+          "D": "She has no real power"
+        },
+        "answer": "B",
+        "explanation": "Despite shouting 'Off with their heads!' constantly, the Gryphon reveals 'They never execute nobody' - her threats are empty."
       },
       {
         "id": 45,
         "difficulty": "hard",
-        "question": "Why does Black Beauty describe the experience of being 'broken in' in such detail?",
-        "options": [
-          "To show how easy it was, essential to understand, according to the story, a crucial point",
-          "Because he enjoyed every moment, central to the plot, essential to understand, according to the story",
-          "To help readers understand the horse's perspective on what humans take for granted as normal training",
-          "To criticize his master, an important detail, worth remembering with special abilities"
-        ],
-        "correct_answer": "C",
-        "explanation": "The detailed description of bits, blinkers, and harness from the horse's uncomfortable perspective helps readers understand that what humans consider routine training is actually experienced as restrictive and initially unpleasant by the horse."
+        "question": "What does Alice's statement 'You're nothing but a pack of cards!' represent?",
+        "options": {
+          "A": "Her fear of the Queen",
+          "B": "Her recognition that the authority figures have no real power over her",
+          "C": "Her confusion about reality",
+          "D": "Her desire to play games"
+        },
+        "answer": "B",
+        "explanation": "Alice finally realizes the threatening figures are just cards with no real authority, showing her growth in confidence and understanding."
       },
       {
         "id": 46,
         "difficulty": "hard",
-        "question": "What parallel does John Manly draw between Joe's mistake and broader social problems?",
-        "options": [
-          "Ignorance in any form - nursing, pranks, gardening - can cause irreversible harm, making education and care essential",
-          "Mistakes are always forgiven, a notable element, central to the plot, central to the plot",
-          "Only horse-related mistakes matter, central to the plot, according to the story, central to the plot",
-          "All young people are careless, central to the plot, as revealed in the tale, according to the story"
-        ],
-        "correct_answer": "A",
-        "explanation": "John uses examples of the nurse who killed a baby, the boy who scared his brother into becoming an idiot, and young ladies killing plants to show how ignorance across all areas causes harm - emphasizing the need for proper knowledge and care."
+        "question": "Why does the Caterpillar's question 'Who are you?' frustrate Alice?",
+        "options": {
+          "A": "She cannot remember her name",
+          "B": "She has changed so much she genuinely doesn't know anymore",
+          "C": "The Caterpillar is being rude",
+          "D": "She is hiding her true identity"
+        },
+        "answer": "B",
+        "explanation": "Alice says 'I hardly know, sir... I know who I was when I got up this morning, but I think I must have been changed several times since then.'"
       },
       {
         "id": 47,
         "difficulty": "hard",
-        "question": "What does the phrase 'only a chance for us' (referring to horses not knowing their future owners) reveal about the book's themes?",
-        "options": [
-          "Horses should run away with unexpected results through careful planning with bold confidence",
-          "All owners are equally good, an important detail, a crucial point, central to the plot",
-          "Horses enjoy uncertainty, which played a key role with special abilities with special abilities",
-          "The vulnerability of horses (and by extension, the powerless) who depend on the moral character of those who control them"
-        ],
-        "correct_answer": "D",
-        "explanation": "This phrase highlights how horses have no control over their fate - they depend entirely on 'chance' to get good or bad owners, reflecting broader themes about power, dependency, and the responsibility of those in authority."
+        "question": "What does the Mock Turtle's sadness despite having 'no sorrow' suggest?",
+        "options": {
+          "A": "He is pretending to be sad",
+          "B": "Emotions in Wonderland are performed rather than genuinely felt",
+          "C": "He has forgotten why he was sad",
+          "D": "The Gryphon is lying about him"
+        },
+        "answer": "B",
+        "explanation": "The Gryphon says 'It's all his fancy, that. He hasn't got no sorrow' - suggesting emotions in Wonderland are theatrical performances."
       },
       {
         "id": 48,
         "difficulty": "hard",
-        "question": "How does the loose box versus common stall distinction reflect themes in the novel?",
-        "options": [
-          "Having freedom and dignity (loose box) versus being restrained (common stall) parallels human social conditions",
-          "All horses prefer the same housing, which was quite significant, as revealed in the tale, worth remembering",
-          "Stall type doesn't affect horses, which played a key role of unusual appearance of great importance",
-          "Loose boxes are only for sick horses, as revealed in the tale, which was quite significant, essential to understand"
-        ],
-        "correct_answer": "A",
-        "explanation": "The loose box represents freedom and dignity while common stalls represent restriction - this mirrors the book's broader commentary on how working conditions affect well-being, whether for horses or Victorian workers."
+        "question": "What criticism of education is made through the Mock Turtle's school?",
+        "options": {
+          "A": "Teachers are not paid enough",
+          "B": "Schools are too expensive",
+          "C": "Education is full of confusing wordplay with questionable practical value",
+          "D": "Students should have longer holidays"
+        },
+        "answer": "C",
+        "explanation": "The punning subjects like 'Reeling and Writhing' instead of 'Reading and Writing' mock how education can be confusing and seemingly meaningless."
       },
       {
         "id": 49,
         "difficulty": "hard",
-        "question": "What is the significance of Black Beauty remembering his mother's advice throughout difficult times?",
-        "options": [
-          "He just had good memory, central to the plot, essential to understand, essential to understand",
-          "It was required by law gleaming mysteriously with vibrant hues with deep intensity",
-          "His mother was famous, according to the story, central to the plot, central to the plot",
-          "Early moral instruction provides guidance and resilience throughout life's challenges"
-        ],
-        "correct_answer": "D",
-        "explanation": "Black Beauty's adherence to his mother's early teachings about being gentle and doing his best helps him maintain dignity through hardships - suggesting that early moral formation provides lasting strength."
+        "question": "What does the trial scene satirize about the justice system?",
+        "options": {
+          "A": "Judges are always fair",
+          "B": "Evidence and logic are often ignored in favor of authority and absurdity",
+          "C": "Criminals always escape punishment",
+          "D": "Juries are very intelligent"
+        },
+        "answer": "B",
+        "explanation": "The trial is absurd: the jury writes before evidence, the Queen wants 'sentence first - verdict afterwards,' and meaningless verses are treated as key evidence."
       },
       {
         "id": 50,
         "difficulty": "hard",
-        "question": "What does John Manly's rejection of 'look after number one' philosophy represent in Victorian context?",
-        "options": [
-          "He was just being polite, worth remembering with special abilities from a distant land",
-          "Agreement with popular thinking, an important detail, an important detail, essential to understand",
-          "A critique of Victorian industrial capitalism's emphasis on self-interest over community responsibility",
-          "Support for individualism, which played a key role from the ancient times of remarkable power"
-        ],
-        "correct_answer": "C",
-        "explanation": "John's passionate rejection of selfishness, backed by his personal story of being helped by others, represents a moral argument against Victorian era's growing emphasis on individual self-interest over community care and mutual aid."
+        "question": "Why does Alice's size constantly change throughout the story?",
+        "options": {
+          "A": "She has a medical condition",
+          "B": "It symbolizes the confusing physical and emotional changes of growing up",
+          "C": "Wonderland has unstable gravity",
+          "D": "The Queen is testing her"
+        },
+        "answer": "B",
+        "explanation": "Alice's size changes represent the confusing experience of childhood, where one feels 'too big' for some things and 'too small' for others."
       },
       {
         "id": 51,
         "difficulty": "hard",
-        "question": "Why does the narrative emphasize that horses 'have no relations' - they never know each other after being sold?",
-        "options": [
-          "To highlight the cruelty of a system that separates families and denies emotional bonds for commercial convenience",
-          "Family bonds don't exist among horses, a notable element, which was quite significant, as revealed in the tale",
-          "It's better for horses not to know, an important detail, which was quite significant, a notable element",
-          "Horses have poor memory, a crucial point, as revealed in the tale, as revealed in the tale"
-        ],
-        "correct_answer": "A",
-        "explanation": "This observation about Rob Roy being Black Beauty's unknown brother criticizes how commercial horse trading breaks family bonds - mirroring concerns about how industrial society separates human families."
+        "question": "What does the Duchess's obsession with finding 'morals' in everything mock?",
+        "options": {
+          "A": "People who read too many books",
+          "B": "The Victorian tendency to attach forced moral lessons to everything",
+          "C": "Religious leaders",
+          "D": "Alice's education"
+        },
+        "answer": "B",
+        "explanation": "The Duchess's forced, nonsensical morals ('the more there is of mine, the less there is of yours') parody Victorian children's literature that insisted every story have a moral."
       },
       {
         "id": 52,
         "difficulty": "hard",
-        "question": "What does the old ostler's statement 'I can tell how a horse is treated, give me the handling of him for twenty minutes' suggest?",
-        "options": [
-          "Ostlers are psychic, as revealed in the tale, worth remembering from the ancient times",
-          "He was exaggerating, central to the plot, an important detail, as revealed in the tale",
-          "Horses can talk to him, which was quite significant, essential to understand, an important detail",
-          "Treatment leaves lasting physical and behavioral marks that experienced observers can read"
-        ],
-        "correct_answer": "D",
-        "explanation": "The ostler's ability to read a horse's treatment from its behavior illustrates that abuse and kindness leave lasting marks - supporting the book's argument that how we treat others has permanent consequences."
+        "question": "Why does Alice check if the bottle is marked 'poison' before drinking?",
+        "options": {
+          "A": "She has been poisoned before",
+          "B": "It shows she applies real-world logic even in an illogical world",
+          "C": "Her sister warned her about strange bottles",
+          "D": "The White Rabbit told her to check"
+        },
+        "answer": "B",
+        "explanation": "Alice 'remembered the simple rules' about not drinking from bottles marked poison, showing she tries to apply sensible childhood rules to Wonderland's nonsense."
       },
       {
         "id": 53,
         "difficulty": "hard",
-        "question": "How does the narrative technique of a horse narrator serve the book's social reform purpose?",
-        "options": [
-          "It defamiliarizes common practices, forcing readers to see animal treatment from the victim's perspective",
-          "Horses can actually write, a crucial point, a notable element, essential to understand",
-          "It was required by publishers with vibrant hues with rich undertones with deep intensity",
-          "It's just entertaining fantasy, as revealed in the tale, which played a key role of great importance"
-        ],
-        "correct_answer": "A",
-        "explanation": "By telling the story from a horse's perspective, Sewell makes readers experience the bit, blinkers, and whip as the horse does - transforming accepted practices into visible cruelty and generating empathy for reform."
+        "question": "What does the Cheshire Cat's statement 'we're all mad here' suggest about Wonderland?",
+        "options": {
+          "A": "Everyone has a mental illness",
+          "B": "Madness is relative and what seems normal depends on where you are",
+          "C": "Only cats are sane",
+          "D": "Alice should leave immediately"
+        },
+        "answer": "B",
+        "explanation": "The Cat suggests madness is the norm in Wonderland, implying that 'sanity' depends on context - Alice is 'mad' by Wonderland standards too."
       },
       {
         "id": 54,
         "difficulty": "hard",
-        "question": "What does the contrast between John Manly and careless grooms represent?",
-        "options": [
-          "Just different work styles, worth remembering of unusual appearance from the ancient times",
-          "Experience versus inexperience only, essential to understand, a notable element, which played a key role",
-          "Regional differences in grooming across the misty valley near the ancient ruins within the castle walls",
-          "The moral difference between treating workers/animals as beings worthy of care versus mere instruments"
-        ],
-        "correct_answer": "D",
-        "explanation": "John's careful attention to tender and ticklish places versus rough grooms who don't care represents the book's central moral distinction between treating dependent beings with dignity versus as mere tools."
+        "question": "Why does the Mouse's 'long and sad tale' become a visual pun?",
+        "options": {
+          "A": "The Mouse is crying while telling it",
+          "B": "Alice confuses 'tale' with 'tail' and imagines it shaped like a mouse's tail",
+          "C": "The story is written in a sad tone",
+          "D": "The Dodo interrupts with jokes"
+        },
+        "answer": "B",
+        "explanation": "Alice looks at the Mouse's tail and mishears 'tale' as 'tail,' imagining the story text curving down the page like a tail."
       },
       {
         "id": 55,
         "difficulty": "hard",
-        "question": "What does Joe Green's evolution from ignorant boy to defender of horses demonstrate?",
-        "options": [
-          "Only adults can help horses in dramatic fashion through sheer willpower with bold confidence",
-          "Proper education and moral development can transform ignorance into active advocacy for the vulnerable",
-          "Boys always improve, according to the story, according to the story, which was quite significant",
-          "Age automatically brings wisdom from the old legends with hidden secrets of great importance"
-        ],
-        "correct_answer": "B",
-        "explanation": "Joe's arc - from nearly killing Black Beauty through ignorance to confronting a man abusing horses and testifying against him - shows how proper moral and practical education creates advocates for the powerless."
+        "question": "What is significant about the Hatter's riddle having no answer?",
+        "options": {
+          "A": "He forgot the answer",
+          "B": "It reflects how Wonderland's logic doesn't require things to make sense",
+          "C": "Alice was supposed to make up the answer",
+          "D": "The March Hare knew the answer but wouldn't tell"
+        },
+        "answer": "B",
+        "explanation": "When Alice asks for the answer, the Hatter says 'I haven't the slightest idea' - in Wonderland, questions don't require sensible answers."
       },
       {
         "id": 56,
         "difficulty": "hard",
-        "question": "Why does the book emphasize that 'blinkers' prevent horses from seeing to either side?",
-        "options": [
-          "Horses prefer it, central to the plot, central to the plot, which was quite significant",
-          "Safety regulations required it shimmering in the light with vibrant hues",
-          "As a metaphor for how limiting perspective creates fear and dependence",
-          "For fashion purposes, a crucial point, essential to understand"
-        ],
-        "correct_answer": "C",
-        "explanation": "The blinkers that literally restrict vision serve as a metaphor for how controlling what others can see creates anxiety and dependence - applicable to both animal welfare and human social conditions."
+        "question": "What is the effect of adults in Wonderland constantly giving Alice contradictory orders?",
+        "options": {
+          "A": "It helps her learn to follow instructions",
+          "B": "It mirrors how children experience adult authority as arbitrary and confusing",
+          "C": "It makes her a better person",
+          "D": "It teaches her to be obedient"
+        },
+        "answer": "B",
+        "explanation": "Alice thinks 'Everybody says come on here... I never was so ordered about in all my life' - reflecting how adult commands can seem random to children."
       },
       {
         "id": 57,
         "difficulty": "hard",
-        "question": "What is the significance of the master waiting until Black Beauty was four years old before selling him?",
-        "options": [
-          "Four was considered unlucky radiating softly glowing faintly glowing faintly",
-          "He couldn't find a buyer earlier, an important detail, according to the story, a notable element",
-          "It was legal requirement, according to the story, worth remembering of great importance",
-          "It demonstrates the principle that young creatures need proper development time before being put to adult work"
-        ],
-        "correct_answer": "D",
-        "explanation": "The master's statement that 'lads ought not to work like men, and colts ought not to work like horses till they were quite grown up' reflects concerns about child labor and the need for proper development before exploitation."
+        "question": "Why does Alice wake up at the moment she defies the Queen?",
+        "options": {
+          "A": "The dream randomly ended",
+          "B": "Her sister woke her up for tea",
+          "C": "Standing up to authority breaks the dream's hold on her",
+          "D": "The cards attacked her"
+        },
+        "answer": "C",
+        "explanation": "Alice wakes when she says 'You're nothing but a pack of cards!' - asserting herself against arbitrary authority ends her passive dreaming state."
       },
       {
         "id": 58,
         "difficulty": "hard",
-        "question": "How does Black Beauty's illness after the nighttime ride function as a plot device for social commentary?",
-        "options": [
-          "It's just dramatic tension, central to the plot, as revealed in the tale, an important detail",
-          "It creates a platform to discuss how ignorance causes harm and the moral responsibility of caregivers",
-          "It was medically accurate only, which played a key role with hidden secrets with special abilities",
-          "Horses often get sick, a crucial point, worth remembering with magical properties"
-        ],
-        "correct_answer": "B",
-        "explanation": "The illness provides John's powerful speech about ignorance being 'the worst thing next to wickedness' - transforming a simple mistake into a lesson about moral responsibility and proper education."
+        "question": "What does the croquet game's chaos represent?",
+        "options": {
+          "A": "Alice's poor athletic skills",
+          "B": "The impossibility of playing by rules when the rules keep changing arbitrarily",
+          "C": "The Queen's love of sports",
+          "D": "English weather problems"
+        },
+        "answer": "B",
+        "explanation": "With live hedgehogs, flamingos, and moving arches, and 'no rules in particular,' the game shows how arbitrary authority makes fair play impossible."
       },
       {
         "id": 59,
         "difficulty": "hard",
-        "question": "What does Merrylegs represent in the social hierarchy of the stable?",
-        "options": [
-          "An unimportant character, central to the plot, a notable element, an important detail",
-          "The cheerful acceptance of one's role combined with wisdom gained through experience and observation",
-          "The highest status horse, which played a key role from the old legends from the ancient times",
-          "A troublemaker, an important detail, which was quite significant, essential to understand"
-        ],
-        "correct_answer": "B",
-        "explanation": "Merrylegs, despite being small and used only for children's riding, demonstrates wisdom ('I am twelve years old, I know a great deal') and contentment - representing how dignity exists independent of social status."
+        "question": "Why does Alice's sister's daydream at the end repeat elements from Alice's adventure?",
+        "options": {
+          "A": "She fell asleep and had the same dream",
+          "B": "It shows how stories and imagination connect people across generations",
+          "C": "Wonderland is a real place both can visit",
+          "D": "She read Alice's diary"
+        },
+        "answer": "B",
+        "explanation": "The sister imagines the same scenes, suggesting how Alice's story (and childhood wonder) will be passed on, keeping 'the simple and loving heart of her childhood.'"
       },
       {
         "id": 60,
         "difficulty": "hard",
-        "question": "What does Black Beauty's whinny that helped Ginger find courage to escape the fire symbolize?",
-        "options": [
-          "Horses are just noisy, as revealed in the tale, which played a key role with special abilities",
-          "Fire makes horses loud, central to the plot, which played a key role with hidden secrets",
-          "The power of connection and communication in crisis - how supporting others can save lives",
-          "Ginger was hard of hearing from the old legends from the ancient times with hidden secrets"
-        ],
-        "correct_answer": "C",
-        "explanation": "Black Beauty's call giving Ginger courage to escape demonstrates how mutual support and connection - calling out to others in distress - can literally save lives, reinforcing themes of community over isolation."
-      }
-    ]
-  },
-  "Magic_of_Oz": {
-    "title": "The Magic of Oz",
-    "author": "L. Frank Baum",
-    "genre": "Fantasy Adventure",
-    "book_level": {
-      "grade": 5,
-      "description": "Upper elementary level - imaginative fantasy with transformation magic, clear villain motivations, and adventure elements"
-    },
-    "total_questions": 60,
-    "questions": [
-      {
-        "id": 1,
-        "difficulty": "easy",
-        "question": "Where is Mount Munch located in the Land of Oz?",
-        "options": [
-          "In the Winkie Country, which was quite significant",
-          "In the Munchkin Country on the east edge of Oz",
-          "In the Quadling Country, according to the story",
-          "In the Emerald City, which played a key role"
-        ],
-        "correct_answer": "B",
-        "explanation": "Mount Munch is located 'on the east edge of the Land of Oz, in the Munchkin Country.'"
-      },
-      {
-        "id": 2,
-        "difficulty": "easy",
-        "question": "What shape is the top of Mount Munch?",
-        "options": [
-          "Pointed like a cone, which played a key role",
-          "Shaped like a saucer, broad and deep",
-          "Round like a ball, a notable element",
-          "Flat like a table, according to the story"
-        ],
-        "correct_answer": "B",
-        "explanation": "The top of Mount Munch is 'shaped like a saucer, broad and deep.'"
-      },
-      {
-        "id": 3,
-        "difficulty": "easy",
-        "question": "What do the people living on Mount Munch call themselves?",
-        "options": [
-          "Hyups",
-          "Munchkins",
-          "Winkies",
-          "Gnomes"
-        ],
-        "correct_answer": "A",
-        "explanation": "The people who live on Mount Munch call themselves 'Hyups.'"
-      },
-      {
-        "id": 4,
-        "difficulty": "easy",
-        "question": "Who is Bini Aru?",
-        "options": [
-          "The king of Oz, which was quite significant",
-          "Kiki's best friend, which played a key role",
-          "A Munchkin farmer, essential to understand",
-          "A wise old Hyup who used to be a sorcerer"
-        ],
-        "correct_answer": "D",
-        "explanation": "Bini Aru is described as 'a wise old Hyup... who used to be a clever sorcerer.'"
-      },
-      {
-        "id": 5,
-        "difficulty": "easy",
-        "question": "What did Ozma decree about magic in Oz?",
-        "options": [
-          "Everyone could practice magic, according to the story, which played a key role",
-          "Only men could practice magic, an important detail, a notable element",
-          "No one could practice magic except Glinda the Good and the Wizard of Oz",
-          "Magic was completely forbidden, which played a key role with hidden secrets"
-        ],
-        "correct_answer": "C",
-        "explanation": "Ozma 'made a decree that no one should practice magic in her dominions except Glinda the Good and the Wizard of Oz.'"
-      },
-      {
-        "id": 6,
-        "difficulty": "easy",
-        "question": "What is the magic word for transformations?",
-        "options": [
-          "Open Sesame, a crucial point",
-          "Pyrzqxgl (Pyres Quicksicle)",
-          "Abracadabra, an important detail",
-          "Alakazam, a notable element"
-        ],
-        "correct_answer": "B",
-        "explanation": "The magic word is 'Pyrzqxgl' which is pronounced 'Pyres Quicksicle.'"
-      },
-      {
-        "id": 7,
-        "difficulty": "easy",
-        "question": "Why was Kiki Aru noted for being cross and disagreeable?",
-        "options": [
-          "He was not happy because he wanted to see the world but his father wouldn't let him",
-          "He was born that way, according to the story, which was quite significant",
-          "He was sick, essential to understand, a crucial point, essential to understand",
-          "He didn't like his mother's cooking, a crucial point, essential to understand"
-        ],
-        "correct_answer": "A",
-        "explanation": "Kiki 'was not happy because he wanted to go down the mountain and visit the big world below, and his father would not let him.'"
-      },
-      {
-        "id": 8,
-        "difficulty": "easy",
-        "question": "How did Kiki discover the magic word?",
-        "options": [
-          "A wizard told him, which played a key role from the old legends",
-          "He read it in a book of unusual appearance with magical properties",
-          "His father taught him, a crucial point, which played a key role",
-          "He found it written on the underside of a loose floorboard"
-        ],
-        "correct_answer": "D",
-        "explanation": "When the board 'slipped from his hand and turned over,' Kiki 'saw something written on the underside of it' describing how to pronounce the magic word."
-      },
-      {
-        "id": 9,
-        "difficulty": "easy",
-        "question": "What was Kiki's first transformation?",
-        "options": [
-          "A fish",
-          "A lion",
-          "A cat",
-          "A hawk"
-        ],
-        "correct_answer": "D",
-        "explanation": "Kiki said 'I want to become a big, strong bird like a hawk' for his first transformation."
-      },
-      {
-        "id": 10,
-        "difficulty": "easy",
-        "question": "What surrounds the Land of Oz?",
-        "options": [
-          "An ocean, as revealed in the tale",
-          "A magical forest near the ancient ruins",
-          "High mountains, worth remembering",
-          "A deadly sandy desert with poisonous fumes"
-        ],
-        "correct_answer": "D",
-        "explanation": "Oz is surrounded by 'the Deadly Sandy Desert that separates the fairy Land of Oz from all the rest of the world' with 'poisonous fumes.'"
-      },
-      {
-        "id": 11,
-        "difficulty": "easy",
-        "question": "Who is Ruggedo?",
-        "options": [
-          "A friendly wizard, a crucial point, a crucial point",
-          "The former Gnome King who was kicked out of his kingdom",
-          "Kiki's father, central to the plot, central to the plot",
-          "The ruler of Oz, according to the story, central to the plot"
-        ],
-        "correct_answer": "B",
-        "explanation": "Ruggedo says 'I used to be the Gnome King, but I got kicked out of my country.'"
-      },
-      {
-        "id": 12,
-        "difficulty": "easy",
-        "question": "What does Ruggedo look like?",
-        "options": [
-          "Crooked with a fat body, thin limbs, bushy white whiskers, and pointed hair",
-          "Tall and thin, as revealed in the tale, a crucial point, an important detail",
-          "Short with red hair with deep intensity glowing faintly with deep intensity",
-          "Young and handsome, a crucial point, an important detail, according to the story"
-        ],
-        "correct_answer": "A",
-        "explanation": "Ruggedo is described as crooked, with 'a fat body and thin legs and arms,' 'bushy white whiskers that came to a point,' and 'white hair that came to a point on top of his head.'"
-      },
-      {
-        "id": 13,
-        "difficulty": "easy",
-        "question": "What is Ruggedo afraid of?",
-        "options": [
-          "Eggs",
-          "Fire",
-          "Water",
-          "Darkness"
-        ],
-        "correct_answer": "A",
-        "explanation": "Ruggedo says 'I'm afraid of 'em - eggs. They are dangerous' with a shudder."
-      },
-      {
-        "id": 14,
-        "difficulty": "easy",
-        "question": "How did Kiki get money when he had none?",
-        "options": [
-          "Ruggedo gave it to him, a notable element",
-          "He transformed into a magpie and stole a gold piece",
-          "He earned it working, essential to understand",
-          "He found it on the ground, central to the plot"
-        ],
-        "correct_answer": "B",
-        "explanation": "Kiki 'transformed himself into a magpie and flying through the open window, caught up one of the gold pieces in his beak.'"
-      },
-      {
-        "id": 15,
-        "difficulty": "easy",
-        "question": "What did Ruggedo carry in his bulging pockets?",
-        "options": [
-          "Books with hidden secrets",
-          "Jewels and precious stones",
-          "Magic tools, which played a key role",
-          "Food, worth remembering"
-        ],
-        "correct_answer": "B",
-        "explanation": "Ruggedo says when he left his kingdom, 'they said I could take as many precious stones as I could carry, so I had a lot of pockets made in my clothes and loaded them all up.'"
-      },
-      {
-        "id": 16,
-        "difficulty": "easy",
-        "question": "Why doesn't Oz use money?",
-        "options": [
-          "They use jewels instead, which played a key role",
-          "The ruler banned it, which was quite significant",
-          "It's too expensive to make, a crucial point, worth remembering",
-          "Everyone is allowed to take what they wish without price"
-        ],
-        "correct_answer": "D",
-        "explanation": "In the Land of Oz 'they do not use money at all, every one being allowed to take what he wishes without price.'"
-      },
-      {
-        "id": 17,
-        "difficulty": "easy",
-        "question": "What is Glinda's Book of Records?",
-        "options": [
-          "A list of all citizens, a crucial point, which played a key role from the old legends",
-          "A history of Oz, which was quite significant, worth remembering with magical properties",
-          "A cookbook of great importance with special abilities from the old legends",
-          "A book that magically records everything people do in Oz the instant they do it"
-        ],
-        "correct_answer": "D",
-        "explanation": "Glinda has 'a Great Book called the Book of Records, in which is magically written everything that people do in the Land of Oz, just the instant they do it.'"
-      },
-      {
-        "id": 18,
-        "difficulty": "easy",
-        "question": "What is Ozma's magic picture?",
-        "options": [
-          "A painting of herself, a notable element, central to the plot",
-          "A picture in which she can see whatever she wishes to see",
-          "A map of Oz, essential to understand, worth remembering",
-          "A photograph, which played a key role with hidden secrets"
-        ],
-        "correct_answer": "B",
-        "explanation": "Ozma has 'a Magic Picture in which she can see whatever she wishes to see.'"
-      },
-      {
-        "id": 19,
-        "difficulty": "easy",
-        "question": "Who is Mopsi Aru?",
-        "options": [
-          "Kiki's mother, famous for making huckleberry pies",
-          "Kiki's sister, worth remembering from a distant land",
-          "Ruggedo's wife, as revealed in the tale",
-          "A Munchkin, which was quite significant"
-        ],
-        "correct_answer": "A",
-        "explanation": "Bini Aru 'had a wife named Mopsi Aru, who was famous for making fine huckleberry pies.'"
-      },
-      {
-        "id": 20,
-        "difficulty": "easy",
-        "question": "Why did Kiki decide to fly away from Oz initially?",
-        "options": [
-          "He feared Glinda or the Wizard might discover and punish him for using magic",
-          "He was looking for treasure, a notable element, an important detail",
-          "He was bored glowing faintly glowing faintly sparkling brilliantly",
-          "His parents told him to leave, a notable element, according to the story"
-        ],
-        "correct_answer": "A",
-        "explanation": "Kiki thought 'Perhaps Glinda or the Wizard of Oz would discover him and punish him, so it would be good policy to keep away from Oz altogether.'"
-      },
-      {
-        "id": 21,
-        "difficulty": "medium",
-        "question": "What is the limitation of the transformation magic word?",
-        "options": [
-          "It only works at night, worth remembering with magical properties from the ancient times",
-          "It requires special tools, a notable element, essential to understand, a crucial point",
-          "You can only transform into things that can talk, otherwise you'd be stuck forever",
-          "It only works once, worth remembering with special abilities of great importance"
-        ],
-        "correct_answer": "C",
-        "explanation": "Kiki explains 'if I transformed myself into a tree, I would always remain a tree, because then I could not utter the magic word' - you can only become things that can speak."
-      },
-      {
-        "id": 22,
-        "difficulty": "medium",
-        "question": "Why did Bini Aru write down the magic word instead of just memorizing it?",
-        "options": [
-          "His wife asked him to, central to the plot, central to the plot, essential to understand",
-          "He couldn't remember things, according to the story, worth remembering",
-          "It was required by law with rich undertones shimmering in the light gleaming mysteriously",
-          "He wanted to preserve the knowledge in case Ozma changed the magic laws someday"
-        ],
-        "correct_answer": "D",
-        "explanation": "Bini Aru 'reflected that Ozma was a girl and sometime might change her mind and allow her subjects to practice magic' so he wanted to preserve the secret."
-      },
-      {
-        "id": 23,
-        "difficulty": "medium",
-        "question": "How does Glinda's Book of Records provide a loophole for the villains' plan?",
-        "options": [
-          "Glinda doesn't read it often, an important detail",
-          "It only works during the day of remarkable power from a distant land",
-          "It's often wrong, a crucial point, which was quite significant",
-          "It only records what people do, not what beasts or birds do"
-        ],
-        "correct_answer": "D",
-        "explanation": "Ruggedo realizes 'The book doesn't make a record of what birds do, or beasts. It only tells the doings of people. So if we fly into the country as birds, Glinda won't know anything about it.'"
-      },
-      {
-        "id": 24,
-        "difficulty": "medium",
-        "question": "What is Ruggedo's plan for conquering Oz?",
-        "options": [
-          "Poison the water supply, central to the plot, which played a key role with hidden secrets",
-          "Steal Ozma's magic, a notable element, an important detail, central to the plot",
-          "Transform into beasts, recruit forest animals, then turn all Oz people into beasts and beasts into people",
-          "Build an army of robots, which played a key role with hidden secrets from a distant land"
-        ],
-        "correct_answer": "C",
-        "explanation": "Ruggedo plans to 'transform all the beasts into men and women' and 'transform all the people of Oz into beasts of various sorts and send them to live in the forests.'"
-      },
-      {
-        "id": 25,
-        "difficulty": "medium",
-        "question": "Why does Kiki refuse to share the magic word with Ruggedo?",
-        "options": [
-          "Ruggedo didn't offer enough jewels, essential to understand",
-          "He forgot it, as revealed in the tale, as revealed in the tale",
-          "He realizes sharing his power would be dangerous to himself",
-          "His father told him not to, which played a key role"
-        ],
-        "correct_answer": "C",
-        "explanation": "Kiki 'realized that to share his power with another would be dangerous to himself.'"
-      },
-      {
-        "id": 26,
-        "difficulty": "medium",
-        "question": "What are both Kiki and Ruggedo secretly planning to do to each other?",
-        "options": [
-          "Help each other escape through careful planning with great determination through sheer willpower",
-          "Become best friends, worth remembering from the old legends from a distant land",
-          "Share everything equally, essential to understand, which played a key role from the old legends",
-          "Each plans to transform the other into something harmless and get rid of them after conquering Oz"
-        ],
-        "correct_answer": "D",
-        "explanation": "Kiki plans to 'transform the old gnome into a marble statue,' while Ruggedo plans to 'transform Kiki Aru into a bundle of faggots and burn him up.'"
-      },
-      {
-        "id": 27,
-        "difficulty": "medium",
-        "question": "What does the narrator say about wicked people trusting each other?",
-        "options": [
-          "They always keep their promises, according to the story",
-          "They trust each other completely",
-          "They are more loyal than good people",
-          "They cannot be trusted even by one another"
-        ],
-        "correct_answer": "D",
-        "explanation": "The narrator states 'This is always the way with wicked people. They cannot be trusted even by one another.'"
-      },
-      {
-        "id": 28,
-        "difficulty": "medium",
-        "question": "How did Kiki prevent Ruggedo from learning the magic word when transforming him?",
-        "options": [
-          "He whispered it with rich undertones shimmering in the light shimmering in the light",
-          "He walked away and transformed Ruggedo from a distance without Ruggedo hearing",
-          "He wrote it down instead of speaking, essential to understand, a notable element",
-          "He made Ruggedo close his eyes, essential to understand, a crucial point"
-        ],
-        "correct_answer": "B",
-        "explanation": "Kiki said 'Remain here for a few minutes, and I'll soon be back' and 'walking swiftly away, he left the gnome standing in the grove' before transforming him."
-      },
-      {
-        "id": 29,
-        "difficulty": "medium",
-        "question": "What did Ruggedo do while Kiki was asleep at the inn?",
-        "options": [
-          "He searched Kiki's room and pockets for magic tools",
-          "He left, according to the story, worth remembering",
-          "He transformed himself with remarkable skill",
-          "He stole jewels, which was quite significant"
-        ],
-        "correct_answer": "A",
-        "explanation": "Ruggedo 'rose softly from his couch, and went into the room of Kiki Aru... and searched everywhere for the magic tool that performed his transformations.'"
-      },
-      {
-        "id": 30,
-        "difficulty": "medium",
-        "question": "Why did the Oz people roll eggs at Ruggedo?",
-        "options": [
-          "As a celebration, an important detail, central to the plot",
-          "They were angry about something else, an important detail",
-          "It was a game, according to the story, an important detail",
-          "Because eggs are dangerous to gnomes and could defeat him"
-        ],
-        "correct_answer": "D",
-        "explanation": "Ruggedo says eggs are 'dreadful' and 'dangerous' to him, and the Oz people 'rolled eggs at me' to defeat him."
-      },
-      {
-        "id": 31,
-        "difficulty": "medium",
-        "question": "What countries did Kiki visit before meeting Ruggedo?",
-        "options": [
-          "Only the Emerald City, worth remembering of unusual appearance",
-          "Highland, Lowland, Merryland, Noland, Kingdom of Ix, and the Land of Ev",
-          "Just Mount Munch, worth remembering with special abilities from the old legends",
-          "Only the desert, an important detail, worth remembering of unusual appearance"
-        ],
-        "correct_answer": "B",
-        "explanation": "Kiki visited 'High Land,' 'Low Land,' 'Merry Land,' 'the kingdom of Noland,' 'the Kingdom of Ix,' and 'the Land of Ev.'"
-      },
-      {
-        "id": 32,
-        "difficulty": "medium",
-        "question": "What does 'abdicate' mean according to Ruggedo?",
-        "options": [
-          "To become king",
-          "To rule wisely",
-          "To be kicked out",
-          "To build a castle"
-        ],
-        "correct_answer": "C",
-        "explanation": "When Kiki asks what 'abdicate' means, Ruggedo says 'It means to be kicked out.'"
-      },
-      {
-        "id": 33,
-        "difficulty": "medium",
-        "question": "Why did Kiki's personality change after leaving Mount Munch?",
-        "options": [
-          "Magic changed him, which played a key role of remarkable power of unusual appearance",
-          "Ruggedo taught him manners, essential to understand, central to the plot, which was quite significant",
-          "Having escaped and found freedom, he was no longer unhappy and thus no longer cross",
-          "He took medicine, a crucial point, essential to understand, a crucial point"
-        ],
-        "correct_answer": "C",
-        "explanation": "Having escaped from his home... the young man was no longer unhappy, and so he was no longer cross and disagreeable.'"
-      },
-      {
-        "id": 34,
-        "difficulty": "medium",
-        "question": "Why is it impossible to kill anyone in Oz?",
-        "options": [
-          "It's a fairy land where death is not possible",
-          "Everyone is immortal, a notable element",
-          "Ozma won't allow it, worth remembering",
-          "There are no weapons, worth remembering"
-        ],
-        "correct_answer": "A",
-        "explanation": "Kiki states 'It is impossible to kill anyone in the Land of Oz' - this is a characteristic of the fairy land."
-      },
-      {
-        "id": 35,
-        "difficulty": "medium",
-        "question": "What did the sparrow witness that made it warn Kiki?",
-        "options": [
-          "Kiki meeting his father, which played a key role from the ancient times",
-          "Kiki transforming into a magpie, stealing gold, and transforming back",
-          "Kiki arguing with Ruggedo, a crucial point, essential to understand",
-          "Kiki flying over the desert with unexpected results with unexpected results"
-        ],
-        "correct_answer": "B",
-        "explanation": "The sparrow says 'I saw you look in the window at the gold, and then make yourself into a magpie and rob the poor man, and then... make the bird into your former shape.'"
-      },
-      {
-        "id": 36,
-        "difficulty": "medium",
-        "question": "How does Kiki respond when the sparrow says he'll be sorry for being wicked?",
-        "options": [
-          "He cries, a crucial point, as revealed in the tale",
-          "He says he doesn't care and is glad to be wicked",
-          "He ignores it, according to the story, essential to understand",
-          "He apologizes, which was quite significant"
-        ],
-        "correct_answer": "B",
-        "explanation": "Kiki says 'I don't care... I didn't know I was being wicked... but if I was, I'm glad of it. I hate good people. I've always wanted to be wicked.'"
-      },
-      {
-        "id": 37,
-        "difficulty": "medium",
-        "question": "What region of Oz do Kiki and Ruggedo plan to base their operations in?",
-        "options": [
-          "The Emerald City, an important detail",
-          "The thick forests of the Gillikin Country",
-          "Mount Munch, a notable element, according to the story",
-          "The Munchkin Country, which played a key role"
-        ],
-        "correct_answer": "B",
-        "explanation": "Ruggedo says 'We'll fly to Oz as birds and settle in one of the thick forests in the Gillikin Country.'"
-      },
-      {
-        "id": 38,
-        "difficulty": "medium",
-        "question": "What does Ruggedo promise Kiki as a reward for helping conquer Oz?",
-        "options": [
-          "To make Kiki the ruler of all Oz while Ruggedo becomes Prime Minister",
-          "Half the jewels, worth remembering from a distant land near the ancient ruins",
-          "A magic wand with special abilities from a distant land within the castle walls",
-          "Return to Mount Munch, a notable element, as revealed in the tale"
-        ],
-        "correct_answer": "A",
-        "explanation": "Ruggedo says 'I'll agree to make you the ruler of all Oz, and I will be your Prime Minister and see that all your orders are obeyed.'"
-      },
-      {
-        "id": 39,
-        "difficulty": "medium",
-        "question": "Where did Kiki hide the paper with the magic word instructions?",
-        "options": [
-          "In his pocket, worth remembering of unusual appearance with mysterious origins",
-          "In his father's room beyond the mountain pass in the northern region",
-          "Under his pillow, an important detail, worth remembering of great importance",
-          "In a tin box in a neglected part of the garden, covered with stones"
-        ],
-        "correct_answer": "D",
-        "explanation": "To make safety doubly sure 'he placed the paper in a tin box in a neglected part of the garden and covered the box with small stones.'"
-      },
-      {
-        "id": 40,
-        "difficulty": "medium",
-        "question": "Who are some of the Oz people that Ruggedo mentions as his enemies?",
-        "options": [
-          "Only Ozma, an important detail, a notable element, which played a key role",
-          "Just the Wizard, worth remembering from a distant land through the enchanted woods",
-          "The Shaggy Man, Scarecrow, Tin Woodman, Dorothy, Ozma, and others",
-          "The Munchkins, worth remembering from the ancient times"
-        ],
-        "correct_answer": "C",
-        "explanation": "Ruggedo asks 'Do you know the Shaggy Man, and the Scarecrow, and the Tin Woodman, and Dorothy, and Ozma, and all the other Oz people?'"
-      },
-      {
-        "id": 41,
-        "difficulty": "hard",
-        "question": "What does L. Frank Baum's foreword suggest about the relationship between fantasy and reality?",
-        "options": [
-          "Fantasy is always better than reality, a crucial point, an important detail",
-          "Real world events have become so marvelous that they rival his fantasy stories",
-          "Fantasy and reality should never mix, an important detail, an important detail",
-          "Reality is boring from the ancient times of great importance from the ancient times"
-        ],
-        "correct_answer": "B",
-        "explanation": "Baum writes 'in the events which have taken place in the last few years in our great outside world, we may find incidents so marvelous and inspiring that I cannot hope to equal them with stories of the Land of Oz.'"
-      },
-      {
-        "id": 42,
-        "difficulty": "hard",
-        "question": "What moral lesson does the relationship between Kiki and Ruggedo illustrate?",
-        "options": [
-          "Crime pays, central to the plot, central to the plot, essential to understand",
-          "Magic solves all problems, a crucial point, as revealed in the tale, a crucial point",
-          "Two villains are better than one, worth remembering from the ancient times",
-          "Evil alliances are inherently unstable because wicked people cannot trust each other"
-        ],
-        "correct_answer": "D",
-        "explanation": "Both plan to betray the other, and the narrator states 'This is always the way with wicked people. They cannot be trusted even by one another.'"
-      },
-      {
-        "id": 43,
-        "difficulty": "hard",
-        "question": "What does Kiki's transformation from unhappy to content after leaving home suggest about his original problems?",
-        "options": [
-          "He didn't really change, as revealed in the tale, as revealed in the tale",
-          "He was born evil, essential to understand, a notable element, which was quite significant",
-          "Magic made him happy, central to the plot, which played a key role with magical properties",
-          "His unhappiness came from external restrictions, not internal character flaws"
-        ],
-        "correct_answer": "D",
-        "explanation": "Once free to explore the world, 'the young man was no longer unhappy, and so he was no longer cross and disagreeable' - his bad temper was caused by being trapped."
-      },
-      {
-        "id": 44,
-        "difficulty": "hard",
-        "question": "What does Ruggedo's description of being 'a pretty good king - to myself' reveal about his character?",
-        "options": [
-          "He was selfish and ruled only for his own benefit, not his people's",
-          "He was modest, according to the story, worth remembering of great importance",
-          "He was democratic, a crucial point, a notable element, worth remembering",
-          "He was a fair ruler, central to the plot, a crucial point"
-        ],
-        "correct_answer": "A",
-        "explanation": "The phrase 'a pretty good king - to myself' reveals his self-serving nature - he ruled for his own benefit rather than his subjects'."
-      },
-      {
-        "id": 45,
-        "difficulty": "hard",
-        "question": "Why does Baum playfully warn readers about pronouncing the magic word correctly?",
-        "options": [
-          "He was superstitious, which was quite significant, an important detail",
-          "To create narrative immersion and make readers feel the magic could be real",
-          "Because it might actually work, central to the plot, an important detail",
-          "Because it's dangerous, central to the plot, essential to understand"
-        ],
-        "correct_answer": "B",
-        "explanation": "Baum's warning 'to be careful not to pronounce Pyrzqxgl the proper way' is a storytelling device that makes readers feel they're sharing in a real magical secret."
-      },
-      {
-        "id": 46,
-        "difficulty": "hard",
-        "question": "What does the loophole in Glinda's Book of Records (not recording animal actions) suggest about magical surveillance systems?",
-        "options": [
-          "Magic is perfect, central to the plot, an important detail, according to the story",
-          "Even powerful magical systems have limitations and can be circumvented",
-          "Animals are more important than people, which played a key role",
-          "Glinda is careless, worth remembering of great importance from the old legends"
-        ],
-        "correct_answer": "B",
-        "explanation": "The fact that the Book only records human actions shows that even sophisticated magical systems have blind spots that clever villains can exploit."
-      },
-      {
-        "id": 47,
-        "difficulty": "hard",
-        "question": "What does the contrast between Oz (no money) and other countries (money required) suggest about Oz as a utopia?",
-        "options": [
-          "Other countries are better, worth remembering from the old legends from the ancient times",
-          "Oz represents an ideal society without economic inequality, where needs are freely met",
-          "Oz is poor, a crucial point, a notable element, which played a key role",
-          "Money is evil, which was quite significant, which was quite significant, worth remembering"
-        ],
-        "correct_answer": "B",
-        "explanation": "In Oz 'everyone is allowed to take what he wishes without price' - contrasting with Kiki's experience elsewhere where he needed money, suggesting Oz as a utopian society."
-      },
-      {
-        "id": 48,
-        "difficulty": "hard",
-        "question": "What does the condition that transformations only work on things that can talk represent thematically?",
-        "options": [
-          "The power of language and speech as essential to identity and agency",
-          "Magic is complicated, which was quite significant, as revealed in the tale",
-          "A random limitation, an important detail, which was quite significant",
-          "Animals are important, as revealed in the tale, essential to understand"
-        ],
-        "correct_answer": "A",
-        "explanation": "The requirement that transformed beings must be able to speak to transform back emphasizes that language/voice is essential to agency and identity."
-      },
-      {
-        "id": 49,
-        "difficulty": "hard",
-        "question": "What does Bini Aru's obedience to Ozma's magic ban, despite never meeting her, suggest about legitimate authority?",
-        "options": [
-          "No one follows rules, which was quite significant, which played a key role",
-          "Authority must be enforced physically, according to the story, central to the plot",
-          "Magic users are weak, essential to understand, which played a key role of unusual appearance",
-          "Legitimate authority can be respected voluntarily when people recognize it as just"
-        ],
-        "correct_answer": "D",
-        "explanation": "Bini Aru 'had never seen Ozma, but he knew she was his ruler and must be obeyed' - showing voluntary respect for legitimate, recognized authority."
-      },
-      {
-        "id": 50,
-        "difficulty": "hard",
-        "question": "How does the villain's plan to swap humans and animals comment on social hierarchies?",
-        "options": [
-          "It doesn't, a crucial point, essential to understand, essential to understand",
-          "It suggests that categories like 'civilized' vs 'beast' are arbitrary and could be reversed",
-          "Only magic matters, an important detail, which was quite significant, according to the story",
-          "Animals are better than people, as revealed in the tale, which was quite significant"
-        ],
-        "correct_answer": "B",
-        "explanation": "The plan to make 'beasts into men and women' and 'people of Oz into beasts' suggests the distinction between them is not natural but a matter of circumstance."
-      },
-      {
-        "id": 51,
-        "difficulty": "hard",
-        "question": "What narrative purpose does Ruggedo's fear of eggs serve?",
-        "options": [
-          "Eggs are sacred with rich undertones with rich undertones gleaming mysteriously",
-          "It establishes his vulnerability and foreshadows how he might eventually be defeated",
-          "Comic relief only, as revealed in the tale, a crucial point, which was quite significant",
-          "He's allergic, which played a key role with special abilities with magical properties"
-        ],
-        "correct_answer": "B",
-        "explanation": "The specific weakness to eggs (which previously helped defeat him) provides both humor and a potential solution to the threat he poses."
-      },
-      {
-        "id": 52,
-        "difficulty": "hard",
-        "question": "What does the phrase 'it's the fashion to kick kings nowadays' reflect about when Baum wrote this?",
-        "options": [
-          "It references the decline of monarchies in the early 20th century, particularly around World War I",
-          "It's pure fantasy, a crucial point, essential to understand, a notable element",
-          "Baum disliked all kings, worth remembering with mysterious origins with magical properties",
-          "Nothing historical, essential to understand, which played a key role of unusual appearance"
-        ],
-        "correct_answer": "A",
-        "explanation": "Written in 1919, this references the fall of monarchies (German, Austrian, Russian empires) during and after World War I."
-      },
-      {
-        "id": 53,
-        "difficulty": "hard",
-        "question": "Why does Kiki memorize the magic word rather than just keeping the paper?",
-        "options": [
-          "His father told him to, as revealed in the tale, according to the story",
-          "He can't read, which played a key role with hidden secrets",
-          "A bird cannot carry paper, so he must memorize it to transform back",
-          "The paper was destroyed, which played a key role of unusual appearance"
-        ],
-        "correct_answer": "C",
-        "explanation": "Kiki realizes 'a bird would have no way to carry a paper with it, and Kiki would be unable to resume his proper shape if he forgot the word.'"
-      },
-      {
-        "id": 54,
-        "difficulty": "hard",
-        "question": "What does the sparrow's role in the story represent?",
-        "options": [
-          "A spy for Ozma, which was quite significant, a crucial point, a crucial point",
-          "Kiki's friend, an important detail, a notable element, a notable element",
-          "A moral conscience warning against wickedness, and a witness to wrongdoing",
-          "Just a random bird, an important detail, as revealed in the tale"
-        ],
-        "correct_answer": "C",
-        "explanation": "The sparrow witnesses Kiki's crime and warns 'You'll be sorry for this' - representing a moral voice that the villains dismiss."
-      },
-      {
-        "id": 55,
-        "difficulty": "hard",
-        "question": "What irony exists in Kiki saying he 'always wanted to be wicked but didn't know how'?",
-        "options": [
-          "He's joking, as revealed in the tale, central to the plot, according to the story",
-          "There's no irony, a crucial point, a notable element, central to the plot",
-          "Wickedness is natural, an important detail, as revealed in the tale, a notable element",
-          "It suggests wickedness must be learned, contradicting the idea that it's innate"
-        ],
-        "correct_answer": "D",
-        "explanation": "Kiki's statement implies wickedness is a skill to be acquired, ironically suggesting his current evil acts are a kind of education in wrongdoing."
-      },
-      {
-        "id": 56,
-        "difficulty": "hard",
-        "question": "What does Ruggedo's failed search for 'magic tools' reveal about his understanding of magic?",
-        "options": [
-          "He expects magic to require physical implements, showing he doesn't understand Kiki's word-based power",
-          "Tools are unnecessary, an important detail, worth remembering of remarkable power",
-          "He's thorough, central to the plot, essential to understand, central to the plot",
-          "He found them, central to the plot, according to the story, essential to understand"
-        ],
-        "correct_answer": "A",
-        "explanation": "Ruggedo 'searched everywhere for the magic tool' because his own magic 'had to have certain tools' - he can't conceive of magic as simply speaking a word."
-      },
-      {
-        "id": 57,
-        "difficulty": "hard",
-        "question": "What does the fact that animals can talk in Oz contribute to the transformation rules?",
-        "options": [
-          "It enables transformations into any creature while maintaining agency, making Oz particularly suited for transformation magic",
-          "Nothing special, a crucial point, according to the story, an important detail",
-          "Only some animals talk, which was quite significant, central to the plot, which played a key role",
-          "It's confusing, essential to understand, essential to understand, essential to understand"
-        ],
-        "correct_answer": "A",
-        "explanation": "Because 'all beasts and birds can talk in the Land of Oz,' one can safely transform into any creature and still speak the word to return."
-      },
-      {
-        "id": 58,
-        "difficulty": "hard",
-        "question": "What does the descriptor 'Royal Historian of Oz' that Baum uses suggest about his relationship to his fictional world?",
-        "options": [
-          "He's joking, central to the plot, a notable element, an important detail",
-          "He visited Oz, essential to understand, a crucial point, which played a key role",
-          "It positions him not as the creator but as a chronicler, enhancing the illusion that Oz is real",
-          "It's his official title, a notable element, a notable element, an important detail"
-        ],
-        "correct_answer": "C",
-        "explanation": "By calling himself 'Royal Historian of Oz,' Baum plays the role of someone recording real events, making the fantasy feel more authentic."
-      },
-      {
-        "id": 59,
-        "difficulty": "hard",
-        "question": "Why does Ruggedo agree to Kiki's condition of not knowing the magic word?",
-        "options": [
-          "He doesn't care about magic, a crucial point, worth remembering",
-          "He trusts Kiki, central to the plot, essential to understand",
-          "He believes he can spy on Kiki and learn the secret anyway",
-          "He gave up, a crucial point, which played a key role"
-        ],
-        "correct_answer": "C",
-        "explanation": "Ruggedo agrees because 'he decided that he could, by careful watching and listening, surprise the boy's secret' - he plans to learn it through espionage."
-      },
-      {
-        "id": 60,
-        "difficulty": "hard",
-        "question": "What thematic significance does Mount Munch's isolation have?",
-        "options": [
-          "It represents how isolation can breed discontent (Kiki's unhappiness) and also preserve secrets (the magic word)",
-          "Mountains are important in Oz, as revealed in the tale, which played a key role with mysterious origins",
-          "It protects the Hyups, essential to understand, a notable element, which played a key role",
-          "It's just geography, which played a key role of unusual appearance of unusual appearance"
-        ],
-        "correct_answer": "A",
-        "explanation": "The isolation makes Kiki unhappy but also allows Bini Aru to keep his magical secret hidden - showing isolation's dual nature as both prison and protection."
+        "question": "What is the ultimate message about childhood in Alice's Adventures in Wonderland?",
+        "options": {
+          "A": "Children should always obey adults",
+          "B": "Childhood is meaningless and should be forgotten",
+          "C": "Childhood wonder and questioning should be preserved even as we grow up",
+          "D": "Dreams are dangerous and should be avoided"
+        },
+        "answer": "C",
+        "explanation": "The ending hopes Alice 'would keep through all her riper years the simple and loving heart of her childhood' - preserving childhood's curious, questioning spirit."
       }
     ]
   },
   "Billionaire_Boy": {
-    "book_title": "Billionaire Boy",
+    "title": "Billionaire Boy",
     "author": "David Walliams",
     "genre": "Comedy, Children's Fiction",
     "book_level": {
       "grade": 4,
-      "description": "Upper elementary level - humorous story with social commentary about wealth and friendship"
+      "description": "Upper elementary level - humorous contemporary fiction about wealth, friendship, and family values"
     },
     "total_questions": 60,
     "questions": [
       {
         "id": 1,
         "difficulty": "easy",
-        "question": "What is the name of the main character in the story?",
+        "question": "What is the main character's full name?",
         "options": {
           "A": "Bob Spud",
           "B": "Joe Spud",
@@ -3201,90 +812,38 @@ const quizData = {
           "D": "Tom Spud"
         },
         "answer": "B",
-        "explanation": "The main character is Joe Spud, a 12-year-old boy who is ridiculously rich."
+        "explanation": "The main character is Joe Spud, a 12-year-old billionaire boy."
       },
       {
         "id": 2,
         "difficulty": "easy",
-        "question": "How old is Joe at the beginning of the story?",
+        "question": "How old is Joe at the start of the story?",
         "options": {
-          "A": "Ten years old",
-          "B": "Eleven years old",
-          "C": "Twelve years old",
-          "D": "Thirteen years old"
+          "A": "10 years old",
+          "B": "11 years old",
+          "C": "12 years old",
+          "D": "13 years old"
         },
         "answer": "C",
-        "explanation": "Joe is 12 years old, as mentioned when he receives his birthday cheque."
+        "explanation": "The text says 'He was only 12, but he was ridiculously, preposterously rich.'"
       },
       {
         "id": 3,
         "difficulty": "easy",
-        "question": "What product made Mr. Spud extremely wealthy?",
+        "question": "What is the name of the product that made Joe's dad rich?",
         "options": {
-          "A": "Toilet paper called Bumfresh",
-          "B": "Shampoo called Hairshine",
-          "C": "Soap called Cleanall",
-          "D": "Toothpaste called Sparkle"
+          "A": "Softroll",
+          "B": "Bumfresh",
+          "C": "Cleanwipe",
+          "D": "Wetwipe"
         },
-        "answer": "A",
-        "explanation": "Mr. Spud invented Bumfresh, a double-sided loo roll that is moist on one side and dry on the other."
+        "answer": "B",
+        "explanation": "Mr Spud invented 'Bumfresh,' a moist toilet tissue roll that made the family billionaires."
       },
       {
         "id": 4,
         "difficulty": "easy",
-        "question": "What is the name of Joe's mansion?",
-        "options": {
-          "A": "Spud Palace",
-          "B": "Bumfresh Towers",
-          "C": "Millionaire Manor",
-          "D": "Golden Gate House"
-        },
-        "answer": "B",
-        "explanation": "Mr. Spud named their enormous stately home 'Bumfresh Towers.'"
-      },
-      {
-        "id": 5,
-        "difficulty": "easy",
-        "question": "What did Joe really want for his birthday instead of money?",
-        "options": {
-          "A": "A new racing car",
-          "B": "More pocket money",
-          "C": "A friend",
-          "D": "A bigger house"
-        },
-        "answer": "C",
-        "explanation": "When asked what he wanted, Joe said 'A friend' because he was lonely despite his wealth."
-      },
-      {
-        "id": 6,
-        "difficulty": "easy",
-        "question": "What was Mr. Spud's job before he became rich?",
-        "options": {
-          "A": "He was a teacher at a local school",
-          "B": "He worked in a loo roll factory",
-          "C": "He was a chef in a restaurant",
-          "D": "He was a banker in the city"
-        },
-        "answer": "B",
-        "explanation": "Mr. Spud worked in a vast loo roll factory, rolling paper around cardboard tubes."
-      },
-      {
-        "id": 7,
-        "difficulty": "easy",
-        "question": "What nickname did the kids at school call Joe?",
-        "options": {
-          "A": "Rich Boy",
-          "B": "Bum-Boy",
-          "C": "Money Man",
-          "D": "Golden Joe"
-        },
-        "answer": "B",
-        "explanation": "The kids at school called Joe 'Bum-Boy' because his father made money from loo rolls."
-      },
-      {
-        "id": 8,
-        "difficulty": "easy",
-        "question": "Who becomes Joe's best friend in the story?",
+        "question": "What is Joe's best friend's name?",
         "options": {
           "A": "Raj",
           "B": "Dave",
@@ -3292,695 +851,747 @@ const quizData = {
           "D": "Alan"
         },
         "answer": "C",
-        "explanation": "Bob becomes Joe's best friend, and they even become stepbrothers later."
+        "explanation": "Bob is the fat boy who becomes Joe's best friend at his new school."
+      },
+      {
+        "id": 5,
+        "difficulty": "easy",
+        "question": "What did Mr Spud's job involve before he became rich?",
+        "options": {
+          "A": "Making cars",
+          "B": "Rolling loo roll paper",
+          "C": "Selling newspapers",
+          "D": "Teaching school"
+        },
+        "answer": "B",
+        "explanation": "Mr Spud 'had to roll the paper around the cardboard inner tube' at a loo roll factory."
+      },
+      {
+        "id": 6,
+        "difficulty": "easy",
+        "question": "What is the name of the posh school Joe used to attend?",
+        "options": {
+          "A": "St. Peter's School",
+          "B": "St. Cuthbert's School for Boys",
+          "C": "Westminster Academy",
+          "D": "Royal Boys School"
+        },
+        "answer": "B",
+        "explanation": "Joe attended 'St. Cuthbert's School for Boys' which cost £200,000 a term."
+      },
+      {
+        "id": 7,
+        "difficulty": "easy",
+        "question": "Who runs the local newsagent shop?",
+        "options": {
+          "A": "Bob",
+          "B": "Mr Spud",
+          "C": "Raj",
+          "D": "Mrs Trafe"
+        },
+        "answer": "C",
+        "explanation": "Raj runs the local newsagent shop where the boys go to buy chocolate."
+      },
+      {
+        "id": 8,
+        "difficulty": "easy",
+        "question": "What are the names of the twin bullies?",
+        "options": {
+          "A": "Tom and Jerry",
+          "B": "Dave and Sue Grub",
+          "C": "Pete and Kate",
+          "D": "Jim and Jane"
+        },
+        "answer": "B",
+        "explanation": "The Grubs are twin bullies named Dave and Sue Grub."
       },
       {
         "id": 9,
         "difficulty": "easy",
-        "question": "What does Raj do for a living?",
-        "options": {
-          "A": "He is a teacher",
-          "B": "He runs a newsagent's shop",
-          "C": "He is a doctor",
-          "D": "He drives a taxi"
-        },
-        "answer": "B",
-        "explanation": "Raj is a newsagent who runs a shop on Bolsover Street."
-      },
-      {
-        "id": 10,
-        "difficulty": "easy",
-        "question": "How much pocket money did Joe receive each week?",
-        "options": {
-          "A": "£10,000 per week",
-          "B": "£50,000 per week",
-          "C": "£100,000 per week",
-          "D": "£200,000 per week"
-        },
-        "answer": "C",
-        "explanation": "Joe received £100,000 a week pocket money, showing just how rich his family was."
-      },
-      {
-        "id": 11,
-        "difficulty": "easy",
-        "question": "What was the name of the dinner lady at school?",
-        "options": {
-          "A": "Mrs. Trafe",
-          "B": "Mrs. Spite",
-          "C": "Mrs. Dust",
-          "D": "Mrs. Sharp"
-        },
-        "answer": "A",
-        "explanation": "Mrs. Trafe was the dinner lady whose cooking was truly revolting."
-      },
-      {
-        "id": 12,
-        "difficulty": "easy",
-        "question": "What happened to everyone's bottom because of Bumfresh?",
-        "options": {
-          "A": "It turned green",
-          "B": "It turned purple",
-          "C": "It turned blue",
-          "D": "It turned red"
-        },
-        "answer": "B",
-        "explanation": "The Bumfresh scandal caused everyone's bottom to turn purple, including the Queen's."
-      },
-      {
-        "id": 13,
-        "difficulty": "easy",
-        "question": "What was the name of Joe's posh school?",
-        "options": {
-          "A": "St. Peter's Academy",
-          "B": "St. Cuthbert's School for Boys",
-          "C": "Wellington College",
-          "D": "Eton House School"
-        },
-        "answer": "B",
-        "explanation": "Joe attended St. Cuthbert's School for Boys, which cost £200,000 a term."
-      },
-      {
-        "id": 14,
-        "difficulty": "easy",
-        "question": "Who were the Grubs?",
-        "options": {
-          "A": "Joe's pet insects",
-          "B": "Bullying twins at school",
-          "C": "Friendly classmates",
-          "D": "Teachers at school"
-        },
-        "answer": "B",
-        "explanation": "The Grubs were bullying twins named Dave and Sue who terrorized other students."
-      },
-      {
-        "id": 15,
-        "difficulty": "easy",
-        "question": "What did Mr. Spud use to make presents for Joe when they were poor?",
-        "options": {
-          "A": "Old newspapers",
-          "B": "Cardboard boxes",
-          "C": "Loo roll inner tubes",
-          "D": "Plastic bottles"
-        },
-        "answer": "C",
-        "explanation": "When the family was poor, Mr. Spud made birthday and Christmas presents from loo roll inner tubes."
-      },
-      {
-        "id": 16,
-        "difficulty": "easy",
-        "question": "What happened to Joe's mother?",
-        "options": {
-          "A": "She passed away from illness",
-          "B": "She ran away with Alan, the Cub Scout leader",
-          "C": "She stayed with the family",
-          "D": "She moved to another country alone"
-        },
-        "answer": "B",
-        "explanation": "Joe's mum, Carol, had an affair with his Cub Scout leader Alan and took a £10 billion divorce settlement."
-      },
-      {
-        "id": 17,
-        "difficulty": "easy",
-        "question": "What did Joe save from his room when the bailiffs came?",
-        "options": {
-          "A": "His expensive watch",
-          "B": "A loo roll space rocket",
-          "C": "His gold sunglasses",
-          "D": "His computer games"
-        },
-        "answer": "B",
-        "explanation": "Joe saved a sad-looking little loo roll space rocket that his dad had made for him when they were poor."
-      },
-      {
-        "id": 18,
-        "difficulty": "easy",
-        "question": "What is the name of Mr. Spud's girlfriend who left when he lost his money?",
-        "options": {
-          "A": "Lauren",
-          "B": "Carol",
-          "C": "Sapphire",
-          "D": "Diamond"
-        },
-        "answer": "C",
-        "explanation": "Sapphire left hurriedly when Mr. Spud lost all his money, taking a suitcase full of banknotes."
-      },
-      {
-        "id": 19,
-        "difficulty": "easy",
-        "question": "What special feature did Bumfresh loo roll have?",
-        "options": {
-          "A": "It was made of silk",
-          "B": "It was moist on one side and dry on the other",
-          "C": "It came in different colors",
-          "D": "It had a nice smell"
-        },
-        "answer": "B",
-        "explanation": "Bumfresh was revolutionary because it was moist on one side and dry on the other."
-      },
-      {
-        "id": 20,
-        "difficulty": "easy",
-        "question": "What food did Bob's mum make that Mr. Spud loved?",
-        "options": {
-          "A": "Fish and chips",
-          "B": "Roast chicken",
-          "C": "Shepherd's pie",
-          "D": "Spaghetti bolognese"
-        },
-        "answer": "C",
-        "explanation": "Mr. Spud loved Bob's mum's shepherd's pie so much that he married her and now has it every night."
-      },
-      {
-        "id": 21,
-        "difficulty": "medium",
-        "question": "Why did Joe leave his posh school St. Cuthbert's?",
-        "options": {
-          "A": "He was expelled for bad behavior",
-          "B": "The school closed down suddenly",
-          "C": "He wanted to attend a normal school to make real friends",
-          "D": "His father could no longer afford the fees"
-        },
-        "answer": "C",
-        "explanation": "Joe wanted to leave the posh school because he was bullied there and wanted to find real friends at a normal school."
-      },
-      {
-        "id": 22,
-        "difficulty": "medium",
-        "question": "What did Mrs. Trafe offer as a vegetarian option?",
-        "options": {
-          "A": "A salad with fresh vegetables",
-          "B": "A brick cutlet",
-          "C": "A cheese sandwich",
-          "D": "A vegetable curry"
-        },
-        "answer": "B",
-        "explanation": "Mrs. Trafe's vegetarian option was a brick cutlet, showing how terrible her cooking was."
-      },
-      {
-        "id": 23,
-        "difficulty": "medium",
-        "question": "How many rolls of Bumfresh did Mr. Spud sell around the world every day?",
-        "options": {
-          "A": "A million rolls",
-          "B": "A billion rolls",
-          "C": "A hundred million rolls",
-          "D": "Ten million rolls"
-        },
-        "answer": "B",
-        "explanation": "Mr. Spud sold a billion rolls around the world every day, making 10p on each one."
-      },
-      {
-        "id": 24,
-        "difficulty": "medium",
-        "question": "What did the boys at St. Cuthbert's have to wear?",
-        "options": {
-          "A": "Modern school uniforms",
-          "B": "Elizabethan ruffs and tights",
-          "C": "Casual clothes",
-          "D": "Medieval armor"
-        },
-        "answer": "B",
-        "explanation": "The boys at St. Cuthbert's had to wear Elizabethan ruffs and tights as their uniform."
-      },
-      {
-        "id": 25,
-        "difficulty": "medium",
-        "question": "Why was Joe's money considered 'new money' by the posh kids?",
-        "options": {
-          "A": "Because it was freshly printed",
-          "B": "Because it came from selling loo rolls, not from owning land for generations",
-          "C": "Because his dad just won the lottery",
-          "D": "Because it was in a new bank account"
-        },
-        "answer": "B",
-        "explanation": "New money from selling loo rolls didn't count as respectable to the posh kids whose families had made their fortunes from owning lots of land for generations."
-      },
-      {
-        "id": 26,
-        "difficulty": "medium",
-        "question": "What was 'soup of the day' on Wednesday at the school canteen?",
-        "options": {
-          "A": "Cream of tomato soup",
-          "B": "Cream of hedgehog",
-          "C": "Vegetable soup",
-          "D": "Chicken noodle soup"
-        },
-        "answer": "B",
-        "explanation": "On Wednesday, the soup of the day was 'cream of hedgehog,' showing how disgusting Mrs. Trafe's cooking was."
-      },
-      {
-        "id": 27,
-        "difficulty": "medium",
-        "question": "What newspaper headline appeared about Mr. Spud's scandal?",
-        "options": {
-          "A": "Queen has baboon's bum",
-          "B": "Spud wins award",
-          "C": "Bumfresh is wonderful",
-          "D": "Spud becomes king"
-        },
-        "answer": "A",
-        "explanation": "The Daily Mail headline was 'Queen has baboon's bum' referring to the purple bottom scandal."
-      },
-      {
-        "id": 28,
-        "difficulty": "medium",
-        "question": "What vehicle did Raj use to transport Joe?",
-        "options": {
-          "A": "A luxury car",
-          "B": "A delivery tricycle (Rajmobile)",
-          "C": "A motorcycle",
-          "D": "A helicopter"
-        },
-        "answer": "B",
-        "explanation": "Raj used his delivery tricycle, called the Rajmobile, to transport Joe."
-      },
-      {
-        "id": 29,
-        "difficulty": "medium",
-        "question": "What happened to the Grubs at the end of the story?",
-        "options": {
-          "A": "They became Joe's friends",
-          "B": "They were sent to a boot camp in America for juvenile delinquents",
-          "C": "They graduated with honors",
-          "D": "They moved to another school"
-        },
-        "answer": "B",
-        "explanation": "The Grubs were sent to a boot camp in America for juvenile delinquents."
-      },
-      {
-        "id": 30,
-        "difficulty": "medium",
-        "question": "How many bathrooms did Bumfresh Towers have?",
-        "options": {
-          "A": "47 bathrooms",
-          "B": "67 bathrooms",
-          "C": "89 bathrooms",
-          "D": "99 bathrooms"
-        },
-        "answer": "C",
-        "explanation": "Bumfresh Towers had 89 bathrooms, and even the bathrooms had ensuite bathrooms."
-      },
-      {
-        "id": 31,
-        "difficulty": "medium",
-        "question": "What did Joe have in his back garden?",
-        "options": {
-          "A": "A simple swimming pool",
-          "B": "A Grand Prix racetrack and a roller coaster",
-          "C": "A tennis court only",
-          "D": "A small playground"
-        },
-        "answer": "B",
-        "explanation": "Joe had a Grand Prix racetrack and a roller coaster in his back garden."
-      },
-      {
-        "id": 32,
-        "difficulty": "medium",
-        "question": "Who was Otis?",
-        "options": {
-          "A": "Joe's teacher",
-          "B": "An orangutan butler",
-          "C": "Joe's driver",
-          "D": "The family chef"
-        },
-        "answer": "B",
-        "explanation": "Otis was an orangutan who worked as a butler for the Spud family, but he had to be given the sack."
-      },
-      {
-        "id": 33,
-        "difficulty": "medium",
-        "question": "What was Mrs. Trafe's dessert on Friday?",
-        "options": {
-          "A": "Chocolate cake",
-          "B": "Apple pie",
-          "C": "Mouse mousse",
-          "D": "Ice cream sundae"
-        },
-        "answer": "C",
-        "explanation": "On Friday, the dessert was 'mouse mousse,' continuing the theme of disgusting food."
-      },
-      {
-        "id": 34,
-        "difficulty": "medium",
-        "question": "What did Miss Spite, the history teacher, smell like?",
-        "options": {
-          "A": "Fresh flowers",
-          "B": "Rotten cabbage",
-          "C": "Expensive perfume",
-          "D": "Nothing at all"
-        },
-        "answer": "B",
-        "explanation": "Miss Spite smelled of rotten cabbage, and that was the nicest thing about her."
-      },
-      {
-        "id": 35,
-        "difficulty": "medium",
-        "question": "How much did it cost per term at St. Cuthbert's School?",
-        "options": {
-          "A": "£100,000 per term",
-          "B": "£150,000 per term",
-          "C": "£200,000 per term",
-          "D": "£250,000 per term"
-        },
-        "answer": "C",
-        "explanation": "St. Cuthbert's School for Boys cost £200,000 a term."
-      },
-      {
-        "id": 36,
-        "difficulty": "medium",
-        "question": "What was special about the taps in Bumfresh Towers?",
-        "options": {
-          "A": "They were made of silver",
-          "B": "They were solid gold",
-          "C": "They were made of diamond",
-          "D": "They were voice-activated"
-        },
-        "answer": "B",
-        "explanation": "All the taps, door handles, and even toilet seats were solid gold."
-      },
-      {
-        "id": 37,
-        "difficulty": "medium",
-        "question": "How much money did Joe's mother take in the divorce settlement?",
-        "options": {
-          "A": "£5 billion",
-          "B": "£8 billion",
-          "C": "£10 billion",
-          "D": "£15 billion"
-        },
-        "answer": "C",
-        "explanation": "Carol took a £10 billion divorce settlement when she left with Alan."
-      },
-      {
-        "id": 38,
-        "difficulty": "medium",
-        "question": "What offer did Raj make to the journalists outside Bumfresh Towers?",
-        "options": {
-          "A": "Free newspapers for everyone",
-          "B": "Buy ten packets of Frazzles, get one free",
-          "C": "Half-price candy bars",
-          "D": "Free magazines"
-        },
-        "answer": "B",
-        "explanation": "Raj told the journalists about a special offer on Frazzles: buy ten packets, get one free."
-      },
-      {
-        "id": 39,
-        "difficulty": "medium",
         "question": "What did Joe crash at the beginning of the story?",
         "options": {
-          "A": "A helicopter",
-          "B": "A yacht",
+          "A": "A bicycle",
+          "B": "A golf buggy",
           "C": "A Formula One racing car",
           "D": "A speedboat"
         },
         "answer": "C",
-        "explanation": "Joe crashed his Formula One racing car because he was trying to unwrap a Mars bar while driving."
+        "explanation": "Joe crashes his Formula One car while trying to eat a Mars bar and drive at the same time."
+      },
+      {
+        "id": 10,
+        "difficulty": "easy",
+        "question": "How much pocket money does Joe get per week?",
+        "options": {
+          "A": "£1,000",
+          "B": "£10,000",
+          "C": "£100,000",
+          "D": "£1,000,000"
+        },
+        "answer": "C",
+        "explanation": "The text lists '£100,000 a week pocket money' among Joe's possessions."
+      },
+      {
+        "id": 11,
+        "difficulty": "easy",
+        "question": "What is the dinner lady's name?",
+        "options": {
+          "A": "Mrs Spite",
+          "B": "Mrs Trafe",
+          "C": "Mrs Cook",
+          "D": "Mrs Grub"
+        },
+        "answer": "B",
+        "explanation": "Mrs Trafe is the dinner lady whose cooking is described as truly revolting."
+      },
+      {
+        "id": 12,
+        "difficulty": "easy",
+        "question": "What did Mr Spud put on his bald head?",
+        "options": {
+          "A": "A hat",
+          "B": "A wig",
+          "C": "A toupee",
+          "D": "Nothing"
+        },
+        "answer": "C",
+        "explanation": "Mr Spud bought toupees for £10,000 each, including blonde, brown, ginger and afro options."
+      },
+      {
+        "id": 13,
+        "difficulty": "easy",
+        "question": "What is the name of their enormous house?",
+        "options": {
+          "A": "Spud Manor",
+          "B": "Fresh Bum Towers",
+          "C": "Billionaire House",
+          "D": "Rich Palace"
+        },
+        "answer": "B",
+        "explanation": "Mr Spud named their house 'Fresh Bum Towers' after his product."
+      },
+      {
+        "id": 14,
+        "difficulty": "easy",
+        "question": "What chocolate bar does Joe buy for Bob at Raj's shop?",
+        "options": {
+          "A": "Mars bar",
+          "B": "Snickers",
+          "C": "Cadbury's Dairy Milk",
+          "D": "Kit Kat"
+        },
+        "answer": "C",
+        "explanation": "Bob chooses 'a giant bar of Cadbury's Dairy Milk' which costs £3.20."
+      },
+      {
+        "id": 15,
+        "difficulty": "easy",
+        "question": "What happened to Bob's dad?",
+        "options": {
+          "A": "He moved away",
+          "B": "He died of cancer",
+          "C": "He got a new job",
+          "D": "He went to prison"
+        },
+        "answer": "B",
+        "explanation": "Bob tells Joe 'My dad died last year' from cancer."
+      },
+      {
+        "id": 16,
+        "difficulty": "easy",
+        "question": "What is the history teacher's nickname?",
+        "options": {
+          "A": "The Monster",
+          "B": "The Dragon",
+          "C": "The Witch",
+          "D": "The Beast"
+        },
+        "answer": "C",
+        "explanation": "Miss Spite is called 'the Witch' by the students."
+      },
+      {
+        "id": 17,
+        "difficulty": "easy",
+        "question": "How much did Mr Spud give Joe for his 12th birthday?",
+        "options": {
+          "A": "One hundred pounds",
+          "B": "One thousand pounds",
+          "C": "One million pounds",
+          "D": "Two million pounds"
+        },
+        "answer": "D",
+        "explanation": "Mr Spud initially gave one million but increased it to two million when Joe complained."
+      },
+      {
+        "id": 18,
+        "difficulty": "easy",
+        "question": "Where did Bob's parents meet?",
+        "options": {
+          "A": "At school",
+          "B": "At Tesco",
+          "C": "At a party",
+          "D": "At church"
+        },
+        "answer": "B",
+        "explanation": "Bob's mum 'works at Tesco, on the checkout. That's where she met my dad.'"
+      },
+      {
+        "id": 19,
+        "difficulty": "easy",
+        "question": "What animal did the Spuds have as a butler for a while?",
+        "options": {
+          "A": "A gorilla",
+          "B": "An orangutan",
+          "C": "A chimpanzee",
+          "D": "A monkey"
+        },
+        "answer": "B",
+        "explanation": "They 'even had a butler called Otis who was also an orangutan.'"
+      },
+      {
+        "id": 20,
+        "difficulty": "easy",
+        "question": "What does Joe really want for his birthday?",
+        "options": {
+          "A": "A new car",
+          "B": "More money",
+          "C": "A friend",
+          "D": "A bigger house"
+        },
+        "answer": "C",
+        "explanation": "When asked what he wants, Joe says 'A friend.'"
+      },
+      {
+        "id": 21,
+        "difficulty": "medium",
+        "question": "According to the story, Joe was quite fat because ---.",
+        "options": {
+          "A": "he never exercised",
+          "B": "he could buy all the chocolate in the world",
+          "C": "he ate too much fast food",
+          "D": "he had a medical condition"
+        },
+        "answer": "B",
+        "explanation": "The text states 'He was quite fat, you see. Well, you would be, wouldn't you, if you could buy all the chocolate in the world.'"
+      },
+      {
+        "id": 22,
+        "difficulty": "medium",
+        "question": "At St Cuthbert's School, the posh kids bullied Joe because ---.",
+        "options": {
+          "A": "he was poor",
+          "B": "his dad made money from loo rolls which was considered vulgar",
+          "C": "he wasn't smart enough",
+          "D": "he couldn't play sports"
+        },
+        "answer": "B",
+        "explanation": "The posh kids called Joe names like 'Bum-Boy' because 'his dad had made his money out of loo rolls. They said that was awfully vulgar.'"
+      },
+      {
+        "id": 23,
+        "difficulty": "medium",
+        "question": "Joe didn't arrive at his new school in a Rolls-Royce because ---.",
+        "options": {
+          "A": "the car was broken",
+          "B": "he wanted to walk for exercise",
+          "C": "he didn't want the other kids to know he was rich",
+          "D": "his dad wouldn't let him"
+        },
+        "answer": "C",
+        "explanation": "He didn't want to arrive by Rolls-Royce because 'That would be a pretty good hint to the other kids that he was rich.'"
+      },
+      {
+        "id": 24,
+        "difficulty": "medium",
+        "question": "During cross-country running, Joe paid Bob fifty pounds because ---.",
+        "options": {
+          "A": "Bob won the race",
+          "B": "Joe wanted Bob to come last so Joe wouldn't be last",
+          "C": "Bob needed money for food",
+          "D": "Joe felt sorry for Bob"
+        },
+        "answer": "B",
+        "explanation": "Joe had a stitch and didn't want to be last, so he paid Bob fifty pounds to 'come last.'"
+      },
+      {
+        "id": 25,
+        "difficulty": "medium",
+        "question": "Mr Spud invented Freshbum while working at the factory because ---.",
+        "options": {
+          "A": "his boss asked him to",
+          "B": "he had lots of time to daydream during his boring job",
+          "C": "he studied chemistry",
+          "D": "another worker gave him the idea"
+        },
+        "answer": "B",
+        "explanation": "The text says 'The only good thing about working in a factory was that Mr Spud had lots of time to daydream. One day, he had a daydream that was to revolutionize bottom wiping forever.'"
+      },
+      {
+        "id": 26,
+        "difficulty": "medium",
+        "question": "When Joe's parents split up, his mother Carol left because ---.",
+        "options": {
+          "A": "she was unhappy with the money",
+          "B": "she had been having an affair with Joe's Cub Scout leader",
+          "C": "Mr Spud was too busy working",
+          "D": "she wanted to travel alone"
+        },
+        "answer": "B",
+        "explanation": "Carol 'had been having a torrid affair with Joe's Cub Scout leader, Alan.'"
+      },
+      {
+        "id": 27,
+        "difficulty": "medium",
+        "question": "Raj recognized Joe from a magazine because ---.",
+        "options": {
+          "A": "Joe had been on TV",
+          "B": "Joe's photo was in the Sunday Times rich list as Britain's richest child",
+          "C": "Raj knew Mr Spud personally",
+          "D": "Joe was famous at school"
+        },
+        "answer": "B",
+        "explanation": "Raj found the Sunday Times rich list showing 'Britain's richest children, number one, Joe Spud, age twelve, Freshbum heir, estimated worth ten billion.'"
+      },
+      {
+        "id": 28,
+        "difficulty": "medium",
+        "question": "The Grubs threw Bob into a wheelie bin because ---.",
+        "options": {
+          "A": "Bob owed them money",
+          "B": "they wanted to steal his chocolate",
+          "C": "Bob insulted them",
+          "D": "it was a school tradition"
+        },
+        "answer": "B",
+        "explanation": "The Grubs demanded 'Give us your chocolate' and after taking it, 'they deposited him into the wheelie bin.'"
+      },
+      {
+        "id": 29,
+        "difficulty": "medium",
+        "question": "Bob didn't tell anyone about the bullying because ---.",
+        "options": {
+          "A": "he thought it was funny",
+          "B": "he didn't know who to tell",
+          "C": "the Grubs threatened to really beat him up if he told",
+          "D": "the teachers already knew"
+        },
+        "answer": "C",
+        "explanation": "Bob said 'The Grubs said if I ever told anyone that they would really beat me up. They know where I live.'"
+      },
+      {
+        "id": 30,
+        "difficulty": "medium",
+        "question": "When Bob found out Joe was a billionaire, he gave back the fifty pounds because ---.",
+        "options": {
+          "A": "he was angry at Joe",
+          "B": "he didn't care about money, he just liked hanging out with Joe",
+          "C": "he felt guilty taking it",
+          "D": "Joe asked for it back"
+        },
+        "answer": "B",
+        "explanation": "Bob said 'I don't want your money... I just liked hanging out with you today.'"
+      },
+      {
+        "id": 31,
+        "difficulty": "medium",
+        "question": "No one ate in the school canteen because ---.",
+        "options": {
+          "A": "the food was too expensive",
+          "B": "Mrs Trafe's cooking was truly revolting",
+          "C": "the Grubs controlled the canteen",
+          "D": "it was always closed"
+        },
+        "answer": "B",
+        "explanation": "The text says 'The kids in the school would rather die than eat anything she cooked.'"
+      },
+      {
+        "id": 32,
+        "difficulty": "medium",
+        "question": "Mr Spud used to make birthday presents for Joe from loo roll inner tubes because ---.",
+        "options": {
+          "A": "Joe loved crafts",
+          "B": "the family was so poor they couldn't afford real toys",
+          "C": "it was a family tradition",
+          "D": "Joe asked for them"
+        },
+        "answer": "B",
+        "explanation": "The text explains 'Because the family was so poor, Mr Spud used to make birthday and Christmas presents for his son from the loo roll inner tubes.'"
+      },
+      {
+        "id": 33,
+        "difficulty": "medium",
+        "question": "Joe wanted to attend a normal school because ---.",
+        "options": {
+          "A": "he hated learning",
+          "B": "the posh school was too far away",
+          "C": "he hoped to make friends and be treated like a normal kid",
+          "D": "his dad couldn't afford St Cuthbert's anymore"
+        },
+        "answer": "C",
+        "explanation": "Joe says 'I want to go to a normal school with normal kids. I want to make a friend, Dad.'"
+      },
+      {
+        "id": 34,
+        "difficulty": "medium",
+        "question": "The Spuds' house was so large that ---.",
+        "options": {
+          "A": "it took five minutes just to drive up the driveway",
+          "B": "Joe often got lost",
+          "C": "they needed helicopters to travel inside",
+          "D": "it required 100 servants"
+        },
+        "answer": "A",
+        "explanation": "The text says 'It took five minutes just to motor up the drive.'"
+      },
+      {
+        "id": 35,
+        "difficulty": "medium",
+        "question": "Joe couldn't get on the bus because ---.",
+        "options": {
+          "A": "he didn't know which bus to take",
+          "B": "the driver wouldn't accept a £50 note for a £2 fare",
+          "C": "he missed the bus",
+          "D": "he was too fat to fit"
+        },
+        "answer": "B",
+        "explanation": "'Joe hadn't realised that a £50 note was not going to be welcome to pay for a £2 bus fare and had to get off the bus.'"
+      },
+      {
+        "id": 36,
+        "difficulty": "medium",
+        "question": "Bob's mum works two jobs as a Tesco checkout worker and ---.",
+        "options": {
+          "A": "a teacher",
+          "B": "a cleaner at an old people's home",
+          "C": "a nurse",
+          "D": "a cook"
+        },
+        "answer": "B",
+        "explanation": "Bob says 'She's got another job too. She's a cleaner at an old people's home in the evenings.'"
+      },
+      {
+        "id": 37,
+        "difficulty": "medium",
+        "question": "When Miss Spite discovered Joe didn't have his homework, she gave him ---.",
+        "options": {
+          "A": "detention for a week",
+          "B": "15 minutes to get his essay brought to school",
+          "C": "a failing grade immediately",
+          "D": "extra homework as punishment"
+        },
+        "answer": "B",
+        "explanation": "Miss Spite says 'I will give you 15 minutes exactly to place said essay in my hand.'"
+      },
+      {
+        "id": 38,
+        "difficulty": "medium",
+        "question": "At cross-country running, Bob appeared in his vest and Y-fronts because ---.",
+        "options": {
+          "A": "he forgot his kit at home",
+          "B": "someone had hidden his running kit",
+          "C": "he was trying to be funny",
+          "D": "it was a dare"
+        },
+        "answer": "B",
+        "explanation": "When Mr Bruce asked about his kit, Bob answered 'Someone must have hidden it, sir.'"
+      },
+      {
+        "id": 39,
+        "difficulty": "medium",
+        "question": "The kids at school chanted 'Blob' at Bob because ---.",
+        "options": {
+          "A": "it was his nickname making fun of his weight",
+          "B": "it was his real name",
+          "C": "he liked the name",
+          "D": "the teachers started it"
+        },
+        "answer": "A",
+        "explanation": "The kids cruelly chanted 'Blob, blob, blob' as Bob finished last in cross-country, mocking him."
       },
       {
         "id": 40,
         "difficulty": "medium",
-        "question": "What was the cheque amount that Joe had saved but never cashed?",
+        "question": "According to the Sunday Times rich list, Joe's estimated worth was ---.",
         "options": {
-          "A": "One million pounds",
-          "B": "Two million pounds",
-          "C": "Five million pounds",
-          "D": "Ten million pounds"
+          "A": "one billion pounds",
+          "B": "five billion pounds",
+          "C": "ten billion pounds",
+          "D": "one hundred billion pounds"
         },
-        "answer": "B",
-        "explanation": "Joe had a cheque for two million pounds that he never paid in."
+        "answer": "C",
+        "explanation": "The magazine listed 'Joe Spud, age twelve, Freshbum heir, estimated worth ten billion.'"
       },
       {
         "id": 41,
         "difficulty": "hard",
-        "question": "What does the story suggest about the relationship between money and happiness?",
+        "question": "What does Joe's list of possessions (100-inch TVs, 500 trainers, crocodiles, etc.) reveal about wealth?",
         "options": {
-          "A": "Money always brings happiness",
-          "B": "Money can buy everything you need",
-          "C": "All that money never really made them happy",
-          "D": "Poor people are always unhappy"
+          "A": "That money can buy happiness",
+          "B": "That having endless material possessions doesn't guarantee friendship or happiness",
+          "C": "That rich people are always happy",
+          "D": "That everyone should want to be rich"
         },
-        "answer": "C",
-        "explanation": "The story shows that despite having everything money could buy, Joe was lonely and unhappy. His dad says 'All that money never really made us happy, did it?'"
+        "answer": "B",
+        "explanation": "Despite having everything money can buy, Joe has no friends and is lonely, showing material wealth doesn't equal happiness."
       },
       {
         "id": 42,
         "difficulty": "hard",
-        "question": "What is ironic about Joe being bullied at St. Cuthbert's despite his wealth?",
+        "question": "Why is it significant that Joe and Bob both ended up last in cross-country running?",
         "options": {
-          "A": "Rich kids usually protect each other",
-          "B": "Mr. Spud expected expensive schools to prevent bullying, showing money doesn't solve everything",
-          "C": "The teachers encouraged bullying",
-          "D": "Joe's father was also bullied there"
+          "A": "It shows they are both bad at sports",
+          "B": "It becomes a bonding experience that starts their friendship based on shared experience rather than money",
+          "C": "It proves the PE teacher was unfair",
+          "D": "It means they should both quit school"
         },
         "answer": "B",
-        "explanation": "Mr. Spud was shocked because he thought bullying 'was something that happened to poor people,' but Joe was bullied even at the most expensive school."
+        "explanation": "The shared experience of struggling together creates the foundation for their friendship, which is based on understanding rather than wealth."
       },
       {
         "id": 43,
         "difficulty": "hard",
-        "question": "Why did Joe value the loo roll rocket more than all his expensive possessions?",
+        "question": "What does the contrast between St Cuthbert's and the local comprehensive school represent?",
         "options": {
-          "A": "It was made of rare materials",
-          "B": "It was made with love and reminded him of when his father cared more about him",
-          "C": "It was worth a lot of money secretly",
-          "D": "His mother had given it to him"
+          "A": "The quality of education",
+          "B": "The difference between class-based exclusion and genuine human connection",
+          "C": "That posh schools are always bad",
+          "D": "That public schools are better"
         },
         "answer": "B",
-        "explanation": "Joe said 'It was made with love, and it means more to me than all that expensive stuff you bought me,' showing he valued the emotional connection over material goods."
+        "explanation": "At St Cuthbert's, Joe was bullied for being 'new money,' but at the comprehensive, he could find genuine friendship based on personality rather than social class."
       },
       {
         "id": 44,
         "difficulty": "hard",
-        "question": "What does the concept of 'old money' versus 'new money' in the story satirize?",
+        "question": "What theme is illustrated by Bob returning the fifty pounds after learning Joe is a billionaire?",
         "options": {
-          "A": "The differences between currencies",
-          "B": "Social class snobbery and arbitrary distinctions about how wealth is acquired",
-          "C": "Banking regulations",
-          "D": "Economic inflation"
+          "A": "That poor people don't want money",
+          "B": "That true friendship values the person over their wealth",
+          "C": "That Bob was too proud",
+          "D": "That money causes problems"
         },
         "answer": "B",
-        "explanation": "The story mocks class snobbery by showing how the posh kids looked down on Joe's 'new money' from loo rolls while considering land-based wealth more respectable, despite both being forms of wealth."
+        "explanation": "Bob's refusal shows he values Joe for who he is, not what he has, demonstrating the story's theme about authentic friendship."
       },
       {
         "id": 45,
         "difficulty": "hard",
-        "question": "What narrative purpose does Mrs. Trafe's disgusting food serve in the story?",
+        "question": "What is ironic about Mr Spud insisting on eating expensive food like caviar despite hating it?",
         "options": {
-          "A": "It provides realistic school lunch descriptions",
-          "B": "It shows that money can buy good food",
-          "C": "It creates comedy while contrasting Joe's wealthy lifestyle with the reality of ordinary school life",
-          "D": "It teaches children about nutrition"
+          "A": "Rich people always love expensive food",
+          "B": "He's trying to appear wealthy by adopting behaviors he thinks rich people do, even when it makes him unhappy",
+          "C": "Caviar is actually delicious",
+          "D": "He's on a special diet"
         },
-        "answer": "C",
-        "explanation": "Mrs. Trafe's absurdly disgusting food provides humor while also showing that Joe's regular school experience is very different from his privileged home life."
+        "answer": "B",
+        "explanation": "Mr Spud admits caviar is 'absolutely disgusting' but says 'we are rich, son. We have to eat all this posh stuff now,' showing how wealth can disconnect people from genuine enjoyment."
       },
       {
         "id": 46,
         "difficulty": "hard",
-        "question": "What does Sapphire's behavior when Mr. Spud loses his money reveal about her character?",
+        "question": "Why is it significant that Bob's dad used to joke about going into Tesco for milk but leaving with a wife?",
         "options": {
-          "A": "She truly loved Mr. Spud",
-          "B": "She was only interested in his wealth and left immediately when the money was gone",
-          "C": "She wanted to help rebuild the business",
-          "D": "She was too heartbroken to stay"
+          "A": "It shows he was funny",
+          "B": "It represents how genuine love can develop from ordinary circumstances, contrasting with Mr Spud's superficial relationships",
+          "C": "It proves shopping is dangerous",
+          "D": "It shows he was irresponsible"
         },
         "answer": "B",
-        "explanation": "Sapphire immediately fled with a suitcase of money when Mr. Spud lost his fortune, showing she was only interested in his wealth, not him."
+        "explanation": "This contrasts with Mr Spud dating Page Three girls for their looks, showing the difference between authentic love and superficial relationships bought with money."
       },
       {
         "id": 47,
         "difficulty": "hard",
-        "question": "How does the ending of the story reinforce its main theme?",
+        "question": "What does Mrs Trafe's revolting menu (gerbils on toast, hair lasagna, etc.) add to the story's humor?",
         "options": {
-          "A": "Joe becomes even richer than before",
-          "B": "Joe finds happiness through family and friendship despite losing wealth",
-          "C": "Joe moves to another country",
-          "D": "Joe decides to become a businessman"
+          "A": "It makes fun of school food",
+          "B": "It uses absurd exaggeration to create comedy while showing the boys can bond over shared experiences",
+          "C": "It's meant to be taken seriously",
+          "D": "It shows the school needs more funding"
         },
         "answer": "B",
-        "explanation": "The ending shows Joe and his dad finding happiness through genuine relationships (Bob's family, shepherd's pie, the loo roll rocket) rather than material wealth."
+        "explanation": "The ridiculously gross menu uses hyperbole for comic effect while creating another shared experience for Joe and Bob to bond over."
       },
       {
         "id": 48,
         "difficulty": "hard",
-        "question": "What is significant about Joe saying 'I behaved like a spoiled brat at times'?",
+        "question": "What does Joe's decision to hide his wealth at the new school reveal about his character?",
         "options": {
-          "A": "He is blaming his father",
-          "B": "He is showing character growth by acknowledging his own flaws",
-          "C": "He is making excuses",
-          "D": "He is trying to get more money"
+          "A": "He is ashamed of being rich",
+          "B": "He understands that money creates artificial relationships and wants to be valued for himself",
+          "C": "He wants to trick people",
+          "D": "He thinks being poor is better"
         },
         "answer": "B",
-        "explanation": "This shows Joe's character development - he learns to recognize how his wealth affected his behavior and takes responsibility for it."
+        "explanation": "Joe learned from St Cuthbert's that money affects how people treat him, so he wants a fresh start where he can be judged on his personality."
       },
       {
         "id": 49,
         "difficulty": "hard",
-        "question": "What satirical point does the Queen's 'anus horribilis' comment at the end make?",
+        "question": "What is the significance of Joe's dad buying toupees that make him look like he has 'a dead rodent on his head'?",
         "options": {
-          "A": "The Queen loves Latin phrases",
-          "B": "It parodies the Queen's famous 'annus horribilis' speech while connecting to the purple bottom scandal",
-          "C": "The Queen is a grammar expert",
-          "D": "Royal speeches are always about bottoms"
+          "A": "He has poor taste",
+          "B": "Money can't buy authenticity or self-acceptance, and trying to appear different than you are looks foolish",
+          "C": "Toupees are always bad",
+          "D": "He should have bought more expensive ones"
         },
         "answer": "B",
-        "explanation": "This is a pun on Queen Elizabeth II's famous 'annus horribilis' speech, humorously adapted to reference the purple bottom scandal."
+        "explanation": "The toupee symbolizes how wealth is used to mask insecurities, but the result is ridiculous rather than convincing."
       },
       {
         "id": 50,
         "difficulty": "hard",
-        "question": "What does Bob's friendship with Joe demonstrate about true friendship?",
+        "question": "Why might Bob's advice that 'the best way to beat bullies is to stand up to them' be both wise and problematic?",
         "options": {
-          "A": "Friends should only be from similar backgrounds",
-          "B": "Real friendship is based on who you are, not what you have",
-          "C": "Rich people make better friends",
-          "D": "Friendship requires money"
+          "A": "It's always the right approach",
+          "B": "While it shows courage, the reality is that standing up to the Grubs could get Bob seriously hurt, highlighting the gap between ideal advice and practical reality",
+          "C": "Bullies always back down",
+          "D": "It means fighting back violently"
         },
         "answer": "B",
-        "explanation": "Bob befriended Joe when he pretended to be ordinary, showing that genuine friendship is based on personality and connection, not wealth."
+        "explanation": "The advice is morally sound but practically dangerous for Bob, which is why Joe thinks there might be 'another way' using his resources."
       },
       {
         "id": 51,
         "difficulty": "hard",
-        "question": "What is the symbolic meaning of the cheque that Joe never cashed?",
+        "question": "What does the book suggest about 'old money' versus 'new money' through the attitudes at St Cuthbert's?",
         "options": {
-          "A": "Joe is bad with money",
-          "B": "Money saved in time of plenty could have helped in crisis, but Joe's not cashing it shows he valued connection over wealth",
-          "C": "Banks are unreliable",
-          "D": "Cheques are old-fashioned"
+          "A": "Old money is always better",
+          "B": "Class prejudice exists even among the wealthy, with inherited wealth looking down on earned wealth",
+          "C": "New money is more respectable",
+          "D": "There is no real difference"
         },
         "answer": "B",
-        "explanation": "Joe keeping the cheque unused symbolizes how he subconsciously valued non-material things, and Mr. Spud says he's 'pleased' Joe didn't cash it because 'all that money never really made us happy.'"
+        "explanation": "The posh boys with inherited wealth consider Joe's earned fortune 'vulgar,' showing that class snobbery creates hierarchies even among the rich."
       },
       {
         "id": 52,
         "difficulty": "hard",
-        "question": "Why is it significant that the story ends with the Spud family eating shepherd's pie every night?",
+        "question": "What does the detail about the orangutan butler 'Otis' who 'had to be given the sack' suggest about the Spuds' lifestyle?",
         "options": {
-          "A": "It shows they can only afford cheap food",
-          "B": "Shepherd's pie represents simple family happiness, replacing their former extravagant but empty lifestyle",
-          "C": "They don't know how to cook anything else",
-          "D": "Bob's mum only knows one recipe"
+          "A": "They love animals",
+          "B": "Their wealth has led to absurd, thoughtless decisions that don't work out practically",
+          "C": "Orangutans make good butlers",
+          "D": "They needed more staff"
         },
         "answer": "B",
-        "explanation": "The daily shepherd's pie represents ordinary family love and routine, contrasting with their former wealthy but unhappy lifestyle."
+        "explanation": "Having an orangutan butler is an example of ridiculous extravagance that was impractical, showing how extreme wealth leads to absurd choices."
       },
       {
         "id": 53,
         "difficulty": "hard",
-        "question": "What commentary does David Walliams make about celebrity through Sapphire's character?",
+        "question": "Why is it significant that Joe kept a 'sad-looking little loo roll space rocket' his dad made when they were poor?",
         "options": {
-          "A": "Celebrities are always kind people",
-          "B": "Page Three girls make the best wives",
-          "C": "Relationships based on fame and money are shallow and won't last through hardship",
-          "D": "All celebrities are trustworthy"
+          "A": "He collects space things",
+          "B": "It represents a connection to a time when love was expressed through effort rather than money",
+          "C": "He forgot to throw it away",
+          "D": "It's worth money now"
         },
-        "answer": "C",
-        "explanation": "Sapphire represents shallow celebrity relationships - she was one of an 'endless parade of Page Three girls' and fled when the money disappeared, showing such relationships lack genuine connection."
+        "answer": "B",
+        "explanation": "The homemade gift represents the authentic parent-child bond from before wealth, contrasting with the £2 million birthday check."
       },
       {
         "id": 54,
         "difficulty": "hard",
-        "question": "What does Mr. Spud's transformation from factory worker to billionaire and back suggest?",
+        "question": "What does Miss Spite's love of teacher catchphrases reveal about her character?",
         "options": {
-          "A": "Hard work never pays off",
-          "B": "Fortune is unpredictable, but what matters is family and relationships",
-          "C": "Factory work is the best job",
-          "D": "Everyone should invent loo rolls"
+          "A": "She is a good teacher",
+          "B": "She enjoys power and control, using authority phrases for her own satisfaction rather than students' benefit",
+          "C": "All teachers use catchphrases",
+          "D": "She is just following rules"
         },
         "answer": "B",
-        "explanation": "Mr. Spud's journey shows that wealth can come and go, but the relationships he builds (with Joe, eventually with Bob's family) are what truly matter."
+        "explanation": "Miss Spite uses catchphrases with 'evil relish' and is 'desperate for someone to have failed,' showing she enjoys punishing students rather than teaching them."
       },
       {
         "id": 55,
         "difficulty": "hard",
-        "question": "Why does Joe initially hide his wealth when he starts at the new school?",
+        "question": "What is the effect of making one of the Grub twins female but having them be indistinguishable?",
         "options": {
-          "A": "He's embarrassed about loo rolls",
-          "B": "His dad told him to",
-          "C": "He wants to be liked for himself, not his money, after experiencing rejection at St. Cuthbert's",
-          "D": "The school has rules against rich students"
+          "A": "It's a mistake in the story",
+          "B": "It creates comedy while commenting on how bullying behavior makes people seem inhuman and identical",
+          "C": "It shows twins are always identical",
+          "D": "It doesn't mean anything"
         },
-        "answer": "C",
-        "explanation": "Joe's experience of being bullied as 'Bum-Boy' at St. Cuthbert's taught him that revealing his wealth led to negative treatment, so he wanted a fresh start."
+        "answer": "B",
+        "explanation": "The joke that Dave and Sue are indistinguishable despite being different genders uses absurdity to dehumanize the bullies while creating humor."
       },
       {
         "id": 56,
         "difficulty": "hard",
-        "question": "What is ironic about the items Joe had 'on his list' at the beginning?",
+        "question": "What does Joe's guilt about paying Bob to come last, and his desire to 'make up for it,' reveal about his development?",
         "options": {
-          "A": "He actually wanted more things",
-          "B": "Despite having everything (robot dog, IMAX cinema, crocodiles), he had zero friends",
-          "C": "The items were all broken",
-          "D": "His father never bought them"
+          "A": "He's manipulative",
+          "B": "He's learning that real friendship isn't transactional and wants to help Bob genuinely",
+          "C": "He wants to control Bob",
+          "D": "He regrets losing money"
         },
         "answer": "B",
-        "explanation": "The irony is that Joe had incredible material possessions (even two crocodiles) but 'Friends: Cross' - showing wealth couldn't buy what he truly needed."
+        "explanation": "Joe feels guilty about using money to solve problems and wants to help Bob with the bullies in a way that demonstrates genuine friendship."
       },
       {
         "id": 57,
         "difficulty": "hard",
-        "question": "How does the postscript reinforce the story's optimistic message?",
+        "question": "What social commentary does the story make through Mr Spud dating 'Sapphire, 19, from Essex'?",
         "options": {
-          "A": "Everyone becomes rich again",
-          "B": "Joe moves to another country",
-          "C": "The characters find happiness through relationships rather than regaining wealth",
-          "D": "The Grubs apologize"
+          "A": "Age doesn't matter in relationships",
+          "B": "Wealth attracts superficial relationships where both parties may be using each other for status",
+          "C": "He should date older women",
+          "D": "Page Three models are all the same"
         },
-        "answer": "C",
-        "explanation": "The postscript shows happy endings based on relationships (marriage, stepbrothers) rather than wealth - even Mr. Spud and Raj's business ideas haven't made them any money, but they're happy."
+        "answer": "B",
+        "explanation": "The 27-year age gap and Sapphire's description ('likes shopping, hates thinking') suggests wealth attracts relationships based on status rather than genuine connection."
       },
       {
         "id": 58,
         "difficulty": "hard",
-        "question": "What does the top ten list of 'teachers' catchphrases' reveal about David Walliams' writing style?",
+        "question": "Why does the author include the detail that Joe 'had spent so long living a life of wealth and privilege' that he wondered how to 'fit in with these kids'?",
         "options": {
-          "A": "He doesn't like teachers",
-          "B": "He uses observational humor that children can relate to",
-          "C": "He copies other writers",
-          "D": "He was a teacher himself"
+          "A": "To show Joe is better than other kids",
+          "B": "To highlight how wealth can isolate people from normal experiences and create social anxiety",
+          "C": "To prove rich kids can't make friends",
+          "D": "To show public schools are scary"
         },
         "answer": "B",
-        "explanation": "The catchphrase list shows Walliams' skill at observational humor - these are phrases children recognize from real life, making the story relatable and funny."
+        "explanation": "This shows how extreme wealth creates isolation and makes normal social interactions feel unfamiliar and challenging."
       },
       {
         "id": 59,
         "difficulty": "hard",
-        "question": "What parallel exists between Mr. Spud's daydreaming at the factory and Joe's loneliness?",
+        "question": "What is the deeper meaning of Joe asking for a 'friend' as his birthday present?",
         "options": {
-          "A": "Both hate their jobs",
-          "B": "Both father and son yearned for something more meaningful than their circumstances provided",
-          "C": "Neither can make friends",
-          "D": "Both love loo rolls"
+          "A": "He's greedy and wants more",
+          "B": "It reveals that the one thing money cannot buy is genuine human connection",
+          "C": "He doesn't know what he wants",
+          "D": "Friends can be bought"
         },
         "answer": "B",
-        "explanation": "Mr. Spud daydreamed of escape while doing boring factory work, just as Joe yearned for real friendship despite having everything material - showing a parallel desire for meaningful purpose."
+        "explanation": "Despite having unlimited money, Joe cannot purchase the thing he most wants, highlighting the story's central theme about money's limitations."
       },
       {
         "id": 60,
         "difficulty": "hard",
-        "question": "What is the deeper meaning of Mr. Spud saying 'I love you too, son' after initially saying 'Ditto'?",
+        "question": "What is the overall message of Billionaire Boy about wealth and happiness?",
         "options": {
-          "A": "He doesn't know the word 'love'",
-          "B": "He's correcting himself to express genuine emotion rather than a casual response, showing his growth",
-          "C": "Ditto means something different",
-          "D": "He's confused about words"
+          "A": "Being rich is always terrible",
+          "B": "Money provides material comfort but cannot replace genuine human relationships, kindness, and being valued for who you are",
+          "C": "Poor people are always happier",
+          "D": "Everyone should give away their money"
         },
         "answer": "B",
-        "explanation": "By changing from 'Ditto' to actually saying 'I love you too, son,' Mr. Spud shows he's learned to express genuine emotion rather than hiding behind casual responses - part of both characters' growth."
+        "explanation": "The story shows that while poverty has hardships (like Bob's family), wealth without authentic relationships and identity leads to loneliness and dissatisfaction."
       }
     ]
   },
   "Biscuit_Wants_to_Play": {
-    "book_title": "Biscuit Wants to Play",
+    "title": "Biscuit Wants to Play",
     "author": "Alyssa Satin Capucilli",
     "genre": "Early Reader",
     "book_level": {
       "grade": 1,
-      "description": "Level 1.0"
+      "description": "Beginning reader level - simple story about a puppy, kittens, and friendship with repetitive text patterns"
     },
-    "total_questions": 15,
+    "total_questions": 60,
     "questions": [
       {
         "id": 1,
@@ -3998,23 +1609,10 @@ const quizData = {
       {
         "id": 2,
         "difficulty": "easy",
-        "question": "What is in the basket?",
-        "options": {
-          "A": "Toys",
-          "B": "Biscuit",
-          "C": "Daisy and two kittens",
-          "D": "Food"
-        },
-        "answer": "C",
-        "explanation": "Daisy has two kittens in the basket."
-      },
-      {
-        "id": 3,
-        "difficulty": "easy",
         "question": "Who is Daisy?",
         "options": {
           "A": "A dog",
-          "B": "A cat with kittens",
+          "B": "A cat with two kittens",
           "C": "A girl",
           "D": "A bird"
         },
@@ -4022,7 +1620,7 @@ const quizData = {
         "explanation": "Daisy is a cat who has two kittens."
       },
       {
-        "id": 4,
+        "id": 3,
         "difficulty": "easy",
         "question": "How many kittens does Daisy have?",
         "options": {
@@ -4032,160 +1630,1550 @@ const quizData = {
           "D": "Four"
         },
         "answer": "B",
-        "explanation": "Daisy has two kittens."
+        "explanation": "The story says 'Daisy has two kittens.'"
       },
       {
-        "id": 5,
+        "id": 4,
         "difficulty": "easy",
-        "question": "What does Biscuit want to do?",
+        "question": "What does Biscuit want to do in the story?",
         "options": {
           "A": "Sleep",
           "B": "Eat",
-          "C": "Play with the kittens",
+          "C": "Play",
           "D": "Run away"
         },
         "answer": "C",
         "explanation": "Biscuit wants to play with the kittens."
       },
       {
-        "id": 6,
-        "difficulty": "medium",
-        "question": "What do the kittens want to play with first?",
-        "options": {
-          "A": "A ball",
-          "B": "A leaf",
-          "C": "A mouse toy",
-          "D": "A string"
-        },
-        "answer": "B",
-        "explanation": "The kittens want to play with a leaf."
-      },
-      {
-        "id": 7,
-        "difficulty": "medium",
-        "question": "What does Biscuit see that he wants to play with?",
+        "id": 5,
+        "difficulty": "easy",
+        "question": "What toy does Biscuit see?",
         "options": {
           "A": "A bone",
           "B": "His ball",
-          "C": "A stick",
-          "D": "A shoe"
+          "C": "A rope",
+          "D": "A stick"
         },
         "answer": "B",
-        "explanation": "Biscuit sees his ball and wants to play with it."
+        "explanation": "Biscuit sees his ball."
       },
       {
-        "id": 8,
-        "difficulty": "medium",
-        "question": "What do the kittens see after the leaf?",
-        "options": {
-          "A": "A ball",
-          "B": "A cricket",
-          "C": "A bird",
-          "D": "A mouse"
-        },
-        "answer": "B",
-        "explanation": "The kittens see a cricket."
-      },
-      {
-        "id": 9,
-        "difficulty": "medium",
-        "question": "What do the kittens chase that makes them get stuck?",
-        "options": {
-          "A": "A cricket",
-          "B": "A butterfly",
-          "C": "A bird",
-          "D": "A bee"
-        },
-        "answer": "B",
-        "explanation": "The kittens see a butterfly, chase it, and end up stuck in a tree."
-      },
-      {
-        "id": 10,
-        "difficulty": "medium",
-        "question": "Where do the kittens get stuck?",
-        "options": {
-          "A": "On a fence",
-          "B": "In a tree",
-          "C": "Under a bush",
-          "D": "In a box"
-        },
-        "answer": "B",
-        "explanation": "The kittens are stuck in the tree after jumping to catch the butterfly."
-      },
-      {
-        "id": 11,
-        "difficulty": "hard",
-        "question": "What does Biscuit do when he sees the kittens stuck?",
-        "options": {
-          "A": "Runs away",
-          "B": "Helps the kittens",
-          "C": "Barks for help",
-          "D": "Goes to sleep"
-        },
-        "answer": "B",
-        "explanation": "Biscuit sees the kittens stuck in the tree and helps them get down."
-      },
-      {
-        "id": 12,
-        "difficulty": "hard",
-        "question": "What happens at the end of the story?",
-        "options": {
-          "A": "The kittens run away",
-          "B": "Biscuit plays alone",
-          "C": "The kittens want to play with Biscuit too",
-          "D": "Everyone goes to sleep"
-        },
-        "answer": "C",
-        "explanation": "At the end, the kittens want to play with Biscuit too after he helped them."
-      },
-      {
-        "id": 13,
-        "difficulty": "hard",
-        "question": "What do the kittens do when they see the butterfly?",
-        "options": {
-          "A": "Ignore it",
-          "B": "Run and jump to catch it",
-          "C": "Hide",
-          "D": "Go home"
-        },
-        "answer": "B",
-        "explanation": "The kittens run and jump trying to catch the butterfly."
-      },
-      {
-        "id": 14,
-        "difficulty": "hard",
+        "id": 6,
+        "difficulty": "easy",
         "question": "What kind of animal is Biscuit?",
         "options": {
           "A": "A cat",
           "B": "A puppy",
-          "C": "A rabbit",
-          "D": "A hamster"
+          "C": "A kitten",
+          "D": "A rabbit"
         },
         "answer": "B",
-        "explanation": "Biscuit is a puppy who wants to play with the kittens."
+        "explanation": "Biscuit is a puppy (a young dog)."
+      },
+      {
+        "id": 7,
+        "difficulty": "easy",
+        "question": "Where are the kittens at the beginning of the story?",
+        "options": {
+          "A": "In a tree",
+          "B": "In a basket",
+          "C": "On the grass",
+          "D": "In the house"
+        },
+        "answer": "B",
+        "explanation": "The story asks 'What's in the basket, Biscuit?' and the answer is the kittens with Daisy."
+      },
+      {
+        "id": 8,
+        "difficulty": "easy",
+        "question": "What is the first thing the kittens want to play with?",
+        "options": {
+          "A": "A ball",
+          "B": "A leaf",
+          "C": "A cricket",
+          "D": "A butterfly"
+        },
+        "answer": "B",
+        "explanation": "The story says 'The kittens want to play with a leaf.'"
+      },
+      {
+        "id": 9,
+        "difficulty": "easy",
+        "question": "What insect do the kittens see?",
+        "options": {
+          "A": "A bee",
+          "B": "An ant",
+          "C": "A cricket",
+          "D": "A fly"
+        },
+        "answer": "C",
+        "explanation": "The kittens see a cricket."
+      },
+      {
+        "id": 10,
+        "difficulty": "easy",
+        "question": "What do the kittens chase after the cricket?",
+        "options": {
+          "A": "A bird",
+          "B": "A butterfly",
+          "C": "A mouse",
+          "D": "A leaf"
+        },
+        "answer": "B",
+        "explanation": "The kittens see a butterfly."
+      },
+      {
+        "id": 11,
+        "difficulty": "easy",
+        "question": "What do the kittens do when they see the butterfly?",
+        "options": {
+          "A": "They sleep",
+          "B": "They run and jump",
+          "C": "They eat",
+          "D": "They cry"
+        },
+        "answer": "B",
+        "explanation": "The story says 'The kittens run. The kittens jump.'"
+      },
+      {
+        "id": 12,
+        "difficulty": "easy",
+        "question": "Where do the kittens get stuck?",
+        "options": {
+          "A": "In a box",
+          "B": "In a tree",
+          "C": "In the basket",
+          "D": "In the house"
+        },
+        "answer": "B",
+        "explanation": "The story says 'The kittens are stuck in the tree.'"
+      },
+      {
+        "id": 13,
+        "difficulty": "easy",
+        "question": "Who helps the kittens when they are stuck?",
+        "options": {
+          "A": "Daisy",
+          "B": "A person",
+          "C": "Biscuit",
+          "D": "No one"
+        },
+        "answer": "C",
+        "explanation": "The story says 'Biscuit can help the kittens.'"
+      },
+      {
+        "id": 14,
+        "difficulty": "easy",
+        "question": "At the end, who wants to play with Biscuit?",
+        "options": {
+          "A": "Daisy",
+          "B": "The kittens",
+          "C": "A butterfly",
+          "D": "No one"
+        },
+        "answer": "B",
+        "explanation": "The story ends with 'The kittens want to play with Biscuit, too.'"
       },
       {
         "id": 15,
-        "difficulty": "hard",
-        "question": "Why couldn't Biscuit play with the kittens at first?",
+        "difficulty": "easy",
+        "question": "How does the story end?",
         "options": {
-          "A": "They were scared",
-          "B": "They were playing with other things",
-          "C": "They were sleeping",
-          "D": "They were eating"
+          "A": "The kittens stay stuck in the tree",
+          "B": "Biscuit and the kittens become friends and play together",
+          "C": "Biscuit goes home alone",
+          "D": "Daisy takes the kittens away"
         },
         "answer": "B",
-        "explanation": "The kittens were busy playing with a leaf, then a cricket, then chasing a butterfly."
+        "explanation": "At the end, the kittens want to play with Biscuit, showing they have become friends."
+      },
+      {
+        "id": 16,
+        "difficulty": "easy",
+        "question": "What is Daisy's relationship to the kittens?",
+        "options": {
+          "A": "She is their sister",
+          "B": "She is their mother",
+          "C": "She is their friend",
+          "D": "She is their grandmother"
+        },
+        "answer": "B",
+        "explanation": "Daisy is the mother cat of the two kittens."
+      },
+      {
+        "id": 17,
+        "difficulty": "easy",
+        "question": "What color is a leaf usually?",
+        "options": {
+          "A": "Blue",
+          "B": "Green",
+          "C": "Red",
+          "D": "Purple"
+        },
+        "answer": "B",
+        "explanation": "Leaves are usually green. The kittens play with a leaf in the story."
+      },
+      {
+        "id": 18,
+        "difficulty": "easy",
+        "question": "What kind of toy is Biscuit's ball for?",
+        "options": {
+          "A": "Sleeping",
+          "B": "Eating",
+          "C": "Playing",
+          "D": "Hiding"
+        },
+        "answer": "C",
+        "explanation": "A ball is a toy for playing."
+      },
+      {
+        "id": 19,
+        "difficulty": "easy",
+        "question": "What sound does a cricket make?",
+        "options": {
+          "A": "Woof",
+          "B": "Meow",
+          "C": "Chirp",
+          "D": "Moo"
+        },
+        "answer": "C",
+        "explanation": "Crickets make a chirping sound."
+      },
+      {
+        "id": 20,
+        "difficulty": "easy",
+        "question": "Which one can fly?",
+        "options": {
+          "A": "A cricket",
+          "B": "A butterfly",
+          "C": "A frog",
+          "D": "A worm"
+        },
+        "answer": "B",
+        "explanation": "Butterflies have wings and can fly."
+      },
+      {
+        "id": 21,
+        "difficulty": "medium",
+        "question": "The kittens want to play with a leaf, so Biscuit ---.",
+        "options": {
+          "A": "goes home",
+          "B": "also wants to play",
+          "C": "gets angry",
+          "D": "falls asleep"
+        },
+        "answer": "B",
+        "explanation": "The story says 'Biscuit wants to play too.'"
+      },
+      {
+        "id": 22,
+        "difficulty": "medium",
+        "question": "After seeing the leaf, the kittens see ---.",
+        "options": {
+          "A": "a ball",
+          "B": "a bird",
+          "C": "a cricket",
+          "D": "a mouse"
+        },
+        "answer": "C",
+        "explanation": "The kittens see a cricket after playing with the leaf."
+      },
+      {
+        "id": 23,
+        "difficulty": "medium",
+        "question": "The kittens chase a butterfly and then they ---.",
+        "options": {
+          "A": "catch it",
+          "B": "fall asleep",
+          "C": "get stuck in a tree",
+          "D": "go home"
+        },
+        "answer": "C",
+        "explanation": "The kittens jump and get stuck in the tree while chasing the butterfly."
+      },
+      {
+        "id": 24,
+        "difficulty": "medium",
+        "question": "When the kittens are stuck, Biscuit ---.",
+        "options": {
+          "A": "runs away",
+          "B": "barks loudly",
+          "C": "helps them",
+          "D": "goes to sleep"
+        },
+        "answer": "C",
+        "explanation": "Biscuit sees the kittens and helps them."
+      },
+      {
+        "id": 25,
+        "difficulty": "medium",
+        "question": "The phrase 'Biscuit wants to play too' is repeated because ---.",
+        "options": {
+          "A": "Biscuit is tired",
+          "B": "Biscuit keeps trying to join in with the kittens",
+          "C": "Biscuit is hungry",
+          "D": "Biscuit is scared"
+        },
+        "answer": "B",
+        "explanation": "The repetition shows that Biscuit keeps wanting to play with the kittens even when they play with other things."
+      },
+      {
+        "id": 26,
+        "difficulty": "medium",
+        "question": "The order of things the kittens see is ---.",
+        "options": {
+          "A": "butterfly, cricket, leaf",
+          "B": "leaf, cricket, butterfly",
+          "C": "cricket, leaf, butterfly",
+          "D": "leaf, butterfly, cricket"
+        },
+        "answer": "B",
+        "explanation": "The kittens first see a leaf, then a cricket, then a butterfly."
+      },
+      {
+        "id": 27,
+        "difficulty": "medium",
+        "question": "The kittens get stuck because they ---.",
+        "options": {
+          "A": "climb too high in the tree",
+          "B": "fall in a hole",
+          "C": "get lost",
+          "D": "hurt their paws"
+        },
+        "answer": "A",
+        "explanation": "The kittens jumped after the butterfly and got stuck in the tree because they climbed too high."
+      },
+      {
+        "id": 28,
+        "difficulty": "medium",
+        "question": "Biscuit's ball is mentioned because ---.",
+        "options": {
+          "A": "the kittens play with it",
+          "B": "Biscuit wants to share it with the kittens",
+          "C": "it is lost",
+          "D": "Daisy plays with it"
+        },
+        "answer": "B",
+        "explanation": "Biscuit sees his ball and wants to play with the kittens using it."
+      },
+      {
+        "id": 29,
+        "difficulty": "medium",
+        "question": "In the beginning, the kittens do not want to play with Biscuit because ---.",
+        "options": {
+          "A": "they are scared of him",
+          "B": "they are busy playing with other things",
+          "C": "Biscuit is mean",
+          "D": "Daisy won't let them"
+        },
+        "answer": "B",
+        "explanation": "The kittens are distracted by the leaf, cricket, and butterfly."
+      },
+      {
+        "id": 30,
+        "difficulty": "medium",
+        "question": "The story takes place ---.",
+        "options": {
+          "A": "inside a house",
+          "B": "outside where there are trees and insects",
+          "C": "at the beach",
+          "D": "at school"
+        },
+        "answer": "B",
+        "explanation": "The story happens outside where there are leaves, crickets, butterflies, and a tree."
+      },
+      {
+        "id": 31,
+        "difficulty": "medium",
+        "question": "A kitten is a baby ---.",
+        "options": {
+          "A": "dog",
+          "B": "cat",
+          "C": "bird",
+          "D": "rabbit"
+        },
+        "answer": "B",
+        "explanation": "A kitten is a baby cat, just like a puppy is a baby dog."
+      },
+      {
+        "id": 32,
+        "difficulty": "medium",
+        "question": "Biscuit and the kittens are different because ---.",
+        "options": {
+          "A": "Biscuit is a puppy and they are kittens",
+          "B": "Biscuit can fly and they cannot",
+          "C": "Biscuit is bigger than a tree",
+          "D": "the kittens are puppies"
+        },
+        "answer": "A",
+        "explanation": "Biscuit is a puppy (baby dog) while Daisy's babies are kittens (baby cats)."
+      },
+      {
+        "id": 33,
+        "difficulty": "medium",
+        "question": "Why might kittens like to chase butterflies?",
+        "options": {
+          "A": "Because butterflies are food",
+          "B": "Because butterflies move and kittens like to chase moving things",
+          "C": "Because their mother told them to",
+          "D": "Because butterflies are friends"
+        },
+        "answer": "B",
+        "explanation": "Kittens naturally like to chase things that move, like butterflies."
+      },
+      {
+        "id": 34,
+        "difficulty": "medium",
+        "question": "What did the kittens do before getting stuck?",
+        "options": {
+          "A": "They ran and jumped",
+          "B": "They ate dinner",
+          "C": "They slept",
+          "D": "They barked"
+        },
+        "answer": "A",
+        "explanation": "The story says 'The kittens run. The kittens jump' before they got stuck."
+      },
+      {
+        "id": 35,
+        "difficulty": "medium",
+        "question": "The kittens are stuck, which means they ---.",
+        "options": {
+          "A": "are happy",
+          "B": "cannot get down by themselves",
+          "C": "are sleeping",
+          "D": "are eating"
+        },
+        "answer": "B",
+        "explanation": "When someone is 'stuck,' they cannot move or get out by themselves."
+      },
+      {
+        "id": 36,
+        "difficulty": "medium",
+        "question": "Biscuit 'can help' means he ---.",
+        "options": {
+          "A": "is able to help",
+          "B": "is too small to help",
+          "C": "doesn't want to help",
+          "D": "is sleeping"
+        },
+        "answer": "A",
+        "explanation": "'Can help' means Biscuit is able to assist the kittens."
+      },
+      {
+        "id": 37,
+        "difficulty": "medium",
+        "question": "The story shows that even though puppies and kittens are different animals, they ---.",
+        "options": {
+          "A": "cannot be friends",
+          "B": "can become friends",
+          "C": "always fight",
+          "D": "never play together"
+        },
+        "answer": "B",
+        "explanation": "At the end, Biscuit and the kittens want to play together, showing they can be friends."
+      },
+      {
+        "id": 38,
+        "difficulty": "medium",
+        "question": "What happens right after Biscuit helps the kittens?",
+        "options": {
+          "A": "The kittens run away",
+          "B": "The kittens want to play with Biscuit",
+          "C": "Daisy gets angry",
+          "D": "Everyone goes to sleep"
+        },
+        "answer": "B",
+        "explanation": "After Biscuit helps them, the kittens want to play with him."
+      },
+      {
+        "id": 39,
+        "difficulty": "medium",
+        "question": "This story is mostly about ---.",
+        "options": {
+          "A": "how to catch butterflies",
+          "B": "a puppy who wants to make friends with kittens",
+          "C": "how kittens climb trees",
+          "D": "what crickets eat"
+        },
+        "answer": "B",
+        "explanation": "The main story is about Biscuit wanting to play with the kittens and finally becoming their friend."
+      },
+      {
+        "id": 40,
+        "difficulty": "medium",
+        "question": "How many animals are in this story in total?",
+        "options": {
+          "A": "Two - Biscuit and Daisy",
+          "B": "Three - Biscuit and two kittens",
+          "C": "Four - Biscuit, Daisy, and two kittens",
+          "D": "One - only Biscuit"
+        },
+        "answer": "C",
+        "explanation": "There are four animals: Biscuit the puppy, Daisy the cat, and two kittens."
+      },
+      {
+        "id": 41,
+        "difficulty": "hard",
+        "question": "What lesson does this story teach about friendship?",
+        "options": {
+          "A": "Dogs and cats cannot be friends",
+          "B": "When you help others, they become your friends",
+          "C": "Playing is not important",
+          "D": "Kittens are better than puppies"
+        },
+        "answer": "B",
+        "explanation": "Biscuit helps the kittens when they are stuck, and then they want to play with him, showing that helping others leads to friendship."
+      },
+      {
+        "id": 42,
+        "difficulty": "hard",
+        "question": "Why do the kittens finally want to play with Biscuit?",
+        "options": {
+          "A": "Because Daisy tells them to",
+          "B": "Because Biscuit helped them when they were stuck",
+          "C": "Because they have no other toys",
+          "D": "Because Biscuit has a ball"
+        },
+        "answer": "B",
+        "explanation": "After Biscuit helps the kittens get down from the tree, they want to play with him."
+      },
+      {
+        "id": 43,
+        "difficulty": "hard",
+        "question": "What does the pattern of 'Biscuit wants to play too' show about Biscuit?",
+        "options": {
+          "A": "He is tired",
+          "B": "He is persistent and really wants to be friends with the kittens",
+          "C": "He is scared",
+          "D": "He doesn't like the kittens"
+        },
+        "answer": "B",
+        "explanation": "Biscuit keeps wanting to join in, showing he is patient and really wants to be friends."
+      },
+      {
+        "id": 44,
+        "difficulty": "hard",
+        "question": "What might happen if Biscuit had not helped the kittens?",
+        "options": {
+          "A": "They would have stayed friends anyway",
+          "B": "The kittens might have stayed stuck and not become friends with Biscuit",
+          "C": "Nothing different",
+          "D": "Daisy would have helped"
+        },
+        "answer": "B",
+        "explanation": "Biscuit's help was the turning point that made the kittens want to play with him."
+      },
+      {
+        "id": 45,
+        "difficulty": "hard",
+        "question": "What is the main message of this story?",
+        "options": {
+          "A": "Cats are better than dogs",
+          "B": "Being kind and helpful is the best way to make friends",
+          "C": "Playing with balls is fun",
+          "D": "Butterflies are pretty"
+        },
+        "answer": "B",
+        "explanation": "The story shows that Biscuit's kindness in helping the kittens led to them becoming friends who wanted to play together."
+      },
+      {
+        "id": 46,
+        "difficulty": "hard",
+        "question": "Why did the author repeat 'Biscuit wants to play too' many times?",
+        "options": {
+          "A": "Because the author forgot",
+          "B": "To show how much Biscuit wants to be included and make friends",
+          "C": "Because Biscuit is annoying",
+          "D": "Because there are no other words"
+        },
+        "answer": "B",
+        "explanation": "The repetition emphasizes Biscuit's strong desire to be friends with the kittens."
+      },
+      {
+        "id": 47,
+        "difficulty": "hard",
+        "question": "What does this story suggest about making new friends?",
+        "options": {
+          "A": "You should give up if others don't want to play with you",
+          "B": "Being patient and helpful can help you make friends even when it seems hard",
+          "C": "Only play with animals that are the same as you",
+          "D": "Making friends is not important"
+        },
+        "answer": "B",
+        "explanation": "Biscuit was patient and kept trying, and when he helped the kittens, they finally wanted to be his friends."
+      },
+      {
+        "id": 48,
+        "difficulty": "hard",
+        "question": "How did Biscuit feel when the kittens kept playing with other things instead of him?",
+        "options": {
+          "A": "Happy because he wanted to be alone",
+          "B": "Left out, but he kept trying to join in",
+          "C": "Angry and mean",
+          "D": "Tired and sleepy"
+        },
+        "answer": "B",
+        "explanation": "The repeated phrase 'Biscuit wants to play too' shows he felt left out but didn't give up."
+      },
+      {
+        "id": 49,
+        "difficulty": "hard",
+        "question": "What does the change in the kittens' behavior at the end teach us?",
+        "options": {
+          "A": "Kittens are better than puppies",
+          "B": "When someone helps us, we should appreciate them and be their friend",
+          "C": "Playing with butterflies is more fun than playing with puppies",
+          "D": "Getting stuck in trees is fun"
+        },
+        "answer": "B",
+        "explanation": "The kittens changed and wanted to play with Biscuit after he helped them, showing gratitude."
+      },
+      {
+        "id": 50,
+        "difficulty": "hard",
+        "question": "Why is it important that Biscuit didn't get angry when the kittens ignored him?",
+        "options": {
+          "A": "Because getting angry would have scared the kittens away",
+          "B": "Because puppies can't get angry",
+          "C": "Because Daisy would have been upset",
+          "D": "Because the butterfly would have left"
+        },
+        "answer": "A",
+        "explanation": "By staying friendly and patient, Biscuit was able to eventually become friends with the kittens."
+      },
+      {
+        "id": 51,
+        "difficulty": "hard",
+        "question": "What does the story show about differences between animals?",
+        "options": {
+          "A": "Different animals should not play together",
+          "B": "Puppies and kittens can be friends despite being different",
+          "C": "Cats are better than dogs",
+          "D": "Dogs are better than cats"
+        },
+        "answer": "B",
+        "explanation": "The story shows that even though Biscuit is a puppy and the others are kittens, they can still become friends."
+      },
+      {
+        "id": 52,
+        "difficulty": "hard",
+        "question": "What would be a good title for a sequel to this story?",
+        "options": {
+          "A": "Biscuit and the Kittens Play Together",
+          "B": "Biscuit Goes to Sleep",
+          "C": "The Kittens Run Away",
+          "D": "Daisy Gets Lost"
+        },
+        "answer": "A",
+        "explanation": "Since the story ends with them wanting to play together, a sequel about them playing would make sense."
+      },
+      {
+        "id": 53,
+        "difficulty": "hard",
+        "question": "Why might the author have chosen a puppy and kittens as the main characters?",
+        "options": {
+          "A": "Because they are common pets that children know and love",
+          "B": "Because they are the only animals that exist",
+          "C": "Because they are wild animals",
+          "D": "Because they live in the ocean"
+        },
+        "answer": "A",
+        "explanation": "Puppies and kittens are familiar pets that young readers can relate to and understand."
+      },
+      {
+        "id": 54,
+        "difficulty": "hard",
+        "question": "What problem does Biscuit solve in this story?",
+        "options": {
+          "A": "He finds lost food",
+          "B": "He helps the kittens who are stuck in a tree",
+          "C": "He catches the butterfly",
+          "D": "He finds Daisy"
+        },
+        "answer": "B",
+        "explanation": "Biscuit helps the kittens when they are stuck in the tree."
+      },
+      {
+        "id": 55,
+        "difficulty": "hard",
+        "question": "How is the ending different from the beginning?",
+        "options": {
+          "A": "In the beginning, Biscuit wants to play alone; in the end, he has friends",
+          "B": "In the beginning, the kittens don't want to play with Biscuit; in the end, they do",
+          "C": "In the beginning, there are no kittens; in the end, there are kittens",
+          "D": "Nothing changes"
+        },
+        "answer": "B",
+        "explanation": "At first the kittens are busy with other things, but at the end they want to play with Biscuit."
+      },
+      {
+        "id": 56,
+        "difficulty": "hard",
+        "question": "What quality does Biscuit show throughout the story?",
+        "options": {
+          "A": "Laziness",
+          "B": "Patience and kindness",
+          "C": "Anger",
+          "D": "Selfishness"
+        },
+        "answer": "B",
+        "explanation": "Biscuit waits patiently even when ignored and then kindly helps the kittens."
+      },
+      {
+        "id": 57,
+        "difficulty": "hard",
+        "question": "The kittens getting stuck in the tree is an example of ---.",
+        "options": {
+          "A": "something good happening",
+          "B": "a problem in the story that needs to be solved",
+          "C": "the end of the story",
+          "D": "nothing important"
+        },
+        "answer": "B",
+        "explanation": "The kittens being stuck is the problem that Biscuit helps solve."
+      },
+      {
+        "id": 58,
+        "difficulty": "hard",
+        "question": "What can we learn from how Biscuit acted when he was ignored?",
+        "options": {
+          "A": "Give up when things are hard",
+          "B": "Keep being friendly and wait for your chance to help",
+          "C": "Be mean to others",
+          "D": "Run away and never come back"
+        },
+        "answer": "B",
+        "explanation": "Biscuit stayed friendly and patient, and when the chance came, he helped, which made the kittens his friends."
+      },
+      {
+        "id": 59,
+        "difficulty": "hard",
+        "question": "Why is helping others a good way to make friends?",
+        "options": {
+          "A": "Because people will give you toys",
+          "B": "Because it shows you care about them, and they will want to be nice to you too",
+          "C": "Because you have to help others",
+          "D": "Because your parents say so"
+        },
+        "answer": "B",
+        "explanation": "When you help others, they see that you are kind and caring, which makes them want to be your friend."
+      },
+      {
+        "id": 60,
+        "difficulty": "hard",
+        "question": "What is the most important event that changes everything in this story?",
+        "options": {
+          "A": "The kittens playing with a leaf",
+          "B": "Biscuit seeing his ball",
+          "C": "Biscuit helping the kittens when they are stuck in the tree",
+          "D": "The butterfly flying away"
+        },
+        "answer": "C",
+        "explanation": "Biscuit helping the stuck kittens is the turning point that makes them want to be his friends."
+      }
+    ]
+  },
+  "Black_Beauty": {
+    "title": "Black Beauty",
+    "author": "Anna Sewell",
+    "genre": "Historical Fiction/Animal Story",
+    "book_level": {
+      "grade": 6,
+      "description": "Middle School"
+    },
+    "total_questions": 60,
+    "questions": [
+      {
+        "id": 1,
+        "difficulty": "easy",
+        "question": "What was Black Beauty's first home like?",
+        "options": {
+          "A": "A small farm with chickens",
+          "B": "A racing track stable",
+          "C": "A dark stable in a city",
+          "D": "A large pleasant meadow with a pond"
+        },
+        "answer": "D",
+        "explanation": "Black Beauty's first home was 'a large pleasant meadow with a pond of clear water in it.'"
+      },
+      {
+        "id": 2,
+        "difficulty": "easy",
+        "question": "What was Black Beauty's mother's name?",
+        "options": {
+          "A": "Ginger",
+          "B": "Duchess",
+          "C": "Merrylegs",
+          "D": "Flora"
+        },
+        "answer": "B",
+        "explanation": "Black Beauty's mother was named Duchess, though the master often called her Pet."
+      },
+      {
+        "id": 3,
+        "difficulty": "easy",
+        "question": "Why did the master call young Black Beauty 'Darky'?",
+        "options": {
+          "A": "Because he was always in the dark stable",
+          "B": "Because he was a dull black color",
+          "C": "Because he was born at night",
+          "D": "Because he liked dark places"
+        },
+        "answer": "B",
+        "explanation": "The master called him Darky because 'I was a dull black.'"
+      },
+      {
+        "id": 4,
+        "difficulty": "easy",
+        "question": "What white markings did Black Beauty have?",
+        "options": {
+          "A": "Four white feet",
+          "B": "A white tail",
+          "C": "One white foot and a white star on his forehead",
+          "D": "White spots on his back"
+        },
+        "answer": "C",
+        "explanation": "Black Beauty had 'one white foot and a pretty white star on my forehead.'"
+      },
+      {
+        "id": 5,
+        "difficulty": "easy",
+        "question": "Who was the coachman at Birtwick Park?",
+        "options": {
+          "A": "James Howard",
+          "B": "John Manly",
+          "C": "Joe Green",
+          "D": "Mr. Gordon"
+        },
+        "answer": "B",
+        "explanation": "John Manly was the coachman who took excellent care of the horses."
+      },
+      {
+        "id": 6,
+        "difficulty": "easy",
+        "question": "What was the name of the little fat gray pony?",
+        "options": {
+          "A": "Ginger",
+          "B": "Sir Oliver",
+          "C": "Merrylegs",
+          "D": "Justice"
+        },
+        "answer": "C",
+        "explanation": "Merrylegs was 'a little fat gray pony with a thick mane and tail.'"
+      },
+      {
+        "id": 7,
+        "difficulty": "easy",
+        "question": "Why was Ginger called 'Ginger'?",
+        "options": {
+          "A": "Because she ran fast",
+          "B": "Because of her reddish-brown color",
+          "C": "Because she liked ginger treats",
+          "D": "Because she came from Ginger Farm"
+        },
+        "answer": "B",
+        "explanation": "Ginger was a chestnut mare - her name came from her reddish-brown color, like the spice ginger."
+      },
+      {
+        "id": 8,
+        "difficulty": "easy",
+        "question": "What type of dragon is Ginger?",
+        "options": {
+          "A": "An earth dragon",
+          "B": "A fire dragon",
+          "C": "Ginger is a horse, not a dragon",
+          "D": "A water dragon"
+        },
+        "answer": "C",
+        "explanation": "Ginger is a tall chestnut mare (horse), not a dragon. This is a realistic story about horses."
+      },
+      {
+        "id": 9,
+        "difficulty": "easy",
+        "question": "What happened to Rob Roy during the hunt?",
+        "options": {
+          "A": "He won the race",
+          "B": "He was sold to another owner",
+          "C": "He broke his leg and was shot",
+          "D": "He ran away to freedom"
+        },
+        "answer": "C",
+        "explanation": "Rob Roy broke his leg at the hunt and had to be put down. He was Black Beauty's brother."
+      },
+      {
+        "id": 10,
+        "difficulty": "easy",
+        "question": "Who was killed during the hunt that Black Beauty witnessed?",
+        "options": {
+          "A": "The master",
+          "B": "Young George Gordon, the squire's son",
+          "C": "John Manly",
+          "D": "James Howard"
+        },
+        "answer": "B",
+        "explanation": "Young George Gordon, 'the squire's only son,' broke his neck and died during the hunt."
+      },
+      {
+        "id": 11,
+        "difficulty": "easy",
+        "question": "What did 'breaking in' a horse involve?",
+        "options": {
+          "A": "Breaking into a stable",
+          "B": "Teaching a horse to wear a saddle, bridle, and follow commands",
+          "C": "Breaking a horse's spirit",
+          "D": "Racing against other horses"
+        },
+        "answer": "B",
+        "explanation": "Breaking in means teaching a horse 'to wear a saddle and bridle and to carry on his back a man, woman, or child.'"
+      },
+      {
+        "id": 12,
+        "difficulty": "easy",
+        "question": "What did Black Beauty's mother advise him?",
+        "options": {
+          "A": "To run away from humans",
+          "B": "To grow up gentle and good and never learn bad ways",
+          "C": "To only trust other horses",
+          "D": "To be aggressive to protect himself"
+        },
+        "answer": "B",
+        "explanation": "His mother said, 'I hope you will grow up gentle and good, and never learn bad ways.'"
+      },
+      {
+        "id": 13,
+        "difficulty": "easy",
+        "question": "What animal did Dick throw stones at?",
+        "options": {
+          "A": "Dogs",
+          "B": "Birds",
+          "C": "The young colts",
+          "D": "Cats"
+        },
+        "answer": "C",
+        "explanation": "Dick the ploughboy would throw 'stones and sticks at them to make them gallop.'"
+      },
+      {
+        "id": 14,
+        "difficulty": "easy",
+        "question": "What is a 'loose box' in a stable?",
+        "options": {
+          "A": "A box that is falling apart",
+          "B": "A stall where the horse is not tied up but left free",
+          "C": "A storage box for horse supplies",
+          "D": "A punishment area"
+        },
+        "answer": "B",
+        "explanation": "A loose box is 'called so because the horse that was put into it was not tied up, but left loose.'"
+      },
+      {
+        "id": 15,
+        "difficulty": "easy",
+        "question": "Who gave Black Beauty his name?",
+        "options": {
+          "A": "John Manly",
+          "B": "His mother Duchess",
+          "C": "Squire Gordon and his wife",
+          "D": "James Howard"
+        },
+        "answer": "C",
+        "explanation": "Mrs. Gordon suggested 'Black Beauty' and the master agreed: 'if you like it shall be his name.'"
+      },
+      {
+        "id": 16,
+        "difficulty": "easy",
+        "question": "What happened when Black Beauty was sent to the neighboring farm?",
+        "options": {
+          "A": "He learned to race",
+          "B": "He got used to trains passing by",
+          "C": "He was sold to a new owner",
+          "D": "He learned to jump fences"
+        },
+        "answer": "B",
+        "explanation": "Black Beauty was sent to a farm near a railway to get used to trains so he wouldn't be frightened."
+      },
+      {
+        "id": 17,
+        "difficulty": "easy",
+        "question": "What happened to Sir Oliver's tail?",
+        "options": {
+          "A": "It was naturally short",
+          "B": "It was cut off cruelly when he was young",
+          "C": "He lost it in an accident",
+          "D": "It fell off from disease"
+        },
+        "answer": "B",
+        "explanation": "Sir Oliver's tail was cut off: 'they came and cut off my long and beautiful tail, through the flesh and through the bone.'"
+      },
+      {
+        "id": 18,
+        "difficulty": "easy",
+        "question": "What were blinkers on a horse?",
+        "options": {
+          "A": "Lights attached to the harness",
+          "B": "Covers that prevented horses from seeing to the side",
+          "C": "Decorative ribbons",
+          "D": "Bells that made sounds"
+        },
+        "answer": "B",
+        "explanation": "Blinkers were 'great side pieces against my eyes' so the horse 'could not see on either side, but only straight in front.'"
+      },
+      {
+        "id": 19,
+        "difficulty": "easy",
+        "question": "What was the 'check rein'?",
+        "options": {
+          "A": "A rein used to check speed",
+          "B": "A rein that held the horse's head unnaturally high",
+          "C": "A special rein for checking direction",
+          "D": "A decorative rein"
+        },
+        "answer": "B",
+        "explanation": "The check rein held horses' heads 'up high' painfully, preventing natural head movement."
+      },
+      {
+        "id": 20,
+        "difficulty": "easy",
+        "question": "Who was James Howard?",
+        "options": {
+          "A": "The squire",
+          "B": "The stable boy who later became a groom",
+          "C": "The village doctor",
+          "D": "Black Beauty's previous owner"
+        },
+        "answer": "B",
+        "explanation": "James Howard was the stable boy who was later promoted and went to work for Sir Clifford Williams."
+      },
+      {
+        "id": 21,
+        "difficulty": "medium",
+        "question": "Black Beauty's mother told him that the colts who lived nearby ---.",
+        "options": {
+          "A": "were dangerous and should be avoided",
+          "B": "were cart-horse colts who had not learned manners",
+          "C": "were his relatives from his father's side",
+          "D": "would become racing champions"
+        },
+        "answer": "B",
+        "explanation": "Duchess said 'the colts who live here are very good colts, but they are cart-horse colts, and of course they have not learned manners.'"
+      },
+      {
+        "id": 22,
+        "difficulty": "medium",
+        "question": "After witnessing the hunt, Black Beauty's mother said she could never understand why ---.",
+        "options": {
+          "A": "horses were used for farm work",
+          "B": "men are so fond of hunting sport that often hurts horses and men",
+          "C": "the weather was so unpredictable",
+          "D": "young horses needed to be broken in"
+        },
+        "answer": "B",
+        "explanation": "She said 'I never yet could make out why men are so fond of this sport; they often hurt themselves, often spoil good horses.'"
+      },
+      {
+        "id": 23,
+        "difficulty": "medium",
+        "question": "Ginger's first experience with men was bad because ---.",
+        "options": {
+          "A": "they fed her poorly",
+          "B": "they used force and didn't give her a chance to understand what they wanted",
+          "C": "they made her work too hard",
+          "D": "they separated her from her friends"
+        },
+        "answer": "B",
+        "explanation": "Ginger said 'it was all force; they did not give me a chance to know what they wanted.'"
+      },
+      {
+        "id": 24,
+        "difficulty": "medium",
+        "question": "John Manly's 'Birtwick Balls' were made of ---.",
+        "options": {
+          "A": "special horse medicine",
+          "B": "patience, gentleness, firmness, and petting mixed with common sense",
+          "C": "oats and carrots",
+          "D": "herbs from the garden"
+        },
+        "answer": "B",
+        "explanation": "John joked that the 'balls' were 'made up of patience and gentleness, firmness and petting, one pound of each, to be mixed up with half a pint of common sense.'"
+      },
+      {
+        "id": 25,
+        "difficulty": "medium",
+        "question": "The old ostler at the hotel said he could tell how a horse was treated by ---.",
+        "options": {
+          "A": "looking at its teeth",
+          "B": "checking its weight",
+          "C": "handling it for twenty minutes",
+          "D": "asking the owner questions"
+        },
+        "answer": "C",
+        "explanation": "The old ostler said 'give me the handling of a horse for twenty minutes, and I'll tell you what sort of groom he has had.'"
+      },
+      {
+        "id": 26,
+        "difficulty": "medium",
+        "question": "When Black Beauty refused to cross the bridge during the storm, John discovered that ---.",
+        "options": {
+          "A": "the bridge was too narrow",
+          "B": "the bridge was broken in the middle and part was carried away",
+          "C": "there was a fallen tree blocking it",
+          "D": "the water was frozen"
+        },
+        "answer": "B",
+        "explanation": "The toll-gate man shouted 'The bridge is broken in the middle, and part of it is carried away!'"
+      },
+      {
+        "id": 27,
+        "difficulty": "medium",
+        "question": "Black Beauty's master said God gave animals knowledge that ---.",
+        "options": {
+          "A": "was inferior to human reason",
+          "B": "did not depend on reason and was more prompt and perfect in its way",
+          "C": "only worked for finding food",
+          "D": "was useless in emergencies"
+        },
+        "answer": "B",
+        "explanation": "The master said God 'had given animals knowledge which did not depend on reason, and which was much more prompt and perfect in its way.'"
+      },
+      {
+        "id": 28,
+        "difficulty": "medium",
+        "question": "Merrylegs said he threw the boys off because ---.",
+        "options": {
+          "A": "he was tired and angry",
+          "B": "they didn't know when they had had enough and neither did he",
+          "C": "they were hurting him badly",
+          "D": "John told him to"
+        },
+        "answer": "B",
+        "explanation": "Merrylegs said 'They did not know when they had had enough, nor when I had had enough, so I just pitched them off backward.'"
+      },
+      {
+        "id": 29,
+        "difficulty": "medium",
+        "question": "James said the schoolmaster taught that cruelty was ---.",
+        "options": {
+          "A": "sometimes necessary for discipline",
+          "B": "the devil's own trademark",
+          "C": "natural for humans",
+          "D": "only bad when done to people"
+        },
+        "answer": "B",
+        "explanation": "The master said 'cruelty was the devil's own trademark, and if we saw any one who took pleasure in cruelty, we might know who he belonged to.'"
+      },
+      {
+        "id": 30,
+        "difficulty": "medium",
+        "question": "Ginger was badly treated with the check rein in London, which ---.",
+        "options": {
+          "A": "made her run faster",
+          "B": "made the blood from her tongue color the froth from her mouth",
+          "C": "helped her look more stylish",
+          "D": "improved her breathing"
+        },
+        "answer": "B",
+        "explanation": "Ginger said 'the blood from my tongue coloured the froth that kept flying from my lips, as I chafed and fretted at the bits and rein.'"
+      },
+      {
+        "id": 31,
+        "difficulty": "medium",
+        "question": "The master scolded Sawyer for his treatment of the bay pony because ---.",
+        "options": {
+          "A": "Sawyer was driving too fast",
+          "B": "Sawyer wrenched the pony's head and whipped it brutally",
+          "C": "Sawyer was late for work",
+          "D": "Sawyer didn't pay his bills"
+        },
+        "answer": "B",
+        "explanation": "The master said 'a more unmanly, brutal treatment of a little pony it was never my painful lot to witness.'"
+      },
+      {
+        "id": 32,
+        "difficulty": "medium",
+        "question": "Sir Oliver said docking horses' tails was done ---.",
+        "options": {
+          "A": "for the horses' health",
+          "B": "for fashion, not for any practical reason",
+          "C": "to prevent diseases",
+          "D": "to make them run faster"
+        },
+        "answer": "B",
+        "explanation": "Sir Oliver said angrily 'For fashion! if you know what that means... just as if the good God that made us did not know what we wanted.'"
+      },
+      {
+        "id": 33,
+        "difficulty": "medium",
+        "question": "Justice the cob said blinkers were supposed to prevent horses from ---.",
+        "options": {
+          "A": "seeing their owners",
+          "B": "shying and starting and getting frightened",
+          "C": "eating while working",
+          "D": "sleeping while standing"
+        },
+        "answer": "B",
+        "explanation": "Justice said blinkers 'are supposed to prevent horses from shying and starting and getting so frightened as to cause accidents.'"
+      },
+      {
+        "id": 34,
+        "difficulty": "medium",
+        "question": "The old ostler said practice made him quick at his work because ---.",
+        "options": {
+          "A": "he was naturally talented",
+          "B": "if you get into the habit of being quick, it is just as easy as being slow",
+          "C": "his master forced him to work fast",
+          "D": "he was afraid of losing his job"
+        },
+        "answer": "B",
+        "explanation": "He said 'if you get into the habit of being quick, it is just as easy as being slow; easier, I should say.'"
+      },
+      {
+        "id": 35,
+        "difficulty": "medium",
+        "question": "Ginger's temper improved at Birtwick Park because ---.",
+        "options": {
+          "A": "she was given medicine",
+          "B": "she was treated with kindness instead of force",
+          "C": "she was kept alone",
+          "D": "she forgot her past"
+        },
+        "answer": "B",
+        "explanation": "James tried kindness 'and instead of punishing me... brought me a bran mash and stroked me,' and Ginger responded positively."
+      },
+      {
+        "id": 36,
+        "difficulty": "medium",
+        "question": "The master rode Captain Langley's horses and criticized his use of ---.",
+        "options": {
+          "A": "expensive saddles",
+          "B": "check reins that lessened the horses' power",
+          "C": "too many servants",
+          "D": "the wrong type of feed"
+        },
+        "answer": "B",
+        "explanation": "The master said 'I see you still hold that pet scheme of yours for worrying your horses and lessening their power' about check reins."
+      },
+      {
+        "id": 37,
+        "difficulty": "medium",
+        "question": "James was being considered for a new position at Sir Clifford's because ---.",
+        "options": {
+          "A": "he wanted to leave Birtwick Park",
+          "B": "Sir Clifford's old coachman was getting feeble and needed help",
+          "C": "James had wealthy relatives",
+          "D": "there was no work for him at Birtwick"
+        },
+        "answer": "B",
+        "explanation": "Sir Clifford's 'old coachman, who has lived with him thirty years, is getting feeble, and he wants a man to work with him.'"
+      },
+      {
+        "id": 38,
+        "difficulty": "medium",
+        "question": "John defended James's character by saying ---.",
+        "options": {
+          "A": "James came from a wealthy family",
+          "B": "a steadier, pleasanter, more honest, smart young fellow he never had",
+          "C": "James was the fastest worker",
+          "D": "James had important connections"
+        },
+        "answer": "B",
+        "explanation": "John said 'a steadier, pleasanter, more honest, smart young fellow I never had in this stable.'"
+      },
+      {
+        "id": 39,
+        "difficulty": "medium",
+        "question": "Black Beauty said the thing he missed most at Birtwick Park was ---.",
+        "options": {
+          "A": "better food",
+          "B": "liberty",
+          "C": "other horses to play with",
+          "D": "a warmer stable"
+        },
+        "answer": "B",
+        "explanation": "Black Beauty said 'if there was one thing I missed... Why, liberty! For three years and a half of my life I had had all the liberty I could wish for.'"
+      },
+      {
+        "id": 40,
+        "difficulty": "medium",
+        "question": "On Sundays, the horses at Birtwick were given ---.",
+        "options": {
+          "A": "extra work",
+          "B": "time in the paddock or orchard to enjoy freedom",
+          "C": "special baths",
+          "D": "medicine"
+        },
+        "answer": "B",
+        "explanation": "On fine Sundays 'it was a great treat to us to be turned out into the home paddock or the old orchard.'"
+      },
+      {
+        "id": 41,
+        "difficulty": "hard",
+        "question": "Why did Black Beauty's mother say 'we are only horses and don't know' after the hunt?",
+        "options": {
+          "A": "She genuinely believed horses were inferior",
+          "B": "She was being ironic about humans who claim to have superior reason yet do foolish things",
+          "C": "She wanted Black Beauty to respect humans more",
+          "D": "She was confused about what happened"
+        },
+        "answer": "B",
+        "explanation": "Her statement is ironic: she questions why intelligent humans enjoy cruel sports, then dismissively says 'we are only horses' - implying horses actually show more sense."
+      },
+      {
+        "id": 42,
+        "difficulty": "hard",
+        "question": "What does the contrast between Black Beauty's upbringing and Ginger's suggest about horse behavior?",
+        "options": {
+          "A": "Some horses are born bad-tempered",
+          "B": "A horse's temperament is largely shaped by how it is treated, not born nature",
+          "C": "Female horses are naturally more aggressive",
+          "D": "Only purebred horses can be gentle"
+        },
+        "answer": "B",
+        "explanation": "Ginger says 'if I had had your bringing up I might have had as good a temper as you' - showing that treatment, not birth, shapes horse behavior."
+      },
+      {
+        "id": 43,
+        "difficulty": "hard",
+        "question": "Why does Anna Sewell have Black Beauty narrate the story in first person?",
+        "options": {
+          "A": "Because it was easier to write",
+          "B": "To make readers see the world through a horse's eyes and develop empathy for animals",
+          "C": "Because horses could actually talk in Victorian times",
+          "D": "To make the story shorter"
+        },
+        "answer": "B",
+        "explanation": "First-person narration allows readers to experience cruelty and kindness from the horse's perspective, building empathy for animals."
+      },
+      {
+        "id": 44,
+        "difficulty": "hard",
+        "question": "What is ironic about the fashion of check reins and docked tails?",
+        "options": {
+          "A": "They were very expensive",
+          "B": "They were meant to make horses look better but actually caused suffering for no practical purpose",
+          "C": "They made horses faster",
+          "D": "They were only used on old horses"
+        },
+        "answer": "B",
+        "explanation": "These fashions were done 'just as if the good God that made us did not know what we wanted' - causing pain purely for human vanity."
+      },
+      {
+        "id": 45,
+        "difficulty": "hard",
+        "question": "Why does Merrylegs refuse to kick the children even when provoked?",
+        "options": {
+          "A": "He is too weak to kick",
+          "B": "He values his good home and knows bad behavior would get him sold to a worse situation",
+          "C": "John ordered him never to kick",
+          "D": "The children give him treats"
+        },
+        "answer": "B",
+        "explanation": "Merrylegs says 'if I took to kicking... I might find myself slaved about under a butcher's boy.' He's wise enough to value kindness."
+      },
+      {
+        "id": 46,
+        "difficulty": "hard",
+        "question": "What does the story of the fire at the hotel symbolize about trust between horses and humans?",
+        "options": {
+          "A": "Horses should never trust humans",
+          "B": "In dangerous situations, horses and trusted handlers must work together through calm guidance",
+          "C": "Fire is the greatest danger to horses",
+          "D": "Hotels are unsafe for horses"
+        },
+        "answer": "B",
+        "explanation": "During the fire, panicked horses can only be saved by a calm handler they trust - demonstrating the importance of the bond built through kind treatment."
+      },
+      {
+        "id": 47,
+        "difficulty": "hard",
+        "question": "What does the master mean when he compares check reins on horses to soldiers with heads tied to backboards?",
+        "options": {
+          "A": "Soldiers should also wear check reins",
+          "B": "Restricting natural movement looks impressive but reduces actual effectiveness and capability",
+          "C": "Horses and soldiers are equally important",
+          "D": "Military discipline is too strict"
+        },
+        "answer": "B",
+        "explanation": "The master argues that forcing an unnatural position may look good on parade but 'how would it be in a bayonet charge' - function matters more than appearance."
+      },
+      {
+        "id": 48,
+        "difficulty": "hard",
+        "question": "Why is it significant that Black Beauty's brother Rob Roy died at the hunt?",
+        "options": {
+          "A": "It shows hunting was profitable",
+          "B": "It shows how the same bloodline can have opposite fates based on how horses are used by humans",
+          "C": "It proves Black Beauty was luckier",
+          "D": "It demonstrates horses are weak"
+        },
+        "answer": "B",
+        "explanation": "Both brothers had the same breeding, but Rob Roy died due to reckless human sport - showing horse welfare depends on human choices, not horse nature."
+      },
+      {
+        "id": 49,
+        "difficulty": "hard",
+        "question": "What does the old ostler's statement 'their tempers are mostly made when they are young' suggest?",
+        "options": {
+          "A": "Young horses should be avoided",
+          "B": "Early treatment permanently shapes a horse's personality and behavior",
+          "C": "Old horses cannot change",
+          "D": "Only young horses can be trained"
+        },
+        "answer": "B",
+        "explanation": "Like children who are 'trained up in the way they should go,' horses' early experiences permanently affect their temperament."
+      },
+      {
+        "id": 50,
+        "difficulty": "hard",
+        "question": "What point is Sewell making when Sir Oliver says fashion is 'one of the wickedest things in the world'?",
+        "options": {
+          "A": "Fashion is expensive",
+          "B": "Following trends blindly causes unnecessary suffering to animals and should be questioned",
+          "C": "Horses don't understand fashion",
+          "D": "Only poor people follow fashion"
+        },
+        "answer": "B",
+        "explanation": "Sir Oliver's anger about docking highlights how society accepts cruelty simply because it's fashionable, without questioning the suffering caused."
+      },
+      {
+        "id": 51,
+        "difficulty": "hard",
+        "question": "Why does Black Beauty mention that 'horses have no relations' or 'never know each other after they are sold'?",
+        "options": {
+          "A": "Horses have bad memories",
+          "B": "The sale system separates family members permanently, adding emotional dimension to the horse trade",
+          "C": "Horses don't care about family",
+          "D": "It was the law"
+        },
+        "answer": "B",
+        "explanation": "This poignant observation humanizes horses by showing they too lose family connections, making the horse trade more morally complex."
+      },
+      {
+        "id": 52,
+        "difficulty": "hard",
+        "question": "What is the purpose of John Manly's joke about 'Birtwick Balls'?",
+        "options": {
+          "A": "To mock medicine",
+          "B": "To humorously summarize that kindness and good sense, not punishment, reform difficult horses",
+          "C": "To advertise his skills",
+          "D": "To entertain the master"
+        },
+        "answer": "B",
+        "explanation": "The 'medicine' of patience, gentleness, firmness, and common sense shows that behavioral problems in horses are solved through relationship, not force."
+      },
+      {
+        "id": 53,
+        "difficulty": "hard",
+        "question": "Why does Black Beauty contrast his feelings of 'fidgets' with how John handled them?",
+        "options": {
+          "A": "To show John was lazy",
+          "B": "To demonstrate that understanding natural high spirits prevents mistaking energy for disobedience",
+          "C": "To prove he was poorly fed",
+          "D": "To criticize other horses"
+        },
+        "answer": "B",
+        "explanation": "John understood that Black Beauty's energy was 'only high spirits' and gave him exercise rather than punishment, unlike grooms who punish 'skittish' behavior."
+      },
+      {
+        "id": 54,
+        "difficulty": "hard",
+        "question": "What does Black Beauty's refusal to cross the broken bridge demonstrate about animal instinct?",
+        "options": {
+          "A": "Horses are stubborn",
+          "B": "Animals can sense dangers that humans miss, and their warnings should be respected",
+          "C": "Horses are afraid of water",
+          "D": "Training can eliminate all fear"
+        },
+        "answer": "B",
+        "explanation": "The master concludes that 'God had given animals knowledge' that saved their lives - humans should trust animal instincts rather than forcing compliance."
+      },
+      {
+        "id": 55,
+        "difficulty": "hard",
+        "question": "Why is the comparison between how Ginger was broken and how Black Beauty was broken important to the novel's message?",
+        "options": {
+          "A": "It shows different training methods produce equally good results",
+          "B": "It demonstrates that violent breaking creates vicious horses while patient training creates willing partners",
+          "C": "It proves some horses cannot be trained",
+          "D": "It shows training doesn't matter"
+        },
+        "answer": "B",
+        "explanation": "Ginger became 'vicious' through cruel treatment while Black Beauty remained gentle through kind training - proving the method matters more than the horse."
+      },
+      {
+        "id": 56,
+        "difficulty": "hard",
+        "question": "What is the significance of the master's statement about judging people 'according to our works, whether they be toward man or toward beast'?",
+        "options": {
+          "A": "It's a legal statement",
+          "B": "It suggests moral character is revealed by how we treat the powerless, including animals",
+          "C": "It means animals should work harder",
+          "D": "It criticizes lazy workers"
+        },
+        "answer": "B",
+        "explanation": "This religious reference suggests that cruelty to animals is as morally significant as cruelty to humans - a central theme of the novel."
+      },
+      {
+        "id": 57,
+        "difficulty": "hard",
+        "question": "Why might Sewell have chosen to show both good and bad humans rather than making all humans villains?",
+        "options": {
+          "A": "She couldn't write villains well",
+          "B": "To show that reform is possible and readers can choose to be kind like John rather than cruel like Sampson",
+          "C": "She liked all humans",
+          "D": "Publishers required it"
+        },
+        "answer": "B",
+        "explanation": "By showing John, the master, and others as kind, Sewell provides models for readers to follow, making the book a call to action rather than just criticism."
+      },
+      {
+        "id": 58,
+        "difficulty": "hard",
+        "question": "What does Merrylegs mean when he says 'good places make good horses'?",
+        "options": {
+          "A": "Expensive stables produce better horses",
+          "B": "A horse's behavior reflects its treatment - kindness produces good behavior",
+          "C": "Location determines breed quality",
+          "D": "Weather affects horse mood"
+        },
+        "answer": "B",
+        "explanation": "Merrylegs argues that horse behavior is a response to treatment: 'I wouldn't vex our people for anything; I love them' - love and kindness breed loyalty."
+      },
+      {
+        "id": 59,
+        "difficulty": "hard",
+        "question": "What does the old ostler's observation about his crooked leg tell us about the working class in Victorian England?",
+        "options": {
+          "A": "Workers had good healthcare",
+          "B": "Workers injured in dangerous occupations often had to find new work rather than receive support",
+          "C": "Only injured people worked with horses",
+          "D": "Leg injuries were fashionable"
+        },
+        "answer": "B",
+        "explanation": "After breaking his knee as a jockey, the ostler 'was of no more use there' but 'could not live without horses' - showing how injured workers had to adapt or starve."
+      },
+      {
+        "id": 60,
+        "difficulty": "hard",
+        "question": "What is the ultimate message of Black Beauty about the relationship between humans and animals?",
+        "options": {
+          "A": "Animals exist only to serve humans",
+          "B": "Animals deserve kindness and consideration, and treating them well reflects our own moral character",
+          "C": "Humans should not use animals at all",
+          "D": "Animals are more intelligent than humans"
+        },
+        "answer": "B",
+        "explanation": "The novel argues that animals feel pain and respond to kindness, and how we treat them reveals who we are - 'there is no religion without love... to man and beast.'"
       }
     ]
   },
   "Diary_of_a_Wimpy_Kid": {
-    "book_title": "Diary of a Wimpy Kid",
+    "title": "Diary of a Wimpy Kid",
     "author": "Jeff Kinney",
     "genre": "Realistic Fiction / Humor",
     "book_level": {
-      "grade": 5.2,
-      "description": "Level 5.2"
+      "grade": 5,
+      "description": "Upper elementary level - humorous diary-style narrative about middle school life, social dynamics, and family"
     },
     "total_questions": 60,
     "questions": [
@@ -4200,7 +3188,7 @@ const quizData = {
           "D": "A memoir"
         },
         "answer": "B",
-        "explanation": "Greg specifically says that this is a journal, not a diary, even though it says diary on the cover."
+        "explanation": "Greg says 'This is a journal, not a diary' even though the cover says diary."
       },
       {
         "id": 2,
@@ -4210,7 +3198,7 @@ const quizData = {
           "A": "Bryce Anderson",
           "B": "Fregley",
           "C": "Rowley Jefferson",
-          "D": "Colin Lee"
+          "D": "Roderick"
         },
         "answer": "C",
         "explanation": "Rowley Jefferson is Greg's best friend, though Greg says their friendship is 'subject to change.'"
@@ -4257,25 +3245,25 @@ const quizData = {
       {
         "id": 6,
         "difficulty": "easy",
-        "question": "What started the Cheese Touch at Greg's school?",
+        "question": "Who started the Cheese Touch at school?",
         "options": {
-          "A": "A kid ate the cheese",
-          "B": "A kid touched the moldy cheese",
-          "C": "A teacher threw it",
-          "D": "It fell from a lunch tray"
+          "A": "Greg Heffley",
+          "B": "Rowley Jefferson",
+          "C": "Darren Walsh",
+          "D": "Abe Hall"
         },
-        "answer": "B",
-        "explanation": "Darren Walsh touched the moldy cheese with his finger, and that started the Cheese Touch."
+        "answer": "C",
+        "explanation": "Darren Walsh touched the moldy cheese with his finger, starting the Cheese Touch."
       },
       {
         "id": 7,
         "difficulty": "easy",
-        "question": "How does Greg protect himself from the Cheese Touch?",
+        "question": "How can you protect yourself from the Cheese Touch?",
         "options": {
-          "A": "Wearing gloves",
-          "B": "Crossing his fingers",
-          "C": "Staying away from the court",
-          "D": "Carrying a lucky charm"
+          "A": "Wear gloves",
+          "B": "Cross your fingers",
+          "C": "Run away",
+          "D": "Touch wood"
         },
         "answer": "B",
         "explanation": "The only way to protect yourself from the Cheese Touch is to cross your fingers."
@@ -4283,31 +3271,18 @@ const quizData = {
       {
         "id": 8,
         "difficulty": "easy",
-        "question": "What trick did Roderick play on Greg at the beginning of summer?",
+        "question": "Who is the most popular boy in Greg's grade?",
         "options": {
-          "A": "Hid his video games",
-          "B": "Made him think school started",
-          "C": "Took his homework",
-          "D": "Broke his alarm clock"
+          "A": "Greg Heffley",
+          "B": "Rowley Jefferson",
+          "C": "Bryce Anderson",
+          "D": "Ronnie McCoy"
         },
-        "answer": "B",
-        "explanation": "Roderick woke Greg up in the middle of the night and made him think he slept through the entire summer and it was the first day of school."
+        "answer": "C",
+        "explanation": "Bryce Anderson is the most popular boy in Greg's grade."
       },
       {
         "id": 9,
-        "difficulty": "easy",
-        "question": "What reading group book indicates a student is in the easy group?",
-        "options": {
-          "A": "Einstein as a Child",
-          "B": "Bink Says Boo",
-          "C": "Advanced Reading",
-          "D": "Science for Kids"
-        },
-        "answer": "B",
-        "explanation": "If students get 'Bink Says Boo,' they're in the easy group, while 'Einstein as a Child' means the gifted group."
-      },
-      {
-        "id": 10,
         "difficulty": "easy",
         "question": "What position does Greg run for in student government?",
         "options": {
@@ -4317,10 +3292,10 @@ const quizData = {
           "D": "Secretary"
         },
         "answer": "C",
-        "explanation": "Greg runs for treasurer because he figures nobody cares about that position and he can win easily."
+        "explanation": "Greg runs for treasurer because he figures nobody cares about that position."
       },
       {
-        "id": 11,
+        "id": 10,
         "difficulty": "easy",
         "question": "What is Greg's favorite holiday?",
         "options": {
@@ -4330,1446 +3305,2251 @@ const quizData = {
           "D": "Easter"
         },
         "answer": "C",
-        "explanation": "Halloween is Greg's favorite holiday, though he's getting too old for trick-or-treating according to his mom."
+        "explanation": "Halloween is Greg's favorite holiday."
+      },
+      {
+        "id": 11,
+        "difficulty": "easy",
+        "question": "What does Fregley say when he needs to go to the bathroom?",
+        "options": {
+          "A": "Water! Water!",
+          "B": "Juice! Juice!",
+          "C": "Help! Help!",
+          "D": "Potty! Potty!"
+        },
+        "answer": "B",
+        "explanation": "Fregley says 'Juice! Juice!' when he needs the bathroom, and the teachers keep bringing him juice."
       },
       {
         "id": 12,
         "difficulty": "easy",
-        "question": "What does Greg's dad do to teenagers on Halloween night?",
+        "question": "What book means you're in the easy reading group?",
         "options": {
-          "A": "Gives them extra candy",
-          "B": "Chases them away",
-          "C": "Drenches them with water",
-          "D": "Takes pictures of them"
+          "A": "Einstein as a Child",
+          "B": "Bink Says Boo",
+          "C": "Advanced Reading",
+          "D": "Science for Kids"
         },
-        "answer": "C",
-        "explanation": "Greg's dad hides in the bushes with a big trash can full of water and drenches any teenagers who pass by."
+        "answer": "B",
+        "explanation": "If students get 'Bink Says Boo,' they're in the easy group."
       },
       {
         "id": 13,
         "difficulty": "easy",
-        "question": "What school play does Greg participate in?",
+        "question": "What did Greg's dad hide in on Halloween night?",
         "options": {
-          "A": "Peter Pan",
-          "B": "The Wizard of Oz",
-          "C": "Cinderella",
-          "D": "Snow White"
+          "A": "The garage",
+          "B": "The bushes",
+          "C": "The basement",
+          "D": "The car"
         },
         "answer": "B",
-        "explanation": "The school puts on The Wizard of Oz, and Greg plays one of the trees."
+        "explanation": "Dad hides in the bushes with a big trash can full of water to drench teenagers."
       },
       {
         "id": 14,
         "difficulty": "easy",
-        "question": "What role does Greg play in the school play?",
+        "question": "Who took the Cheese Touch to California?",
         "options": {
-          "A": "The Tin Man",
-          "B": "A tree",
-          "C": "The Lion",
-          "D": "A flying monkey"
+          "A": "Darren Walsh",
+          "B": "Abe Hall",
+          "C": "Greg Heffley",
+          "D": "Rowley Jefferson"
         },
         "answer": "B",
-        "explanation": "Greg signs up to be a tree because trees don't have to sing and they get to throw apples at Dorothy."
+        "explanation": "Abe Hall got the Cheese Touch and moved away to California, taking it with him."
       },
       {
         "id": 15,
         "difficulty": "easy",
-        "question": "Who plays Dorothy in the school play?",
+        "question": "What grade did Greg get in handwriting?",
         "options": {
-          "A": "Rosamond",
-          "B": "Mrs. Norton",
-          "C": "Patty Farrell",
-          "D": "Jenna Stewart"
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D"
         },
-        "answer": "C",
-        "explanation": "Patty Farrell plays Dorothy, and Greg wants to throw apples at her during the play."
+        "answer": "D",
+        "explanation": "Greg got a D in handwriting because he taped his fingers together to stay crossed."
       },
       {
         "id": 16,
         "difficulty": "easy",
-        "question": "What video game does Greg want for Christmas?",
+        "question": "Where does Fregley live?",
         "options": {
-          "A": "Formula One Racing",
-          "B": "Twisted Wizard",
-          "C": "Super Mario",
-          "D": "Wacky Dog"
+          "A": "Next to Greg",
+          "B": "Next to Rowley",
+          "C": "Halfway between Greg's and Rowley's houses",
+          "D": "Across town"
         },
-        "answer": "B",
-        "explanation": "Greg really wants a video game called Twisted Wizard for Christmas."
+        "answer": "C",
+        "explanation": "Fregley lives halfway between Greg's house and Rowley's house."
       },
       {
         "id": 17,
         "difficulty": "easy",
-        "question": "What did Greg get from Santa that was actually meant for someone else?",
+        "question": "What sport determined popularity in elementary school?",
         "options": {
-          "A": "A video game",
-          "B": "A red wool sweater",
-          "C": "A toy car",
-          "D": "A book"
+          "A": "Basketball",
+          "B": "Football",
+          "C": "Running",
+          "D": "Soccer"
         },
-        "answer": "B",
-        "explanation": "Greg got a red wool sweater that was meant for their Giving Tree guy, while the Giving Tree guy got Greg's video game."
+        "answer": "C",
+        "explanation": "In elementary school, if you were the fastest runner, you got all the girls."
       },
       {
         "id": 18,
         "difficulty": "easy",
-        "question": "What does Rowley give Greg for Christmas?",
+        "question": "What does Greg's mom always say about him?",
         "options": {
-          "A": "A video game",
-          "B": "A book",
-          "C": "A Big Wheel",
-          "D": "A football"
+          "A": "He's lazy",
+          "B": "He's smart but doesn't apply himself",
+          "C": "He's athletic",
+          "D": "He's artistic"
         },
-        "answer": "C",
-        "explanation": "Rowley gives Greg a Big Wheel, which Greg thinks would have been cool when he was in third grade."
+        "answer": "B",
+        "explanation": "Mom always says Greg is a smart kid but just doesn't apply himself."
       },
       {
         "id": 19,
         "difficulty": "easy",
-        "question": "What job do Greg and Rowley sign up for at school?",
+        "question": "What video game does Rowley have that Greg always plays?",
         "options": {
-          "A": "Cafeteria helpers",
-          "B": "Library assistants",
-          "C": "Safety patrols",
-          "D": "Office aides"
+          "A": "Twisted Wizard",
+          "B": "Formula One Racing",
+          "C": "Wacky Dog",
+          "D": "Super Fighter"
         },
-        "answer": "C",
-        "explanation": "Greg and Rowley sign up to be safety patrols, which gives them hot chocolate privileges and lets them miss part of class."
+        "answer": "B",
+        "explanation": "Greg plays Formula One Racing at Rowley's because violent games aren't allowed there."
       },
       {
         "id": 20,
         "difficulty": "easy",
-        "question": "What is the name of the weird kid who lives between Greg's and Rowley's houses?",
+        "question": "What did the first kid pay to enter Greg's haunted house?",
         "options": {
-          "A": "Colin Lee",
-          "B": "Brian Little",
-          "C": "Fregley",
-          "D": "Darren Walsh"
+          "A": "50 cents",
+          "B": "1 dollar",
+          "C": "2 dollars",
+          "D": "5 dollars"
         },
         "answer": "C",
-        "explanation": "Fregley is a weird kid who lives halfway between Greg's and Rowley's houses and has a made-up language."
+        "explanation": "Greg charged 2 dollars even though the flyer said 50 cents, calling it a typo."
       },
       {
         "id": 21,
         "difficulty": "medium",
-        "question": "Why did Greg get a D in handwriting?",
+        "question": "According to Greg, in middle school you have to be careful where you sit on the first day because ---.",
         "options": {
-          "A": "He has bad handwriting",
-          "B": "He taped his fingers together",
-          "C": "He broke his hand",
-          "D": "He refused to do the assignments"
+          "A": "the popular kids take all the good seats",
+          "B": "the teacher assigns permanent seats based on where you sit",
+          "C": "the windows are too bright in some areas",
+          "D": "the teachers don't let you move at all"
         },
         "answer": "B",
-        "explanation": "Greg taped his fingers together to keep them crossed all the time to protect himself from the Cheese Touch, which affected his handwriting."
+        "explanation": "Greg warns that wherever you sit on the first day becomes your permanent seat for the year."
       },
       {
         "id": 22,
         "difficulty": "medium",
-        "question": "According to Greg, what determined popularity in elementary school?",
+        "question": "Roderick tricked Greg at the beginning of summer by ---.",
         "options": {
-          "A": "Being the smartest kid",
-          "B": "Being the fastest runner",
-          "C": "Having the most money",
-          "D": "Wearing nice clothes"
+          "A": "hiding his video games in the basement",
+          "B": "making him think he slept through the whole summer",
+          "C": "telling him school was cancelled",
+          "D": "pretending their parents went on vacation"
         },
         "answer": "B",
-        "explanation": "Greg says that in elementary school, if you were the fastest runner in your class, you got all the girls."
+        "explanation": "Roderick woke Greg up at 3 AM, dressed in school clothes, and made him think it was the first day of school."
       },
       {
         "id": 23,
         "difficulty": "medium",
-        "question": "Who is the most popular boy in Greg's grade?",
+        "question": "Greg taped his fingers together because ---.",
         "options": {
-          "A": "Charlie Davies",
-          "B": "Rowley Jefferson",
-          "C": "Bryce Anderson",
-          "D": "Colin Lee"
+          "A": "he broke his finger playing sports",
+          "B": "he wanted to keep them crossed to avoid the Cheese Touch",
+          "C": "it was a trend at school",
+          "D": "he was copying Rowley"
         },
-        "answer": "C",
-        "explanation": "Bryce Anderson is the most popular boy in Greg's grade, even though he used to say girls were 'stinky poos.'"
+        "answer": "B",
+        "explanation": "Greg taped his fingers together so they'd stay crossed all the time to protect from the Cheese Touch."
       },
       {
         "id": 24,
         "difficulty": "medium",
-        "question": "What does Roderick's magazine incident require him to do as punishment?",
+        "question": "Greg was disappointed to be in the gifted reading group because ---.",
         "options": {
-          "A": "Clean his room",
-          "B": "Write an apology",
-          "C": "Answer questions Mom wrote",
-          "D": "Give up his drums"
+          "A": "his friends were in the easy group",
+          "B": "it meant a lot of extra work",
+          "C": "the teacher was mean",
+          "D": "the books were boring"
         },
-        "answer": "C",
-        "explanation": "Roderick has to answer a bunch of questions Mom wrote out about the magazine, including whether it made him a better person."
+        "answer": "B",
+        "explanation": "Greg was disappointed because being in the gifted group just means a lot of extra work."
       },
       {
         "id": 25,
         "difficulty": "medium",
-        "question": "Why does Greg want to gain weight?",
+        "question": "When Greg plays Formula One Racing with Rowley, he wins easily by ---.",
         "options": {
-          "A": "To look bigger",
-          "B": "To eat more food",
-          "C": "To move out of Fregley's wrestling weight class",
-          "D": "To join the football team"
+          "A": "using cheat codes",
+          "B": "naming his car something ridiculous like 'Bad Fart'",
+          "C": "practicing more than Rowley",
+          "D": "using a better controller"
         },
-        "answer": "C",
-        "explanation": "Greg wants to gain weight so he can move out of Fregley's weight class and not have to wrestle him every day."
+        "answer": "B",
+        "explanation": "Greg names his car something ridiculous, and Rowley falls to pieces when the announcer says it."
       },
       {
         "id": 26,
         "difficulty": "medium",
-        "question": "What type of wrestling does the school teach?",
+        "question": "Rowley got in trouble with Greg because on the first day of school, he asked Greg to ---.",
         "options": {
-          "A": "Professional wrestling with moves from TV",
-          "B": "Olympic-style wrestling with singlets",
-          "C": "Sumo wrestling",
-          "D": "Martial arts wrestling"
+          "A": "carry his books",
+          "B": "come over to 'play' instead of 'hang out'",
+          "C": "sit next to him in class",
+          "D": "share his lunch"
         },
         "answer": "B",
-        "explanation": "The school teaches Olympic-style wrestling where students wear singlets, not the TV wrestling Greg expected."
+        "explanation": "Rowley asked to 'play' instead of 'hang out,' which embarrassed Greg in middle school."
       },
       {
         "id": 27,
         "difficulty": "medium",
-        "question": "Why does Patty Farrell spoil Greg's geography quiz?",
+        "question": "Mrs. Craig confiscated the CD player and lectured the boys because she thought ---.",
         "options": {
-          "A": "She told the teacher he was cheating",
-          "B": "She reminded the teacher to cover the map",
-          "C": "She erased his answers",
-          "D": "She switched his paper"
+          "A": "they stole it from another student",
+          "B": "rock and roll music is evil and ruins brains",
+          "C": "they were skipping class",
+          "D": "the music was too loud"
         },
         "answer": "B",
-        "explanation": "Patty told Mr. Ira to cover up the United States map before the test, ruining Greg's plan to read the capitals off the wall."
+        "explanation": "Mrs. Craig lectured them about how rock and roll is evil and will ruin their brains."
       },
       {
         "id": 28,
         "difficulty": "medium",
-        "question": "What happens to the trees' song in the school play?",
+        "question": "Greg got in trouble for listening to Roderick's CD because ---.",
         "options": {
-          "A": "They sing beautifully",
-          "B": "Greg refuses to sing and others stop too",
-          "C": "They forget the words",
-          "D": "The music doesn't play"
+          "A": "he played it too late at night",
+          "B": "the headphones weren't plugged in and music came through the speakers",
+          "C": "Roderick caught him with it",
+          "D": "Mom found the CD in his room"
         },
         "answer": "B",
-        "explanation": "Greg keeps his mouth shut because Roderick is recording, and when other trees notice, they stop singing too."
+        "explanation": "Greg didn't have the headphones plugged into the stereo, so the music came through the speakers."
       },
       {
         "id": 29,
         "difficulty": "medium",
-        "question": "How does the school play end?",
+        "question": "Roderick had to answer Mom's questions as punishment because ---.",
         "options": {
-          "A": "Standing ovation",
-          "B": "Trees throw apples and Patty's glasses break",
-          "C": "Power outage",
-          "D": "Fire alarm goes off"
+          "A": "he failed a test at school",
+          "B": "Manny brought his heavy metal magazine to daycare",
+          "C": "he broke Greg's video game",
+          "D": "he stayed out too late"
         },
         "answer": "B",
-        "explanation": "Greg throws an apple at Patty, other trees join in, and someone knocks off Patty's glasses, breaking a lens and ending the play."
+        "explanation": "Manny took Roderick's magazine with a woman in a bikini to daycare for show and tell."
       },
       {
         "id": 30,
         "difficulty": "medium",
-        "question": "Why did Greg's uncle give him a Barbie instead of a Barbie Dream House?",
+        "question": "Greg's campaign posters were taken down by the vice principal because ---.",
         "options": {
-          "A": "He forgot what Greg wanted",
-          "B": "He grabbed the first thing with Barbie on it",
-          "C": "The dream house was sold out",
-          "D": "He thought Greg would prefer it"
+          "A": "they had spelling mistakes",
+          "B": "they contained fabrications about the other candidate",
+          "C": "they were hung in the wrong place",
+          "D": "they were too big"
         },
         "answer": "B",
-        "explanation": "Uncle Charlie walked into the store and picked up the first thing he saw that had the word 'Barbie' on it."
+        "explanation": "Mr. Roy said you weren't allowed to write fabrications about other candidates."
       },
       {
         "id": 31,
         "difficulty": "medium",
-        "question": "How did Greg end up in the emergency room after the Barbie incident?",
+        "question": "At the Crossland haunted house, Mom made the chainsaw guy stop chasing the boys by ---.",
         "options": {
-          "A": "He fell off the dream house",
-          "B": "A pink Barbie shoe got stuck in his nose",
-          "C": "He swallowed a Barbie accessory",
-          "D": "He cut himself on the packaging"
+          "A": "calling the police",
+          "B": "telling him 'That's not nice'",
+          "C": "paying him extra money",
+          "D": "threatening to report him"
         },
         "answer": "B",
-        "explanation": "Greg ended up in the emergency room with a pink Barbie shoe stuck up his nose."
+        "explanation": "Mom stepped in and said 'That's not nice,' and the chainsaw guy apologized and showed them the exit."
       },
       {
         "id": 32,
         "difficulty": "medium",
-        "question": "Why is Greg sent to bed early on New Year's Eve?",
+        "question": "Greg and Rowley's haunted house had to close because ---.",
         "options": {
-          "A": "He broke a window",
-          "B": "He made Manny swallow something",
-          "C": "He refused to clean his room",
-          "D": "He fought with Roderick"
+          "A": "they ran out of supplies",
+          "B": "Shane Snella wouldn't come out from under the bed and Rowley's dad found them",
+          "C": "too many kids complained",
+          "D": "it started raining"
         },
         "answer": "B",
-        "explanation": "Greg pretended a piece of thread was a spider and accidentally made Manny swallow it, then Manny exaggerated and got Greg in trouble."
+        "explanation": "Shane curled up under the bed in fear, and when Rowley's dad came down, he shut down the operation."
       },
       {
         "id": 33,
         "difficulty": "medium",
-        "question": "What did Manny point to when asked how big the thread was that he swallowed?",
+        "question": "When Rowley was grounded from TV, Greg tried to help by ---.",
         "options": {
-          "A": "A grape",
-          "B": "A raisin",
-          "C": "An orange",
-          "D": "A seed"
+          "A": "sneaking a TV into Rowley's room",
+          "B": "doing a play-by-play of the show over the phone",
+          "C": "recording the shows for him",
+          "D": "writing summaries of each episode"
         },
-        "answer": "C",
-        "explanation": "When Mom showed Manny a seed, raisin, and grape, Manny went to the refrigerator and pulled out an orange instead."
+        "answer": "B",
+        "explanation": "Greg turned on Rowley's favorite show and did a play-by-play over the phone."
       },
       {
         "id": 34,
         "difficulty": "medium",
-        "question": "What was the original plan for Greg and Rowley's giant snowball?",
+        "question": "Greg thinks Dad would dismantle his game system, but he can't because ---.",
         "options": {
-          "A": "Make a snow fort",
-          "B": "Build world's biggest snowman",
-          "C": "Block the street",
-          "D": "Throw it at the Whirley Street kids"
+          "A": "Mom won't let him",
+          "B": "the people who make them make them parent-proof",
+          "C": "Greg hides it too well",
+          "D": "Roderick protects it"
         },
         "answer": "B",
-        "explanation": "Their goal was to build the world's biggest snowman and get into the Guinness Book of World Records."
+        "explanation": "Greg says the people who make game systems make them parent-proof."
       },
       {
         "id": 35,
         "difficulty": "medium",
-        "question": "What happened when Greg and Rowley were about to fight?",
+        "question": "Greg ranks himself around 52nd or 53rd in popularity, but expects to move up because ---.",
         "options": {
-          "A": "A teacher stopped them",
-          "B": "Teenagers from Halloween showed up",
-          "C": "It started raining",
-          "D": "They made up"
+          "A": "he's getting new clothes",
+          "B": "Charlie Davies above him is getting braces",
+          "C": "Rowley is moving away",
+          "D": "he joined a sports team"
         },
         "answer": "B",
-        "explanation": "The same teenagers who chased them on Halloween showed up, stopping their fight."
+        "explanation": "Greg figures he'll move up because Charlie Davies is getting braces next week."
       },
       {
         "id": 36,
         "difficulty": "medium",
-        "question": "What does Greg claim to avoid eating the cheese?",
+        "question": "The game Greg invented with the CD player headphones involved ---.",
         "options": {
-          "A": "He already has the cheese touch",
-          "B": "He's allergic to dairy",
-          "C": "He just ate lunch",
-          "D": "His mom would get mad"
+          "A": "listening to music and guessing the song",
+          "B": "putting headphones on and shaking them off without using hands",
+          "C": "passing the headphones around quickly",
+          "D": "dancing while wearing the headphones"
         },
         "answer": "B",
-        "explanation": "Greg lies and says he's allergic to dairy to avoid having to eat the moldy cheese."
+        "explanation": "The game was to put headphones on and shake them off in the shortest time without using hands."
       },
       {
         "id": 37,
         "difficulty": "medium",
-        "question": "Who originally drew the comic 'Wacky Dog' for the school paper?",
+        "question": "Greg learned from Roderick to set people's expectations low so that ---.",
         "options": {
-          "A": "Rowley Jefferson",
-          "B": "Greg Heffley",
-          "C": "Brian Little",
-          "D": "Bill Tritt"
+          "A": "nobody asks you for help",
+          "B": "you end up surprising them by practically doing nothing",
+          "C": "teachers leave you alone",
+          "D": "you don't have to do homework"
         },
-        "answer": "C",
-        "explanation": "Brian Little drew Wacky Dog until he got fired for using the comic to handle personal business."
+        "answer": "B",
+        "explanation": "Greg learned to set expectations low so you end up surprising people by practically doing nothing."
       },
       {
         "id": 38,
         "difficulty": "medium",
-        "question": "What is the name of Greg's comic strip?",
+        "question": "When Greg messes up in front of Dad, the best time to do it is when Dad is ---.",
         "options": {
-          "A": "Zoo-Wee Mama",
-          "B": "Wacky Dog",
-          "C": "Creighton the Creighton",
-          "D": "Dumb Teachers"
+          "A": "watching TV",
+          "B": "reading the paper",
+          "C": "eating dinner",
+          "D": "working in the yard"
         },
-        "answer": "C",
-        "explanation": "Greg creates a comic called Creighton the Creighton, where the main character is stupid."
+        "answer": "B",
+        "explanation": "Good time to screw up is when Dad is reading the paper; bad time is when he's laying bricks."
       },
       {
         "id": 39,
         "difficulty": "medium",
-        "question": "Why does Mrs. Craig confiscate Roderick's CD player at school?",
+        "question": "Greg sneaks violent video games to Rowley's house by ---.",
         "options": {
-          "A": "It was too loud",
-          "B": "She thought they were listening to evil rock music",
-          "C": "It was stolen",
-          "D": "They were supposed to be in class"
+          "A": "hiding them in his backpack",
+          "B": "putting his disc in Manny's 'Discovering the Alphabet' case",
+          "C": "telling Rowley's dad they're educational",
+          "D": "borrowing Rowley's games instead"
         },
         "answer": "B",
-        "explanation": "Mrs. Craig caught them and started lecturing about how rock and roll is evil and will ruin their brains."
+        "explanation": "Greg puts his game disc in Manny's Discovering the Alphabet case to get past Rowley's dad."
       },
       {
         "id": 40,
         "difficulty": "medium",
-        "question": "Why does Greg turn his CD player on without headphones plugged in?",
+        "question": "After running through the neighbor's sprinkler, Greg's trick backfired because ---.",
         "options": {
-          "A": "He didn't know they weren't plugged in",
-          "B": "He wanted to wake everyone",
-          "C": "The headphones were broken",
-          "D": "He was testing the speakers"
+          "A": "Dad knew he was faking",
+          "B": "Mom made him take a shower",
+          "C": "he caught a cold",
+          "D": "his clothes got ruined"
         },
-        "answer": "A",
-        "explanation": "Greg didn't realize the headphones weren't plugged into the stereo, so the music played through the speakers instead."
+        "answer": "B",
+        "explanation": "The trick worked on Dad, but Mom saw him and made him go upstairs and take a shower."
       },
       {
         "id": 41,
         "difficulty": "hard",
-        "question": "What ranking does Greg estimate for himself in school popularity?",
+        "question": "Why does Greg say writing in the journal will 'come in handy' when he's rich and famous?",
         "options": {
-          "A": "32nd or 33rd",
-          "B": "52nd or 53rd",
-          "C": "72nd or 73rd",
-          "D": "22nd or 23rd"
+          "A": "He can sell it for money",
+          "B": "He won't have to answer people's stupid questions",
+          "C": "It will help him remember his childhood",
+          "D": "His fans will want to read it"
         },
         "answer": "B",
-        "explanation": "Greg figures he's somewhere around 52nd or 53rd most popular, with good news that Charlie Davies getting braces might move him up one spot."
+        "explanation": "Greg says when he's rich and famous, he'll have better things to do than answer questions, so the book will come in handy."
       },
       {
         "id": 42,
         "difficulty": "hard",
-        "question": "What popularity ranking does Greg estimate for Rowley?",
+        "question": "What does Greg's attitude toward Rowley reveal about his character?",
         "options": {
-          "A": "About 100th",
-          "B": "About 150th",
-          "C": "About 200th",
-          "D": "About 75th"
+          "A": "He is a loyal and supportive friend",
+          "B": "He sees friendship partly as a way to benefit himself",
+          "C": "He doesn't care about popularity",
+          "D": "He values Rowley above everyone else"
         },
         "answer": "B",
-        "explanation": "Greg says Rowley is 'probably hovering right around the 150 mark.'"
+        "explanation": "Greg uses Rowley for pranks, criticizes his popularity rank, and says their friendship is 'subject to change.'"
       },
       {
         "id": 43,
         "difficulty": "hard",
-        "question": "Who took the Cheese Touch with them when they moved away?",
+        "question": "Why is it ironic that Greg was disappointed to be in the gifted reading group?",
         "options": {
-          "A": "Darren Walsh",
-          "B": "Abe Hall",
-          "C": "Charlie Davies",
-          "D": "Fregley"
+          "A": "He actually loves reading",
+          "B": "He tried to act stupid to get in the easy group but his mom intervened",
+          "C": "The gifted group has less homework",
+          "D": "Rowley is in the gifted group too"
         },
         "answer": "B",
-        "explanation": "Abe Hall got the Cheese Touch in April and moved away to California that summer, taking the cheese touch with him."
+        "explanation": "Greg deliberately tried to act stupid during screening, but his mom is tight with the principal and probably got him placed in gifted anyway."
       },
       {
         "id": 44,
         "difficulty": "hard",
-        "question": "What does Fregley say when he needs to go to the bathroom?",
+        "question": "What does the Cheese Touch represent in the social world of Greg's school?",
         "options": {
-          "A": "Potty time!",
-          "B": "Juice! Juice!",
-          "C": "Help me!",
-          "D": "Water! Water!"
+          "A": "A fun game everyone enjoys",
+          "B": "How quickly social status can change through arbitrary rules",
+          "C": "The importance of hygiene",
+          "D": "A way to make new friends"
         },
         "answer": "B",
-        "explanation": "Fregley says 'Juice! Juice!' when he needs the bathroom, and the teachers keep bringing him juice because they haven't figured it out."
+        "explanation": "The Cheese Touch shows how arbitrary social rules can instantly make someone an outcast, like Abe Hall who nobody would go near."
       },
       {
         "id": 45,
         "difficulty": "hard",
-        "question": "What word does Greg have to say in the entire school play?",
+        "question": "What does Greg's description of middle school mixing kids who 'haven't hit their growth spurt with gorillas who shave twice a day' suggest?",
         "options": {
-          "A": "Help",
-          "B": "Stop",
-          "C": "Ouch",
-          "D": "No"
+          "A": "He thinks the school should separate grades differently",
+          "B": "He's commenting on the unfair physical differences that affect social dynamics",
+          "C": "He wants to transfer schools",
+          "D": "He admires the bigger kids"
         },
-        "answer": "C",
-        "explanation": "Greg's only line in the play is 'Ouch' when Dorothy picks an apple off his branch."
+        "answer": "B",
+        "explanation": "Greg points out how unfair it is that physical development differences create bullying problems in middle school."
       },
       {
         "id": 46,
         "difficulty": "hard",
-        "question": "What is the name of the song the trees have to sing in the play?",
+        "question": "Why does Greg think Dad 'doesn't understand the concept of Halloween'?",
         "options": {
-          "A": "Tree Time",
-          "B": "We Three Trees",
-          "C": "Forest Friends",
-          "D": "Standing Tall"
+          "A": "Dad doesn't like candy",
+          "B": "Dad uses Halloween to drench teenagers instead of giving out candy",
+          "C": "Dad doesn't wear a costume",
+          "D": "Dad goes to bed early"
         },
         "answer": "B",
-        "explanation": "Mrs. Norton wrote a song called 'We Three Trees' that the trees have to perform."
+        "explanation": "While other parents hand out candy, Dad hides in the bushes to drench teenagers with water."
       },
       {
         "id": 47,
         "difficulty": "hard",
-        "question": "What character does Rodney James play in the school play?",
+        "question": "What does the contrast between Mom's and Dad's punishment styles reveal?",
         "options": {
-          "A": "The Tin Man",
-          "B": "A tree",
-          "C": "The Shrub",
-          "D": "Toto"
+          "A": "Mom is stricter than Dad",
+          "B": "Dad reacts immediately but cools off, while Mom waits and catches you off guard",
+          "C": "They always agree on punishments",
+          "D": "Neither parent is effective at discipline"
         },
-        "answer": "C",
-        "explanation": "Rodney James got stuck playing The Shrub because there weren't enough roles for everyone."
+        "answer": "B",
+        "explanation": "Dad gets mad but cools off quick; Mom takes days to decide, making you do nice things, then surprises you with punishment."
       },
       {
         "id": 48,
         "difficulty": "hard",
-        "question": "How does Greg make a homemade barbell for weightlifting?",
+        "question": "Why is it significant that Bryce Anderson used to say 'girls are stinky poos' but is now the most popular boy?",
         "options": {
-          "A": "Uses cans and a stick",
-          "B": "Fills milk jugs with sand and tapes to broomstick",
-          "C": "Uses rocks and rope",
-          "D": "Fills bottles with water"
+          "A": "It shows girls have bad memories",
+          "B": "It shows popularity rules change unfairly between elementary and middle school",
+          "C": "It proves being mean makes you popular",
+          "D": "It shows Bryce changed completely"
         },
         "answer": "B",
-        "explanation": "Greg empties milk and orange juice jugs, fills them with sand, and tapes them to a broomstick."
+        "explanation": "Greg points out how popularity used to be about being fast, but now it's about looks and money - and he doesn't get credit for always liking girls."
       },
       {
         "id": 49,
         "difficulty": "hard",
-        "question": "What does Greg use for a bench press?",
+        "question": "What does Greg's haunted house scheme reveal about his entrepreneurial thinking?",
         "options": {
-          "A": "A chair and pillows",
-          "B": "His bed",
-          "C": "An ironing board and boxes",
-          "D": "Couch cushions"
+          "A": "He's very creative but doesn't follow through on plans",
+          "B": "He's honest in business dealings",
+          "C": "He puts customers first",
+          "D": "He has no interest in money"
         },
-        "answer": "C",
-        "explanation": "Greg makes a bench press out of an ironing board and some boxes."
+        "answer": "A",
+        "explanation": "Greg had elaborate plans (sharks, acid lakes) but only finished the Hall of Screams and a ketchup pool, showing big ideas but poor execution."
       },
       {
         "id": 50,
         "difficulty": "hard",
-        "question": "How did Greg win honorable mention in the anti-smoking contest?",
+        "question": "Why does Greg describe Rowley's 'How to Make Friends' book gimmicks as 'dumb' but still become his friend?",
         "options": {
-          "A": "Wrote an essay",
-          "B": "Traced a picture from Roderick's magazine",
-          "C": "Made a video",
-          "D": "Created a poster from scratch"
+          "A": "The gimmicks actually worked on Greg",
+          "B": "Greg felt sorry for Rowley and saw him as someone he could use",
+          "C": "Rowley's mom made them be friends",
+          "D": "They had the same interests"
         },
         "answer": "B",
-        "explanation": "Greg traced a picture from one of Roderick's heavy metal magazines and wrote 'Don't smoke or you'll look like me.'"
+        "explanation": "Greg says he 'felt sorry for Rowley' and decided to 'take him under my wing' - and that it's great because he can use Roderick's tricks on him."
       },
       {
         "id": 51,
         "difficulty": "hard",
-        "question": "What did Mr. Ira rename Greg's comic strip?",
+        "question": "What does Greg's claim that he's 'super good at video games' and could 'beat anyone' reveal about his self-image?",
         "options": {
-          "A": "Creighton the Clever",
-          "B": "Creighton the Curious Student",
-          "C": "Creighton the Kind",
-          "D": "Creighton the Learner"
+          "A": "He's very humble about his abilities",
+          "B": "He overestimates himself and values skills adults don't appreciate",
+          "C": "He's actually a professional gamer",
+          "D": "He never exaggerates"
         },
         "answer": "B",
-        "explanation": "Mr. Ira changed Greg's 'Creighton the Creighton' to 'Creighton the Curious Student' and made it educational."
+        "explanation": "Greg thinks highly of his gaming skills despite Dad not appreciating them, showing he values things differently than adults."
       },
       {
         "id": 52,
         "difficulty": "hard",
-        "question": "What assignment does the Independent Study class receive?",
+        "question": "Why is Mom dancing to Roderick's heavy metal music ironic?",
         "options": {
-          "A": "Write a research paper",
-          "B": "Build a robot",
-          "C": "Create a business plan",
-          "D": "Design a website"
+          "A": "She's a great dancer",
+          "B": "She treats all music the same, not understanding heavy metal is meant to be rebellious",
+          "C": "She used to be in a band",
+          "D": "Roderick taught her the dance"
         },
         "answer": "B",
-        "explanation": "The Independent Study class is assigned to build a robot, though they only need to come up with ideas for one."
+        "explanation": "Mom doesn't understand that heavy metal is supposed to be rebellious - to her 'all music is the same,' which bugs Roderick."
       },
       {
         "id": 53,
         "difficulty": "hard",
-        "question": "Why is Independent Study cancelled for the boys?",
+        "question": "What does Greg's campaign poster strategy reveal about his approach to competition?",
         "options": {
-          "A": "They broke equipment",
-          "B": "They made a list of bad words",
-          "C": "They fought",
-          "D": "They didn't do any work"
+          "A": "He focuses on his own strengths",
+          "B": "He tries to win by tearing down opponents rather than promoting himself",
+          "C": "He's very honest",
+          "D": "He doesn't care about winning"
         },
         "answer": "B",
-        "explanation": "The boys created a list of bad words the robot shouldn't say, and when Mr. Darnell saw it, he cancelled the class for them."
+        "explanation": "Greg's posters attacked Marty Porter (head lice, dropping money) instead of promoting his own qualifications."
       },
       {
         "id": 54,
         "difficulty": "hard",
-        "question": "What prank did Greg play on the kindergartners that got Rowley in trouble?",
+        "question": "What theme does the story of Ronnie McCoy illustrate about growing up?",
         "options": {
-          "A": "Threw snowballs at them",
-          "B": "Chased them with worms",
-          "C": "Scared them with a mask",
-          "D": "Made them run home"
+          "A": "Athletic ability always matters",
+          "B": "What makes you popular as a child doesn't guarantee success later",
+          "C": "Running is the most important skill",
+          "D": "Elementary school is harder than middle school"
         },
         "answer": "B",
-        "explanation": "Greg chased the kindergartners with worms while wearing Rowley's coat, and Mrs. Irvine thought it was Rowley."
+        "explanation": "Ronnie was popular in elementary school for being fast, but now kids like him are 'scratching their heads wondering what happened.'"
       },
       {
         "id": 55,
         "difficulty": "hard",
-        "question": "What reward do safety patrol officers get in June?",
+        "question": "Why does Greg compare being stuck with Manny's potty routine to losing his appetite?",
         "options": {
-          "A": "A pizza party",
-          "B": "A trip to Six Flags",
-          "C": "Extra credit",
-          "D": "A certificate"
+          "A": "He doesn't like breakfast foods",
+          "B": "Having to scrape cereal from a toilet-like object is disgusting even if sanitary",
+          "C": "Manny's food tastes bad",
+          "D": "He's on a diet"
         },
         "answer": "B",
-        "explanation": "All the officers in the safety patrols go on a trip to Six Flags in June and get to bring one friend."
+        "explanation": "Greg says if Mom had to scrape cornflakes out of a plastic potty every morning, she wouldn't have much appetite either."
       },
       {
         "id": 56,
         "difficulty": "hard",
-        "question": "What does Fregley slip under the bathroom door to Greg?",
+        "question": "What does Greg's numerical ranking of popularity (52nd or 53rd) suggest about middle school social dynamics?",
         "options": {
-          "A": "A note with a booger on it",
-          "B": "A drawing",
-          "C": "A snack",
-          "D": "An apology letter"
+          "A": "Everyone knows their exact rank",
+          "B": "Greg obsessively measures and calculates social status like a competition",
+          "C": "Teachers assign popularity ranks",
+          "D": "Only the top 10 matter"
         },
-        "answer": "A",
-        "explanation": "Fregley slips a note apologizing for chasing Greg with a booger and puts the booger on the paper 'so Greg can get him back.'"
+        "answer": "B",
+        "explanation": "Greg treats popularity like a precise ranking system, even tracking when he might move up a spot due to someone's braces."
       },
       {
         "id": 57,
         "difficulty": "hard",
-        "question": "What system does Greg create for his thank you notes?",
+        "question": "Why does Rowley's crying about 'rock and roll ruining his brains' frustrate Greg?",
         "options": {
-          "A": "He copies from the internet",
-          "B": "He creates a form letter on the computer",
-          "C": "He has Rowley write them",
-          "D": "He draws pictures instead"
+          "A": "Rowley is too loud",
+          "B": "Rowley takes things literally and doesn't understand when adults are overreacting",
+          "C": "Greg agrees with Mrs. Craig",
+          "D": "Rowley broke the CD player"
         },
         "answer": "B",
-        "explanation": "Greg writes up a general form on the computer with blanks for the things that need to change."
+        "explanation": "Greg says 'sometimes I don't know about that boy' - Rowley believed Mrs. Craig's exaggeration literally."
       },
       {
         "id": 58,
         "difficulty": "hard",
-        "question": "What happens to Bill Watson, who was voted 'most likely to succeed' in Roderick's yearbook?",
+        "question": "What does the phrase 'Let's you and me have a talk, friend' reveal about Dad's communication style?",
         "options": {
-          "A": "He became a doctor",
-          "B": "He dropped out of high school",
-          "C": "He moved away",
-          "D": "He became famous"
+          "A": "Dad is always friendly when angry",
+          "B": "Dad uses 'friend' sarcastically to signal Greg is in trouble",
+          "C": "Dad wants to have a casual conversation",
+          "D": "Dad forgot Greg's name"
         },
         "answer": "B",
-        "explanation": "Bill Watson was voted something special but ended up dropping out of high school, though people still treat him like he's important."
+        "explanation": "Greg learned that when Dad says 'friend' that way, 'you know you're in trouble' - it's sarcasm."
       },
       {
         "id": 59,
         "difficulty": "hard",
-        "question": "Who is the substitute teacher for Greg's history class that ruins his Class Clown plan?",
+        "question": "What does Greg raising the haunted house price from 50 cents to 2 dollars reveal about him?",
         "options": {
-          "A": "Mrs. Craig",
-          "B": "His grandmother",
-          "C": "His mom",
-          "D": "Rowley's mom"
+          "A": "He's a generous person",
+          "B": "He's opportunistic and willing to deceive customers for profit",
+          "C": "He made an honest mistake",
+          "D": "He didn't want anyone to come"
         },
-        "answer": "C",
-        "explanation": "Greg's mom ends up being the substitute teacher for his history class, ruining his plan to be funny."
+        "answer": "B",
+        "explanation": "Greg saw a 'chance to make a killing' and lied that the 50 cent price was a typo, showing opportunism."
       },
       {
         "id": 60,
         "difficulty": "hard",
-        "question": "What class favorite award does Rowley win at the end of the year?",
+        "question": "What is the overall message about Greg's view of himself versus how others might see him?",
         "options": {
-          "A": "Most Popular",
-          "B": "Best Artist",
-          "C": "Class Clown",
-          "D": "Most Talented"
+          "A": "Greg is exactly as cool as he thinks he is",
+          "B": "Greg sees himself as smarter and more deserving than his situation reflects",
+          "C": "Greg is very self-aware",
+          "D": "Greg has low self-esteem"
         },
-        "answer": "C",
-        "explanation": "Rowley wins Class Clown, wearing a Zoo Wee Mama t-shirt in the yearbook photo, the award Greg wanted."
+        "answer": "B",
+        "explanation": "Greg believes he'll be 'rich and famous,' ranks his popularity precisely, and thinks he's super skilled at games - but his schemes often fail and he's stuck in middle school like everyone else."
       }
     ]
   },
-  "Harry_Potter_and_the_Goblet_of_Fire": {
-    "book_title": "Harry Potter and the Goblet of Fire",
-    "author": "J.K. Rowling",
-    "genre": "Fantasy",
+  "Eerie_Elementary_The_School_Is_Alive": {
+    "title": "Eerie Elementary: The School Is Alive",
+    "author": "Jack Chabert",
+    "genre": "Horror / Fantasy",
     "book_level": {
-      "grade": 6.8,
-      "description": "Level 6.8"
+      "grade": 3,
+      "description": "Early chapter book - spooky school adventure with suspense elements"
     },
     "total_questions": 60,
     "questions": [
       {
         "id": 1,
         "difficulty": "easy",
-        "question": "What is the name of the village where the Riddle House is located?",
+        "question": "What is Sam Graves chosen to be at school?",
         "options": {
-          "A": "Great Hangleton",
-          "B": "Little Hangleton",
-          "C": "Godric's Hollow",
-          "D": "Hogsmeade"
+          "A": "Class president",
+          "B": "Hall monitor",
+          "C": "Team captain",
+          "D": "Library helper"
         },
         "answer": "B",
-        "explanation": "The Riddle House is located in the village of Little Hangleton."
+        "explanation": "Sam is chosen to be a hall monitor at Eerie Elementary."
       },
       {
         "id": 2,
         "difficulty": "easy",
-        "question": "Who was the gardener at the Riddle House?",
+        "question": "What are the names of Sam's two best friends?",
         "options": {
-          "A": "Tom Riddle",
-          "B": "Wormtail",
-          "C": "Frank Bryce",
-          "D": "Barty Crouch"
+          "A": "Ryan and Michael",
+          "B": "Antonio and Lucy",
+          "C": "Brian and Emily",
+          "D": "Jake and Emma"
         },
-        "answer": "C",
-        "explanation": "Frank Bryce was the gardener who had worked for the Riddles for many years."
+        "answer": "B",
+        "explanation": "Sam's best friends are Antonio and Lucy."
       },
       {
         "id": 3,
         "difficulty": "easy",
-        "question": "What is Wormtail's real name?",
+        "question": "What color is the hall monitor sash that Sam has to wear?",
         "options": {
-          "A": "Barty Crouch",
-          "B": "Peter Pettigrew",
-          "C": "Frank Bryce",
-          "D": "Sirius Black"
+          "A": "Red",
+          "B": "Blue",
+          "C": "Orange",
+          "D": "Green"
         },
-        "answer": "B",
-        "explanation": "Wormtail is the nickname for Peter Pettigrew."
+        "answer": "C",
+        "explanation": "Sam has to wear a shiny orange sash as hall monitor."
       },
       {
         "id": 4,
         "difficulty": "easy",
-        "question": "What is the name of Voldemort's snake?",
+        "question": "Who is the old man that takes care of the school?",
         "options": {
-          "A": "Hedwig",
-          "B": "Nagini",
-          "C": "Fawkes",
-          "D": "Scabbers"
+          "A": "Mr. Graves",
+          "B": "Mr. Nekobe",
+          "C": "Mr. Brian",
+          "D": "Mr. Grinker"
         },
         "answer": "B",
-        "explanation": "Nagini is Voldemort's giant snake that he can communicate with."
+        "explanation": "Mr. Nekobe is the old man who takes care of Eerie Elementary."
       },
       {
         "id": 5,
         "difficulty": "easy",
-        "question": "What shape is Harry's scar?",
+        "question": "What is the name of their teacher?",
         "options": {
-          "A": "A star",
-          "B": "A lightning bolt",
-          "C": "A circle",
-          "D": "A crescent moon"
+          "A": "Ms. Grinker",
+          "B": "Ms. Lucy",
+          "C": "Ms. Nekobe",
+          "D": "Ms. Graves"
         },
-        "answer": "B",
-        "explanation": "Harry has a lightning-bolt shaped scar on his forehead."
+        "answer": "A",
+        "explanation": "Ms. Grinker is Sam's classroom teacher."
       },
       {
         "id": 6,
         "difficulty": "easy",
-        "question": "What is the name of Harry's snowy owl?",
+        "question": "What play is the class putting on?",
         "options": {
-          "A": "Fawkes",
-          "B": "Errol",
-          "C": "Hedwig",
-          "D": "Pigwidgeon"
+          "A": "Snow White",
+          "B": "Peter Pan",
+          "C": "Cinderella",
+          "D": "The Wizard of Oz"
         },
-        "answer": "C",
-        "explanation": "Hedwig is Harry's snowy owl."
+        "answer": "B",
+        "explanation": "The class is performing Peter Pan for Friday's play."
       },
       {
         "id": 7,
         "difficulty": "easy",
-        "question": "Who are Harry's non-magical relatives?",
+        "question": "Who plays Peter Pan in the school play?",
         "options": {
-          "A": "The Weasleys",
-          "B": "The Dursleys",
-          "C": "The Grangers",
-          "D": "The Diggorys"
+          "A": "Sam",
+          "B": "Lucy",
+          "C": "Antonio",
+          "D": "Brian"
         },
-        "answer": "B",
-        "explanation": "Harry lives with his Muggle relatives, the Dursleys: Uncle Vernon, Aunt Petunia, and Cousin Dudley."
+        "answer": "C",
+        "explanation": "Antonio plays the role of Peter Pan."
       },
       {
         "id": 8,
         "difficulty": "easy",
-        "question": "What major wizarding event is mentioned at the beginning of the book?",
+        "question": "Who plays Wendy in the school play?",
         "options": {
-          "A": "The Triwizard Tournament",
-          "B": "The Quidditch World Cup",
-          "C": "The Yule Ball",
-          "D": "The Ministry Gala"
+          "A": "Sam",
+          "B": "Lucy",
+          "C": "Antonio",
+          "D": "Ms. Grinker"
         },
         "answer": "B",
-        "explanation": "The Quidditch World Cup is a major event that takes place at the beginning of the story."
+        "explanation": "Lucy plays Wendy in the Peter Pan play."
       },
       {
         "id": 9,
         "difficulty": "easy",
-        "question": "What school does Harry attend?",
+        "question": "What character does Sam play in Peter Pan?",
         "options": {
-          "A": "Durmstrang",
-          "B": "Beauxbatons",
-          "C": "Hogwarts",
-          "D": "Ilvermorny"
+          "A": "Captain Hook",
+          "B": "Peter Pan",
+          "C": "Noodler the pirate",
+          "D": "Tinkerbell"
         },
         "answer": "C",
-        "explanation": "Harry attends Hogwarts School of Witchcraft and Wizardry."
+        "explanation": "Sam plays Noodler, one of Captain Hook's friendly pirates."
       },
       {
         "id": 10,
         "difficulty": "easy",
-        "question": "What is the name of the tournament held at Hogwarts?",
+        "question": "What does Antonio always carry in his pocket for good luck?",
         "options": {
-          "A": "The Quidditch Cup",
-          "B": "The Triwizard Tournament",
-          "C": "The House Cup",
-          "D": "The Dueling Championship"
+          "A": "A coin",
+          "B": "A peanut butter and jelly sandwich",
+          "C": "A rabbit's foot",
+          "D": "A stone"
         },
         "answer": "B",
-        "explanation": "The Triwizard Tournament is held at Hogwarts, involving three magical schools."
+        "explanation": "Antonio always carries a peanut butter and jelly sandwich in his pocket as his lucky charm."
       },
       {
         "id": 11,
         "difficulty": "easy",
-        "question": "Who is killed by Voldemort at the end of the tournament?",
+        "question": "What first tries to eat Sam at the playground?",
         "options": {
-          "A": "Harry Potter",
-          "B": "Viktor Krum",
-          "C": "Cedric Diggory",
-          "D": "Fleur Delacour"
+          "A": "A tree",
+          "B": "Quicksand",
+          "C": "A fire hose",
+          "D": "A chair"
         },
-        "answer": "C",
-        "explanation": "Cedric Diggory is killed by Voldemort in the graveyard."
+        "answer": "B",
+        "explanation": "Sam's feet start sinking into quicksand on the playground."
       },
       {
         "id": 12,
         "difficulty": "easy",
-        "question": "What was the Triwizard Cup turned into?",
+        "question": "Who saves Sam from the quicksand?",
         "options": {
-          "A": "A horcrux",
-          "B": "A portkey",
-          "C": "A weapon",
-          "D": "A trophy"
+          "A": "Antonio",
+          "B": "Lucy",
+          "C": "Mr. Nekobe",
+          "D": "Ms. Grinker"
         },
-        "answer": "B",
-        "explanation": "The Triwizard Cup was turned into a portkey that transported Harry and Cedric to the graveyard."
+        "answer": "C",
+        "explanation": "Mr. Nekobe grabs Sam's wrist and yanks him free from the quicksand."
       },
       {
         "id": 13,
         "difficulty": "easy",
-        "question": "Who is the headmaster of Hogwarts?",
+        "question": "What breaks through the classroom window?",
         "options": {
-          "A": "Severus Snape",
-          "B": "Cornelius Fudge",
-          "C": "Albus Dumbledore",
-          "D": "Mad-Eye Moody"
+          "A": "A ball",
+          "B": "A bird",
+          "C": "A tree branch",
+          "D": "A rock"
         },
         "answer": "C",
-        "explanation": "Albus Dumbledore is the headmaster of Hogwarts."
+        "explanation": "The oak tree's long, twisted branch crashes through the window and grabs Sam."
       },
       {
         "id": 14,
         "difficulty": "easy",
-        "question": "What potion was used to impersonate Mad-Eye Moody?",
+        "question": "What attacks Sam in the hallway at night?",
         "options": {
-          "A": "Veritaserum",
-          "B": "Felix Felicis",
-          "C": "Polyjuice Potion",
-          "D": "Wolfsbane Potion"
+          "A": "Lockers",
+          "B": "A fire hose",
+          "C": "Chairs",
+          "D": "Windows"
         },
-        "answer": "C",
-        "explanation": "Polyjuice Potion was used to transform into Mad-Eye Moody."
+        "answer": "B",
+        "explanation": "A fire hose comes to life and whips around, attacking Sam."
       },
       {
         "id": 15,
         "difficulty": "easy",
-        "question": "What is the name of Dumbledore's phoenix?",
+        "question": "How does Sam stop the fire hose?",
         "options": {
-          "A": "Nagini",
-          "B": "Fawkes",
-          "C": "Hedwig",
-          "D": "Buckbeak"
+          "A": "He cuts it",
+          "B": "He ties it in a knot",
+          "C": "He runs away",
+          "D": "Mr. Nekobe stops it"
         },
         "answer": "B",
-        "explanation": "Fawkes is Dumbledore's phoenix who provides comfort to Harry."
+        "explanation": "Sam grabs the hose and ties it like a giant shoelace, stopping it."
       },
       {
         "id": 16,
         "difficulty": "easy",
-        "question": "What does 'Muggle' mean?",
+        "question": "What sound does Sam hear from the clock that scares him?",
         "options": {
-          "A": "A dark wizard",
-          "B": "A non-magical person",
-          "C": "A house-elf",
-          "D": "A type of spell"
+          "A": "A bell",
+          "B": "A heartbeat",
+          "C": "Music",
+          "D": "Thunder"
         },
         "answer": "B",
-        "explanation": "A Muggle is a person who has no magical abilities."
+        "explanation": "The clock changes from tick-tock to 'ba-bump, ba-bump' - the sound of a beating heart."
       },
       {
         "id": 17,
         "difficulty": "easy",
-        "question": "Who is Harry's godfather?",
+        "question": "Where does Mr. Nekobe take Sam to train?",
         "options": {
-          "A": "Remus Lupin",
-          "B": "Albus Dumbledore",
-          "C": "Sirius Black",
-          "D": "Arthur Weasley"
+          "A": "The gym",
+          "B": "A secret room behind the janitor's closet",
+          "C": "The library",
+          "D": "The playground"
         },
-        "answer": "C",
-        "explanation": "Sirius Black is Harry's godfather."
+        "answer": "B",
+        "explanation": "Mr. Nekobe has a secret room hidden behind the janitor's closet."
       },
       {
         "id": 18,
         "difficulty": "easy",
-        "question": "What animal can Sirius Black transform into?",
+        "question": "What is the training machine made of?",
         "options": {
-          "A": "A cat",
-          "B": "A stag",
-          "C": "A rat",
-          "D": "A large black dog"
+          "A": "Wood and plastic",
+          "B": "Old refrigerator, lockers, and school parts",
+          "C": "New gym equipment",
+          "D": "Cardboard boxes"
         },
-        "answer": "D",
-        "explanation": "Sirius Black is an Animagus who can transform into a large black dog."
+        "answer": "B",
+        "explanation": "The machine is made of an old refrigerator, pieces of vending machine, lockers, and hockey sticks."
       },
       {
         "id": 19,
         "difficulty": "easy",
-        "question": "Where does Voldemort return to power?",
+        "question": "What does Mr. Nekobe tell Sam about the school?",
         "options": {
-          "A": "Hogwarts",
-          "B": "The Ministry",
-          "C": "A graveyard",
-          "D": "Little Hangleton pub"
+          "A": "It's new",
+          "B": "It's alive",
+          "C": "It's haunted by ghosts",
+          "D": "It's going to close"
         },
-        "answer": "C",
-        "explanation": "Voldemort returns to power in the graveyard where his father is buried."
+        "answer": "B",
+        "explanation": "Mr. Nekobe reveals that 'Eerie Elementary is alive' - a living, breathing monster."
       },
       {
         "id": 20,
         "difficulty": "easy",
-        "question": "What spell word does Harry use to summon the Triwizard Cup?",
+        "question": "What does Sam use to defeat the monster mouth during the play?",
         "options": {
-          "A": "Expelliarmus",
-          "B": "Accio",
-          "C": "Stupefy",
-          "D": "Lumos"
+          "A": "Water",
+          "B": "Fire",
+          "C": "Peanut butter",
+          "D": "Glue"
         },
-        "answer": "B",
-        "explanation": "Harry uses 'Accio' (the Summoning Charm) to summon the Triwizard Cup and escape."
+        "answer": "C",
+        "explanation": "Sam kicks a giant drum of peanut butter into the mouth, which gums up the teeth."
       },
       {
         "id": 21,
         "difficulty": "medium",
-        "question": "What happened to the Riddle family fifty years ago?",
+        "question": "When Sam fell asleep on hall monitor duty, he woke up to find ---.",
         "options": {
-          "A": "They moved away",
-          "B": "They all died mysteriously",
-          "C": "They sold the house",
-          "D": "They became wizards"
+          "A": "his friends looking for him",
+          "B": "the halls dark and the school coming alive",
+          "C": "the principal angry at him",
+          "D": "nothing had changed"
         },
         "answer": "B",
-        "explanation": "Fifty years ago, all three Riddles were found dead with no apparent cause, killed by Voldemort with the Killing Curse."
+        "explanation": "When Sam woke up, 'The halls were dark, nearly pitch black' and locker doors were slamming open and shut."
       },
       {
         "id": 22,
         "difficulty": "medium",
-        "question": "What did Frank Bryce suspect when he saw lights in the Riddle House?",
+        "question": "Sam's locker smelled terrible because ---.",
         "options": {
-          "A": "Voldemort was there",
-          "B": "The Riddles returned",
-          "C": "Boys had broken in",
-          "D": "It was a fire"
+          "A": "he left food in it",
+          "B": "the school was breathing on it",
+          "C": "Antonio put something in it",
+          "D": "it was always dirty"
         },
-        "answer": "C",
-        "explanation": "Frank thought the local boys had broken in again, as they often did to torment him."
+        "answer": "B",
+        "explanation": "The smell was like 'really bad breath' - it was the living school breathing through the locker."
       },
       {
         "id": 23,
         "difficulty": "medium",
-        "question": "What did the doctors conclude about the Riddles' deaths?",
+        "question": "Mr. Nekobe was Eerie Elementary's first hall monitor, and now he ---.",
         "options": {
-          "A": "They were poisoned",
-          "B": "They were strangled",
-          "C": "They appeared unharmed but dead",
-          "D": "They were shot"
+          "A": "is the principal",
+          "B": "is too old and weak to fight the school alone",
+          "C": "has left the school",
+          "D": "doesn't believe the school is alive"
         },
-        "answer": "C",
-        "explanation": "The doctors were bewildered because the Riddles appeared to be in perfect health apart from being dead, with looks of terror on their faces."
+        "answer": "B",
+        "explanation": "Mr. Nekobe says 'I am old and weak, and the school knows it' - that's why Sam must take over."
       },
       {
         "id": 24,
         "difficulty": "medium",
-        "question": "Who was captured and tortured for information by Voldemort?",
+        "question": "The school planned to attack during the play because ---.",
         "options": {
-          "A": "Frank Bryce",
-          "B": "Bertha Jorkins",
-          "C": "Mad-Eye Moody",
-          "D": "Cedric Diggory"
+          "A": "Sam wasn't there",
+          "B": "hundreds of people were gathered in one place to eat",
+          "C": "the building was empty",
+          "D": "Mr. Nekobe left"
         },
         "answer": "B",
-        "explanation": "Bertha Jorkins was captured in Albania and tortured by Voldemort for information about the Triwizard Tournament and Barty Crouch Jr."
+        "explanation": "The school is hungry and 'it has not fed in a long time.' The play brings hundreds of people together."
       },
       {
         "id": 25,
         "difficulty": "medium",
-        "question": "What did Voldemort need Harry's blood for?",
+        "question": "During the play, the stage turned into a monster with ---.",
         "options": {
-          "A": "To make a potion to get his body back",
-          "B": "To cast a spell on Hogwarts",
-          "C": "To break a curse",
-          "D": "To control the Dementors"
+          "A": "giant teeth made of hundreds of folding chairs",
+          "B": "fire coming from the floor",
+          "C": "snakes",
+          "D": "moving walls"
         },
         "answer": "A",
-        "explanation": "Voldemort needed Harry's blood as one of the ingredients in the potion to restore his body."
+        "explanation": "Hundreds of metal folding chairs were 'opening and closing like a set of giant, jagged teeth.'"
       },
       {
         "id": 26,
         "difficulty": "medium",
-        "question": "Why was Voldemort particularly interested in using Harry's blood?",
+        "question": "Antonio's lucky sandwich gave Sam the idea to use peanut butter because ---.",
         "options": {
-          "A": "Harry was powerful",
-          "B": "It would give him Harry's protection",
-          "C": "Harry was a Parseltongue",
-          "D": "Harry had rare blood type"
+          "A": "peanut butter is sticky",
+          "B": "it fell into the monster mouth and slowed it down",
+          "C": "Antonio told him to",
+          "D": "Mr. Nekobe suggested it"
         },
         "answer": "B",
-        "explanation": "Voldemort wanted Harry's blood specifically because it contained his mother's protective magic, which would then also protect Voldemort."
+        "explanation": "When Antonio's sandwich fell into the mouth and 'splattered against the chair teeth,' Sam saw how it slowed the monster."
       },
       {
         "id": 27,
         "difficulty": "medium",
-        "question": "Who really put Harry's name in the Goblet of Fire?",
+        "question": "As hall monitor, Sam has special abilities that let him ---.",
         "options": {
-          "A": "Karkaroff",
-          "B": "Dumbledore",
-          "C": "Barty Crouch Jr.",
-          "D": "Sirius Black"
+          "A": "become invisible",
+          "B": "sense the school and feel what others cannot",
+          "C": "fly",
+          "D": "read minds"
         },
-        "answer": "C",
-        "explanation": "Barty Crouch Jr., disguised as Mad-Eye Moody, put Harry's name in the Goblet of Fire."
+        "answer": "B",
+        "explanation": "Mr. Nekobe says 'As hall monitor, you have the ability to sense the school, to see and feel and hear what others cannot.'"
       },
       {
         "id": 28,
         "difficulty": "medium",
-        "question": "How did Barty Crouch Jr. escape from Azkaban?",
+        "question": "The morning after the school attacked Sam, everything looked normal because ---.",
         "options": {
-          "A": "He fought his way out",
-          "B": "His mother took his place using Polyjuice Potion",
-          "C": "The Dementors released him",
-          "D": "He apparated away"
+          "A": "it was a dream",
+          "B": "the school repaired itself overnight",
+          "C": "Antonio fixed it",
+          "D": "Sam imagined it"
         },
         "answer": "B",
-        "explanation": "His dying mother traded places with him using Polyjuice Potion, and the Dementors, being blind, only sensed one dying person leaving."
+        "explanation": "The school fixed itself: 'Everything was back to normal. It was like nothing had happened.'"
       },
       {
         "id": 29,
         "difficulty": "medium",
-        "question": "How did Harry's father control Barty Crouch Jr. after rescuing him?",
+        "question": "Sam didn't want to be hall monitor at first because ---.",
         "options": {
-          "A": "With the Stunning Spell",
-          "B": "With the Imperius Curse",
-          "C": "With magical chains",
-          "D": "With memory charms"
+          "A": "he was scared",
+          "B": "everyone hates the hall monitor",
+          "C": "he wanted to play sports",
+          "D": "it was too much work"
         },
         "answer": "B",
-        "explanation": "Barty Crouch Sr. used the Imperius Curse to control his son and keep him hidden at home."
+        "explanation": "Sam says 'everyone hates the hall monitor' and he has to yell at people to get to class."
       },
       {
         "id": 30,
         "difficulty": "medium",
-        "question": "Who was Barty Crouch Jr.'s 'keeper' while hidden at home?",
+        "question": "To enter the secret room, Mr. Nekobe ---.",
         "options": {
-          "A": "His mother",
-          "B": "His father",
-          "C": "Winky the house-elf",
-          "D": "Wormtail"
+          "A": "uses a key",
+          "B": "tugs twice on a light bulb",
+          "C": "says a password",
+          "D": "moves a bookshelf"
         },
-        "answer": "C",
-        "explanation": "Winky the house-elf was Barty Crouch Jr.'s keeper and caretaker while he was hidden."
+        "answer": "B",
+        "explanation": "Mr. Nekobe 'grabbed hold of a dim, swinging light bulb' and 'tugged twice' to open the secret door."
       },
       {
         "id": 31,
         "difficulty": "medium",
-        "question": "What did Barty Crouch Jr. cast into the sky at the Quidditch World Cup?",
+        "question": "When Sam put his hand against the wall in the secret room, he felt ---.",
         "options": {
-          "A": "Sparks",
-          "B": "The Dark Mark",
-          "C": "A patronus",
-          "D": "Fireworks"
+          "A": "cold brick",
+          "B": "the wall gently swaying like the school was breathing",
+          "C": "nothing unusual",
+          "D": "heat"
         },
         "answer": "B",
-        "explanation": "Barty Crouch Jr. cast the Dark Mark into the sky using a stolen wand, wanting to show the Death Eaters what true loyalty meant."
+        "explanation": "Sam 'heard the soft sound of air blowing. And he felt it. The wall was gently swaying.' The school was breathing."
       },
       {
         "id": 32,
         "difficulty": "medium",
-        "question": "What happened to Igor Karkaroff after Voldemort returned?",
+        "question": "During his training, Sam learned to defeat the machine by ---.",
         "options": {
-          "A": "He joined Voldemort",
-          "B": "He fled when the Dark Mark burned",
-          "C": "He stayed at Hogwarts",
-          "D": "He went to Azkaban"
+          "A": "asking for help",
+          "B": "using things around him as shields and weapons",
+          "C": "running away",
+          "D": "calling Mr. Nekobe"
         },
         "answer": "B",
-        "explanation": "Karkaroff fled when he felt the Dark Mark burn upon his arm because he had betrayed too many Death Eaters."
+        "explanation": "Antonio told him 'Try using what's around you!' Sam grabbed a locker door as a shield."
       },
       {
         "id": 33,
         "difficulty": "medium",
-        "question": "What happened when Harry and Voldemort's wands connected?",
+        "question": "Lucy didn't believe Sam about the school because ---.",
         "options": {
-          "A": "Both wands exploded",
-          "B": "A golden beam formed between them",
-          "C": "The wands switched owners",
-          "D": "Nothing happened"
+          "A": "she was part of the school",
+          "B": "she thought both Sam and Antonio were losing their minds",
+          "C": "she hadn't seen anything strange",
+          "D": "she didn't like scary stories"
         },
         "answer": "B",
-        "explanation": "A golden beam of light connected their wands, creating the Priori Incantatem effect."
+        "explanation": "Lucy 'thought both of her best friends were losing their minds' and 'wouldn't believe a word they said.'"
       },
       {
         "id": 34,
         "difficulty": "medium",
-        "question": "What is special about Harry's wand and Voldemort's wand?",
+        "question": "The school trapped the teachers and other students during the play by ---.",
         "options": {
-          "A": "They are made of the same wood",
-          "B": "They share cores from the same phoenix",
-          "C": "They were made by the same wandmaker",
-          "D": "They are both unbreakable"
+          "A": "locking the doors",
+          "B": "making the floorboards slide them into a closet",
+          "C": "turning off the lights",
+          "D": "scaring them away"
         },
         "answer": "B",
-        "explanation": "Both wands contain a feather from the same phoenix - Fawkes - making them brother wands."
+        "explanation": "The floorboards 'lifted up to form a slide' and Ms. Grinker and the students 'tumbled backward into the closet.'"
       },
       {
         "id": 35,
         "difficulty": "medium",
-        "question": "What did Cedric ask Harry to do before he died?",
+        "question": "Antonio and Lucy were in danger during the play because ---.",
         "options": {
-          "A": "Tell his parents he loved them",
-          "B": "Win the tournament",
-          "C": "Take his body back to his parents",
-          "D": "Defeat Voldemort"
+          "A": "they forgot their lines",
+          "B": "they were hanging on wires above the monster mouth",
+          "C": "they fell off the stage",
+          "D": "the curtain fell on them"
         },
-        "answer": "C",
-        "explanation": "Cedric's echo asked Harry to take his body back to his parents."
+        "answer": "B",
+        "explanation": "They were 'strung up on wires high above the stage' and the monster mouth was rising toward them."
       },
       {
         "id": 36,
         "difficulty": "medium",
-        "question": "What potion did Dumbledore use to make Barty Crouch Jr. confess?",
+        "question": "Sam got the peanut butter from ---.",
         "options": {
-          "A": "Polyjuice Potion",
-          "B": "Veritaserum",
-          "C": "Felix Felicis",
-          "D": "Amortentia"
+          "A": "the cafeteria kitchen",
+          "B": "Antonio's pocket",
+          "C": "Mr. Nekobe",
+          "D": "his backpack"
         },
-        "answer": "B",
-        "explanation": "Dumbledore used Veritaserum, a powerful truth potion, to make Barty Crouch Jr. tell the full story."
+        "answer": "A",
+        "explanation": "Sam ran to the lunchroom and into the kitchen where he found 'a giant drum of peanut butter.'"
       },
       {
         "id": 37,
         "difficulty": "medium",
-        "question": "Where did Dumbledore find the real Mad-Eye Moody?",
+        "question": "In the lunchroom, Sam defended himself from water bottles using ---.",
         "options": {
-          "A": "In the dungeon",
-          "B": "In a magical trunk",
-          "C": "In the Forbidden Forest",
-          "D": "In the hospital wing"
+          "A": "a trash can lid",
+          "B": "an orange lunch tray",
+          "C": "a chair",
+          "D": "his backpack"
         },
         "answer": "B",
-        "explanation": "The real Mad-Eye Moody was found in a pit at the bottom of his own magical trunk with seven locks."
+        "explanation": "Sam 'grabbed an orange lunch tray' and 'held it over his chest' as a shield."
       },
       {
         "id": 38,
         "difficulty": "medium",
-        "question": "What did Barty Crouch Jr. do with his father's body?",
+        "question": "Mr. Nekobe couldn't help during the play attack because ---.",
         "options": {
-          "A": "Buried it in the forest",
-          "B": "Transfigured it into a bone",
-          "C": "Threw it in the lake",
-          "D": "Left it in the castle"
+          "A": "he wasn't there",
+          "B": "curtain ropes grabbed him and threw him into the closet",
+          "C": "he was too scared",
+          "D": "he was sleeping"
         },
         "answer": "B",
-        "explanation": "Barty Crouch Jr. transfigured his father's body into a bone and buried it in front of Hagrid's cabin."
+        "explanation": "The curtain ropes 'grabbed hold of' Mr. Nekobe and 'flung' him 'inside the closet.'"
       },
       {
         "id": 39,
         "difficulty": "medium",
-        "question": "What book did the fake Moody plant to help Harry with the second task?",
+        "question": "Sam figured out the school would attack during the play when ---.",
         "options": {
-          "A": "Advanced Potion Making",
-          "B": "Magical Water Plants of the Mediterranean",
-          "C": "Hogwarts: A History",
-          "D": "Fantastic Beasts"
+          "A": "Mr. Nekobe told him",
+          "B": "he read the play invitation and realized everyone would be gathered together",
+          "C": "Antonio warned him",
+          "D": "he had a dream about it"
         },
         "answer": "B",
-        "explanation": "The fake Moody gave Neville Longbottom 'Magical Water Plants of the Mediterranean' which contained information about Gillyweed."
+        "explanation": "When Sam read the play invitation, 'His heart began to pound. It all made sense. Sam knew exactly when the school would strike.'"
       },
       {
         "id": 40,
         "difficulty": "medium",
-        "question": "Who did Cedric tell about opening the egg underwater?",
+        "question": "Lucy finally believed Sam when ---.",
         "options": {
-          "A": "Viktor Krum",
-          "B": "Fleur Delacour",
-          "C": "Harry Potter",
-          "D": "Cho Chang"
+          "A": "Mr. Nekobe told her",
+          "B": "she saw the monster mouth for herself during the play",
+          "C": "Antonio convinced her",
+          "D": "she read about it"
         },
-        "answer": "C",
-        "explanation": "Cedric told Harry about opening the egg underwater to repay him for the tip about the dragons."
+        "answer": "B",
+        "explanation": "Lucy saw the chair monster for herself during the play and worked with Sam to defeat it."
       },
       {
         "id": 41,
         "difficulty": "hard",
-        "question": "What peculiar ability was Frank unable to understand about the cold voice's speaker?",
+        "question": "What does Mr. Nekobe's statement that the school 'feeds on students' reveal about the danger?",
         "options": {
-          "A": "He could read minds",
-          "B": "He could talk to snakes",
-          "C": "He could see through walls",
-          "D": "He could fly"
+          "A": "The school gives students food",
+          "B": "The school is literally trying to eat and consume the students",
+          "C": "The school makes students hungry",
+          "D": "The school teaches students"
         },
         "answer": "B",
-        "explanation": "Frank was mystified when Voldemort began hissing and spitting - he was speaking Parseltongue to Nagini."
+        "explanation": "The school is a monster that actually eats students to survive. It's been hungry because 'it has not fed in a long time.'"
       },
       {
         "id": 42,
         "difficulty": "hard",
-        "question": "What color was the flash of light that killed Frank Bryce?",
+        "question": "Why is it significant that the school can sense Sam just as Sam can sense it?",
         "options": {
-          "A": "Red",
-          "B": "Blue",
-          "C": "Green",
-          "D": "White"
+          "A": "They are friends",
+          "B": "It means Sam is never truly safe because the school knows he is its enemy",
+          "C": "Sam can talk to the school",
+          "D": "The school wants to help Sam"
         },
-        "answer": "C",
-        "explanation": "A flash of green light killed Frank Bryce - the signature color of the Killing Curse (Avada Kedavra)."
+        "answer": "B",
+        "explanation": "Mr. Nekobe warns 'the school can sense you too. It has attacked you twice already. It knows you are its enemy.'"
       },
       {
         "id": 43,
         "difficulty": "hard",
-        "question": "What is the name of the reverse spell effect when brother wands duel?",
+        "question": "What theme does Sam's transformation from reluctant hall monitor to hero represent?",
         "options": {
-          "A": "Expelliarmus",
-          "B": "Priori Incantatem",
-          "C": "Finite Incantatem",
-          "D": "Prior Incantato"
+          "A": "Hall monitors are important",
+          "B": "Accepting responsibility and rising to meet challenges can reveal hidden strength",
+          "C": "Schools are dangerous",
+          "D": "Adults can't help kids"
         },
         "answer": "B",
-        "explanation": "Priori Incantatem is the reverse spell effect that occurs when wands with cores from the same source are forced to duel."
+        "explanation": "Sam didn't want the job but accepts it to protect his friends, discovering he has the courage to be a hero."
       },
       {
         "id": 44,
         "difficulty": "hard",
-        "question": "What lie did Harry tell to avoid eating the cheese (from another story - about this book: what was Harry's supposed excuse for going to Hogwarts)?",
+        "question": "Why might the author have made Antonio's silly lucky sandwich the key to defeating the monster?",
         "options": {
-          "A": "He was at boarding school",
-          "B": "He attended St. Brutus's Secure Centre",
-          "C": "He was at military school",
-          "D": "He was at a reform school"
+          "A": "Sandwiches are powerful",
+          "B": "It shows that even seemingly useless things can become important, and friendship provides unexpected solutions",
+          "C": "Peanut butter is magic",
+          "D": "Antonio is the real hero"
         },
         "answer": "B",
-        "explanation": "The Dursleys told everyone Harry went to St. Brutus's Secure Centre for Incurably Criminal Boys."
+        "explanation": "The 'ridiculous' lucky sandwich gives Sam the idea that saves everyone, showing how friends help each other unexpectedly."
       },
       {
         "id": 45,
         "difficulty": "hard",
-        "question": "What happened to Harry's right arm before Hogwarts that showed his resilience?",
+        "question": "What does the school's ability to repair itself overnight suggest about the challenge Sam faces?",
         "options": {
-          "A": "He broke it playing Quidditch",
-          "B": "He lost all bones and had them regrown",
-          "C": "He was bitten by a werewolf",
-          "D": "He burned it with dragon fire"
+          "A": "The school is easy to defeat",
+          "B": "The fight is never truly over because the school always recovers and returns",
+          "C": "Sam imagined everything",
+          "D": "The school is friendly"
         },
         "answer": "B",
-        "explanation": "Harry once lost all the bones from his right arm and had them painfully regrown in a night."
+        "explanation": "Even after Sam defeats the school's attacks, it repairs itself, suggesting this is an ongoing battle with no permanent victory."
       },
       {
         "id": 46,
         "difficulty": "hard",
-        "question": "Who wrote to Ollivander about Harry's wand purchase?",
+        "question": "Why is it important that no one except Sam, Antonio, and Mr. Nekobe knows the school is alive?",
         "options": {
-          "A": "Dumbledore",
-          "B": "The Ministry",
-          "C": "Harry's parents",
-          "D": "Voldemort"
+          "A": "It's a secret club",
+          "B": "It creates isolation and Sam must protect people who don't believe him and wouldn't understand",
+          "C": "Adults wouldn't care",
+          "D": "The school told them to keep quiet"
         },
-        "answer": "A",
-        "explanation": "Dumbledore mentioned that Mr. Ollivander wrote to tell him Harry had bought the second wand the moment Harry left his shop."
+        "answer": "B",
+        "explanation": "Sam has to protect people like Lucy who think he's 'crazy,' making his role lonelier and more challenging."
       },
       {
         "id": 47,
         "difficulty": "hard",
-        "question": "What did the echoes from Voldemort's wand do during Priori Incantatem?",
+        "question": "What does the phrase 'The school knows that now is the time to strike' reveal about the conflict?",
         "options": {
-          "A": "Attacked Harry",
-          "B": "Protected Voldemort",
-          "C": "Prowled the edges of the golden web",
-          "D": "Disappeared immediately"
+          "A": "The school is random",
+          "B": "The school is intelligent and strategic, waiting for the right moment when its enemy is weak",
+          "C": "The school is sleeping",
+          "D": "Mr. Nekobe is controlling the school"
         },
-        "answer": "C",
-        "explanation": "The echoes of Voldemort's victims prowled the edges of the golden web, and Voldemort seemed to fear them."
+        "answer": "B",
+        "explanation": "The school is calculating and intelligent, sensing that Mr. Nekobe is old and weak and choosing to attack when vulnerable."
       },
       {
         "id": 48,
         "difficulty": "hard",
-        "question": "What special property do phoenix tears have?",
+        "question": "Why does Sam tell himself 'I'll never make it' but then find a solution?",
         "options": {
-          "A": "They can curse enemies",
-          "B": "They can heal wounds",
-          "C": "They grant invisibility",
-          "D": "They reveal the truth"
+          "A": "He gives up",
+          "B": "Moments of doubt are normal, but thinking creatively helps overcome obstacles",
+          "C": "Someone else saves him",
+          "D": "He was lying"
         },
         "answer": "B",
-        "explanation": "Phoenix tears have powerful healing properties - Fawkes's tears healed Harry's injured leg."
+        "explanation": "Sam almost gives up but remembers his training - 'Try using what's around you!' - and finds a creative solution."
       },
       {
         "id": 49,
         "difficulty": "hard",
-        "question": "What happened to Barty Crouch Jr. when the Dementor came to his office?",
+        "question": "What is ironic about Sam's role in the play being a 'friendly pirate'?",
         "options": {
-          "A": "He escaped",
-          "B": "He received the Dementor's Kiss",
-          "C": "He was arrested",
-          "D": "He was stunned"
+          "A": "Pirates aren't friendly",
+          "B": "He has almost no lines but ends up being the hero who saves everyone during the performance",
+          "C": "He doesn't like pirates",
+          "D": "Pirates aren't real"
         },
         "answer": "B",
-        "explanation": "Professor McGonagall implies that the Dementor gave Barty Crouch Jr. the Dementor's Kiss, destroying his soul before he could testify."
+        "explanation": "Antonio jokes that Sam has 'the worst part' with few lines, but Sam becomes the most important person when disaster strikes."
       },
       {
         "id": 50,
         "difficulty": "hard",
-        "question": "How did the fake Moody know to go look for Harry after the third task?",
+        "question": "What does Mr. Nekobe passing responsibility to Sam represent about growing up?",
         "options": {
-          "A": "He followed the map",
-          "B": "Dumbledore told him",
-          "C": "He saw the portkey activate",
-          "D": "He was waiting at the maze entrance"
+          "A": "Adults are lazy",
+          "B": "Young people must eventually take on responsibilities that older generations can no longer handle",
+          "C": "Being old is bad",
+          "D": "Hall monitors are special"
         },
-        "answer": "C",
-        "explanation": "The fake Moody was watching and followed the plan - when Harry returned, he took Harry before Dumbledore could."
+        "answer": "B",
+        "explanation": "Mr. Nekobe is 'old and weak' and must pass his duty to Sam, representing how young people inherit responsibilities."
       },
       {
         "id": 51,
         "difficulty": "hard",
-        "question": "What three ingredients did Voldemort need for the potion to restore his body?",
+        "question": "Why does the school attack specifically when the curtain closes during the play?",
         "options": {
-          "A": "Unicorn blood, phoenix feather, dragon scale",
-          "B": "Bone of father, flesh of servant, blood of enemy",
-          "C": "Dragon heartstring, basilisk venom, mandrake root",
-          "D": "Gillyweed, boomslang skin, lacewing flies"
+          "A": "Random timing",
+          "B": "The audience can't see what's happening, giving the school cover to attack without witnesses",
+          "C": "The school likes plays",
+          "D": "It was tired of waiting"
         },
         "answer": "B",
-        "explanation": "The potion required bone of the father (from Tom Riddle Sr.'s grave), flesh of the servant (Wormtail's hand), and blood of the enemy (Harry's blood)."
+        "explanation": "With the curtain closed, 'The audience can't see the stage' - the school attacks when no adults can witness or interfere."
       },
       {
         "id": 52,
         "difficulty": "hard",
-        "question": "What did Dumbledore briefly show when Harry told him Voldemort used his blood?",
+        "question": "What lesson does Sam's training teach about facing challenges?",
         "options": {
-          "A": "Fear",
-          "B": "A gleam of triumph",
-          "C": "Despair",
-          "D": "Confusion"
+          "A": "Training is boring",
+          "B": "Practice and preparation help you think clearly when real danger comes",
+          "C": "Only natural talent matters",
+          "D": "You don't need help"
         },
         "answer": "B",
-        "explanation": "For a fleeting instant, Harry thought he saw a gleam of something like triumph in Dumbledore's eyes, though he wasn't sure if he imagined it."
+        "explanation": "Sam's training with the machine prepares him to think creatively under pressure when the real attacks happen."
       },
       {
         "id": 53,
         "difficulty": "hard",
-        "question": "Who stunned Fleur Delacour during the third task?",
+        "question": "Why is it significant that Sam says 'I couldn't have done it without you two' at the end?",
         "options": {
-          "A": "Viktor Krum",
-          "B": "Cedric Diggory",
-          "C": "The fake Moody",
-          "D": "Harry Potter"
+          "A": "He's being polite",
+          "B": "It shows that even heroes need friends and teamwork to succeed",
+          "C": "Lucy and Antonio did all the work",
+          "D": "He's lying to make them feel good"
         },
-        "answer": "C",
-        "explanation": "The fake Moody revealed he stunned Fleur Delacour as she passed during the maze task."
+        "answer": "B",
+        "explanation": "Despite being the 'chosen one,' Sam acknowledges that his friends' help was essential to victory."
       },
       {
         "id": 54,
         "difficulty": "hard",
-        "question": "What curse did the fake Moody put on Viktor Krum?",
+        "question": "What does the heartbeat sound from the clock symbolize?",
         "options": {
-          "A": "The Stunning Spell",
-          "B": "The Killing Curse",
-          "C": "The Imperius Curse",
-          "D": "The Cruciatus Curse"
+          "A": "Time is running out",
+          "B": "The school is literally alive with a beating heart like a living creature",
+          "C": "Sam is scared",
+          "D": "The clock is broken"
         },
-        "answer": "C",
-        "explanation": "The fake Moody put the Imperius Curse on Krum so he would finish Diggory and leave Harry's path clear."
+        "answer": "B",
+        "explanation": "The heartbeat emphasizes that Eerie Elementary isn't just magical - it's a living organism with a heart."
       },
       {
         "id": 55,
         "difficulty": "hard",
-        "question": "What map did Harry have that almost ruined the fake Moody's plan?",
+        "question": "Why might the author have made Antonio believe Sam even when Lucy doesn't?",
         "options": {
-          "A": "A treasure map",
-          "B": "The Marauder's Map",
-          "C": "A map of the maze",
-          "D": "A map of the graveyard"
+          "A": "Antonio is gullible",
+          "B": "Best friends support each other even when things seem unbelievable, showing the strength of their friendship",
+          "C": "Lucy is smarter",
+          "D": "Antonio saw evidence first"
         },
         "answer": "B",
-        "explanation": "Harry saw the fake Moody on the Marauder's Map stealing ingredients from Snape's office, thinking it was his father."
+        "explanation": "Antonio helps Sam train even while saying 'I'm still not sure we aren't crazy,' showing true friendship means supporting first."
       },
       {
         "id": 56,
         "difficulty": "hard",
-        "question": "Why didn't Harry initially realize it was an imposter on the map?",
+        "question": "What is the significance of Sam needing to 'trust' Lucy when he leaves her during the attack?",
         "options": {
-          "A": "The map was broken",
-          "B": "They shared the same first name",
-          "C": "The map showed his title wrong",
-          "D": "Harry wasn't paying attention"
+          "A": "He doesn't care about her",
+          "B": "Heroes must sometimes leave loved ones in danger to get help, requiring mutual trust",
+          "C": "Lucy is weak",
+          "D": "He's running away"
         },
         "answer": "B",
-        "explanation": "Both Barty Crouch Jr. and his father share the first name 'Barty,' so Harry assumed it was the father he saw on the map."
+        "explanation": "Sam has to leave Lucy and Antonio in danger to get peanut butter, saying 'Just trust me' - trust is essential."
       },
       {
         "id": 57,
         "difficulty": "hard",
-        "question": "What did Dumbledore say about numbing Harry's pain after the ordeal?",
+        "question": "What does the setting of an old, crumbling school contribute to the horror atmosphere?",
         "options": {
-          "A": "It would help him recover",
-          "B": "It would make it worse later",
-          "C": "It was necessary for healing",
-          "D": "It was the best medicine"
+          "A": "Old buildings are common",
+          "B": "The decaying appearance suggests something wrong and ancient, making the school seem more menacing",
+          "C": "It saves money",
+          "D": "Kids prefer old schools"
         },
         "answer": "B",
-        "explanation": "Dumbledore said 'Numbing the pain for a while will make it worse when you finally feel it.'"
+        "explanation": "The school is described as 'an old castle made of crumbling red brick' with 'chipped paint' - decay suggests evil."
       },
       {
         "id": 58,
         "difficulty": "hard",
-        "question": "Who informed Harry that his mother's echo told him what to do?",
+        "question": "Why is it meaningful that Sam's mom doesn't believe his story about the school?",
         "options": {
-          "A": "Sirius",
-          "B": "Dumbledore",
-          "C": "Harry himself in his account",
-          "D": "Ron"
+          "A": "Parents are mean",
+          "B": "It emphasizes that Sam must face this challenge without adult help, making him more alone but also more heroic",
+          "C": "She's part of the school",
+          "D": "Adults never listen"
         },
-        "answer": "C",
-        "explanation": "Harry told Dumbledore and Sirius that the shadow of his mother told him what to do during the Priori Incantatem effect."
+        "answer": "B",
+        "explanation": "When Sam's mom says 'Tell me the real reason,' it shows Sam can't rely on adults and must handle this himself."
       },
       {
         "id": 59,
         "difficulty": "hard",
-        "question": "What potion did Madame Pomfrey give Harry in the hospital wing?",
+        "question": "What does Mr. Nekobe mean when he calls Sam 'the school's enemy'?",
         "options": {
-          "A": "Skele-Gro",
-          "B": "A potion for dreamless sleep",
-          "C": "Pepper-Up Potion",
-          "D": "Calming Draught"
+          "A": "Sam hates school",
+          "B": "Sam is the only one who can stop the school from harming students, making him the monster's target",
+          "C": "The school made a mistake",
+          "D": "Sam failed a test"
         },
         "answer": "B",
-        "explanation": "Madame Pomfrey gave Harry a purple potion for dreamless sleep to help him rest."
+        "explanation": "As hall monitor, Sam is the school's natural opponent - the one person chosen and able to fight it."
       },
       {
         "id": 60,
         "difficulty": "hard",
-        "question": "What did Wormtail sacrifice to complete the potion for Voldemort's return?",
+        "question": "What is the overall message of The School Is Alive?",
         "options": {
-          "A": "His leg",
-          "B": "His wand",
-          "C": "His hand",
-          "D": "His ear"
+          "A": "Schools are scary",
+          "B": "Ordinary kids can become heroes when they accept responsibility, trust their friends, and face their fears",
+          "C": "Don't become a hall monitor",
+          "D": "Adults can't be trusted"
+        },
+        "answer": "B",
+        "explanation": "Sam goes from an ordinary kid who hates his job to a hero who saves everyone, showing anyone can rise to challenges."
+      }
+    ]
+  },
+  "Harry_Potter_and_the_Goblet_of_Fire": {
+    "title": "Harry Potter and the Goblet of Fire",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "book_level": {
+      "grade": 6,
+      "description": "Upper middle school level - complex fantasy narrative with themes of competition, death, and political denial"
+    },
+    "total_questions": 60,
+    "questions": [
+      {
+        "id": 1,
+        "difficulty": "easy",
+        "question": "What is the name of the prestigious magical competition held at Hogwarts in this book?",
+        "options": {
+          "A": "The Wizarding Cup",
+          "B": "The Triwizard Tournament",
+          "C": "The Magical Games",
+          "D": "The House Championship"
+        },
+        "answer": "B",
+        "explanation": "The Triwizard Tournament is the legendary competition between Hogwarts, Beauxbatons, and Durmstrang schools."
+      },
+      {
+        "id": 2,
+        "difficulty": "easy",
+        "question": "What magical object selects the champions for the tournament?",
+        "options": {
+          "A": "The Sorting Hat",
+          "B": "The Goblet of Fire",
+          "C": "The Mirror of Erised",
+          "D": "The Pensieve"
+        },
+        "answer": "B",
+        "explanation": "The Goblet of Fire is an enchanted cup that selects one champion from each school."
+      },
+      {
+        "id": 3,
+        "difficulty": "easy",
+        "question": "Who is the Hogwarts champion chosen by the Goblet of Fire?",
+        "options": {
+          "A": "Harry Potter",
+          "B": "Cedric Diggory",
+          "C": "Viktor Krum",
+          "D": "Fleur Delacour"
+        },
+        "answer": "B",
+        "explanation": "Cedric Diggory, a Hufflepuff prefect, is selected as the official Hogwarts champion."
+      },
+      {
+        "id": 4,
+        "difficulty": "easy",
+        "question": "What type of dragon does Harry face in the first task?",
+        "options": {
+          "A": "Common Welsh Green",
+          "B": "Swedish Short-Snout",
+          "C": "Hungarian Horntail",
+          "D": "Chinese Fireball"
         },
         "answer": "C",
-        "explanation": "Wormtail cut off his own hand as 'flesh of the servant' for the potion, cradling his stump afterward."
+        "explanation": "Harry must face the Hungarian Horntail, considered the most dangerous of the four dragons."
+      },
+      {
+        "id": 5,
+        "difficulty": "easy",
+        "question": "What must the champions retrieve from the dragons?",
+        "options": {
+          "A": "A golden egg",
+          "B": "A silver cup",
+          "C": "A magical sword",
+          "D": "A dragon scale"
+        },
+        "answer": "A",
+        "explanation": "Each champion must collect a golden egg being guarded by their dragon."
+      },
+      {
+        "id": 6,
+        "difficulty": "easy",
+        "question": "What plant does Harry use to breathe underwater in the second task?",
+        "options": {
+          "A": "Mandrake root",
+          "B": "Gillyweed",
+          "C": "Devil's Snare",
+          "D": "Bubotuber pus"
+        },
+        "answer": "B",
+        "explanation": "Gillyweed gives Harry gills and webbed hands and feet to swim underwater."
+      },
+      {
+        "id": 7,
+        "difficulty": "easy",
+        "question": "Who gives Harry the gillyweed?",
+        "options": {
+          "A": "Hermione",
+          "B": "Ron",
+          "C": "Dobby",
+          "D": "Professor Moody"
+        },
+        "answer": "C",
+        "explanation": "Dobby the house-elf steals gillyweed from Snape's stores to help Harry."
+      },
+      {
+        "id": 8,
+        "difficulty": "easy",
+        "question": "What creature lives in the Black Lake where the second task takes place?",
+        "options": {
+          "A": "Giant squid only",
+          "B": "Grindylows and merpeople",
+          "C": "Basilisk",
+          "D": "Dragons"
+        },
+        "answer": "B",
+        "explanation": "The Black Lake is home to merpeople who guard the hostages, as well as grindylows."
+      },
+      {
+        "id": 9,
+        "difficulty": "easy",
+        "question": "Who does Harry rescue from the lake during the second task?",
+        "options": {
+          "A": "Hermione",
+          "B": "Ron",
+          "C": "Ginny",
+          "D": "Cho Chang"
+        },
+        "answer": "B",
+        "explanation": "Ron is the person Harry would 'miss most' and is taken by the merpeople."
+      },
+      {
+        "id": 10,
+        "difficulty": "easy",
+        "question": "What is the third task of the Triwizard Tournament?",
+        "options": {
+          "A": "A duel with dragons",
+          "B": "A maze with obstacles",
+          "C": "A potion-making contest",
+          "D": "A flying race"
+        },
+        "answer": "B",
+        "explanation": "The third task involves navigating a magical maze filled with dangerous creatures and obstacles."
+      },
+      {
+        "id": 11,
+        "difficulty": "easy",
+        "question": "What formal dance event is held during the Triwizard Tournament?",
+        "options": {
+          "A": "The Winter Ball",
+          "B": "The Yule Ball",
+          "C": "The Christmas Dance",
+          "D": "The Champion's Ball"
+        },
+        "answer": "B",
+        "explanation": "The Yule Ball is a traditional part of the Triwizard Tournament held on Christmas Day."
+      },
+      {
+        "id": 12,
+        "difficulty": "easy",
+        "question": "Who does Harry take to the Yule Ball?",
+        "options": {
+          "A": "Hermione Granger",
+          "B": "Cho Chang",
+          "C": "Parvati Patil",
+          "D": "Ginny Weasley"
+        },
+        "answer": "C",
+        "explanation": "After Cho declines, Harry takes Parvati Patil to the Yule Ball."
+      },
+      {
+        "id": 13,
+        "difficulty": "easy",
+        "question": "Who is the new Defense Against the Dark Arts teacher?",
+        "options": {
+          "A": "Remus Lupin",
+          "B": "Gilderoy Lockhart",
+          "C": "Alastor 'Mad-Eye' Moody",
+          "D": "Severus Snape"
+        },
+        "answer": "C",
+        "explanation": "Alastor 'Mad-Eye' Moody, a famous retired Auror, teaches Defense Against the Dark Arts."
+      },
+      {
+        "id": 14,
+        "difficulty": "easy",
+        "question": "What major sporting event do the Weasleys and Harry attend at the beginning of the book?",
+        "options": {
+          "A": "The House Cup Final",
+          "B": "The Quidditch World Cup",
+          "C": "The Wizard Olympics",
+          "D": "The Broomstick Championships"
+        },
+        "answer": "B",
+        "explanation": "Harry attends the Quidditch World Cup final between Ireland and Bulgaria with the Weasleys."
+      },
+      {
+        "id": 15,
+        "difficulty": "easy",
+        "question": "What is Viktor Krum's position in Quidditch?",
+        "options": {
+          "A": "Chaser",
+          "B": "Keeper",
+          "C": "Seeker",
+          "D": "Beater"
+        },
+        "answer": "C",
+        "explanation": "Viktor Krum is the famous Seeker for the Bulgarian national Quidditch team."
+      },
+      {
+        "id": 16,
+        "difficulty": "easy",
+        "question": "Which school does Viktor Krum attend?",
+        "options": {
+          "A": "Hogwarts",
+          "B": "Beauxbatons",
+          "C": "Durmstrang",
+          "D": "Ilvermorny"
+        },
+        "answer": "C",
+        "explanation": "Viktor Krum attends Durmstrang Institute, located in northern Europe."
+      },
+      {
+        "id": 17,
+        "difficulty": "easy",
+        "question": "Who is the champion from Beauxbatons Academy?",
+        "options": {
+          "A": "Gabrielle Delacour",
+          "B": "Fleur Delacour",
+          "C": "Madame Maxime",
+          "D": "Olympe"
+        },
+        "answer": "B",
+        "explanation": "Fleur Delacour is selected as the champion from Beauxbatons Academy."
+      },
+      {
+        "id": 18,
+        "difficulty": "easy",
+        "question": "What creature is Fleur Delacour revealed to be part of?",
+        "options": {
+          "A": "Vampire",
+          "B": "Werewolf",
+          "C": "Veela",
+          "D": "Mermaid"
+        },
+        "answer": "C",
+        "explanation": "Fleur's grandmother was a Veela, making Fleur part-Veela."
+      },
+      {
+        "id": 19,
+        "difficulty": "easy",
+        "question": "What appears in the sky after the Quidditch World Cup that causes panic?",
+        "options": {
+          "A": "A dragon",
+          "B": "The Dark Mark",
+          "C": "A message from Voldemort",
+          "D": "A giant skull made of stars"
+        },
+        "answer": "B",
+        "explanation": "The Dark Mark, Voldemort's sign, appears in the sky causing widespread fear."
+      },
+      {
+        "id": 20,
+        "difficulty": "easy",
+        "question": "What is at the center of the maze in the third task?",
+        "options": {
+          "A": "A dragon",
+          "B": "The Triwizard Cup",
+          "C": "A sphinx",
+          "D": "A boggart"
+        },
+        "answer": "B",
+        "explanation": "The Triwizard Cup trophy is placed at the center of the maze as the goal."
+      },
+      {
+        "id": 21,
+        "difficulty": "medium",
+        "question": "When Harry's name came out of the Goblet of Fire, everyone was shocked because ---.",
+        "options": {
+          "A": "he was too young to enter",
+          "B": "he had not put his name in the Goblet",
+          "C": "there should only be three champions",
+          "D": "both B and C are correct"
+        },
+        "answer": "D",
+        "explanation": "Harry was underage and had not entered his name, yet the Goblet selected a fourth champion, which had never happened before."
+      },
+      {
+        "id": 22,
+        "difficulty": "medium",
+        "question": "The golden egg from the first task contained a clue that could only be understood when ---.",
+        "options": {
+          "A": "read by candlelight",
+          "B": "opened underwater",
+          "C": "translated from Mermish",
+          "D": "heated over a fire"
+        },
+        "answer": "B",
+        "explanation": "The egg's shrieking becomes understandable mermaid song when listened to underwater."
+      },
+      {
+        "id": 23,
+        "difficulty": "medium",
+        "question": "During the second task, Harry finished outside the time limit but received high marks because ---.",
+        "options": {
+          "A": "he used the most creative method",
+          "B": "he showed moral fiber by staying to rescue all hostages, not just his own",
+          "C": "he was the only one to fight off the grindylows",
+          "D": "the judges felt sorry for him"
+        },
+        "answer": "B",
+        "explanation": "Harry waited to ensure Fleur's sister Gabrielle was also saved, showing moral character that impressed most judges."
+      },
+      {
+        "id": 24,
+        "difficulty": "medium",
+        "question": "Harry discovered that Mad-Eye Moody had a magical eye that could ---.",
+        "options": {
+          "A": "read minds",
+          "B": "see through solid objects, including the back of his head",
+          "C": "predict the future",
+          "D": "detect lies"
+        },
+        "answer": "B",
+        "explanation": "Moody's magical eye can see through walls, invisibility cloaks, and even rotate to see behind him."
+      },
+      {
+        "id": 25,
+        "difficulty": "medium",
+        "question": "Professor Moody demonstrated the three Unforgivable Curses in class, which are ---.",
+        "options": {
+          "A": "Stupefy, Expelliarmus, and Obliviate",
+          "B": "Imperius, Cruciatus, and Avada Kedavra",
+          "C": "Sectumsempra, Levicorpus, and Morsmordre",
+          "D": "Petrificus Totalus, Furnunculus, and Diffindo"
+        },
+        "answer": "B",
+        "explanation": "The Imperius Curse controls others, the Cruciatus Curse causes torture, and Avada Kedavra is the Killing Curse."
+      },
+      {
+        "id": 26,
+        "difficulty": "medium",
+        "question": "At the Yule Ball, Hermione surprised everyone by ---.",
+        "options": {
+          "A": "winning a dance competition",
+          "B": "attending with Viktor Krum and looking beautiful",
+          "C": "announcing she was leaving Hogwarts",
+          "D": "performing a solo song"
+        },
+        "answer": "B",
+        "explanation": "Hermione attended with Viktor Krum and looked stunning, shocking Ron and Harry."
+      },
+      {
+        "id": 27,
+        "difficulty": "medium",
+        "question": "Ron was angry with Hermione after the Yule Ball because ---.",
+        "options": {
+          "A": "she didn't help him with homework",
+          "B": "she went with Krum, whom he accused of fraternizing with the enemy",
+          "C": "she danced with Harry",
+          "D": "she left the ball early"
+        },
+        "answer": "B",
+        "explanation": "Ron was jealous of Hermione going with Krum and accused her of 'fraternizing with the enemy.'"
+      },
+      {
+        "id": 28,
+        "difficulty": "medium",
+        "question": "The Triwizard Cup in the maze had been turned into a Portkey that transported Harry and Cedric to ---.",
+        "options": {
+          "A": "Hogwarts Great Hall",
+          "B": "the Ministry of Magic",
+          "C": "a graveyard in Little Hangleton",
+          "D": "the Forbidden Forest"
+        },
+        "answer": "C",
+        "explanation": "The Cup was secretly turned into a Portkey leading to the graveyard where Voldemort's father was buried."
+      },
+      {
+        "id": 29,
+        "difficulty": "medium",
+        "question": "In the graveyard, Voldemort used a potion to regenerate his body using ---.",
+        "options": {
+          "A": "dragon blood, unicorn hair, and phoenix tears",
+          "B": "bone from his father, flesh from Wormtail, and blood from Harry",
+          "C": "essence of three magical creatures",
+          "D": "ingredients from the Hogwarts potions storeroom"
+        },
+        "answer": "B",
+        "explanation": "The potion required 'bone of the father, flesh of the servant, and blood of the enemy' to restore Voldemort."
+      },
+      {
+        "id": 30,
+        "difficulty": "medium",
+        "question": "When Harry and Voldemort's wands connected during their duel, a phenomenon called ---.",
+        "options": {
+          "A": "Expelliarmus Echo",
+          "B": "Priori Incantatem",
+          "C": "Brother Wand Bond",
+          "D": "Phoenix Connection"
+        },
+        "answer": "B",
+        "explanation": "Priori Incantatem occurred because both wands shared phoenix feather cores from the same phoenix."
+      },
+      {
+        "id": 31,
+        "difficulty": "medium",
+        "question": "During Priori Incantatem, Harry saw ghostly figures emerge from Voldemort's wand, including ---.",
+        "options": {
+          "A": "Dumbledore and McGonagall",
+          "B": "his parents James and Lily",
+          "C": "the four Hogwarts founders",
+          "D": "Sirius Black and Remus Lupin"
+        },
+        "answer": "B",
+        "explanation": "The echoes of Voldemort's victims emerged, including Cedric, Bertha Jorkins, Frank Bryce, and Harry's parents."
+      },
+      {
+        "id": 32,
+        "difficulty": "medium",
+        "question": "The real Mad-Eye Moody was found ---.",
+        "options": {
+          "A": "dead in his home",
+          "B": "imprisoned in his own magical trunk",
+          "C": "hiding in Hogsmeade",
+          "D": "working at the Ministry"
+        },
+        "answer": "B",
+        "explanation": "The real Moody had been kept alive but imprisoned in a magical trunk with seven compartments throughout the year."
+      },
+      {
+        "id": 33,
+        "difficulty": "medium",
+        "question": "The person impersonating Mad-Eye Moody all year was ---.",
+        "options": {
+          "A": "Peter Pettigrew",
+          "B": "Barty Crouch Jr.",
+          "C": "Lucius Malfoy",
+          "D": "Igor Karkaroff"
+        },
+        "answer": "B",
+        "explanation": "Barty Crouch Jr., a Death Eater, used Polyjuice Potion to impersonate Moody for the entire school year."
+      },
+      {
+        "id": 34,
+        "difficulty": "medium",
+        "question": "Barty Crouch Jr. kept up his disguise by constantly drinking ---.",
+        "options": {
+          "A": "butterbeer",
+          "B": "firewhisky",
+          "C": "Polyjuice Potion from his hip flask",
+          "D": "a calming draught"
+        },
+        "answer": "C",
+        "explanation": "Polyjuice Potion must be taken regularly to maintain the disguise, which is why fake Moody always drank from his flask."
+      },
+      {
+        "id": 35,
+        "difficulty": "medium",
+        "question": "The house-elf Winky was dismissed from service because ---.",
+        "options": {
+          "A": "she stole from her master",
+          "B": "she was found holding the wand that conjured the Dark Mark",
+          "C": "she revealed her master's secrets",
+          "D": "she refused to work"
+        },
+        "answer": "B",
+        "explanation": "Winky was found with the wand used to cast the Dark Mark and was dismissed by Barty Crouch Sr. in disgrace."
+      },
+      {
+        "id": 36,
+        "difficulty": "medium",
+        "question": "Hermione started S.P.E.W. to campaign for ---.",
+        "options": {
+          "A": "better grades for students",
+          "B": "house-elf welfare and rights",
+          "C": "protection of magical creatures",
+          "D": "equal treatment of Muggle-borns"
+        },
+        "answer": "B",
+        "explanation": "S.P.E.W. (Society for the Promotion of Elfish Welfare) was Hermione's campaign for better treatment of house-elves."
+      },
+      {
+        "id": 37,
+        "difficulty": "medium",
+        "question": "Rita Skeeter wrote damaging articles about Harry and others because ---.",
+        "options": {
+          "A": "she had a personal grudge",
+          "B": "the Ministry paid her",
+          "C": "she was an unregistered Animagus who could spy as a beetle",
+          "D": "she used Veritaserum on people"
+        },
+        "answer": "C",
+        "explanation": "Rita was secretly an unregistered Animagus who transformed into a beetle to eavesdrop on private conversations."
+      },
+      {
+        "id": 38,
+        "difficulty": "medium",
+        "question": "Barty Crouch Sr. was killed by ---.",
+        "options": {
+          "A": "Voldemort directly",
+          "B": "his own son Barty Crouch Jr.",
+          "C": "Peter Pettigrew",
+          "D": "a Death Eater attack"
+        },
+        "answer": "B",
+        "explanation": "Barty Crouch Jr. killed his father to prevent him from reaching Dumbledore and exposing the plot."
+      },
+      {
+        "id": 39,
+        "difficulty": "medium",
+        "question": "In the graveyard, Voldemort summoned his Death Eaters by ---.",
+        "options": {
+          "A": "sending owls",
+          "B": "using the Floo Network",
+          "C": "touching Wormtail's Dark Mark",
+          "D": "casting a Patronus"
+        },
+        "answer": "C",
+        "explanation": "Voldemort pressed his finger to the Dark Mark on Wormtail's arm, summoning all marked Death Eaters."
+      },
+      {
+        "id": 40,
+        "difficulty": "medium",
+        "question": "Minister of Magic Cornelius Fudge refused to believe Voldemort had returned because ---.",
+        "options": {
+          "A": "he had proof Voldemort was dead",
+          "B": "he feared the political consequences and preferred to deny the truth",
+          "C": "Dumbledore told him not to worry",
+          "D": "the Daily Prophet said it was a lie"
+        },
+        "answer": "B",
+        "explanation": "Fudge was more concerned about panic and his political position than accepting the dangerous truth."
+      },
+      {
+        "id": 41,
+        "difficulty": "hard",
+        "question": "What does the Triwizard Tournament reveal about the nature of competition and fairness in the wizarding world?",
+        "options": {
+          "A": "That magical competitions are always perfectly fair",
+          "B": "That despite rules and safeguards, the tournament can be manipulated by those with dark intentions",
+          "C": "That only the strongest wizard always wins",
+          "D": "That competitions have no real danger"
+        },
+        "answer": "B",
+        "explanation": "Despite age restrictions and the Goblet's supposed impartiality, Barty Crouch Jr. manipulated the entire tournament for Voldemort's plan."
+      },
+      {
+        "id": 42,
+        "difficulty": "hard",
+        "question": "What is the significance of Harry and Cedric both touching the Cup simultaneously?",
+        "options": {
+          "A": "It shows they were equally skilled",
+          "B": "It demonstrates the theme of cooperation over competition and leads to shared tragedy",
+          "C": "It was required by tournament rules",
+          "D": "It shows Cedric was faster"
+        },
+        "answer": "B",
+        "explanation": "Harry and Cedric's decision to share victory represents sportsmanship, but it tragically leads to Cedric's death at Voldemort's hands."
+      },
+      {
+        "id": 43,
+        "difficulty": "hard",
+        "question": "What does Cedric Diggory's death represent in the larger narrative of the series?",
+        "options": {
+          "A": "A minor plot point quickly forgotten",
+          "B": "The first innocent death showing Voldemort's return has real, devastating consequences",
+          "C": "That Hufflepuff students are weak",
+          "D": "A random accident with no meaning"
+        },
+        "answer": "B",
+        "explanation": "Cedric's death marks the transition from school adventures to real war, showing Voldemort's return means innocent people will die."
+      },
+      {
+        "id": 44,
+        "difficulty": "hard",
+        "question": "What does Priori Incantatem symbolize about the connection between Harry and Voldemort?",
+        "options": {
+          "A": "They are distant relatives",
+          "B": "Their wands are merely similar in design",
+          "C": "Their fates are deeply intertwined, and their connection goes beyond mere coincidence",
+          "D": "Harry stole Voldemort's wand"
+        },
+        "answer": "C",
+        "explanation": "The twin cores reveal a destined connection between Harry and Voldemort that neither can escape, foreshadowing their linked fates."
+      },
+      {
+        "id": 45,
+        "difficulty": "hard",
+        "question": "What theme is explored through Cornelius Fudge's refusal to believe Voldemort has returned?",
+        "options": {
+          "A": "Government officials are always right",
+          "B": "Political leaders sometimes choose comfortable denial over facing difficult truths",
+          "C": "The Ministry is well-prepared for any threat",
+          "D": "Dumbledore was lying"
+        },
+        "answer": "B",
+        "explanation": "Fudge represents how authority figures may prioritize political stability and their own positions over acknowledging dangerous realities."
+      },
+      {
+        "id": 46,
+        "difficulty": "hard",
+        "question": "What does Barty Crouch Jr.'s storyline reveal about the theme of parental relationships?",
+        "options": {
+          "A": "Parents always know what's best",
+          "B": "Strict parenting creates perfect children",
+          "C": "Parental neglect and rigid control can contribute to a child's turn toward evil",
+          "D": "Family bonds are unbreakable"
+        },
+        "answer": "C",
+        "explanation": "Crouch Sr.'s obsession with his career and strict control over his son contributed to Jr.'s path to becoming a Death Eater."
+      },
+      {
+        "id": 47,
+        "difficulty": "hard",
+        "question": "Why is it significant that Harry refuses to leave Cedric's body in the graveyard?",
+        "options": {
+          "A": "He needed proof of what happened",
+          "B": "He was following tournament rules",
+          "C": "It shows Harry's loyalty and humanity even in mortal danger",
+          "D": "Cedric asked him to"
+        },
+        "answer": "C",
+        "explanation": "Harry's insistence on bringing Cedric's body back demonstrates his character-valuing human dignity even when his own life is threatened."
+      },
+      {
+        "id": 48,
+        "difficulty": "hard",
+        "question": "What does the Goblet of Fire's selection of Harry as a fourth champion suggest about magical contracts?",
+        "options": {
+          "A": "They can be easily broken",
+          "B": "They are meaningless formalities",
+          "C": "Magical contracts are binding regardless of consent or intention",
+          "D": "Champions can withdraw anytime"
+        },
+        "answer": "C",
+        "explanation": "Once Harry's name came from the Goblet, he was magically bound to compete, showing how magical contracts can trap people against their will."
+      },
+      {
+        "id": 49,
+        "difficulty": "hard",
+        "question": "What does the treatment of house-elves throughout the book suggest about wizarding society?",
+        "options": {
+          "A": "Wizards are completely enlightened about equality",
+          "B": "The wizarding world has its own blind spots regarding oppression and slavery",
+          "C": "House-elves prefer their situation",
+          "D": "Hermione is wrong to care"
+        },
+        "answer": "B",
+        "explanation": "Through S.P.E.W. and the treatment of Winky and Dobby, the book shows that wizarding society has prejudices similar to human societies."
+      },
+      {
+        "id": 50,
+        "difficulty": "hard",
+        "question": "What is the importance of the graveyard setting for Voldemort's rebirth?",
+        "options": {
+          "A": "It was a random convenient location",
+          "B": "It was the only place with enough space",
+          "C": "It connects Voldemort to his origins, using his father's bones and the site where he killed his Muggle family",
+          "D": "It was required by the potion recipe"
+        },
+        "answer": "C",
+        "explanation": "The graveyard where Voldemort's father is buried represents his origins and his first murders, making his rebirth there symbolically significant."
+      },
+      {
+        "id": 51,
+        "difficulty": "hard",
+        "question": "How does Rita Skeeter's journalism reflect on the role of media in society?",
+        "options": {
+          "A": "Media always tells the truth",
+          "B": "The press can be a powerful tool for manipulation and spreading misinformation for personal gain",
+          "C": "Newspapers are always trustworthy",
+          "D": "Journalists never have agendas"
+        },
+        "answer": "B",
+        "explanation": "Rita's sensationalized, inaccurate articles show how media can distort truth for profit and influence public opinion unfairly."
+      },
+      {
+        "id": 52,
+        "difficulty": "hard",
+        "question": "What does Viktor Krum's character reveal about celebrity and assumptions?",
+        "options": {
+          "A": "Famous people are always arrogant",
+          "B": "Despite his fame, Krum is shy and genuine, showing that celebrity doesn't define character",
+          "C": "Athletes are not intelligent",
+          "D": "Fame always corrupts"
+        },
+        "answer": "B",
+        "explanation": "Krum defies expectations-though a famous athlete, he's introverted, genuinely likes Hermione, and respects Harry despite being competitors."
+      },
+      {
+        "id": 53,
+        "difficulty": "hard",
+        "question": "What is the significance of the ghost figures from Voldemort's wand helping Harry escape?",
+        "options": {
+          "A": "Ghosts have physical powers",
+          "B": "The echoes were just illusions",
+          "C": "Even in death, love and connection provide protection-his parents' echoes helped him survive",
+          "D": "Voldemort let Harry go"
+        },
+        "answer": "C",
+        "explanation": "The echo of Harry's parents and other victims buying him time to escape reinforces the theme that love transcends death."
+      },
+      {
+        "id": 54,
+        "difficulty": "hard",
+        "question": "What does Dumbledore's reaction to Voldemort's return suggest about his character?",
+        "options": {
+          "A": "He was surprised and unprepared",
+          "B": "He immediately took decisive action and began preparations, showing his foresight and leadership",
+          "C": "He agreed with Fudge to wait",
+          "D": "He was too scared to act"
+        },
+        "answer": "B",
+        "explanation": "Dumbledore immediately begins reconnecting the Order of the Phoenix and asking allies to prepare, showing his leadership in crisis."
+      },
+      {
+        "id": 55,
+        "difficulty": "hard",
+        "question": "What theme is explored through Harry having to participate despite not entering his name?",
+        "options": {
+          "A": "Rules are always fair",
+          "B": "Sometimes we are forced into situations beyond our control and must face challenges we never chose",
+          "C": "Harry secretly wanted to compete",
+          "D": "The Goblet made a mistake"
+        },
+        "answer": "B",
+        "explanation": "Harry being bound to compete despite not entering shows how life can thrust us into dangerous situations without our consent."
+      },
+      {
+        "id": 56,
+        "difficulty": "hard",
+        "question": "What does the division between those who believe Harry and those who don't foreshadow?",
+        "options": {
+          "A": "Nothing important for future books",
+          "B": "A coming conflict between those who accept truth and those who choose denial",
+          "C": "Harry will be proven wrong",
+          "D": "The Ministry will support Harry"
+        },
+        "answer": "B",
+        "explanation": "The split between believers and deniers sets up the central conflict of the next book, where truth is suppressed by the Ministry."
+      },
+      {
+        "id": 57,
+        "difficulty": "hard",
+        "question": "Why is Voldemort's insistence on dueling Harry rather than just killing him significant?",
+        "options": {
+          "A": "It was required by wizard law",
+          "B": "He needed practice dueling",
+          "C": "His ego and desire to prove superiority over Harry is a fatal weakness that allows Harry to escape",
+          "D": "Wormtail suggested it"
+        },
+        "answer": "C",
+        "explanation": "Voldemort's arrogance in wanting to prove he can defeat Harry in a fair duel gives Harry the chance to survive, showing how hubris is his weakness."
+      },
+      {
+        "id": 58,
+        "difficulty": "hard",
+        "question": "What does Harry giving his Triwizard winnings to Fred and George represent?",
+        "options": {
+          "A": "He didn't want the money",
+          "B": "The prize was cursed",
+          "C": "Blood money from Cedric's death is transformed into something positive-the joke shop that later aids the resistance",
+          "D": "He owed them money"
+        },
+        "answer": "C",
+        "explanation": "Harry's gift transforms money associated with tragedy into something that brings joy and later proves useful in the fight against Voldemort."
+      },
+      {
+        "id": 59,
+        "difficulty": "hard",
+        "question": "What is the thematic importance of the Veela at the Quidditch World Cup?",
+        "options": {
+          "A": "They were just entertainment",
+          "B": "They introduce themes of magical prejudice and the seductive power of appearances that deceive",
+          "C": "They had no larger meaning",
+          "D": "They were Voldemort's allies"
+        },
+        "answer": "B",
+        "explanation": "The Veela's ability to enchant men shows how appearances can deceive, paralleling how things throughout the book are not what they seem."
+      },
+      {
+        "id": 60,
+        "difficulty": "hard",
+        "question": "How does the ending of Goblet of Fire change the tone of the Harry Potter series?",
+        "options": {
+          "A": "It doesn't change anything",
+          "B": "It remains a light children's story",
+          "C": "It marks a transition from childhood adventure to mature themes of death, war, and difficult choices",
+          "D": "It becomes purely comedic"
+        },
+        "answer": "C",
+        "explanation": "Cedric's murder and Voldemort's return mark the series' shift from school adventures to a darker narrative about war, loss, and sacrifice."
       }
     ]
   },
   "Henry_and_Mudge_in_the_Sparkle_Days": {
-    "book_title": "Henry and Mudge in the Sparkle Days",
+    "title": "Henry and Mudge in the Sparkle Days",
     "author": "Cynthia Rylant",
     "genre": "Realistic Fiction",
     "book_level": {
-      "grade": 2.5,
-      "description": "Level 2.5"
+      "grade": 2,
+      "description": "Early reader level - simple story about a boy, his dog, and winter family moments"
     },
     "total_questions": 20,
     "questions": [
@@ -5828,1012 +5608,1013 @@ const quizData = {
       {
         "id": 5,
         "difficulty": "easy",
+        "question": "What always makes Mudge sneeze?",
+        "options": {
+          "A": "Dust",
+          "B": "Flowers",
+          "C": "Snow",
+          "D": "Food"
+        },
+        "answer": "C",
+        "explanation": "When Mudge poked his nose in the snow, he sneezed. 'Snow always made him sneeze.'"
+      },
+      {
+        "id": 6,
+        "difficulty": "easy",
         "question": "What did Mudge do when Henry made snow angels?",
         "options": {
           "A": "Made his own",
           "B": "Messed them up",
-          "C": "Watched",
+          "C": "Watched quietly",
           "D": "Went inside"
         },
         "answer": "B",
         "explanation": "When Henry made snow angels, Mudge laid down and messed them up."
       },
       {
-        "id": 6,
-        "difficulty": "easy",
-        "question": "What always makes Mudge sneeze?",
-        "options": {
-          "A": "Flowers",
-          "B": "Dust",
-          "C": "Snow",
-          "D": "Pepper"
-        },
-        "answer": "C",
-        "explanation": "Snow always makes Mudge sneeze when he pokes his nose in it."
-      },
-      {
         "id": 7,
-        "difficulty": "medium",
-        "question": "What did Mudge do when he first saw Henry in his snow clothes?",
+        "difficulty": "easy",
+        "question": "Who bakes the cookies in Henry's family?",
         "options": {
-          "A": "Wagged his tail",
-          "B": "Barked at the strange creature",
-          "C": "Ran away",
-          "D": "Licked Henry's face"
+          "A": "Henry's father",
+          "B": "Henry's mother",
+          "C": "Henry",
+          "D": "Grandma"
         },
         "answer": "B",
-        "explanation": "When Mudge saw Henry in all his snow gear with a mask, he barked at the strange creature."
+        "explanation": "Henry's mother liked to bake the cookies, and Henry helped decorate them."
       },
       {
         "id": 8,
         "difficulty": "medium",
-        "question": "What did Henry and Mudge pretend to be in their icy hideout?",
+        "question": "When Henry got dressed for snow, Mudge barked at him because ---.",
         "options": {
-          "A": "Explorers",
-          "B": "Snow spies",
-          "C": "Pirates",
-          "D": "Astronauts"
+          "A": "he was excited",
+          "B": "he didn't recognize Henry in all his snow clothes",
+          "C": "he wanted to go outside",
+          "D": "he was hungry"
         },
         "answer": "B",
-        "explanation": "Henry built an icy hideout and they pretended to be snow spies."
+        "explanation": "Mudge barked at the strange creature until Henry took off his mask and showed his face."
       },
       {
         "id": 9,
         "difficulty": "medium",
-        "question": "What did they see during their winter walk that required a wish?",
+        "question": "At first, Mudge was not invited to Christmas Eve dinner because ---.",
         "options": {
-          "A": "A rainbow",
-          "B": "A full moon",
-          "C": "A shooting star",
-          "D": "Northern lights"
+          "A": "he was sick",
+          "B": "it was a fancy dinner and he was a dog",
+          "C": "he didn't like turkey",
+          "D": "there wasn't enough food"
         },
-        "answer": "C",
-        "explanation": "During their winter walk, they saw a shooting star and made wishes."
+        "answer": "B",
+        "explanation": "Mudge hadn't been invited to the fancy Christmas Eve dinner because he was a dog."
       },
       {
         "id": 10,
         "difficulty": "medium",
-        "question": "What did Henry's father wish for?",
+        "question": "Henry thought 'dressing the turkey' was funny because ---.",
         "options": {
-          "A": "Snow",
-          "B": "Peace on earth",
-          "C": "A new car",
-          "D": "More time off"
+          "A": "the turkey looked silly",
+          "B": "he imagined putting clothes on a turkey",
+          "C": "his dad made a joke",
+          "D": "turkeys don't wear clothes"
         },
         "answer": "B",
-        "explanation": "Henry's father wished for peace on earth."
+        "explanation": "Henry giggled at the idea of 'dressing' a turkey because it sounds like putting clothes on it."
       },
       {
         "id": 11,
         "difficulty": "medium",
-        "question": "What did Henry's mother wish for?",
+        "question": "When the family heard Mudge crying, they decided to ---.",
         "options": {
-          "A": "A vacation",
-          "B": "Her favorite basketball team to win",
-          "C": "A new house",
-          "D": "More snow"
+          "A": "ignore him",
+          "B": "let him join the fancy dinner",
+          "C": "put him outside",
+          "D": "give him a bone"
         },
         "answer": "B",
-        "explanation": "Henry's mother wished for her favorite basketball team to win."
+        "explanation": "They all felt sorry for Mudge, so Henry's father got an extra plate and they let Mudge join them."
       },
       {
         "id": 12,
         "difficulty": "medium",
-        "question": "What did Henry wish for?",
+        "question": "On winter night walks, the family loved seeing ---.",
         "options": {
-          "A": "A new bike",
-          "B": "More toys",
-          "C": "Chocolate pudding every day for the rest of his life",
-          "D": "A puppy"
+          "A": "their neighbors waving",
+          "B": "warm lights in houses, stars, and the sparkle of the moon",
+          "C": "animals in the snow",
+          "D": "fireworks"
+        },
+        "answer": "B",
+        "explanation": "They loved the warm lights in houses, winter stars, and the sparkle of the moon on white yards."
+      },
+      {
+        "id": 13,
+        "difficulty": "medium",
+        "question": "When they saw a shooting star, Henry wished for ---.",
+        "options": {
+          "A": "a new dog",
+          "B": "more snow",
+          "C": "chocolate pudding every day for the rest of his life",
+          "D": "a bigger house"
         },
         "answer": "C",
         "explanation": "Henry wished for chocolate pudding every day for the rest of his life."
       },
       {
-        "id": 13,
+        "id": 14,
         "difficulty": "medium",
-        "question": "What did Henry think Mudge probably wished for?",
+        "question": "What did the family do after their winter walk?",
         "options": {
-          "A": "More snow",
-          "B": "A bone",
-          "C": "Half of Henry's chocolate pudding",
-          "D": "More walks"
+          "A": "they went to bed",
+          "B": "they watched TV",
+          "C": "they rested by the fireplace",
+          "D": "they had dinner"
         },
         "answer": "C",
-        "explanation": "Henry guessed Mudge probably wished for half of his chocolate pudding."
-      },
-      {
-        "id": 14,
-        "difficulty": "hard",
-        "question": "What colors did Henry's house sparkle at Christmas?",
-        "options": {
-          "A": "Red and green",
-          "B": "Silver and gold",
-          "C": "Blue and white",
-          "D": "Red and gold"
-        },
-        "answer": "B",
-        "explanation": "Henry's house sparkled silver and gold at Christmas."
+        "explanation": "After their walk, they loved coming home to their fireplace and resting together."
       },
       {
         "id": 15,
         "difficulty": "hard",
-        "question": "What did Henry's father like to bake for Christmas?",
+        "question": "What does the title 'Sparkle Days' refer to?",
         "options": {
-          "A": "Cookies",
-          "B": "Pie",
-          "C": "Turkey",
-          "D": "Ham"
+          "A": "Days when it's very cold",
+          "B": "Days when snow makes everything sparkle and shine",
+          "C": "Days when they clean the house",
+          "D": "Days when the sun is bright"
         },
-        "answer": "C",
-        "explanation": "Henry's father liked to bake the turkey and took a long time dressing it."
+        "answer": "B",
+        "explanation": "Sparkle days are snowy winter days when the snow sparkles, and the house sparkles with Christmas decorations."
       },
       {
         "id": 16,
         "difficulty": "hard",
-        "question": "Why did Henry giggle about 'dressing the turkey'?",
+        "question": "What theme is shown when the family lets Mudge join Christmas dinner?",
         "options": {
-          "A": "He thought the turkey was funny",
-          "B": "He thought it meant putting clothes on it",
-          "C": "He was ticklish",
-          "D": "He saw something silly"
+          "A": "Dogs like turkey",
+          "B": "Family includes everyone, even pets",
+          "C": "Fancy dinners are overrated",
+          "D": "Christmas is only for people"
         },
         "answer": "B",
-        "explanation": "Henry found it funny that Dad was 'dressing' the turkey, as if putting clothes on it."
+        "explanation": "Including Mudge shows that family means everyone, including beloved pets."
       },
       {
         "id": 17,
         "difficulty": "hard",
-        "question": "Why was Mudge crying during Christmas Eve dinner?",
+        "question": "Why might Mudge have sneezed 'fancy turkey' on Henry at dinner?",
         "options": {
-          "A": "He was hurt",
-          "B": "He was hungry",
-          "C": "He wasn't invited to the fancy dinner",
-          "D": "He was scared"
+          "A": "He was sick",
+          "B": "He ate too fast because he was excited",
+          "C": "He didn't like the food",
+          "D": "It was too hot"
         },
-        "answer": "C",
-        "explanation": "Mudge had to stay in Henry's room during the fancy Christmas Eve dinner because he was a dog."
+        "answer": "B",
+        "explanation": "Mudge ate as fast as he could because it was his first fancy dinner, and the excitement made him sneeze."
       },
       {
         "id": 18,
         "difficulty": "hard",
-        "question": "What did the family do when they heard Mudge crying?",
+        "question": "What does the firelight scene at the end of the book represent?",
         "options": {
-          "A": "Ignored him",
-          "B": "Gave him his own plate of food",
-          "C": "Let him outside",
-          "D": "Put him to bed"
+          "A": "Bedtime routine",
+          "B": "The warmth and comfort of family togetherness",
+          "C": "That fires are dangerous",
+          "D": "Winter is ending"
         },
         "answer": "B",
-        "explanation": "They filled a plate with food, let Mudge out, and he ate his first fancy dinner by candlelight."
+        "explanation": "The quiet moment by the fire represents family closeness and the peaceful joy of being together."
       },
       {
         "id": 19,
         "difficulty": "hard",
-        "question": "What did Mudge do that made everyone laugh at Christmas dinner?",
+        "question": "Why does Henry think Mudge's wish would be for 'half of his chocolate pudding'?",
         "options": {
-          "A": "Fell asleep",
-          "B": "Sneezed fancy turkey on Henry",
-          "C": "Barked at the candles",
-          "D": "Stole food from the table"
+          "A": "Mudge only eats half portions",
+          "B": "Henry knows Mudge loves sharing food with him",
+          "C": "Chocolate is bad for dogs",
+          "D": "Mudge told him"
         },
         "answer": "B",
-        "explanation": "Mudge looked at Henry and sneezed some fancy turkey on him, and they laughed about that all night."
+        "explanation": "Henry's joke shows how close they are - Mudge would want to share whatever Henry has."
       },
       {
         "id": 20,
         "difficulty": "hard",
-        "question": "What color was the cloth Henry's father put on the Christmas table?",
+        "question": "What is the main message of Henry and Mudge in the Sparkle Days?",
         "options": {
-          "A": "White",
-          "B": "Green",
-          "C": "Bright red",
-          "D": "Gold"
+          "A": "Winter is the best season",
+          "B": "Snow is fun to play in",
+          "C": "The joy of winter comes from sharing special moments with family and loved ones",
+          "D": "Dogs make good pets"
         },
         "answer": "C",
-        "explanation": "Henry's father put a bright red cloth on the table for Christmas Eve dinner."
+        "explanation": "The book shows that what makes winter magical is sharing snow play, Christmas, and firelight with family - including Mudge."
       }
     ]
   },
-  "The_Magic_of_Oz": {
-    "book_title": "The Magic of Oz",
-    "author": "L. Frank Baum",
+  "Magic_of_the_Wizard_Dragon": {
+    "title": "Magic of the Wizard Dragon",
+    "author": "Tracy West",
+    "series": "Dragon Masters Book 29",
     "genre": "Fantasy Adventure",
     "book_level": {
-      "grade": 5,
-      "description": "Upper elementary level - imaginative fantasy with transformation magic, clear villain motivations, and adventure elements"
+      "grade": 3,
+      "description": "Upper Elementary"
     },
     "total_questions": 60,
     "questions": [
       {
         "id": 1,
         "difficulty": "easy",
-        "question": "Where is Mount Munch located in the Land of Oz?",
+        "question": "What is the name of Drake's dragon?",
         "options": {
-          "A": "In the Winkie Country, which was quite significant",
-          "B": "In the Munchkin Country on the east edge of Oz",
-          "C": "In the Quadling Country, according to the story",
-          "D": "In the Emerald City, which played a key role"
+          "A": "Kinguk",
+          "B": "Vulcan",
+          "C": "Worm",
+          "D": "Mamu"
         },
-        "answer": "B",
-        "explanation": "Mount Munch is located 'on the east edge of the Land of Oz, in the Munchkin Country.'"
+        "answer": "C",
+        "explanation": "Drake's dragon is named Worm, a large brown earth dragon."
       },
       {
         "id": 2,
         "difficulty": "easy",
-        "question": "What shape is the top of Mount Munch?",
+        "question": "Where were Drake and Rory at the beginning of the story?",
         "options": {
-          "A": "Pointed like a cone, which played a key role",
-          "B": "Shaped like a saucer, broad and deep",
-          "C": "Round like a ball, a notable element",
-          "D": "Flat like a table, according to the story"
+          "A": "King Roland's castle",
+          "B": "The Dragon Islands",
+          "C": "An empty classroom in the Castle of the Wizards",
+          "D": "Barga"
         },
-        "answer": "B",
-        "explanation": "The top of Mount Munch is 'shaped like a saucer, broad and deep.'"
+        "answer": "C",
+        "explanation": "Drake and Rory were in an empty classroom in the Castle of the Wizards, waiting for Jaina."
       },
       {
         "id": 3,
         "difficulty": "easy",
-        "question": "What do the people living on Mount Munch call themselves?",
+        "question": "What type of dragon is Vulcan?",
         "options": {
-          "A": "Hyups",
-          "B": "Munchkins",
-          "C": "Winkies",
-          "D": "Gnomes"
+          "A": "Earth dragon",
+          "B": "Fire dragon",
+          "C": "Dream dragon",
+          "D": "Water dragon"
         },
-        "answer": "A",
-        "explanation": "The people who live on Mount Munch call themselves 'Hyups.'"
+        "answer": "B",
+        "explanation": "Vulcan is Rory's fire dragon."
       },
       {
         "id": 4,
         "difficulty": "easy",
-        "question": "Who is Bini Aru?",
+        "question": "Who is Wolfgang's father?",
         "options": {
-          "A": "The king of Oz, which was quite significant",
-          "B": "Kiki's best friend, which played a key role",
-          "C": "A Munchkin farmer, essential to understand",
-          "D": "A wise old Hyup who used to be a sorcerer"
+          "A": "Drake",
+          "B": "Maldred",
+          "C": "King Roland",
+          "D": "Zoltan"
         },
         "answer": "D",
-        "explanation": "Bini Aru is described as 'a wise old Hyup... who used to be a clever sorcerer.'"
+        "explanation": "Wolfgang is the son of Zoltan, the wizard who transformed into a wizard dragon."
       },
       {
         "id": 5,
         "difficulty": "easy",
-        "question": "What did Ozma decree about magic in Oz?",
+        "question": "What color does Worm's body glow when he transports?",
         "options": {
-          "A": "Everyone could practice magic, according to the story, which played a key role",
-          "B": "Only men could practice magic, an important detail, a notable element",
-          "C": "No one could practice magic except Glinda the Good and the Wizard of Oz",
-          "D": "Magic was completely forbidden, which played a key role with hidden secrets"
+          "A": "Red",
+          "B": "Blue",
+          "C": "Green",
+          "D": "Pink"
         },
         "answer": "C",
-        "explanation": "Ozma 'made a decree that no one should practice magic in her dominions except Glinda the Good and the Wizard of Oz.'"
+        "explanation": "Worm's body glows green when he uses his transportation powers."
       },
       {
         "id": 6,
         "difficulty": "easy",
-        "question": "What is the magic word for transformations?",
+        "question": "What is the name of the head wizard?",
         "options": {
-          "A": "Open Sesame, a crucial point",
-          "B": "Pyrzqxgl (Pyres Quicksicle)",
-          "C": "Abracadabra, an important detail",
-          "D": "Alakazam, a notable element"
+          "A": "Nuna",
+          "B": "Jaina",
+          "C": "Kishar",
+          "D": "Rory"
         },
         "answer": "B",
-        "explanation": "The magic word is 'Pyrzqxgl' which is pronounced 'Pyres Quicksicle.'"
+        "explanation": "Jaina is the white-haired head wizard who wears an orange dress."
       },
       {
         "id": 7,
         "difficulty": "easy",
-        "question": "Why was Kiki Aru noted for being cross and disagreeable?",
+        "question": "What land is covered in snow where Wolfgang went?",
         "options": {
-          "A": "He was not happy because he wanted to see the world but his father wouldn't let him",
-          "B": "He was born that way, according to the story, which was quite significant",
-          "C": "He was sick, essential to understand, a crucial point, essential to understand",
-          "D": "He didn't like his mother's cooking, a crucial point, essential to understand"
+          "A": "Gothica",
+          "B": "The Dragon Islands",
+          "C": "Barga",
+          "D": "The Dream World"
         },
-        "answer": "A",
-        "explanation": "Kiki 'was not happy because he wanted to go down the mountain and visit the big world below, and his father would not let him.'"
+        "answer": "C",
+        "explanation": "Barga is a cold land covered in snow where Wolfgang went to find his father."
       },
       {
         "id": 8,
         "difficulty": "easy",
-        "question": "How did Kiki discover the magic word?",
+        "question": "What type of dragon is Kinguk?",
         "options": {
-          "A": "A wizard told him, which played a key role from the old legends",
-          "B": "He read it in a book of unusual appearance with magical properties",
-          "C": "His father taught him, a crucial point, which played a key role",
-          "D": "He found it written on the underside of a loose floorboard"
+          "A": "Fire dragon",
+          "B": "Dream dragon",
+          "C": "Water dragon",
+          "D": "Earth dragon"
         },
         "answer": "D",
-        "explanation": "When the board 'slipped from his hand and turned over,' Kiki 'saw something written on the underside of it' describing how to pronounce the magic word."
+        "explanation": "Kinguk is an earth dragon, the same type as Worm."
       },
       {
         "id": 9,
         "difficulty": "easy",
-        "question": "What was Kiki's first transformation?",
+        "question": "What does 'Kinguk' mean in Nuna's language?",
         "options": {
-          "A": "A fish",
-          "B": "A lion",
-          "C": "A cat",
-          "D": "A hawk"
+          "A": "Guardian",
+          "B": "Earth",
+          "C": "Worm",
+          "D": "Dragon"
         },
-        "answer": "D",
-        "explanation": "Kiki said 'I want to become a big, strong bird like a hawk' for his first transformation."
+        "answer": "C",
+        "explanation": "Nuna explains that 'Kinguk' means 'worm' in the language of her land."
       },
       {
         "id": 10,
         "difficulty": "easy",
-        "question": "What surrounds the Land of Oz?",
+        "question": "What was Maldred transformed into before being trapped in a bottle?",
         "options": {
-          "A": "An ocean, as revealed in the tale",
-          "B": "A magical forest near the ancient ruins",
-          "C": "High mountains, worth remembering",
-          "D": "A deadly sandy desert with poisonous fumes"
+          "A": "100 spiders",
+          "B": "100 bats",
+          "C": "100 flies",
+          "D": "100 birds"
         },
-        "answer": "D",
-        "explanation": "Oz is surrounded by 'the Deadly Sandy Desert that separates the fairy Land of Oz from all the rest of the world' with 'poisonous fumes.'"
+        "answer": "C",
+        "explanation": "Maldred was transformed into 100 flies and trapped in a red bottle guarded by the Naga."
       },
       {
         "id": 11,
         "difficulty": "easy",
-        "question": "Who is Ruggedo?",
+        "question": "What plant did Nuna use to heal Kinguk?",
         "options": {
-          "A": "A friendly wizard, a crucial point, a crucial point",
-          "B": "The former Gnome King who was kicked out of his kingdom",
-          "C": "Kiki's father, central to the plot, central to the plot",
-          "D": "The ruler of Oz, according to the story, central to the plot"
+          "A": "Moonflower",
+          "B": "Dragonmoss",
+          "C": "Iceleaf",
+          "D": "Stinkweed"
         },
-        "answer": "B",
-        "explanation": "Ruggedo says 'I used to be the Gnome King, but I got kicked out of my country.'"
+        "answer": "D",
+        "explanation": "Nuna used a plant called stinkweed to make tea that cured Kinguk of Zoltan's magic."
       },
       {
         "id": 12,
         "difficulty": "easy",
-        "question": "What does Ruggedo look like?",
+        "question": "What powerful dragon guards Maldred's bottle?",
         "options": {
-          "A": "Crooked with a fat body, thin limbs, bushy white whiskers, and pointed hair",
-          "B": "Tall and thin, as revealed in the tale, a crucial point, an important detail",
-          "C": "Short with red hair with deep intensity glowing faintly with deep intensity",
-          "D": "Young and handsome, a crucial point, an important detail, according to the story"
+          "A": "Worm",
+          "B": "The Naga",
+          "C": "Vulcan",
+          "D": "Kinguk"
         },
-        "answer": "A",
-        "explanation": "Ruggedo is described as crooked, with 'a fat body and thin legs and arms,' 'bushy white whiskers that came to a point,' and 'white hair that came to a point on top of his head.'"
+        "answer": "B",
+        "explanation": "The Naga, the Earthquake Dragon, guards the bottle containing Maldred."
       },
       {
         "id": 13,
         "difficulty": "easy",
-        "question": "What is Ruggedo afraid of?",
+        "question": "What happens when the Naga turns his eye to a place?",
         "options": {
-          "A": "Eggs",
-          "B": "Fire",
-          "C": "Water",
-          "D": "Darkness"
+          "A": "It freezes",
+          "B": "It floods",
+          "C": "An earthquake happens",
+          "D": "It catches fire"
         },
-        "answer": "A",
-        "explanation": "Ruggedo says 'I'm afraid of 'em - eggs. They are dangerous' with a shudder."
+        "answer": "C",
+        "explanation": "When the Naga turns his eye to a place, he causes an earthquake."
       },
       {
         "id": 14,
         "difficulty": "easy",
-        "question": "How did Kiki get money when he had none?",
+        "question": "What color magic came from Wolfgang's wand when he gave Drake a coat?",
         "options": {
-          "A": "Ruggedo gave it to him, a notable element",
-          "B": "He transformed into a magpie and stole a gold piece",
-          "C": "He earned it working, essential to understand",
-          "D": "He found it on the ground, central to the plot"
+          "A": "Green",
+          "B": "Red",
+          "C": "Blue",
+          "D": "Purple"
         },
-        "answer": "B",
-        "explanation": "Kiki 'transformed himself into a magpie and flying through the open window, caught up one of the gold pieces in his beak.'"
+        "answer": "C",
+        "explanation": "Blue magic sparks came out of Wolfgang's wand when he created a warm coat for Drake."
       },
       {
         "id": 15,
         "difficulty": "easy",
-        "question": "What did Ruggedo carry in his bulging pockets?",
+        "question": "Who is Rory's dragon?",
         "options": {
-          "A": "Books with hidden secrets",
-          "B": "Jewels and precious stones",
-          "C": "Magic tools, which played a key role",
-          "D": "Food, worth remembering"
+          "A": "Worm",
+          "B": "Kinguk",
+          "C": "Mamu",
+          "D": "Vulcan"
         },
-        "answer": "B",
-        "explanation": "Ruggedo says when he left his kingdom, 'they said I could take as many precious stones as I could carry, so I had a lot of pockets made in my clothes and loaded them all up.'"
+        "answer": "D",
+        "explanation": "Vulcan is Rory's fire dragon."
       },
       {
         "id": 16,
         "difficulty": "easy",
-        "question": "Why doesn't Oz use money?",
+        "question": "What did Zoltan transform into?",
         "options": {
-          "A": "They use jewels instead, which played a key role",
-          "B": "The ruler banned it, which was quite significant",
-          "C": "It's too expensive to make, a crucial point, worth remembering",
-          "D": "Everyone is allowed to take what they wish without price"
+          "A": "A snow monster",
+          "B": "A wizard dragon",
+          "C": "A giant fly",
+          "D": "An ice wizard"
         },
-        "answer": "D",
-        "explanation": "In the Land of Oz 'they do not use money at all, every one being allowed to take what he wishes without price.'"
+        "answer": "B",
+        "explanation": "Zoltan transformed into a wizard dragon, a dragon with both dragon powers and wizard magic."
       },
       {
         "id": 17,
         "difficulty": "easy",
-        "question": "What is Glinda's Book of Records?",
+        "question": "How old is Wolfgang?",
         "options": {
-          "A": "A list of all citizens, a crucial point, which played a key role from the old legends",
-          "B": "A history of Oz, which was quite significant, worth remembering with magical properties",
-          "C": "A cookbook of great importance with special abilities from the old legends",
-          "D": "A book that magically records everything people do in Oz the instant they do it"
+          "A": "Five years old",
+          "B": "Ten years old",
+          "C": "Eight years old",
+          "D": "Six years old"
         },
-        "answer": "D",
-        "explanation": "Glinda has 'a Great Book called the Book of Records, in which is magically written everything that people do in the Land of Oz, just the instant they do it.'"
+        "answer": "C",
+        "explanation": "Wolfgang tells his father 'I'm only eight' during their conversation."
       },
       {
         "id": 18,
         "difficulty": "easy",
-        "question": "What is Ozma's magic picture?",
+        "question": "What color were Zoltan's dragon scales?",
         "options": {
-          "A": "A painting of herself, a notable element, central to the plot",
-          "B": "A picture in which she can see whatever she wishes to see",
-          "C": "A map of Oz, essential to understand, worth remembering",
-          "D": "A photograph, which played a key role with hidden secrets"
+          "A": "Blue",
+          "B": "Green",
+          "C": "Black",
+          "D": "Pink"
         },
-        "answer": "B",
-        "explanation": "Ozma has 'a Magic Picture in which she can see whatever she wishes to see.'"
+        "answer": "D",
+        "explanation": "Zoltan's wizard dragon form had pink dragon scales covered with magical symbols."
       },
       {
         "id": 19,
         "difficulty": "easy",
-        "question": "Who is Mopsi Aru?",
+        "question": "What color wings did Zoltan have as a wizard dragon?",
         "options": {
-          "A": "Kiki's mother, famous for making huckleberry pies",
-          "B": "Kiki's sister, worth remembering from a distant land",
-          "C": "Ruggedo's wife, as revealed in the tale",
-          "D": "A Munchkin, which was quite significant"
+          "A": "Pink",
+          "B": "Orange",
+          "C": "Red",
+          "D": "Purple"
         },
-        "answer": "A",
-        "explanation": "Bini Aru 'had a wife named Mopsi Aru, who was famous for making fine huckleberry pies.'"
+        "answer": "B",
+        "explanation": "Orange wings sprouted from Zoltan's back in his wizard dragon form."
       },
       {
         "id": 20,
         "difficulty": "easy",
-        "question": "Why did Kiki decide to fly away from Oz initially?",
+        "question": "What stone did Drake wear around his neck?",
         "options": {
-          "A": "He feared Glinda or the Wizard might discover and punish him for using magic",
-          "B": "He was looking for treasure, a notable element, an important detail",
-          "C": "He was bored glowing faintly glowing faintly sparkling brilliantly",
-          "D": "His parents told him to leave, a notable element, according to the story"
+          "A": "A blue sapphire",
+          "B": "A red ruby",
+          "C": "A green dragon stone",
+          "D": "A white diamond"
         },
-        "answer": "A",
-        "explanation": "Kiki thought 'Perhaps Glinda or the Wizard of Oz would discover him and punish him, so it would be good policy to keep away from Oz altogether.'"
+        "answer": "C",
+        "explanation": "Drake wore a green dragon stone around his neck, which glows when dragons are near."
       },
       {
         "id": 21,
         "difficulty": "medium",
-        "question": "What is the limitation of the transformation magic word?",
+        "question": "Wolfgang said he had been getting teased ever since ---.",
         "options": {
-          "A": "It only works at night, worth remembering with magical properties from the ancient times",
-          "B": "It requires special tools, a notable element, essential to understand, a crucial point",
-          "C": "You can only transform into things that can talk, otherwise you'd be stuck forever",
-          "D": "It only works once, worth remembering with special abilities of great importance"
+          "A": "he failed his first magic test at wizard school",
+          "B": "his dad turned into a dragon and flew past the castle",
+          "C": "he accidentally set fire to the dining room",
+          "D": "the other wizards learned he was from Gothica"
         },
-        "answer": "C",
-        "explanation": "Kiki explains 'if I transformed myself into a tree, I would always remain a tree, because then I could not utter the magic word' - you can only become things that can speak."
+        "answer": "B",
+        "explanation": "Wolfgang said 'Ever since my dad turned into a dragon and flew past the castle, everyone's been teasing me.'"
       },
       {
         "id": 22,
         "difficulty": "medium",
-        "question": "Why did Bini Aru write down the magic word instead of just memorizing it?",
+        "question": "Wolfgang told Drake that if Zoltan's dream world plan didn't work, Zoltan ---.",
         "options": {
-          "A": "His wife asked him to, central to the plot, central to the plot, essential to understand",
-          "B": "He couldn't remember things, according to the story, worth remembering",
-          "C": "It was required by law with rich undertones shimmering in the light gleaming mysteriously",
-          "D": "He wanted to preserve the knowledge in case Ozma changed the magic laws someday"
+          "A": "would give up on freeing Maldred",
+          "B": "knew about a secret doorway to the Naga in Barga",
+          "C": "planned to attack the Dragon Islands directly",
+          "D": "would use Wolfgang's powers instead"
         },
-        "answer": "D",
-        "explanation": "Bini Aru 'reflected that Ozma was a girl and sometime might change her mind and allow her subjects to practice magic' so he wanted to preserve the secret."
+        "answer": "B",
+        "explanation": "Wolfgang said his dad 'knew about a secret doorway to the Naga in a land called Barga.'"
       },
       {
         "id": 23,
         "difficulty": "medium",
-        "question": "How does Glinda's Book of Records provide a loophole for the villains' plan?",
+        "question": "When Drake, Wolfgang, and Worm arrived in the ice cave, they first found ---.",
         "options": {
-          "A": "Glinda doesn't read it often, an important detail",
-          "B": "It only works during the day of remarkable power from a distant land",
-          "C": "It's often wrong, a crucial point, which was quite significant",
-          "D": "It only records what people do, not what beasts or birds do"
+          "A": "the secret door to the Naga",
+          "B": "a snow monster blocking their path",
+          "C": "a girl kneeling next to a hurt dragon",
+          "D": "Zoltan casting a spell"
         },
-        "answer": "D",
-        "explanation": "Ruggedo realizes 'The book doesn't make a record of what birds do, or beasts. It only tells the doings of people. So if we fly into the country as birds, Glinda won't know anything about it.'"
+        "answer": "C",
+        "explanation": "They found Nuna, a Dragon Master, kneeling next to her injured earth dragon Kinguk."
       },
       {
         "id": 24,
         "difficulty": "medium",
-        "question": "What is Ruggedo's plan for conquering Oz?",
+        "question": "Nuna healed Kinguk by ---.",
         "options": {
-          "A": "Poison the water supply, central to the plot, which played a key role with hidden secrets",
-          "B": "Steal Ozma's magic, a notable element, an important detail, central to the plot",
-          "C": "Transform into beasts, recruit forest animals, then turn all Oz people into beasts and beasts into people",
-          "D": "Build an army of robots, which played a key role with hidden secrets from a distant land"
+          "A": "using her dragon stone's magic",
+          "B": "asking Wolfgang to cast a healing spell",
+          "C": "making stinkweed tea and singing a healing song",
+          "D": "having Worm transfer energy to Kinguk"
         },
         "answer": "C",
-        "explanation": "Ruggedo plans to 'transform all the beasts into men and women' and 'transform all the people of Oz into beasts of various sorts and send them to live in the forests.'"
+        "explanation": "Nuna made tea from stinkweed and sang a healing song from her people while Kinguk drank it."
       },
       {
         "id": 25,
         "difficulty": "medium",
-        "question": "Why does Kiki refuse to share the magic word with Ruggedo?",
+        "question": "Drake told Wolfgang the dream amulet had the power to ---.",
         "options": {
-          "A": "Ruggedo didn't offer enough jewels, essential to understand",
-          "B": "He forgot it, as revealed in the tale, as revealed in the tale",
-          "C": "He realizes sharing his power would be dangerous to himself",
-          "D": "His father told him not to, which played a key role"
+          "A": "destroy Maldred forever",
+          "B": "transform Zoltan back into a human",
+          "C": "open the secret door to the Naga",
+          "D": "protect them from Zoltan's magic"
         },
-        "answer": "C",
-        "explanation": "Kiki 'realized that to share his power with another would be dangerous to himself.'"
+        "answer": "B",
+        "explanation": "Drake explained that Kishar gave him the dream amulet, which 'has the power to transform Zoltan back into a human.'"
       },
       {
         "id": 26,
         "difficulty": "medium",
-        "question": "What are both Kiki and Ruggedo secretly planning to do to each other?",
+        "question": "When the snow monster attacked, Nuna commanded Kinguk to ---.",
         "options": {
-          "A": "Help each other escape through careful planning with great determination through sheer willpower",
-          "B": "Become best friends, worth remembering from the old legends from a distant land",
-          "C": "Share everything equally, essential to understand, which played a key role from the old legends",
-          "D": "Each plans to transform the other into something harmless and get rid of them after conquering Oz"
+          "A": "breathe fire at it",
+          "B": "crack the earth so the monster fell in",
+          "C": "create an energy shield",
+          "D": "transport everyone away"
         },
-        "answer": "D",
-        "explanation": "Kiki plans to 'transform the old gnome into a marble statue,' while Ruggedo plans to 'transform Kiki Aru into a bundle of faggots and burn him up.'"
+        "answer": "B",
+        "explanation": "Nuna commanded 'Kinguk, crack the earth,' and the dragon opened a crack in the floor that trapped the snow monster."
       },
       {
         "id": 27,
         "difficulty": "medium",
-        "question": "What does the narrator say about wicked people trusting each other?",
+        "question": "The dream amulet was destroyed when ---.",
         "options": {
-          "A": "They always keep their promises, according to the story",
-          "B": "They trust each other completely",
-          "C": "They are more loyal than good people",
-          "D": "They cannot be trusted even by one another"
+          "A": "it fell into a crack in the ice",
+          "B": "Zoltan hit it with red magic after it slipped from Drake's hands",
+          "C": "Wolfgang accidentally broke it with a spell",
+          "D": "the Naga's earthquake shattered it"
         },
-        "answer": "D",
-        "explanation": "The narrator states 'This is always the way with wicked people. They cannot be trusted even by one another.'"
+        "answer": "B",
+        "explanation": "When Drake dropped the amulet, Zoltan cried 'Confectus!' and hit it with red magic, causing it to burst into pieces."
       },
       {
         "id": 28,
         "difficulty": "medium",
-        "question": "How did Kiki prevent Ruggedo from learning the magic word when transforming him?",
+        "question": "When Jaina arrived at the cave, she immediately ---.",
         "options": {
-          "A": "He whispered it with rich undertones shimmering in the light shimmering in the light",
-          "B": "He walked away and transformed Ruggedo from a distance without Ruggedo hearing",
-          "C": "He wrote it down instead of speaking, essential to understand, a notable element",
-          "D": "He made Ruggedo close his eyes, essential to understand, a crucial point"
+          "A": "attacked Zoltan with silver magic",
+          "B": "placed a dragon stone around Wolfgang's neck",
+          "C": "used magic to close the secret door",
+          "D": "called for the team of wizards"
         },
         "answer": "B",
-        "explanation": "Kiki said 'Remain here for a few minutes, and I'll soon be back' and 'walking swiftly away, he left the gnome standing in the grove' before transforming him."
+        "explanation": "Jaina jumped from Vulcan's back and placed a dragon stone around Wolfgang's neck, making him a Dragon Master."
       },
       {
         "id": 29,
         "difficulty": "medium",
-        "question": "What did Ruggedo do while Kiki was asleep at the inn?",
+        "question": "The secret door finally closed only after ---.",
         "options": {
-          "A": "He searched Kiki's room and pockets for magic tools",
-          "B": "He left, according to the story, worth remembering",
-          "C": "He transformed himself with remarkable skill",
-          "D": "He stole jewels, which was quite significant"
+          "A": "Vulcan breathed fire on it",
+          "B": "the Naga commanded it to close",
+          "C": "Zoltan joined Jaina in saying the closing spell",
+          "D": "Worm and Kinguk used their combined powers"
         },
-        "answer": "A",
-        "explanation": "Ruggedo 'rose softly from his couch, and went into the room of Kiki Aru... and searched everywhere for the magic tool that performed his transformations.'"
+        "answer": "C",
+        "explanation": "Jaina started the spell but it only worked when 'Zoltan joined her in saying the spell. Cloud ostium.'"
       },
       {
         "id": 30,
         "difficulty": "medium",
-        "question": "Why did the Oz people roll eggs at Ruggedo?",
+        "question": "After breaking through the energy shield, the 100 mini-Maldreds ---.",
         "options": {
-          "A": "As a celebration, an important detail, central to the plot",
-          "B": "They were angry about something else, an important detail",
-          "C": "It was a game, according to the story, an important detail",
-          "D": "Because eggs are dangerous to gnomes and could defeat him"
+          "A": "attacked Wolfgang",
+          "B": "disappeared by poofing away",
+          "C": "merged back into one Maldred",
+          "D": "were frozen by the dragons"
         },
-        "answer": "D",
-        "explanation": "Ruggedo says eggs are 'dreadful' and 'dangerous' to him, and the Oz people 'rolled eggs at me' to defeat him."
+        "answer": "B",
+        "explanation": "Each winged Maldred disappeared in an instant with 'poof, poof, poof' - they escaped by poofing away."
       },
       {
         "id": 31,
         "difficulty": "medium",
-        "question": "What countries did Kiki visit before meeting Ruggedo?",
+        "question": "Wolfgang's mother's death changed Zoltan because he ---.",
         "options": {
-          "A": "Only the Emerald City, worth remembering of unusual appearance",
-          "B": "Highland, Lowland, Merryland, Noland, Kingdom of Ix, and the Land of Ev",
-          "C": "Just Mount Munch, worth remembering with special abilities from the old legends",
-          "D": "Only the desert, an important detail, worth remembering of unusual appearance"
+          "A": "blamed Wolfgang for her death",
+          "B": "started ignoring Wolfgang to study magic all the time",
+          "C": "gave up magic completely",
+          "D": "became afraid of all dragons"
         },
         "answer": "B",
-        "explanation": "Kiki visited 'High Land,' 'Low Land,' 'Merry Land,' 'the kingdom of Noland,' 'the Kingdom of Ix,' and 'the Land of Ev.'"
+        "explanation": "Wolfgang said 'Dad started ignoring me to study magic all the time. He was always down in his workshop.'"
       },
       {
         "id": 32,
         "difficulty": "medium",
-        "question": "What does 'abdicate' mean according to Ruggedo?",
+        "question": "Drake and Worm were able to follow Wolfgang to Barga because ---.",
         "options": {
-          "A": "To become king",
-          "B": "To rule wisely",
-          "C": "To be kicked out",
-          "D": "To build a castle"
+          "A": "Jaina gave them directions",
+          "B": "they used a magical map",
+          "C": "Worm could follow Wolfgang's trail of magical energy",
+          "D": "Vulcan flew them there"
         },
         "answer": "C",
-        "explanation": "When Kiki asks what 'abdicate' means, Ruggedo says 'It means to be kicked out.'"
+        "explanation": "Worm told Drake 'If we transport now, I can follow Wolfgang's trail of magical energy.'"
       },
       {
         "id": 33,
         "difficulty": "medium",
-        "question": "Why did Kiki's personality change after leaving Mount Munch?",
+        "question": "The secret door to the Naga was created ---.",
         "options": {
-          "A": "Magic changed him, which played a key role of remarkable power of unusual appearance",
-          "B": "Ruggedo taught him manners, essential to understand, central to the plot, which was quite significant",
-          "C": "Having escaped and found freedom, he was no longer unhappy and thus no longer cross",
-          "D": "He took medicine, a crucial point, essential to understand, a crucial point"
+          "A": "as a trap for evil wizards",
+          "B": "to hide treasure from enemies",
+          "C": "as a way to reach the Naga if the Dragon Islands are ever destroyed",
+          "D": "to give wizards a shortcut to the temple"
         },
         "answer": "C",
-        "explanation": "Having escaped from his home... the young man was no longer unhappy, and so he was no longer cross and disagreeable.'"
+        "explanation": "Nuna explained the door 'was created years after the Temple of the Naga was built, as a way to reach the Naga if the Dragon Islands are ever destroyed.'"
       },
       {
         "id": 34,
         "difficulty": "medium",
-        "question": "Why is it impossible to kill anyone in Oz?",
+        "question": "Wolfgang used the dancing radish spell because ---.",
         "options": {
-          "A": "It's a fairy land where death is not possible",
-          "B": "Everyone is immortal, a notable element",
-          "C": "Ozma won't allow it, worth remembering",
-          "D": "There are no weapons, worth remembering"
+          "A": "it was the most powerful spell he knew",
+          "B": "it was the first spell Zoltan ever taught him",
+          "C": "Jaina told him to use it",
+          "D": "it could break through Zoltan's shield"
         },
-        "answer": "A",
-        "explanation": "Kiki states 'It is impossible to kill anyone in the Land of Oz' - this is a characteristic of the fairy land."
+        "answer": "B",
+        "explanation": "Wolfgang said 'It's the first spell you ever taught me, Dad' when he cast the dancing radish spell."
       },
       {
         "id": 35,
         "difficulty": "medium",
-        "question": "What did the sparrow witness that made it warn Kiki?",
+        "question": "The dancing radish spell affected Zoltan because ---.",
         "options": {
-          "A": "Kiki meeting his father, which played a key role from the ancient times",
-          "B": "Kiki transforming into a magpie, stealing gold, and transforming back",
-          "C": "Kiki arguing with Ruggedo, a crucial point, essential to understand",
-          "D": "Kiki flying over the desert with unexpected results with unexpected results"
+          "A": "it was very powerful magic",
+          "B": "it broke his concentration on the door",
+          "C": "it reminded him of happy memories with his son",
+          "D": "Wolfgang cast it perfectly"
         },
-        "answer": "B",
-        "explanation": "The sparrow says 'I saw you look in the window at the gold, and then make yourself into a magpie and rob the poor man, and then... make the bird into your former shape.'"
+        "answer": "C",
+        "explanation": "Zoltan stopped and remembered: 'That was so long ago... You were so good at magic, even at age five. I was so proud of you.'"
       },
       {
         "id": 36,
         "difficulty": "medium",
-        "question": "How does Kiki respond when the sparrow says he'll be sorry for being wicked?",
+        "question": "Kinguk escaped Zoltan's attack by ---.",
         "options": {
-          "A": "He cries, a crucial point, as revealed in the tale",
-          "B": "He says he doesn't care and is glad to be wicked",
-          "C": "He ignores it, according to the story, essential to understand",
-          "D": "He apologizes, which was quite significant"
+          "A": "flying up to the ceiling",
+          "B": "having Worm push her away",
+          "C": "diving headfirst into the cave floor and tunneling into the earth",
+          "D": "Wolfgang creating a shield"
         },
-        "answer": "B",
-        "explanation": "Kiki says 'I don't care... I didn't know I was being wicked... but if I was, I'm glad of it. I hate good people. I've always wanted to be wicked.'"
+        "answer": "C",
+        "explanation": "Before Zoltan's attack could hit Kinguk, 'she dove headfirst into the cave floor. She tunneled into the earth, escaping the attack.'"
       },
       {
         "id": 37,
         "difficulty": "medium",
-        "question": "What region of Oz do Kiki and Ruggedo plan to base their operations in?",
+        "question": "Wolfgang convinced Zoltan to stop trying to free Maldred by ---.",
         "options": {
-          "A": "The Emerald City, an important detail",
-          "B": "The thick forests of the Gillikin Country",
-          "C": "Mount Munch, a notable element, according to the story",
-          "D": "The Munchkin Country, which played a key role"
+          "A": "threatening to leave him forever",
+          "B": "using his dragon stone to share happy memories",
+          "C": "promising him more power",
+          "D": "having Jaina cast a calming spell"
         },
         "answer": "B",
-        "explanation": "Ruggedo says 'We'll fly to Oz as birds and settle in one of the thick forests in the Gillikin Country.'"
+        "explanation": "Using his new dragon master connection, Wolfgang sent pictures with his mind of 'playing in the sand at the beach like we used to with Mom.'"
       },
       {
         "id": 38,
         "difficulty": "medium",
-        "question": "What does Ruggedo promise Kiki as a reward for helping conquer Oz?",
+        "question": "The red bottle holding Maldred broke when ---.",
         "options": {
-          "A": "To make Kiki the ruler of all Oz while Ruggedo becomes Prime Minister",
-          "B": "Half the jewels, worth remembering from a distant land near the ancient ruins",
-          "C": "A magic wand with special abilities from a distant land within the castle walls",
-          "D": "Return to Mount Munch, a notable element, as revealed in the tale"
+          "A": "Zoltan dropped it intentionally",
+          "B": "Wolfgang's spell hit it",
+          "C": "the Naga's final earthquake shook the cave and it tipped over",
+          "D": "Drake knocked it over"
         },
-        "answer": "A",
-        "explanation": "Ruggedo says 'I'll agree to make you the ruler of all Oz, and I will be your Prime Minister and see that all your orders are obeyed.'"
+        "answer": "C",
+        "explanation": "During the Naga's strongest earthquake, 'the red bottle... tipped over and shattered into pieces.'"
       },
       {
         "id": 39,
         "difficulty": "medium",
-        "question": "Where did Kiki hide the paper with the magic word instructions?",
+        "question": "Each mini-Maldred looked like ---.",
         "options": {
-          "A": "In his pocket, worth remembering of unusual appearance with mysterious origins",
-          "B": "In his father's room beyond the mountain pass in the northern region",
-          "C": "Under his pillow, an important detail, worth remembering of great importance",
-          "D": "In a tin box in a neglected part of the garden, covered with stones"
+          "A": "a tiny dragon with wings",
+          "B": "a small fly with red wings",
+          "C": "a cat-sized wizard with a red body, eye patch, and pointy beard",
+          "D": "a miniature version of Zoltan"
         },
-        "answer": "D",
-        "explanation": "To make safety doubly sure 'he placed the paper in a tin box in a neglected part of the garden and covered the box with small stones.'"
+        "answer": "C",
+        "explanation": "Each mini-Maldred was 'the size of a cat' and 'a wizard with a red body, an eye patch, and a pointy red beard.'"
       },
       {
         "id": 40,
         "difficulty": "medium",
-        "question": "Who are some of the Oz people that Ruggedo mentions as his enemies?",
+        "question": "When Jaina and Zoltan combined their magic to create a shield, the colors were ---.",
         "options": {
-          "A": "Only Ozma, an important detail, a notable element, which played a key role",
-          "B": "Just the Wizard, worth remembering from a distant land through the enchanted woods",
-          "C": "The Shaggy Man, Scarecrow, Tin Woodman, Dorothy, Ozma, and others",
-          "D": "The Munchkins, worth remembering from the ancient times"
+          "A": "red and blue",
+          "B": "green and gold",
+          "C": "silver and pink",
+          "D": "purple and orange"
         },
         "answer": "C",
-        "explanation": "Ruggedo asks 'Do you know the Shaggy Man, and the Scarecrow, and the Tin Woodman, and Dorothy, and Ozma, and all the other Oz people?'"
+        "explanation": "Jaina's 'silver magic' combined with Zoltan's 'pink magic' to form the energy shield."
       },
       {
         "id": 41,
         "difficulty": "hard",
-        "question": "What does L. Frank Baum's foreword suggest about the relationship between fantasy and reality?",
+        "question": "Why couldn't Worm's energy bubble alone capture Zoltan?",
         "options": {
-          "A": "Fantasy is always better than reality, a crucial point, an important detail",
-          "B": "Real world events have become so marvelous that they rival his fantasy stories",
-          "C": "Fantasy and reality should never mix, an important detail, an important detail",
-          "D": "Reality is boring from the ancient times of great importance from the ancient times"
+          "A": "Worm was too tired from transporting",
+          "B": "The ice cave blocked earth dragon powers",
+          "C": "The magical symbols on Zoltan's body made the bubble fizzle out",
+          "D": "Zoltan was too fast to be caught"
         },
-        "answer": "B",
-        "explanation": "Baum writes 'in the events which have taken place in the last few years in our great outside world, we may find incidents so marvelous and inspiring that I cannot hope to equal them with stories of the Land of Oz.'"
+        "answer": "C",
+        "explanation": "When Worm tried to trap Zoltan, 'the magical symbols on the dragon's body glowed brightly, and the energy bubble fizzled out.'"
       },
       {
         "id": 42,
         "difficulty": "hard",
-        "question": "What moral lesson does the relationship between Kiki and Ruggedo illustrate?",
+        "question": "What made Zoltan's power shield weaken enough for Wolfgang to break it?",
         "options": {
-          "A": "Crime pays, central to the plot, central to the plot, essential to understand",
-          "B": "Magic solves all problems, a crucial point, as revealed in the tale, a crucial point",
-          "C": "Two villains are better than one, worth remembering from the ancient times",
-          "D": "Evil alliances are inherently unstable because wicked people cannot trust each other"
+          "A": "The Naga's energy interfered with his magic",
+          "B": "Jaina cast a counter-spell",
+          "C": "The ice cave drained his power",
+          "D": "Zoltan was putting all his energy into opening the door"
         },
         "answer": "D",
-        "explanation": "Both plan to betray the other, and the narrator states 'This is always the way with wicked people. They cannot be trusted even by one another.'"
+        "explanation": "Wolfgang said 'He is putting all of his energy into opening the door. That could weaken the shield.'"
       },
       {
         "id": 43,
         "difficulty": "hard",
-        "question": "What does Kiki's transformation from unhappy to content after leaving home suggest about his original problems?",
+        "question": "Why did Zoltan say he wanted so much power?",
         "options": {
-          "A": "He didn't really change, as revealed in the tale, as revealed in the tale",
-          "B": "He was born evil, essential to understand, a notable element, which was quite significant",
-          "C": "Magic made him happy, central to the plot, which played a key role with magical properties",
-          "D": "His unhappiness came from external restrictions, not internal character flaws"
+          "A": "To protect Wolfgang from enemies",
+          "B": "To rule all the kingdoms",
+          "C": "Because if he had more power years ago, he might have saved Wolfgang's mother",
+          "D": "To get revenge on the wizards who expelled him"
         },
-        "answer": "D",
-        "explanation": "Once free to explore the world, 'the young man was no longer unhappy, and so he was no longer cross and disagreeable' - his bad temper was caused by being trapped."
+        "answer": "C",
+        "explanation": "Zoltan admitted 'Because I used to be weak... If I had more power years ago, I might have saved your mother.'"
       },
       {
         "id": 44,
         "difficulty": "hard",
-        "question": "What does Ruggedo's description of being 'a pretty good king - to myself' reveal about his character?",
+        "question": "Why was Jaina's suggestion for Wolfgang to become Zoltan's dragon master important?",
         "options": {
-          "A": "He was selfish and ruled only for his own benefit, not his people's",
-          "B": "He was modest, according to the story, worth remembering of great importance",
-          "C": "He was democratic, a crucial point, a notable element, worth remembering",
-          "D": "He was a fair ruler, central to the plot, a crucial point"
+          "A": "It would automatically turn Zoltan human again",
+          "B": "Wolfgang could use the mental connection to calm Zoltan's wild dragon energy",
+          "C": "Dragon masters can control wizard dragons",
+          "D": "It would give Wolfgang power over Zoltan's movements"
         },
-        "answer": "A",
-        "explanation": "The phrase 'a pretty good king - to myself' reveals his self-serving nature - he ruled for his own benefit rather than his subjects'."
+        "answer": "B",
+        "explanation": "Jaina said 'Use your mind to connect to his mind. You can help him calm the wild dragon energy inside him.'"
       },
       {
         "id": 45,
         "difficulty": "hard",
-        "question": "Why does Baum playfully warn readers about pronouncing the magic word correctly?",
+        "question": "What does the story suggest about wizards becoming dragon masters?",
         "options": {
-          "A": "He was superstitious, which was quite significant, an important detail",
-          "B": "To create narrative immersion and make readers feel the magic could be real",
-          "C": "Because it might actually work, central to the plot, an important detail",
-          "D": "Because it's dangerous, central to the plot, essential to understand"
+          "A": "Wizards cannot become dragon masters",
+          "B": "It is very rare for wizards to become dragon masters",
+          "C": "All wizards eventually become dragon masters",
+          "D": "Dragon masters are always stronger than wizards"
         },
         "answer": "B",
-        "explanation": "Baum's warning 'to be careful not to pronounce Pyrzqxgl the proper way' is a storytelling device that makes readers feel they're sharing in a real magical secret."
+        "explanation": "Jaina told Wolfgang 'It is very rare for wizards to become dragon masters. But now you can use magic' - showing it's unusual but possible."
       },
       {
         "id": 46,
         "difficulty": "hard",
-        "question": "What does the loophole in Glinda's Book of Records (not recording animal actions) suggest about magical surveillance systems?",
+        "question": "Why was the dream amulet the only way to transform Zoltan back?",
         "options": {
-          "A": "Magic is perfect, central to the plot, an important detail, according to the story",
-          "B": "Even powerful magical systems have limitations and can be circumvented",
-          "C": "Animals are more important than people, which played a key role",
-          "D": "Glinda is careless, worth remembering of great importance from the old legends"
+          "A": "It was created specifically for Zoltan",
+          "B": "Only Drake could use it",
+          "C": "Wizard magic cannot undo the magic of the dream world",
+          "D": "The Naga blessed it with special powers"
         },
-        "answer": "B",
-        "explanation": "The fact that the Book only records human actions shows that even sophisticated magical systems have blind spots that clever villains can exploit."
+        "answer": "C",
+        "explanation": "Jaina explained 'wizard magic cannot help your father... Drake's amulet is the only way I know of to undo the magic of the dream world.'"
       },
       {
         "id": 47,
         "difficulty": "hard",
-        "question": "What does the contrast between Oz (no money) and other countries (money required) suggest about Oz as a utopia?",
+        "question": "What went wrong with Zoltan's spell to free Maldred?",
         "options": {
-          "A": "Other countries are better, worth remembering from the old legends from the ancient times",
-          "B": "Oz represents an ideal society without economic inequality, where needs are freely met",
-          "C": "Oz is poor, a crucial point, a notable element, which played a key role",
-          "D": "Money is evil, which was quite significant, which was quite significant, worth remembering"
+          "A": "It killed Maldred instead",
+          "B": "It freed the Naga instead of Maldred",
+          "C": "It made Maldred invisible",
+          "D": "Instead of making one Maldred, it created 100 separate mini-Maldreds"
         },
-        "answer": "B",
-        "explanation": "In Oz 'everyone is allowed to take what he wishes without price' - contrasting with Kiki's experience elsewhere where he needed money, suggesting Oz as a utopian society."
+        "answer": "D",
+        "explanation": "Zoltan's spell said 'One hundred flies are in here now, but Maldred there shall be' but instead each fly became a separate mini-Maldred."
       },
       {
         "id": 48,
         "difficulty": "hard",
-        "question": "What does the condition that transformations only work on things that can talk represent thematically?",
+        "question": "Why couldn't Nuna and Kinguk leave to help chase the Maldreds?",
         "options": {
-          "A": "The power of language and speech as essential to identity and agency",
-          "B": "Magic is complicated, which was quite significant, as revealed in the tale",
-          "C": "A random limitation, an important detail, which was quite significant",
-          "D": "Animals are important, as revealed in the tale, essential to understand"
+          "A": "Kinguk was still too weak",
+          "B": "The Naga commanded them to stay",
+          "C": "They are sworn to protect the secret door and cannot leave",
+          "D": "Wolfgang needed them to guard his father"
         },
-        "answer": "A",
-        "explanation": "The requirement that transformed beings must be able to speak to transform back emphasizes that language/voice is essential to agency and identity."
+        "answer": "C",
+        "explanation": "Nuna said 'I wish I could help you go after Maldred, but Kinguk and I cannot leave the Naga door.'"
       },
       {
         "id": 49,
         "difficulty": "hard",
-        "question": "What does Bini Aru's obedience to Ozma's magic ban, despite never meeting her, suggest about legitimate authority?",
+        "question": "What is ironic about Zoltan's situation at the end of the story?",
         "options": {
-          "A": "No one follows rules, which was quite significant, which played a key role",
-          "B": "Authority must be enforced physically, according to the story, central to the plot",
-          "C": "Magic users are weak, essential to understand, which played a key role of unusual appearance",
-          "D": "Legitimate authority can be respected voluntarily when people recognize it as just"
+          "A": "He became more powerful than Maldred",
+          "B": "His son became his dragon master, reversing their roles",
+          "C": "He lost all his wizard powers",
+          "D": "He was trapped in a bottle like Maldred"
         },
-        "answer": "D",
-        "explanation": "Bini Aru 'had never seen Ozma, but he knew she was his ruler and must be obeyed' - showing voluntary respect for legitimate, recognized authority."
+        "answer": "B",
+        "explanation": "The father-son dynamic reversed: the child Wolfgang became the dragon master to his dragon-father Zoltan."
       },
       {
         "id": 50,
         "difficulty": "hard",
-        "question": "How does the villain's plan to swap humans and animals comment on social hierarchies?",
+        "question": "Why did the team of wizards go to the Dragon Islands instead of Barga?",
         "options": {
-          "A": "It doesn't, a crucial point, essential to understand, essential to understand",
-          "B": "It suggests that categories like 'civilized' vs 'beast' are arbitrary and could be reversed",
-          "C": "Only magic matters, an important detail, which was quite significant, according to the story",
-          "D": "Animals are better than people, as revealed in the tale, which was quite significant"
+          "A": "Jaina sent them there in case Wolfgang was wrong about his father's destination",
+          "B": "They didn't know about the secret door in Barga",
+          "C": "The Naga summoned them there",
+          "D": "They were chasing a different villain"
         },
-        "answer": "B",
-        "explanation": "The plan to make 'beasts into men and women' and 'people of Oz into beasts' suggests the distinction between them is not natural but a matter of circumstance."
+        "answer": "A",
+        "explanation": "Jaina said 'We sent them on to the Dragon Islands in case Wolfgang was wrong about where his father went.'"
       },
       {
         "id": 51,
         "difficulty": "hard",
-        "question": "What narrative purpose does Ruggedo's fear of eggs serve?",
+        "question": "What does Worm's reaction to seeing Kinguk reveal about earth dragons?",
         "options": {
-          "A": "Eggs are sacred with rich undertones with rich undertones gleaming mysteriously",
-          "B": "It establishes his vulnerability and foreshadows how he might eventually be defeated",
-          "C": "Comic relief only, as revealed in the tale, a crucial point, which was quite significant",
-          "D": "He's allergic, which played a key role with special abilities with magical properties"
+          "A": "Earth dragons are very common",
+          "B": "Earth dragons are enemies of each other",
+          "C": "Worm had not seen another earth dragon since leaving King Roland's castle",
+          "D": "Earth dragons cannot communicate with each other"
         },
-        "answer": "B",
-        "explanation": "The specific weakness to eggs (which previously helped defeat him) provides both humor and a potential solution to the threat he poses."
+        "answer": "C",
+        "explanation": "Worm said 'This is the first time I have seen another earth dragon since I was taken to King Roland's castle.'"
       },
       {
         "id": 52,
         "difficulty": "hard",
-        "question": "What does the phrase 'it's the fashion to kick kings nowadays' reflect about when Baum wrote this?",
+        "question": "Why was Wolfgang conflicted about stopping his father?",
         "options": {
-          "A": "It references the decline of monarchies in the early 20th century, particularly around World War I",
-          "B": "It's pure fantasy, a crucial point, essential to understand, a notable element",
-          "C": "Baum disliked all kings, worth remembering with mysterious origins with magical properties",
-          "D": "Nothing historical, essential to understand, which played a key role of unusual appearance"
+          "A": "He wanted the power for himself",
+          "B": "He didn't believe his father was evil",
+          "C": "He was afraid of the other dragon masters",
+          "D": "He wanted to stop Zoltan but also didn't want him to get hurt"
         },
-        "answer": "A",
-        "explanation": "Written in 1919, this references the fall of monarchies (German, Austrian, Russian empires) during and after World War I."
+        "answer": "D",
+        "explanation": "Wolfgang said 'I don't want him to get hurt' and asked Drake 'You won't hurt him, will you?' showing his conflicted feelings."
       },
       {
         "id": 53,
         "difficulty": "hard",
-        "question": "Why does Kiki memorize the magic word rather than just keeping the paper?",
+        "question": "What can be inferred about why Zoltan became obsessed with Maldred?",
         "options": {
-          "A": "His father told him to, as revealed in the tale, according to the story",
-          "B": "He can't read, which played a key role with hidden secrets",
-          "C": "A bird cannot carry paper, so he must memorize it to transform back",
-          "D": "The paper was destroyed, which played a key role of unusual appearance"
+          "A": "Maldred was his childhood friend",
+          "B": "He wanted power to cope with grief and feelings of weakness after his wife's death",
+          "C": "The wizard council ordered him to study Maldred",
+          "D": "Maldred threatened to harm Wolfgang"
         },
-        "answer": "C",
-        "explanation": "Kiki realizes 'a bird would have no way to carry a paper with it, and Kiki would be unable to resume his proper shape if he forgot the word.'"
+        "answer": "B",
+        "explanation": "Zoltan admitted he felt 'weak' and believed more power could have saved his wife - his grief drove his obsession with gaining power through Maldred."
       },
       {
         "id": 54,
         "difficulty": "hard",
-        "question": "What does the sparrow's role in the story represent?",
+        "question": "What does the ending set up for future events?",
         "options": {
-          "A": "A spy for Ozma, which was quite significant, a crucial point, a crucial point",
-          "B": "Kiki's friend, an important detail, a notable element, a notable element",
-          "C": "A moral conscience warning against wickedness, and a witness to wrongdoing",
-          "D": "Just a random bird, an important detail, as revealed in the tale"
+          "A": "The Naga will be freed",
+          "B": "Wolfgang will quit wizard school",
+          "C": "100 Maldreds are now loose in the world and must be stopped",
+          "D": "Zoltan will return to being a normal wizard"
         },
         "answer": "C",
-        "explanation": "The sparrow witnesses Kiki's crime and warns 'You'll be sorry for this' - representing a moral voice that the villains dismiss."
+        "explanation": "Jaina's final words were 'We have 100 Maldreds to stop' - setting up the next conflict."
       },
       {
         "id": 55,
         "difficulty": "hard",
-        "question": "What irony exists in Kiki saying he 'always wanted to be wicked but didn't know how'?",
+        "question": "Why did Drake think telling Zoltan about the dream amulet was a mistake?",
         "options": {
-          "A": "He's joking, as revealed in the tale, central to the plot, according to the story",
-          "B": "There's no irony, a crucial point, a notable element, central to the plot",
-          "C": "Wickedness is natural, an important detail, as revealed in the tale, a notable element",
-          "D": "It suggests wickedness must be learned, contradicting the idea that it's innate"
+          "A": "The amulet only worked if Zoltan didn't know about it",
+          "B": "Knowing about it made Zoltan try to destroy it before Drake could use it",
+          "C": "Jaina had forbidden them from mentioning it",
+          "D": "It made Wolfgang look weak"
         },
-        "answer": "D",
-        "explanation": "Kiki's statement implies wickedness is a skill to be acquired, ironically suggesting his current evil acts are a kind of education in wrongdoing."
+        "answer": "B",
+        "explanation": "When Wolfgang mentioned the amulet, Drake thought 'Telling Zoltan about the stone wasn't part of the plan' - and Zoltan immediately destroyed it."
       },
       {
         "id": 56,
         "difficulty": "hard",
-        "question": "What does Ruggedo's failed search for 'magic tools' reveal about his understanding of magic?",
+        "question": "What lesson does Wolfgang's success in reaching his father suggest?",
         "options": {
-          "A": "He expects magic to require physical implements, showing he doesn't understand Kiki's word-based power",
-          "B": "Tools are unnecessary, an important detail, worth remembering of remarkable power",
-          "C": "He's thorough, central to the plot, essential to understand, central to the plot",
-          "D": "He found them, central to the plot, according to the story, essential to understand"
+          "A": "Children should always obey their parents",
+          "B": "Magic is always more powerful than emotions",
+          "C": "Emotional connections and happy memories can be more powerful than force",
+          "D": "Wizards are superior to dragon masters"
         },
-        "answer": "A",
-        "explanation": "Ruggedo 'searched everywhere for the magic tool' because his own magic 'had to have certain tools' - he can't conceive of magic as simply speaking a word."
+        "answer": "C",
+        "explanation": "All the attacks failed, but Wolfgang's emotional appeal through shared memories succeeded in reaching his father."
       },
       {
         "id": 57,
         "difficulty": "hard",
-        "question": "What does the fact that animals can talk in Oz contribute to the transformation rules?",
+        "question": "How did Rory and Jaina find the location of the secret door?",
         "options": {
-          "A": "It enables transformations into any creature while maintaining agency, making Oz particularly suited for transformation magic",
-          "B": "Nothing special, a crucial point, according to the story, an important detail",
-          "C": "Only some animals talk, which was quite significant, central to the plot, which played a key role",
-          "D": "It's confusing, essential to understand, essential to understand, essential to understand"
+          "A": "Wolfgang sent them a magical message",
+          "B": "The Naga guided them there",
+          "C": "Jaina found it in the castle library after Rory told her about Barga",
+          "D": "Vulcan could sense Zoltan's energy"
         },
-        "answer": "A",
-        "explanation": "Because 'all beasts and birds can talk in the Land of Oz,' one can safely transform into any creature and still speak the word to return."
+        "answer": "C",
+        "explanation": "Rory said 'I told Jaina' about Barga, and 'she found the location of the secret door in the castle library.'"
       },
       {
         "id": 58,
         "difficulty": "hard",
-        "question": "What does the descriptor 'Royal Historian of Oz' that Baum uses suggest about his relationship to his fictional world?",
+        "question": "What does Nuna's healing song suggest about her culture?",
         "options": {
-          "A": "He's joking, central to the plot, a notable element, an important detail",
-          "B": "He visited Oz, essential to understand, a crucial point, which played a key role",
-          "C": "It positions him not as the creator but as a chronicler, enhancing the illusion that Oz is real",
-          "D": "It's his official title, a notable element, a notable element, an important detail"
+          "A": "Her people worship the Naga",
+          "B": "Her people don't trust wizard magic",
+          "C": "Her people combine traditional practices like songs with other healing methods",
+          "D": "Her people are all dragon masters"
         },
         "answer": "C",
-        "explanation": "By calling himself 'Royal Historian of Oz,' Baum plays the role of someone recording real events, making the fantasy feel more authentic."
+        "explanation": "Nuna explained 'it is a song for healing that my people sing when someone is ill. I think it might help' - combining traditional song with the stinkweed medicine."
       },
       {
         "id": 59,
         "difficulty": "hard",
-        "question": "Why does Ruggedo agree to Kiki's condition of not knowing the magic word?",
+        "question": "Why couldn't even two powerful wizards' combined magic stop the 100 Maldreds?",
         "options": {
-          "A": "He doesn't care about magic, a crucial point, worth remembering",
-          "B": "He trusts Kiki, central to the plot, essential to understand",
-          "C": "He believes he can spy on Kiki and learn the secret anyway",
-          "D": "He gave up, a crucial point, which played a key role"
+          "A": "The Maldreds had absorbed the Naga's power",
+          "B": "Zoltan was secretly helping the Maldreds",
+          "C": "The ice cave weakened their magic",
+          "D": "The collective power of 100 Maldreds was too strong"
         },
-        "answer": "C",
-        "explanation": "Ruggedo agrees because 'he decided that he could, by careful watching and listening, surprise the boy's secret' - he plans to learn it through espionage."
+        "answer": "D",
+        "explanation": "Drake realized 'Not even the magic of two powerful wizards can stop 100 Maldreds' - their combined numbers overwhelmed the shield."
       },
       {
         "id": 60,
         "difficulty": "hard",
-        "question": "What thematic significance does Mount Munch's isolation have?",
+        "question": "What does Zoltan's apology to Wolfgang reveal about his character?",
         "options": {
-          "A": "It represents how isolation can breed discontent (Kiki's unhappiness) and also preserve secrets (the magic word)",
-          "B": "Mountains are important in Oz, as revealed in the tale, which played a key role with mysterious origins",
-          "C": "It protects the Hyups, essential to understand, a notable element, which played a key role",
-          "D": "It's just geography, which played a key role of unusual appearance of unusual appearance"
+          "A": "He was only pretending to change",
+          "B": "He blamed Wolfgang for everything",
+          "C": "He was never truly evil, just lost in grief and obsession",
+          "D": "He wanted Wolfgang to join Maldred"
         },
-        "answer": "A",
-        "explanation": "The isolation makes Kiki unhappy but also allows Bini Aru to keep his magical secret hidden - showing isolation's dual nature as both prison and protection."
+        "answer": "C",
+        "explanation": "Zoltan apologized saying 'I lost my focus when your mother died. I should have focused all of my energies on you' - showing grief, not evil, drove his actions."
       }
     ]
   },
   "Mr_Hynde_Is_Out_of_His_Mind": {
-    "book_title": "Mr. Hynde Is Out of His Mind",
+    "title": "Mr. Hynde Is Out of His Mind",
     "author": "Dan Gutman",
     "genre": "Humor / Realistic Fiction",
     "book_level": {
-      "grade": 3.5,
-      "description": "Level 3.5"
+      "grade": 3,
+      "description": "Elementary level - humorous school story about a fun music teacher"
     },
     "total_questions": 60,
     "questions": [
@@ -6871,169 +6652,156 @@ const quizData = {
           "A": "Mr. Hind",
           "B": "Mr. Loring",
           "C": "Mr. Klutz",
-          "D": "Mr. Gutman"
+          "D": "Miss Daisy"
         },
         "answer": "B",
-        "explanation": "Mr. Loring is the old music teacher who taught them songs like 'Row, Row, Row Your Boat.'"
+        "explanation": "Mr. Loring is the old music teacher who taught boring songs."
       },
       {
         "id": 4,
         "difficulty": "easy",
-        "question": "What is the name of the new music teacher?",
+        "question": "What is the new music teacher's name?",
         "options": {
           "A": "Mr. Loring",
-          "B": "Mr. Klutz",
-          "C": "Mr. Hind",
-          "D": "Mr. Worth"
+          "B": "Mr. Hind",
+          "C": "Mr. Klutz",
+          "D": "Mr. Ryan"
         },
-        "answer": "C",
-        "explanation": "Mr. Hind is the new, young music teacher who raps and break dances."
+        "answer": "B",
+        "explanation": "Mr. Hind is the new music teacher who likes rap and hip-hop."
       },
       {
         "id": 5,
         "difficulty": "easy",
-        "question": "What nickname does Mr. Hind call himself?",
+        "question": "Who is A.J.'s teacher?",
         "options": {
-          "A": "The Music Master",
-          "B": "Jam Master Hind",
-          "C": "DJ Hind",
-          "D": "The Beat King"
+          "A": "Miss Daisy",
+          "B": "Andrea",
+          "C": "Emily",
+          "D": "Mrs. Klutz"
         },
-        "answer": "B",
-        "explanation": "Mr. Hind is introduced as 'Jam Master Hind, the one-man funky groove machine.'"
+        "answer": "A",
+        "explanation": "Miss Daisy is A.J.'s classroom teacher."
       },
       {
         "id": 6,
+        "difficulty": "easy",
+        "question": "Who does A.J. call a 'brown-noser'?",
+        "options": {
+          "A": "Ryan",
+          "B": "Michael",
+          "C": "Andrea",
+          "D": "Emily"
+        },
+        "answer": "C",
+        "explanation": "A.J. calls Andrea a brown-noser because she loves school and always tries to impress teachers."
+      },
+      {
+        "id": 7,
+        "difficulty": "easy",
+        "question": "Who are A.J.'s best friends?",
+        "options": {
+          "A": "Andrea and Emily",
+          "B": "Ryan and Michael",
+          "C": "Mr. Hind and Mr. Klutz",
+          "D": "Miss Daisy and Andrea"
+        },
+        "answer": "B",
+        "explanation": "Ryan and Michael are A.J.'s best friends who agree with him about most things."
+      },
+      {
+        "id": 8,
         "difficulty": "easy",
         "question": "What does A.J. want to be when he grows up?",
         "options": {
           "A": "A singer",
           "B": "A teacher",
-          "C": "A professional dirt bike racer",
-          "D": "A doctor"
+          "C": "A dirt bike racer",
+          "D": "A rapper"
         },
         "answer": "C",
         "explanation": "A.J. says when he grows up, he's going to be a professional dirt bike racer."
       },
       {
-        "id": 7,
-        "difficulty": "easy",
-        "question": "Who is A.J.'s annoying classmate with curly brown hair?",
-        "options": {
-          "A": "Emily",
-          "B": "Andrea Young",
-          "C": "Lucy",
-          "D": "Miss Daisy"
-        },
-        "answer": "B",
-        "explanation": "Andrea Young is described as a really annoying girl with curly brown hair."
-      },
-      {
-        "id": 8,
-        "difficulty": "easy",
-        "question": "What are the names of A.J.'s two best friends?",
-        "options": {
-          "A": "Ryan and Michael",
-          "B": "Antonio and Lucy",
-          "C": "Brian and Emily",
-          "D": "Sam and Brian"
-        },
-        "answer": "A",
-        "explanation": "A.J.'s pals are Ryan and Michael."
-      },
-      {
         "id": 9,
-        "difficulty": "easy",
-        "question": "What is the name of A.J.'s teacher?",
-        "options": {
-          "A": "Mrs. Cooney",
-          "B": "Miss Daisy",
-          "C": "Ms. Grinker",
-          "D": "Mrs. Loring"
-        },
-        "answer": "B",
-        "explanation": "A.J.'s teacher is Miss Daisy."
-      },
-      {
-        "id": 10,
         "difficulty": "easy",
         "question": "Who is the school principal?",
         "options": {
-          "A": "Mr. Hind",
-          "B": "Mr. Loring",
+          "A": "Mr. Loring",
+          "B": "Mr. Hind",
           "C": "Mr. Klutz",
-          "D": "Mr. Worth"
+          "D": "Miss Daisy"
         },
         "answer": "C",
         "explanation": "Mr. Klutz is the school principal who is completely bald."
       },
       {
-        "id": 11,
+        "id": 10,
         "difficulty": "easy",
-        "question": "What special feature does Mr. Klutz have?",
+        "question": "What kind of music does Mr. Hind like?",
         "options": {
-          "A": "A beard",
-          "B": "No hair at all",
-          "C": "Glasses",
-          "D": "A mustache"
+          "A": "Classical music",
+          "B": "Rap and hip-hop",
+          "C": "Country music",
+          "D": "Opera"
         },
         "answer": "B",
-        "explanation": "Mr. Klutz is completely bald with no hair at all on his head."
+        "explanation": "Mr. Hind loves rap and hip-hop music and teaches the kids about it."
+      },
+      {
+        "id": 11,
+        "difficulty": "easy",
+        "question": "What instrument does Andrea play?",
+        "options": {
+          "A": "Drums",
+          "B": "Guitar",
+          "C": "Piano and violin",
+          "D": "Flute"
+        },
+        "answer": "C",
+        "explanation": "Andrea takes piano lessons and violin lessons."
       },
       {
         "id": 12,
         "difficulty": "easy",
-        "question": "What instrument does Mr. Hind say he plays?",
+        "question": "What event is announced at the beginning of the story?",
         "options": {
-          "A": "Piano",
-          "B": "Guitar",
-          "C": "Turntable",
-          "D": "Drums"
+          "A": "Summer vacation",
+          "B": "TV Turn-Off Month",
+          "C": "Christmas break",
+          "D": "Music festival"
         },
-        "answer": "C",
-        "explanation": "When asked what instrument he plays, Mr. Hind says he plays turntable."
+        "answer": "B",
+        "explanation": "TV Turn-Off Week became TV Turn-Off Month - four weeks without TV."
       },
       {
         "id": 13,
         "difficulty": "easy",
-        "question": "What special event is happening that month at school?",
+        "question": "What play do the students perform?",
         "options": {
-          "A": "Spirit Week",
-          "B": "TV Turn-Off Month",
-          "C": "Book Fair",
-          "D": "Field Day"
+          "A": "The Princess and the Pea",
+          "B": "Beauty and the Beast",
+          "C": "Cinderella",
+          "D": "Snow White"
         },
         "answer": "B",
-        "explanation": "The sign said TV turn-off week was so successful last year that they made it TV turn-off month."
+        "explanation": "Mr. Hind has them put on a hip-hop version of Beauty and the Beast."
       },
       {
         "id": 14,
         "difficulty": "easy",
-        "question": "What play does the class put on?",
-        "options": {
-          "A": "Peter Pan",
-          "B": "Beauty and the Beast",
-          "C": "The Wizard of Oz",
-          "D": "Annie"
-        },
-        "answer": "B",
-        "explanation": "Mr. Hind announces they're going to put on Beauty and the Beast."
-      },
-      {
-        "id": 15,
-        "difficulty": "easy",
         "question": "Who plays Beauty in the play?",
         "options": {
           "A": "Emily",
-          "B": "Andrea",
-          "C": "Miss Daisy",
-          "D": "A.J."
+          "B": "A.J.",
+          "C": "Andrea",
+          "D": "Miss Daisy"
         },
-        "answer": "B",
-        "explanation": "Andrea is chosen to play Beauty through eeny, meeny, miny, moe."
+        "answer": "C",
+        "explanation": "Andrea is chosen to be Beauty in the play."
       },
       {
-        "id": 16,
+        "id": 15,
         "difficulty": "easy",
         "question": "Who plays the Beast in the play?",
         "options": {
@@ -7043,589 +6811,602 @@ const quizData = {
           "D": "Mr. Hind"
         },
         "answer": "C",
-        "explanation": "A.J. volunteers to be the Beast when he hears the Beast gets to lock Beauty in a dungeon."
+        "explanation": "A.J. volunteers to be the Beast when he hears he can torture Beauty."
       },
       {
-        "id": 17,
+        "id": 16,
         "difficulty": "easy",
-        "question": "What song does Andrea sing that makes Mr. Hind cry?",
+        "question": "What does Mr. Hind wear when he first appears?",
         "options": {
-          "A": "Row, Row, Row Your Boat",
-          "B": "Who Stole the Cookie",
-          "C": "Tomorrow from Annie",
-          "D": "Jingle Bells"
-        },
-        "answer": "C",
-        "explanation": "Andrea sings 'Tomorrow' from Annie instead of kissing A.J., and it makes Mr. Hind cry."
-      },
-      {
-        "id": 18,
-        "difficulty": "easy",
-        "question": "What TV show does Mr. Hind go on?",
-        "options": {
-          "A": "The Voice",
-          "B": "American Idol",
-          "C": "America's Got Talent",
-          "D": "X Factor"
-        },
-        "answer": "B",
-        "explanation": "Mr. Hind appears on American Idol."
-      },
-      {
-        "id": 19,
-        "difficulty": "easy",
-        "question": "What is the result of Mr. Hind on American Idol?",
-        "options": {
-          "A": "He loses",
-          "B": "He quits",
-          "C": "He wins",
-          "D": "He gets second place"
-        },
-        "answer": "C",
-        "explanation": "Mr. Hind wins American Idol."
-      },
-      {
-        "id": 20,
-        "difficulty": "easy",
-        "question": "Who comes back to teach music after Mr. Hind leaves?",
-        "options": {
-          "A": "A new teacher",
-          "B": "Mr. Loring",
-          "C": "Mr. Klutz",
-          "D": "Miss Daisy"
-        },
-        "answer": "B",
-        "explanation": "Boring, snoring Mr. Loring comes back to teach music after Mr. Hind quits."
-      },
-      {
-        "id": 21,
-        "difficulty": "medium",
-        "question": "What song did Mr. Loring love to make the kids sing?",
-        "options": {
-          "A": "Row, Row, Row Your Boat",
-          "B": "Who Stole the Cookie from the Cookie Jar",
-          "C": "Five Little Monkeys",
-          "D": "Twinkle Twinkle"
-        },
-        "answer": "B",
-        "explanation": "Mr. Loring's favorite song was 'Who Stole the Cookie from the Cookie Jar.'"
-      },
-      {
-        "id": 22,
-        "difficulty": "medium",
-        "question": "What does A.J. call the cafeteria?",
-        "options": {
-          "A": "The lunch room",
-          "B": "The vomitorium",
-          "C": "The eating hall",
-          "D": "The food court"
-        },
-        "answer": "B",
-        "explanation": "A.J. and the guys were sitting around the vomitorium eating lunch."
-      },
-      {
-        "id": 23,
-        "difficulty": "medium",
-        "question": "What special effects are used when Mr. Hind first enters?",
-        "options": {
-          "A": "Balloons and confetti",
-          "B": "Purple smoke, drums, and laser beams",
-          "C": "Fireworks",
-          "D": "Bubbles"
-        },
-        "answer": "B",
-        "explanation": "Purple smoke pours out, drums start pounding, and laser beams shoot around the room when Mr. Hind enters."
-      },
-      {
-        "id": 24,
-        "difficulty": "medium",
-        "question": "What does Mr. Hind wear when he first enters?",
-        "options": {
-          "A": "A suit",
+          "A": "A suit and tie",
           "B": "A purple cape with sequins",
           "C": "A tuxedo",
           "D": "Regular clothes"
         },
         "answer": "B",
-        "explanation": "Mr. Hind wears a baseball cap, sunglasses, and a big purple cape with sequins."
+        "explanation": "Mr. Hind wears a purple cape with sequins, sunglasses, and a baseball cap."
+      },
+      {
+        "id": 17,
+        "difficulty": "easy",
+        "question": "What is Mr. Klutz's most noticeable feature?",
+        "options": {
+          "A": "He's very tall",
+          "B": "He's completely bald",
+          "C": "He has a beard",
+          "D": "He wears glasses"
+        },
+        "answer": "B",
+        "explanation": "Mr. Klutz is completely bald with no hair at all on his head."
+      },
+      {
+        "id": 18,
+        "difficulty": "easy",
+        "question": "What subject does Mr. Hind teach about with rulers?",
+        "options": {
+          "A": "Math",
+          "B": "Percussion",
+          "C": "Reading",
+          "D": "Dance"
+        },
+        "answer": "B",
+        "explanation": "Mr. Hind uses rulers to hit objects and teach about percussion."
+      },
+      {
+        "id": 19,
+        "difficulty": "easy",
+        "question": "What does A.J. call the cafeteria?",
+        "options": {
+          "A": "The lunchroom",
+          "B": "The vomitorium",
+          "C": "The eating hall",
+          "D": "The food court"
+        },
+        "answer": "B",
+        "explanation": "A.J. calls the cafeteria the 'vomitorium.'"
+      },
+      {
+        "id": 20,
+        "difficulty": "easy",
+        "question": "What does Mr. Hind want to become someday?",
+        "options": {
+          "A": "Principal",
+          "B": "A famous rapper",
+          "C": "A classical musician",
+          "D": "A TV star"
+        },
+        "answer": "B",
+        "explanation": "Mr. Hind is working on his own CD and hopes to become a famous rapper."
+      },
+      {
+        "id": 21,
+        "difficulty": "medium",
+        "question": "A.J. didn't like Mr. Loring's music class because ---.",
+        "options": {
+          "A": "Mr. Loring was mean",
+          "B": "they had to sing the same boring old songs over and over",
+          "C": "there was too much homework",
+          "D": "the room was too cold"
+        },
+        "answer": "B",
+        "explanation": "Mr. Loring made them sing songs like 'Who Stole the Cookie from the Cookie Jar' so many times that A.J. never wanted to eat cookies again."
+      },
+      {
+        "id": 22,
+        "difficulty": "medium",
+        "question": "When Mr. Hind first entered the classroom, there was ---.",
+        "options": {
+          "A": "complete silence",
+          "B": "purple smoke, laser beams, and loud music",
+          "C": "classical music playing",
+          "D": "students already singing"
+        },
+        "answer": "B",
+        "explanation": "Purple smoke, laser beams, and drum beats from a boombox created a dramatic entrance for Mr. Hind."
+      },
+      {
+        "id": 23,
+        "difficulty": "medium",
+        "question": "Andrea wanted to get Mr. Hind fired because ---.",
+        "options": {
+          "A": "he was mean to her",
+          "B": "she thought he was incompetent and didn't teach real music",
+          "C": "he gave too much homework",
+          "D": "he yelled at her"
+        },
+        "answer": "B",
+        "explanation": "Andrea said Mr. Hind was 'incompetent' because he didn't play traditional instruments or teach about classical composers."
+      },
+      {
+        "id": 24,
+        "difficulty": "medium",
+        "question": "When Mr. Klutz walked in on Mr. Hind's noisy lesson, he ---.",
+        "options": {
+          "A": "fired Mr. Hind immediately",
+          "B": "started rapping and said Mr. Hind was cool",
+          "C": "told everyone to be quiet",
+          "D": "left without saying anything"
+        },
+        "answer": "B",
+        "explanation": "Mr. Klutz surprised everyone by rapping and saying 'I rule the school, and I say Mr. Hind is cool.'"
       },
       {
         "id": 25,
         "difficulty": "medium",
-        "question": "What does Andrea threaten to do about Mr. Hind?",
+        "question": "Mr. Hind played Mr. Klutz's bald head like ---.",
         "options": {
-          "A": "Report him to the police",
-          "B": "Get him fired through parent complaints",
-          "C": "Write a letter",
-          "D": "Protest"
+          "A": "a piano",
+          "B": "a drum",
+          "C": "a bongo",
+          "D": "a guitar"
         },
-        "answer": "B",
-        "explanation": "Andrea says her mom is PTA vice president and that if enough parents complain, they can get Mr. Hind fired."
+        "answer": "C",
+        "explanation": "Mr. Hind started drumming the top of Principal Klutz's bald head like it was a bongo."
       },
       {
         "id": 26,
         "difficulty": "medium",
-        "question": "What topic does Mr. Hind teach about using rulers to hit things?",
+        "question": "A.J. volunteered to be the Beast because ---.",
         "options": {
-          "A": "Rhythm",
-          "B": "Percussion",
-          "C": "Melody",
-          "D": "Harmony"
+          "A": "he liked acting",
+          "B": "he heard the Beast gets to torture Beauty",
+          "C": "Andrea asked him to",
+          "D": "no one else wanted to"
         },
         "answer": "B",
-        "explanation": "Mr. Hind teaches about percussion by hitting different objects to show how they make different sounds."
+        "explanation": "When Mr. Hind said 'the Beast gets to lock Beauty in the dungeon and torture her,' A.J. immediately volunteered."
       },
       {
         "id": 27,
         "difficulty": "medium",
-        "question": "What does Mr. Hind put on his foot while teaching percussion?",
+        "question": "A.J. didn't want to kiss Andrea in the play, so Mr. Hind told him to ---.",
         "options": {
-          "A": "A bucket",
-          "B": "A garbage can",
-          "C": "A box",
-          "D": "A pot"
+          "A": "just skip that part",
+          "B": "pretend she was something he liked, like a dirt bike",
+          "C": "have someone else be the Beast",
+          "D": "close his eyes and think of nothing"
         },
         "answer": "B",
-        "explanation": "Mr. Hind puts his foot inside a garbage can and starts tap dancing while hitting things with rulers."
+        "explanation": "Mr. Hind said to pretend Andrea was a dirt bike, just like he pretended green beans were oatmeal cookies when he was young."
       },
       {
         "id": 28,
         "difficulty": "medium",
-        "question": "What does Mr. Klutz do when he catches Mr. Hind making noise?",
+        "question": "Andrea said she would pretend A.J. was ---.",
         "options": {
-          "A": "Fires him",
-          "B": "Joins in and raps",
-          "C": "Scolds him",
-          "D": "Walks away"
+          "A": "a football",
+          "B": "a dirt bike",
+          "C": "an encyclopedia",
+          "D": "a piano"
         },
-        "answer": "B",
-        "explanation": "Instead of being upset, Mr. Klutz starts rapping and even does a little dance and spin on the floor."
+        "answer": "C",
+        "explanation": "Andrea said she would pretend A.J. was an encyclopedia during the kiss scene."
       },
       {
         "id": 29,
         "difficulty": "medium",
-        "question": "What does Mr. Hind play like bongos?",
+        "question": "A.J.'s rule about Andrea is that ---.",
         "options": {
-          "A": "A desk",
-          "B": "Mr. Klutz's bald head",
-          "C": "A drum",
-          "D": "A trash can"
+          "A": "he agrees with everything she says",
+          "B": "anything she likes, he doesn't like, and anything she dislikes, he likes",
+          "C": "they are best friends",
+          "D": "he ignores her completely"
         },
         "answer": "B",
-        "explanation": "Mr. Hind drums on top of Mr. Klutz's bald head like it was a bongo."
+        "explanation": "A.J. says 'Anything Andrea doesn't like, I like. And anything Andrea likes, I don't like.'"
       },
       {
         "id": 30,
         "difficulty": "medium",
-        "question": "What is Mr. Hind working on in the music room when A.J. finds him?",
+        "question": "Mr. Hind taught that percussion is ---.",
         "options": {
-          "A": "Grading papers",
-          "B": "His own CD",
-          "C": "A lesson plan",
-          "D": "A letter"
+          "A": "saying bad words",
+          "B": "when one object hits another object",
+          "C": "a type of singing",
+          "D": "playing piano"
         },
         "answer": "B",
-        "explanation": "Mr. Hind tells A.J. he's laying down some beats and working on his own CD."
+        "explanation": "Andrea correctly defined percussion as 'when one object hits against another object.'"
       },
       {
         "id": 31,
         "difficulty": "medium",
-        "question": "What advice does Mr. Hind give A.J. about kissing Andrea?",
+        "question": "During the percussion lesson, Mr. Hind put a garbage can on his foot and ---.",
         "options": {
-          "A": "Just do it quickly",
-          "B": "Pretend she's something you like",
-          "C": "Close your eyes",
-          "D": "Run away"
+          "A": "fell over",
+          "B": "tap danced while drumming on things",
+          "C": "sat down",
+          "D": "threw it away"
         },
         "answer": "B",
-        "explanation": "Mr. Hind tells A.J. to pretend Andrea is something he really likes, like how Mr. Hind pretended green beans were oatmeal cookies."
+        "explanation": "Mr. Hind tap danced with a garbage can on his foot while hitting things with rulers."
       },
       {
         "id": 32,
         "difficulty": "medium",
-        "question": "What does A.J. decide to pretend Andrea is?",
+        "question": "A.J. was confused about multiplication because ---.",
         "options": {
-          "A": "A pizza",
-          "B": "A dirt bike",
-          "C": "A video game",
-          "D": "A cookie"
+          "A": "he didn't do his homework",
+          "B": "2+2 and 2x2 both equal 4, which didn't make sense to him",
+          "C": "the teacher didn't explain it",
+          "D": "he didn't like numbers"
         },
         "answer": "B",
-        "explanation": "Since A.J. loves dirt bikes and wants to be a dirt bike racer, he decides to pretend Andrea is a dirt bike."
+        "explanation": "A.J. couldn't understand how addition and multiplication could give the same answer for 2+2 and 2x2."
       },
       {
         "id": 33,
         "difficulty": "medium",
-        "question": "What does Andrea decide to pretend A.J. is?",
+        "question": "A.J. calls Andrea 'goody two-shoes' because ---.",
         "options": {
-          "A": "A book",
-          "B": "An encyclopedia",
-          "C": "A puppy",
-          "D": "A violin"
+          "A": "she wears nice shoes",
+          "B": "she loves everything about school and tries to be perfect",
+          "C": "she is good at sports",
+          "D": "she has two pairs of shoes"
         },
         "answer": "B",
-        "explanation": "Andrea decides to pretend A.J. is an encyclopedia."
+        "explanation": "Andrea loves school, homework, and always tries to impress teachers, which A.J. finds annoying."
       },
       {
         "id": 34,
         "difficulty": "medium",
-        "question": "What happens right before the kissing scene in the play?",
+        "question": "Ryan said he would kiss a football because ---.",
         "options": {
-          "A": "The lights go out",
-          "B": "Andrea starts singing Tomorrow",
-          "C": "A.J. runs away",
-          "D": "The curtain falls"
+          "A": "he was joking",
+          "B": "that's what he really liked",
+          "C": "A.J. told him to",
+          "D": "it was part of the play"
         },
         "answer": "B",
-        "explanation": "Instead of kissing A.J., Andrea steps up to the microphone and starts singing 'Tomorrow' from Annie."
+        "explanation": "When A.J. said he'd pretend Andrea was a dirt bike, Ryan said he'd kiss a football because that's what he likes."
       },
       {
         "id": 35,
         "difficulty": "medium",
-        "question": "Why did Andrea not kiss A.J. in the play?",
+        "question": "TV Turn-Off Month was even worse than A.J. expected because ---.",
         "options": {
-          "A": "She forgot",
-          "B": "She was afraid she might throw up",
-          "C": "The teacher stopped her",
-          "D": "It wasn't in the script"
+          "A": "it was only one week",
+          "B": "it lasted four whole weeks instead of one",
+          "C": "there was homework too",
+          "D": "he had to read books"
         },
         "answer": "B",
-        "explanation": "Andrea apologizes and says she couldn't do it because she was afraid if she kissed A.J., she might throw up."
+        "explanation": "TV Turn-Off Week had been so 'successful' that they made it TV Turn-Off Month - four weeks."
       },
       {
         "id": 36,
         "difficulty": "medium",
-        "question": "Why does Mr. Hind cry after the play?",
+        "question": "Mr. Hind introduced himself as ---.",
         "options": {
-          "A": "He's sad",
-          "B": "He loved Andrea's song",
-          "C": "He's leaving",
-          "D": "He's happy"
+          "A": "a regular teacher",
+          "B": "Jam Master Hind, the one-man funky groove machine",
+          "C": "a classical musician",
+          "D": "the new principal"
         },
         "answer": "B",
-        "explanation": "Mr. Hind calls 'Tomorrow' the most beautiful song he's ever heard and starts crying."
+        "explanation": "Two assistants announced him as 'Jam Master Hind, the one-man funky groove machine.'"
       },
       {
         "id": 37,
         "difficulty": "medium",
-        "question": "What song does Mr. Hind sing on American Idol?",
+        "question": "A.J. doesn't want to be in the play after learning he has to ---.",
         "options": {
-          "A": "His own rap",
-          "B": "Tomorrow from Annie",
-          "C": "Who Stole the Cookie",
-          "D": "Row Your Boat"
+          "A": "memorize lines",
+          "B": "kiss Andrea at the end",
+          "C": "wear a costume",
+          "D": "dance on stage"
         },
         "answer": "B",
-        "explanation": "Mr. Hind sings 'Tomorrow' (the bet your bottom dollar song) on American Idol with tears rolling down his cheeks."
+        "explanation": "A.J. is horrified when Michael shows him the script says 'Beauty and the Beast kiss.'"
       },
       {
         "id": 38,
         "difficulty": "medium",
-        "question": "What did Ryan trade A.J. for cookies?",
+        "question": "When A.J. asks Andrea if she can 'sing solo,' his joke is ---.",
         "options": {
-          "A": "An apple",
-          "B": "A peach",
-          "C": "A sandwich",
-          "D": "Chips"
+          "A": "that she should sing alone",
+          "B": "that she should 'sing so low we can't hear you'",
+          "C": "that solo means quiet",
+          "D": "that she's a good singer"
         },
         "answer": "B",
-        "explanation": "A.J. traded his peach to Ryan for his cookies because food with hair on it is disgusting."
+        "explanation": "A.J.'s joke is 'sing solo' meaning 'so low' that no one can hear her."
       },
       {
         "id": 39,
         "difficulty": "medium",
-        "question": "What does Andrea claim to have been playing since age four?",
+        "question": "The play is a 'hip-hop' version which means ---.",
         "options": {
-          "A": "Violin",
-          "B": "Piano",
-          "C": "Flute",
-          "D": "Guitar"
+          "A": "it's exactly like the original",
+          "B": "Mr. Hind adds rap and modern music to it",
+          "C": "there's no music at all",
+          "D": "only classical music is used"
         },
         "answer": "B",
-        "explanation": "Andrea brags that she's been playing the piano ever since she was four years old."
+        "explanation": "Mr. Hind makes everything hip-hop style, including the school play."
       },
       {
         "id": 40,
         "difficulty": "medium",
-        "question": "What is Andrea's favorite movie?",
+        "question": "Andrea's mother is the PTA vice president, which is important because ---.",
         "options": {
-          "A": "The Wizard of Oz",
-          "B": "Annie",
-          "C": "Beauty and the Beast",
-          "D": "Peter Pan"
+          "A": "she can give Andrea extra homework",
+          "B": "if enough parents complain, they can get a teacher fired",
+          "C": "she chooses the school plays",
+          "D": "she runs the cafeteria"
         },
         "answer": "B",
-        "explanation": "Andrea says Annie is her favorite movie and she can sing all the songs from it."
+        "explanation": "Andrea threatens to have her mother complain to get Mr. Hind fired."
       },
       {
         "id": 41,
         "difficulty": "hard",
-        "question": "According to A.J., what should the police use Andrea's singing for?",
+        "question": "Why does A.J. start liking rap music after meeting Mr. Hind?",
         "options": {
-          "A": "Entertainment",
-          "B": "Punishing criminals in jail",
-          "C": "Training",
-          "D": "Therapy"
+          "A": "Because the music is actually good",
+          "B": "Because Andrea hates it, and he likes anything Andrea hates",
+          "C": "Because his friends like it",
+          "D": "Because his parents told him to"
         },
         "answer": "B",
-        "explanation": "A.J. says the police should use Andrea's singing to punish criminals in jail."
+        "explanation": "A.J. admits he 'didn't even like rap music very much, but I think I'm gonna like it now that I know Andrea hates it.'"
       },
       {
         "id": 42,
         "difficulty": "hard",
-        "question": "What weird thing has Ryan eaten according to A.J.?",
+        "question": "What does the story suggest about different styles of teaching?",
         "options": {
-          "A": "Dirt",
-          "B": "A bug",
-          "C": "Paper",
-          "D": "Glue"
+          "A": "Only traditional teaching works",
+          "B": "Engaging and fun methods can make boring subjects exciting",
+          "C": "Teachers should never be creative",
+          "D": "Students hate all music"
         },
         "answer": "B",
-        "explanation": "A.J. says Ryan will eat anything and once he even ate a bug."
+        "explanation": "Mr. Hind's energetic, unconventional methods make music class exciting for students who hated Mr. Loring's boring approach."
       },
       {
         "id": 43,
         "difficulty": "hard",
-        "question": "What joke does A.J. make about Andrea playing piano since she was four?",
+        "question": "What does Mr. Klutz's reaction to Mr. Hind's teaching style reveal?",
         "options": {
-          "A": "She must be tired",
-          "B": "She must be good",
-          "C": "She must be bored",
-          "D": "She must be rich"
+          "A": "Principals hate fun",
+          "B": "Good leaders support teachers who connect with students, even if methods are unconventional",
+          "C": "Bald people like music",
+          "D": "Principals can't rap"
         },
-        "answer": "A",
-        "explanation": "When Andrea says she's been playing piano since she was four, A.J. asks 'Don't you get tired?'"
+        "answer": "B",
+        "explanation": "Mr. Klutz supports Mr. Hind by rapping and saying he's cool, showing good leadership means backing effective teachers."
       },
       {
         "id": 44,
         "difficulty": "hard",
-        "question": "What does A.J. say about a bobtail?",
+        "question": "Why is it ironic that A.J. ends up enjoying music class?",
         "options": {
-          "A": "It's a dog",
-          "B": "It's a kind of car",
-          "C": "It's a horse",
-          "D": "It's a bird"
+          "A": "Because he always loved music",
+          "B": "Because he claimed music was 'the most boring subject' but now looks forward to it",
+          "C": "Because Andrea taught him",
+          "D": "Because his parents made him"
         },
         "answer": "B",
-        "explanation": "A.J. guesses that a bobtail is a kind of car, but Andrea says it's actually a furry animal with a short tail."
+        "explanation": "A.J. started the story saying he hated music most of all, but Mr. Hind's methods changed his mind."
       },
       {
         "id": 45,
         "difficulty": "hard",
-        "question": "What does A.J. joke about when Andrea says she can play a Beethoven sonata?",
+        "question": "What does Mr. Hind's green beans story teach about overcoming challenges?",
         "options": {
-          "A": "It must be hard",
-          "B": "She plays with Beethoven's snot",
-          "C": "It must be boring",
-          "D": "She's lying"
+          "A": "Never eat vegetables",
+          "B": "You can make difficult things easier by changing how you think about them",
+          "C": "Parents are always wrong",
+          "D": "Only eat what you like"
         },
         "answer": "B",
-        "explanation": "When Andrea says she can play a Beethoven sonata, A.J. jokes 'You play with Beethoven snot? That's disgusting.'"
+        "explanation": "By pretending green beans were oatmeal cookies, young Mr. Hind made them easier to eat - similar to A.J. pretending Andrea is a dirt bike."
       },
       {
         "id": 46,
         "difficulty": "hard",
-        "question": "What does Miss Daisy say instead of 'sit Indian style' or 'like pretzels'?",
+        "question": "What theme does the rivalry between A.J. and Andrea represent?",
         "options": {
-          "A": "Sit nicely",
-          "B": "Crisscross applesauce",
-          "C": "Sit properly",
-          "D": "Cross your legs"
+          "A": "Boys are smarter than girls",
+          "B": "Different personalities can clash but still work together",
+          "C": "School is boring",
+          "D": "Teachers play favorites"
         },
         "answer": "B",
-        "explanation": "Miss Daisy says 'crisscross applesauce' which A.J. thinks doesn't mean anything at all."
+        "explanation": "Despite constantly disagreeing, A.J. and Andrea end up working together in the play, showing opposites can collaborate."
       },
       {
         "id": 47,
         "difficulty": "hard",
-        "question": "What does A.J. say when asked if Andrea can sing solo?",
+        "question": "Why might the author have made TV Turn-Off Month happen during this story?",
         "options": {
-          "A": "Yes please",
-          "B": "Sing solo we can't hear you",
-          "C": "No thanks",
-          "D": "Maybe later"
+          "A": "To punish the kids",
+          "B": "To show that music and creativity can fill the entertainment gap left by TV",
+          "C": "To make parents happy",
+          "D": "No particular reason"
         },
         "answer": "B",
-        "explanation": "A.J. asks Andrea if she can sing solo, and when she says yes, he says 'Then why don't you sing solo - we can't hear you.'"
+        "explanation": "With no TV, the kids have to find other entertainment - and music class with Mr. Hind becomes better than TV."
       },
       {
         "id": 48,
         "difficulty": "hard",
-        "question": "What was A.J. confused about when A.J. mentions percussion?",
+        "question": "What does Andrea's complaint that Mr. Hind 'doesn't play any musical instruments' reveal about her thinking?",
         "options": {
-          "A": "The spelling",
-          "B": "He thought it meant saying bad words (cussing)",
-          "C": "The definition",
-          "D": "How to spell it"
+          "A": "She's always right",
+          "B": "She has a narrow definition of what 'real' music is",
+          "C": "Turntables aren't instruments",
+          "D": "Teachers must play piano"
         },
         "answer": "B",
-        "explanation": "When Mr. Hind mentions percussion, A.J. says 'Percussion is when you say bad words' confusing it with cussing."
+        "explanation": "Andrea dismisses hip-hop and DJing as 'not real music,' showing she has a limited view of what music can be."
       },
       {
         "id": 49,
         "difficulty": "hard",
-        "question": "What joke does A.J. tell about tuba spelled backward?",
+        "question": "What is the significance of both A.J. and Andrea going to Mr. Hind about not wanting to kiss each other?",
         "options": {
-          "A": "It's abut",
-          "B": "Tuba backward is a butt",
-          "C": "It's a bat",
-          "D": "It's a but"
+          "A": "They both hate the play",
+          "B": "Despite being opposites, they share the same fear about the kiss",
+          "C": "They want to quit school",
+          "D": "They like each other secretly"
         },
         "answer": "B",
-        "explanation": "The boys are joking about words spelled backward, and A.J. says 'Tuba backward is a butt.'"
+        "explanation": "This shows that even people who seem completely different can have the same worries and insecurities."
       },
       {
         "id": 50,
         "difficulty": "hard",
-        "question": "According to A.J., what did he trade with Ryan because 'food that has hair on it is disgusting'?",
+        "question": "Why is Mr. Hind described as 'out of his mind' in the title?",
         "options": {
-          "A": "An apple",
-          "B": "A peach for cookies",
-          "C": "A banana",
-          "D": "Grapes"
+          "A": "He is actually crazy",
+          "B": "His unconventional, energetic teaching style seems crazy to traditional expectations",
+          "C": "He forgot his lessons",
+          "D": "He can't teach"
         },
         "answer": "B",
-        "explanation": "A.J. traded his peach to Ryan for his cookies because food that has hair on it (like peach fuzz) is disgusting."
+        "explanation": "His wild entrances, rap music, and dancing seem 'crazy' compared to traditional teaching, but it's effective."
       },
       {
         "id": 51,
         "difficulty": "hard",
-        "question": "What old technology does Mr. Hind use for scratching?",
+        "question": "What does A.J.'s exaggeration 'the most boring subject in the history of the world' tell us about his character?",
         "options": {
-          "A": "CDs",
-          "B": "Cassette tapes",
-          "C": "Big old black records",
-          "D": "MP3 player"
+          "A": "He's a historian",
+          "B": "He uses dramatic language and humor to express his opinions",
+          "C": "He knows all of history",
+          "D": "He's serious about everything"
         },
-        "answer": "C",
-        "explanation": "Mr. Hind uses 'those big old black records that my parents used to listen to in ancient times' for scratching."
+        "answer": "B",
+        "explanation": "A.J. constantly uses hyperbole like 'in the history of the world' for humor and to emphasize his feelings."
       },
       {
         "id": 52,
         "difficulty": "hard",
-        "question": "What food did Mr. Hind's mama make him pretend was oatmeal cookies?",
+        "question": "What is ironic about Andrea wanting Mr. Hind fired?",
         "options": {
-          "A": "Broccoli",
-          "B": "Green beans",
-          "C": "Spinach",
-          "D": "Peas"
+          "A": "She loves all teachers",
+          "B": "She claims to love music but rejects a teacher who makes others love it",
+          "C": "She's the best singer",
+          "D": "Teachers can't be fired"
         },
         "answer": "B",
-        "explanation": "Mr. Hind says his mama made him eat green beans by pretending they were oatmeal cookies."
+        "explanation": "Andrea says she loves music, but she tries to fire the teacher who finally makes music class exciting for everyone else."
       },
       {
         "id": 53,
         "difficulty": "hard",
-        "question": "What does Mr. Hind call A.J. because of his role in the play?",
+        "question": "What does the story suggest about the definition of 'music'?",
         "options": {
-          "A": "My man",
-          "B": "Beast",
-          "C": "Dude",
-          "D": "Homeboy"
+          "A": "Only classical music counts",
+          "B": "Music can include many styles including rap, percussion, and DJ scratching",
+          "C": "Music must be boring",
+          "D": "Only singing is music"
         },
         "answer": "B",
-        "explanation": "Mr. Hind calls A.J. 'Beast' and says 'You're my beast, dude. Nobody else can be the beast.'"
+        "explanation": "Mr. Hind shows that percussion, rap, and turntable scratching are all valid forms of music."
       },
       {
         "id": 54,
         "difficulty": "hard",
-        "question": "What form does Mr. Hind leave a goodbye note in?",
+        "question": "Why might A.J. keep telling jokes even when no one laughs?",
         "options": {
-          "A": "A letter",
-          "B": "A rap poem",
-          "C": "An email",
-          "D": "A song recording"
+          "A": "He doesn't know they're bad",
+          "B": "He enjoys making jokes and believes someone will eventually laugh",
+          "C": "His friends tell him to",
+          "D": "Teachers require it"
         },
         "answer": "B",
-        "explanation": "Mr. Hind's goodbye note is written as a rap: 'I hope you dudes don't think I'm rude...'"
+        "explanation": "A.J. says he'll 'keep telling that joke until somebody laughs,' showing persistence and self-confidence."
       },
       {
         "id": 55,
         "difficulty": "hard",
-        "question": "What song does Mr. Loring make them sing when he returns?",
+        "question": "What does the contrast between Mr. Loring and Mr. Hind represent?",
         "options": {
-          "A": "Row Your Boat",
-          "B": "Who Stole the Cookie from the Cookie Jar",
-          "C": "Tomorrow",
-          "D": "Five Little Monkeys"
+          "A": "Old is always bad",
+          "B": "Different generations and teaching styles can have very different effects on students",
+          "C": "Only young teachers are good",
+          "D": "Music never changes"
         },
         "answer": "B",
-        "explanation": "Mr. Loring makes them sing the cookie jar song over and over until everybody's name was mentioned."
+        "explanation": "The old, traditional Mr. Loring bored students while the young, modern Mr. Hind engages them, showing how approach matters."
       },
       {
         "id": 56,
         "difficulty": "hard",
-        "question": "What does A.J. confuse 'incompetent' with?",
+        "question": "What lesson does Mr. Hind's advice about kissing teach?",
         "options": {
-          "A": "Incontinent (wearing diapers)",
-          "B": "Incomplete",
-          "C": "Inconvenient",
-          "D": "Incorrect"
+          "A": "Never kiss anyone",
+          "B": "Things you don't want to do now might seem different later, so it's okay to try",
+          "C": "Only kiss dirt bikes",
+          "D": "Avoid all plays"
         },
-        "answer": "A",
-        "explanation": "When Andrea says Mr. Hind is incompetent, A.J. asks 'He wears diapers?' confusing it with incontinent."
+        "answer": "B",
+        "explanation": "Mr. Hind says 'someday you're gonna wanna kiss girls' and to take chances now because opportunities may not come later."
       },
       {
         "id": 57,
         "difficulty": "hard",
-        "question": "What singing competition was Mr. Hind in the final two of?",
+        "question": "What does A.J.'s comment 'I used to like that song' about the cookie jar song reveal?",
         "options": {
-          "A": "The Voice",
-          "B": "American Idol",
-          "C": "X Factor",
-          "D": "America's Got Talent"
+          "A": "He never liked songs",
+          "B": "Repetition can ruin something you once enjoyed",
+          "C": "Cookies are bad",
+          "D": "Songs are always boring"
         },
         "answer": "B",
-        "explanation": "Mr. Hind made it to the final two on American Idol against a lady with a big nose."
+        "explanation": "Too much repetition made A.J. hate a song he once liked, showing how overdoing things can backfire."
       },
       {
         "id": 58,
         "difficulty": "hard",
-        "question": "What instrument does Mr. Hind play on one of his American Idol performances?",
+        "question": "Why is it significant that Emily 'always agrees with Andrea'?",
         "options": {
-          "A": "Piano",
-          "B": "Drums",
-          "C": "Guitar",
-          "D": "Turntable"
+          "A": "They are twins",
+          "B": "It shows Emily lacks independent thinking and follows Andrea blindly",
+          "C": "Teachers told them to",
+          "D": "They are sisters"
         },
-        "answer": "C",
-        "explanation": "One night on American Idol, Mr. Hind came out with a guitar and a crazy costume and sang rock and roll."
+        "answer": "B",
+        "explanation": "A.J. finds Emily annoying because 'Emily agrees with everything Andrea says,' showing she doesn't think for herself."
       },
       {
         "id": 59,
         "difficulty": "hard",
-        "question": "What type of song did Mr. Hind sing about his dog dying?",
+        "question": "What does A.J. mean when he says music class with Mr. Hind is 'better than TV'?",
         "options": {
-          "A": "A rap song",
-          "B": "A rock song",
-          "C": "A country song",
-          "D": "A pop song"
+          "A": "He hates TV now",
+          "B": "Something he thought was boring became more entertaining than his favorite thing",
+          "C": "TV is broken",
+          "D": "Mr. Hind has a TV"
         },
-        "answer": "C",
-        "explanation": "One night Mr. Hind sang a country song about his dog dying."
+        "answer": "B",
+        "explanation": "A.J. loves TV and hated music, so saying music class is better than TV shows how much Mr. Hind changed his view."
       },
       {
         "id": 60,
         "difficulty": "hard",
-        "question": "According to A.J., what does his mother say about getting people upset?",
+        "question": "What is the overall message of Mr. Hynde Is Out of His Mind?",
         "options": {
-          "A": "Just ignore them",
-          "B": "All you have to do is look at them sideways",
-          "C": "Count to ten",
-          "D": "Walk away"
+          "A": "School should be boring",
+          "B": "Passionate, creative teaching can make any subject exciting and change students' attitudes",
+          "C": "Music is only for talented people",
+          "D": "Rules should never be broken"
         },
         "answer": "B",
-        "explanation": "A.J. says his mom told him that all you have to do to get some people upset is to look at them sideways."
+        "explanation": "The book shows that an enthusiastic, unconventional teacher can transform a hated subject into something students love."
       }
     ]
   },
   "Nate_the_Great_The_Fleeing_Fang": {
-    "book_title": "Nate the Great: The Fleeing Fang",
+    "title": "Nate the Great: The Fleeing Fang",
     "author": "Marjorie Weinman Sharmat",
     "genre": "Mystery",
     "book_level": {
-      "grade": 2.5,
-      "description": "Level 2.5"
+      "grade": 2,
+      "description": "Early reader level - simple mystery about a detective solving a case"
     },
     "total_questions": 20,
     "questions": [
@@ -7658,41 +7439,41 @@ const quizData = {
       {
         "id": 3,
         "difficulty": "easy",
-        "question": "Who is throwing a party for Nate?",
+        "question": "Why are Nate's friends throwing him a party?",
         "options": {
-          "A": "His mother",
-          "B": "Annie",
-          "C": "Rosamond",
-          "D": "Oliver"
+          "A": "It's his birthday",
+          "B": "He solved many cases for them",
+          "C": "He's moving away",
+          "D": "He won a prize"
         },
-        "answer": "C",
-        "explanation": "Rosamond and others are throwing a Detective Party for Nate because he has solved so many cases."
+        "answer": "B",
+        "explanation": "They are having a Detective Party because Nate has solved so many cases for them."
       },
       {
         "id": 4,
         "difficulty": "easy",
-        "question": "What is the case that Nate needs to solve?",
+        "question": "Whose dog ran away?",
         "options": {
-          "A": "Finding a lost key",
-          "B": "Finding Fang",
-          "C": "Finding the cheese",
-          "D": "Finding a treasure"
+          "A": "Nate's",
+          "B": "Rosamond's",
+          "C": "Annie's",
+          "D": "Oliver's"
         },
-        "answer": "B",
-        "explanation": "Annie's dog Fang ran away and needs to be found."
+        "answer": "C",
+        "explanation": "Fang is Annie's dog, and he ran away before the party."
       },
       {
         "id": 5,
         "difficulty": "easy",
-        "question": "Who does Fang belong to?",
+        "question": "What food does Nate love to eat?",
         "options": {
-          "A": "Rosamond",
-          "B": "Annie",
-          "C": "Nate",
-          "D": "Oliver"
+          "A": "Pizza",
+          "B": "Pancakes",
+          "C": "Ice cream",
+          "D": "Cookies"
         },
         "answer": "B",
-        "explanation": "Fang belongs to Annie, who is sad that he ran away."
+        "explanation": "Nate the Great loves pancakes. Pancakes help him think."
       },
       {
         "id": 6,
@@ -7709,987 +7490,987 @@ const quizData = {
       },
       {
         "id": 7,
-        "difficulty": "medium",
-        "question": "What did Rosamond bring to the party?",
+        "difficulty": "easy",
+        "question": "What did Annie do to clean Fang instead of giving him a bath?",
         "options": {
-          "A": "Cake and cookies",
-          "B": "Strawberry ice cream and tuna fish pancakes",
-          "C": "Pizza and soda",
-          "D": "Chips and dip"
+          "A": "Brushed him",
+          "B": "Feather-dusted him",
+          "C": "Wiped him with a towel",
+          "D": "Used a vacuum"
         },
         "answer": "B",
-        "explanation": "Rosamond brought a box of strawberry ice cream and a box of tuna fish pancakes."
+        "explanation": "Annie didn't have time for a bath, so she feather-dusted Fang."
       },
       {
         "id": 8,
         "difficulty": "medium",
-        "question": "How did Annie clean Fang before the party?",
+        "question": "When the two tiny poodles barked at Fang, he ran away because ---.",
         "options": {
-          "A": "Gave him a bath",
-          "B": "Feather-dusted him",
-          "C": "Brushed him",
-          "D": "Used dry shampoo"
+          "A": "he was scared of them",
+          "B": "Annie accidentally gave him a command to go to the park",
+          "C": "he wanted to chase them",
+          "D": "he smelled food"
         },
         "answer": "B",
-        "explanation": "Annie didn't have time for a bath, so she feather-dusted Fang to make his fur nice and clean."
+        "explanation": "When Annie said 'bark, bark, bark' to shoo the poodles, Fang thought it was a command because 'bark' rhymes with 'park' in his training."
       },
       {
         "id": 9,
         "difficulty": "medium",
-        "question": "What method was Annie using to teach Fang commands?",
+        "question": "Annie trained Fang using a rhyming book, but Fang mixed up the commands so ---.",
         "options": {
-          "A": "Treats",
-          "B": "Rhyming commands",
-          "C": "Hand signals",
-          "D": "A clicker"
+          "A": "he did nothing",
+          "B": "he did the line that rhymed instead of the correct action",
+          "C": "he barked all the time",
+          "D": "he ran away"
         },
         "answer": "B",
-        "explanation": "Annie used a rhyming book for dogs where each line is a new command."
+        "explanation": "When Annie said one line, Fang did the other rhyming line instead, so she had to say them backwards."
       },
       {
         "id": 10,
         "difficulty": "medium",
-        "question": "What was Fang's problem with the rhyming commands?",
+        "question": "The lady with the green hat might be a 'red herring' which means ---.",
         "options": {
-          "A": "He ignored them",
-          "B": "He mixed them up and did the second line instead of the first",
-          "C": "He was scared of them",
-          "D": "He only responded to treats"
+          "A": "she sells fish",
+          "B": "she seems like a clue but might not be important",
+          "C": "she wears red",
+          "D": "she is a criminal"
         },
         "answer": "B",
-        "explanation": "Fang mixed up the rhymes - when Annie said the first line, he did the second line instead."
+        "explanation": "Nate explains a red herring is something that 'seems like a clue but isn't a clue.'"
       },
       {
         "id": 11,
         "difficulty": "medium",
-        "question": "What scared Fang at the corner of Dartmouth and Oakdale Street?",
+        "question": "Pip saw Fang following a lady in a green hat, but this was ---.",
         "options": {
-          "A": "A loud noise",
-          "B": "Two tiny poodles",
-          "C": "A car",
-          "D": "Thunder"
+          "A": "the key clue to finding Fang",
+          "B": "not the real reason Fang ran away",
+          "C": "where Fang lived",
+          "D": "a lie"
         },
         "answer": "B",
-        "explanation": "Two tiny poodles came up to Fang and started barking at him."
+        "explanation": "Although Fang was seen behind the lady, he wasn't really following her - he was going to the park."
       },
       {
         "id": 12,
         "difficulty": "medium",
-        "question": "Who saw Fang following a lady in a green hat?",
+        "question": "Nate figured out the real clue when Sludge started ---.",
         "options": {
-          "A": "Annie",
-          "B": "Nate",
-          "C": "Pip",
-          "D": "Rosamond"
+          "A": "barking at the door",
+          "B": "licking ice cream dripping from the table",
+          "C": "running in circles",
+          "D": "hiding under the bed"
         },
-        "answer": "C",
-        "explanation": "Pip saw Fang following a lady in a green hat on Dartmouth Street."
+        "answer": "B",
+        "explanation": "When Sludge licked the dripping ice cream, Nate remembered the rhyme 'lick, lick, lick' and realized the answer."
       },
       {
         "id": 13,
         "difficulty": "medium",
-        "question": "What unusual features did the lady in the green hat have?",
+        "question": "Nate says the first step to finding something missing is to ---.",
         "options": {
-          "A": "Green hair, a rose in her ear, fluffy bunny shoes",
-          "B": "Red hair and tall boots",
-          "C": "Blue eyes and a long dress",
-          "D": "Blonde hair and sneakers"
+          "A": "call the police",
+          "B": "remember if there was anything different and where you last saw it",
+          "C": "give up",
+          "D": "ask everyone you know"
         },
-        "answer": "A",
-        "explanation": "The lady had green hair, wore a rose in her ear, and her shoes looked like fluffy bunnies."
+        "answer": "B",
+        "explanation": "Nate tells Annie to 'remember if there was anything different' and 'where you last saw him.'"
       },
       {
         "id": 14,
-        "difficulty": "hard",
-        "question": "What does a 'red herring' mean in detective work?",
+        "difficulty": "medium",
+        "question": "Where did Nate find Fang?",
         "options": {
-          "A": "A type of fish",
-          "B": "Something that seems like a clue but isn't",
-          "C": "A warning sign",
-          "D": "A secret message"
+          "A": "at the store",
+          "B": "at the park",
+          "C": "at Rosamond's house",
+          "D": "at the pond"
         },
         "answer": "B",
-        "explanation": "Nate explains that a red herring is something that seems like a clue but isn't actually one."
+        "explanation": "Nate found Fang at the park because 'park' rhymes with 'bark.'"
       },
       {
         "id": 15,
         "difficulty": "hard",
-        "question": "What helps Nate think when solving cases?",
+        "question": "Why does Nate say Fang wasn't really missing?",
         "options": {
-          "A": "Reading books",
-          "B": "Eating pancakes",
-          "C": "Taking a walk",
-          "D": "Playing music"
+          "A": "Because Fang was hiding as a joke",
+          "B": "Because Fang went exactly where he thought he was told to go",
+          "C": "Because Fang was never lost",
+          "D": "Because Annie lied"
         },
         "answer": "B",
-        "explanation": "Nate says pancakes help him think, and bones help Sludge think."
+        "explanation": "Nate says Fang followed the command he thought he heard. It was Annie and Harry who were 'missing' from where Fang expected them."
       },
       {
         "id": 16,
         "difficulty": "hard",
-        "question": "What gave Sludge the clue to solve the case?",
+        "question": "What detective lesson does this story teach about clues?",
         "options": {
-          "A": "He smelled something",
-          "B": "He saw the lady",
-          "C": "Ice cream dripped on him and he started licking",
-          "D": "He heard Fang barking"
+          "A": "All clues are important",
+          "B": "Follow everyone you see",
+          "C": "Some clues that seem important might not be real clues (red herrings)",
+          "D": "Never trust your friends"
         },
         "answer": "C",
-        "explanation": "When ice cream dripped on Sludge and he started licking, Nate realized licking was the clue."
+        "explanation": "The lady in the green hat seemed like a clue but wasn't - she was a red herring. The real clue was the rhyming commands."
       },
       {
         "id": 17,
         "difficulty": "hard",
-        "question": "What rhyming pair caused Fang to run to the park?",
+        "question": "What does Nate mean when he says 'put yourself in a dog's shoes'?",
         "options": {
-          "A": "Trick and lick",
-          "B": "Wait and gate",
-          "C": "Park and bark",
-          "D": "Stop and hop"
+          "A": "Dogs should wear shoes",
+          "B": "Think about why a dog might act the way it did",
+          "C": "Dogs are smarter than people",
+          "D": "Shoes are clues"
         },
-        "answer": "C",
-        "explanation": "The rhyme was 'park and bark' - when Annie said 'bark, bark, bark' at the poodles, Fang thought it was a command to go to the park."
+        "answer": "B",
+        "explanation": "Nate means detectives should try to understand the missing person's or animal's point of view."
       },
       {
         "id": 18,
         "difficulty": "hard",
-        "question": "Where did Nate find Fang?",
+        "question": "Why was Fang asleep when Nate found him at the park?",
         "options": {
-          "A": "At the playground",
-          "B": "At the park",
-          "C": "At Annie's house",
-          "D": "With the lady in the green hat"
+          "A": "He was tired from running",
+          "B": "He had been waiting for Annie and Harry to come",
+          "C": "Someone gave him sleeping medicine",
+          "D": "It was nighttime"
         },
         "answer": "B",
-        "explanation": "Nate found Fang at the park, asleep, because he went there when he heard 'bark, bark, bark.'"
+        "explanation": "Fang went where he thought he was told and waited for Annie and Harry, so he fell asleep waiting."
       },
       {
         "id": 19,
         "difficulty": "hard",
-        "question": "According to Nate, who was actually missing in this case?",
+        "question": "Why does Nate say 'pancakes help him think'?",
         "options": {
-          "A": "Fang",
-          "B": "Annie and Harry",
-          "C": "The ice cream",
-          "D": "The poodles"
+          "A": "Pancakes are magical",
+          "B": "It's a funny way of saying he does his best thinking while eating his favorite food",
+          "C": "His mother told him so",
+          "D": "Pancakes contain special ingredients"
         },
         "answer": "B",
-        "explanation": "Nate says Fang went where he thought he was told to go - he was waiting for Annie and Harry, so they were the ones actually missing from Fang's perspective."
+        "explanation": "Nate takes time to eat and think calmly, and pancakes are his favorite food that helps him focus."
       },
       {
         "id": 20,
         "difficulty": "hard",
-        "question": "What happened to the ice cream while they were trying to solve the case?",
+        "question": "What is the main lesson about communication in this story?",
         "options": {
-          "A": "It was eaten",
-          "B": "Fang licked it",
-          "C": "It melted all over",
-          "D": "It was saved"
+          "A": "Never talk to strangers",
+          "B": "Misunderstandings happen when words can mean different things",
+          "C": "Dogs can't understand humans",
+          "D": "Parties are distracting"
         },
-        "answer": "C",
-        "explanation": "The ice cream melted while they were solving the case. Rosamond said Fang had the ice cream all over him when they found him in the kitchen."
+        "answer": "B",
+        "explanation": "The whole mystery happened because Annie said 'bark' meaning to shoo poodles, but Fang heard it as a command rhyming with 'park.'"
       }
     ]
   },
-  "Eerie_Elementary_The_School_Is_Alive": {
-    "book_title": "Eerie Elementary: The School Is Alive",
-    "author": "Jack Chabert",
-    "genre": "Horror / Fantasy",
+  "The_Magic_of_Oz": {
+    "title": "The Magic of Oz",
+    "author": "L. Frank Baum",
+    "genre": "Fantasy Adventure",
     "book_level": {
-      "grade": 3.5,
-      "description": "Level 3.5"
+      "grade": 5,
+      "description": "Upper elementary level - imaginative fantasy with transformation magic, clear villain motivations, and adventure elements"
     },
     "total_questions": 60,
     "questions": [
       {
         "id": 1,
         "difficulty": "easy",
-        "question": "What is Sam Graves chosen to be at school?",
+        "question": "Where is Mount Munch located?",
         "options": {
-          "A": "Class president",
-          "B": "Hall monitor",
-          "C": "Team captain",
-          "D": "Library helper"
+          "A": "In the Winkie Country",
+          "B": "On the east edge of the Land of Oz, in the Munchkin Country",
+          "C": "In the Quadling Country",
+          "D": "In the Emerald City"
         },
         "answer": "B",
-        "explanation": "Sam is chosen to be a hall monitor at Eerie Elementary."
+        "explanation": "Mount Munch is located 'on the east edge of the Land of Oz, in the Munchkin country.'"
       },
       {
         "id": 2,
         "difficulty": "easy",
-        "question": "What are the names of Sam's two best friends?",
+        "question": "What shape is the top of Mount Munch?",
         "options": {
-          "A": "Ryan and Michael",
-          "B": "Antonio and Lucy",
-          "C": "Brian and Emily",
-          "D": "Jake and Emma"
+          "A": "Pointed like a cone",
+          "B": "Shaped like a saucer, broad and deep",
+          "C": "Round like a ball",
+          "D": "Flat like a table"
         },
         "answer": "B",
-        "explanation": "Sam's best friends are Antonio and Lucy."
+        "explanation": "The top of Mount Munch is 'shaped like a saucer, broad and deep.'"
       },
       {
         "id": 3,
         "difficulty": "easy",
-        "question": "What color is the hall monitor sash that Sam has to wear?",
+        "question": "What do the people living on Mount Munch call themselves?",
         "options": {
-          "A": "Red",
-          "B": "Blue",
-          "C": "Orange",
-          "D": "Green"
+          "A": "Hyups",
+          "B": "Munchkins",
+          "C": "Winkies",
+          "D": "Gnomes"
         },
-        "answer": "C",
-        "explanation": "Sam has to wear a shiny orange sash as hall monitor."
+        "answer": "A",
+        "explanation": "The people who live on Mount Munch call themselves 'Hyups.'"
       },
       {
         "id": 4,
         "difficulty": "easy",
-        "question": "Who is the old man that takes care of the school?",
+        "question": "Who is Bini Aru?",
         "options": {
-          "A": "Mr. Loring",
-          "B": "Mr. Nekobe",
-          "C": "Mr. Graves",
-          "D": "Mr. Grinker"
+          "A": "The king of Oz",
+          "B": "Kiki's best friend",
+          "C": "A Munchkin farmer",
+          "D": "A wise old Hyup who used to be a sorcerer"
         },
-        "answer": "B",
-        "explanation": "Mr. Nekobe is the old man who takes care of the school and was the first hall monitor."
+        "answer": "D",
+        "explanation": "Bini Aru is described as 'a wise old Hyup... who used to be a clever sorcerer.'"
       },
       {
         "id": 5,
         "difficulty": "easy",
-        "question": "What happens to Sam on the playground?",
+        "question": "What did Ozma decree about magic in Oz?",
         "options": {
-          "A": "He falls off a swing",
-          "B": "He gets trapped in quicksand",
-          "C": "He breaks his arm",
-          "D": "He finds treasure"
+          "A": "Everyone could practice magic freely",
+          "B": "Only men could practice magic",
+          "C": "No one could practice magic except Glinda the Good and the Wizard of Oz",
+          "D": "Magic was completely forbidden for everyone"
         },
-        "answer": "B",
-        "explanation": "Sam gets trapped in quicksand on the playground and is pulled under."
+        "answer": "C",
+        "explanation": "Ozma 'made a decree that no one should practise magic in her dominions except Glinda the Good and the Wizard of Oz.'"
       },
       {
         "id": 6,
         "difficulty": "easy",
-        "question": "Who saves Sam from the quicksand?",
+        "question": "What is the magic word for transformations?",
         "options": {
-          "A": "Antonio",
-          "B": "Lucy",
-          "C": "Mr. Nekobe",
-          "D": "Miss Grinker"
+          "A": "Open Sesame",
+          "B": "Pyrzqxgl (pronounced Pyres Quicksicle)",
+          "C": "Abracadabra",
+          "D": "Alakazam"
         },
-        "answer": "C",
-        "explanation": "Mr. Nekobe grabs Sam's wrist and yanks him free from the quicksand."
+        "answer": "B",
+        "explanation": "The magic word is 'Pyrzqxgl' which is pronounced 'Pyres Quicksicle.'"
       },
       {
         "id": 7,
         "difficulty": "easy",
-        "question": "What is the name of the class play the students are performing?",
+        "question": "Why was Kiki Aru noted for being cross and disagreeable?",
         "options": {
-          "A": "The Wizard of Oz",
-          "B": "Peter Pan",
-          "C": "Cinderella",
-          "D": "Beauty and the Beast"
+          "A": "He wanted to see the world but his father wouldn't let him leave",
+          "B": "He was born that way",
+          "C": "He was always sick",
+          "D": "He didn't have any friends"
         },
-        "answer": "B",
-        "explanation": "The class is performing Peter Pan for their Friday play."
+        "answer": "A",
+        "explanation": "Kiki 'was not happy because he wanted to go down the mountain and visit the big world below, and his father would not let him.'"
       },
       {
         "id": 8,
         "difficulty": "easy",
-        "question": "Who plays Peter Pan in the class play?",
+        "question": "How did Kiki discover the magic word?",
         "options": {
-          "A": "Sam",
-          "B": "Antonio",
-          "C": "Lucy",
-          "D": "Brian"
+          "A": "A wizard told him",
+          "B": "He read it in a magic book",
+          "C": "His father taught him",
+          "D": "He found it written on the underside of a loose floorboard"
         },
-        "answer": "B",
-        "explanation": "Antonio plays the role of Peter Pan in the class play."
+        "answer": "D",
+        "explanation": "When the board 'slipped from his hand and turned over,' Kiki 'saw something written on the underside of it' describing how to pronounce the magic word."
       },
       {
         "id": 9,
         "difficulty": "easy",
-        "question": "Who plays Wendy in the class play?",
+        "question": "What was Kiki's first transformation?",
         "options": {
-          "A": "Sam",
-          "B": "Antonio",
-          "C": "Lucy",
-          "D": "Miss Grinker"
+          "A": "A fish",
+          "B": "A lion",
+          "C": "A cat",
+          "D": "A hawk"
         },
-        "answer": "C",
-        "explanation": "Lucy plays the role of Wendy in the class play."
+        "answer": "D",
+        "explanation": "Kiki said 'I want to become a big, strong bird like a hawk' for his first transformation."
       },
       {
         "id": 10,
         "difficulty": "easy",
-        "question": "What character does Sam play in the play?",
+        "question": "What surrounds the Land of Oz?",
         "options": {
-          "A": "Peter Pan",
-          "B": "Captain Hook",
-          "C": "Noodler the friendly pirate",
-          "D": "Tinker Bell"
+          "A": "An ocean",
+          "B": "A magical forest",
+          "C": "High mountains",
+          "D": "A deadly sandy desert with poisonous fumes"
         },
-        "answer": "C",
-        "explanation": "Sam plays Noodler, one of Captain Hook's friendly pirates."
+        "answer": "D",
+        "explanation": "Oz is surrounded by 'the Deadly Sandy Desert' with 'poisonous fumes.'"
       },
       {
         "id": 11,
         "difficulty": "easy",
-        "question": "What does Sam's locker smell like?",
+        "question": "Who is Ruggedo?",
         "options": {
-          "A": "Flowers",
-          "B": "Rotten chocolate milk",
-          "C": "Pizza",
-          "D": "New books"
+          "A": "A friendly wizard",
+          "B": "The former Gnome King who was kicked out of his kingdom",
+          "C": "Kiki's father",
+          "D": "The ruler of Oz"
         },
         "answer": "B",
-        "explanation": "Sam's locker stinks like rotten chocolate milk or really bad breath."
+        "explanation": "Ruggedo says 'I used to be the Gnome King, but I got kicked out of my country.'"
       },
       {
         "id": 12,
         "difficulty": "easy",
-        "question": "What does Antonio always carry in his pocket?",
+        "question": "What does Ruggedo look like?",
         "options": {
-          "A": "A lucky coin",
-          "B": "A peanut butter and jelly sandwich",
-          "C": "A rabbit's foot",
-          "D": "A whistle"
+          "A": "Crooked with a fat body, thin limbs, bushy white whiskers, and pointed hair",
+          "B": "Tall and thin with black hair",
+          "C": "Short with red hair and a beard",
+          "D": "Young and handsome"
         },
-        "answer": "B",
-        "explanation": "Antonio always carries a peanut butter and jelly sandwich in his pocket for luck."
+        "answer": "A",
+        "explanation": "Ruggedo is described as crooked, with 'a fat body and thin legs and arms,' 'bushy white whiskers that came to a point,' and 'white hair that came to a point on top of his head.'"
       },
       {
         "id": 13,
         "difficulty": "easy",
-        "question": "What is the name of Sam's teacher?",
+        "question": "What is Ruggedo afraid of?",
         "options": {
-          "A": "Miss Daisy",
-          "B": "Ms. Grinker",
-          "C": "Mrs. Norton",
-          "D": "Miss Lucy"
+          "A": "Eggs",
+          "B": "Fire",
+          "C": "Water",
+          "D": "Darkness"
         },
-        "answer": "B",
-        "explanation": "Sam's teacher is Ms. Grinker, who is short and thin with frizzy gray hair."
+        "answer": "A",
+        "explanation": "Ruggedo says 'I'm afraid of 'em - eggs. They are dangerous' with a shudder."
       },
       {
         "id": 14,
         "difficulty": "easy",
-        "question": "What happens when Sam falls asleep at school?",
+        "question": "How did Kiki get money when he had none?",
         "options": {
-          "A": "He misses lunch",
-          "B": "He wakes up and it's dark outside",
-          "C": "He has a nice dream",
-          "D": "He gets detention"
+          "A": "Ruggedo gave it to him",
+          "B": "He transformed into a magpie and stole a gold piece",
+          "C": "He earned it by working",
+          "D": "He found it on the ground"
         },
         "answer": "B",
-        "explanation": "Sam falls asleep on hall monitor duty and wakes up to find the halls dark and it's black as midnight outside."
+        "explanation": "Kiki 'transformed himself into a magpie and flying through the open window, caught up one of the gold pieces in his beak.'"
       },
       {
         "id": 15,
         "difficulty": "easy",
-        "question": "What attacks Sam through the classroom window?",
+        "question": "What did Ruggedo carry in his bulging pockets?",
         "options": {
-          "A": "A bird",
-          "B": "A giant snake",
-          "C": "The oak tree branch",
-          "D": "A monster"
+          "A": "Books",
+          "B": "Jewels and precious stones",
+          "C": "Magic tools",
+          "D": "Food"
         },
-        "answer": "C",
-        "explanation": "The oak tree comes alive and breaks through the window, wrapping a branch around Sam's leg."
+        "answer": "B",
+        "explanation": "Ruggedo says when he left his kingdom, 'they said I could take as many precious stones as I could carry, so I had a lot of pockets made in my clothes and loaded them all up.'"
       },
       {
         "id": 16,
         "difficulty": "easy",
-        "question": "What does Sam do to escape the fire hose?",
+        "question": "Why doesn't Oz use money?",
         "options": {
-          "A": "Cuts it with scissors",
-          "B": "Runs away",
-          "C": "Ties it in a knot",
-          "D": "Calls for help"
+          "A": "They use jewels instead",
+          "B": "The ruler banned it",
+          "C": "It's too expensive to make",
+          "D": "Everyone is allowed to take what they wish without price"
         },
-        "answer": "C",
-        "explanation": "Sam ties the fire hose in a knot like a giant shoelace, which causes it to stop attacking."
+        "answer": "D",
+        "explanation": "In the Land of Oz 'they do not use money at all, every one being allowed to take what he wishes without price.'"
       },
       {
         "id": 17,
         "difficulty": "easy",
-        "question": "What is the big secret about Eerie Elementary?",
+        "question": "What is Glinda's Book of Records?",
         "options": {
-          "A": "It has ghosts",
-          "B": "It is haunted",
-          "C": "It is alive",
-          "D": "It has treasure"
+          "A": "A list of all citizens in Oz",
+          "B": "A history of Oz",
+          "C": "A cookbook",
+          "D": "A book that magically records everything people do in Oz the instant they do it"
         },
-        "answer": "C",
-        "explanation": "The big secret is that Eerie Elementary is a living, breathing thing - a beast that feeds on students."
+        "answer": "D",
+        "explanation": "Glinda has 'a Great Book called the Book of Records, in which is magically written everything that people do in the Land of Oz, just the instant they do it.'"
       },
       {
         "id": 18,
         "difficulty": "easy",
-        "question": "What does Sam use as a shield during training?",
+        "question": "What is Ozma's magic picture?",
         "options": {
-          "A": "A trash can lid",
-          "B": "A locker door",
-          "C": "A lunch tray",
-          "D": "A book"
+          "A": "A painting of herself",
+          "B": "A picture in which she can see whatever she wishes to see",
+          "C": "A map of Oz",
+          "D": "A photograph of her friends"
         },
         "answer": "B",
-        "explanation": "Sam grabs a busted locker door and uses it as a shield against the training machine's tennis balls."
+        "explanation": "Ozma has 'a Magic Picture in which she can see whatever she wishes to see.'"
       },
       {
         "id": 19,
         "difficulty": "easy",
-        "question": "What does the training machine shoot at Sam?",
+        "question": "Who is Mopsi Aru?",
         "options": {
-          "A": "Water",
-          "B": "Tennis balls",
-          "C": "Arrows",
-          "D": "Lasers"
+          "A": "Kiki's mother, famous for making huckleberry pies",
+          "B": "Kiki's sister",
+          "C": "Ruggedo's wife",
+          "D": "A Munchkin woman"
         },
-        "answer": "B",
-        "explanation": "The training machine shoots tennis balls out of its big round eyes."
+        "answer": "A",
+        "explanation": "Bini Aru 'had a wife named Mopsi Aru, who was famous for making fine huckleberry pies.'"
       },
       {
         "id": 20,
         "difficulty": "easy",
-        "question": "What does Sam use to defeat the giant chair mouth?",
+        "question": "What is the Glass Cat made of?",
         "options": {
-          "A": "A fire extinguisher",
-          "B": "A drum of peanut butter",
-          "C": "A giant net",
-          "D": "A magic spell"
+          "A": "Crystal and diamonds",
+          "B": "Clear glass with pink brains and ruby heart",
+          "C": "Ice and snow",
+          "D": "Porcelain"
         },
         "answer": "B",
-        "explanation": "Sam and Lucy kick a heavy drum of peanut butter into the chair mouth, which gums it up and stops it."
+        "explanation": "The Glass Cat 'was made all of glass' with 'a mass of delicate pink balls which looked like jewels but were intended for brains' and 'a heart made of blood-red ruby.'"
       },
       {
         "id": 21,
         "difficulty": "medium",
-        "question": "How does Sam describe the clock's sound that he hears from across the room?",
+        "question": "Bini Aru discovered a new transformation method that was unknown to any other sorcerer. This method ---.",
         "options": {
-          "A": "Like bells ringing",
-          "B": "Like a beating heart",
-          "C": "Like footsteps",
-          "D": "Like drums"
+          "A": "required many tools and magical powders",
+          "B": "needed a wand and special potions",
+          "C": "was the simplest thing in the world once you knew how to pronounce the mystical word",
+          "D": "could only be performed during a full moon"
         },
-        "answer": "B",
-        "explanation": "The clock's sound changes from tick-tock to ba-bump, ba-bump, like a beating heart."
+        "answer": "C",
+        "explanation": "By Bini Aru's method, 'it was the simplest thing in the world to transform anyone into beast, bird, or fish, or anything else, and back again, once you knew how to pronounce the mystical word.'"
       },
       {
         "id": 22,
         "difficulty": "medium",
-        "question": "What happens to all the locker doors when Sam is trapped in school at night?",
+        "question": "Bini Aru wrote down the magic word instead of just memorizing it because ---.",
         "options": {
-          "A": "They disappear",
-          "B": "They fling open and slam shut",
-          "C": "They turn into monsters",
-          "D": "They glow in the dark"
+          "A": "his wife asked him to",
+          "B": "he couldn't remember things well",
+          "C": "it was required by law",
+          "D": "he wanted to preserve it in case Ozma changed the magic laws someday"
         },
-        "answer": "B",
-        "explanation": "All the locker doors flung open one after the other, then slammed shut again."
+        "answer": "D",
+        "explanation": "Bini Aru 'reflected that Ozma was a girl and sometime might change her mind and allow her subjects to practise magic' so he wanted to preserve the secret."
       },
       {
         "id": 23,
         "difficulty": "medium",
-        "question": "What does Sam feel when he places his hand on the wall in the secret room?",
+        "question": "Glinda's Book of Records has a loophole that the villains plan to exploit. The loophole is that the book ---.",
         "options": {
-          "A": "It's very cold",
-          "B": "The wall is breathing and swaying",
-          "C": "It's very hot",
-          "D": "The wall is shaking violently"
+          "A": "is only read once a week",
+          "B": "only works during the day",
+          "C": "is often wrong",
+          "D": "only records what people do, not what beasts or birds do"
         },
-        "answer": "B",
-        "explanation": "Sam feels the wall gently swaying and hears the soft sound of air blowing - the school is breathing."
+        "answer": "D",
+        "explanation": "Ruggedo realizes 'The book doesn't make a record of what birds do, or beasts. It only tells the doings of people. So if we fly into the country as birds, Glinda won't know anything about it.'"
       },
       {
         "id": 24,
         "difficulty": "medium",
-        "question": "Who was the first hall monitor at Eerie Elementary?",
+        "question": "Ruggedo's plan for conquering Oz involves ---.",
         "options": {
-          "A": "Sam's father",
-          "B": "Mr. Nekobe",
-          "C": "Principal Klutz",
-          "D": "Ms. Grinker"
+          "A": "poisoning the water supply",
+          "B": "stealing Ozma's magic",
+          "C": "transforming beasts into people and people into beasts",
+          "D": "building an army of gnomes"
         },
-        "answer": "B",
-        "explanation": "Mr. Nekobe reveals that he was Eerie Elementary's first hall monitor."
+        "answer": "C",
+        "explanation": "Ruggedo plans to 'transform all the beasts into men and women' and 'transform all the people of Oz into beasts of various sorts and send them to live in the forests.'"
       },
       {
         "id": 25,
         "difficulty": "medium",
-        "question": "How does Mr. Nekobe open the secret door to the training room?",
+        "question": "Kiki refuses to share the magic word with Ruggedo because ---.",
         "options": {
-          "A": "With a key",
-          "B": "By saying a password",
-          "C": "By tugging a light bulb twice",
-          "D": "By pushing a brick"
+          "A": "Ruggedo didn't offer enough jewels",
+          "B": "he forgot the word",
+          "C": "he realizes sharing his power would be dangerous to himself",
+          "D": "his father told him not to share it"
         },
         "answer": "C",
-        "explanation": "Mr. Nekobe tugs twice on a swinging light bulb in the janitor's closet to open the secret door."
+        "explanation": "Kiki 'realized that to share his power with another would be dangerous to himself.'"
       },
       {
         "id": 26,
         "difficulty": "medium",
-        "question": "What ability does the hall monitor have that others don't?",
+        "question": "Both Kiki and Ruggedo are secretly planning to ---.",
         "options": {
-          "A": "Super strength",
-          "B": "The ability to sense the school",
-          "C": "Invisibility",
-          "D": "Mind reading"
+          "A": "help each other escape",
+          "B": "become best friends",
+          "C": "share everything equally",
+          "D": "transform the other into something harmless after conquering Oz"
         },
-        "answer": "B",
-        "explanation": "As hall monitor, Sam has the ability to sense the school - to see, feel, and hear what others cannot."
+        "answer": "D",
+        "explanation": "Kiki plans to 'transform the old gnome into a marble statue,' while Ruggedo plans to 'transform Kiki Aru into a bundle of faggots and burn him up.'"
       },
       {
         "id": 27,
         "difficulty": "medium",
-        "question": "Why is the school planning to strike during the play?",
+        "question": "The narrator makes a statement about wicked people: ---.",
         "options": {
-          "A": "Many students and parents will be gathered",
-          "B": "The lights will be off",
-          "C": "Mr. Nekobe will be absent",
-          "D": "It's a full moon"
+          "A": "They always keep their promises",
+          "B": "They trust each other completely",
+          "C": "They are more loyal than good people",
+          "D": "They cannot be trusted even by one another"
         },
-        "answer": "A",
-        "explanation": "Sam realizes the school will strike when hundreds of parents and teachers are in the audience during the play."
+        "answer": "D",
+        "explanation": "The narrator states 'This is always the way with wicked people. They cannot be trusted even by one another.'"
       },
       {
         "id": 28,
         "difficulty": "medium",
-        "question": "What parts make up the training machine?",
+        "question": "When Kiki transforms Ruggedo, he prevents the gnome from learning the magic word by ---.",
         "options": {
-          "A": "Desks and chairs",
-          "B": "Refrigerator, vending machine, lockers, brooms",
-          "C": "Cars and trucks",
-          "D": "Computers and monitors"
+          "A": "whispering it very quietly",
+          "B": "walking away and transforming Ruggedo from a distance",
+          "C": "writing it down instead of speaking",
+          "D": "making Ruggedo close his eyes"
         },
         "answer": "B",
-        "explanation": "The machine is made of an old refrigerator, pieces of a vending machine, banged-up lockers, brooms, buckets, and hockey sticks."
+        "explanation": "Kiki said 'Remain here for a few minutes, and I'll soon be back' and 'walking swiftly away, he left the gnome standing in the grove' before transforming him."
       },
       {
         "id": 29,
         "difficulty": "medium",
-        "question": "What does the school do to trap the teachers and students during the play?",
+        "question": "While Kiki was asleep at the inn, Ruggedo ---.",
         "options": {
-          "A": "Locks the doors",
-          "B": "Slides them into a closet",
-          "C": "Puts them to sleep",
-          "D": "Creates a force field"
+          "A": "searched Kiki's room and pockets for magic tools",
+          "B": "left without paying",
+          "C": "transformed himself",
+          "D": "stole jewels from other guests"
         },
-        "answer": "B",
-        "explanation": "The floorboards lift up to form a slide, and Ms. Grinker, Mr. Nekobe, and the other students tumble backward into a closet."
+        "answer": "A",
+        "explanation": "Ruggedo 'rose softly from his couch, and went into the room of Kiki Aru... and searched everywhere for the magic tool that performed his transformations.'"
       },
       {
         "id": 30,
         "difficulty": "medium",
-        "question": "What does the chair mouth look like when it emerges from the floor?",
+        "question": "The Oz people defeated Ruggedo before by ---.",
         "options": {
-          "A": "A giant snake",
-          "B": "A worm coming out of the ground",
-          "C": "A dragon",
-          "D": "A tornado"
+          "A": "having a celebration in his honor",
+          "B": "challenging him to a duel",
+          "C": "playing a game with him",
+          "D": "rolling eggs at him"
         },
-        "answer": "B",
-        "explanation": "The chair mouth climbs up out of its hole in the floor like a worm coming up out of the ground."
+        "answer": "D",
+        "explanation": "Ruggedo says eggs are 'dreadful' and 'dangerous' to him, and the Oz people 'rolled eggs at me' to defeat him."
       },
       {
         "id": 31,
         "difficulty": "medium",
-        "question": "What does Sam use as a shield in the lunchroom?",
+        "question": "Before meeting Ruggedo, Kiki visited several countries including ---.",
         "options": {
-          "A": "A chair",
-          "B": "An orange lunch tray",
-          "C": "A table",
-          "D": "His backpack"
+          "A": "only the Emerald City",
+          "B": "High Land, Low Land, Merry Land, Noland, Kingdom of Ix, and Land of Ev",
+          "C": "just Mount Munch",
+          "D": "only the desert"
         },
         "answer": "B",
-        "explanation": "Sam grabs an orange lunch tray and holds it over his chest as a shield against the water bottles."
+        "explanation": "Kiki visited 'High Land,' 'Low Land,' 'Merry Land,' 'the kingdom of Noland,' 'the Kingdom of Ix,' and 'the Land of Ev.'"
       },
       {
         "id": 32,
         "difficulty": "medium",
-        "question": "What attacks Sam in the lunchroom?",
+        "question": "According to Ruggedo, 'abdicate' means ---.",
         "options": {
-          "A": "The chairs",
-          "B": "The vending machine shoots water bottles",
-          "C": "The tables",
-          "D": "The ceiling lamps"
+          "A": "to become king",
+          "B": "to rule wisely",
+          "C": "to be kicked out",
+          "D": "to build a castle"
         },
-        "answer": "B",
-        "explanation": "The vending machine begins firing bottles of water at Sam, blasting him in the chest."
+        "answer": "C",
+        "explanation": "When Kiki asks what 'abdicate' means, Ruggedo says 'It means to be kicked out.'"
       },
       {
         "id": 33,
         "difficulty": "medium",
-        "question": "How does Lucy escape from her wire during the play?",
+        "question": "After leaving Mount Munch, Kiki's personality changed because ---.",
         "options": {
-          "A": "Sam rescues her",
-          "B": "She unties herself",
-          "C": "Mr. Nekobe helps",
-          "D": "The wire breaks"
+          "A": "magic changed him",
+          "B": "Ruggedo taught him manners",
+          "C": "having found freedom, he was no longer unhappy and thus no longer cross",
+          "D": "he took medicine"
         },
-        "answer": "B",
-        "explanation": "Lucy is able to untie herself from the wire, but she couldn't reach Antonio to help him."
+        "answer": "C",
+        "explanation": "'Having escaped from his home... the young man was no longer unhappy, and so he was no longer cross and disagreeable.'"
       },
       {
         "id": 34,
         "difficulty": "medium",
-        "question": "Why does the audience think everything is normal after the play?",
+        "question": "In the Land of Oz, it is impossible to ---.",
         "options": {
-          "A": "They were hypnotized",
-          "B": "They couldn't see behind the curtain",
-          "C": "They fell asleep",
-          "D": "The school erased their memory"
+          "A": "kill anyone",
+          "B": "use magic",
+          "C": "grow old",
+          "D": "travel quickly"
         },
-        "answer": "B",
-        "explanation": "The curtain was shut so the audience couldn't see the stage, and the teachers thought the chaos was just part of the show."
+        "answer": "A",
+        "explanation": "Kiki states 'It is impossible to kill anyone in the Land of Oz' - this is a characteristic of the fairy land."
       },
       {
         "id": 35,
         "difficulty": "medium",
-        "question": "According to Mr. Nekobe, what does the school feed on?",
+        "question": "A sparrow witnessed Kiki ---.",
         "options": {
-          "A": "Electricity",
-          "B": "Students",
-          "C": "Fear",
-          "D": "Food"
+          "A": "meeting his father",
+          "B": "transforming into a magpie, stealing gold, and transforming back",
+          "C": "arguing with Ruggedo",
+          "D": "flying over the desert"
         },
         "answer": "B",
-        "explanation": "Mr. Nekobe says the school is evil, it feeds on students, and it has not fed in a long time - it is hungry."
+        "explanation": "The sparrow says 'I saw you look in the window at the gold, and then make yourself into a magpie and rob the poor man, and then... make the bird into your former shape.'"
       },
       {
         "id": 36,
         "difficulty": "medium",
-        "question": "Why is Mr. Nekobe no longer able to protect the school himself?",
+        "question": "When the sparrow warned Kiki he would be sorry for being wicked, Kiki responded by saying ---.",
         "options": {
-          "A": "He moved away",
-          "B": "He is old and weak",
-          "C": "He lost his powers",
-          "D": "He's scared"
+          "A": "he cried and apologized",
+          "B": "he didn't care and was glad to be wicked",
+          "C": "he ignored the sparrow completely",
+          "D": "he thanked the sparrow for the warning"
         },
         "answer": "B",
-        "explanation": "Mr. Nekobe says he is old and weak now, and the school knows it's the time to strike."
+        "explanation": "Kiki says 'I don't care... I didn't know I was being wicked... but if I was, I'm glad of it. I hate good people. I've always wanted to be wicked.'"
       },
       {
         "id": 37,
         "difficulty": "medium",
-        "question": "What does Antonio suggest Sam do during training?",
+        "question": "Kiki and Ruggedo plan to base their operations in ---.",
         "options": {
-          "A": "Run away",
-          "B": "Use what's around him",
-          "C": "Call for help",
-          "D": "Hide"
+          "A": "the Emerald City",
+          "B": "the thick forests of the Gillikin Country",
+          "C": "Mount Munch",
+          "D": "the Munchkin Country"
         },
         "answer": "B",
-        "explanation": "When Sam is knocked down by tennis balls, Antonio tells him to 'Try using what's around you!'"
+        "explanation": "Ruggedo says 'We'll fly to Oz as birds and settle in one of the thick forests in the Gillikin Country.'"
       },
       {
         "id": 38,
         "difficulty": "medium",
-        "question": "How does Sam defeat the training machine?",
+        "question": "Ruggedo promises Kiki that if they conquer Oz, ---.",
         "options": {
-          "A": "Turns it off",
-          "B": "Yanks the electrical cord from its head",
-          "C": "Breaks it with a hammer",
-          "D": "Covers it with a sheet"
+          "A": "Kiki will be the ruler of all Oz while Ruggedo becomes Prime Minister",
+          "B": "they will split the kingdom in half",
+          "C": "Kiki will get all the jewels",
+          "D": "Kiki can return to Mount Munch as a hero"
         },
-        "answer": "B",
-        "explanation": "Sam climbs on top of the machine and yanks the electrical cord from its head."
+        "answer": "A",
+        "explanation": "Ruggedo says 'I'll agree to make you the ruler of all Oz, and I will be your Prime Minister and see that all your orders are obeyed.'"
       },
       {
         "id": 39,
         "difficulty": "medium",
-        "question": "What does Sam's mother think caused him to be late getting home?",
+        "question": "To keep the paper with the magic word safe, Kiki ---.",
         "options": {
-          "A": "He was playing with friends",
-          "B": "Hall monitor duty",
-          "C": "He got lost",
-          "D": "He was at the library"
+          "A": "kept it in his pocket",
+          "B": "hid it in his father's room",
+          "C": "put it under his pillow",
+          "D": "placed it in a tin box in a neglected part of the garden, covered with stones"
         },
-        "answer": "B",
-        "explanation": "When Sam's mom doesn't believe his story about the school, he says he was late because of hall monitor duty."
+        "answer": "D",
+        "explanation": "To make safety doubly sure 'he placed the paper in a tin box in a neglected part of the garden and covered the box with small stones.'"
       },
       {
         "id": 40,
         "difficulty": "medium",
-        "question": "Why doesn't Lucy believe Sam and Antonio at first?",
+        "question": "When Kiki and Ruggedo meet the beasts in Gugu Forest, they call themselves ---.",
         "options": {
-          "A": "She thinks they're joking",
-          "B": "She thinks they're losing their minds",
-          "C": "She's scared",
-          "D": "She wasn't there"
+          "A": "travelers from the desert",
+          "B": "Li-Mon-Eags from Sky Island",
+          "C": "magicians from Mount Munch",
+          "D": "friends of Ozma"
         },
         "answer": "B",
-        "explanation": "Lucy thinks both of her best friends are losing their minds and won't believe a word they say about the school."
+        "explanation": "Ruggedo tells the forest beasts 'We are two Li-Mon-Eags... Our home is in Sky Island.'"
       },
       {
         "id": 41,
         "difficulty": "hard",
-        "question": "What does the school look like to Sam when he's outside?",
+        "question": "In L. Frank Baum's foreword, he suggests that real world events have become so marvelous that they rival his fantasy stories. What does this imply about the relationship between fantasy and reality?",
         "options": {
-          "A": "A modern building",
-          "B": "An old castle made of crumbling red brick",
-          "C": "A haunted mansion",
-          "D": "A prison"
+          "A": "Fantasy is always better than reality",
+          "B": "Real world events can be as remarkable as the most imaginative fiction",
+          "C": "Fantasy and reality should never mix",
+          "D": "Reality is boring compared to fantasy"
         },
         "answer": "B",
-        "explanation": "Sam thinks the school looks like an old castle made of crumbling red brick with chipped paint and crows on the roof."
+        "explanation": "Baum writes 'in the events which have taken place in the last few years in our great outside world, we may find incidents so marvelous and inspiring that I cannot hope to equal them with stories of the Land of Oz.'"
       },
       {
         "id": 42,
         "difficulty": "hard",
-        "question": "What creatures are sitting on the school roof watching Sam?",
+        "question": "The relationship between Kiki and Ruggedo illustrates what moral lesson?",
         "options": {
-          "A": "Vultures",
-          "B": "Ravens",
-          "C": "Big black crows",
-          "D": "Pigeons"
+          "A": "Crime always pays in the end",
+          "B": "Magic solves all problems",
+          "C": "Two villains working together are stronger",
+          "D": "Evil alliances are inherently unstable because wicked people cannot trust each other"
         },
-        "answer": "C",
-        "explanation": "Big black crows sat on the roof watching Sam as he approached the playground."
+        "answer": "D",
+        "explanation": "Both plan to betray the other, and the narrator states 'This is always the way with wicked people. They cannot be trusted even by one another.'"
       },
       {
         "id": 43,
         "difficulty": "hard",
-        "question": "What does Mr. Nekobe's face look like according to Sam?",
+        "question": "What does Kiki's transformation from unhappy to content after leaving home suggest about his original problems?",
         "options": {
-          "A": "Very smooth",
-          "B": "Like a piece of paper balled up and then flattened",
-          "C": "Very young",
-          "D": "Like leather"
+          "A": "He didn't really change at all",
+          "B": "He was born evil",
+          "C": "Magic made him happy",
+          "D": "His unhappiness came from external restrictions, not internal character flaws"
         },
-        "answer": "B",
-        "explanation": "Mr. Nekobe's face looked like a piece of paper that someone had balled up and then tried to flatten again."
+        "answer": "D",
+        "explanation": "Once free to explore the world, 'the young man was no longer unhappy, and so he was no longer cross and disagreeable' - his bad temper was caused by being trapped."
       },
       {
         "id": 44,
         "difficulty": "hard",
-        "question": "What exactly does Sam realize about the clock sound?",
+        "question": "What does Ruggedo's description of being 'a pretty good king - to myself' reveal about his character?",
         "options": {
-          "A": "It's broken",
-          "B": "It sounds like a beating heart",
-          "C": "It's too loud",
-          "D": "It's playing music"
+          "A": "He was selfish and ruled only for his own benefit, not his people's",
+          "B": "He was modest about his accomplishments",
+          "C": "He was a democratic ruler",
+          "D": "He was a fair and just king"
         },
-        "answer": "B",
-        "explanation": "The clock sound changes from tick-tock to ba-bump, ba-bump - it sounds like a beating heart."
+        "answer": "A",
+        "explanation": "The phrase 'a pretty good king - to myself' reveals his self-serving nature - he ruled for his own benefit rather than his subjects'."
       },
       {
         "id": 45,
         "difficulty": "hard",
-        "question": "How does Sam prove to himself that being trapped in school is not a dream?",
+        "question": "Why does Baum playfully warn readers about pronouncing the magic word correctly?",
         "options": {
-          "A": "He pinches himself",
-          "B": "He gets hurt when the doors knock him down",
-          "C": "He counts his fingers",
-          "D": "He reads a sign"
+          "A": "He was superstitious",
+          "B": "To create narrative immersion and make readers feel the magic could be real",
+          "C": "Because it might actually work",
+          "D": "Because it's genuinely dangerous"
         },
         "answer": "B",
-        "explanation": "When the doors knock Sam to the floor and it hurts, he knows it's real because 'everyone knows you can't get hurt in a dream.'"
+        "explanation": "Baum's warning 'to be careful not to pronounce Pyrzqxgl the proper way' is a storytelling device that makes readers feel they're sharing in a real magical secret."
       },
       {
         "id": 46,
         "difficulty": "hard",
-        "question": "What comparison does Sam make about the fire hose?",
+        "question": "The loophole in Glinda's Book of Records (not recording animal actions) suggests what about magical surveillance systems?",
         "options": {
-          "A": "Like a snake",
-          "B": "Like a long octopus tentacle",
-          "C": "Like a rope",
-          "D": "Like a whip"
+          "A": "Magic is always perfect and complete",
+          "B": "Even powerful magical systems have limitations and can be circumvented",
+          "C": "Animals are more important than people",
+          "D": "Glinda is careless about her magic"
         },
         "answer": "B",
-        "explanation": "The fire hose is described as being 'like a long octopus tentacle.'"
+        "explanation": "The fact that the Book only records human actions shows that even sophisticated magical systems have blind spots that clever villains can exploit."
       },
       {
         "id": 47,
         "difficulty": "hard",
-        "question": "What happened to all the damage Sam saw the night before when he returns to school?",
+        "question": "The contrast between Oz (no money) and other countries (money required) suggests what about Oz as a society?",
         "options": {
-          "A": "It was cleaned up",
-          "B": "Everything was back to normal",
-          "C": "It was worse",
-          "D": "The police were investigating"
+          "A": "Other countries are better places to live",
+          "B": "Oz represents an ideal society without economic inequality, where needs are freely met",
+          "C": "Oz is actually poor",
+          "D": "Money is evil"
         },
         "answer": "B",
-        "explanation": "When Sam returns to school, everything is back to normal - the fire hose is wound up, the lockers are closed, and the window isn't broken."
+        "explanation": "In Oz 'everyone is allowed to take what he wishes without price' - contrasting with Kiki's experience elsewhere where he needed money, suggesting Oz as a utopian society."
       },
       {
         "id": 48,
         "difficulty": "hard",
-        "question": "What color are Mr. Nekobe's eyes?",
+        "question": "The condition that transformations only work on things that can talk represents what theme?",
         "options": {
-          "A": "Blue",
-          "B": "Brown",
-          "C": "Small and gray",
-          "D": "Green"
+          "A": "The power of language and speech as essential to identity and agency",
+          "B": "Magic is unnecessarily complicated",
+          "C": "A random magical limitation",
+          "D": "Animals are important in Oz"
         },
-        "answer": "C",
-        "explanation": "Mr. Nekobe's eyes are described as small and gray."
+        "answer": "A",
+        "explanation": "The requirement that transformed beings must be able to speak to transform back emphasizes that language/voice is essential to agency and identity."
       },
       {
         "id": 49,
         "difficulty": "hard",
-        "question": "How long had Antonio been carrying his lucky sandwich sometimes?",
+        "question": "What does Bini Aru's obedience to Ozma's magic ban, despite never meeting her, suggest about legitimate authority?",
         "options": {
-          "A": "A few days",
-          "B": "A week",
-          "C": "For weeks",
-          "D": "A month"
+          "A": "No one follows rules",
+          "B": "Authority must be enforced physically",
+          "C": "Magic users are weak",
+          "D": "Legitimate authority can be respected voluntarily when people recognize it as just"
         },
-        "answer": "C",
-        "explanation": "Sometimes Antonio carried the same sandwich around for weeks."
+        "answer": "D",
+        "explanation": "Bini Aru 'had never seen Ozma, but he knew she was his ruler and must be obeyed' - showing voluntary respect for legitimate, recognized authority."
       },
       {
         "id": 50,
         "difficulty": "hard",
-        "question": "What color are the splashes of paint on the training machine's head?",
+        "question": "The villain's plan to swap humans and animals comments on social hierarchies by suggesting that ---.",
         "options": {
-          "A": "Blue",
-          "B": "Red",
-          "C": "Yellow",
-          "D": "Green"
+          "A": "it doesn't comment on anything",
+          "B": "categories like 'civilized' vs 'beast' are arbitrary and could be reversed",
+          "C": "only magic matters in determining status",
+          "D": "animals are inherently better than people"
         },
         "answer": "B",
-        "explanation": "The training machine had a rusty head dotted with two splashes of red paint."
+        "explanation": "The plan to make 'beasts into men and women' and 'people of Oz into beasts' suggests the distinction between them is not natural but a matter of circumstance."
       },
       {
         "id": 51,
         "difficulty": "hard",
-        "question": "What triggers the peanut butter idea for Sam?",
+        "question": "Ruggedo's fear of eggs serves what narrative purpose?",
         "options": {
-          "A": "Lucy suggests it",
-          "B": "Antonio's sandwich falls into the mouth",
-          "C": "He remembers a science lesson",
-          "D": "Mr. Nekobe tells him"
+          "A": "Eggs are sacred in Oz",
+          "B": "It establishes his vulnerability and foreshadows how he might eventually be defeated",
+          "C": "It's only for comic relief",
+          "D": "He's allergic to eggs"
         },
         "answer": "B",
-        "explanation": "When Antonio's lucky peanut butter sandwich slips from his pocket and splatters against the chair teeth, Sam gets the idea."
+        "explanation": "The specific weakness to eggs (which previously helped defeat him) provides both humor and a potential solution to the threat he poses."
       },
       {
         "id": 52,
         "difficulty": "hard",
-        "question": "What sound does the school make through the lunchroom speaker?",
+        "question": "The phrase 'it's the fashion to kick kings nowadays' reflects what about when Baum wrote this?",
         "options": {
-          "A": "A high-pitched scream",
-          "B": "A deep moaning sound",
-          "C": "Loud banging",
-          "D": "A whisper"
+          "A": "It references the decline of monarchies in the early 20th century, particularly around World War I",
+          "B": "It's pure fantasy with no historical connection",
+          "C": "Baum personally disliked all kings",
+          "D": "It has no historical significance"
         },
-        "answer": "B",
-        "explanation": "A deep moaning sound comes from a speaker on the wall - Eerie Elementary is howling."
+        "answer": "A",
+        "explanation": "Written in 1919, this references the fall of monarchies (German, Austrian, Russian empires) during and after World War I."
       },
       {
         "id": 53,
         "difficulty": "hard",
-        "question": "What explodes in the lunchroom as Sam tries to reach the kitchen?",
+        "question": "Why does Kiki memorize the magic word rather than just keeping the paper?",
         "options": {
-          "A": "Light bulbs",
-          "B": "Packages of cookies",
-          "C": "Bottles of juice",
-          "D": "All of the above"
+          "A": "His father told him to",
+          "B": "He can't read",
+          "C": "A bird cannot carry paper, so he must memorize it to transform back",
+          "D": "The paper was destroyed"
         },
-        "answer": "D",
-        "explanation": "Packages of cookies exploded, tables flipped, and light bulbs shattered as Sam crossed the lunchroom."
+        "answer": "C",
+        "explanation": "Kiki realizes 'a bird would have no way to carry a paper with it, and Kiki would be unable to resume his proper shape if he forgot the word.'"
       },
       {
         "id": 54,
         "difficulty": "hard",
-        "question": "How does Sam clear a path down the hallway with the peanut butter drum?",
+        "question": "The sparrow's role in the story represents ---.",
         "options": {
-          "A": "He carries it",
-          "B": "He throws it",
-          "C": "He rolls and pushes it",
-          "D": "He kicks it"
+          "A": "a spy for Ozma",
+          "B": "Kiki's secret friend",
+          "C": "a moral conscience warning against wickedness, and a witness to wrongdoing",
+          "D": "just a random bird with no significance"
         },
         "answer": "C",
-        "explanation": "Sam rolls the drum out through the lunchroom door and gives it a heavy push, letting it barrel down the hall."
+        "explanation": "The sparrow witnesses Kiki's crime and warns 'You'll be sorry for this' - representing a moral voice that the villains dismiss."
       },
       {
         "id": 55,
         "difficulty": "hard",
-        "question": "What happens to the chair mouth after being gummed up with peanut butter?",
+        "question": "What irony exists in Kiki saying he 'always wanted to be wicked but didn't know how'?",
         "options": {
-          "A": "It explodes",
-          "B": "It slips back down through the trapdoor",
-          "C": "It turns to stone",
-          "D": "It disappears"
+          "A": "He's joking",
+          "B": "There's no irony",
+          "C": "Wickedness is natural to everyone",
+          "D": "It suggests wickedness must be learned, contradicting the idea that it's innate"
         },
-        "answer": "B",
-        "explanation": "The sticky mouth slips back down through the trapdoor, the trapdoor closes, and the floor returns to normal."
+        "answer": "D",
+        "explanation": "Kiki's statement implies wickedness is a skill to be acquired, ironically suggesting his current evil acts are a kind of education in wrongdoing."
       },
       {
         "id": 56,
         "difficulty": "hard",
-        "question": "What did the two large windows look like at the end of the story?",
+        "question": "Ruggedo's failed search for 'magic tools' reveals what about his understanding of magic?",
         "options": {
-          "A": "Like eyes watching them",
-          "B": "Like a smile",
-          "C": "Like hands",
-          "D": "Like a face"
+          "A": "He expects magic to require physical implements, showing he doesn't understand Kiki's word-based power",
+          "B": "Tools are unnecessary for any magic",
+          "C": "He's just being thorough",
+          "D": "He found the tools but pretended not to"
         },
         "answer": "A",
-        "explanation": "Two large windows were open, and inside, two lights burned like eyes, watching the three best friends."
+        "explanation": "Ruggedo 'searched everywhere for the magic tool' because his own magic 'had to have certain tools' - he can't conceive of magic as simply speaking a word."
       },
       {
         "id": 57,
         "difficulty": "hard",
-        "question": "How many teeth does the giant chair mouth eventually have?",
+        "question": "The fact that animals can talk in Oz contributes to the transformation rules by ---.",
         "options": {
-          "A": "Fifty teeth",
-          "B": "A hundred teeth",
-          "C": "Two hundred teeth",
-          "D": "A thousand teeth"
+          "A": "enabling transformations into any creature while maintaining the ability to speak and change back",
+          "B": "having no special significance",
+          "C": "only allowing certain animals to be transformed",
+          "D": "making the rules confusing"
         },
-        "answer": "B",
-        "explanation": "The mouth was made of hundreds of folding chairs that together formed a hundred teeth."
+        "answer": "A",
+        "explanation": "Because 'all beasts and birds can talk in the Land of Oz,' one can safely transform into any creature and still speak the word to return."
       },
       {
         "id": 58,
         "difficulty": "hard",
-        "question": "What is wrapped around Antonio when the chair mouth almost gets him?",
+        "question": "The title 'Royal Historian of Oz' that Baum uses suggests what about his relationship to his fictional world?",
         "options": {
-          "A": "His cape",
-          "B": "Two of the teeth had hold of his green pants",
-          "C": "Ropes",
-          "D": "Wires"
+          "A": "He's making a joke",
+          "B": "He actually visited Oz",
+          "C": "It positions him not as creator but as chronicler, enhancing the illusion that Oz is real",
+          "D": "It's his official government title"
         },
-        "answer": "B",
-        "explanation": "Two of the teeth had hold of Antonio's green pants, and he was about to be eaten alive."
+        "answer": "C",
+        "explanation": "By calling himself 'Royal Historian of Oz,' Baum plays the role of someone recording real events, making the fantasy feel more authentic."
       },
       {
         "id": 59,
         "difficulty": "hard",
-        "question": "What does Sam shout to distract the chair mouth from Antonio?",
+        "question": "Why does Ruggedo agree to Kiki's condition of not knowing the magic word?",
         "options": {
-          "A": "Look over here!",
-          "B": "Hey! Eerie Elementary! Are you hungry?",
-          "C": "Stop!",
-          "D": "Help me!"
+          "A": "He doesn't care about magic",
+          "B": "He trusts Kiki completely",
+          "C": "He believes he can spy on Kiki and learn the secret anyway",
+          "D": "He gave up trying to learn it"
         },
-        "answer": "B",
-        "explanation": "Sam shouts 'Hey, Eerie Elementary, are you hungry?' which causes the mouth to turn away from Antonio."
+        "answer": "C",
+        "explanation": "Ruggedo agrees because 'he decided that he could, by careful watching and listening, surprise the boy's secret' - he plans to learn it through espionage."
       },
       {
         "id": 60,
         "difficulty": "hard",
-        "question": "What change does Sam notice in his feelings about the hall monitor sash at the end?",
+        "question": "Mount Munch's isolation has thematic significance because it represents how ---.",
         "options": {
-          "A": "He still hates it",
-          "B": "He has a sudden urge to put it on",
-          "C": "He throws it away",
-          "D": "He gives it to Antonio"
+          "A": "isolation can breed discontent (Kiki's unhappiness) but also preserve secrets (the magic word)",
+          "B": "mountains are important geographic features in Oz",
+          "C": "it simply protects the Hyups from outsiders",
+          "D": "it's just geography with no deeper meaning"
         },
-        "answer": "B",
-        "explanation": "Sam has a sudden urge to put on the hall monitor sash that he had been embarrassed to wear before."
+        "answer": "A",
+        "explanation": "The isolation makes Kiki unhappy but also allows Bini Aru to keep his magical secret hidden - showing isolation's dual nature as both prison and protection."
       }
     ]
   },
   "There_Was_an_Old_Lady_Who_Swallowed_Fly_Guy": {
-    "book_title": "There Was an Old Lady Who Swallowed Fly Guy",
+    "title": "There Was an Old Lady Who Swallowed Fly Guy",
     "author": "Tedd Arnold",
     "genre": "Humor / Early Reader",
     "book_level": {
       "grade": 2,
-      "description": "Level 2.0"
+      "description": "Early reader level - humorous adaptation of classic nursery rhyme"
     },
     "total_questions": 15,
     "questions": [
@@ -8709,19 +8490,6 @@ const quizData = {
       {
         "id": 2,
         "difficulty": "easy",
-        "question": "What unusual pet does Buzz have?",
-        "options": {
-          "A": "A spider",
-          "B": "A fly",
-          "C": "A bee",
-          "D": "A cricket"
-        },
-        "answer": "B",
-        "explanation": "Buzz has a pet fly named Fly Guy."
-      },
-      {
-        "id": 3,
-        "difficulty": "easy",
         "question": "What is the fly's name?",
         "options": {
           "A": "Buzz",
@@ -8733,182 +8501,196 @@ const quizData = {
         "explanation": "The fly is named Fly Guy."
       },
       {
-        "id": 4,
+        "id": 3,
         "difficulty": "easy",
-        "question": "Who does Buzz go to visit?",
+        "question": "Who did Buzz go to visit?",
         "options": {
-          "A": "His friend",
+          "A": "His mother",
           "B": "His grandma",
-          "C": "His teacher",
-          "D": "His aunt"
+          "C": "His friend",
+          "D": "His teacher"
         },
         "answer": "B",
-        "explanation": "Buzz goes to visit his grandma, and Fly Guy goes too."
+        "explanation": "Buzz went to visit his grandma, and Fly Guy went too."
+      },
+      {
+        "id": 4,
+        "difficulty": "easy",
+        "question": "How did Grandma feel when she saw Buzz?",
+        "options": {
+          "A": "Angry",
+          "B": "Sad",
+          "C": "Happy",
+          "D": "Scared"
+        },
+        "answer": "C",
+        "explanation": "Grandma was happy to see Buzz and ran to hug him."
       },
       {
         "id": 5,
         "difficulty": "easy",
-        "question": "What does Grandma accidentally do when she runs to hug Buzz?",
+        "question": "What happened to Fly Guy when Grandma hugged Buzz?",
         "options": {
-          "A": "Falls down",
-          "B": "Swallows Fly Guy",
-          "C": "Drops her glasses",
-          "D": "Trips over a rug"
+          "A": "He flew away",
+          "B": "Grandma swallowed him",
+          "C": "He hid in Buzz's pocket",
+          "D": "He went home"
         },
         "answer": "B",
-        "explanation": "Grandma runs to hug Buzz and accidentally swallows Fly Guy."
+        "explanation": "When Grandma hugged Buzz, she accidentally swallowed Fly Guy."
       },
       {
         "id": 6,
         "difficulty": "medium",
-        "question": "What does Grandma swallow to catch Fly Guy?",
+        "question": "When Fly Guy went down into Grandma's stomach, he found himself in ---.",
         "options": {
-          "A": "A bird",
-          "B": "A cat",
-          "C": "A spider",
-          "D": "A dog"
+          "A": "a bright sunny place",
+          "B": "a deep dark hole with a wet place at the bottom",
+          "C": "a small room",
+          "D": "a garden"
         },
-        "answer": "C",
-        "explanation": "Grandma swallows a spider to catch Fly Guy."
+        "answer": "B",
+        "explanation": "Fly Guy went down a deep dark hole and came to a wet place at the bottom."
       },
       {
         "id": 7,
         "difficulty": "medium",
-        "question": "What animal does Grandma swallow to catch the bird?",
+        "question": "After swallowing Fly Guy, Grandma swallowed a spider because ---.",
         "options": {
-          "A": "A dog",
-          "B": "A cat",
-          "C": "A horse",
-          "D": "A goat"
+          "A": "she was hungry",
+          "B": "she wanted to catch Fly Guy",
+          "C": "she liked spiders",
+          "D": "it was an accident"
         },
         "answer": "B",
-        "explanation": "Grandma swallows a cat to catch the bird."
+        "explanation": "Grandma swallowed a spider to catch Fly Guy."
       },
       {
         "id": 8,
         "difficulty": "medium",
-        "question": "What is the order of animals Grandma swallows after the spider?",
+        "question": "What did Grandma swallow to catch the spider?",
         "options": {
-          "A": "Bird, cat, dog, goat, cow",
-          "B": "Cat, bird, dog, cow, goat",
-          "C": "Dog, cat, bird, goat, cow",
-          "D": "Bird, dog, cat, goat, cow"
+          "A": "a fly",
+          "B": "a bird",
+          "C": "a worm",
+          "D": "a frog"
         },
-        "answer": "A",
-        "explanation": "Grandma swallows a spider, then bird, cat, dog, goat, and cow."
+        "answer": "B",
+        "explanation": "She swallowed a bird to catch the spider."
       },
       {
         "id": 9,
         "difficulty": "medium",
-        "question": "What animal was Grandma about to swallow when the story changes?",
+        "question": "The order of animals Grandma swallowed to catch Fly Guy was: spider, bird, cat, dog, ---.",
         "options": {
-          "A": "A cow",
-          "B": "A horse",
-          "C": "An elephant",
-          "D": "A pig"
+          "A": "cow, horse",
+          "B": "goat, cow",
+          "C": "pig, cow",
+          "D": "sheep, cow"
         },
         "answer": "B",
-        "explanation": "Grandma was about to swallow a horse to catch the cow."
+        "explanation": "After the dog, Grandma swallowed a goat, then a cow."
       },
       {
         "id": 10,
         "difficulty": "medium",
-        "question": "What does Fly Guy find at the bottom of the deep dark hole inside Grandma?",
+        "question": "Grandma was about to swallow a horse, but then ---.",
         "options": {
-          "A": "A dry place",
-          "B": "A wet place",
-          "C": "A warm place",
-          "D": "A dark cave"
+          "A": "she fell asleep",
+          "B": "Fly Guy came out",
+          "C": "the horse ran away",
+          "D": "Buzz stopped her"
         },
         "answer": "B",
-        "explanation": "At the bottom of the hole, Fly Guy comes to a wet place."
+        "explanation": "Before Grandma could swallow the horse, Fly Guy came out."
       },
       {
         "id": 11,
         "difficulty": "hard",
-        "question": "How does the story end?",
+        "question": "Why is this story funny?",
         "options": {
-          "A": "Everyone stays inside Grandma",
-          "B": "All the animals come out",
-          "C": "Grandma goes to the doctor",
-          "D": "Fly Guy stays lost"
+          "A": "Because Buzz has a strange name",
+          "B": "Because the idea of swallowing bigger animals to catch smaller ones is silly and impossible",
+          "C": "Because Grandma is old",
+          "D": "Because flies are funny"
         },
         "answer": "B",
-        "explanation": "All the animals come out of Grandma, and everyone lives happily ever after."
+        "explanation": "The humor comes from the absurd chain of swallowing bigger and bigger animals, which is impossible in real life."
       },
       {
         "id": 12,
         "difficulty": "hard",
-        "question": "What does Fly Guy do when he wants to leave the wet place inside Grandma?",
+        "question": "What does this story teach about solving problems?",
         "options": {
-          "A": "Calls for help",
-          "B": "Starts going up the hole",
-          "C": "Falls asleep",
-          "D": "Finds a door"
+          "A": "Always ask for help",
+          "B": "Sometimes simple solutions work better than complicated ones that make things worse",
+          "C": "Animals can solve problems",
+          "D": "Grandmas know best"
         },
         "answer": "B",
-        "explanation": "After looking around for a while, Fly Guy wants to leave and starts going up the hole."
+        "explanation": "Each animal Grandma swallows creates a bigger problem, showing that making solutions more complicated doesn't always help."
       },
       {
         "id": 13,
         "difficulty": "hard",
-        "question": "Why was Grandma happy to see Buzz?",
+        "question": "This story is based on a famous nursery rhyme. What makes this version special?",
         "options": {
-          "A": "He brought her food",
-          "B": "She missed him",
-          "C": "It was her birthday",
-          "D": "He was helping her"
+          "A": "It uses dinosaurs",
+          "B": "It features Fly Guy as the main character and has a happy ending",
+          "C": "It is set in space",
+          "D": "It has no animals"
         },
         "answer": "B",
-        "explanation": "Grandma was happy to see Buzz and ran to hug him."
+        "explanation": "This version puts Fly Guy in the old nursery rhyme and gives it a happy ending where everyone comes out safely."
       },
       {
         "id": 14,
         "difficulty": "hard",
-        "question": "According to the story, why does Buzz have a pet fly?",
+        "question": "Why might the author have chosen a fly as Buzz's pet?",
         "options": {
-          "A": "He found it",
-          "B": "It was a gift",
-          "C": "No one knows why",
-          "D": "He bought it"
+          "A": "Because flies are cute",
+          "B": "Because having a fly as a pet is unusual and surprising, which adds to the humor",
+          "C": "Because flies are easy to take care of",
+          "D": "Because flies are colorful"
         },
-        "answer": "C",
-        "explanation": "The story says 'No one knows why he had a pet fly.'"
+        "answer": "B",
+        "explanation": "A fly is an unusual pet choice, which makes the story funny and surprising from the very beginning."
       },
       {
         "id": 15,
         "difficulty": "hard",
-        "question": "This story is a parody of what famous nursery rhyme?",
+        "question": "What is the meaning of the ending 'they lived happily ever after'?",
         "options": {
-          "A": "Old MacDonald",
-          "B": "There Was an Old Lady Who Swallowed a Fly",
-          "C": "Mary Had a Little Lamb",
-          "D": "Humpty Dumpty"
+          "A": "Grandma got a pet fly too",
+          "B": "Everyone, including Fly Guy and all the animals, survived and were okay",
+          "C": "Buzz moved in with Grandma",
+          "D": "The horse became a pet"
         },
         "answer": "B",
-        "explanation": "The story is based on 'There Was an Old Lady Who Swallowed a Fly' but features Fly Guy instead."
+        "explanation": "The happy ending shows that Fly Guy and all the animals that came out of Grandma were fine, ending the silly adventure on a positive note."
       }
     ]
   },
   "Warriors_Into_the_Wild": {
-    "book_title": "Warriors: Into the Wild",
+    "title": "Warriors: Into the Wild",
     "author": "Erin Hunter",
+    "series": "Warriors Book 1",
     "genre": "Fantasy Adventure",
     "book_level": {
       "grade": 5,
-      "description": "Upper elementary to middle school - fantasy adventure with cat warriors, clan dynamics, and themes of loyalty"
+      "description": "Middle grade fantasy - epic cat warrior saga with complex world-building"
     },
     "total_questions": 60,
     "questions": [
       {
         "id": 1,
         "difficulty": "easy",
-        "question": "What was Rusty's original life before joining ThunderClan?",
+        "question": "What was Rusty before joining ThunderClan?",
         "options": {
-          "A": "He was a wild forest cat",
-          "B": "He was a kittypet (house cat)",
-          "C": "He was a RiverClan warrior",
-          "D": "He was born in ThunderClan"
+          "A": "A wild forest cat",
+          "B": "A kittypet (house cat)",
+          "C": "A RiverClan warrior",
+          "D": "A stray cat"
         },
         "answer": "B",
         "explanation": "Rusty was a kittypet, a house cat who lived with twolegs (humans) before joining ThunderClan."
@@ -8924,7 +8706,7 @@ const quizData = {
           "D": "Flamepaw"
         },
         "answer": "C",
-        "explanation": "After joining ThunderClan, Rusty is given the apprentice name Firepaw 'in honor of his flame-colored coat.'"
+        "explanation": "Bluestar names him Firepaw 'in honor of his flame-colored coat.'"
       },
       {
         "id": 3,
@@ -8942,7 +8724,7 @@ const quizData = {
       {
         "id": 4,
         "difficulty": "easy",
-        "question": "What is Firepaw's best friend named?",
+        "question": "Who is Firepaw's best friend in ThunderClan?",
         "options": {
           "A": "Ravenpaw",
           "B": "Graypaw",
@@ -8950,49 +8732,10 @@ const quizData = {
           "D": "Dustpaw"
         },
         "answer": "B",
-        "explanation": "Graypaw is Firepaw's best friend, a gray apprentice who welcomes him to ThunderClan."
+        "explanation": "Graypaw is Firepaw's best friend, a gray apprentice who first attacked him in the forest."
       },
       {
         "id": 5,
-        "difficulty": "easy",
-        "question": "What happens to Rusty's collar during his fight with Longtail?",
-        "options": {
-          "A": "It stays on safely",
-          "B": "Longtail removes it gently",
-          "C": "It snaps and breaks off",
-          "D": "Bluestar cuts it off"
-        },
-        "answer": "C",
-        "explanation": "During the fight, Longtail tugged on the collar and it snapped, freeing Rusty."
-      },
-      {
-        "id": 6,
-        "difficulty": "easy",
-        "question": "Which clan fights over Sunning Rocks with ThunderClan?",
-        "options": {
-          "A": "ShadowClan",
-          "B": "WindClan",
-          "C": "RiverClan",
-          "D": "SkyClan"
-        },
-        "answer": "C",
-        "explanation": "RiverClan and ThunderClan fight over the Sunning Rocks territory."
-      },
-      {
-        "id": 7,
-        "difficulty": "easy",
-        "question": "Who is the medicine cat of ThunderClan?",
-        "options": {
-          "A": "Yellowfang",
-          "B": "Spottedleaf",
-          "C": "Frostfur",
-          "D": "Goldenflower"
-        },
-        "answer": "B",
-        "explanation": "Spottedleaf is ThunderClan's medicine cat, described as pretty with a tortoiseshell coat."
-      },
-      {
-        "id": 8,
         "difficulty": "easy",
         "question": "What do the cats call humans?",
         "options": {
@@ -9005,9 +8748,22 @@ const quizData = {
         "explanation": "The cats call humans 'twolegs' because they walk on two legs."
       },
       {
-        "id": 9,
+        "id": 6,
         "difficulty": "easy",
-        "question": "Who was ThunderClan's deputy that died?",
+        "question": "What is the name of ThunderClan's medicine cat at the beginning?",
+        "options": {
+          "A": "Yellowfang",
+          "B": "Spottedleaf",
+          "C": "Frostfur",
+          "D": "Goldenflower"
+        },
+        "answer": "B",
+        "explanation": "Spottedleaf is ThunderClan's medicine cat, described as a tortoiseshell she-cat."
+      },
+      {
+        "id": 7,
+        "difficulty": "easy",
+        "question": "Who was ThunderClan's deputy that died in the battle at Sunning Rocks?",
         "options": {
           "A": "Tigerclaw",
           "B": "Lionheart",
@@ -9015,10 +8771,10 @@ const quizData = {
           "D": "Whitestorm"
         },
         "answer": "C",
-        "explanation": "Redtail was ThunderClan's deputy who died during a battle with RiverClan."
+        "explanation": "Redtail was ThunderClan's deputy who died during the battle with RiverClan at Sunning Rocks."
       },
       {
-        "id": 10,
+        "id": 8,
         "difficulty": "easy",
         "question": "What is the name of the warrior ancestors' spirit world?",
         "options": {
@@ -9031,7 +8787,20 @@ const quizData = {
         "explanation": "StarClan is where warrior ancestors go after death and watch over the living clans."
       },
       {
-        "id": 11,
+        "id": 9,
+        "difficulty": "easy",
+        "question": "Which clan fights over Sunning Rocks with ThunderClan?",
+        "options": {
+          "A": "ShadowClan",
+          "B": "WindClan",
+          "C": "RiverClan",
+          "D": "SkyClan"
+        },
+        "answer": "C",
+        "explanation": "RiverClan and ThunderClan fight over the Sunning Rocks territory."
+      },
+      {
+        "id": 10,
         "difficulty": "easy",
         "question": "Who becomes ThunderClan's new deputy after Redtail dies?",
         "options": {
@@ -9044,85 +8813,124 @@ const quizData = {
         "explanation": "Tigerclaw becomes the new deputy of ThunderClan after Redtail's death."
       },
       {
+        "id": 11,
+        "difficulty": "easy",
+        "question": "What was Graypaw's role when he first met Rusty?",
+        "options": {
+          "A": "He was hunting mice",
+          "B": "He attacked Rusty as an intruder",
+          "C": "He was on patrol with Bluestar",
+          "D": "He was sleeping"
+        },
+        "answer": "B",
+        "explanation": "Graypaw attacked Rusty, thinking he was an intruder in ThunderClan territory."
+      },
+      {
         "id": 12,
         "difficulty": "easy",
-        "question": "What was Ravenpaw's mentor?",
+        "question": "What color is Rusty's fur?",
         "options": {
-          "A": "Bluestar",
-          "B": "Lionheart",
-          "C": "Tigerclaw",
-          "D": "Whitestorm"
+          "A": "Gray",
+          "B": "Black",
+          "C": "Orange/ginger",
+          "D": "White"
         },
         "answer": "C",
-        "explanation": "Tigerclaw was Ravenpaw's mentor, training him as an apprentice."
+        "explanation": "Rusty has orange/ginger fur, which is why he's named Firepaw for his 'flame-colored coat.'"
       },
       {
         "id": 13,
         "difficulty": "easy",
-        "question": "What color is Graypaw's fur?",
+        "question": "Who is Graypaw's mentor?",
         "options": {
-          "A": "Orange like fire",
-          "B": "Black as night",
-          "C": "Gray like shadows",
-          "D": "White like snow"
+          "A": "Bluestar",
+          "B": "Tigerclaw",
+          "C": "Lionheart",
+          "D": "Whitestorm"
         },
         "answer": "C",
-        "explanation": "Graypaw has gray fur, as his name suggests."
+        "explanation": "Lionheart is Graypaw's mentor, training him to be a warrior."
       },
       {
         "id": 14,
         "difficulty": "easy",
-        "question": "Who is the deputy of RiverClan?",
+        "question": "What happens to Rusty's collar during his fight with Longtail?",
         "options": {
-          "A": "Brokenstar",
-          "B": "Oakheart",
-          "C": "Crookedstar",
-          "D": "Blackfoot"
+          "A": "It stays on safely",
+          "B": "Longtail removes it gently",
+          "C": "It snaps and breaks off",
+          "D": "Bluestar cuts it off"
         },
-        "answer": "B",
-        "explanation": "Oakheart is the deputy of RiverClan, described as one of the greatest warriors in the forest."
+        "answer": "C",
+        "explanation": "During the fight, Longtail tugged on the collar and it snapped, freeing Rusty."
       },
       {
         "id": 15,
         "difficulty": "easy",
-        "question": "What happened to Frostfur's kits?",
+        "question": "What is Smudge?",
         "options": {
-          "A": "They ran away from home",
-          "B": "They were kidnapped by ShadowClan",
-          "C": "They got lost in the forest",
-          "D": "They were taken by twolegs"
+          "A": "A ThunderClan cat",
+          "B": "Rusty's kittypet friend",
+          "C": "A RiverClan warrior",
+          "D": "A mouse"
         },
         "answer": "B",
-        "explanation": "Frostfur's kits were stolen by ShadowClan, and Firepaw helped rescue them."
+        "explanation": "Smudge is Rusty's black and white kittypet friend who warns him about the dangerous woods."
       },
       {
         "id": 16,
         "difficulty": "easy",
-        "question": "Who was the leader of ShadowClan?",
+        "question": "What did Rusty dream about before going into the forest?",
         "options": {
-          "A": "Blackfoot",
-          "B": "Brokenstar",
-          "C": "Tigerclaw",
-          "D": "Raggedstar"
+          "A": "Fighting other cats",
+          "B": "Hunting a mouse",
+          "C": "Swimming in a river",
+          "D": "Flying through trees"
         },
         "answer": "B",
-        "explanation": "Brokenstar was the cruel leader of ShadowClan who was eventually driven out."
+        "explanation": "Rusty dreamed about hunting a mouse in the forest, but it escaped each time."
       },
       {
         "id": 17,
         "difficulty": "easy",
-        "question": "What is Firepaw's warrior name at the end of the book?",
+        "question": "What does Graypaw say kittypets eat?",
         "options": {
-          "A": "Firestar",
-          "B": "Fireclaw",
-          "C": "Fireheart",
-          "D": "Firefur"
+          "A": "Fresh mice",
+          "B": "Pellets that look like rabbit droppings",
+          "C": "Fish from rivers",
+          "D": "Birds"
         },
-        "answer": "C",
-        "explanation": "At the end of the book, Firepaw earns his warrior name 'Fireheart.'"
+        "answer": "B",
+        "explanation": "Graypaw mocks kittypet food as 'pellets that look like rabbit droppings and soft slop.'"
       },
       {
         "id": 18,
+        "difficulty": "easy",
+        "question": "What is the prophecy Spottedleaf receives?",
+        "options": {
+          "A": "Water will flood the forest",
+          "B": "Fire alone can save our clan",
+          "C": "Darkness will destroy all clans",
+          "D": "A leader will fall"
+        },
+        "answer": "B",
+        "explanation": "Spottedleaf receives the prophecy 'Fire alone can save our clan' from StarClan."
+      },
+      {
+        "id": 19,
+        "difficulty": "easy",
+        "question": "Who is Oakheart?",
+        "options": {
+          "A": "ThunderClan's deputy",
+          "B": "RiverClan's deputy",
+          "C": "ShadowClan's leader",
+          "D": "WindClan's medicine cat"
+        },
+        "answer": "B",
+        "explanation": "Oakheart is RiverClan's deputy who fights Tigerclaw at Sunning Rocks."
+      },
+      {
+        "id": 20,
         "difficulty": "easy",
         "question": "What must new warriors do the night they receive their names?",
         "options": {
@@ -9135,550 +8943,524 @@ const quizData = {
         "explanation": "New warriors must sit in silent vigil until dawn, guarding the camp while others sleep."
       },
       {
-        "id": 19,
-        "difficulty": "easy",
-        "question": "What is Graystripe's warrior name (formerly Graypaw)?",
-        "options": {
-          "A": "Grayfur",
-          "B": "Grayclaw",
-          "C": "Graystripe",
-          "D": "Graytail"
-        },
-        "answer": "C",
-        "explanation": "Graypaw receives the warrior name 'Graystripe' at the same ceremony as Fireheart."
-      },
-      {
-        "id": 20,
-        "difficulty": "easy",
-        "question": "What happened to Spottedleaf?",
-        "options": {
-          "A": "She retired peacefully",
-          "B": "She was killed by Clawface",
-          "C": "She joined ShadowClan",
-          "D": "She became leader"
-        },
-        "answer": "B",
-        "explanation": "Spottedleaf was killed by Clawface, a ShadowClan warrior, during the kit kidnapping."
-      },
-      {
         "id": 21,
         "difficulty": "medium",
-        "question": "Why does Bluestar say the snapping of Rusty's collar is significant?",
+        "question": "Bluestar offered Rusty a place in ThunderClan because ---.",
         "options": {
-          "A": "It shows he is physically strong",
-          "B": "StarClan has spoken its approval, releasing him from twoleg ownership",
-          "C": "It proves he can survive without twolegs",
-          "D": "It means Longtail accepts him"
+          "A": "she needed someone to do chores",
+          "B": "she was impressed by his fighting and hunting ability",
+          "C": "Graypaw asked her to",
+          "D": "Lionheart recommended him"
         },
         "answer": "B",
-        "explanation": "Bluestar declares that StarClan has spoken its approval by the collar snapping, symbolically releasing Rusty from his life as a kittypet."
+        "explanation": "Bluestar says 'You fight well for a twoleg pet' and 'You do seem to have a natural hunting ability.'"
       },
       {
         "id": 22,
         "difficulty": "medium",
-        "question": "What does Firepaw do with his broken collar after the fight?",
+        "question": "Graypaw told Rusty that kittypets could never understand wild life because ---.",
         "options": {
-          "A": "He keeps it as a reminder",
-          "B": "He gives it to Bluestar",
-          "C": "He kicks dust and grass over it, like burying dirt",
-          "D": "He throws it out of camp"
+          "A": "they are too weak to fight",
+          "B": "they need to be born with warrior blood in their veins",
+          "C": "they can't climb trees",
+          "D": "they don't like mice"
         },
-        "answer": "C",
-        "explanation": "Firepaw kicks dust and grass over his collar 'as though burying his dirt,' symbolizing his complete commitment to clan life."
+        "answer": "B",
+        "explanation": "Graypaw says 'You need to be born with warrior blood in your veins or the feel of the wind in your whiskers.'"
       },
       {
         "id": 23,
         "difficulty": "medium",
-        "question": "What lie does Firepaw tell about Ravenpaw?",
+        "question": "Bluestar was deeply troubled after the Sunning Rocks battle because ---.",
         "options": {
-          "A": "That he joined ShadowClan willingly",
-          "B": "That he was killed by a ShadowClan patrol",
-          "C": "That he became a kittypet",
-          "D": "That he is hiding in the forest"
+          "A": "she lost her favorite warrior",
+          "B": "ThunderClan had not been beaten in its own territory since she became leader",
+          "C": "the medicine cat was injured",
+          "D": "she wanted to retire"
         },
         "answer": "B",
-        "explanation": "Firepaw lies that Ravenpaw was killed by a ShadowClan patrol to protect him from Tigerclaw."
+        "explanation": "Bluestar says 'ThunderClan has not been beaten in its own territory since I became leader.'"
       },
       {
         "id": 24,
         "difficulty": "medium",
-        "question": "Where did Ravenpaw actually go?",
+        "question": "Rusty felt his collar was uncomfortable because ---.",
         "options": {
-          "A": "He joined RiverClan for protection",
-          "B": "He went to live on a farm catching rats with Barley",
-          "C": "He hid in the tunnels underground",
-          "D": "He went to live with twolegs"
+          "A": "it was too loose",
+          "B": "it rubbed and pinched his neck",
+          "C": "it was made of metal",
+          "D": "it had a bell that hurt his ears"
         },
         "answer": "B",
-        "explanation": "Ravenpaw went to live on a farm 'far beyond the forest, catching rats with Barley.'"
+        "explanation": "The text says 'His collar rubbed uncomfortably around his neck.'"
       },
       {
         "id": 25,
         "difficulty": "medium",
-        "question": "What proof cleared Yellowfang of killing Spottedleaf?",
+        "question": "When Rusty's collar snapped during the fight, Bluestar declared that ---.",
         "options": {
-          "A": "She had an alibi from other cats",
-          "B": "Brown fur (not gray) was found in Spottedleaf's claws",
-          "C": "Clawface confessed to the murder",
-          "D": "Brokenstar admitted ordering the killing"
+          "A": "Longtail had won the fight",
+          "B": "StarClan has spoken its approval",
+          "C": "Rusty should go back home",
+          "D": "the fight was unfair"
         },
         "answer": "B",
-        "explanation": "Graypaw suggested checking Spottedleaf's claws, which contained brown fur from Clawface, not Yellowfang's gray fur."
+        "explanation": "Bluestar says the collar snapping means 'StarClan has spoken its approval.'"
       },
       {
         "id": 26,
         "difficulty": "medium",
-        "question": "What position does Yellowfang receive at the end of the book?",
+        "question": "Smudge warned Rusty about the woods because ---.",
         "options": {
-          "A": "Deputy of ThunderClan",
-          "B": "Elder of ThunderClan",
-          "C": "Medicine Cat of ThunderClan",
-          "D": "Queen of ThunderClan"
+          "A": "he had been there himself many times",
+          "B": "Henry told him there are huge wild cats who eat rabbits and sharpen claws on bones",
+          "C": "a dog chased him there once",
+          "D": "his owner forbade him from going"
         },
-        "answer": "C",
-        "explanation": "Bluestar asks Yellowfang to replace Spottedleaf as Medicine Cat to ThunderClan."
+        "answer": "B",
+        "explanation": "Smudge says 'Henry told me there are all sorts of dangerous animals... huge wild cats who eat live rabbits.'"
       },
       {
         "id": 27,
         "difficulty": "medium",
-        "question": "Why does Tigerclaw dislike Firepaw?",
+        "question": "Bluestar explained that ThunderClan needs more warriors because ---.",
         "options": {
-          "A": "Because Firepaw defeated him in battle",
-          "B": "Because Firepaw is a former kittypet and not truly a forest cat",
-          "C": "Because Firepaw stole his prey",
-          "D": "Because Bluestar favors Firepaw"
+          "A": "many warriors had joined other clans",
+          "B": "late newleaf means prey is scarce and there have been fewer kits",
+          "C": "Tigerclaw requested more apprentices",
+          "D": "the leader wanted a bigger army"
         },
         "answer": "B",
-        "explanation": "Tigerclaw repeatedly calls Firepaw 'kittypet' scornfully and believes clan cats should be wild-born."
+        "explanation": "Bluestar says 'The season of New Leaf is late, and there have been fewer kits.'"
       },
       {
         "id": 28,
         "difficulty": "medium",
-        "question": "What threat does Tigerclaw whisper to Fireheart during the vigil?",
+        "question": "Rusty escaped from Graypaw's attack by ---.",
         "options": {
-          "A": "He will tell everyone Firepaw's secret",
-          "B": "He will challenge Firepaw to a fight",
-          "C": "He warns Firepaw to be careful what he tells Bluestar",
-          "D": "He promises to exile Firepaw"
+          "A": "running away immediately",
+          "B": "flipping onto his back to knock the breath out of Graypaw",
+          "C": "biting Graypaw's tail",
+          "D": "calling for help"
         },
-        "answer": "C",
-        "explanation": "Tigerclaw hisses 'Don't think you can outwit me, kittypet. Be careful what you tell Bluestar.'"
+        "answer": "B",
+        "explanation": "Rusty 'flipped over onto his back' and 'heard a hoof beneath him as the breath was knocked out of his attacker.'"
       },
       {
         "id": 29,
         "difficulty": "medium",
-        "question": "Who was Firepaw's mentor in ThunderClan?",
+        "question": "Bluestar warned Rusty that if he stayed a kittypet, he would eventually ---.",
         "options": {
-          "A": "Tigerclaw",
-          "B": "Whitestorm",
-          "C": "Lionheart and later Bluestar",
-          "D": "Darkstripe"
+          "A": "become bored with his life",
+          "B": "be taken to the cutter and become like fat, lazy Henry",
+          "C": "run out of food",
+          "D": "be abandoned by his owners"
         },
-        "answer": "C",
-        "explanation": "Lionheart was Firepaw's first mentor, but after Lionheart died, Bluestar took over his training."
+        "answer": "B",
+        "explanation": "Bluestar mentions 'the cutter' and Rusty thinks of Henry who 'had become fat and lazy since his visit to the vet.'"
       },
       {
         "id": 30,
         "difficulty": "medium",
-        "question": "What surrounds the Land of Oz according to the cats' world?",
+        "question": "Lionheart told Rusty that joining ThunderClan meant he must ---.",
         "options": {
-          "A": "Mountains and rivers",
-          "B": "A thunderpath (road)",
-          "C": "A deadly sandy desert",
-          "D": "The ocean"
+          "A": "visit his old home whenever he wants",
+          "B": "live with them and never return to his twoleg place",
+          "C": "bring food from his owners",
+          "D": "spy on other clans"
         },
-        "answer": "C",
-        "explanation": "The cats' territory is surrounded by a deadly sandy desert that separates the fairy Land of Oz from all the rest of the world."
+        "answer": "B",
+        "explanation": "Lionheart says 'You must either live with us... or return to your twoleg place and never come back.'"
       },
       {
         "id": 31,
         "difficulty": "medium",
-        "question": "What was the prophecy that Spottedleaf received about Firepaw?",
+        "question": "Rusty's mouse escaped during his dream because ---.",
         "options": {
-          "A": "He will destroy the clans",
-          "B": "Fire alone can save our clan",
-          "C": "He will become leader someday",
-          "D": "He will unite all four clans"
+          "A": "another cat scared it away",
+          "B": "the sound of food being poured into his dish woke him",
+          "C": "it was too fast for him",
+          "D": "he fell asleep"
         },
         "answer": "B",
-        "explanation": "Spottedleaf received a prophecy that 'fire alone can save our clan,' referring to Firepaw."
+        "explanation": "The noise was 'the rattle of hard, dried pellets of food as they were tipped into his dish.'"
       },
       {
         "id": 32,
         "difficulty": "medium",
-        "question": "Why was Brokenstar's leadership considered terrible for ShadowClan?",
+        "question": "During the Sunning Rocks battle, Tigerclaw saved Mousefur by ---.",
         "options": {
-          "A": "He made peace with all other clans",
-          "B": "He trained kits as warriors too young and drove out elders",
-          "C": "He refused to fight any battles",
-          "D": "He gave away all their territory"
+          "A": "carrying her to safety",
+          "B": "knocking away the RiverClan tom who had pinned her",
+          "C": "calling for help from other warriors",
+          "D": "creating a distraction"
         },
         "answer": "B",
-        "explanation": "Brokenstar's cruel leadership trained kits too young and drove out elders, leaving ShadowClan 'in chaos.'"
+        "explanation": "Tigerclaw 'let go of Oakheart' and 'with a mighty leap, he knocked the enemy warrior away from the she-cat.'"
       },
       {
         "id": 33,
         "difficulty": "medium",
-        "question": "What did Whitestorm promise ShadowClan after they defeated Brokenstar?",
+        "question": "Redtail ordered ThunderClan to retreat because ---.",
         "options": {
-          "A": "To take their territory",
-          "B": "To leave them in peace until the next full moon",
-          "C": "To send medicine cat help",
-          "D": "To provide them with food"
+          "A": "he was a coward",
+          "B": "there were too many RiverClan warriors to fight",
+          "C": "Bluestar called them back",
+          "D": "it started raining"
         },
         "answer": "B",
-        "explanation": "Whitestorm promised ShadowClan they would be left in peace until next full moon so they could recover."
+        "explanation": "Redtail says 'This is useless! There are too many RiverClan warriors!' and 'we cannot afford to lose any more warriors.'"
       },
       {
         "id": 34,
         "difficulty": "medium",
-        "question": "What happens to Longtail's ear during his fight with Firepaw?",
+        "question": "Rusty impressed Bluestar with his hunting because ---.",
         "options": {
-          "A": "Nothing happens to it",
-          "B": "It gets badly torn",
-          "C": "It falls completely off",
-          "D": "It gets bitten through"
+          "A": "he caught a huge mouse",
+          "B": "she noticed he would have caught the mouse if he hadn't hesitated",
+          "C": "he tracked a fox successfully",
+          "D": "he brought her a gift"
         },
         "answer": "B",
-        "explanation": "Longtail's left ear was badly torn during the fight, and blood dripped down his shoulders."
+        "explanation": "Bluestar says 'You would have caught that mouse if you had not hesitated so long.'"
       },
       {
         "id": 35,
         "difficulty": "medium",
-        "question": "What does Graypaw say about Spottedleaf?",
+        "question": "Graypaw described ShadowClan as ---.",
         "options": {
-          "A": "She is old and strict",
-          "B": "She is younger and prettier than most medicine cats",
-          "C": "She is scary and unfriendly",
-          "D": "She used to be a warrior"
+          "A": "friendly and welcoming cats",
+          "B": "so fierce they would rip you to shreds with no questions asked",
+          "C": "the weakest of all clans",
+          "D": "cats who never fight"
         },
         "answer": "B",
-        "explanation": "Graypaw describes Spottedleaf as 'Not bad looking, either. Younger and a lot prettier than most.'"
+        "explanation": "Graypaw says ShadowClan is 'so fierce, they would have ripped you to shreds. No questions asked.'"
       },
       {
         "id": 36,
         "difficulty": "medium",
-        "question": "What are Silverpelt's stars according to the cats?",
+        "question": "Bluestar got angry at Rusty when he suggested ---.",
         "options": {
-          "A": "Random lights in the sky",
-          "B": "Reflections of the sun",
-          "C": "The spirits of StarClan warriors",
-          "D": "Natural phenomena with no meaning"
+          "A": "joining another clan",
+          "B": "there's enough prey to go around for everyone",
+          "C": "she was too old to lead",
+          "D": "the forest was boring"
         },
-        "answer": "C",
-        "explanation": "Silverpelt is the swath of stars that represents StarClan, the warrior ancestors."
+        "answer": "B",
+        "explanation": "When Rusty says 'I'm sure there's enough to go around,' Bluestar's eyes blaze with anger: 'There's never enough to go around.'"
       },
       {
         "id": 37,
         "difficulty": "medium",
-        "question": "Who alerted the camp about Ravenpaw's return?",
+        "question": "After his first real hunt, Rusty's mouse escaped because ---.",
         "options": {
-          "A": "Tigerclaw",
-          "B": "Bluestar",
-          "C": "Smallear, an old gray cat",
-          "D": "Graypaw"
+          "A": "it was too fast",
+          "B": "his bell jangled and scared it away",
+          "C": "Graypaw stole it",
+          "D": "it hid in a tree"
         },
-        "answer": "C",
-        "explanation": "Smallear, an old gray cat sitting at the edge of the clearing, smelled trouble and gave a warning yowl."
+        "answer": "B",
+        "explanation": "A noise made him jump, 'His bell jangled treacherously, and the mouse darted away.'"
       },
       {
         "id": 38,
         "difficulty": "medium",
-        "question": "What colors are RiverClan cats known for?",
+        "question": "Rusty did something unusual that Bluestar had never seen a kittypet do, which was ---.",
         "options": {
-          "A": "Orange and flame colors",
-          "B": "Gray and blue-gray",
-          "C": "Sleek fur of various colors",
-          "D": "Pure white only"
+          "A": "climb a tree",
+          "B": "turn to face Graypaw when being chased instead of running",
+          "C": "catch a bird",
+          "D": "swim across a stream"
         },
-        "answer": "C",
-        "explanation": "RiverClan cats are described as having 'sleek, wet bodies' sliding out of the water, adapted to swimming."
+        "answer": "B",
+        "explanation": "Bluestar says 'you turned to face him when he chased you. I've not seen a kittypet do that before.'"
       },
       {
         "id": 39,
         "difficulty": "medium",
-        "question": "What made Firepaw realize he felt no fear during his fight with Longtail?",
+        "question": "Rusty's owners called him back inside, but he ---.",
         "options": {
-          "A": "Bluestar told him not to be afraid",
-          "B": "He was too angry to feel anything else",
-          "C": "He only felt exhilaration during battle",
-          "D": "Graypaw was fighting alongside him"
+          "A": "ran to them immediately",
+          "B": "ignored them and kept staring at the forest",
+          "C": "meowed loudly in response",
+          "D": "hid under a bush"
         },
-        "answer": "C",
-        "explanation": "During the fight, Firepaw 'was suddenly aware that he felt no fear, only exhilaration.'"
+        "answer": "B",
+        "explanation": "Rusty 'ignored his owner's voices and turned his gaze back to the forest.'"
       },
       {
         "id": 40,
         "difficulty": "medium",
-        "question": "What does Darkstripe say to Firepaw after his fight with Longtail?",
+        "question": "Graypaw told Rusty that until he had tasted fresh-killed mouse, he ---.",
         "options": {
-          "A": "He congratulates Firepaw warmly",
-          "B": "He says Firepaw was lucky the collar snapped when it did",
-          "C": "He welcomes Firepaw to the clan",
-          "D": "He offers to be Firepaw's mentor"
+          "A": "couldn't be a warrior",
+          "B": "hadn't lived",
+          "C": "wasn't a real cat",
+          "D": "couldn't join ThunderClan"
         },
         "answer": "B",
-        "explanation": "Darkstripe says 'Lucky your collar snapped when it did. Longtail is a young warrior, but I can't imagine him being beaten by a kittypet.'"
+        "explanation": "Graypaw says 'Until you've tasted a fresh-killed mouse, you haven't lived.'"
       },
       {
         "id": 41,
         "difficulty": "hard",
-        "question": "What deeper meaning does Bluestar hint at when she names Firepaw?",
+        "question": "Why does Bluestar's gaze 'flash briefly' when she names Rusty 'Firepaw'?",
         "options": {
-          "A": "She thinks all orange cats should have fire names",
-          "B": "Her words about fire have more meaning connected to the prophecy she knows",
-          "C": "She wants to intimidate other clans",
-          "D": "Fire is simply her favorite element"
+          "A": "She doesn't like the name",
+          "B": "She remembers the prophecy 'Fire alone can save our clan'",
+          "C": "She is angry at Rusty",
+          "D": "The sun got in her eyes"
         },
         "answer": "B",
-        "explanation": "Bluestar murmurs 'You look like a brand of fire in this sunlight' and 'Her eyes flashed briefly, as if her words had more meaning for her than Rusty knew,' connecting to the prophecy."
+        "explanation": "The text says 'her words had more meaning for her than Rusty knew' - she knows the fire prophecy."
       },
       {
         "id": 42,
         "difficulty": "hard",
-        "question": "What does the loss of Rusty's collar symbolize in the story?",
+        "question": "What does Rusty burying his broken collar 'as though burying his dirt' symbolize?",
         "options": {
-          "A": "Simply losing an accessory",
-          "B": "A complete transformation from domestic pet to wild warrior",
-          "C": "Bad luck for the future",
-          "D": "Longtail's victory"
+          "A": "He is ashamed of the collar",
+          "B": "He is completely leaving his kittypet life behind",
+          "C": "He doesn't like cleaning",
+          "D": "He wants to hide evidence"
         },
         "answer": "B",
-        "explanation": "The collar breaking symbolizes Rusty shedding his kittypet identity, and he buries it 'as though burying his dirt' - a complete transformation."
+        "explanation": "Burying the collar symbolizes his total commitment to clan life and rejection of his kittypet past."
       },
       {
         "id": 43,
         "difficulty": "hard",
-        "question": "Why is Fireheart determined to expose Tigerclaw despite the danger?",
+        "question": "What does Graypaw's description of kittypet life reveal about clan cats' values?",
         "options": {
-          "A": "He wants to become deputy instead",
-          "B": "He knows Tigerclaw's treachery threatens the clan and he must protect them",
-          "C": "He's jealous of Tigerclaw's power",
-          "D": "Bluestar ordered him to"
+          "A": "They envy the comfortable life of kittypets",
+          "B": "They value freedom, hunting skills, and wild independence over comfort",
+          "C": "They want to become kittypets",
+          "D": "They don't understand kittypets at all"
         },
         "answer": "B",
-        "explanation": "Fireheart knows about Tigerclaw's treachery and feels 'Bluestar had to know' - his loyalty to the clan outweighs his personal safety."
+        "explanation": "Graypaw mocks kittypets for 'eating stuff that doesn't look like food' and 'making dirt in a box' - he values 'wild and free' life."
       },
       {
         "id": 44,
         "difficulty": "hard",
-        "question": "What does Yellowfang's acceptance as medicine cat represent?",
+        "question": "Why is it significant that Rusty felt 'no fear, only exhilaration' during his fight?",
         "options": {
-          "A": "ShadowClan's victory over ThunderClan",
-          "B": "Redemption and belonging after being wrongly accused",
-          "C": "Medicine cats are not important",
-          "D": "ThunderClan is desperate for help"
+          "A": "He was too tired to be scared",
+          "B": "It shows he has natural warrior instincts despite being a kittypet",
+          "C": "He knew he would win easily",
+          "D": "Graypaw wasn't fighting seriously"
         },
         "answer": "B",
-        "explanation": "Yellowfang, once accused of killing Spottedleaf, is cleared and welcomed as medicine cat - representing redemption. She declares 'ThunderClan is my clan now.'"
+        "explanation": "Feeling exhilaration instead of fear during battle suggests he has the warrior spirit Bluestar sees in him."
       },
       {
         "id": 45,
         "difficulty": "hard",
-        "question": "What theme does Firepaw's journey from kittypet to warrior illustrate?",
+        "question": "What theme does the contrast between Rusty's comfortable home and the wild forest represent?",
         "options": {
-          "A": "That house cats are always superior",
-          "B": "That birth doesn't determine destiny - courage and loyalty matter more",
-          "C": "That wild life is too dangerous",
-          "D": "That clans should not accept outsiders"
+          "A": "Indoor life is always better",
+          "B": "The choice between safety/comfort and freedom/purpose",
+          "C": "Cats shouldn't live with humans",
+          "D": "Forests are dangerous"
         },
         "answer": "B",
-        "explanation": "Firepaw proves that despite being kittypet-born, his courage and loyalty make him a true warrior, challenging prejudice about birth origins."
+        "explanation": "Rusty must choose between the easy life of a kittypet and the challenging but meaningful life of a warrior."
       },
       {
         "id": 46,
         "difficulty": "hard",
-        "question": "Why does Firepaw protect Ravenpaw by lying about his death?",
+        "question": "Why does Bluestar mention 'the cutter' when talking to Rusty?",
         "options": {
-          "A": "He wants Ravenpaw's position",
-          "B": "He knows Tigerclaw would hunt Ravenpaw if he knew he was alive and knew secrets",
-          "C": "Ravenpaw asked him to",
-          "D": "Bluestar ordered him to lie"
+          "A": "To scare him randomly",
+          "B": "To show him what he'll lose if he stays a kittypet - his full identity as a tom",
+          "C": "To teach him about veterinarians",
+          "D": "To make him afraid of humans"
         },
         "answer": "B",
-        "explanation": "Firepaw lies because Ravenpaw witnessed Tigerclaw's treachery, and Tigerclaw was already suspicious - the lie protects Ravenpaw from being hunted."
+        "explanation": "Bluestar warns that staying with twolegs means losing part of himself, like Henry who became 'fat and lazy' after the vet."
       },
       {
         "id": 47,
         "difficulty": "hard",
-        "question": "What is significant about Fireheart's final thought during his vigil?",
+        "question": "What does Lionheart's statement 'You cannot live with a paw in each world' mean?",
         "options": {
-          "A": "He wants to sleep",
-          "B": "He acknowledges Tigerclaw as an enemy and feels ready for the challenge",
-          "C": "He misses his kittypet life",
-          "D": "He wants to leave the clan"
+          "A": "Cats can't walk properly",
+          "B": "Rusty must fully commit to one life - he can't be both kittypet and warrior",
+          "C": "The forest floor is uneven",
+          "D": "Warriors can't visit twoleg places"
         },
         "answer": "B",
-        "explanation": "Fireheart thinks 'If he was destined to oppose Tigerclaw, then so be it. Fireheart was ready for the challenge' - showing his growth and resolve."
+        "explanation": "Lionheart means Rusty must choose completely - no halfway commitment is possible."
       },
       {
         "id": 48,
         "difficulty": "hard",
-        "question": "What does the warrior code represent in the clan society?",
+        "question": "What does the prophecy 'Fire alone can save our clan' suggest about Rusty's role?",
         "options": {
-          "A": "Just a list of rules to follow",
-          "B": "A sacred system of laws that governs behavior, loyalty, and honor",
-          "C": "Suggestions that can be ignored",
-          "D": "Rules only for apprentices"
+          "A": "He will burn down the forest",
+          "B": "His flame-colored fur and spirit will be crucial to ThunderClan's survival",
+          "C": "He should stay away from fire",
+          "D": "ThunderClan will face a fire disaster"
         },
         "answer": "B",
-        "explanation": "The warrior code is sacred - warriors promise to 'uphold the warrior code and to protect and defend this clan, even at the cost of your lives.'"
+        "explanation": "The prophecy connects Rusty's orange fur to 'fire' - he is destined to save the clan."
       },
       {
         "id": 49,
         "difficulty": "hard",
-        "question": "What parallel exists between Firepaw and Yellowfang's stories?",
+        "question": "Why do the clan cats repeatedly call Rusty 'kittypet' in a scornful way?",
         "options": {
-          "A": "Both are from ThunderClan originally",
-          "B": "Both are outsiders who prove their worth and loyalty to ThunderClan",
-          "C": "Both want to become leader",
-          "D": "Both hate Tigerclaw"
+          "A": "They think it's a compliment",
+          "B": "Being a kittypet represents weakness and dependence in their culture",
+          "C": "They forgot his name",
+          "D": "It's just a nickname"
         },
         "answer": "B",
-        "explanation": "Both Firepaw (a kittypet) and Yellowfang (from ShadowClan) are outsiders who face suspicion but prove themselves loyal to ThunderClan."
+        "explanation": "Clan cats see kittypets as soft, overfed, and lacking the warrior spirit they value."
       },
       {
         "id": 50,
         "difficulty": "hard",
-        "question": "What does Bluestar's decision to accept Rusty suggest about leadership?",
+        "question": "What does Rusty's recurring dream about hunting mice suggest about his character?",
         "options": {
-          "A": "Leaders should only trust tradition",
-          "B": "Good leaders see potential in others regardless of their background",
-          "C": "Leaders should fear prophecies",
-          "D": "Kittypets always make good warriors"
+          "A": "He's always hungry",
+          "B": "He has natural hunting instincts yearning for a wilder life",
+          "C": "He watches too much TV",
+          "D": "He doesn't like his cat food"
         },
         "answer": "B",
-        "explanation": "Bluestar sees past Rusty's kittypet origins to his potential, acting on the prophecy and her own judgment rather than clan prejudice."
+        "explanation": "The dreams show Rusty has warrior instincts even before meeting the clan - he's drawn to the wild."
       },
       {
         "id": 51,
         "difficulty": "hard",
-        "question": "Why is the prologue battle scene between ThunderClan and RiverClan important?",
+        "question": "Why is it ironic that Tigerclaw, who saved Mousefur in battle, later becomes suspicious?",
         "options": {
-          "A": "It shows cats like to fight",
-          "B": "It establishes the dangerous world Rusty will enter and introduces key characters like Tigerclaw",
-          "C": "It's just action for entertainment",
-          "D": "It introduces the main villain"
+          "A": "He doesn't remember saving her",
+          "B": "His heroic actions contrast with darker intentions the story hints at",
+          "C": "Mousefur doesn't thank him",
+          "D": "He wanted a reward"
         },
         "answer": "B",
-        "explanation": "The prologue establishes the violent, tribal nature of clan life and introduces Tigerclaw as a fierce warrior, setting up the world Rusty will join."
+        "explanation": "Tigerclaw appears heroic but hints suggest he has darker motives - making his heroism ironic."
       },
       {
         "id": 52,
         "difficulty": "hard",
-        "question": "What does Tigerclaw's accusation of Yellowfang reveal about his character?",
+        "question": "What does the clan's strict territorial rules reveal about their society?",
         "options": {
-          "A": "He cares about justice",
-          "B": "He uses accusations to manipulate and eliminate threats to his power",
-          "C": "He's simply mistaken",
-          "D": "He's trying to help the clan"
+          "A": "They are unfriendly",
+          "B": "Survival depends on protecting limited resources in a competitive environment",
+          "C": "They enjoy fighting",
+          "D": "They have too much land"
         },
         "answer": "B",
-        "explanation": "Tigerclaw's quick accusation of Yellowfang shows he uses suspicion to eliminate potential threats - part of his manipulative, power-hungry nature."
+        "explanation": "Bluestar explains prey is scarce and 'there's never enough to go around' - territory means survival."
       },
       {
         "id": 53,
         "difficulty": "hard",
-        "question": "What conflict is set up for future books by the ending?",
+        "question": "What does Smudge's character represent in contrast to Rusty?",
         "options": {
-          "A": "War between all four clans",
-          "B": "Fireheart's knowledge of Tigerclaw's treachery and their mutual enmity",
-          "C": "Finding a new home",
-          "D": "Choosing a new leader"
+          "A": "A better fighter",
+          "B": "A cat content with comfortable kittypet life who fears the unknown",
+          "C": "Rusty's enemy",
+          "D": "A future warrior"
         },
         "answer": "B",
-        "explanation": "The ending establishes the ongoing conflict: Fireheart knows Tigerclaw's secrets, Tigerclaw knows Fireheart is a threat, and they are now enemies."
+        "explanation": "Smudge is afraid of the woods and happy as a kittypet - the opposite of Rusty's adventurous spirit."
       },
       {
         "id": 54,
         "difficulty": "hard",
-        "question": "What does the silent vigil tradition symbolize?",
+        "question": "Why does Bluestar watch Rusty from the forest before meeting him?",
         "options": {
-          "A": "Punishment for new warriors",
-          "B": "The serious responsibility of protecting the clan that warriors accept",
-          "C": "A chance to rest before duties",
-          "D": "Time to plan future battles"
+          "A": "She was lost",
+          "B": "She was evaluating his potential as the 'fire' in the prophecy",
+          "C": "She wanted to steal his food",
+          "D": "She was hiding from enemies"
         },
         "answer": "B",
-        "explanation": "The vigil symbolizes the warrior's duty to protect - new warriors guard the clan in silence, demonstrating their commitment to their new responsibilities."
+        "explanation": "Bluestar says she's 'often seen you sitting on your boundary, staring out into the forest' - she was assessing him."
       },
       {
         "id": 55,
         "difficulty": "hard",
-        "question": "How does the author use animal society to comment on human themes?",
+        "question": "What does Graypaw's immediate friendliness after attacking Rusty reveal?",
         "options": {
-          "A": "Cats are just entertaining characters",
-          "B": "The clan system explores loyalty, prejudice, power, and what makes a true hero",
-          "C": "There are no deeper themes",
-          "D": "Cats are meant to represent specific people"
+          "A": "He has memory problems",
+          "B": "Clan cats can respect an opponent who fights well, separating battle from personal feelings",
+          "C": "He was never really fighting",
+          "D": "He recognized Rusty"
         },
         "answer": "B",
-        "explanation": "Through the cat clans, Hunter explores prejudice (kittypet vs forest-born), corrupt leadership, loyalty, and the idea that actions define us more than birth."
+        "explanation": "Graypaw says 'You put up quite a fight for a tame kitty' with admiration - he respects Rusty's spirit."
       },
       {
         "id": 56,
         "difficulty": "hard",
-        "question": "What irony exists in Tigerclaw becoming deputy?",
+        "question": "What theme does the warrior code represent in clan society?",
         "options": {
-          "A": "He didn't want the position",
-          "B": "The cat who likely killed Redtail now holds the position Redtail held",
-          "C": "He's too young for it",
-          "D": "He was forced into it"
+          "A": "Just rules to follow",
+          "B": "A sacred system of honor, loyalty, and duty that holds the clan together",
+          "C": "Punishment for wrongdoers",
+          "D": "A way to exclude outsiders"
         },
         "answer": "B",
-        "explanation": "The irony is that Tigerclaw, who is suspected of killing Redtail, takes Redtail's position as deputy - rewarded for his treachery."
+        "explanation": "The code governs all behavior and warriors promise to 'protect and defend this clan, even at the cost of your lives.'"
       },
       {
         "id": 57,
         "difficulty": "hard",
-        "question": "What does Fireheart's transformation from 'naive young cat' to warrior show?",
+        "question": "Why might Bluestar's decision to accept a kittypet be controversial?",
         "options": {
-          "A": "Time passes in the story",
-          "B": "Characters must change to survive new environments",
-          "C": "Cats grow quickly",
-          "D": "He was always strong"
+          "A": "Kittypets are too expensive",
+          "B": "Clan tradition says warriors should be forest-born, not former pets",
+          "C": "She didn't ask permission",
+          "D": "Kittypets can't hunt"
         },
         "answer": "B",
-        "explanation": "Fireheart reflects he is 'not the same naive young cat' - he has grown 'bigger, stronger, faster, and wiser,' showing necessary adaptation and growth."
+        "explanation": "Graypaw says 'kittypets can't be warriors' because they lack 'warrior blood' - Bluestar breaks tradition."
       },
       {
         "id": 58,
         "difficulty": "hard",
-        "question": "Why is the prophecy 'fire alone can save our clan' significant to Bluestar's decisions?",
+        "question": "What does the phrase 'the feel of the wind in your whiskers' represent?",
         "options": {
-          "A": "She likes fire as an element",
-          "B": "It justifies her controversial choice to accept a kittypet",
-          "C": "She doesn't believe prophecies",
-          "D": "It has no effect on her choices"
+          "A": "Bad weather",
+          "B": "The freedom and wild instincts that define a true warrior",
+          "C": "A disease",
+          "D": "Cold temperatures"
         },
         "answer": "B",
-        "explanation": "The prophecy gives Bluestar confidence that accepting Rusty, despite clan tradition against kittypets, is the right choice for ThunderClan's survival."
+        "explanation": "Graypaw uses this phrase to describe the wild spirit that kittypets supposedly lack."
       },
       {
         "id": 59,
         "difficulty": "hard",
-        "question": "What does the recurring theme of 'scent' represent in the warrior world?",
+        "question": "What does Henry's transformation after visiting the vet foreshadow for Rusty?",
         "options": {
-          "A": "Just biological accuracy",
-          "B": "Identity, territory, and the ability to distinguish friend from enemy",
-          "C": "Cats like smells",
-          "D": "A random detail"
+          "A": "Rusty will also get fat",
+          "B": "The same fate awaits Rusty if he stays a kittypet - losing his wild spirit",
+          "C": "Henry will join ThunderClan",
+          "D": "Vets are dangerous enemies"
         },
         "answer": "B",
-        "explanation": "Scent marks territory, identifies clan membership, and reveals emotions (fear) - it's central to warrior society's structure and conflicts."
+        "explanation": "Henry becoming 'fat and lazy' after the vet shows what Rusty would become - Bluestar warns him of this."
       },
       {
         "id": 60,
         "difficulty": "hard",
-        "question": "What does Fireheart looking at Tigerclaw 'without blinking' at the end symbolize?",
+        "question": "What is the overall message about destiny versus choice in Rusty's story?",
         "options": {
-          "A": "He is tired and staring blankly",
-          "B": "His refusal to back down and accept Tigerclaw's intimidation",
-          "C": "He doesn't know how to blink",
-          "D": "He's scared of Tigerclaw"
+          "A": "Destiny controls everything",
+          "B": "Though prophecy suggests his fate, Rusty still must choose to embrace his potential",
+          "C": "Choices don't matter",
+          "D": "Kittypets have no destiny"
         },
         "answer": "B",
-        "explanation": "Not blinking is a sign of defiance in cat body language - Fireheart 'stared back without blinking' shows he won't be intimidated by Tigerclaw."
+        "explanation": "The prophecy points to Rusty, but he must actively choose to leave his comfortable life and become a warrior."
       }
     ]
   }

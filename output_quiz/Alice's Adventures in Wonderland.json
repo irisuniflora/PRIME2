@@ -1,0 +1,792 @@
+{
+  "title": "Alice's Adventures in Wonderland",
+  "author": "Lewis Carroll",
+  "genre": "Fantasy/Children's Literature",
+  "book_level": {
+    "grade": 5,
+    "description": "Upper Elementary to Middle School"
+  },
+  "total_questions": 60,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "What was Alice doing at the beginning of the story?",
+      "options": {
+        "A": "Reading a book with her sister",
+        "B": "Sitting by her sister on the bank",
+        "C": "Playing with her cat Dinah",
+        "D": "Having tea with the Hatter"
+      },
+      "answer": "B",
+      "explanation": "Alice was sitting by her sister on the bank, getting tired of having nothing to do."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "What color eyes did the White Rabbit have?",
+      "options": {
+        "A": "Blue",
+        "B": "Red",
+        "C": "Pink",
+        "D": "White"
+      },
+      "answer": "C",
+      "explanation": "The story describes 'a white rabbit with pink eyes' running close by Alice."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "What did the White Rabbit take out of its waistcoat pocket?",
+      "options": {
+        "A": "A key",
+        "B": "A fan",
+        "C": "A watch",
+        "D": "A letter"
+      },
+      "answer": "C",
+      "explanation": "The rabbit took a watch out of its waistcoat pocket and looked at it."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "What was the name of Alice's cat?",
+      "options": {
+        "A": "Mabel",
+        "B": "Dinah",
+        "C": "Ada",
+        "D": "Mary"
+      },
+      "answer": "B",
+      "explanation": "Alice's cat was named Dinah, whom she mentions missing during her fall."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "What label was on the bottle Alice found on the glass table?",
+      "options": {
+        "A": "Poison",
+        "B": "Eat Me",
+        "C": "Drink Me",
+        "D": "Magic"
+      },
+      "answer": "C",
+      "explanation": "The bottle had a paper label with the words 'Drink Me' beautifully printed in large letters."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "What was written on the cake Alice found?",
+      "options": {
+        "A": "Drink Me",
+        "B": "Eat Me",
+        "C": "Try Me",
+        "D": "Taste Me"
+      },
+      "answer": "B",
+      "explanation": "The words 'Eat Me' were beautifully marked in currants on the cake."
+    },
+    {
+      "id": 7,
+      "difficulty": "easy",
+      "question": "What type of cat is the Cheshire Cat?",
+      "options": {
+        "A": "A Persian cat",
+        "B": "A Cheshire cat belonging to the Duchess",
+        "C": "Alice's pet cat",
+        "D": "The Queen's cat"
+      },
+      "answer": "B",
+      "explanation": "The Duchess tells Alice 'It's a Cheshire Cat' when Alice asks why it grins."
+    },
+    {
+      "id": 8,
+      "difficulty": "easy",
+      "question": "Who was smoking a hookah on top of the mushroom?",
+      "options": {
+        "A": "The Cheshire Cat",
+        "B": "The Dodo",
+        "C": "The Caterpillar",
+        "D": "The Mock Turtle"
+      },
+      "answer": "C",
+      "explanation": "Alice found a large Caterpillar sitting on top of a mushroom, smoking a long hookah."
+    },
+    {
+      "id": 9,
+      "difficulty": "easy",
+      "question": "What were the gardeners painting the roses?",
+      "options": {
+        "A": "White",
+        "B": "Red",
+        "C": "Pink",
+        "D": "Yellow"
+      },
+      "answer": "B",
+      "explanation": "The three gardeners were busily painting the white roses red."
+    },
+    {
+      "id": 10,
+      "difficulty": "easy",
+      "question": "What did the Queen frequently shout?",
+      "options": {
+        "A": "Off with their heads!",
+        "B": "Guards, seize them!",
+        "C": "To the dungeon!",
+        "D": "Bring me tea!"
+      },
+      "answer": "A",
+      "explanation": "The Queen constantly shouted 'Off with his head!' or 'Off with her head!' about once a minute."
+    },
+    {
+      "id": 11,
+      "difficulty": "easy",
+      "question": "What were used as croquet balls in the Queen's game?",
+      "options": {
+        "A": "Painted balls",
+        "B": "Hedgehogs",
+        "C": "Mushrooms",
+        "D": "Turtles"
+      },
+      "answer": "B",
+      "explanation": "In the Queen's croquet game, the balls were live hedgehogs."
+    },
+    {
+      "id": 12,
+      "difficulty": "easy",
+      "question": "What were used as croquet mallets?",
+      "options": {
+        "A": "Walking sticks",
+        "B": "Flamingos",
+        "C": "Umbrellas",
+        "D": "Wooden clubs"
+      },
+      "answer": "B",
+      "explanation": "The mallets were live flamingos that Alice had to tuck under her arm."
+    },
+    {
+      "id": 13,
+      "difficulty": "easy",
+      "question": "What animal did the Duchess's baby turn into?",
+      "options": {
+        "A": "A cat",
+        "B": "A dog",
+        "C": "A pig",
+        "D": "A rabbit"
+      },
+      "answer": "C",
+      "explanation": "The baby gradually turned into a pig while Alice was carrying it."
+    },
+    {
+      "id": 14,
+      "difficulty": "easy",
+      "question": "Who was always falling asleep at the tea party?",
+      "options": {
+        "A": "The Hatter",
+        "B": "The March Hare",
+        "C": "The Dormouse",
+        "D": "Alice"
+      },
+      "answer": "C",
+      "explanation": "The Dormouse was sitting between them fast asleep and kept dozing off throughout."
+    },
+    {
+      "id": 15,
+      "difficulty": "easy",
+      "question": "What did the Mock Turtle used to be?",
+      "options": {
+        "A": "A fish",
+        "B": "A real turtle",
+        "C": "A lobster",
+        "D": "A crab"
+      },
+      "answer": "B",
+      "explanation": "The Mock Turtle said with a deep sigh, 'Once I was a real turtle.'"
+    },
+    {
+      "id": 16,
+      "difficulty": "easy",
+      "question": "What did the Knave of Hearts steal?",
+      "options": {
+        "A": "The Queen's crown",
+        "B": "Some tarts",
+        "C": "The King's watch",
+        "D": "Alice's key"
+      },
+      "answer": "B",
+      "explanation": "The accusation read: 'The Knave of Hearts, he stole those tarts.'"
+    },
+    {
+      "id": 17,
+      "difficulty": "easy",
+      "question": "How tall was Alice when she was too small to reach the key?",
+      "options": {
+        "A": "Three inches",
+        "B": "Ten inches",
+        "C": "Two feet",
+        "D": "One foot"
+      },
+      "answer": "B",
+      "explanation": "After drinking from the bottle, Alice was only ten inches high."
+    },
+    {
+      "id": 18,
+      "difficulty": "easy",
+      "question": "Who organized the Caucus Race?",
+      "options": {
+        "A": "The Mouse",
+        "B": "The Duck",
+        "C": "The Dodo",
+        "D": "The Lory"
+      },
+      "answer": "C",
+      "explanation": "The Dodo said 'the best thing is to get us dry would be a Caucus Race' and organized it."
+    },
+    {
+      "id": 19,
+      "difficulty": "easy",
+      "question": "What did Alice give as prizes after the Caucus Race?",
+      "options": {
+        "A": "Flowers",
+        "B": "Comfits (candies)",
+        "C": "Coins",
+        "D": "Cakes"
+      },
+      "answer": "B",
+      "explanation": "Alice pulled out a box of comfits from her pocket and handed them round as prizes."
+    },
+    {
+      "id": 20,
+      "difficulty": "easy",
+      "question": "Who was Bill in the story?",
+      "options": {
+        "A": "A frog footman",
+        "B": "A guinea pig",
+        "C": "A lizard",
+        "D": "A fish"
+      },
+      "answer": "C",
+      "explanation": "Bill was a lizard who was sent down the chimney and later was a juror at the trial."
+    },
+    {
+      "id": 21,
+      "difficulty": "medium",
+      "question": "When Alice drank from the bottle, she found it tasted like ---.",
+      "options": {
+        "A": "water with a hint of lemon",
+        "B": "a mixed flavor of cherry tart, custard, pineapple, roast turkey, toffee, and hot buttered toast",
+        "C": "sweet honey and milk",
+        "D": "bitter medicine with sugar"
+      },
+      "answer": "B",
+      "explanation": "The drink had 'a sort of mixed flavor of cherry tart, custard, pineapple, roast turkey, toffee, and hot buttered toast.'"
+    },
+    {
+      "id": 22,
+      "difficulty": "medium",
+      "question": "The Pool of Tears was created when ---.",
+      "options": {
+        "A": "it rained inside the hall",
+        "B": "Alice cried while she was nine feet tall",
+        "C": "the White Rabbit spilled water",
+        "D": "the Caterpillar made it with magic"
+      },
+      "answer": "B",
+      "explanation": "Alice realized 'she was in the pool of tears which she had wept when she was nine feet high.'"
+    },
+    {
+      "id": 23,
+      "difficulty": "medium",
+      "question": "The Mouse became angry with Alice because she kept mentioning ---.",
+      "options": {
+        "A": "her sister",
+        "B": "the White Rabbit",
+        "C": "cats and dogs",
+        "D": "food and drink"
+      },
+      "answer": "C",
+      "explanation": "The Mouse got upset when Alice mentioned her cat Dinah and then a dog, saying 'our family always hated cats' and swimming away from talk of dogs."
+    },
+    {
+      "id": 24,
+      "difficulty": "medium",
+      "question": "The Caterpillar told Alice that one side of the mushroom would make her grow taller and ---.",
+      "options": {
+        "A": "the other side would make her invisible",
+        "B": "the other side would make her grow shorter",
+        "C": "the top would make her fly",
+        "D": "the bottom would make her disappear"
+      },
+      "answer": "B",
+      "explanation": "The Caterpillar said 'One side will make you grow taller, and the other side will make you grow shorter.'"
+    },
+    {
+      "id": 25,
+      "difficulty": "medium",
+      "question": "The Pigeon accused Alice of being ---.",
+      "options": {
+        "A": "a thief trying to steal eggs",
+        "B": "a serpent because of her long neck",
+        "C": "a witch from the forest",
+        "D": "a spy for the Queen"
+      },
+      "answer": "B",
+      "explanation": "When Alice's neck stretched very long, the Pigeon screamed 'Serpent!' and accused her of coming to eat eggs."
+    },
+    {
+      "id": 26,
+      "difficulty": "medium",
+      "question": "At the Mad Tea Party, the Hatter asked Alice ---.",
+      "options": {
+        "A": "if she wanted more tea",
+        "B": "why a raven is like a writing-desk",
+        "C": "what time it was",
+        "D": "where she came from"
+      },
+      "answer": "B",
+      "explanation": "The Hatter asked 'Why is a raven like a writing-desk?' as a riddle with no answer."
+    },
+    {
+      "id": 27,
+      "difficulty": "medium",
+      "question": "The Hatter said it was always six o'clock because ---.",
+      "options": {
+        "A": "his watch was broken",
+        "B": "he had quarreled with Time",
+        "C": "the Queen had cursed him",
+        "D": "the March Hare stopped all clocks"
+      },
+      "answer": "B",
+      "explanation": "The Hatter said 'he won't do a thing I ask' about Time, ever since they quarreled at the Queen's concert."
+    },
+    {
+      "id": 28,
+      "difficulty": "medium",
+      "question": "The gardeners were painting the roses red because ---.",
+      "options": {
+        "A": "the Queen preferred red roses",
+        "B": "they had planted a white rose tree by mistake and would be beheaded if the Queen found out",
+        "C": "there was a painting competition",
+        "D": "white roses were considered unlucky"
+      },
+      "answer": "B",
+      "explanation": "The gardener explained 'this here ought to have been a red-rose tree, and we put a white one in by mistake, and if the Queen was to find out, we should all have our heads cut off.'"
+    },
+    {
+      "id": 29,
+      "difficulty": "medium",
+      "question": "The Cheshire Cat's most distinctive feature was that it could ---.",
+      "options": {
+        "A": "speak multiple languages",
+        "B": "disappear leaving only its grin behind",
+        "C": "change colors at will",
+        "D": "predict the future"
+      },
+      "answer": "B",
+      "explanation": "The cat 'vanished quite slowly, beginning with the end of the tail and ending with the grin, which remained some time after the rest of it had gone.'"
+    },
+    {
+      "id": 30,
+      "difficulty": "medium",
+      "question": "The Duchess kept saying everything has ---.",
+      "options": {
+        "A": "a price",
+        "B": "a moral",
+        "C": "a meaning",
+        "D": "a secret"
+      },
+      "answer": "B",
+      "explanation": "The Duchess said 'everything's got a moral, if only you can find it' and kept adding morals to everything."
+    },
+    {
+      "id": 31,
+      "difficulty": "medium",
+      "question": "The Mock Turtle called his teacher 'Tortoise' because ---.",
+      "options": {
+        "A": "he looked like a tortoise",
+        "B": "he was very slow",
+        "C": "he taught us (taught-us sounds like tortoise)",
+        "D": "his name was Mr. Tortoise"
+      },
+      "answer": "C",
+      "explanation": "The Mock Turtle said angrily 'We called him Tortoise because he taught us.'"
+    },
+    {
+      "id": 32,
+      "difficulty": "medium",
+      "question": "The subjects at the Mock Turtle's school included ---.",
+      "options": {
+        "A": "reading, writing, and arithmetic",
+        "B": "reeling, writhing, and uglification",
+        "C": "running, swimming, and climbing",
+        "D": "singing, dancing, and painting"
+      },
+      "answer": "B",
+      "explanation": "The Mock Turtle said they learned 'Reeling and Writhing' and 'Ambition, Distraction, Uglification, and Derision.'"
+    },
+    {
+      "id": 33,
+      "difficulty": "medium",
+      "question": "When Alice grew large in the Rabbit's house, the White Rabbit thought she was ---.",
+      "options": {
+        "A": "a giant",
+        "B": "his housemaid Marianne",
+        "C": "a monster",
+        "D": "the Queen in disguise"
+      },
+      "answer": "B",
+      "explanation": "The Rabbit called out 'Why, Marianne, what are you doing out here?' and Alice thought 'He took me for his housemaid.'"
+    },
+    {
+      "id": 34,
+      "difficulty": "medium",
+      "question": "The Dormouse's story was about three sisters who lived ---.",
+      "options": {
+        "A": "in a castle in the sky",
+        "B": "at the bottom of a well",
+        "C": "inside a giant mushroom",
+        "D": "on a cloud of dreams"
+      },
+      "answer": "B",
+      "explanation": "The Dormouse began: 'Once upon a time there were three little sisters... and they lived at the bottom of a well.'"
+    },
+    {
+      "id": 35,
+      "difficulty": "medium",
+      "question": "At the trial, when asked for evidence, the cook said tarts are made mostly of ---.",
+      "options": {
+        "A": "butter",
+        "B": "pepper",
+        "C": "sugar",
+        "D": "flour"
+      },
+      "answer": "B",
+      "explanation": "When the King asked 'What are tarts made of?' the cook said 'Pepper, mostly.'"
+    },
+    {
+      "id": 36,
+      "difficulty": "medium",
+      "question": "The King's Rule 42 stated that ---.",
+      "options": {
+        "A": "all witnesses must tell the truth",
+        "B": "no one may speak without permission",
+        "C": "all persons more than a mile high must leave the court",
+        "D": "the Queen's word is final"
+      },
+      "answer": "C",
+      "explanation": "The King read 'Rule Forty-two. All persons more than a mile high to leave the court.'"
+    },
+    {
+      "id": 37,
+      "difficulty": "medium",
+      "question": "When Alice kicked Bill up the chimney, the others outside said ---.",
+      "options": {
+        "A": "Call the fire brigade!",
+        "B": "There goes Bill!",
+        "C": "The house is falling!",
+        "D": "Run for your lives!"
+      },
+      "answer": "B",
+      "explanation": "After Alice kicked, she heard a general chorus of 'There goes Bill!'"
+    },
+    {
+      "id": 38,
+      "difficulty": "medium",
+      "question": "The pebbles thrown at Alice through the window turned into ---.",
+      "options": {
+        "A": "diamonds",
+        "B": "flowers",
+        "C": "little cakes",
+        "D": "butterflies"
+      },
+      "answer": "C",
+      "explanation": "Alice noted 'that the pebbles were all turning into little cakes as they lay on the floor.'"
+    },
+    {
+      "id": 39,
+      "difficulty": "medium",
+      "question": "The Gryphon told Alice that the Queen ---.",
+      "options": {
+        "A": "was the kindest ruler in the land",
+        "B": "never actually executes anybody",
+        "C": "had magical powers",
+        "D": "was Alice's real mother"
+      },
+      "answer": "B",
+      "explanation": "The Gryphon chuckled and said 'They never execute nobody, you know.'"
+    },
+    {
+      "id": 40,
+      "difficulty": "medium",
+      "question": "The Lobster Quadrille was a dance that involved ---.",
+      "options": {
+        "A": "spinning in circles alone",
+        "B": "throwing lobsters into the sea and swimming after them",
+        "C": "hopping on one foot",
+        "D": "dancing with cards"
+      },
+      "answer": "B",
+      "explanation": "The Mock Turtle described throwing lobsters 'as far out to sea as you can' then 'swim after them.'"
+    },
+    {
+      "id": 41,
+      "difficulty": "hard",
+      "question": "Why does Alice question her own identity throughout the story?",
+      "options": {
+        "A": "She has amnesia from the fall",
+        "B": "The constant physical changes make her feel like a different person",
+        "C": "The Queen cast a spell on her",
+        "D": "She is pretending to be someone else"
+      },
+      "answer": "B",
+      "explanation": "Alice says 'being so many different sizes in a day is very confusing' and wonders 'who in the world am I?' after her transformations."
+    },
+    {
+      "id": 42,
+      "difficulty": "hard",
+      "question": "What does the Caucus Race satirize?",
+      "options": {
+        "A": "Children's games",
+        "B": "Political processes where everyone wins and nothing is accomplished",
+        "C": "Athletic competitions",
+        "D": "School examinations"
+      },
+      "answer": "B",
+      "explanation": "The race has no clear rules, no defined winner ('Everybody has won, and all must have prizes'), satirizing pointless political activities."
+    },
+    {
+      "id": 43,
+      "difficulty": "hard",
+      "question": "Why is the Mad Tea Party 'stuck' at six o'clock?",
+      "options": {
+        "A": "The clock is simply broken",
+        "B": "Time has stopped because the Hatter offended Time at the Queen's concert",
+        "C": "They prefer having tea at that time",
+        "D": "The March Hare cast a spell"
+      },
+      "answer": "B",
+      "explanation": "The Hatter quarreled with Time at the Queen's concert, and since then Time won't help him, so 'it's always six o'clock' - always tea-time."
+    },
+    {
+      "id": 44,
+      "difficulty": "hard",
+      "question": "What is ironic about the Queen's justice system?",
+      "options": {
+        "A": "She is too lenient with criminals",
+        "B": "She orders executions constantly but they are never carried out",
+        "C": "She lets Alice make all the decisions",
+        "D": "She has no real power"
+      },
+      "answer": "B",
+      "explanation": "Despite shouting 'Off with their heads!' constantly, the Gryphon reveals 'They never execute nobody' - her threats are empty."
+    },
+    {
+      "id": 45,
+      "difficulty": "hard",
+      "question": "What does Alice's statement 'You're nothing but a pack of cards!' represent?",
+      "options": {
+        "A": "Her fear of the Queen",
+        "B": "Her recognition that the authority figures have no real power over her",
+        "C": "Her confusion about reality",
+        "D": "Her desire to play games"
+      },
+      "answer": "B",
+      "explanation": "Alice finally realizes the threatening figures are just cards with no real authority, showing her growth in confidence and understanding."
+    },
+    {
+      "id": 46,
+      "difficulty": "hard",
+      "question": "Why does the Caterpillar's question 'Who are you?' frustrate Alice?",
+      "options": {
+        "A": "She cannot remember her name",
+        "B": "She has changed so much she genuinely doesn't know anymore",
+        "C": "The Caterpillar is being rude",
+        "D": "She is hiding her true identity"
+      },
+      "answer": "B",
+      "explanation": "Alice says 'I hardly know, sir... I know who I was when I got up this morning, but I think I must have been changed several times since then.'"
+    },
+    {
+      "id": 47,
+      "difficulty": "hard",
+      "question": "What does the Mock Turtle's sadness despite having 'no sorrow' suggest?",
+      "options": {
+        "A": "He is pretending to be sad",
+        "B": "Emotions in Wonderland are performed rather than genuinely felt",
+        "C": "He has forgotten why he was sad",
+        "D": "The Gryphon is lying about him"
+      },
+      "answer": "B",
+      "explanation": "The Gryphon says 'It's all his fancy, that. He hasn't got no sorrow' - suggesting emotions in Wonderland are theatrical performances."
+    },
+    {
+      "id": 48,
+      "difficulty": "hard",
+      "question": "What criticism of education is made through the Mock Turtle's school?",
+      "options": {
+        "A": "Teachers are not paid enough",
+        "B": "Schools are too expensive",
+        "C": "Education is full of confusing wordplay with questionable practical value",
+        "D": "Students should have longer holidays"
+      },
+      "answer": "C",
+      "explanation": "The punning subjects like 'Reeling and Writhing' instead of 'Reading and Writing' mock how education can be confusing and seemingly meaningless."
+    },
+    {
+      "id": 49,
+      "difficulty": "hard",
+      "question": "What does the trial scene satirize about the justice system?",
+      "options": {
+        "A": "Judges are always fair",
+        "B": "Evidence and logic are often ignored in favor of authority and absurdity",
+        "C": "Criminals always escape punishment",
+        "D": "Juries are very intelligent"
+      },
+      "answer": "B",
+      "explanation": "The trial is absurd: the jury writes before evidence, the Queen wants 'sentence first - verdict afterwards,' and meaningless verses are treated as key evidence."
+    },
+    {
+      "id": 50,
+      "difficulty": "hard",
+      "question": "Why does Alice's size constantly change throughout the story?",
+      "options": {
+        "A": "She has a medical condition",
+        "B": "It symbolizes the confusing physical and emotional changes of growing up",
+        "C": "Wonderland has unstable gravity",
+        "D": "The Queen is testing her"
+      },
+      "answer": "B",
+      "explanation": "Alice's size changes represent the confusing experience of childhood, where one feels 'too big' for some things and 'too small' for others."
+    },
+    {
+      "id": 51,
+      "difficulty": "hard",
+      "question": "What does the Duchess's obsession with finding 'morals' in everything mock?",
+      "options": {
+        "A": "People who read too many books",
+        "B": "The Victorian tendency to attach forced moral lessons to everything",
+        "C": "Religious leaders",
+        "D": "Alice's education"
+      },
+      "answer": "B",
+      "explanation": "The Duchess's forced, nonsensical morals ('the more there is of mine, the less there is of yours') parody Victorian children's literature that insisted every story have a moral."
+    },
+    {
+      "id": 52,
+      "difficulty": "hard",
+      "question": "Why does Alice check if the bottle is marked 'poison' before drinking?",
+      "options": {
+        "A": "She has been poisoned before",
+        "B": "It shows she applies real-world logic even in an illogical world",
+        "C": "Her sister warned her about strange bottles",
+        "D": "The White Rabbit told her to check"
+      },
+      "answer": "B",
+      "explanation": "Alice 'remembered the simple rules' about not drinking from bottles marked poison, showing she tries to apply sensible childhood rules to Wonderland's nonsense."
+    },
+    {
+      "id": 53,
+      "difficulty": "hard",
+      "question": "What does the Cheshire Cat's statement 'we're all mad here' suggest about Wonderland?",
+      "options": {
+        "A": "Everyone has a mental illness",
+        "B": "Madness is relative and what seems normal depends on where you are",
+        "C": "Only cats are sane",
+        "D": "Alice should leave immediately"
+      },
+      "answer": "B",
+      "explanation": "The Cat suggests madness is the norm in Wonderland, implying that 'sanity' depends on context - Alice is 'mad' by Wonderland standards too."
+    },
+    {
+      "id": 54,
+      "difficulty": "hard",
+      "question": "Why does the Mouse's 'long and sad tale' become a visual pun?",
+      "options": {
+        "A": "The Mouse is crying while telling it",
+        "B": "Alice confuses 'tale' with 'tail' and imagines it shaped like a mouse's tail",
+        "C": "The story is written in a sad tone",
+        "D": "The Dodo interrupts with jokes"
+      },
+      "answer": "B",
+      "explanation": "Alice looks at the Mouse's tail and mishears 'tale' as 'tail,' imagining the story text curving down the page like a tail."
+    },
+    {
+      "id": 55,
+      "difficulty": "hard",
+      "question": "What is significant about the Hatter's riddle having no answer?",
+      "options": {
+        "A": "He forgot the answer",
+        "B": "It reflects how Wonderland's logic doesn't require things to make sense",
+        "C": "Alice was supposed to make up the answer",
+        "D": "The March Hare knew the answer but wouldn't tell"
+      },
+      "answer": "B",
+      "explanation": "When Alice asks for the answer, the Hatter says 'I haven't the slightest idea' - in Wonderland, questions don't require sensible answers."
+    },
+    {
+      "id": 56,
+      "difficulty": "hard",
+      "question": "What is the effect of adults in Wonderland constantly giving Alice contradictory orders?",
+      "options": {
+        "A": "It helps her learn to follow instructions",
+        "B": "It mirrors how children experience adult authority as arbitrary and confusing",
+        "C": "It makes her a better person",
+        "D": "It teaches her to be obedient"
+      },
+      "answer": "B",
+      "explanation": "Alice thinks 'Everybody says come on here... I never was so ordered about in all my life' - reflecting how adult commands can seem random to children."
+    },
+    {
+      "id": 57,
+      "difficulty": "hard",
+      "question": "Why does Alice wake up at the moment she defies the Queen?",
+      "options": {
+        "A": "The dream randomly ended",
+        "B": "Her sister woke her up for tea",
+        "C": "Standing up to authority breaks the dream's hold on her",
+        "D": "The cards attacked her"
+      },
+      "answer": "C",
+      "explanation": "Alice wakes when she says 'You're nothing but a pack of cards!' - asserting herself against arbitrary authority ends her passive dreaming state."
+    },
+    {
+      "id": 58,
+      "difficulty": "hard",
+      "question": "What does the croquet game's chaos represent?",
+      "options": {
+        "A": "Alice's poor athletic skills",
+        "B": "The impossibility of playing by rules when the rules keep changing arbitrarily",
+        "C": "The Queen's love of sports",
+        "D": "English weather problems"
+      },
+      "answer": "B",
+      "explanation": "With live hedgehogs, flamingos, and moving arches, and 'no rules in particular,' the game shows how arbitrary authority makes fair play impossible."
+    },
+    {
+      "id": 59,
+      "difficulty": "hard",
+      "question": "Why does Alice's sister's daydream at the end repeat elements from Alice's adventure?",
+      "options": {
+        "A": "She fell asleep and had the same dream",
+        "B": "It shows how stories and imagination connect people across generations",
+        "C": "Wonderland is a real place both can visit",
+        "D": "She read Alice's diary"
+      },
+      "answer": "B",
+      "explanation": "The sister imagines the same scenes, suggesting how Alice's story (and childhood wonder) will be passed on, keeping 'the simple and loving heart of her childhood.'"
+    },
+    {
+      "id": 60,
+      "difficulty": "hard",
+      "question": "What is the ultimate message about childhood in Alice's Adventures in Wonderland?",
+      "options": {
+        "A": "Children should always obey adults",
+        "B": "Childhood is meaningless and should be forgotten",
+        "C": "Childhood wonder and questioning should be preserved even as we grow up",
+        "D": "Dreams are dangerous and should be avoided"
+      },
+      "answer": "C",
+      "explanation": "The ending hopes Alice 'would keep through all her riper years the simple and loving heart of her childhood' - preserving childhood's curious, questioning spirit."
+    }
+  ]
+}

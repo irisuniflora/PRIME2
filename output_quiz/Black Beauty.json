@@ -1,10 +1,10 @@
 {
   "title": "Black Beauty",
   "author": "Anna Sewell",
-  "genre": "Historical Fiction, Animal Story",
+  "genre": "Historical Fiction/Animal Story",
   "book_level": {
     "grade": 6,
-    "description": "Middle school level - Victorian literature with complex sentence structures, moral themes, and period-specific vocabulary"
+    "description": "Middle School"
   },
   "total_questions": 60,
   "questions": [
@@ -12,781 +12,781 @@
       "id": 1,
       "difficulty": "easy",
       "question": "What was Black Beauty's first home like?",
-      "options": [
-        "A small farm with chickens",
-        "A racing track stable, which played a key role",
-        "A dark stable in a city, according to the story",
-        "A large pleasant meadow with a pond"
-      ],
-      "correct_answer": "D",
-      "explanation": "Black Beauty's first memory was of a large pleasant meadow with a pond of clear water, shady trees, and water-lilies."
+      "options": {
+        "A": "A small farm with chickens",
+        "B": "A racing track stable",
+        "C": "A dark stable in a city",
+        "D": "A large pleasant meadow with a pond"
+      },
+      "answer": "D",
+      "explanation": "Black Beauty's first home was 'a large pleasant meadow with a pond of clear water in it.'"
     },
     {
       "id": 2,
       "difficulty": "easy",
-      "question": "What did Black Beauty's mother tell him about his family background?",
-      "options": [
-        "They were circus horses, worth remembering with magical properties",
-        "They were wild horses from the mountains, central to the plot",
-        "His family came from another country, essential to understand",
-        "His father had a great name and his grandfather won races at Newmarket"
-      ],
-      "correct_answer": "D",
-      "explanation": "His mother told him his father had a great name in those parts and his grandfather won the cup two years at Newmarket races."
+      "question": "What was Black Beauty's mother's name?",
+      "options": {
+        "A": "Ginger",
+        "B": "Duchess",
+        "C": "Merrylegs",
+        "D": "Flora"
+      },
+      "answer": "B",
+      "explanation": "Black Beauty's mother was named Duchess, though the master often called her Pet."
     },
     {
       "id": 3,
       "difficulty": "easy",
-      "question": "What was Black Beauty's mother's name?",
-      "options": [
-        "Duchess",
-        "Ginger",
-        "Flora",
-        "Merrylegs"
-      ],
-      "correct_answer": "A",
-      "explanation": "Black Beauty's mother was called Duchess, though the master often called her 'Pet'."
+      "question": "Why did the master call young Black Beauty 'Darky'?",
+      "options": {
+        "A": "Because he was always in the dark stable",
+        "B": "Because he was a dull black color",
+        "C": "Because he was born at night",
+        "D": "Because he liked dark places"
+      },
+      "answer": "B",
+      "explanation": "The master called him Darky because 'I was a dull black.'"
     },
     {
       "id": 4,
       "difficulty": "easy",
-      "question": "Why did the master call Black Beauty 'Darky' when he was young?",
-      "options": [
-        "Because he was born at night",
-        "Because his father was called that",
-        "Because he liked dark places",
-        "Because he was a dull black color"
-      ],
-      "correct_answer": "D",
-      "explanation": "The master called him Darky because he was a dull black color."
+      "question": "What white markings did Black Beauty have?",
+      "options": {
+        "A": "Four white feet",
+        "B": "A white tail",
+        "C": "One white foot and a white star on his forehead",
+        "D": "White spots on his back"
+      },
+      "answer": "C",
+      "explanation": "Black Beauty had 'one white foot and a pretty white star on my forehead.'"
     },
     {
       "id": 5,
       "difficulty": "easy",
-      "question": "What happened to Dick, the plough-boy who threw stones at the colts?",
-      "options": [
-        "He apologized and was forgiven, an important detail",
-        "The master gave him a box on the ear and sent him away",
-        "He was promoted to stable hand, worth remembering",
-        "He became the head groom near the ancient ruins"
-      ],
-      "correct_answer": "B",
-      "explanation": "The master caught Dick throwing stones at the colts, gave him a box on the ear, and told him he would never work on the farm again."
+      "question": "Who was the coachman at Birtwick Park?",
+      "options": {
+        "A": "James Howard",
+        "B": "John Manly",
+        "C": "Joe Green",
+        "D": "Mr. Gordon"
+      },
+      "answer": "B",
+      "explanation": "John Manly was the coachman who took excellent care of the horses."
     },
     {
       "id": 6,
       "difficulty": "easy",
-      "question": "What advice did Black Beauty's mother give him about behavior?",
-      "options": [
-        "Only obey if given treats, a crucial point",
-        "Never trust any human, a notable element",
-        "Grow up gentle and good, never bite or kick",
-        "Always run away from danger with unexpected results"
-      ],
-      "correct_answer": "C",
-      "explanation": "His mother told him to grow up gentle and good, never learn bad ways, do his work with good will, and never bite or kick even in play."
+      "question": "What was the name of the little fat gray pony?",
+      "options": {
+        "A": "Ginger",
+        "B": "Sir Oliver",
+        "C": "Merrylegs",
+        "D": "Justice"
+      },
+      "answer": "C",
+      "explanation": "Merrylegs was 'a little fat gray pony with a thick mane and tail.'"
     },
     {
       "id": 7,
       "difficulty": "easy",
-      "question": "What happened to Rob Roy during the hunt?",
-      "options": [
-        "He ran away into the woods, which played a key role",
-        "He was sold to another owner, a crucial point",
-        "He fell and broke his leg, then was shot",
-        "He won the race, as revealed in the tale"
-      ],
-      "correct_answer": "C",
-      "explanation": "Rob Roy fell at the brook, broke his leg, and had to be shot to end his suffering."
+      "question": "Why was Ginger called 'Ginger'?",
+      "options": {
+        "A": "Because she ran fast",
+        "B": "Because of her reddish-brown color",
+        "C": "Because she liked ginger treats",
+        "D": "Because she came from Ginger Farm"
+      },
+      "answer": "B",
+      "explanation": "Ginger was a chestnut mare - her name came from her reddish-brown color, like the spice ginger."
     },
     {
       "id": 8,
       "difficulty": "easy",
-      "question": "Who was Rob Roy in relation to Black Beauty?",
-      "options": [
-        "His brother",
-        "His father",
-        "His uncle",
-        "Not related"
-      ],
-      "correct_answer": "A",
-      "explanation": "John revealed that Rob Roy and Black Beauty were brothers - both were born to Farmer Grey's old Duchess."
+      "question": "What type of dragon is Ginger?",
+      "options": {
+        "A": "An earth dragon",
+        "B": "A fire dragon",
+        "C": "Ginger is a horse, not a dragon",
+        "D": "A water dragon"
+      },
+      "answer": "C",
+      "explanation": "Ginger is a tall chestnut mare (horse), not a dragon. This is a realistic story about horses."
     },
     {
       "id": 9,
       "difficulty": "easy",
-      "question": "What is the name of the small gray pony who lived next to Black Beauty at Squire Gordon's?",
-      "options": [
-        "Merrylegs",
-        "Justice",
-        "Ginger",
-        "Sir Oliver"
-      ],
-      "correct_answer": "A",
-      "explanation": "Merrylegs was a little fat gray pony with a thick mane and tail who carried the young ladies on his back."
+      "question": "What happened to Rob Roy during the hunt?",
+      "options": {
+        "A": "He won the race",
+        "B": "He was sold to another owner",
+        "C": "He broke his leg and was shot",
+        "D": "He ran away to freedom"
+      },
+      "answer": "C",
+      "explanation": "Rob Roy broke his leg at the hunt and had to be put down. He was Black Beauty's brother."
     },
     {
       "id": 10,
       "difficulty": "easy",
-      "question": "Why was the chestnut mare called 'Ginger'?",
-      "options": [
-        "Because she liked ginger treats, which played a key role",
-        "Because she had a bad habit of biting and snapping",
-        "Because she came from Ginger Farm, according to the story",
-        "Because of her reddish color gleaming mysteriously"
-      ],
-      "correct_answer": "B",
-      "explanation": "She was called Ginger because she had a bad habit of biting and snapping."
+      "question": "Who was killed during the hunt that Black Beauty witnessed?",
+      "options": {
+        "A": "The master",
+        "B": "Young George Gordon, the squire's son",
+        "C": "John Manly",
+        "D": "James Howard"
+      },
+      "answer": "B",
+      "explanation": "Young George Gordon, 'the squire's only son,' broke his neck and died during the hunt."
     },
     {
       "id": 11,
       "difficulty": "easy",
-      "question": "What type of box did Black Beauty have at Squire Gordon's stable?",
-      "options": [
-        "A loose box",
-        "A tie stall",
-        "A common stall",
-        "An outdoor pen"
-      ],
-      "correct_answer": "A",
-      "explanation": "Black Beauty was put in a loose box, which meant he was not tied up but left loose to do as he liked."
+      "question": "What did 'breaking in' a horse involve?",
+      "options": {
+        "A": "Breaking into a stable",
+        "B": "Teaching a horse to wear a saddle, bridle, and follow commands",
+        "C": "Breaking a horse's spirit",
+        "D": "Racing against other horses"
+      },
+      "answer": "B",
+      "explanation": "Breaking in means teaching a horse 'to wear a saddle and bridle and to carry on his back a man, woman, or child.'"
     },
     {
       "id": 12,
       "difficulty": "easy",
-      "question": "Who was John Manly?",
-      "options": [
-        "A horse doctor, central to the plot",
-        "The coachman at Birtwick Park",
-        "The blacksmith glowing faintly",
-        "The squire's son, which played a key role"
-      ],
-      "correct_answer": "B",
-      "explanation": "John Manly was the coachman at Birtwick Park who took excellent care of the horses."
+      "question": "What did Black Beauty's mother advise him?",
+      "options": {
+        "A": "To run away from humans",
+        "B": "To grow up gentle and good and never learn bad ways",
+        "C": "To only trust other horses",
+        "D": "To be aggressive to protect himself"
+      },
+      "answer": "B",
+      "explanation": "His mother said, 'I hope you will grow up gentle and good, and never learn bad ways.'"
     },
     {
       "id": 13,
       "difficulty": "easy",
-      "question": "How did Mrs. Gordon suggest naming Black Beauty?",
-      "options": [
-        "After his appearance - black as ebony with a beauty's face",
-        "After a family tradition, a notable element, which was quite significant",
-        "After a famous racehorse, essential to understand",
-        "After a character in a book with hidden secrets of remarkable power"
-      ],
-      "correct_answer": "A",
-      "explanation": "Mrs. Gordon noted he was 'as black as ebony' and had 'such a sweet good-tempered face' so they named him Black Beauty."
+      "question": "What animal did Dick throw stones at?",
+      "options": {
+        "A": "Dogs",
+        "B": "Birds",
+        "C": "The young colts",
+        "D": "Cats"
+      },
+      "answer": "C",
+      "explanation": "Dick the ploughboy would throw 'stones and sticks at them to make them gallop.'"
     },
     {
       "id": 14,
       "difficulty": "easy",
-      "question": "What did Black Beauty have on his forehead?",
-      "options": [
-        "A pretty white star",
-        "Nothing special",
-        "A black mark",
-        "A brown stripe"
-      ],
-      "correct_answer": "A",
-      "explanation": "Black Beauty had one white foot and a pretty white star on his forehead."
+      "question": "What is a 'loose box' in a stable?",
+      "options": {
+        "A": "A box that is falling apart",
+        "B": "A stall where the horse is not tied up but left free",
+        "C": "A storage box for horse supplies",
+        "D": "A punishment area"
+      },
+      "answer": "B",
+      "explanation": "A loose box is 'called so because the horse that was put into it was not tied up, but left loose.'"
     },
     {
       "id": 15,
       "difficulty": "easy",
-      "question": "Who was James Howard?",
-      "options": [
-        "The squire, as revealed in the tale, as revealed in the tale",
-        "The stable boy who later became an assistant coachman",
-        "The doctor, which played a key role with special abilities",
-        "A horse dealer, which was quite significant"
-      ],
-      "correct_answer": "B",
-      "explanation": "James Howard was the stable boy who was just as gentle and pleasant as John Manly in his way."
+      "question": "Who gave Black Beauty his name?",
+      "options": {
+        "A": "John Manly",
+        "B": "His mother Duchess",
+        "C": "Squire Gordon and his wife",
+        "D": "James Howard"
+      },
+      "answer": "C",
+      "explanation": "Mrs. Gordon suggested 'Black Beauty' and the master agreed: 'if you like it shall be his name.'"
     },
     {
       "id": 16,
       "difficulty": "easy",
-      "question": "Why was Black Beauty sent to a farm near a railway for a fortnight?",
-      "options": [
-        "To be sold, as revealed in the tale",
-        "To meet other horses, an important detail",
-        "To rest and recover, which was quite significant",
-        "To learn not to be afraid of trains"
-      ],
-      "correct_answer": "D",
-      "explanation": "The master sent him to get used to trains so he would be fearless at railway stations, which proved to be a great advantage."
+      "question": "What happened when Black Beauty was sent to the neighboring farm?",
+      "options": {
+        "A": "He learned to race",
+        "B": "He got used to trains passing by",
+        "C": "He was sold to a new owner",
+        "D": "He learned to jump fences"
+      },
+      "answer": "B",
+      "explanation": "Black Beauty was sent to a farm near a railway to get used to trains so he wouldn't be frightened."
     },
     {
       "id": 17,
       "difficulty": "easy",
-      "question": "What happened to young George Gordon during the hunt?",
-      "options": [
-        "He caught the hare",
-        "He won the hunt, worth remembering",
-        "He broke his neck and died",
-        "He was injured but recovered"
-      ],
-      "correct_answer": "C",
-      "explanation": "Young George Gordon, the squire's only son, broke his neck during the hunt and died."
+      "question": "What happened to Sir Oliver's tail?",
+      "options": {
+        "A": "It was naturally short",
+        "B": "It was cut off cruelly when he was young",
+        "C": "He lost it in an accident",
+        "D": "It fell off from disease"
+      },
+      "answer": "B",
+      "explanation": "Sir Oliver's tail was cut off: 'they came and cut off my long and beautiful tail, through the flesh and through the bone.'"
     },
     {
       "id": 18,
       "difficulty": "easy",
-      "question": "Who was the person that Black Beauty carried on an urgent nighttime ride?",
-      "options": [
-        "Joe Green",
-        "John Manly",
-        "James Howard",
-        "The squire"
-      ],
-      "correct_answer": "B",
-      "explanation": "John Manly rode Black Beauty at full gallop to fetch Dr. White when the mistress fell seriously ill."
+      "question": "What were blinkers on a horse?",
+      "options": {
+        "A": "Lights attached to the harness",
+        "B": "Covers that prevented horses from seeing to the side",
+        "C": "Decorative ribbons",
+        "D": "Bells that made sounds"
+      },
+      "answer": "B",
+      "explanation": "Blinkers were 'great side pieces against my eyes' so the horse 'could not see on either side, but only straight in front.'"
     },
     {
       "id": 19,
       "difficulty": "easy",
-      "question": "What illness did Black Beauty develop after the nighttime ride?",
-      "options": [
-        "A strong inflammation in his lungs",
-        "A fever in his hooves, a notable element",
-        "A broken leg, which was quite significant",
-        "An eye infection, a notable element"
-      ],
-      "correct_answer": "A",
-      "explanation": "A strong inflammation attacked his lungs after Joe Green failed to properly care for him after the hard ride."
+      "question": "What was the 'check rein'?",
+      "options": {
+        "A": "A rein used to check speed",
+        "B": "A rein that held the horse's head unnaturally high",
+        "C": "A special rein for checking direction",
+        "D": "A decorative rein"
+      },
+      "answer": "B",
+      "explanation": "The check rein held horses' heads 'up high' painfully, preventing natural head movement."
     },
     {
       "id": 20,
       "difficulty": "easy",
-      "question": "What mistake did Joe Green make after the nighttime ride?",
-      "options": [
-        "He gave Black Beauty too much food with vibrant hues",
-        "He did not put a warm cloth on him and gave him cold water",
-        "He forgot to feed him, which played a key role of great importance",
-        "He left the stable door open, according to the story"
-      ],
-      "correct_answer": "B",
-      "explanation": "Joe did not put a warm cloth on Black Beauty when he was hot and steaming, and gave him cold water to drink."
+      "question": "Who was James Howard?",
+      "options": {
+        "A": "The squire",
+        "B": "The stable boy who later became a groom",
+        "C": "The village doctor",
+        "D": "Black Beauty's previous owner"
+      },
+      "answer": "B",
+      "explanation": "James Howard was the stable boy who was later promoted and went to work for Sir Clifford Williams."
     },
     {
       "id": 21,
       "difficulty": "medium",
-      "question": "What does 'breaking in' a horse mean according to the story?",
-      "options": [
-        "Teaching a horse to jump fences, central to the plot, worth remembering",
-        "Introducing a horse to other animals, a notable element",
-        "Breaking a horse's wild spirit, central to the plot, essential to understand",
-        "Training a horse to wear harness, carry riders, and obey commands"
-      ],
-      "correct_answer": "D",
-      "explanation": "Breaking in means teaching a horse to wear saddle and bridle, carry people, wear harness, pull carts, and follow the driver's commands without having any will of his own."
+      "question": "Black Beauty's mother told him that the colts who lived nearby ---.",
+      "options": {
+        "A": "were dangerous and should be avoided",
+        "B": "were cart-horse colts who had not learned manners",
+        "C": "were his relatives from his father's side",
+        "D": "would become racing champions"
+      },
+      "answer": "B",
+      "explanation": "Duchess said 'the colts who live here are very good colts, but they are cart-horse colts, and of course they have not learned manners.'"
     },
     {
       "id": 22,
       "difficulty": "medium",
-      "question": "How did Black Beauty feel about wearing a bit for the first time?",
-      "options": [
-        "He was excited about it, worth remembering with mysterious origins",
-        "He thought it was a nasty thing - cold hard steel in his mouth",
-        "He immediately loved it, as revealed in the tale, according to the story",
-        "He didn't notice it at all, essential to understand, a crucial point"
-      ],
-      "correct_answer": "B",
-      "explanation": "Black Beauty described the bit as 'a nasty thing' - a great piece of cold hard steel pushed into his mouth that he couldn't get rid of."
+      "question": "After witnessing the hunt, Black Beauty's mother said she could never understand why ---.",
+      "options": {
+        "A": "horses were used for farm work",
+        "B": "men are so fond of hunting sport that often hurts horses and men",
+        "C": "the weather was so unpredictable",
+        "D": "young horses needed to be broken in"
+      },
+      "answer": "B",
+      "explanation": "She said 'I never yet could make out why men are so fond of this sport; they often hurt themselves, often spoil good horses.'"
     },
     {
       "id": 23,
       "difficulty": "medium",
-      "question": "What did Ginger say about her early life compared to Black Beauty's?",
-      "options": [
-        "She was never broken in properly, as revealed in the tale, a crucial point",
-        "She never had anyone who was kind to her or that she cared to please",
-        "She had an even better upbringing from the old legends with mysterious origins",
-        "She was always a wild horse, according to the story, essential to understand"
-      ],
-      "correct_answer": "B",
-      "explanation": "Ginger said she never had anyone, horse or man, that was kind to her or that she cared to please - her experience was completely different from Black Beauty's loving upbringing."
+      "question": "Ginger's first experience with men was bad because ---.",
+      "options": {
+        "A": "they fed her poorly",
+        "B": "they used force and didn't give her a chance to understand what they wanted",
+        "C": "they made her work too hard",
+        "D": "they separated her from her friends"
+      },
+      "answer": "B",
+      "explanation": "Ginger said 'it was all force; they did not give me a chance to know what they wanted.'"
     },
     {
       "id": 24,
       "difficulty": "medium",
-      "question": "What was special about the little old crooked ostler at the hotel?",
-      "options": [
-        "He was rude to the horses, central to the plot, worth remembering from the ancient times",
-        "He was the slowest worker, a crucial point, a notable element, as revealed in the tale",
-        "He was incredibly quick and thorough at the same time due to 40 years of practice",
-        "He had never worked with horses before, central to the plot, essential to understand"
-      ],
-      "correct_answer": "C",
-      "explanation": "The crooked little ostler said 'practice makes perfect' and demonstrated he was both quick and thorough after 40 years of experience with horses."
+      "question": "John Manly's 'Birtwick Balls' were made of ---.",
+      "options": {
+        "A": "special horse medicine",
+        "B": "patience, gentleness, firmness, and petting mixed with common sense",
+        "C": "oats and carrots",
+        "D": "herbs from the garden"
+      },
+      "answer": "B",
+      "explanation": "John joked that the 'balls' were 'made up of patience and gentleness, firmness and petting, one pound of each, to be mixed up with half a pint of common sense.'"
     },
     {
       "id": 25,
       "difficulty": "medium",
-      "question": "What caused the fire at the inn during James's journey?",
-      "options": [
-        "A knocked-over lantern, which played a key role",
-        "Dick went into the stable with his pipe",
-        "Hay caught fire from the sun, an important detail",
-        "A lightning strike, a crucial point"
-      ],
-      "correct_answer": "B",
-      "explanation": "A man named Dick went into the stable with a pipe in his mouth and must have left it there, causing the fire."
+      "question": "The old ostler at the hotel said he could tell how a horse was treated by ---.",
+      "options": {
+        "A": "looking at its teeth",
+        "B": "checking its weight",
+        "C": "handling it for twenty minutes",
+        "D": "asking the owner questions"
+      },
+      "answer": "C",
+      "explanation": "The old ostler said 'give me the handling of a horse for twenty minutes, and I'll tell you what sort of groom he has had.'"
     },
     {
       "id": 26,
       "difficulty": "medium",
-      "question": "How did James get Black Beauty out of the burning stable?",
-      "options": [
-        "He tied a scarf over Black Beauty's eyes and led him out calmly",
-        "He waited until the fire died down, which played a key role",
-        "He used water to calm him, a notable element, essential to understand",
-        "He dragged him by force, essential to understand, which played a key role"
-      ],
-      "correct_answer": "A",
-      "explanation": "James took the scarf off his neck, tied it lightly over Black Beauty's eyes, and patting and coaxing, led him out safely."
+      "question": "When Black Beauty refused to cross the bridge during the storm, John discovered that ---.",
+      "options": {
+        "A": "the bridge was too narrow",
+        "B": "the bridge was broken in the middle and part was carried away",
+        "C": "there was a fallen tree blocking it",
+        "D": "the water was frozen"
+      },
+      "answer": "B",
+      "explanation": "The toll-gate man shouted 'The bridge is broken in the middle, and part of it is carried away!'"
     },
     {
       "id": 27,
       "difficulty": "medium",
-      "question": "What happened to two horses during the stable fire?",
-      "options": [
-        "They jumped through windows, a notable element, which played a key role",
-        "The firemen saved them, which was quite significant",
-        "They were burned to death because they couldn't be led out",
-        "They all escaped safely with bold confidence with remarkable skill"
-      ],
-      "correct_answer": "C",
-      "explanation": "The shrieks of those poor horses that were left burning to death in the stable were dreadful - they couldn't be led out and were buried under burnt rafters."
+      "question": "Black Beauty's master said God gave animals knowledge that ---.",
+      "options": {
+        "A": "was inferior to human reason",
+        "B": "did not depend on reason and was more prompt and perfect in its way",
+        "C": "only worked for finding food",
+        "D": "was useless in emergencies"
+      },
+      "answer": "B",
+      "explanation": "The master said God 'had given animals knowledge which did not depend on reason, and which was much more prompt and perfect in its way.'"
     },
     {
       "id": 28,
       "difficulty": "medium",
-      "question": "What was John Manly's philosophy about helping others?",
-      "options": [
-        "Everybody should look after themselves, an important detail, which was quite significant",
-        "Doing kindness when it's put in your way is important - not just 'number one'",
-        "Only help family members through clever thinking with remarkable skill",
-        "Money should come first, which was quite significant, which was quite significant"
-      ],
-      "correct_answer": "B",
-      "explanation": "John rejected the saying 'look after yourself and take care of number one,' noting that he and his sister would have been in the workhouse if others hadn't helped them."
+      "question": "Merrylegs said he threw the boys off because ---.",
+      "options": {
+        "A": "he was tired and angry",
+        "B": "they didn't know when they had had enough and neither did he",
+        "C": "they were hurting him badly",
+        "D": "John told him to"
+      },
+      "answer": "B",
+      "explanation": "Merrylegs said 'They did not know when they had had enough, nor when I had had enough, so I just pitched them off backward.'"
     },
     {
       "id": 29,
       "difficulty": "medium",
-      "question": "Why was Joe Green initially unsuitable to care for Black Beauty after the nighttime ride?",
-      "options": [
-        "He didn't like horses, a notable element",
-        "He was young, small, and inexperienced",
-        "He was afraid of the dark, a crucial point",
-        "He was too old, which played a key role"
-      ],
-      "correct_answer": "B",
-      "explanation": "Joe was only fourteen and a half, small, and hadn't learned enough yet about horse care to know that a hot horse needs warming cloths and shouldn't have cold water."
+      "question": "James said the schoolmaster taught that cruelty was ---.",
+      "options": {
+        "A": "sometimes necessary for discipline",
+        "B": "the devil's own trademark",
+        "C": "natural for humans",
+        "D": "only bad when done to people"
+      },
+      "answer": "B",
+      "explanation": "The master said 'cruelty was the devil's own trademark, and if we saw any one who took pleasure in cruelty, we might know who he belonged to.'"
     },
     {
       "id": 30,
       "difficulty": "medium",
-      "question": "What did John Manly say about ignorance?",
-      "options": [
-        "It only affects young people, as revealed in the tale",
-        "It doesn't matter if you mean well, according to the story",
-        "It's the worst thing in the world next to wickedness",
-        "It's easily excused, a notable element, a crucial point"
-      ],
-      "correct_answer": "C",
-      "explanation": "John said ignorance is 'the worst thing in the world, next to wickedness' and gave examples of how ignorance causes harm even without bad intentions."
+      "question": "Ginger was badly treated with the check rein in London, which ---.",
+      "options": {
+        "A": "made her run faster",
+        "B": "made the blood from her tongue color the froth from her mouth",
+        "C": "helped her look more stylish",
+        "D": "improved her breathing"
+      },
+      "answer": "B",
+      "explanation": "Ginger said 'the blood from my tongue coloured the froth that kept flying from my lips, as I chafed and fretted at the bits and rein.'"
     },
     {
       "id": 31,
       "difficulty": "medium",
-      "question": "What did John compare Joe's mistake to?",
-      "options": [
-        "A cook burning dinner, worth remembering with hidden secrets from the ancient times",
-        "Martha Mulwash killing a baby with soothing syrups, and Bill Starkey scaring his brother into becoming an idiot",
-        "A farmer losing crops, a crucial point, worth remembering from the ancient times",
-        "A child breaking a toy, according to the story, which played a key role from the ancient times"
-      ],
-      "correct_answer": "B",
-      "explanation": "John compared ignorant mistakes to Martha Mulwash who killed a baby by giving it the wrong medicine, and Bill Starkey who scared his brother into fits by dressing as a ghost."
+      "question": "The master scolded Sawyer for his treatment of the bay pony because ---.",
+      "options": {
+        "A": "Sawyer was driving too fast",
+        "B": "Sawyer wrenched the pony's head and whipped it brutally",
+        "C": "Sawyer was late for work",
+        "D": "Sawyer didn't pay his bills"
+      },
+      "answer": "B",
+      "explanation": "The master said 'a more unmanly, brutal treatment of a little pony it was never my painful lot to witness.'"
     },
     {
       "id": 32,
       "difficulty": "medium",
-      "question": "What special treat did the horses receive on fine Sundays in summer?",
-      "options": [
-        "A bath, a notable element, a crucial point, essential to understand",
-        "Extra food, a notable element, worth remembering",
-        "Being turned out into the paddock or orchard for freedom",
-        "New shoes, a crucial point, central to the plot"
-      ],
-      "correct_answer": "C",
-      "explanation": "On fine Sundays in summer, the horses were turned out into the home paddock or old orchard where they could gallop, lie down, roll, and enjoy freedom."
+      "question": "Sir Oliver said docking horses' tails was done ---.",
+      "options": {
+        "A": "for the horses' health",
+        "B": "for fashion, not for any practical reason",
+        "C": "to prevent diseases",
+        "D": "to make them run faster"
+      },
+      "answer": "B",
+      "explanation": "Sir Oliver said angrily 'For fashion! if you know what that means... just as if the good God that made us did not know what we wanted.'"
     },
     {
       "id": 33,
       "difficulty": "medium",
-      "question": "Why did Black Beauty miss having liberty?",
-      "options": [
-        "He wanted different food, which was quite significant",
-        "He wanted to return to his mother, essential to understand",
-        "He was used to 3.5 years of freedom before being broken in",
-        "He didn't like his stable, an important detail, a notable element"
-      ],
-      "correct_answer": "C",
-      "explanation": "For three and a half years of his life, Black Beauty had all the liberty he could wish for, but now had to stand in a stable except when wanted for work."
+      "question": "Justice the cob said blinkers were supposed to prevent horses from ---.",
+      "options": {
+        "A": "seeing their owners",
+        "B": "shying and starting and getting frightened",
+        "C": "eating while working",
+        "D": "sleeping while standing"
+      },
+      "answer": "B",
+      "explanation": "Justice said blinkers 'are supposed to prevent horses from shying and starting and getting so frightened as to cause accidents.'"
     },
     {
       "id": 34,
       "difficulty": "medium",
-      "question": "What did John Manly do when Black Beauty was 'skittish' or full of high spirits?",
-      "options": [
-        "He kept him locked in the stable, which was quite significant",
-        "He gave him a good gallop to get the 'fidgets' out",
-        "He refused to ride him, which was quite significant",
-        "He punished him with a whip, as revealed in the tale"
-      ],
-      "correct_answer": "B",
-      "explanation": "John would say 'wait a bit and we will have a good swing' and once out of the village, give Black Beauty a few miles at a spanking trot to clear the fidgets."
+      "question": "The old ostler said practice made him quick at his work because ---.",
+      "options": {
+        "A": "he was naturally talented",
+        "B": "if you get into the habit of being quick, it is just as easy as being slow",
+        "C": "his master forced him to work fast",
+        "D": "he was afraid of losing his job"
+      },
+      "answer": "B",
+      "explanation": "He said 'if you get into the habit of being quick, it is just as easy as being slow; easier, I should say.'"
     },
     {
       "id": 35,
       "difficulty": "medium",
-      "question": "What happened to John Manly's parents?",
-      "options": [
-        "They sold John to a farmer, a notable element",
-        "They both died of fever within ten days of each other",
-        "They moved to another country, essential to understand",
-        "They lived happily to old age, essential to understand"
-      ],
-      "correct_answer": "B",
-      "explanation": "John's father and mother both died of fever within ten days of each other, leaving him and his crippled sister Nellie alone in the world."
+      "question": "Ginger's temper improved at Birtwick Park because ---.",
+      "options": {
+        "A": "she was given medicine",
+        "B": "she was treated with kindness instead of force",
+        "C": "she was kept alone",
+        "D": "she forgot her past"
+      },
+      "answer": "B",
+      "explanation": "James tried kindness 'and instead of punishing me... brought me a bran mash and stroked me,' and Ginger responded positively."
     },
     {
       "id": 36,
       "difficulty": "medium",
-      "question": "Who helped John and his sister Nellie after their parents died?",
-      "options": [
-        "A wealthy uncle, which played a key role",
-        "Nobody - they were alone",
-        "Squire Gordon, central to the plot",
-        "The mistress and old Norman"
-      ],
-      "correct_answer": "D",
-      "explanation": "The mistress hired a room for Nellie and gave her work, like an angel, while old Norman trained John in the stables like a father."
+      "question": "The master rode Captain Langley's horses and criticized his use of ---.",
+      "options": {
+        "A": "expensive saddles",
+        "B": "check reins that lessened the horses' power",
+        "C": "too many servants",
+        "D": "the wrong type of feed"
+      },
+      "answer": "B",
+      "explanation": "The master said 'I see you still hold that pet scheme of yours for worrying your horses and lessening their power' about check reins."
     },
     {
       "id": 37,
       "difficulty": "medium",
-      "question": "Why did Joe Green confront a man at the brickyard?",
-      "options": [
-        "The man was flogging two horses unmercifully trying to move a stuck cart",
-        "The man was blocking the road, an important detail, central to the plot",
-        "The man was stealing horses, central to the plot, worth remembering",
-        "The man insulted Joe, an important detail, which played a key role"
-      ],
-      "correct_answer": "A",
-      "explanation": "Joe saw two horses being flogged brutally while trying to pull a cart stuck in mud, and told the man to stop and offered to help lighten the cart."
+      "question": "James was being considered for a new position at Sir Clifford's because ---.",
+      "options": {
+        "A": "he wanted to leave Birtwick Park",
+        "B": "Sir Clifford's old coachman was getting feeble and needed help",
+        "C": "James had wealthy relatives",
+        "D": "there was no work for him at Birtwick"
+      },
+      "answer": "B",
+      "explanation": "Sir Clifford's 'old coachman, who has lived with him thirty years, is getting feeble, and he wants a man to work with him.'"
     },
     {
       "id": 38,
       "difficulty": "medium",
-      "question": "What did Black Beauty's mother think about the hunt?",
-      "options": [
-        "She thought it was an important tradition, central to the plot, central to the plot, worth remembering",
-        "She couldn't understand why men enjoyed hurting themselves, horses, and tearing up fields for a hare",
-        "She wanted to join the hunt, an important detail, essential to understand, a crucial point",
-        "She loved watching it, according to the story, which was quite significant, a crucial point"
-      ],
-      "correct_answer": "B",
-      "explanation": "Black Beauty's mother said she could never understand why men were so fond of the sport - they often hurt themselves, spoil good horses, and tear up fields all for a hare or fox."
+      "question": "John defended James's character by saying ---.",
+      "options": {
+        "A": "James came from a wealthy family",
+        "B": "a steadier, pleasanter, more honest, smart young fellow he never had",
+        "C": "James was the fastest worker",
+        "D": "James had important connections"
+      },
+      "answer": "B",
+      "explanation": "John said 'a steadier, pleasanter, more honest, smart young fellow I never had in this stable.'"
     },
     {
       "id": 39,
       "difficulty": "medium",
-      "question": "What is a crupper?",
-      "options": [
-        "A piece of the bridle, according to the story",
-        "A covering for the horse's back",
-        "A type of saddle, a crucial point",
-        "A strap that goes under the horse's tail"
-      ],
-      "correct_answer": "D",
-      "explanation": "A crupper is a nasty stiff strap that goes right under the tail. Black Beauty hated having his long tail doubled up and poked through that strap."
+      "question": "Black Beauty said the thing he missed most at Birtwick Park was ---.",
+      "options": {
+        "A": "better food",
+        "B": "liberty",
+        "C": "other horses to play with",
+        "D": "a warmer stable"
+      },
+      "answer": "B",
+      "explanation": "Black Beauty said 'if there was one thing I missed... Why, liberty! For three years and a half of my life I had had all the liberty I could wish for.'"
     },
     {
       "id": 40,
       "difficulty": "medium",
-      "question": "What are 'blinkers'?",
-      "options": [
-        "Bells on the bridle, essential to understand, an important detail",
-        "Lights on the carriage, central to the plot, a notable element",
-        "Side pieces against the horse's eyes so it can only see straight ahead",
-        "Decorations on the harness, which played a key role from the old legends"
-      ],
-      "correct_answer": "C",
-      "explanation": "Blinkers are great side pieces against the eyes that prevent the horse from seeing to either side - only straight in front."
+      "question": "On Sundays, the horses at Birtwick were given ---.",
+      "options": {
+        "A": "extra work",
+        "B": "time in the paddock or orchard to enjoy freedom",
+        "C": "special baths",
+        "D": "medicine"
+      },
+      "answer": "B",
+      "explanation": "On fine Sundays 'it was a great treat to us to be turned out into the home paddock or the old orchard.'"
     },
     {
       "id": 41,
       "difficulty": "hard",
-      "question": "What deeper message does Black Beauty's mother's advice about good behavior convey?",
-      "options": [
-        "Only horses of noble birth can be well-behaved, which played a key role from the ancient times",
-        "All training is unnecessary, worth remembering with magical properties from the old legends",
-        "Horses should always be wild and free, a crucial point, which was quite significant, essential to understand",
-        "Good breeding and manners matter regardless of circumstances, and one's character is formed by choice"
-      ],
-      "correct_answer": "D",
-      "explanation": "The mother's advice that despite having good breeding, Black Beauty should choose to be gentle and good reflects the book's theme that character is about personal choice and integrity regardless of background."
+      "question": "Why did Black Beauty's mother say 'we are only horses and don't know' after the hunt?",
+      "options": {
+        "A": "She genuinely believed horses were inferior",
+        "B": "She was being ironic about humans who claim to have superior reason yet do foolish things",
+        "C": "She wanted Black Beauty to respect humans more",
+        "D": "She was confused about what happened"
+      },
+      "answer": "B",
+      "explanation": "Her statement is ironic: she questions why intelligent humans enjoy cruel sports, then dismissively says 'we are only horses' - implying horses actually show more sense."
     },
     {
       "id": 42,
       "difficulty": "hard",
-      "question": "What does the contrast between Black Beauty's and Ginger's early experiences suggest about the formation of character?",
-      "options": [
-        "Early treatment and kindness profoundly shape one's temperament and ability to trust",
-        "Some horses are born bad, worth remembering from the old legends with mysterious origins",
-        "Character is entirely genetic, which was quite significant, which played a key role",
-        "Training doesn't affect behavior, worth remembering with hidden secrets of great importance"
-      ],
-      "correct_answer": "A",
-      "explanation": "Ginger's bad temper resulted from never having kindness or anyone to care for, while Black Beauty's gentle nature came from loving treatment - showing that early experiences fundamentally shape character."
+      "question": "What does the contrast between Black Beauty's upbringing and Ginger's suggest about horse behavior?",
+      "options": {
+        "A": "Some horses are born bad-tempered",
+        "B": "A horse's temperament is largely shaped by how it is treated, not born nature",
+        "C": "Female horses are naturally more aggressive",
+        "D": "Only purebred horses can be gentle"
+      },
+      "answer": "B",
+      "explanation": "Ginger says 'if I had had your bringing up I might have had as good a temper as you' - showing that treatment, not birth, shapes horse behavior."
     },
     {
       "id": 43,
       "difficulty": "hard",
-      "question": "What social commentary is Anna Sewell making through the hunt scene?",
-      "options": [
-        "Hunting is a necessary activity for survival, an important detail, which was quite significant",
-        "The aristocratic sport causes senseless suffering to animals and humans alike for trivial entertainment",
-        "Only the poor should be allowed to hunt, which played a key role with hidden secrets of remarkable power",
-        "All hunting should be encouraged, which played a key role of remarkable power with magical properties"
-      ],
-      "correct_answer": "B",
-      "explanation": "The scene criticizes aristocratic sport - George Gordon dies, Rob Roy is killed, the hare is torn apart - all for entertainment that could have been achieved 'more easily some other way,' questioning the cruelty of upper-class pastimes."
+      "question": "Why does Anna Sewell have Black Beauty narrate the story in first person?",
+      "options": {
+        "A": "Because it was easier to write",
+        "B": "To make readers see the world through a horse's eyes and develop empathy for animals",
+        "C": "Because horses could actually talk in Victorian times",
+        "D": "To make the story shorter"
+      },
+      "answer": "B",
+      "explanation": "First-person narration allows readers to experience cruelty and kindness from the horse's perspective, building empathy for animals."
     },
     {
       "id": 44,
       "difficulty": "hard",
-      "question": "What is the significance of John Manly's rule against pipes in the stable?",
-      "options": [
-        "It represents the importance of safety rules and responsible behavior that, when ignored, can lead to tragedy",
-        "Horses don't like the smell, as revealed in the tale, a notable element, which was quite significant",
-        "It was just a personal preference, an important detail, a notable element, which played a key role",
-        "He was allergic to smoke, which played a key role with special abilities with hidden secrets"
-      ],
-      "correct_answer": "A",
-      "explanation": "The fire caused by Dick's pipe demonstrates how ignoring safety rules out of carelessness can lead to devastating consequences - two horses died because one rule was broken."
+      "question": "What is ironic about the fashion of check reins and docked tails?",
+      "options": {
+        "A": "They were very expensive",
+        "B": "They were meant to make horses look better but actually caused suffering for no practical purpose",
+        "C": "They made horses faster",
+        "D": "They were only used on old horses"
+      },
+      "answer": "B",
+      "explanation": "These fashions were done 'just as if the good God that made us did not know what we wanted' - causing pain purely for human vanity."
     },
     {
       "id": 45,
       "difficulty": "hard",
-      "question": "Why does Black Beauty describe the experience of being 'broken in' in such detail?",
-      "options": [
-        "To show how easy it was, essential to understand, according to the story, a crucial point",
-        "Because he enjoyed every moment, central to the plot, essential to understand, according to the story",
-        "To help readers understand the horse's perspective on what humans take for granted as normal training",
-        "To criticize his master, an important detail, worth remembering with special abilities"
-      ],
-      "correct_answer": "C",
-      "explanation": "The detailed description of bits, blinkers, and harness from the horse's uncomfortable perspective helps readers understand that what humans consider routine training is actually experienced as restrictive and initially unpleasant by the horse."
+      "question": "Why does Merrylegs refuse to kick the children even when provoked?",
+      "options": {
+        "A": "He is too weak to kick",
+        "B": "He values his good home and knows bad behavior would get him sold to a worse situation",
+        "C": "John ordered him never to kick",
+        "D": "The children give him treats"
+      },
+      "answer": "B",
+      "explanation": "Merrylegs says 'if I took to kicking... I might find myself slaved about under a butcher's boy.' He's wise enough to value kindness."
     },
     {
       "id": 46,
       "difficulty": "hard",
-      "question": "What parallel does John Manly draw between Joe's mistake and broader social problems?",
-      "options": [
-        "Ignorance in any form - nursing, pranks, gardening - can cause irreversible harm, making education and care essential",
-        "Mistakes are always forgiven, a notable element, central to the plot, central to the plot",
-        "Only horse-related mistakes matter, central to the plot, according to the story, central to the plot",
-        "All young people are careless, central to the plot, as revealed in the tale, according to the story"
-      ],
-      "correct_answer": "A",
-      "explanation": "John uses examples of the nurse who killed a baby, the boy who scared his brother into becoming an idiot, and young ladies killing plants to show how ignorance across all areas causes harm - emphasizing the need for proper knowledge and care."
+      "question": "What does the story of the fire at the hotel symbolize about trust between horses and humans?",
+      "options": {
+        "A": "Horses should never trust humans",
+        "B": "In dangerous situations, horses and trusted handlers must work together through calm guidance",
+        "C": "Fire is the greatest danger to horses",
+        "D": "Hotels are unsafe for horses"
+      },
+      "answer": "B",
+      "explanation": "During the fire, panicked horses can only be saved by a calm handler they trust - demonstrating the importance of the bond built through kind treatment."
     },
     {
       "id": 47,
       "difficulty": "hard",
-      "question": "What does the phrase 'only a chance for us' (referring to horses not knowing their future owners) reveal about the book's themes?",
-      "options": [
-        "Horses should run away with unexpected results through careful planning with bold confidence",
-        "All owners are equally good, an important detail, a crucial point, central to the plot",
-        "Horses enjoy uncertainty, which played a key role with special abilities with special abilities",
-        "The vulnerability of horses (and by extension, the powerless) who depend on the moral character of those who control them"
-      ],
-      "correct_answer": "D",
-      "explanation": "This phrase highlights how horses have no control over their fate - they depend entirely on 'chance' to get good or bad owners, reflecting broader themes about power, dependency, and the responsibility of those in authority."
+      "question": "What does the master mean when he compares check reins on horses to soldiers with heads tied to backboards?",
+      "options": {
+        "A": "Soldiers should also wear check reins",
+        "B": "Restricting natural movement looks impressive but reduces actual effectiveness and capability",
+        "C": "Horses and soldiers are equally important",
+        "D": "Military discipline is too strict"
+      },
+      "answer": "B",
+      "explanation": "The master argues that forcing an unnatural position may look good on parade but 'how would it be in a bayonet charge' - function matters more than appearance."
     },
     {
       "id": 48,
       "difficulty": "hard",
-      "question": "How does the loose box versus common stall distinction reflect themes in the novel?",
-      "options": [
-        "Having freedom and dignity (loose box) versus being restrained (common stall) parallels human social conditions",
-        "All horses prefer the same housing, which was quite significant, as revealed in the tale, worth remembering",
-        "Stall type doesn't affect horses, which played a key role of unusual appearance of great importance",
-        "Loose boxes are only for sick horses, as revealed in the tale, which was quite significant, essential to understand"
-      ],
-      "correct_answer": "A",
-      "explanation": "The loose box represents freedom and dignity while common stalls represent restriction - this mirrors the book's broader commentary on how working conditions affect well-being, whether for horses or Victorian workers."
+      "question": "Why is it significant that Black Beauty's brother Rob Roy died at the hunt?",
+      "options": {
+        "A": "It shows hunting was profitable",
+        "B": "It shows how the same bloodline can have opposite fates based on how horses are used by humans",
+        "C": "It proves Black Beauty was luckier",
+        "D": "It demonstrates horses are weak"
+      },
+      "answer": "B",
+      "explanation": "Both brothers had the same breeding, but Rob Roy died due to reckless human sport - showing horse welfare depends on human choices, not horse nature."
     },
     {
       "id": 49,
       "difficulty": "hard",
-      "question": "What is the significance of Black Beauty remembering his mother's advice throughout difficult times?",
-      "options": [
-        "He just had good memory, central to the plot, essential to understand, essential to understand",
-        "It was required by law gleaming mysteriously with vibrant hues with deep intensity",
-        "His mother was famous, according to the story, central to the plot, central to the plot",
-        "Early moral instruction provides guidance and resilience throughout life's challenges"
-      ],
-      "correct_answer": "D",
-      "explanation": "Black Beauty's adherence to his mother's early teachings about being gentle and doing his best helps him maintain dignity through hardships - suggesting that early moral formation provides lasting strength."
+      "question": "What does the old ostler's statement 'their tempers are mostly made when they are young' suggest?",
+      "options": {
+        "A": "Young horses should be avoided",
+        "B": "Early treatment permanently shapes a horse's personality and behavior",
+        "C": "Old horses cannot change",
+        "D": "Only young horses can be trained"
+      },
+      "answer": "B",
+      "explanation": "Like children who are 'trained up in the way they should go,' horses' early experiences permanently affect their temperament."
     },
     {
       "id": 50,
       "difficulty": "hard",
-      "question": "What does John Manly's rejection of 'look after number one' philosophy represent in Victorian context?",
-      "options": [
-        "He was just being polite, worth remembering with special abilities from a distant land",
-        "Agreement with popular thinking, an important detail, an important detail, essential to understand",
-        "A critique of Victorian industrial capitalism's emphasis on self-interest over community responsibility",
-        "Support for individualism, which played a key role from the ancient times of remarkable power"
-      ],
-      "correct_answer": "C",
-      "explanation": "John's passionate rejection of selfishness, backed by his personal story of being helped by others, represents a moral argument against Victorian era's growing emphasis on individual self-interest over community care and mutual aid."
+      "question": "What point is Sewell making when Sir Oliver says fashion is 'one of the wickedest things in the world'?",
+      "options": {
+        "A": "Fashion is expensive",
+        "B": "Following trends blindly causes unnecessary suffering to animals and should be questioned",
+        "C": "Horses don't understand fashion",
+        "D": "Only poor people follow fashion"
+      },
+      "answer": "B",
+      "explanation": "Sir Oliver's anger about docking highlights how society accepts cruelty simply because it's fashionable, without questioning the suffering caused."
     },
     {
       "id": 51,
       "difficulty": "hard",
-      "question": "Why does the narrative emphasize that horses 'have no relations' - they never know each other after being sold?",
-      "options": [
-        "To highlight the cruelty of a system that separates families and denies emotional bonds for commercial convenience",
-        "Family bonds don't exist among horses, a notable element, which was quite significant, as revealed in the tale",
-        "It's better for horses not to know, an important detail, which was quite significant, a notable element",
-        "Horses have poor memory, a crucial point, as revealed in the tale, as revealed in the tale"
-      ],
-      "correct_answer": "A",
-      "explanation": "This observation about Rob Roy being Black Beauty's unknown brother criticizes how commercial horse trading breaks family bonds - mirroring concerns about how industrial society separates human families."
+      "question": "Why does Black Beauty mention that 'horses have no relations' or 'never know each other after they are sold'?",
+      "options": {
+        "A": "Horses have bad memories",
+        "B": "The sale system separates family members permanently, adding emotional dimension to the horse trade",
+        "C": "Horses don't care about family",
+        "D": "It was the law"
+      },
+      "answer": "B",
+      "explanation": "This poignant observation humanizes horses by showing they too lose family connections, making the horse trade more morally complex."
     },
     {
       "id": 52,
       "difficulty": "hard",
-      "question": "What does the old ostler's statement 'I can tell how a horse is treated, give me the handling of him for twenty minutes' suggest?",
-      "options": [
-        "Ostlers are psychic, as revealed in the tale, worth remembering from the ancient times",
-        "He was exaggerating, central to the plot, an important detail, as revealed in the tale",
-        "Horses can talk to him, which was quite significant, essential to understand, an important detail",
-        "Treatment leaves lasting physical and behavioral marks that experienced observers can read"
-      ],
-      "correct_answer": "D",
-      "explanation": "The ostler's ability to read a horse's treatment from its behavior illustrates that abuse and kindness leave lasting marks - supporting the book's argument that how we treat others has permanent consequences."
+      "question": "What is the purpose of John Manly's joke about 'Birtwick Balls'?",
+      "options": {
+        "A": "To mock medicine",
+        "B": "To humorously summarize that kindness and good sense, not punishment, reform difficult horses",
+        "C": "To advertise his skills",
+        "D": "To entertain the master"
+      },
+      "answer": "B",
+      "explanation": "The 'medicine' of patience, gentleness, firmness, and common sense shows that behavioral problems in horses are solved through relationship, not force."
     },
     {
       "id": 53,
       "difficulty": "hard",
-      "question": "How does the narrative technique of a horse narrator serve the book's social reform purpose?",
-      "options": [
-        "It defamiliarizes common practices, forcing readers to see animal treatment from the victim's perspective",
-        "Horses can actually write, a crucial point, a notable element, essential to understand",
-        "It was required by publishers with vibrant hues with rich undertones with deep intensity",
-        "It's just entertaining fantasy, as revealed in the tale, which played a key role of great importance"
-      ],
-      "correct_answer": "A",
-      "explanation": "By telling the story from a horse's perspective, Sewell makes readers experience the bit, blinkers, and whip as the horse does - transforming accepted practices into visible cruelty and generating empathy for reform."
+      "question": "Why does Black Beauty contrast his feelings of 'fidgets' with how John handled them?",
+      "options": {
+        "A": "To show John was lazy",
+        "B": "To demonstrate that understanding natural high spirits prevents mistaking energy for disobedience",
+        "C": "To prove he was poorly fed",
+        "D": "To criticize other horses"
+      },
+      "answer": "B",
+      "explanation": "John understood that Black Beauty's energy was 'only high spirits' and gave him exercise rather than punishment, unlike grooms who punish 'skittish' behavior."
     },
     {
       "id": 54,
       "difficulty": "hard",
-      "question": "What does the contrast between John Manly and careless grooms represent?",
-      "options": [
-        "Just different work styles, worth remembering of unusual appearance from the ancient times",
-        "Experience versus inexperience only, essential to understand, a notable element, which played a key role",
-        "Regional differences in grooming across the misty valley near the ancient ruins within the castle walls",
-        "The moral difference between treating workers/animals as beings worthy of care versus mere instruments"
-      ],
-      "correct_answer": "D",
-      "explanation": "John's careful attention to tender and ticklish places versus rough grooms who don't care represents the book's central moral distinction between treating dependent beings with dignity versus as mere tools."
+      "question": "What does Black Beauty's refusal to cross the broken bridge demonstrate about animal instinct?",
+      "options": {
+        "A": "Horses are stubborn",
+        "B": "Animals can sense dangers that humans miss, and their warnings should be respected",
+        "C": "Horses are afraid of water",
+        "D": "Training can eliminate all fear"
+      },
+      "answer": "B",
+      "explanation": "The master concludes that 'God had given animals knowledge' that saved their lives - humans should trust animal instincts rather than forcing compliance."
     },
     {
       "id": 55,
       "difficulty": "hard",
-      "question": "What does Joe Green's evolution from ignorant boy to defender of horses demonstrate?",
-      "options": [
-        "Only adults can help horses in dramatic fashion through sheer willpower with bold confidence",
-        "Proper education and moral development can transform ignorance into active advocacy for the vulnerable",
-        "Boys always improve, according to the story, according to the story, which was quite significant",
-        "Age automatically brings wisdom from the old legends with hidden secrets of great importance"
-      ],
-      "correct_answer": "B",
-      "explanation": "Joe's arc - from nearly killing Black Beauty through ignorance to confronting a man abusing horses and testifying against him - shows how proper moral and practical education creates advocates for the powerless."
+      "question": "Why is the comparison between how Ginger was broken and how Black Beauty was broken important to the novel's message?",
+      "options": {
+        "A": "It shows different training methods produce equally good results",
+        "B": "It demonstrates that violent breaking creates vicious horses while patient training creates willing partners",
+        "C": "It proves some horses cannot be trained",
+        "D": "It shows training doesn't matter"
+      },
+      "answer": "B",
+      "explanation": "Ginger became 'vicious' through cruel treatment while Black Beauty remained gentle through kind training - proving the method matters more than the horse."
     },
     {
       "id": 56,
       "difficulty": "hard",
-      "question": "Why does the book emphasize that 'blinkers' prevent horses from seeing to either side?",
-      "options": [
-        "Horses prefer it, central to the plot, central to the plot, which was quite significant",
-        "Safety regulations required it shimmering in the light with vibrant hues",
-        "As a metaphor for how limiting perspective creates fear and dependence",
-        "For fashion purposes, a crucial point, essential to understand"
-      ],
-      "correct_answer": "C",
-      "explanation": "The blinkers that literally restrict vision serve as a metaphor for how controlling what others can see creates anxiety and dependence - applicable to both animal welfare and human social conditions."
+      "question": "What is the significance of the master's statement about judging people 'according to our works, whether they be toward man or toward beast'?",
+      "options": {
+        "A": "It's a legal statement",
+        "B": "It suggests moral character is revealed by how we treat the powerless, including animals",
+        "C": "It means animals should work harder",
+        "D": "It criticizes lazy workers"
+      },
+      "answer": "B",
+      "explanation": "This religious reference suggests that cruelty to animals is as morally significant as cruelty to humans - a central theme of the novel."
     },
     {
       "id": 57,
       "difficulty": "hard",
-      "question": "What is the significance of the master waiting until Black Beauty was four years old before selling him?",
-      "options": [
-        "Four was considered unlucky radiating softly glowing faintly glowing faintly",
-        "He couldn't find a buyer earlier, an important detail, according to the story, a notable element",
-        "It was legal requirement, according to the story, worth remembering of great importance",
-        "It demonstrates the principle that young creatures need proper development time before being put to adult work"
-      ],
-      "correct_answer": "D",
-      "explanation": "The master's statement that 'lads ought not to work like men, and colts ought not to work like horses till they were quite grown up' reflects concerns about child labor and the need for proper development before exploitation."
+      "question": "Why might Sewell have chosen to show both good and bad humans rather than making all humans villains?",
+      "options": {
+        "A": "She couldn't write villains well",
+        "B": "To show that reform is possible and readers can choose to be kind like John rather than cruel like Sampson",
+        "C": "She liked all humans",
+        "D": "Publishers required it"
+      },
+      "answer": "B",
+      "explanation": "By showing John, the master, and others as kind, Sewell provides models for readers to follow, making the book a call to action rather than just criticism."
     },
     {
       "id": 58,
       "difficulty": "hard",
-      "question": "How does Black Beauty's illness after the nighttime ride function as a plot device for social commentary?",
-      "options": [
-        "It's just dramatic tension, central to the plot, as revealed in the tale, an important detail",
-        "It creates a platform to discuss how ignorance causes harm and the moral responsibility of caregivers",
-        "It was medically accurate only, which played a key role with hidden secrets with special abilities",
-        "Horses often get sick, a crucial point, worth remembering with magical properties"
-      ],
-      "correct_answer": "B",
-      "explanation": "The illness provides John's powerful speech about ignorance being 'the worst thing next to wickedness' - transforming a simple mistake into a lesson about moral responsibility and proper education."
+      "question": "What does Merrylegs mean when he says 'good places make good horses'?",
+      "options": {
+        "A": "Expensive stables produce better horses",
+        "B": "A horse's behavior reflects its treatment - kindness produces good behavior",
+        "C": "Location determines breed quality",
+        "D": "Weather affects horse mood"
+      },
+      "answer": "B",
+      "explanation": "Merrylegs argues that horse behavior is a response to treatment: 'I wouldn't vex our people for anything; I love them' - love and kindness breed loyalty."
     },
     {
       "id": 59,
       "difficulty": "hard",
-      "question": "What does Merrylegs represent in the social hierarchy of the stable?",
-      "options": [
-        "An unimportant character, central to the plot, a notable element, an important detail",
-        "The cheerful acceptance of one's role combined with wisdom gained through experience and observation",
-        "The highest status horse, which played a key role from the old legends from the ancient times",
-        "A troublemaker, an important detail, which was quite significant, essential to understand"
-      ],
-      "correct_answer": "B",
-      "explanation": "Merrylegs, despite being small and used only for children's riding, demonstrates wisdom ('I am twelve years old, I know a great deal') and contentment - representing how dignity exists independent of social status."
+      "question": "What does the old ostler's observation about his crooked leg tell us about the working class in Victorian England?",
+      "options": {
+        "A": "Workers had good healthcare",
+        "B": "Workers injured in dangerous occupations often had to find new work rather than receive support",
+        "C": "Only injured people worked with horses",
+        "D": "Leg injuries were fashionable"
+      },
+      "answer": "B",
+      "explanation": "After breaking his knee as a jockey, the ostler 'was of no more use there' but 'could not live without horses' - showing how injured workers had to adapt or starve."
     },
     {
       "id": 60,
       "difficulty": "hard",
-      "question": "What does Black Beauty's whinny that helped Ginger find courage to escape the fire symbolize?",
-      "options": [
-        "Horses are just noisy, as revealed in the tale, which played a key role with special abilities",
-        "Fire makes horses loud, central to the plot, which played a key role with hidden secrets",
-        "The power of connection and communication in crisis - how supporting others can save lives",
-        "Ginger was hard of hearing from the old legends from the ancient times with hidden secrets"
-      ],
-      "correct_answer": "C",
-      "explanation": "Black Beauty's call giving Ginger courage to escape demonstrates how mutual support and connection - calling out to others in distress - can literally save lives, reinforcing themes of community over isolation."
+      "question": "What is the ultimate message of Black Beauty about the relationship between humans and animals?",
+      "options": {
+        "A": "Animals exist only to serve humans",
+        "B": "Animals deserve kindness and consideration, and treating them well reflects our own moral character",
+        "C": "Humans should not use animals at all",
+        "D": "Animals are more intelligent than humans"
+      },
+      "answer": "B",
+      "explanation": "The novel argues that animals feel pain and respond to kindness, and how we treat them reveals who we are - 'there is no religion without love... to man and beast.'"
     }
   ]
 }

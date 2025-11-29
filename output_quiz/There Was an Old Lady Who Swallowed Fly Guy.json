@@ -1,0 +1,27 @@
+{
+  "title": "There Was an Old Lady Who Swallowed Fly Guy",
+  "author": "Tedd Arnold",
+  "genre": "Humor / Early Reader",
+  "book_level": {
+    "grade": 2,
+    "description": "Early reader level - humorous adaptation of classic nursery rhyme"
+  },
+  "total_questions": 15,
+  "questions": [
+    {"id": 1, "difficulty": "easy", "question": "What is the name of the boy in the story?", "options": {"A": "Billy", "B": "Buzz", "C": "Bobby", "D": "Ben"}, "answer": "B", "explanation": "The boy's name is Buzz, and he has a pet fly."},
+    {"id": 2, "difficulty": "easy", "question": "What is the fly's name?", "options": {"A": "Buzz", "B": "Fly Guy", "C": "Buzzy", "D": "Flyboy"}, "answer": "B", "explanation": "The fly is named Fly Guy."},
+    {"id": 3, "difficulty": "easy", "question": "Who did Buzz go to visit?", "options": {"A": "His mother", "B": "His grandma", "C": "His friend", "D": "His teacher"}, "answer": "B", "explanation": "Buzz went to visit his grandma, and Fly Guy went too."},
+    {"id": 4, "difficulty": "easy", "question": "How did Grandma feel when she saw Buzz?", "options": {"A": "Angry", "B": "Sad", "C": "Happy", "D": "Scared"}, "answer": "C", "explanation": "Grandma was happy to see Buzz and ran to hug him."},
+    {"id": 5, "difficulty": "easy", "question": "What happened to Fly Guy when Grandma hugged Buzz?", "options": {"A": "He flew away", "B": "Grandma swallowed him", "C": "He hid in Buzz's pocket", "D": "He went home"}, "answer": "B", "explanation": "When Grandma hugged Buzz, she accidentally swallowed Fly Guy."},
+    {"id": 6, "difficulty": "medium", "question": "When Fly Guy went down into Grandma's stomach, he found himself in ---.", "options": {"A": "a bright sunny place", "B": "a deep dark hole with a wet place at the bottom", "C": "a small room", "D": "a garden"}, "answer": "B", "explanation": "Fly Guy went down a deep dark hole and came to a wet place at the bottom."},
+    {"id": 7, "difficulty": "medium", "question": "After swallowing Fly Guy, Grandma swallowed a spider because ---.", "options": {"A": "she was hungry", "B": "she wanted to catch Fly Guy", "C": "she liked spiders", "D": "it was an accident"}, "answer": "B", "explanation": "Grandma swallowed a spider to catch Fly Guy."},
+    {"id": 8, "difficulty": "medium", "question": "What did Grandma swallow to catch the spider?", "options": {"A": "a fly", "B": "a bird", "C": "a worm", "D": "a frog"}, "answer": "B", "explanation": "She swallowed a bird to catch the spider."},
+    {"id": 9, "difficulty": "medium", "question": "The order of animals Grandma swallowed to catch Fly Guy was: spider, bird, cat, dog, ---.", "options": {"A": "cow, horse", "B": "goat, cow", "C": "pig, cow", "D": "sheep, cow"}, "answer": "B", "explanation": "After the dog, Grandma swallowed a goat, then a cow."},
+    {"id": 10, "difficulty": "medium", "question": "Grandma was about to swallow a horse, but then ---.", "options": {"A": "she fell asleep", "B": "Fly Guy came out", "C": "the horse ran away", "D": "Buzz stopped her"}, "answer": "B", "explanation": "Before Grandma could swallow the horse, Fly Guy came out."},
+    {"id": 11, "difficulty": "hard", "question": "Why is this story funny?", "options": {"A": "Because Buzz has a strange name", "B": "Because the idea of swallowing bigger animals to catch smaller ones is silly and impossible", "C": "Because Grandma is old", "D": "Because flies are funny"}, "answer": "B", "explanation": "The humor comes from the absurd chain of swallowing bigger and bigger animals, which is impossible in real life."},
+    {"id": 12, "difficulty": "hard", "question": "What does this story teach about solving problems?", "options": {"A": "Always ask for help", "B": "Sometimes simple solutions work better than complicated ones that make things worse", "C": "Animals can solve problems", "D": "Grandmas know best"}, "answer": "B", "explanation": "Each animal Grandma swallows creates a bigger problem, showing that making solutions more complicated doesn't always help."},
+    {"id": 13, "difficulty": "hard", "question": "This story is based on a famous nursery rhyme. What makes this version special?", "options": {"A": "It uses dinosaurs", "B": "It features Fly Guy as the main character and has a happy ending", "C": "It is set in space", "D": "It has no animals"}, "answer": "B", "explanation": "This version puts Fly Guy in the old nursery rhyme and gives it a happy ending where everyone comes out safely."},
+    {"id": 14, "difficulty": "hard", "question": "Why might the author have chosen a fly as Buzz's pet?", "options": {"A": "Because flies are cute", "B": "Because having a fly as a pet is unusual and surprising, which adds to the humor", "C": "Because flies are easy to take care of", "D": "Because flies are colorful"}, "answer": "B", "explanation": "A fly is an unusual pet choice, which makes the story funny and surprising from the very beginning."},
+    {"id": 15, "difficulty": "hard", "question": "What is the meaning of the ending 'they lived happily ever after'?", "options": {"A": "Grandma got a pet fly too", "B": "Everyone, including Fly Guy and all the animals, survived and were okay", "C": "Buzz moved in with Grandma", "D": "The horse became a pet"}, "answer": "B", "explanation": "The happy ending shows that Fly Guy and all the animals that came out of Grandma were fine, ending the silly adventure on a positive note."}
+  ]
+}

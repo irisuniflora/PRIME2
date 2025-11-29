@@ -21,7 +21,12 @@
       "Bash(node add-new-quizzes.js:*)",
       "Bash(node remove-book.js:*)",
       "Bash(del \"Diary of a Wimpy Kid.json\")",
-      "Bash(ren:*)"
+      "Bash(ren:*)",
+      "Bash(git rm:*)",
+      "Bash(gh:*)",
+      "Bash(node fix-quiz-data.js:*)",
+      "Bash(node check-explanations.js:*)",
+      "Bash(node rebuild-quiz-data.js:*)"
     ],
     "deny": [],
     "ask": []
