@@ -28,7 +28,11 @@
       "Bash(node check-explanations.js:*)",
       "Bash(node rebuild-quiz-data.js:*)",
       "Bash(git mv:*)",
-      "Bash(taskkill:*)"
+      "Bash(taskkill:*)",
+      "Bash(node fix-black-beauty.js:*)",
+      "Bash(del \"c:\\Users\\welch\\Desktop\\Enov\\fix-black-beauty.js\")",
+      "Bash(node fix-wimpy-kid.js:*)",
+      "Bash(node fix-eerie.js:*)"
     ],
     "deny": [],
     "ask": []

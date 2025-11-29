@@ -1,0 +1,809 @@
+const fs = require('fs');
+
+const data = JSON.parse(fs.readFileSync('output_quiz/Diary of a Wimpy Kid.json', 'utf8'));
+
+// 완전히 새로 작성된 질문들
+const newQuestions = [
+  // EASY (1-20) - 정답 균등 분포 (A:5, B:5, C:5, D:5)
+  {
+    id: 1,
+    difficulty: "easy",
+    question: "What does Greg insist his book should be called?",
+    options: {
+      A: "A journal, not a diary",
+      B: "A notebook for school",
+      C: "A secret logbook",
+      D: "A memoir of his life"
+    },
+    answer: "A",
+    explanation: "Greg says 'This is a journal, not a diary' because he thinks diaries are for girls."
+  },
+  {
+    id: 2,
+    difficulty: "easy",
+    question: "Who is Greg's best friend?",
+    options: {
+      A: "Bryce Anderson",
+      B: "Rowley Jefferson",
+      C: "Fregley",
+      D: "Chirag Gupta"
+    },
+    answer: "B",
+    explanation: "Rowley Jefferson is Greg's best friend, though Greg says their friendship is 'subject to change.'"
+  },
+  {
+    id: 3,
+    difficulty: "easy",
+    question: "What is the name of Greg's older brother?",
+    options: {
+      A: "Manny",
+      B: "Charlie",
+      C: "Roderick",
+      D: "Bryce"
+    },
+    answer: "C",
+    explanation: "Roderick is Greg's older brother who plays drums in a heavy metal band."
+  },
+  {
+    id: 4,
+    difficulty: "easy",
+    question: "What is the name of Roderick's band?",
+    options: {
+      A: "Heavy Thunder",
+      B: "Metal Madness",
+      C: "Rock Solid",
+      D: "Loaded Diaper"
+    },
+    answer: "D",
+    explanation: "Roderick's band is called Loaded Diaper, spelled L-O-D-E-D-D-I-P-E-R on his van."
+  },
+  {
+    id: 5,
+    difficulty: "easy",
+    question: "What nickname does Manny call Greg?",
+    options: {
+      A: "Buddy",
+      B: "Bubby",
+      C: "Greggy",
+      D: "Brother"
+    },
+    answer: "B",
+    explanation: "Manny calls Greg 'Bubby' because he couldn't pronounce 'brother' when he was a baby."
+  },
+  {
+    id: 6,
+    difficulty: "easy",
+    question: "Who started the Cheese Touch at school?",
+    options: {
+      A: "Darren Walsh",
+      B: "Greg Heffley",
+      C: "Rowley Jefferson",
+      D: "Abe Hall"
+    },
+    answer: "A",
+    explanation: "Darren Walsh touched the moldy cheese with his finger, starting the Cheese Touch."
+  },
+  {
+    id: 7,
+    difficulty: "easy",
+    question: "How can you protect yourself from the Cheese Touch?",
+    options: {
+      A: "Wear special gloves",
+      B: "Run away quickly",
+      C: "Cross your fingers",
+      D: "Touch a tree"
+    },
+    answer: "C",
+    explanation: "The only way to protect yourself from the Cheese Touch is to cross your fingers."
+  },
+  {
+    id: 8,
+    difficulty: "easy",
+    question: "Who is the most popular boy in Greg's grade?",
+    options: {
+      A: "Greg Heffley",
+      B: "Rowley Jefferson",
+      C: "Ronnie McCoy",
+      D: "Bryce Anderson"
+    },
+    answer: "D",
+    explanation: "Bryce Anderson is the most popular boy in Greg's grade."
+  },
+  {
+    id: 9,
+    difficulty: "easy",
+    question: "What position does Greg run for in student government?",
+    options: {
+      A: "Treasurer",
+      B: "Vice President",
+      C: "President",
+      D: "Secretary"
+    },
+    answer: "A",
+    explanation: "Greg runs for treasurer because he figures nobody cares about that position."
+  },
+  {
+    id: 10,
+    difficulty: "easy",
+    question: "What is Greg's favorite holiday?",
+    options: {
+      A: "Christmas Day",
+      B: "Halloween",
+      C: "Thanksgiving",
+      D: "Easter"
+    },
+    answer: "B",
+    explanation: "Halloween is Greg's favorite holiday."
+  },
+  {
+    id: 11,
+    difficulty: "easy",
+    question: "What does Fregley say when he needs to go to the bathroom?",
+    options: {
+      A: "Water! Water!",
+      B: "Potty! Potty!",
+      C: "Juice! Juice!",
+      D: "Help! Help!"
+    },
+    answer: "C",
+    explanation: "Fregley says 'Juice! Juice!' when he needs the bathroom, and the teachers keep bringing him juice."
+  },
+  {
+    id: 12,
+    difficulty: "easy",
+    question: "What book means you're in the easy reading group?",
+    options: {
+      A: "Einstein as a Child",
+      B: "Science for Smart Kids",
+      C: "Advanced Reading Today",
+      D: "Bink Says Boo"
+    },
+    answer: "D",
+    explanation: "If students get 'Bink Says Boo,' they're in the easy reading group."
+  },
+  {
+    id: 13,
+    difficulty: "easy",
+    question: "What did Greg's dad hide in on Halloween night?",
+    options: {
+      A: "The bushes with water",
+      B: "The garage with a hose",
+      C: "The basement stairs",
+      D: "Behind the front door"
+    },
+    answer: "A",
+    explanation: "Dad hides in the bushes with a big trash can full of water to drench teenagers."
+  },
+  {
+    id: 14,
+    difficulty: "easy",
+    question: "Who took the Cheese Touch to California?",
+    options: {
+      A: "Abe Hall",
+      B: "Greg Heffley",
+      C: "Rowley Jefferson",
+      D: "Darren Walsh"
+    },
+    answer: "A",
+    explanation: "Abe Hall got the Cheese Touch and moved away to California, taking it with him."
+  },
+  {
+    id: 15,
+    difficulty: "easy",
+    question: "What grade did Greg get in handwriting class?",
+    options: {
+      A: "An A",
+      B: "A B",
+      C: "A C",
+      D: "A D"
+    },
+    answer: "D",
+    explanation: "Greg got a D in handwriting because he taped his fingers together to stay crossed."
+  },
+  {
+    id: 16,
+    difficulty: "easy",
+    question: "Where does Fregley live?",
+    options: {
+      A: "Right next to Greg's house",
+      B: "Halfway between Greg's and Rowley's houses",
+      C: "Next to the school building",
+      D: "Across town from Greg"
+    },
+    answer: "B",
+    explanation: "Fregley lives halfway between Greg's house and Rowley's house."
+  },
+  {
+    id: 17,
+    difficulty: "easy",
+    question: "What sport determined popularity in elementary school?",
+    options: {
+      A: "Playing basketball well",
+      B: "Playing football well",
+      C: "Playing soccer well",
+      D: "Running fast"
+    },
+    answer: "D",
+    explanation: "In elementary school, if you were the fastest runner, you got all the girls."
+  },
+  {
+    id: 18,
+    difficulty: "easy",
+    question: "What does Greg's mom always say about him?",
+    options: {
+      A: "He's lazy and careless",
+      B: "He's very athletic",
+      C: "He's smart but doesn't apply himself",
+      D: "He's very artistic"
+    },
+    answer: "C",
+    explanation: "Mom always says Greg is a smart kid but just doesn't apply himself."
+  },
+  {
+    id: 19,
+    difficulty: "easy",
+    question: "What video game does Rowley have that Greg always plays?",
+    options: {
+      A: "Twisted Wizard game",
+      B: "Formula One Racing",
+      C: "Wacky Dog game",
+      D: "Super Fighter game"
+    },
+    answer: "B",
+    explanation: "Greg plays Formula One Racing at Rowley's because violent games aren't allowed there."
+  },
+  {
+    id: 20,
+    difficulty: "easy",
+    question: "What did the first kid pay to enter Greg's haunted house?",
+    options: {
+      A: "Two dollars",
+      B: "One dollar",
+      C: "Five dollars",
+      D: "Fifty cents"
+    },
+    answer: "A",
+    explanation: "Greg charged 2 dollars even though the flyer said 50 cents, calling it a typo."
+  },
+
+  // MEDIUM (21-40) - 빈칸 채우기 형식, 정답 균등 분포 (A:5, B:5, C:5, D:5)
+  {
+    id: 21,
+    difficulty: "medium",
+    question: "According to Greg, in middle school you have to be careful where you sit on the first day because _____.",
+    options: {
+      A: "the teacher assigns permanent seats based on where you sit",
+      B: "the popular kids will make fun of you",
+      C: "the windows are too bright in some areas",
+      D: "the teachers move students around constantly"
+    },
+    answer: "A",
+    explanation: "Greg warns that wherever you sit on the first day becomes your permanent seat for the year."
+  },
+  {
+    id: 22,
+    difficulty: "medium",
+    question: "Roderick tricked Greg at the beginning of summer by _____.",
+    options: {
+      A: "hiding his video games in the basement",
+      B: "making him think he slept through the whole summer",
+      C: "telling him school was cancelled all year",
+      D: "pretending their parents went on vacation"
+    },
+    answer: "B",
+    explanation: "Roderick woke Greg up at 3 AM, dressed in school clothes, and made him think it was the first day of school."
+  },
+  {
+    id: 23,
+    difficulty: "medium",
+    question: "Greg taped his fingers together because _____.",
+    options: {
+      A: "he broke his finger playing sports at school",
+      B: "it was a trend among popular kids",
+      C: "he wanted to keep them crossed to avoid the Cheese Touch",
+      D: "he was copying what Rowley did first"
+    },
+    answer: "C",
+    explanation: "Greg taped his fingers together so they'd stay crossed all the time to protect from the Cheese Touch."
+  },
+  {
+    id: 24,
+    difficulty: "medium",
+    question: "Greg was disappointed to be in the gifted reading group because _____.",
+    options: {
+      A: "his friends were all in the easy group",
+      B: "the teacher of that class was very strict",
+      C: "the books they read were too boring",
+      D: "it meant a lot of extra work for him"
+    },
+    answer: "D",
+    explanation: "Greg was disappointed because being in the gifted group just means a lot of extra work."
+  },
+  {
+    id: 25,
+    difficulty: "medium",
+    question: "When Greg plays Formula One Racing with Rowley, he wins easily by _____.",
+    options: {
+      A: "using cheat codes he found online",
+      B: "practicing more hours than Rowley does",
+      C: "naming his car something ridiculous like 'Bad Fart'",
+      D: "using a better controller than Rowley"
+    },
+    answer: "C",
+    explanation: "Greg names his car something ridiculous, and Rowley falls to pieces when the announcer says it."
+  },
+  {
+    id: 26,
+    difficulty: "medium",
+    question: "Rowley got in trouble with Greg because on the first day of school, he asked Greg to _____.",
+    options: {
+      A: "carry his heavy books to class",
+      B: "'play' instead of 'hang out' like middle schoolers say",
+      C: "sit next to him during lunch",
+      D: "share his food at lunchtime"
+    },
+    answer: "B",
+    explanation: "Rowley asked to 'play' instead of 'hang out,' which embarrassed Greg in middle school."
+  },
+  {
+    id: 27,
+    difficulty: "medium",
+    question: "Mrs. Craig confiscated the CD player and lectured the boys because she thought _____.",
+    options: {
+      A: "rock and roll music is evil and ruins brains",
+      B: "they stole it from another student's locker",
+      C: "they were skipping their classes to listen",
+      D: "the music volume was way too loud"
+    },
+    answer: "A",
+    explanation: "Mrs. Craig lectured them about how rock and roll is evil and will ruin their brains."
+  },
+  {
+    id: 28,
+    difficulty: "medium",
+    question: "Greg got in trouble for listening to Roderick's CD because _____.",
+    options: {
+      A: "he played it way too late at night",
+      B: "the headphones weren't plugged in and music came through the speakers",
+      C: "Roderick caught him with it in his room",
+      D: "Mom found the CD hidden in his backpack"
+    },
+    answer: "B",
+    explanation: "Greg didn't have the headphones plugged into the stereo, so the music came through the speakers."
+  },
+  {
+    id: 29,
+    difficulty: "medium",
+    question: "Roderick had to answer Mom's questions as punishment because _____.",
+    options: {
+      A: "he failed an important test at school",
+      B: "he broke Greg's favorite video game system",
+      C: "Manny brought his heavy metal magazine to daycare",
+      D: "he stayed out way too late at night"
+    },
+    answer: "C",
+    explanation: "Manny took Roderick's magazine with a woman in a bikini to daycare for show and tell."
+  },
+  {
+    id: 30,
+    difficulty: "medium",
+    question: "Greg's campaign posters were taken down by the vice principal because _____.",
+    options: {
+      A: "they had too many spelling mistakes",
+      B: "they were hung in the wrong place",
+      C: "they contained false claims about the other candidate",
+      D: "they were way too big for the walls"
+    },
+    answer: "C",
+    explanation: "Mr. Roy said you weren't allowed to write fabrications about other candidates."
+  },
+  {
+    id: 31,
+    difficulty: "medium",
+    question: "At the Crossland haunted house, Mom made the chainsaw guy stop chasing the boys by _____.",
+    options: {
+      A: "calling the police on him",
+      B: "telling him 'That's not nice'",
+      C: "threatening to report him to management",
+      D: "paying him extra money to leave"
+    },
+    answer: "B",
+    explanation: "Mom stepped in and said 'That's not nice,' and the chainsaw guy apologized and showed them the exit."
+  },
+  {
+    id: 32,
+    difficulty: "medium",
+    question: "Greg and Rowley's haunted house had to close because _____.",
+    options: {
+      A: "Shane Snella hid under the bed and Rowley's dad found them",
+      B: "they completely ran out of all supplies",
+      C: "too many kids complained to their parents",
+      D: "it started raining really hard outside"
+    },
+    answer: "A",
+    explanation: "Shane curled up under the bed in fear, and when Rowley's dad came down, he shut down the operation."
+  },
+  {
+    id: 33,
+    difficulty: "medium",
+    question: "When Rowley was grounded from TV, Greg tried to help by _____.",
+    options: {
+      A: "doing a play-by-play of the show over the phone",
+      B: "recording all the shows for Rowley to watch later",
+      C: "writing detailed summaries of each episode",
+      D: "sneaking a small TV into Rowley's room"
+    },
+    answer: "A",
+    explanation: "Greg turned on Rowley's favorite show and did a play-by-play over the phone."
+  },
+  {
+    id: 34,
+    difficulty: "medium",
+    question: "Greg thinks Dad would dismantle his game system, but he can't because _____.",
+    options: {
+      A: "Mom won't let him touch Greg's stuff",
+      B: "Greg hides it in a secret location",
+      C: "Roderick protects it from being touched",
+      D: "the people who make them make them parent-proof"
+    },
+    answer: "D",
+    explanation: "Greg says the people who make game systems make them parent-proof."
+  },
+  {
+    id: 35,
+    difficulty: "medium",
+    question: "Greg ranks himself around 52nd or 53rd in popularity, but expects to move up because _____.",
+    options: {
+      A: "he's getting cool new clothes soon",
+      B: "Rowley is planning to move away",
+      C: "Charlie Davies above him is getting braces",
+      D: "he just joined the soccer team"
+    },
+    answer: "C",
+    explanation: "Greg figures he'll move up because Charlie Davies is getting braces next week."
+  },
+  {
+    id: 36,
+    difficulty: "medium",
+    question: "The game Greg invented with the CD player headphones involved _____.",
+    options: {
+      A: "listening to music and guessing the song title",
+      B: "passing the headphones around as quickly as possible",
+      C: "dancing while wearing the headphones on your head",
+      D: "putting headphones on and shaking them off without using hands"
+    },
+    answer: "D",
+    explanation: "The game was to put headphones on and shake them off in the shortest time without using hands."
+  },
+  {
+    id: 37,
+    difficulty: "medium",
+    question: "Greg learned from Roderick to set people's expectations low so that _____.",
+    options: {
+      A: "nobody ever asks you for any help",
+      B: "teachers will leave you completely alone",
+      C: "you don't have to do any homework",
+      D: "you end up surprising them by practically doing nothing"
+    },
+    answer: "D",
+    explanation: "Greg learned to set expectations low so you end up surprising people by practically doing nothing."
+  },
+  {
+    id: 38,
+    difficulty: "medium",
+    question: "When Greg messes up in front of Dad, the best time to do it is when Dad is _____.",
+    options: {
+      A: "reading the paper quietly",
+      B: "watching his favorite TV show",
+      C: "eating dinner with the family",
+      D: "working out in the yard"
+    },
+    answer: "A",
+    explanation: "Good time to screw up is when Dad is reading the paper; bad time is when he's laying bricks."
+  },
+  {
+    id: 39,
+    difficulty: "medium",
+    question: "Greg sneaks violent video games to Rowley's house by _____.",
+    options: {
+      A: "hiding them deep inside his backpack",
+      B: "telling Rowley's dad they're educational games",
+      C: "putting his disc in Manny's 'Discovering the Alphabet' case",
+      D: "borrowing Rowley's games instead of bringing his"
+    },
+    answer: "C",
+    explanation: "Greg puts his game disc in Manny's Discovering the Alphabet case to get past Rowley's dad."
+  },
+  {
+    id: 40,
+    difficulty: "medium",
+    question: "After running through the neighbor's sprinkler, Greg's trick backfired because _____.",
+    options: {
+      A: "Dad knew right away he was faking",
+      B: "he caught a really bad cold",
+      C: "his clothes got completely ruined",
+      D: "Mom saw him and made him take a shower"
+    },
+    answer: "D",
+    explanation: "The trick worked on Dad, but Mom saw him and made him go upstairs and take a shower."
+  },
+
+  // HARD (41-60) - 추론/분석 문제, 정답 균등 분포 (A:5, B:5, C:5, D:5)
+  {
+    id: 41,
+    difficulty: "hard",
+    question: "Why does Greg say writing in the journal will 'come in handy' when he's rich and famous?",
+    options: {
+      A: "He won't have to answer people's stupid questions",
+      B: "His fans will all want to read it",
+      C: "It will help him remember his childhood better",
+      D: "He can sell it for a lot of money"
+    },
+    answer: "A",
+    explanation: "Greg says when he's rich and famous, he'll have better things to do than answer questions, so the book will come in handy."
+  },
+  {
+    id: 42,
+    difficulty: "hard",
+    question: "What does Greg's attitude toward Rowley reveal about his character?",
+    options: {
+      A: "He is a loyal friend who truly cares about Rowley",
+      B: "He sees friendship partly as a way to benefit himself",
+      C: "He doesn't care about popularity at all",
+      D: "He values Rowley above everyone else in his life"
+    },
+    answer: "B",
+    explanation: "Greg uses Rowley for pranks, criticizes his popularity rank, and says their friendship is 'subject to change.'"
+  },
+  {
+    id: 43,
+    difficulty: "hard",
+    question: "Why is it ironic that Greg was disappointed to be in the gifted reading group?",
+    options: {
+      A: "He actually loves reading more than anyone else",
+      B: "The gifted group actually has less homework than others",
+      C: "He tried to act stupid but his mom talked to the principal",
+      D: "Rowley is also in the gifted group with him"
+    },
+    answer: "C",
+    explanation: "Greg deliberately tried to act stupid during screening, but his mom is tight with the principal and probably got him placed in gifted anyway."
+  },
+  {
+    id: 44,
+    difficulty: "hard",
+    question: "What does the Cheese Touch represent in the social world of Greg's school?",
+    options: {
+      A: "A fun game that everyone at school enjoys playing",
+      B: "The importance of good personal hygiene",
+      C: "A great way to make new friends at school",
+      D: "How quickly social status can change through random rules"
+    },
+    answer: "D",
+    explanation: "The Cheese Touch shows how arbitrary social rules can instantly make someone an outcast, like Abe Hall who nobody would go near."
+  },
+  {
+    id: 45,
+    difficulty: "hard",
+    question: "What does Greg's description of middle school mixing kids who 'haven't hit their growth spurt with gorillas who shave twice a day' suggest?",
+    options: {
+      A: "He's pointing out how physical differences create unfair social dynamics",
+      B: "He wants to transfer to a completely different school",
+      C: "He thinks the school should separate grades very differently",
+      D: "He really admires the bigger kids in his school"
+    },
+    answer: "A",
+    explanation: "Greg points out how unfair it is that physical development differences create bullying problems in middle school."
+  },
+  {
+    id: 46,
+    difficulty: "hard",
+    question: "Why does Greg think Dad 'doesn't understand the concept of Halloween'?",
+    options: {
+      A: "Dad doesn't like eating any candy at all",
+      B: "Dad uses Halloween to drench teenagers instead of giving candy",
+      C: "Dad never wears any kind of costume",
+      D: "Dad always goes to bed really early"
+    },
+    answer: "B",
+    explanation: "While other parents hand out candy, Dad hides in the bushes to drench teenagers with water."
+  },
+  {
+    id: 47,
+    difficulty: "hard",
+    question: "What does the contrast between Mom's and Dad's punishment styles reveal?",
+    options: {
+      A: "Mom is much stricter than Dad overall",
+      B: "They always agree on how to punish the kids",
+      C: "Dad reacts immediately but cools off, while Mom waits and surprises you",
+      D: "Neither parent is very effective at discipline"
+    },
+    answer: "C",
+    explanation: "Dad gets mad but cools off quick; Mom takes days to decide, making you do nice things, then surprises you with punishment."
+  },
+  {
+    id: 48,
+    difficulty: "hard",
+    question: "Why is it significant that Bryce Anderson used to say 'girls are stinky poos' but is now the most popular boy?",
+    options: {
+      A: "It shows girls at school have bad memories",
+      B: "It proves that being mean makes you popular",
+      C: "It shows Bryce changed his personality completely",
+      D: "It shows popularity rules change unfairly between elementary and middle school"
+    },
+    answer: "D",
+    explanation: "Greg points out how popularity used to be about being fast, but now it's about looks and money - and he doesn't get credit for always liking girls."
+  },
+  {
+    id: 49,
+    difficulty: "hard",
+    question: "What does Greg's haunted house scheme reveal about his entrepreneurial thinking?",
+    options: {
+      A: "He's very creative but doesn't follow through on his plans",
+      B: "He's honest in all his business dealings with people",
+      C: "He always puts customers first in everything",
+      D: "He has no interest in making money at all"
+    },
+    answer: "A",
+    explanation: "Greg had elaborate plans (sharks, acid lakes) but only finished the Hall of Screams and a ketchup pool, showing big ideas but poor execution."
+  },
+  {
+    id: 50,
+    difficulty: "hard",
+    question: "Why does Greg describe Rowley's 'How to Make Friends' book gimmicks as 'dumb' but still become his friend?",
+    options: {
+      A: "The gimmicks actually worked on Greg without him realizing",
+      B: "He felt sorry for Rowley and saw him as someone he could use",
+      C: "Rowley's mom made them become friends with each other",
+      D: "They discovered they had all the same interests"
+    },
+    answer: "B",
+    explanation: "Greg says he 'felt sorry for Rowley' and decided to 'take him under my wing' - and that it's great because he can use Roderick's tricks on him."
+  },
+  {
+    id: 51,
+    difficulty: "hard",
+    question: "What does Greg's claim that he's 'super good at video games' and could 'beat anyone' reveal about his self-image?",
+    options: {
+      A: "He's very humble about all his abilities",
+      B: "He's actually a professional level gamer",
+      C: "He overestimates himself and values skills adults don't appreciate",
+      D: "He never exaggerates about anything"
+    },
+    answer: "C",
+    explanation: "Greg thinks highly of his gaming skills despite Dad not appreciating them, showing he values things differently than adults."
+  },
+  {
+    id: 52,
+    difficulty: "hard",
+    question: "Why is Mom dancing to Roderick's heavy metal music ironic?",
+    options: {
+      A: "She's actually a really great dancer",
+      B: "She used to be in a rock band herself",
+      C: "Roderick taught her all the dance moves",
+      D: "She treats all music the same, not understanding metal is rebellious"
+    },
+    answer: "D",
+    explanation: "Mom doesn't understand that heavy metal is supposed to be rebellious - to her 'all music is the same,' which bugs Roderick."
+  },
+  {
+    id: 53,
+    difficulty: "hard",
+    question: "What does Greg's campaign poster strategy reveal about his approach to competition?",
+    options: {
+      A: "He tries to win by tearing down opponents rather than promoting himself",
+      B: "He's very honest in all his dealings with people",
+      C: "He focuses on promoting his own strengths honestly",
+      D: "He doesn't really care about winning at all"
+    },
+    answer: "A",
+    explanation: "Greg's posters attacked Marty Porter (head lice, dropping money) instead of promoting his own qualifications."
+  },
+  {
+    id: 54,
+    difficulty: "hard",
+    question: "What theme does the story of Ronnie McCoy illustrate about growing up?",
+    options: {
+      A: "Athletic ability always matters no matter what",
+      B: "What makes you popular as a child doesn't guarantee success later",
+      C: "Running is the most important skill to have",
+      D: "Elementary school is harder than middle school"
+    },
+    answer: "B",
+    explanation: "Ronnie was popular in elementary school for being fast, but now kids like him are 'scratching their heads wondering what happened.'"
+  },
+  {
+    id: 55,
+    difficulty: "hard",
+    question: "Why does Greg compare being stuck with Manny's potty routine to losing his appetite?",
+    options: {
+      A: "He doesn't like the breakfast foods Mom makes",
+      B: "Manny's food always tastes really bad",
+      C: "Scraping cereal from a toilet-like object is disgusting even if sanitary",
+      D: "He's trying to go on a diet"
+    },
+    answer: "C",
+    explanation: "Greg says if Mom had to scrape cornflakes out of a plastic potty every morning, she wouldn't have much appetite either."
+  },
+  {
+    id: 56,
+    difficulty: "hard",
+    question: "What does Greg's numerical ranking of popularity (52nd or 53rd) suggest about middle school social dynamics?",
+    options: {
+      A: "Everyone at school knows their exact popularity rank",
+      B: "Teachers officially assign popularity ranks to students",
+      C: "Only the top 10 kids actually matter at school",
+      D: "Greg obsessively measures and calculates social status like a competition"
+    },
+    answer: "D",
+    explanation: "Greg treats popularity like a precise ranking system, even tracking when he might move up a spot due to someone's braces."
+  },
+  {
+    id: 57,
+    difficulty: "hard",
+    question: "Why does Rowley's crying about 'rock and roll ruining his brains' frustrate Greg?",
+    options: {
+      A: "Rowley takes things literally and doesn't understand when adults overreact",
+      B: "Greg actually agrees with what Mrs. Craig said",
+      C: "Rowley is being way too loud about it",
+      D: "Rowley broke the CD player while crying"
+    },
+    answer: "A",
+    explanation: "Greg says 'sometimes I don't know about that boy' - Rowley believed Mrs. Craig's exaggeration literally."
+  },
+  {
+    id: 58,
+    difficulty: "hard",
+    question: "What does the phrase 'Let's you and me have a talk, friend' reveal about Dad's communication style?",
+    options: {
+      A: "Dad is always friendly even when he's angry",
+      B: "Dad uses 'friend' sarcastically to signal Greg is in trouble",
+      C: "Dad wants to have a casual friendly conversation",
+      D: "Dad forgot what Greg's name is"
+    },
+    answer: "B",
+    explanation: "Greg learned that when Dad says 'friend' that way, 'you know you're in trouble' - it's sarcasm."
+  },
+  {
+    id: 59,
+    difficulty: "hard",
+    question: "What does Greg raising the haunted house price from 50 cents to 2 dollars reveal about him?",
+    options: {
+      A: "He's a very generous person overall",
+      B: "He made an honest mistake on the flyer",
+      C: "He's opportunistic and willing to deceive customers for profit",
+      D: "He didn't want anyone to actually come"
+    },
+    answer: "C",
+    explanation: "Greg saw a 'chance to make a killing' and lied that the 50 cent price was a typo, showing opportunism."
+  },
+  {
+    id: 60,
+    difficulty: "hard",
+    question: "What is the overall message about Greg's view of himself versus how others might see him?",
+    options: {
+      A: "Greg is exactly as cool as he thinks he is",
+      B: "Greg is very self-aware about his flaws",
+      C: "Greg has really low self-esteem",
+      D: "Greg sees himself as smarter and more deserving than his situation reflects"
+    },
+    answer: "D",
+    explanation: "Greg believes he'll be 'rich and famous,' ranks his popularity precisely, and thinks he's super skilled at games - but his schemes often fail and he's stuck in middle school like everyone else."
+  }
+];
+
+data.questions = newQuestions;
+
+fs.writeFileSync('output_quiz/Diary of a Wimpy Kid.json', JSON.stringify(data, null, 2));
+
+// 검증
+const answers = { easy: {}, medium: {}, hard: {} };
+newQuestions.forEach(q => {
+  const diff = q.difficulty;
+  answers[diff][q.answer] = (answers[diff][q.answer] || 0) + 1;
+});
+
+console.log('=== Diary of a Wimpy Kid 퀴즈 수정 완료 ===');
+console.log('\n정답 분포:');
+console.log('Easy:', answers.easy);
+console.log('Medium:', answers.medium);
+console.log('Hard:', answers.hard);

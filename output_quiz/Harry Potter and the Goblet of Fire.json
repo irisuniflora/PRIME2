@@ -11,14 +11,14 @@
     {
       "id": 1,
       "difficulty": "easy",
-      "question": "What is the name of the prestigious magical competition held at Hogwarts in this book?",
+      "question": "What is the name of the magical competition held at Hogwarts?",
       "options": {
-        "A": "The Wizarding Cup",
-        "B": "The Triwizard Tournament",
+        "A": "The Triwizard Tournament",
+        "B": "The Wizarding Cup",
         "C": "The Magical Games",
         "D": "The House Championship"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "The Triwizard Tournament is the legendary competition between Hogwarts, Beauxbatons, and Durmstrang schools."
     },
     {
@@ -37,14 +37,14 @@
     {
       "id": 3,
       "difficulty": "easy",
-      "question": "Who is the Hogwarts champion chosen by the Goblet of Fire?",
+      "question": "Who is the official Hogwarts champion chosen by the Goblet?",
       "options": {
         "A": "Harry Potter",
-        "B": "Cedric Diggory",
-        "C": "Viktor Krum",
+        "B": "Viktor Krum",
+        "C": "Cedric Diggory",
         "D": "Fleur Delacour"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "Cedric Diggory, a Hufflepuff prefect, is selected as the official Hogwarts champion."
     },
     {
@@ -54,16 +54,16 @@
       "options": {
         "A": "Common Welsh Green",
         "B": "Swedish Short-Snout",
-        "C": "Hungarian Horntail",
-        "D": "Chinese Fireball"
+        "C": "Chinese Fireball",
+        "D": "Hungarian Horntail"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "Harry must face the Hungarian Horntail, considered the most dangerous of the four dragons."
     },
     {
       "id": 5,
       "difficulty": "easy",
-      "question": "What must the champions retrieve from the dragons?",
+      "question": "What must champions retrieve from the dragons in the first task?",
       "options": {
         "A": "A golden egg",
         "B": "A silver cup",
@@ -76,7 +76,7 @@
     {
       "id": 6,
       "difficulty": "easy",
-      "question": "What plant does Harry use to breathe underwater in the second task?",
+      "question": "What plant does Harry use to breathe underwater?",
       "options": {
         "A": "Mandrake root",
         "B": "Gillyweed",
@@ -89,7 +89,7 @@
     {
       "id": 7,
       "difficulty": "easy",
-      "question": "Who gives Harry the gillyweed?",
+      "question": "Who gives Harry the gillyweed for the second task?",
       "options": {
         "A": "Hermione",
         "B": "Ron",
@@ -102,46 +102,33 @@
     {
       "id": 8,
       "difficulty": "easy",
-      "question": "What creature lives in the Black Lake where the second task takes place?",
+      "question": "Who does Harry rescue from the lake during the second task?",
       "options": {
-        "A": "Giant squid only",
-        "B": "Grindylows and merpeople",
-        "C": "Basilisk",
-        "D": "Dragons"
+        "A": "Hermione",
+        "B": "Ginny",
+        "C": "Cho Chang",
+        "D": "Ron"
       },
-      "answer": "B",
-      "explanation": "The Black Lake is home to merpeople who guard the hostages, as well as grindylows."
+      "answer": "D",
+      "explanation": "Ron is the person Harry would 'miss most' and is taken by the merpeople."
     },
     {
       "id": 9,
       "difficulty": "easy",
-      "question": "Who does Harry rescue from the lake during the second task?",
+      "question": "What is the third task of the Triwizard Tournament?",
       "options": {
-        "A": "Hermione",
-        "B": "Ron",
-        "C": "Ginny",
-        "D": "Cho Chang"
+        "A": "A maze with obstacles",
+        "B": "A duel with dragons",
+        "C": "A potion-making contest",
+        "D": "A flying race"
       },
-      "answer": "B",
-      "explanation": "Ron is the person Harry would 'miss most' and is taken by the merpeople."
+      "answer": "A",
+      "explanation": "The third task involves navigating a magical maze filled with dangerous creatures and obstacles."
     },
     {
       "id": 10,
       "difficulty": "easy",
-      "question": "What is the third task of the Triwizard Tournament?",
-      "options": {
-        "A": "A duel with dragons",
-        "B": "A maze with obstacles",
-        "C": "A potion-making contest",
-        "D": "A flying race"
-      },
-      "answer": "B",
-      "explanation": "The third task involves navigating a magical maze filled with dangerous creatures and obstacles."
-    },
-    {
-      "id": 11,
-      "difficulty": "easy",
-      "question": "What formal dance event is held during the Triwizard Tournament?",
+      "question": "What formal dance event is held during the tournament?",
       "options": {
         "A": "The Winter Ball",
         "B": "The Yule Ball",
@@ -152,7 +139,7 @@
       "explanation": "The Yule Ball is a traditional part of the Triwizard Tournament held on Christmas Day."
     },
     {
-      "id": 12,
+      "id": 11,
       "difficulty": "easy",
       "question": "Who does Harry take to the Yule Ball?",
       "options": {
@@ -165,46 +152,46 @@
       "explanation": "After Cho declines, Harry takes Parvati Patil to the Yule Ball."
     },
     {
-      "id": 13,
+      "id": 12,
       "difficulty": "easy",
       "question": "Who is the new Defense Against the Dark Arts teacher?",
       "options": {
-        "A": "Remus Lupin",
-        "B": "Gilderoy Lockhart",
-        "C": "Alastor 'Mad-Eye' Moody",
+        "A": "Alastor 'Mad-Eye' Moody",
+        "B": "Remus Lupin",
+        "C": "Gilderoy Lockhart",
         "D": "Severus Snape"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "Alastor 'Mad-Eye' Moody, a famous retired Auror, teaches Defense Against the Dark Arts."
+    },
+    {
+      "id": 13,
+      "difficulty": "easy",
+      "question": "What sporting event do the Weasleys and Harry attend at the start?",
+      "options": {
+        "A": "The House Cup Final",
+        "B": "The Wizard Olympics",
+        "C": "The Broomstick Championships",
+        "D": "The Quidditch World Cup"
+      },
+      "answer": "D",
+      "explanation": "Harry attends the Quidditch World Cup final between Ireland and Bulgaria with the Weasleys."
     },
     {
       "id": 14,
       "difficulty": "easy",
-      "question": "What major sporting event do the Weasleys and Harry attend at the beginning of the book?",
-      "options": {
-        "A": "The House Cup Final",
-        "B": "The Quidditch World Cup",
-        "C": "The Wizard Olympics",
-        "D": "The Broomstick Championships"
-      },
-      "answer": "B",
-      "explanation": "Harry attends the Quidditch World Cup final between Ireland and Bulgaria with the Weasleys."
-    },
-    {
-      "id": 15,
-      "difficulty": "easy",
       "question": "What is Viktor Krum's position in Quidditch?",
       "options": {
-        "A": "Chaser",
-        "B": "Keeper",
-        "C": "Seeker",
+        "A": "Seeker",
+        "B": "Chaser",
+        "C": "Keeper",
         "D": "Beater"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "Viktor Krum is the famous Seeker for the Bulgarian national Quidditch team."
     },
     {
-      "id": 16,
+      "id": 15,
       "difficulty": "easy",
       "question": "Which school does Viktor Krum attend?",
       "options": {
@@ -217,7 +204,7 @@
       "explanation": "Viktor Krum attends Durmstrang Institute, located in northern Europe."
     },
     {
-      "id": 17,
+      "id": 16,
       "difficulty": "easy",
       "question": "Who is the champion from Beauxbatons Academy?",
       "options": {
@@ -230,7 +217,7 @@
       "explanation": "Fleur Delacour is selected as the champion from Beauxbatons Academy."
     },
     {
-      "id": 18,
+      "id": 17,
       "difficulty": "easy",
       "question": "What creature is Fleur Delacour revealed to be part of?",
       "options": {
@@ -243,53 +230,66 @@
       "explanation": "Fleur's grandmother was a Veela, making Fleur part-Veela."
     },
     {
-      "id": 19,
+      "id": 18,
       "difficulty": "easy",
-      "question": "What appears in the sky after the Quidditch World Cup that causes panic?",
+      "question": "What appears in the sky after the World Cup that causes panic?",
       "options": {
-        "A": "A dragon",
-        "B": "The Dark Mark",
+        "A": "The Dark Mark",
+        "B": "A dragon",
         "C": "A message from Voldemort",
         "D": "A giant skull made of stars"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "The Dark Mark, Voldemort's sign, appears in the sky causing widespread fear."
     },
     {
-      "id": 20,
+      "id": 19,
       "difficulty": "easy",
       "question": "What is at the center of the maze in the third task?",
       "options": {
         "A": "A dragon",
-        "B": "The Triwizard Cup",
-        "C": "A sphinx",
-        "D": "A boggart"
+        "B": "A sphinx",
+        "C": "A boggart",
+        "D": "The Triwizard Cup"
+      },
+      "answer": "D",
+      "explanation": "The Triwizard Cup trophy is placed at the center of the maze as the goal."
+    },
+    {
+      "id": 20,
+      "difficulty": "easy",
+      "question": "What creatures live in the Black Lake where the second task occurs?",
+      "options": {
+        "A": "Giant squid only",
+        "B": "Grindylows and merpeople",
+        "C": "Basilisks",
+        "D": "Dragons"
       },
       "answer": "B",
-      "explanation": "The Triwizard Cup trophy is placed at the center of the maze as the goal."
+      "explanation": "The Black Lake is home to merpeople who guard the hostages, as well as grindylows."
     },
     {
       "id": 21,
       "difficulty": "medium",
-      "question": "When Harry's name came out of the Goblet of Fire, everyone was shocked because ---.",
+      "question": "When Harry's name came out of the Goblet, everyone was shocked because he had not _____ and there should only be three champions.",
       "options": {
-        "A": "he was too young to enter",
-        "B": "he had not put his name in the Goblet",
-        "C": "there should only be three champions",
-        "D": "both B and C are correct"
+        "A": "trained enough",
+        "B": "been old enough",
+        "C": "put his name in",
+        "D": "won before"
       },
-      "answer": "D",
-      "explanation": "Harry was underage and had not entered his name, yet the Goblet selected a fourth champion, which had never happened before."
+      "answer": "C",
+      "explanation": "Harry was underage and had not entered his name, yet the Goblet selected a fourth champion."
     },
     {
       "id": 22,
       "difficulty": "medium",
-      "question": "The golden egg from the first task contained a clue that could only be understood when ---.",
+      "question": "The golden egg's clue could only be understood when the egg was opened _____.",
       "options": {
-        "A": "read by candlelight",
-        "B": "opened underwater",
-        "C": "translated from Mermish",
-        "D": "heated over a fire"
+        "A": "by candlelight",
+        "B": "underwater",
+        "C": "at midnight",
+        "D": "near a fire"
       },
       "answer": "B",
       "explanation": "The egg's shrieking becomes understandable mermaid song when listened to underwater."
@@ -297,77 +297,77 @@
     {
       "id": 23,
       "difficulty": "medium",
-      "question": "During the second task, Harry finished outside the time limit but received high marks because ---.",
+      "question": "Harry received high marks in the second task despite finishing late because he showed _____ by staying to rescue all hostages.",
       "options": {
-        "A": "he used the most creative method",
-        "B": "he showed moral fiber by staying to rescue all hostages, not just his own",
-        "C": "he was the only one to fight off the grindylows",
-        "D": "the judges felt sorry for him"
+        "A": "magical skill",
+        "B": "great speed",
+        "C": "moral fiber",
+        "D": "clever thinking"
       },
-      "answer": "B",
-      "explanation": "Harry waited to ensure Fleur's sister Gabrielle was also saved, showing moral character that impressed most judges."
+      "answer": "C",
+      "explanation": "Harry waited to ensure Fleur's sister Gabrielle was also saved, showing moral character."
     },
     {
       "id": 24,
       "difficulty": "medium",
-      "question": "Harry discovered that Mad-Eye Moody had a magical eye that could ---.",
+      "question": "Mad-Eye Moody's magical eye could see through _____, including invisibility cloaks.",
       "options": {
-        "A": "read minds",
-        "B": "see through solid objects, including the back of his head",
-        "C": "predict the future",
-        "D": "detect lies"
+        "A": "solid objects",
+        "B": "time",
+        "C": "memories",
+        "D": "lies"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "Moody's magical eye can see through walls, invisibility cloaks, and even rotate to see behind him."
     },
     {
       "id": 25,
       "difficulty": "medium",
-      "question": "Professor Moody demonstrated the three Unforgivable Curses in class, which are ---.",
+      "question": "The three Unforgivable Curses are Imperius, Cruciatus, and _____.",
       "options": {
-        "A": "Stupefy, Expelliarmus, and Obliviate",
-        "B": "Imperius, Cruciatus, and Avada Kedavra",
-        "C": "Sectumsempra, Levicorpus, and Morsmordre",
-        "D": "Petrificus Totalus, Furnunculus, and Diffindo"
+        "A": "Stupefy",
+        "B": "Sectumsempra",
+        "C": "Obliviate",
+        "D": "Avada Kedavra"
       },
-      "answer": "B",
-      "explanation": "The Imperius Curse controls others, the Cruciatus Curse causes torture, and Avada Kedavra is the Killing Curse."
+      "answer": "D",
+      "explanation": "The Imperius controls, Cruciatus tortures, and Avada Kedavra is the Killing Curse."
     },
     {
       "id": 26,
       "difficulty": "medium",
-      "question": "At the Yule Ball, Hermione surprised everyone by ---.",
+      "question": "At the Yule Ball, Hermione surprised everyone by attending with _____ and looking beautiful.",
       "options": {
-        "A": "winning a dance competition",
-        "B": "attending with Viktor Krum and looking beautiful",
-        "C": "announcing she was leaving Hogwarts",
-        "D": "performing a solo song"
+        "A": "Harry Potter",
+        "B": "Ron Weasley",
+        "C": "Neville Longbottom",
+        "D": "Viktor Krum"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "Hermione attended with Viktor Krum and looked stunning, shocking Ron and Harry."
     },
     {
       "id": 27,
       "difficulty": "medium",
-      "question": "Ron was angry with Hermione after the Yule Ball because ---.",
+      "question": "Ron accused Hermione of 'fraternizing with the enemy' because she went to the ball with _____.",
       "options": {
-        "A": "she didn't help him with homework",
-        "B": "she went with Krum, whom he accused of fraternizing with the enemy",
-        "C": "she danced with Harry",
-        "D": "she left the ball early"
+        "A": "a Slytherin student",
+        "B": "Viktor Krum",
+        "C": "a Durmstrang student",
+        "D": "Cedric Diggory"
       },
       "answer": "B",
-      "explanation": "Ron was jealous of Hermione going with Krum and accused her of 'fraternizing with the enemy.'"
+      "explanation": "Ron was jealous of Hermione going with Krum, a Triwizard competitor from Durmstrang."
     },
     {
       "id": 28,
       "difficulty": "medium",
-      "question": "The Triwizard Cup in the maze had been turned into a Portkey that transported Harry and Cedric to ---.",
+      "question": "The Triwizard Cup was secretly turned into a _____ that transported Harry and Cedric to a graveyard.",
       "options": {
-        "A": "Hogwarts Great Hall",
-        "B": "the Ministry of Magic",
-        "C": "a graveyard in Little Hangleton",
-        "D": "the Forbidden Forest"
+        "A": "Horcrux",
+        "B": "Time-Turner",
+        "C": "Portkey",
+        "D": "Vanishing Cabinet"
       },
       "answer": "C",
       "explanation": "The Cup was secretly turned into a Portkey leading to the graveyard where Voldemort's father was buried."
@@ -375,418 +375,418 @@
     {
       "id": 29,
       "difficulty": "medium",
-      "question": "In the graveyard, Voldemort used a potion to regenerate his body using ---.",
+      "question": "Voldemort's rebirth potion required bone from his father, flesh from his servant, and _____ from Harry.",
       "options": {
-        "A": "dragon blood, unicorn hair, and phoenix tears",
-        "B": "bone from his father, flesh from Wormtail, and blood from Harry",
-        "C": "essence of three magical creatures",
-        "D": "ingredients from the Hogwarts potions storeroom"
+        "A": "tears",
+        "B": "blood",
+        "C": "hair",
+        "D": "skin"
       },
       "answer": "B",
-      "explanation": "The potion required 'bone of the father, flesh of the servant, and blood of the enemy' to restore Voldemort."
+      "explanation": "The potion required 'bone of the father, flesh of the servant, and blood of the enemy.'"
     },
     {
       "id": 30,
       "difficulty": "medium",
-      "question": "When Harry and Voldemort's wands connected during their duel, a phenomenon called ---.",
+      "question": "When Harry and Voldemort's wands connected, a phenomenon called _____ occurred.",
       "options": {
-        "A": "Expelliarmus Echo",
-        "B": "Priori Incantatem",
+        "A": "Priori Incantatem",
+        "B": "Expelliarmus Echo",
         "C": "Brother Wand Bond",
         "D": "Phoenix Connection"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "Priori Incantatem occurred because both wands shared phoenix feather cores from the same phoenix."
     },
     {
       "id": 31,
       "difficulty": "medium",
-      "question": "During Priori Incantatem, Harry saw ghostly figures emerge from Voldemort's wand, including ---.",
+      "question": "During Priori Incantatem, ghostly echoes of Voldemort's victims emerged, including Harry's _____.",
       "options": {
-        "A": "Dumbledore and McGonagall",
-        "B": "his parents James and Lily",
-        "C": "the four Hogwarts founders",
-        "D": "Sirius Black and Remus Lupin"
+        "A": "grandparents",
+        "B": "parents",
+        "C": "godfather",
+        "D": "teachers"
       },
       "answer": "B",
-      "explanation": "The echoes of Voldemort's victims emerged, including Cedric, Bertha Jorkins, Frank Bryce, and Harry's parents."
+      "explanation": "The echoes of Voldemort's victims emerged, including Cedric, Bertha Jorkins, and Harry's parents."
     },
     {
       "id": 32,
       "difficulty": "medium",
-      "question": "The real Mad-Eye Moody was found ---.",
+      "question": "The real Mad-Eye Moody was found imprisoned in his own magical _____.",
       "options": {
-        "A": "dead in his home",
-        "B": "imprisoned in his own magical trunk",
-        "C": "hiding in Hogsmeade",
-        "D": "working at the Ministry"
+        "A": "cellar",
+        "B": "trunk",
+        "C": "closet",
+        "D": "room"
       },
       "answer": "B",
-      "explanation": "The real Moody had been kept alive but imprisoned in a magical trunk with seven compartments throughout the year."
+      "explanation": "The real Moody had been kept alive but imprisoned in a magical trunk with seven compartments."
     },
     {
       "id": 33,
       "difficulty": "medium",
-      "question": "The person impersonating Mad-Eye Moody all year was ---.",
+      "question": "The person impersonating Mad-Eye Moody all year was _____.",
       "options": {
-        "A": "Peter Pettigrew",
-        "B": "Barty Crouch Jr.",
+        "A": "Barty Crouch Jr.",
+        "B": "Peter Pettigrew",
         "C": "Lucius Malfoy",
         "D": "Igor Karkaroff"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "Barty Crouch Jr., a Death Eater, used Polyjuice Potion to impersonate Moody for the entire school year."
     },
     {
       "id": 34,
       "difficulty": "medium",
-      "question": "Barty Crouch Jr. kept up his disguise by constantly drinking ---.",
+      "question": "Fake Moody constantly drank from his hip flask because it contained _____.",
       "options": {
         "A": "butterbeer",
         "B": "firewhisky",
-        "C": "Polyjuice Potion from his hip flask",
-        "D": "a calming draught"
+        "C": "Polyjuice Potion",
+        "D": "a healing potion"
       },
       "answer": "C",
-      "explanation": "Polyjuice Potion must be taken regularly to maintain the disguise, which is why fake Moody always drank from his flask."
+      "explanation": "Polyjuice Potion must be taken regularly to maintain the disguise."
     },
     {
       "id": 35,
       "difficulty": "medium",
-      "question": "The house-elf Winky was dismissed from service because ---.",
+      "question": "Winky the house-elf was dismissed because she was found holding the wand that conjured the _____.",
       "options": {
-        "A": "she stole from her master",
-        "B": "she was found holding the wand that conjured the Dark Mark",
-        "C": "she revealed her master's secrets",
-        "D": "she refused to work"
+        "A": "Patronus",
+        "B": "Dark Mark",
+        "C": "Killing Curse",
+        "D": "fire signal"
       },
       "answer": "B",
-      "explanation": "Winky was found with the wand used to cast the Dark Mark and was dismissed by Barty Crouch Sr. in disgrace."
+      "explanation": "Winky was found with the wand used to cast the Dark Mark and was dismissed in disgrace."
     },
     {
       "id": 36,
       "difficulty": "medium",
-      "question": "Hermione started S.P.E.W. to campaign for ---.",
+      "question": "Hermione started S.P.E.W. to campaign for _____ rights.",
       "options": {
-        "A": "better grades for students",
-        "B": "house-elf welfare and rights",
-        "C": "protection of magical creatures",
-        "D": "equal treatment of Muggle-borns"
+        "A": "Muggle-born",
+        "B": "werewolf",
+        "C": "house-elf",
+        "D": "centaur"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "S.P.E.W. (Society for the Promotion of Elfish Welfare) was Hermione's campaign for better treatment of house-elves."
     },
     {
       "id": 37,
       "difficulty": "medium",
-      "question": "Rita Skeeter wrote damaging articles about Harry and others because ---.",
+      "question": "Rita Skeeter got her stories by secretly transforming into a _____ to spy on people.",
       "options": {
-        "A": "she had a personal grudge",
-        "B": "the Ministry paid her",
-        "C": "she was an unregistered Animagus who could spy as a beetle",
-        "D": "she used Veritaserum on people"
+        "A": "fly",
+        "B": "beetle",
+        "C": "spider",
+        "D": "moth"
       },
-      "answer": "C",
-      "explanation": "Rita was secretly an unregistered Animagus who transformed into a beetle to eavesdrop on private conversations."
+      "answer": "B",
+      "explanation": "Rita was secretly an unregistered Animagus who transformed into a beetle to eavesdrop."
     },
     {
       "id": 38,
       "difficulty": "medium",
-      "question": "Barty Crouch Sr. was killed by ---.",
+      "question": "Barty Crouch Sr. was killed by his own _____ to prevent him from exposing the plot.",
       "options": {
-        "A": "Voldemort directly",
-        "B": "his own son Barty Crouch Jr.",
-        "C": "Peter Pettigrew",
-        "D": "a Death Eater attack"
+        "A": "house-elf",
+        "B": "colleague",
+        "C": "son",
+        "D": "wife"
       },
-      "answer": "B",
-      "explanation": "Barty Crouch Jr. killed his father to prevent him from reaching Dumbledore and exposing the plot."
+      "answer": "C",
+      "explanation": "Barty Crouch Jr. killed his father to prevent him from reaching Dumbledore."
     },
     {
       "id": 39,
       "difficulty": "medium",
-      "question": "In the graveyard, Voldemort summoned his Death Eaters by ---.",
+      "question": "Voldemort summoned his Death Eaters by touching the Dark Mark on _____'s arm.",
       "options": {
-        "A": "sending owls",
-        "B": "using the Floo Network",
-        "C": "touching Wormtail's Dark Mark",
-        "D": "casting a Patronus"
+        "A": "Lucius Malfoy",
+        "B": "Wormtail",
+        "C": "Barty Crouch Jr.",
+        "D": "Severus Snape"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "Voldemort pressed his finger to the Dark Mark on Wormtail's arm, summoning all marked Death Eaters."
     },
     {
       "id": 40,
       "difficulty": "medium",
-      "question": "Minister of Magic Cornelius Fudge refused to believe Voldemort had returned because ---.",
+      "question": "Minister Fudge refused to believe Voldemort had returned because he feared the _____ consequences.",
       "options": {
-        "A": "he had proof Voldemort was dead",
-        "B": "he feared the political consequences and preferred to deny the truth",
-        "C": "Dumbledore told him not to worry",
-        "D": "the Daily Prophet said it was a lie"
+        "A": "magical",
+        "B": "financial",
+        "C": "political",
+        "D": "personal"
       },
-      "answer": "B",
-      "explanation": "Fudge was more concerned about panic and his political position than accepting the dangerous truth."
+      "answer": "C",
+      "explanation": "Fudge was more concerned about panic and his political position than accepting the truth."
     },
     {
       "id": 41,
       "difficulty": "hard",
-      "question": "What does the Triwizard Tournament reveal about the nature of competition and fairness in the wizarding world?",
+      "question": "What does the tournament's manipulation reveal about supposedly 'fair' magical systems?",
       "options": {
-        "A": "That magical competitions are always perfectly fair",
-        "B": "That despite rules and safeguards, the tournament can be manipulated by those with dark intentions",
-        "C": "That only the strongest wizard always wins",
-        "D": "That competitions have no real danger"
+        "A": "They are always perfectly fair",
+        "B": "They can be corrupted by those with dark intentions despite safeguards",
+        "C": "Only the strongest wizard wins",
+        "D": "Competitions have no real danger"
       },
       "answer": "B",
-      "explanation": "Despite age restrictions and the Goblet's supposed impartiality, Barty Crouch Jr. manipulated the entire tournament for Voldemort's plan."
+      "explanation": "Despite age restrictions and the Goblet's supposed impartiality, Barty Crouch Jr. manipulated the entire tournament."
     },
     {
       "id": 42,
       "difficulty": "hard",
-      "question": "What is the significance of Harry and Cedric both touching the Cup simultaneously?",
+      "question": "Harry and Cedric touching the Cup together demonstrates the theme of what?",
       "options": {
-        "A": "It shows they were equally skilled",
-        "B": "It demonstrates the theme of cooperation over competition and leads to shared tragedy",
-        "C": "It was required by tournament rules",
-        "D": "It shows Cedric was faster"
+        "A": "Competition is everything",
+        "B": "Cedric was the true winner",
+        "C": "Cooperation can lead to shared tragedy",
+        "D": "Rules must always be followed"
       },
-      "answer": "B",
-      "explanation": "Harry and Cedric's decision to share victory represents sportsmanship, but it tragically leads to Cedric's death at Voldemort's hands."
+      "answer": "C",
+      "explanation": "Their decision to share victory represents sportsmanship, but tragically leads to Cedric's death."
     },
     {
       "id": 43,
       "difficulty": "hard",
-      "question": "What does Cedric Diggory's death represent in the larger narrative of the series?",
+      "question": "What does Cedric's death represent in the series' larger narrative?",
       "options": {
-        "A": "A minor plot point quickly forgotten",
-        "B": "The first innocent death showing Voldemort's return has real, devastating consequences",
+        "A": "The first innocent death showing Voldemort's return has real consequences",
+        "B": "A minor plot point",
         "C": "That Hufflepuff students are weak",
-        "D": "A random accident with no meaning"
+        "D": "A random accident"
       },
-      "answer": "B",
-      "explanation": "Cedric's death marks the transition from school adventures to real war, showing Voldemort's return means innocent people will die."
+      "answer": "A",
+      "explanation": "Cedric's death marks the transition from school adventures to real war with real casualties."
     },
     {
       "id": 44,
       "difficulty": "hard",
-      "question": "What does Priori Incantatem symbolize about the connection between Harry and Voldemort?",
+      "question": "Priori Incantatem symbolizes what about Harry and Voldemort's relationship?",
       "options": {
         "A": "They are distant relatives",
-        "B": "Their wands are merely similar in design",
-        "C": "Their fates are deeply intertwined, and their connection goes beyond mere coincidence",
-        "D": "Harry stole Voldemort's wand"
+        "B": "Their wands are merely similar",
+        "C": "Harry stole Voldemort's wand",
+        "D": "Their fates are deeply intertwined beyond coincidence"
       },
-      "answer": "C",
-      "explanation": "The twin cores reveal a destined connection between Harry and Voldemort that neither can escape, foreshadowing their linked fates."
+      "answer": "D",
+      "explanation": "The twin cores reveal a destined connection between Harry and Voldemort that neither can escape."
     },
     {
       "id": 45,
       "difficulty": "hard",
-      "question": "What theme is explored through Cornelius Fudge's refusal to believe Voldemort has returned?",
+      "question": "Fudge's denial of Voldemort's return explores what theme about leadership?",
       "options": {
-        "A": "Government officials are always right",
-        "B": "Political leaders sometimes choose comfortable denial over facing difficult truths",
-        "C": "The Ministry is well-prepared for any threat",
+        "A": "Leaders sometimes choose comfortable denial over difficult truths",
+        "B": "Government officials are always right",
+        "C": "The Ministry was well-prepared",
         "D": "Dumbledore was lying"
       },
-      "answer": "B",
-      "explanation": "Fudge represents how authority figures may prioritize political stability and their own positions over acknowledging dangerous realities."
+      "answer": "A",
+      "explanation": "Fudge represents how authority figures may prioritize political stability over acknowledging danger."
     },
     {
       "id": 46,
       "difficulty": "hard",
-      "question": "What does Barty Crouch Jr.'s storyline reveal about the theme of parental relationships?",
+      "question": "The Barty Crouch family story reveals what about parenting?",
       "options": {
-        "A": "Parents always know what's best",
+        "A": "Parents always know best",
         "B": "Strict parenting creates perfect children",
-        "C": "Parental neglect and rigid control can contribute to a child's turn toward evil",
+        "C": "Neglect and rigid control can contribute to a child's path toward evil",
         "D": "Family bonds are unbreakable"
       },
       "answer": "C",
-      "explanation": "Crouch Sr.'s obsession with his career and strict control over his son contributed to Jr.'s path to becoming a Death Eater."
+      "explanation": "Crouch Sr.'s obsession with his career and strict control contributed to Jr. becoming a Death Eater."
     },
     {
       "id": 47,
       "difficulty": "hard",
-      "question": "Why is it significant that Harry refuses to leave Cedric's body in the graveyard?",
+      "question": "Harry refusing to leave Cedric's body in the graveyard demonstrates what?",
       "options": {
-        "A": "He needed proof of what happened",
-        "B": "He was following tournament rules",
-        "C": "It shows Harry's loyalty and humanity even in mortal danger",
+        "A": "His loyalty and humanity even in mortal danger",
+        "B": "He needed proof of what happened",
+        "C": "Tournament rules required it",
         "D": "Cedric asked him to"
       },
-      "answer": "C",
-      "explanation": "Harry's insistence on bringing Cedric's body back demonstrates his character-valuing human dignity even when his own life is threatened."
+      "answer": "A",
+      "explanation": "Harry's insistence on bringing Cedric's body back shows he values human dignity even when threatened."
     },
     {
       "id": 48,
       "difficulty": "hard",
-      "question": "What does the Goblet of Fire's selection of Harry as a fourth champion suggest about magical contracts?",
+      "question": "Harry being bound to compete without entering his name suggests what about magical contracts?",
       "options": {
         "A": "They can be easily broken",
-        "B": "They are meaningless formalities",
-        "C": "Magical contracts are binding regardless of consent or intention",
-        "D": "Champions can withdraw anytime"
+        "B": "They are meaningless",
+        "C": "Champions can withdraw anytime",
+        "D": "They are binding regardless of consent"
       },
-      "answer": "C",
-      "explanation": "Once Harry's name came from the Goblet, he was magically bound to compete, showing how magical contracts can trap people against their will."
+      "answer": "D",
+      "explanation": "Once Harry's name came from the Goblet, he was magically bound to compete against his will."
     },
     {
       "id": 49,
       "difficulty": "hard",
-      "question": "What does the treatment of house-elves throughout the book suggest about wizarding society?",
+      "question": "The treatment of house-elves reveals what about wizarding society?",
       "options": {
-        "A": "Wizards are completely enlightened about equality",
-        "B": "The wizarding world has its own blind spots regarding oppression and slavery",
+        "A": "Wizards are enlightened about equality",
+        "B": "The wizarding world has its own blind spots about oppression",
         "C": "House-elves prefer their situation",
         "D": "Hermione is wrong to care"
       },
       "answer": "B",
-      "explanation": "Through S.P.E.W. and the treatment of Winky and Dobby, the book shows that wizarding society has prejudices similar to human societies."
+      "explanation": "Through S.P.E.W. and Winky's treatment, the book shows wizarding society has prejudices like human societies."
     },
     {
       "id": 50,
       "difficulty": "hard",
-      "question": "What is the importance of the graveyard setting for Voldemort's rebirth?",
+      "question": "The graveyard setting for Voldemort's rebirth is symbolically important because it connects him to what?",
       "options": {
-        "A": "It was a random convenient location",
-        "B": "It was the only place with enough space",
-        "C": "It connects Voldemort to his origins, using his father's bones and the site where he killed his Muggle family",
-        "D": "It was required by the potion recipe"
+        "A": "His origins and his first murders there",
+        "B": "Random convenience",
+        "C": "The only place with space",
+        "D": "A potion requirement"
       },
-      "answer": "C",
-      "explanation": "The graveyard where Voldemort's father is buried represents his origins and his first murders, making his rebirth there symbolically significant."
+      "answer": "A",
+      "explanation": "The graveyard where Voldemort's father is buried represents his origins and first murders."
     },
     {
       "id": 51,
       "difficulty": "hard",
-      "question": "How does Rita Skeeter's journalism reflect on the role of media in society?",
+      "question": "Rita Skeeter's journalism reflects what about media in society?",
       "options": {
         "A": "Media always tells the truth",
-        "B": "The press can be a powerful tool for manipulation and spreading misinformation for personal gain",
+        "B": "The press can spread misinformation for personal gain",
         "C": "Newspapers are always trustworthy",
         "D": "Journalists never have agendas"
       },
       "answer": "B",
-      "explanation": "Rita's sensationalized, inaccurate articles show how media can distort truth for profit and influence public opinion unfairly."
+      "explanation": "Rita's sensationalized articles show how media can distort truth for profit."
     },
     {
       "id": 52,
       "difficulty": "hard",
-      "question": "What does Viktor Krum's character reveal about celebrity and assumptions?",
+      "question": "Viktor Krum's character challenges what assumption about celebrities?",
       "options": {
         "A": "Famous people are always arrogant",
-        "B": "Despite his fame, Krum is shy and genuine, showing that celebrity doesn't define character",
-        "C": "Athletes are not intelligent",
-        "D": "Fame always corrupts"
+        "B": "Athletes are not intelligent",
+        "C": "Fame always corrupts",
+        "D": "Celebrity doesn't define character - he's actually shy and genuine"
       },
-      "answer": "B",
-      "explanation": "Krum defies expectations-though a famous athlete, he's introverted, genuinely likes Hermione, and respects Harry despite being competitors."
+      "answer": "D",
+      "explanation": "Though a famous athlete, Krum is introverted and genuinely kind, defying expectations."
     },
     {
       "id": 53,
       "difficulty": "hard",
-      "question": "What is the significance of the ghost figures from Voldemort's wand helping Harry escape?",
+      "question": "The ghost figures from Voldemort's wand helping Harry emphasizes what theme?",
       "options": {
-        "A": "Ghosts have physical powers",
-        "B": "The echoes were just illusions",
-        "C": "Even in death, love and connection provide protection-his parents' echoes helped him survive",
+        "A": "Love and connection provide protection even after death",
+        "B": "Ghosts have physical powers",
+        "C": "The echoes were just illusions",
         "D": "Voldemort let Harry go"
       },
-      "answer": "C",
-      "explanation": "The echo of Harry's parents and other victims buying him time to escape reinforces the theme that love transcends death."
+      "answer": "A",
+      "explanation": "Harry's parents' echoes buying him time reinforces the theme that love transcends death."
     },
     {
       "id": 54,
       "difficulty": "hard",
-      "question": "What does Dumbledore's reaction to Voldemort's return suggest about his character?",
+      "question": "Dumbledore's immediate action after Voldemort's return shows what about his character?",
       "options": {
         "A": "He was surprised and unprepared",
-        "B": "He immediately took decisive action and began preparations, showing his foresight and leadership",
+        "B": "His foresight and leadership in crisis",
         "C": "He agreed with Fudge to wait",
         "D": "He was too scared to act"
       },
       "answer": "B",
-      "explanation": "Dumbledore immediately begins reconnecting the Order of the Phoenix and asking allies to prepare, showing his leadership in crisis."
+      "explanation": "Dumbledore immediately begins reconnecting the Order of the Phoenix, showing leadership."
     },
     {
       "id": 55,
       "difficulty": "hard",
-      "question": "What theme is explored through Harry having to participate despite not entering his name?",
+      "question": "Harry being forced to compete explores what life theme?",
       "options": {
         "A": "Rules are always fair",
-        "B": "Sometimes we are forced into situations beyond our control and must face challenges we never chose",
+        "B": "We are sometimes forced into challenges we never chose",
         "C": "Harry secretly wanted to compete",
         "D": "The Goblet made a mistake"
       },
       "answer": "B",
-      "explanation": "Harry being bound to compete despite not entering shows how life can thrust us into dangerous situations without our consent."
+      "explanation": "Harry being bound to compete despite not entering shows life can thrust us into danger without consent."
     },
     {
       "id": 56,
       "difficulty": "hard",
-      "question": "What does the division between those who believe Harry and those who don't foreshadow?",
+      "question": "The split between those who believe Harry and those who don't foreshadows what?",
       "options": {
-        "A": "Nothing important for future books",
-        "B": "A coming conflict between those who accept truth and those who choose denial",
+        "A": "A coming conflict between truth-accepters and deniers",
+        "B": "Nothing important",
         "C": "Harry will be proven wrong",
         "D": "The Ministry will support Harry"
       },
-      "answer": "B",
-      "explanation": "The split between believers and deniers sets up the central conflict of the next book, where truth is suppressed by the Ministry."
+      "answer": "A",
+      "explanation": "The split sets up the central conflict of the next book, where truth is suppressed."
     },
     {
       "id": 57,
       "difficulty": "hard",
-      "question": "Why is Voldemort's insistence on dueling Harry rather than just killing him significant?",
+      "question": "Voldemort insisting on dueling Harry rather than just killing him reveals what fatal flaw?",
       "options": {
-        "A": "It was required by wizard law",
-        "B": "He needed practice dueling",
-        "C": "His ego and desire to prove superiority over Harry is a fatal weakness that allows Harry to escape",
+        "A": "His ego and desire to prove superiority is a weakness",
+        "B": "It was required by wizard law",
+        "C": "He needed practice",
         "D": "Wormtail suggested it"
       },
-      "answer": "C",
-      "explanation": "Voldemort's arrogance in wanting to prove he can defeat Harry in a fair duel gives Harry the chance to survive, showing how hubris is his weakness."
+      "answer": "A",
+      "explanation": "Voldemort's arrogance in wanting a fair duel gives Harry a chance to survive."
     },
     {
       "id": 58,
       "difficulty": "hard",
-      "question": "What does Harry giving his Triwizard winnings to Fred and George represent?",
+      "question": "Harry giving his winnings to Fred and George transforms what into something positive?",
       "options": {
-        "A": "He didn't want the money",
+        "A": "Nothing significant",
         "B": "The prize was cursed",
-        "C": "Blood money from Cedric's death is transformed into something positive-the joke shop that later aids the resistance",
-        "D": "He owed them money"
+        "C": "Money associated with Cedric's tragedy into the joke shop that aids resistance",
+        "D": "A debt he owed"
       },
       "answer": "C",
-      "explanation": "Harry's gift transforms money associated with tragedy into something that brings joy and later proves useful in the fight against Voldemort."
+      "explanation": "Harry's gift transforms money from tragedy into something that brings joy and later aids the fight."
     },
     {
       "id": 59,
       "difficulty": "hard",
-      "question": "What is the thematic importance of the Veela at the Quidditch World Cup?",
+      "question": "The Veela at the World Cup introduce themes of what?",
       "options": {
-        "A": "They were just entertainment",
-        "B": "They introduce themes of magical prejudice and the seductive power of appearances that deceive",
-        "C": "They had no larger meaning",
-        "D": "They were Voldemort's allies"
+        "A": "Just entertainment",
+        "B": "No larger meaning",
+        "C": "Voldemort's allies",
+        "D": "Appearances that deceive, paralleling the book's central deceptions"
       },
-      "answer": "B",
-      "explanation": "The Veela's ability to enchant men shows how appearances can deceive, paralleling how things throughout the book are not what they seem."
+      "answer": "D",
+      "explanation": "The Veela's ability to enchant shows how appearances deceive, paralleling the book's themes."
     },
     {
       "id": 60,
       "difficulty": "hard",
-      "question": "How does the ending of Goblet of Fire change the tone of the Harry Potter series?",
+      "question": "How does Goblet of Fire's ending change the series' tone?",
       "options": {
         "A": "It doesn't change anything",
         "B": "It remains a light children's story",
-        "C": "It marks a transition from childhood adventure to mature themes of death, war, and difficult choices",
+        "C": "It marks a transition to mature themes of death, war, and sacrifice",
         "D": "It becomes purely comedic"
       },
       "answer": "C",
-      "explanation": "Cedric's murder and Voldemort's return mark the series' shift from school adventures to a darker narrative about war, loss, and sacrifice."
+      "explanation": "Cedric's murder and Voldemort's return shift the series from school adventures to darker themes."
     }
   ]
 }

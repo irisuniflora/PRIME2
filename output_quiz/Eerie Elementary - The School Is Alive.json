@@ -8,65 +8,785 @@
   },
   "total_questions": 60,
   "questions": [
-    {"id": 1, "difficulty": "easy", "question": "What is Sam Graves chosen to be at school?", "options": {"A": "Class president", "B": "Hall monitor", "C": "Team captain", "D": "Library helper"}, "answer": "B", "explanation": "Sam is chosen to be a hall monitor at Eerie Elementary."},
-    {"id": 2, "difficulty": "easy", "question": "What are the names of Sam's two best friends?", "options": {"A": "Ryan and Michael", "B": "Antonio and Lucy", "C": "Brian and Emily", "D": "Jake and Emma"}, "answer": "B", "explanation": "Sam's best friends are Antonio and Lucy."},
-    {"id": 3, "difficulty": "easy", "question": "What color is the hall monitor sash that Sam has to wear?", "options": {"A": "Red", "B": "Blue", "C": "Orange", "D": "Green"}, "answer": "C", "explanation": "Sam has to wear a shiny orange sash as hall monitor."},
-    {"id": 4, "difficulty": "easy", "question": "Who is the old man that takes care of the school?", "options": {"A": "Mr. Graves", "B": "Mr. Nekobe", "C": "Mr. Brian", "D": "Mr. Grinker"}, "answer": "B", "explanation": "Mr. Nekobe is the old man who takes care of Eerie Elementary."},
-    {"id": 5, "difficulty": "easy", "question": "What is the name of their teacher?", "options": {"A": "Ms. Grinker", "B": "Ms. Lucy", "C": "Ms. Nekobe", "D": "Ms. Graves"}, "answer": "A", "explanation": "Ms. Grinker is Sam's classroom teacher."},
-    {"id": 6, "difficulty": "easy", "question": "What play is the class putting on?", "options": {"A": "Snow White", "B": "Peter Pan", "C": "Cinderella", "D": "The Wizard of Oz"}, "answer": "B", "explanation": "The class is performing Peter Pan for Friday's play."},
-    {"id": 7, "difficulty": "easy", "question": "Who plays Peter Pan in the school play?", "options": {"A": "Sam", "B": "Lucy", "C": "Antonio", "D": "Brian"}, "answer": "C", "explanation": "Antonio plays the role of Peter Pan."},
-    {"id": 8, "difficulty": "easy", "question": "Who plays Wendy in the school play?", "options": {"A": "Sam", "B": "Lucy", "C": "Antonio", "D": "Ms. Grinker"}, "answer": "B", "explanation": "Lucy plays Wendy in the Peter Pan play."},
-    {"id": 9, "difficulty": "easy", "question": "What character does Sam play in Peter Pan?", "options": {"A": "Captain Hook", "B": "Peter Pan", "C": "Noodler the pirate", "D": "Tinkerbell"}, "answer": "C", "explanation": "Sam plays Noodler, one of Captain Hook's friendly pirates."},
-    {"id": 10, "difficulty": "easy", "question": "What does Antonio always carry in his pocket for good luck?", "options": {"A": "A coin", "B": "A peanut butter and jelly sandwich", "C": "A rabbit's foot", "D": "A stone"}, "answer": "B", "explanation": "Antonio always carries a peanut butter and jelly sandwich in his pocket as his lucky charm."},
-    {"id": 11, "difficulty": "easy", "question": "What first tries to eat Sam at the playground?", "options": {"A": "A tree", "B": "Quicksand", "C": "A fire hose", "D": "A chair"}, "answer": "B", "explanation": "Sam's feet start sinking into quicksand on the playground."},
-    {"id": 12, "difficulty": "easy", "question": "Who saves Sam from the quicksand?", "options": {"A": "Antonio", "B": "Lucy", "C": "Mr. Nekobe", "D": "Ms. Grinker"}, "answer": "C", "explanation": "Mr. Nekobe grabs Sam's wrist and yanks him free from the quicksand."},
-    {"id": 13, "difficulty": "easy", "question": "What breaks through the classroom window?", "options": {"A": "A ball", "B": "A bird", "C": "A tree branch", "D": "A rock"}, "answer": "C", "explanation": "The oak tree's long, twisted branch crashes through the window and grabs Sam."},
-    {"id": 14, "difficulty": "easy", "question": "What attacks Sam in the hallway at night?", "options": {"A": "Lockers", "B": "A fire hose", "C": "Chairs", "D": "Windows"}, "answer": "B", "explanation": "A fire hose comes to life and whips around, attacking Sam."},
-    {"id": 15, "difficulty": "easy", "question": "How does Sam stop the fire hose?", "options": {"A": "He cuts it", "B": "He ties it in a knot", "C": "He runs away", "D": "Mr. Nekobe stops it"}, "answer": "B", "explanation": "Sam grabs the hose and ties it like a giant shoelace, stopping it."},
-    {"id": 16, "difficulty": "easy", "question": "What sound does Sam hear from the clock that scares him?", "options": {"A": "A bell", "B": "A heartbeat", "C": "Music", "D": "Thunder"}, "answer": "B", "explanation": "The clock changes from tick-tock to 'ba-bump, ba-bump' - the sound of a beating heart."},
-    {"id": 17, "difficulty": "easy", "question": "Where does Mr. Nekobe take Sam to train?", "options": {"A": "The gym", "B": "A secret room behind the janitor's closet", "C": "The library", "D": "The playground"}, "answer": "B", "explanation": "Mr. Nekobe has a secret room hidden behind the janitor's closet."},
-    {"id": 18, "difficulty": "easy", "question": "What is the training machine made of?", "options": {"A": "Wood and plastic", "B": "Old refrigerator, lockers, and school parts", "C": "New gym equipment", "D": "Cardboard boxes"}, "answer": "B", "explanation": "The machine is made of an old refrigerator, pieces of vending machine, lockers, and hockey sticks."},
-    {"id": 19, "difficulty": "easy", "question": "What does Mr. Nekobe tell Sam about the school?", "options": {"A": "It's new", "B": "It's alive", "C": "It's haunted by ghosts", "D": "It's going to close"}, "answer": "B", "explanation": "Mr. Nekobe reveals that 'Eerie Elementary is alive' - a living, breathing monster."},
-    {"id": 20, "difficulty": "easy", "question": "What does Sam use to defeat the monster mouth during the play?", "options": {"A": "Water", "B": "Fire", "C": "Peanut butter", "D": "Glue"}, "answer": "C", "explanation": "Sam kicks a giant drum of peanut butter into the mouth, which gums up the teeth."},
-    {"id": 21, "difficulty": "medium", "question": "When Sam fell asleep on hall monitor duty, he woke up to find ---.", "options": {"A": "his friends looking for him", "B": "the halls dark and the school coming alive", "C": "the principal angry at him", "D": "nothing had changed"}, "answer": "B", "explanation": "When Sam woke up, 'The halls were dark, nearly pitch black' and locker doors were slamming open and shut."},
-    {"id": 22, "difficulty": "medium", "question": "Sam's locker smelled terrible because ---.", "options": {"A": "he left food in it", "B": "the school was breathing on it", "C": "Antonio put something in it", "D": "it was always dirty"}, "answer": "B", "explanation": "The smell was like 'really bad breath' - it was the living school breathing through the locker."},
-    {"id": 23, "difficulty": "medium", "question": "Mr. Nekobe was Eerie Elementary's first hall monitor, and now he ---.", "options": {"A": "is the principal", "B": "is too old and weak to fight the school alone", "C": "has left the school", "D": "doesn't believe the school is alive"}, "answer": "B", "explanation": "Mr. Nekobe says 'I am old and weak, and the school knows it' - that's why Sam must take over."},
-    {"id": 24, "difficulty": "medium", "question": "The school planned to attack during the play because ---.", "options": {"A": "Sam wasn't there", "B": "hundreds of people were gathered in one place to eat", "C": "the building was empty", "D": "Mr. Nekobe left"}, "answer": "B", "explanation": "The school is hungry and 'it has not fed in a long time.' The play brings hundreds of people together."},
-    {"id": 25, "difficulty": "medium", "question": "During the play, the stage turned into a monster with ---.", "options": {"A": "giant teeth made of hundreds of folding chairs", "B": "fire coming from the floor", "C": "snakes", "D": "moving walls"}, "answer": "A", "explanation": "Hundreds of metal folding chairs were 'opening and closing like a set of giant, jagged teeth.'"},
-    {"id": 26, "difficulty": "medium", "question": "Antonio's lucky sandwich gave Sam the idea to use peanut butter because ---.", "options": {"A": "peanut butter is sticky", "B": "it fell into the monster mouth and slowed it down", "C": "Antonio told him to", "D": "Mr. Nekobe suggested it"}, "answer": "B", "explanation": "When Antonio's sandwich fell into the mouth and 'splattered against the chair teeth,' Sam saw how it slowed the monster."},
-    {"id": 27, "difficulty": "medium", "question": "As hall monitor, Sam has special abilities that let him ---.", "options": {"A": "become invisible", "B": "sense the school and feel what others cannot", "C": "fly", "D": "read minds"}, "answer": "B", "explanation": "Mr. Nekobe says 'As hall monitor, you have the ability to sense the school, to see and feel and hear what others cannot.'"},
-    {"id": 28, "difficulty": "medium", "question": "The morning after the school attacked Sam, everything looked normal because ---.", "options": {"A": "it was a dream", "B": "the school repaired itself overnight", "C": "Antonio fixed it", "D": "Sam imagined it"}, "answer": "B", "explanation": "The school fixed itself: 'Everything was back to normal. It was like nothing had happened.'"},
-    {"id": 29, "difficulty": "medium", "question": "Sam didn't want to be hall monitor at first because ---.", "options": {"A": "he was scared", "B": "everyone hates the hall monitor", "C": "he wanted to play sports", "D": "it was too much work"}, "answer": "B", "explanation": "Sam says 'everyone hates the hall monitor' and he has to yell at people to get to class."},
-    {"id": 30, "difficulty": "medium", "question": "To enter the secret room, Mr. Nekobe ---.", "options": {"A": "uses a key", "B": "tugs twice on a light bulb", "C": "says a password", "D": "moves a bookshelf"}, "answer": "B", "explanation": "Mr. Nekobe 'grabbed hold of a dim, swinging light bulb' and 'tugged twice' to open the secret door."},
-    {"id": 31, "difficulty": "medium", "question": "When Sam put his hand against the wall in the secret room, he felt ---.", "options": {"A": "cold brick", "B": "the wall gently swaying like the school was breathing", "C": "nothing unusual", "D": "heat"}, "answer": "B", "explanation": "Sam 'heard the soft sound of air blowing. And he felt it. The wall was gently swaying.' The school was breathing."},
-    {"id": 32, "difficulty": "medium", "question": "During his training, Sam learned to defeat the machine by ---.", "options": {"A": "asking for help", "B": "using things around him as shields and weapons", "C": "running away", "D": "calling Mr. Nekobe"}, "answer": "B", "explanation": "Antonio told him 'Try using what's around you!' Sam grabbed a locker door as a shield."},
-    {"id": 33, "difficulty": "medium", "question": "Lucy didn't believe Sam about the school because ---.", "options": {"A": "she was part of the school", "B": "she thought both Sam and Antonio were losing their minds", "C": "she hadn't seen anything strange", "D": "she didn't like scary stories"}, "answer": "B", "explanation": "Lucy 'thought both of her best friends were losing their minds' and 'wouldn't believe a word they said.'"},
-    {"id": 34, "difficulty": "medium", "question": "The school trapped the teachers and other students during the play by ---.", "options": {"A": "locking the doors", "B": "making the floorboards slide them into a closet", "C": "turning off the lights", "D": "scaring them away"}, "answer": "B", "explanation": "The floorboards 'lifted up to form a slide' and Ms. Grinker and the students 'tumbled backward into the closet.'"},
-    {"id": 35, "difficulty": "medium", "question": "Antonio and Lucy were in danger during the play because ---.", "options": {"A": "they forgot their lines", "B": "they were hanging on wires above the monster mouth", "C": "they fell off the stage", "D": "the curtain fell on them"}, "answer": "B", "explanation": "They were 'strung up on wires high above the stage' and the monster mouth was rising toward them."},
-    {"id": 36, "difficulty": "medium", "question": "Sam got the peanut butter from ---.", "options": {"A": "the cafeteria kitchen", "B": "Antonio's pocket", "C": "Mr. Nekobe", "D": "his backpack"}, "answer": "A", "explanation": "Sam ran to the lunchroom and into the kitchen where he found 'a giant drum of peanut butter.'"},
-    {"id": 37, "difficulty": "medium", "question": "In the lunchroom, Sam defended himself from water bottles using ---.", "options": {"A": "a trash can lid", "B": "an orange lunch tray", "C": "a chair", "D": "his backpack"}, "answer": "B", "explanation": "Sam 'grabbed an orange lunch tray' and 'held it over his chest' as a shield."},
-    {"id": 38, "difficulty": "medium", "question": "Mr. Nekobe couldn't help during the play attack because ---.", "options": {"A": "he wasn't there", "B": "curtain ropes grabbed him and threw him into the closet", "C": "he was too scared", "D": "he was sleeping"}, "answer": "B", "explanation": "The curtain ropes 'grabbed hold of' Mr. Nekobe and 'flung' him 'inside the closet.'"},
-    {"id": 39, "difficulty": "medium", "question": "Sam figured out the school would attack during the play when ---.", "options": {"A": "Mr. Nekobe told him", "B": "he read the play invitation and realized everyone would be gathered together", "C": "Antonio warned him", "D": "he had a dream about it"}, "answer": "B", "explanation": "When Sam read the play invitation, 'His heart began to pound. It all made sense. Sam knew exactly when the school would strike.'"},
-    {"id": 40, "difficulty": "medium", "question": "Lucy finally believed Sam when ---.", "options": {"A": "Mr. Nekobe told her", "B": "she saw the monster mouth for herself during the play", "C": "Antonio convinced her", "D": "she read about it"}, "answer": "B", "explanation": "Lucy saw the chair monster for herself during the play and worked with Sam to defeat it."},
-    {"id": 41, "difficulty": "hard", "question": "What does Mr. Nekobe's statement that the school 'feeds on students' reveal about the danger?", "options": {"A": "The school gives students food", "B": "The school is literally trying to eat and consume the students", "C": "The school makes students hungry", "D": "The school teaches students"}, "answer": "B", "explanation": "The school is a monster that actually eats students to survive. It's been hungry because 'it has not fed in a long time.'"},
-    {"id": 42, "difficulty": "hard", "question": "Why is it significant that the school can sense Sam just as Sam can sense it?", "options": {"A": "They are friends", "B": "It means Sam is never truly safe because the school knows he is its enemy", "C": "Sam can talk to the school", "D": "The school wants to help Sam"}, "answer": "B", "explanation": "Mr. Nekobe warns 'the school can sense you too. It has attacked you twice already. It knows you are its enemy.'"},
-    {"id": 43, "difficulty": "hard", "question": "What theme does Sam's transformation from reluctant hall monitor to hero represent?", "options": {"A": "Hall monitors are important", "B": "Accepting responsibility and rising to meet challenges can reveal hidden strength", "C": "Schools are dangerous", "D": "Adults can't help kids"}, "answer": "B", "explanation": "Sam didn't want the job but accepts it to protect his friends, discovering he has the courage to be a hero."},
-    {"id": 44, "difficulty": "hard", "question": "Why might the author have made Antonio's silly lucky sandwich the key to defeating the monster?", "options": {"A": "Sandwiches are powerful", "B": "It shows that even seemingly useless things can become important, and friendship provides unexpected solutions", "C": "Peanut butter is magic", "D": "Antonio is the real hero"}, "answer": "B", "explanation": "The 'ridiculous' lucky sandwich gives Sam the idea that saves everyone, showing how friends help each other unexpectedly."},
-    {"id": 45, "difficulty": "hard", "question": "What does the school's ability to repair itself overnight suggest about the challenge Sam faces?", "options": {"A": "The school is easy to defeat", "B": "The fight is never truly over because the school always recovers and returns", "C": "Sam imagined everything", "D": "The school is friendly"}, "answer": "B", "explanation": "Even after Sam defeats the school's attacks, it repairs itself, suggesting this is an ongoing battle with no permanent victory."},
-    {"id": 46, "difficulty": "hard", "question": "Why is it important that no one except Sam, Antonio, and Mr. Nekobe knows the school is alive?", "options": {"A": "It's a secret club", "B": "It creates isolation and Sam must protect people who don't believe him and wouldn't understand", "C": "Adults wouldn't care", "D": "The school told them to keep quiet"}, "answer": "B", "explanation": "Sam has to protect people like Lucy who think he's 'crazy,' making his role lonelier and more challenging."},
-    {"id": 47, "difficulty": "hard", "question": "What does the phrase 'The school knows that now is the time to strike' reveal about the conflict?", "options": {"A": "The school is random", "B": "The school is intelligent and strategic, waiting for the right moment when its enemy is weak", "C": "The school is sleeping", "D": "Mr. Nekobe is controlling the school"}, "answer": "B", "explanation": "The school is calculating and intelligent, sensing that Mr. Nekobe is old and weak and choosing to attack when vulnerable."},
-    {"id": 48, "difficulty": "hard", "question": "Why does Sam tell himself 'I'll never make it' but then find a solution?", "options": {"A": "He gives up", "B": "Moments of doubt are normal, but thinking creatively helps overcome obstacles", "C": "Someone else saves him", "D": "He was lying"}, "answer": "B", "explanation": "Sam almost gives up but remembers his training - 'Try using what's around you!' - and finds a creative solution."},
-    {"id": 49, "difficulty": "hard", "question": "What is ironic about Sam's role in the play being a 'friendly pirate'?", "options": {"A": "Pirates aren't friendly", "B": "He has almost no lines but ends up being the hero who saves everyone during the performance", "C": "He doesn't like pirates", "D": "Pirates aren't real"}, "answer": "B", "explanation": "Antonio jokes that Sam has 'the worst part' with few lines, but Sam becomes the most important person when disaster strikes."},
-    {"id": 50, "difficulty": "hard", "question": "What does Mr. Nekobe passing responsibility to Sam represent about growing up?", "options": {"A": "Adults are lazy", "B": "Young people must eventually take on responsibilities that older generations can no longer handle", "C": "Being old is bad", "D": "Hall monitors are special"}, "answer": "B", "explanation": "Mr. Nekobe is 'old and weak' and must pass his duty to Sam, representing how young people inherit responsibilities."},
-    {"id": 51, "difficulty": "hard", "question": "Why does the school attack specifically when the curtain closes during the play?", "options": {"A": "Random timing", "B": "The audience can't see what's happening, giving the school cover to attack without witnesses", "C": "The school likes plays", "D": "It was tired of waiting"}, "answer": "B", "explanation": "With the curtain closed, 'The audience can't see the stage' - the school attacks when no adults can witness or interfere."},
-    {"id": 52, "difficulty": "hard", "question": "What lesson does Sam's training teach about facing challenges?", "options": {"A": "Training is boring", "B": "Practice and preparation help you think clearly when real danger comes", "C": "Only natural talent matters", "D": "You don't need help"}, "answer": "B", "explanation": "Sam's training with the machine prepares him to think creatively under pressure when the real attacks happen."},
-    {"id": 53, "difficulty": "hard", "question": "Why is it significant that Sam says 'I couldn't have done it without you two' at the end?", "options": {"A": "He's being polite", "B": "It shows that even heroes need friends and teamwork to succeed", "C": "Lucy and Antonio did all the work", "D": "He's lying to make them feel good"}, "answer": "B", "explanation": "Despite being the 'chosen one,' Sam acknowledges that his friends' help was essential to victory."},
-    {"id": 54, "difficulty": "hard", "question": "What does the heartbeat sound from the clock symbolize?", "options": {"A": "Time is running out", "B": "The school is literally alive with a beating heart like a living creature", "C": "Sam is scared", "D": "The clock is broken"}, "answer": "B", "explanation": "The heartbeat emphasizes that Eerie Elementary isn't just magical - it's a living organism with a heart."},
-    {"id": 55, "difficulty": "hard", "question": "Why might the author have made Antonio believe Sam even when Lucy doesn't?", "options": {"A": "Antonio is gullible", "B": "Best friends support each other even when things seem unbelievable, showing the strength of their friendship", "C": "Lucy is smarter", "D": "Antonio saw evidence first"}, "answer": "B", "explanation": "Antonio helps Sam train even while saying 'I'm still not sure we aren't crazy,' showing true friendship means supporting first."},
-    {"id": 56, "difficulty": "hard", "question": "What is the significance of Sam needing to 'trust' Lucy when he leaves her during the attack?", "options": {"A": "He doesn't care about her", "B": "Heroes must sometimes leave loved ones in danger to get help, requiring mutual trust", "C": "Lucy is weak", "D": "He's running away"}, "answer": "B", "explanation": "Sam has to leave Lucy and Antonio in danger to get peanut butter, saying 'Just trust me' - trust is essential."},
-    {"id": 57, "difficulty": "hard", "question": "What does the setting of an old, crumbling school contribute to the horror atmosphere?", "options": {"A": "Old buildings are common", "B": "The decaying appearance suggests something wrong and ancient, making the school seem more menacing", "C": "It saves money", "D": "Kids prefer old schools"}, "answer": "B", "explanation": "The school is described as 'an old castle made of crumbling red brick' with 'chipped paint' - decay suggests evil."},
-    {"id": 58, "difficulty": "hard", "question": "Why is it meaningful that Sam's mom doesn't believe his story about the school?", "options": {"A": "Parents are mean", "B": "It emphasizes that Sam must face this challenge without adult help, making him more alone but also more heroic", "C": "She's part of the school", "D": "Adults never listen"}, "answer": "B", "explanation": "When Sam's mom says 'Tell me the real reason,' it shows Sam can't rely on adults and must handle this himself."},
-    {"id": 59, "difficulty": "hard", "question": "What does Mr. Nekobe mean when he calls Sam 'the school's enemy'?", "options": {"A": "Sam hates school", "B": "Sam is the only one who can stop the school from harming students, making him the monster's target", "C": "The school made a mistake", "D": "Sam failed a test"}, "answer": "B", "explanation": "As hall monitor, Sam is the school's natural opponent - the one person chosen and able to fight it."},
-    {"id": 60, "difficulty": "hard", "question": "What is the overall message of The School Is Alive?", "options": {"A": "Schools are scary", "B": "Ordinary kids can become heroes when they accept responsibility, trust their friends, and face their fears", "C": "Don't become a hall monitor", "D": "Adults can't be trusted"}, "answer": "B", "explanation": "Sam goes from an ordinary kid who hates his job to a hero who saves everyone, showing anyone can rise to challenges."}
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "What is Sam Graves chosen to be at school?",
+      "options": {
+        "A": "Hall monitor",
+        "B": "Class president",
+        "C": "Team captain",
+        "D": "Library helper"
+      },
+      "answer": "A",
+      "explanation": "Sam is chosen to be a hall monitor at Eerie Elementary."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "What are the names of Sam's two best friends?",
+      "options": {
+        "A": "Ryan and Michael",
+        "B": "Antonio and Lucy",
+        "C": "Brian and Emily",
+        "D": "Jake and Emma"
+      },
+      "answer": "B",
+      "explanation": "Sam's best friends are Antonio and Lucy."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "What color is the hall monitor sash that Sam wears?",
+      "options": {
+        "A": "Red",
+        "B": "Blue",
+        "C": "Orange",
+        "D": "Green"
+      },
+      "answer": "C",
+      "explanation": "Sam has to wear a shiny orange sash as hall monitor."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Who is the old man that takes care of the school?",
+      "options": {
+        "A": "Mr. Graves",
+        "B": "Mr. Brian",
+        "C": "Mr. Grinker",
+        "D": "Mr. Nekobe"
+      },
+      "answer": "D",
+      "explanation": "Mr. Nekobe is the old man who takes care of Eerie Elementary."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "What is the name of Sam's teacher?",
+      "options": {
+        "A": "Ms. Grinker",
+        "B": "Ms. Lucy",
+        "C": "Ms. Nekobe",
+        "D": "Ms. Graves"
+      },
+      "answer": "A",
+      "explanation": "Ms. Grinker is Sam's classroom teacher."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "What play is the class putting on?",
+      "options": {
+        "A": "Snow White",
+        "B": "Peter Pan",
+        "C": "Cinderella",
+        "D": "The Wizard of Oz"
+      },
+      "answer": "B",
+      "explanation": "The class is performing Peter Pan for Friday's play."
+    },
+    {
+      "id": 7,
+      "difficulty": "easy",
+      "question": "Who plays Peter Pan in the school play?",
+      "options": {
+        "A": "Sam",
+        "B": "Lucy",
+        "C": "Antonio",
+        "D": "Brian"
+      },
+      "answer": "C",
+      "explanation": "Antonio plays the role of Peter Pan."
+    },
+    {
+      "id": 8,
+      "difficulty": "easy",
+      "question": "Who plays Wendy in the school play?",
+      "options": {
+        "A": "Sam",
+        "B": "Ms. Grinker",
+        "C": "Antonio",
+        "D": "Lucy"
+      },
+      "answer": "D",
+      "explanation": "Lucy plays Wendy in the Peter Pan play."
+    },
+    {
+      "id": 9,
+      "difficulty": "easy",
+      "question": "What character does Sam play in Peter Pan?",
+      "options": {
+        "A": "Captain Hook",
+        "B": "Peter Pan",
+        "C": "Noodler the pirate",
+        "D": "Tinkerbell"
+      },
+      "answer": "C",
+      "explanation": "Sam plays Noodler, one of Captain Hook's friendly pirates."
+    },
+    {
+      "id": 10,
+      "difficulty": "easy",
+      "question": "What does Antonio always carry in his pocket for good luck?",
+      "options": {
+        "A": "A peanut butter and jelly sandwich",
+        "B": "A coin",
+        "C": "A rabbit's foot",
+        "D": "A stone"
+      },
+      "answer": "A",
+      "explanation": "Antonio always carries a peanut butter and jelly sandwich in his pocket as his lucky charm."
+    },
+    {
+      "id": 11,
+      "difficulty": "easy",
+      "question": "What first tries to eat Sam at the playground?",
+      "options": {
+        "A": "A tree",
+        "B": "Quicksand",
+        "C": "A fire hose",
+        "D": "A chair"
+      },
+      "answer": "B",
+      "explanation": "Sam's feet start sinking into quicksand on the playground."
+    },
+    {
+      "id": 12,
+      "difficulty": "easy",
+      "question": "Who saves Sam from the quicksand?",
+      "options": {
+        "A": "Antonio",
+        "B": "Lucy",
+        "C": "Mr. Nekobe",
+        "D": "Ms. Grinker"
+      },
+      "answer": "C",
+      "explanation": "Mr. Nekobe grabs Sam's wrist and yanks him free from the quicksand."
+    },
+    {
+      "id": 13,
+      "difficulty": "easy",
+      "question": "What breaks through the classroom window?",
+      "options": {
+        "A": "A ball",
+        "B": "A bird",
+        "C": "A rock",
+        "D": "A tree branch"
+      },
+      "answer": "D",
+      "explanation": "The oak tree's long, twisted branch crashes through the window and grabs Sam."
+    },
+    {
+      "id": 14,
+      "difficulty": "easy",
+      "question": "What attacks Sam in the hallway at night?",
+      "options": {
+        "A": "A fire hose",
+        "B": "Lockers",
+        "C": "Chairs",
+        "D": "Windows"
+      },
+      "answer": "A",
+      "explanation": "A fire hose comes to life and whips around, attacking Sam."
+    },
+    {
+      "id": 15,
+      "difficulty": "easy",
+      "question": "How does Sam stop the fire hose?",
+      "options": {
+        "A": "He cuts it",
+        "B": "He ties it in a knot",
+        "C": "He runs away",
+        "D": "Mr. Nekobe stops it"
+      },
+      "answer": "B",
+      "explanation": "Sam grabs the hose and ties it like a giant shoelace, stopping it."
+    },
+    {
+      "id": 16,
+      "difficulty": "easy",
+      "question": "What scary sound does Sam hear from the clock?",
+      "options": {
+        "A": "A bell",
+        "B": "Music",
+        "C": "A heartbeat",
+        "D": "Thunder"
+      },
+      "answer": "C",
+      "explanation": "The clock changes from tick-tock to 'ba-bump, ba-bump' - the sound of a beating heart."
+    },
+    {
+      "id": 17,
+      "difficulty": "easy",
+      "question": "Where is Mr. Nekobe's secret room hidden?",
+      "options": {
+        "A": "Behind the gym",
+        "B": "In the library",
+        "C": "Behind the janitor's closet",
+        "D": "Under the playground"
+      },
+      "answer": "C",
+      "explanation": "Mr. Nekobe has a secret room hidden behind the janitor's closet."
+    },
+    {
+      "id": 18,
+      "difficulty": "easy",
+      "question": "What does Mr. Nekobe tell Sam about the school?",
+      "options": {
+        "A": "It's new",
+        "B": "It's alive",
+        "C": "It's haunted by ghosts",
+        "D": "It's going to close"
+      },
+      "answer": "B",
+      "explanation": "Mr. Nekobe reveals that 'Eerie Elementary is alive' - a living, breathing monster."
+    },
+    {
+      "id": 19,
+      "difficulty": "easy",
+      "question": "What does Sam use to defeat the monster mouth during the play?",
+      "options": {
+        "A": "Water",
+        "B": "Fire",
+        "C": "Glue",
+        "D": "Peanut butter"
+      },
+      "answer": "D",
+      "explanation": "Sam kicks a giant drum of peanut butter into the mouth, which gums up the teeth."
+    },
+    {
+      "id": 20,
+      "difficulty": "easy",
+      "question": "What are the monster's giant teeth made of?",
+      "options": {
+        "A": "Wood planks",
+        "B": "Sharp rocks",
+        "C": "Folding chairs",
+        "D": "Broken glass"
+      },
+      "answer": "C",
+      "explanation": "Hundreds of metal folding chairs were 'opening and closing like a set of giant, jagged teeth.'"
+    },
+    {
+      "id": 21,
+      "difficulty": "medium",
+      "question": "When Sam fell asleep on hall monitor duty, he woke up to find the halls _____ and the school coming alive.",
+      "options": {
+        "A": "dark",
+        "B": "crowded",
+        "C": "flooded",
+        "D": "frozen"
+      },
+      "answer": "A",
+      "explanation": "When Sam woke up, 'The halls were dark, nearly pitch black' and locker doors were slamming."
+    },
+    {
+      "id": 22,
+      "difficulty": "medium",
+      "question": "Sam's locker smelled terrible like _____ because the living school was breathing through it.",
+      "options": {
+        "A": "garbage",
+        "B": "really bad breath",
+        "C": "rotten eggs",
+        "D": "old cheese"
+      },
+      "answer": "B",
+      "explanation": "The smell was like 'really bad breath' - it was the living school breathing through the locker."
+    },
+    {
+      "id": 23,
+      "difficulty": "medium",
+      "question": "Mr. Nekobe was Eerie Elementary's first _____, and now he is too old and weak to fight alone.",
+      "options": {
+        "A": "principal",
+        "B": "teacher",
+        "C": "hall monitor",
+        "D": "janitor"
+      },
+      "answer": "C",
+      "explanation": "Mr. Nekobe was the first hall monitor. He says 'I am old and weak' - that's why Sam must take over."
+    },
+    {
+      "id": 24,
+      "difficulty": "medium",
+      "question": "The school planned to attack during the play because hundreds of people were gathered in one place to _____.",
+      "options": {
+        "A": "watch",
+        "B": "sing",
+        "C": "dance",
+        "D": "eat"
+      },
+      "answer": "D",
+      "explanation": "The school is hungry and wants to eat. The play brings hundreds of people together for it to feed on."
+    },
+    {
+      "id": 25,
+      "difficulty": "medium",
+      "question": "Antonio's lucky _____ gave Sam the idea to use peanut butter against the monster.",
+      "options": {
+        "A": "coin",
+        "B": "sandwich",
+        "C": "hat",
+        "D": "marble"
+      },
+      "answer": "B",
+      "explanation": "When Antonio's sandwich fell into the mouth and slowed the monster, Sam got the idea."
+    },
+    {
+      "id": 26,
+      "difficulty": "medium",
+      "question": "As hall monitor, Sam has special abilities that let him _____ the school and feel things others cannot.",
+      "options": {
+        "A": "control",
+        "B": "destroy",
+        "C": "sense",
+        "D": "talk to"
+      },
+      "answer": "C",
+      "explanation": "Mr. Nekobe says Sam can 'sense the school, to see and feel and hear what others cannot.'"
+    },
+    {
+      "id": 27,
+      "difficulty": "medium",
+      "question": "The morning after the school attacked Sam, everything looked normal because the school _____ overnight.",
+      "options": {
+        "A": "hid",
+        "B": "slept",
+        "C": "disappeared",
+        "D": "repaired itself"
+      },
+      "answer": "D",
+      "explanation": "The school fixed itself: 'Everything was back to normal. It was like nothing had happened.'"
+    },
+    {
+      "id": 28,
+      "difficulty": "medium",
+      "question": "Sam didn't want to be hall monitor at first because everyone _____ the hall monitor.",
+      "options": {
+        "A": "hates",
+        "B": "ignores",
+        "C": "fears",
+        "D": "laughs at"
+      },
+      "answer": "A",
+      "explanation": "Sam says 'everyone hates the hall monitor' because they have to yell at people to get to class."
+    },
+    {
+      "id": 29,
+      "difficulty": "medium",
+      "question": "To enter the secret room, Mr. Nekobe tugged twice on a _____.",
+      "options": {
+        "A": "door handle",
+        "B": "light bulb",
+        "C": "rope",
+        "D": "bookshelf"
+      },
+      "answer": "B",
+      "explanation": "Mr. Nekobe 'grabbed hold of a dim, swinging light bulb' and 'tugged twice' to open the door."
+    },
+    {
+      "id": 30,
+      "difficulty": "medium",
+      "question": "When Sam put his hand on the wall in the secret room, he felt it gently _____ like breathing.",
+      "options": {
+        "A": "shaking",
+        "B": "warming up",
+        "C": "swaying",
+        "D": "melting"
+      },
+      "answer": "C",
+      "explanation": "Sam 'heard the soft sound of air blowing. And he felt it. The wall was gently swaying.'"
+    },
+    {
+      "id": 31,
+      "difficulty": "medium",
+      "question": "During training, Antonio told Sam to try using things around him as _____ and weapons.",
+      "options": {
+        "A": "shields",
+        "B": "tools",
+        "C": "toys",
+        "D": "traps"
+      },
+      "answer": "A",
+      "explanation": "Antonio told him 'Try using what's around you!' Sam grabbed a locker door as a shield."
+    },
+    {
+      "id": 32,
+      "difficulty": "medium",
+      "question": "Lucy didn't believe Sam about the school because she thought he was losing his _____.",
+      "options": {
+        "A": "courage",
+        "B": "memory",
+        "C": "mind",
+        "D": "temper"
+      },
+      "answer": "C",
+      "explanation": "Lucy 'thought both of her best friends were losing their minds.'"
+    },
+    {
+      "id": 33,
+      "difficulty": "medium",
+      "question": "The school trapped Ms. Grinker by making the _____ slide her into a closet.",
+      "options": {
+        "A": "chairs",
+        "B": "curtains",
+        "C": "walls",
+        "D": "floorboards"
+      },
+      "answer": "D",
+      "explanation": "The floorboards 'lifted up to form a slide' and Ms. Grinker 'tumbled backward into the closet.'"
+    },
+    {
+      "id": 34,
+      "difficulty": "medium",
+      "question": "Antonio and Lucy were in danger because they were hanging on _____ above the monster mouth.",
+      "options": {
+        "A": "ropes",
+        "B": "wires",
+        "C": "ladders",
+        "D": "branches"
+      },
+      "answer": "B",
+      "explanation": "They were 'strung up on wires high above the stage' for the flying scene in Peter Pan."
+    },
+    {
+      "id": 35,
+      "difficulty": "medium",
+      "question": "Sam got the giant drum of peanut butter from the _____ kitchen.",
+      "options": {
+        "A": "teacher's",
+        "B": "principal's",
+        "C": "cafeteria",
+        "D": "janitor's"
+      },
+      "answer": "C",
+      "explanation": "Sam ran to the lunchroom and into the kitchen where he found 'a giant drum of peanut butter.'"
+    },
+    {
+      "id": 36,
+      "difficulty": "medium",
+      "question": "In the lunchroom, Sam used an orange lunch _____ as a shield against flying water bottles.",
+      "options": {
+        "A": "box",
+        "B": "bag",
+        "C": "table",
+        "D": "tray"
+      },
+      "answer": "D",
+      "explanation": "Sam 'grabbed an orange lunch tray' and 'held it over his chest' as a shield."
+    },
+    {
+      "id": 37,
+      "difficulty": "medium",
+      "question": "Mr. Nekobe couldn't help during the play because curtain _____ grabbed him and threw him in a closet.",
+      "options": {
+        "A": "fabric",
+        "B": "ropes",
+        "C": "hooks",
+        "D": "weights"
+      },
+      "answer": "B",
+      "explanation": "The curtain ropes 'grabbed hold of' Mr. Nekobe and 'flung' him 'inside the closet.'"
+    },
+    {
+      "id": 38,
+      "difficulty": "medium",
+      "question": "Sam figured out the school would attack during the play when he read the _____ and realized everyone would be there.",
+      "options": {
+        "A": "newspaper",
+        "B": "poster",
+        "C": "invitation",
+        "D": "script"
+      },
+      "answer": "C",
+      "explanation": "When Sam read the play invitation, he knew 'exactly when the school would strike.'"
+    },
+    {
+      "id": 39,
+      "difficulty": "medium",
+      "question": "Lucy finally believed Sam when she saw the monster _____ for herself during the play.",
+      "options": {
+        "A": "eyes",
+        "B": "mouth",
+        "C": "hands",
+        "D": "face"
+      },
+      "answer": "B",
+      "explanation": "Lucy saw the chair monster mouth for herself and then worked with Sam to defeat it."
+    },
+    {
+      "id": 40,
+      "difficulty": "medium",
+      "question": "The training machine was made of old _____, vending machine pieces, lockers, and hockey sticks.",
+      "options": {
+        "A": "car parts",
+        "B": "computers",
+        "C": "refrigerator",
+        "D": "washing machine"
+      },
+      "answer": "C",
+      "explanation": "The machine is made of an old refrigerator, pieces of vending machine, lockers, and hockey sticks."
+    },
+    {
+      "id": 41,
+      "difficulty": "hard",
+      "question": "What does Mr. Nekobe mean when he says the school 'feeds on students'?",
+      "options": {
+        "A": "The school is literally trying to eat the students",
+        "B": "The school gives students food",
+        "C": "The school makes students hungry",
+        "D": "The school teaches students lessons"
+      },
+      "answer": "A",
+      "explanation": "The school is a monster that actually eats students to survive. It's been hungry for a long time."
+    },
+    {
+      "id": 42,
+      "difficulty": "hard",
+      "question": "Why is it scary that the school can sense Sam just like Sam can sense it?",
+      "options": {
+        "A": "They can become friends",
+        "B": "Sam is never truly safe because the school knows he is its enemy",
+        "C": "Sam can talk to the school",
+        "D": "The school wants to help Sam"
+      },
+      "answer": "B",
+      "explanation": "Mr. Nekobe warns that the school 'knows you are its enemy' - Sam can never hide from it."
+    },
+    {
+      "id": 43,
+      "difficulty": "hard",
+      "question": "What does Sam's story teach us about accepting responsibility?",
+      "options": {
+        "A": "Hall monitors are very important",
+        "B": "Schools are always dangerous",
+        "C": "Taking on hard jobs can show us how strong we really are",
+        "D": "Adults can never help kids"
+      },
+      "answer": "C",
+      "explanation": "Sam didn't want the job but accepts it, discovering he has the courage to be a hero."
+    },
+    {
+      "id": 44,
+      "difficulty": "hard",
+      "question": "Why is it funny and surprising that Antonio's silly sandwich saves everyone?",
+      "options": {
+        "A": "Sandwiches are magical",
+        "B": "Peanut butter is very expensive",
+        "C": "Antonio is the real hero of the story",
+        "D": "Even silly things can become important when you need them"
+      },
+      "answer": "D",
+      "explanation": "The 'ridiculous' lucky sandwich gives Sam the idea that saves everyone."
+    },
+    {
+      "id": 45,
+      "difficulty": "hard",
+      "question": "What does it mean that the school can repair itself overnight?",
+      "options": {
+        "A": "The school is easy to beat forever",
+        "B": "Sam imagined everything",
+        "C": "The school is friendly now",
+        "D": "The fight is never really over because the school always comes back"
+      },
+      "answer": "D",
+      "explanation": "Even after Sam wins, the school repairs itself - this battle will continue."
+    },
+    {
+      "id": 46,
+      "difficulty": "hard",
+      "question": "Why is it hard for Sam that most people don't believe the school is alive?",
+      "options": {
+        "A": "He must protect people who think he's crazy",
+        "B": "It's a secret club",
+        "C": "Adults never care about anything",
+        "D": "The school told everyone to be quiet"
+      },
+      "answer": "A",
+      "explanation": "Sam has to protect people like Lucy who think he's 'crazy' without their help."
+    },
+    {
+      "id": 47,
+      "difficulty": "hard",
+      "question": "What does it show about the school that it waits for the right time to attack?",
+      "options": {
+        "A": "The school is random and silly",
+        "B": "The school is smart and plans carefully like a hunter",
+        "C": "The school is sleeping most of the time",
+        "D": "Mr. Nekobe controls when it attacks"
+      },
+      "answer": "B",
+      "explanation": "The school is calculating - it waits until Mr. Nekobe is weak and many people gather."
+    },
+    {
+      "id": 48,
+      "difficulty": "hard",
+      "question": "Sam thinks 'I'll never make it' but then finds a solution. What does this teach us?",
+      "options": {
+        "A": "Giving up is the right choice",
+        "B": "Feeling scared is okay if you keep thinking and trying",
+        "C": "Someone else will always save you",
+        "D": "Lying to yourself helps"
+      },
+      "answer": "B",
+      "explanation": "Sam almost gives up but remembers his training and finds a creative solution."
+    },
+    {
+      "id": 49,
+      "difficulty": "hard",
+      "question": "Why is it ironic (funny in an unexpected way) that Sam plays a small part in the play?",
+      "options": {
+        "A": "Pirates aren't friendly in real life",
+        "B": "He doesn't like pirates",
+        "C": "He has almost no lines but becomes the hero who saves everyone",
+        "D": "Pirates aren't real"
+      },
+      "answer": "C",
+      "explanation": "Sam has 'the worst part' with few lines, but becomes the most important person when danger strikes."
+    },
+    {
+      "id": 50,
+      "difficulty": "hard",
+      "question": "What does it mean when Mr. Nekobe passes his job to Sam?",
+      "options": {
+        "A": "Adults are lazy and don't want to work",
+        "B": "Being old means you're bad at things",
+        "C": "Hall monitors have magical powers",
+        "D": "Young people must sometimes take over when older people can't continue"
+      },
+      "answer": "D",
+      "explanation": "Mr. Nekobe is 'old and weak' and must pass his duty to Sam - the next generation takes responsibility."
+    },
+    {
+      "id": 51,
+      "difficulty": "hard",
+      "question": "Why does the school attack when the curtain is closed?",
+      "options": {
+        "A": "It picks a random time",
+        "B": "The school loves watching plays",
+        "C": "The audience can't see what's happening on stage",
+        "D": "It was tired of waiting"
+      },
+      "answer": "C",
+      "explanation": "With the curtain closed, 'The audience can't see the stage' - no adults can witness or stop it."
+    },
+    {
+      "id": 52,
+      "difficulty": "hard",
+      "question": "Why is Sam's training with the machine important?",
+      "options": {
+        "A": "Training is boring but required",
+        "B": "Practice helps you think clearly when real danger comes",
+        "C": "Only people born talented can be heroes",
+        "D": "You don't need any help to be brave"
+      },
+      "answer": "B",
+      "explanation": "Sam's training prepares him to think creatively under pressure when the real attacks happen."
+    },
+    {
+      "id": 53,
+      "difficulty": "hard",
+      "question": "Why is it important that Sam thanks his friends at the end?",
+      "options": {
+        "A": "He's just being polite",
+        "B": "Lucy and Antonio did all the work",
+        "C": "Even heroes need friends and teamwork to succeed",
+        "D": "He's lying to make them feel good"
+      },
+      "answer": "C",
+      "explanation": "Sam says 'I couldn't have done it without you two' - heroes need their friends."
+    },
+    {
+      "id": 54,
+      "difficulty": "hard",
+      "question": "What does the heartbeat sound from the clock tell us about the school?",
+      "options": {
+        "A": "The school is truly alive with a beating heart like a living creature",
+        "B": "Time is running out for everyone",
+        "C": "Sam is very scared",
+        "D": "The clock is simply broken"
+      },
+      "answer": "A",
+      "explanation": "The heartbeat shows Eerie Elementary isn't just magical - it's a living organism."
+    },
+    {
+      "id": 55,
+      "difficulty": "hard",
+      "question": "Why does Antonio help Sam even when he's not sure the school is really alive?",
+      "options": {
+        "A": "Antonio believes everything people tell him",
+        "B": "True friends support each other even when things seem unbelievable",
+        "C": "Lucy told him to help",
+        "D": "Antonio saw proof before anyone else"
+      },
+      "answer": "B",
+      "explanation": "Antonio helps even while saying 'I'm still not sure we aren't crazy' - that's true friendship."
+    },
+    {
+      "id": 56,
+      "difficulty": "hard",
+      "question": "Why does Sam say 'Just trust me' when he leaves Lucy in danger?",
+      "options": {
+        "A": "He doesn't care about her",
+        "B": "Lucy is too weak to help",
+        "C": "Sometimes you have to leave loved ones briefly to get help",
+        "D": "He's running away from the fight"
+      },
+      "answer": "C",
+      "explanation": "Sam must leave Lucy and Antonio in danger to get peanut butter - trust is essential."
+    },
+    {
+      "id": 57,
+      "difficulty": "hard",
+      "question": "Why does the author describe the school as old and crumbling?",
+      "options": {
+        "A": "Old buildings are very common",
+        "B": "The decaying look makes the school seem more scary and wrong",
+        "C": "It saves the town money",
+        "D": "Kids prefer old schools to new ones"
+      },
+      "answer": "B",
+      "explanation": "The school looks like 'an old castle made of crumbling red brick' - decay suggests something evil."
+    },
+    {
+      "id": 58,
+      "difficulty": "hard",
+      "question": "Why doesn't Sam's mom believe his story about the school?",
+      "options": {
+        "A": "Parents are mean to their children",
+        "B": "She's secretly part of the school",
+        "C": "Adults never listen to kids at all",
+        "D": "The story sounds too crazy for an adult to believe"
+      },
+      "answer": "D",
+      "explanation": "When his mom asks for 'the real reason,' it shows adults can't imagine such a strange truth."
+    },
+    {
+      "id": 59,
+      "difficulty": "hard",
+      "question": "What does Mr. Nekobe mean when he calls Sam 'the school's enemy'?",
+      "options": {
+        "A": "Sam hates going to school",
+        "B": "Sam is the only one who can stop the school from hurting students",
+        "C": "The school made a mistake choosing Sam",
+        "D": "Sam failed too many tests"
+      },
+      "answer": "B",
+      "explanation": "As hall monitor, Sam is the school's natural opponent - the one person able to fight it."
+    },
+    {
+      "id": 60,
+      "difficulty": "hard",
+      "question": "What is the main message of The School Is Alive?",
+      "options": {
+        "A": "Schools are always scary places",
+        "B": "Never become a hall monitor",
+        "C": "Adults can never be trusted to help",
+        "D": "Regular kids can be heroes when they accept responsibility and work with friends"
+      },
+      "answer": "D",
+      "explanation": "Sam goes from a kid who hates his job to a hero who saves everyone with his friends' help."
+    }
   ]
 }

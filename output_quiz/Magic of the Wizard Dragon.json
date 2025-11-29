@@ -14,12 +14,12 @@
       "difficulty": "easy",
       "question": "What is the name of Drake's dragon?",
       "options": {
-        "A": "Kinguk",
+        "A": "Worm",
         "B": "Vulcan",
-        "C": "Worm",
+        "C": "Kinguk",
         "D": "Mamu"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "Drake's dragon is named Worm, a large brown earth dragon."
     },
     {
@@ -27,10 +27,10 @@
       "difficulty": "easy",
       "question": "Where were Drake and Rory at the beginning of the story?",
       "options": {
-        "A": "King Roland's castle",
-        "B": "The Dragon Islands",
-        "C": "An empty classroom in the Castle of the Wizards",
-        "D": "Barga"
+        "A": "King Roland's castle in the kingdom",
+        "B": "The Dragon Islands in the ocean",
+        "C": "An empty classroom in the castle",
+        "D": "The cold snowy land of Barga"
       },
       "answer": "C",
       "explanation": "Drake and Rory were in an empty classroom in the Castle of the Wizards, waiting for Jaina."
@@ -66,12 +66,12 @@
       "difficulty": "easy",
       "question": "What color does Worm's body glow when he transports?",
       "options": {
-        "A": "Red",
+        "A": "Green",
         "B": "Blue",
-        "C": "Green",
+        "C": "Red",
         "D": "Pink"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "Worm's body glows green when he uses his transportation powers."
     },
     {
@@ -118,12 +118,12 @@
       "difficulty": "easy",
       "question": "What does 'Kinguk' mean in Nuna's language?",
       "options": {
-        "A": "Guardian",
+        "A": "Worm",
         "B": "Earth",
-        "C": "Worm",
+        "C": "Guardian",
         "D": "Dragon"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "Nuna explains that 'Kinguk' means 'worm' in the language of her land."
     },
     {
@@ -132,11 +132,11 @@
       "question": "What was Maldred transformed into before being trapped in a bottle?",
       "options": {
         "A": "100 spiders",
-        "B": "100 bats",
-        "C": "100 flies",
+        "B": "100 flies",
+        "C": "100 bats",
         "D": "100 birds"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "Maldred was transformed into 100 flies and trapped in a red bottle guarded by the Naga."
     },
     {
@@ -146,10 +146,10 @@
       "options": {
         "A": "Moonflower",
         "B": "Dragonmoss",
-        "C": "Iceleaf",
-        "D": "Stinkweed"
+        "C": "Stinkweed",
+        "D": "Iceleaf"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "Nuna used a plant called stinkweed to make tea that cured Kinguk of Zoltan's magic."
     },
     {
@@ -158,11 +158,11 @@
       "question": "What powerful dragon guards Maldred's bottle?",
       "options": {
         "A": "Worm",
-        "B": "The Naga",
-        "C": "Vulcan",
-        "D": "Kinguk"
+        "B": "Vulcan",
+        "C": "Kinguk",
+        "D": "The Naga"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "The Naga, the Earthquake Dragon, guards the bottle containing Maldred."
     },
     {
@@ -170,12 +170,12 @@
       "difficulty": "easy",
       "question": "What happens when the Naga turns his eye to a place?",
       "options": {
-        "A": "It freezes",
+        "A": "An earthquake happens",
         "B": "It floods",
-        "C": "An earthquake happens",
+        "C": "It freezes",
         "D": "It catches fire"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "When the Naga turns his eye to a place, he causes an earthquake."
     },
     {
@@ -184,11 +184,11 @@
       "question": "What color magic came from Wolfgang's wand when he gave Drake a coat?",
       "options": {
         "A": "Green",
-        "B": "Red",
-        "C": "Blue",
+        "B": "Blue",
+        "C": "Red",
         "D": "Purple"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "Blue magic sparks came out of Wolfgang's wand when he created a warm coat for Drake."
     },
     {
@@ -198,10 +198,10 @@
       "options": {
         "A": "Worm",
         "B": "Kinguk",
-        "C": "Mamu",
-        "D": "Vulcan"
+        "C": "Vulcan",
+        "D": "Mamu"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "Vulcan is Rory's fire dragon."
     },
     {
@@ -209,12 +209,12 @@
       "difficulty": "easy",
       "question": "What did Zoltan transform into?",
       "options": {
-        "A": "A snow monster",
-        "B": "A wizard dragon",
+        "A": "A wizard dragon",
+        "B": "A snow monster",
         "C": "A giant fly",
         "D": "An ice wizard"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "Zoltan transformed into a wizard dragon, a dragon with both dragon powers and wizard magic."
     },
     {
@@ -224,10 +224,10 @@
       "options": {
         "A": "Five years old",
         "B": "Ten years old",
-        "C": "Eight years old",
-        "D": "Six years old"
+        "C": "Six years old",
+        "D": "Eight years old"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "Wolfgang tells his father 'I'm only eight' during their conversation."
     },
     {
@@ -236,11 +236,11 @@
       "question": "What color were Zoltan's dragon scales?",
       "options": {
         "A": "Blue",
-        "B": "Green",
+        "B": "Pink",
         "C": "Black",
-        "D": "Pink"
+        "D": "Green"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "Zoltan's wizard dragon form had pink dragon scales covered with magical symbols."
     },
     {
@@ -249,11 +249,11 @@
       "question": "What color wings did Zoltan have as a wizard dragon?",
       "options": {
         "A": "Pink",
-        "B": "Orange",
-        "C": "Red",
+        "B": "Red",
+        "C": "Orange",
         "D": "Purple"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "Orange wings sprouted from Zoltan's back in his wizard dragon form."
     },
     {
@@ -261,36 +261,36 @@
       "difficulty": "easy",
       "question": "What stone did Drake wear around his neck?",
       "options": {
-        "A": "A blue sapphire",
-        "B": "A red ruby",
-        "C": "A green dragon stone",
-        "D": "A white diamond"
+        "A": "A blue sapphire stone",
+        "B": "A red ruby crystal",
+        "C": "A white diamond gem",
+        "D": "A green dragon stone"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "Drake wore a green dragon stone around his neck, which glows when dragons are near."
     },
     {
       "id": 21,
       "difficulty": "medium",
-      "question": "Wolfgang said he had been getting teased ever since ---.",
+      "question": "Wolfgang explained that everyone at wizard school had been teasing him because...",
       "options": {
-        "A": "he failed his first magic test at wizard school",
-        "B": "his dad turned into a dragon and flew past the castle",
-        "C": "he accidentally set fire to the dining room",
-        "D": "the other wizards learned he was from Gothica"
+        "A": "his father transformed into a dragon and flew past the castle where everyone saw him",
+        "B": "his father accidentally destroyed the school library with a failed magic spell",
+        "C": "his father was caught stealing ancient spell books from the headmaster's office",
+        "D": "his father got into a big fight with the head wizard during a ceremony"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "Wolfgang said 'Ever since my dad turned into a dragon and flew past the castle, everyone's been teasing me.'"
     },
     {
       "id": 22,
       "difficulty": "medium",
-      "question": "Wolfgang told Drake that if Zoltan's dream world plan didn't work, Zoltan ---.",
+      "question": "Wolfgang told Drake that if Zoltan's dream world plan failed, his father knew about...",
       "options": {
-        "A": "would give up on freeing Maldred",
-        "B": "knew about a secret doorway to the Naga in Barga",
-        "C": "planned to attack the Dragon Islands directly",
-        "D": "would use Wolfgang's powers instead"
+        "A": "an ancient magic spell that could summon the Naga to any location he wanted",
+        "B": "a secret doorway hidden in Barga that led directly to where the Naga lived",
+        "C": "a powerful wizard who could help him break into the Naga's temple by force",
+        "D": "a magical map showing all the hidden entrances to the Dragon Islands"
       },
       "answer": "B",
       "explanation": "Wolfgang said his dad 'knew about a secret doorway to the Naga in a land called Barga.'"
@@ -298,12 +298,12 @@
     {
       "id": 23,
       "difficulty": "medium",
-      "question": "When Drake, Wolfgang, and Worm arrived in the ice cave, they first found ---.",
+      "question": "When Drake and Wolfgang arrived in the ice cave in Barga, they discovered...",
       "options": {
-        "A": "the secret door to the Naga",
-        "B": "a snow monster blocking their path",
-        "C": "a girl kneeling next to a hurt dragon",
-        "D": "Zoltan casting a spell"
+        "A": "a group of snow monsters guarding the entrance to the Naga's secret door",
+        "B": "Zoltan waiting for them with a trap that he had prepared in advance",
+        "C": "a girl named Nuna kneeling beside her injured earth dragon Kinguk",
+        "D": "an old wizard who had been protecting the secret door for many years"
       },
       "answer": "C",
       "explanation": "They found Nuna, a Dragon Master, kneeling next to her injured earth dragon Kinguk."
@@ -311,51 +311,51 @@
     {
       "id": 24,
       "difficulty": "medium",
-      "question": "Nuna healed Kinguk by ---.",
+      "question": "Nuna was able to heal her dragon Kinguk from Zoltan's dark magic by...",
       "options": {
-        "A": "using her dragon stone's magic",
-        "B": "asking Wolfgang to cast a healing spell",
-        "C": "making stinkweed tea and singing a healing song",
-        "D": "having Worm transfer energy to Kinguk"
+        "A": "using a special crystal that absorbed all of the dark energy from Kinguk's body",
+        "B": "calling on the power of the Naga to remove the curse from her dragon",
+        "C": "asking Drake to use his dragon stone to transfer healing energy to Kinguk",
+        "D": "making stinkweed tea and singing a traditional healing song from her people"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "Nuna made tea from stinkweed and sang a healing song from her people while Kinguk drank it."
     },
     {
       "id": 25,
       "difficulty": "medium",
-      "question": "Drake told Wolfgang the dream amulet had the power to ---.",
+      "question": "Drake explained to Wolfgang that the dream amulet from Kishar had the special power to...",
       "options": {
-        "A": "destroy Maldred forever",
-        "B": "transform Zoltan back into a human",
-        "C": "open the secret door to the Naga",
-        "D": "protect them from Zoltan's magic"
+        "A": "transform Zoltan back into a human if they could get close enough to use it",
+        "B": "control any dragon that looked directly into the glowing light of the amulet",
+        "C": "open a portal to the dream world where Zoltan's transformation first happened",
+        "D": "protect the person wearing it from all wizard magic including Zoltan's spells"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "Drake explained that Kishar gave him the dream amulet, which 'has the power to transform Zoltan back into a human.'"
     },
     {
       "id": 26,
       "difficulty": "medium",
-      "question": "When the snow monster attacked, Nuna commanded Kinguk to ---.",
+      "question": "When a snow monster attacked them in the cave, Nuna commanded Kinguk to...",
       "options": {
-        "A": "breathe fire at it",
-        "B": "crack the earth so the monster fell in",
-        "C": "create an energy shield",
-        "D": "transport everyone away"
+        "A": "shoot a beam of earth energy directly at the monster to knock it backward",
+        "B": "create a wall of rocks to block the monster from reaching the group",
+        "C": "crack open the ground so the snow monster would fall into the hole",
+        "D": "tunnel underground and attack the snow monster from behind by surprise"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "Nuna commanded 'Kinguk, crack the earth,' and the dragon opened a crack in the floor that trapped the snow monster."
     },
     {
       "id": 27,
       "difficulty": "medium",
-      "question": "The dream amulet was destroyed when ---.",
+      "question": "The dream amulet was destroyed when Drake accidentally dropped it and...",
       "options": {
-        "A": "it fell into a crack in the ice",
-        "B": "Zoltan hit it with red magic after it slipped from Drake's hands",
-        "C": "Wolfgang accidentally broke it with a spell",
-        "D": "the Naga's earthquake shattered it"
+        "A": "it shattered into a thousand pieces when it hit the hard stone floor of the cave",
+        "B": "Zoltan quickly blasted it with red magic before Drake could pick it back up",
+        "C": "a snow monster grabbed it and crushed it in its powerful frozen claws",
+        "D": "the Naga's earthquake knocked it into a deep crack in the ground forever"
       },
       "answer": "B",
       "explanation": "When Drake dropped the amulet, Zoltan cried 'Confectus!' and hit it with red magic, causing it to burst into pieces."
@@ -363,12 +363,12 @@
     {
       "id": 28,
       "difficulty": "medium",
-      "question": "When Jaina arrived at the cave, she immediately ---.",
+      "question": "When Jaina finally arrived at the ice cave riding on Vulcan, she immediately...",
       "options": {
-        "A": "attacked Zoltan with silver magic",
-        "B": "placed a dragon stone around Wolfgang's neck",
-        "C": "used magic to close the secret door",
-        "D": "called for the team of wizards"
+        "A": "attacked Zoltan with a powerful spell that pushed him away from the door",
+        "B": "placed a glowing dragon stone around Wolfgang's neck to make him a Dragon Master",
+        "C": "created a magical barrier around the group to protect them from Zoltan",
+        "D": "ordered all the dragons to work together to capture Zoltan in an energy cage"
       },
       "answer": "B",
       "explanation": "Jaina jumped from Vulcan's back and placed a dragon stone around Wolfgang's neck, making him a Dragon Master."
@@ -376,155 +376,155 @@
     {
       "id": 29,
       "difficulty": "medium",
-      "question": "The secret door finally closed only after ---.",
+      "question": "The closing spell for the secret door to the Naga only worked when...",
       "options": {
-        "A": "Vulcan breathed fire on it",
-        "B": "the Naga commanded it to close",
-        "C": "Zoltan joined Jaina in saying the closing spell",
-        "D": "Worm and Kinguk used their combined powers"
+        "A": "all four Dragon Masters joined together and spoke the words at the same time",
+        "B": "Zoltan finally agreed to help Jaina and they both said the spell together",
+        "C": "Wolfgang used his new dragon stone connection to add power to Jaina's spell",
+        "D": "the Naga himself gave permission for the door to be sealed shut forever"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "Jaina started the spell but it only worked when 'Zoltan joined her in saying the spell. Cloud ostium.'"
     },
     {
       "id": 30,
       "difficulty": "medium",
-      "question": "After breaking through the energy shield, the 100 mini-Maldreds ---.",
+      "question": "After the 100 mini-Maldreds broke through the energy shield, they all escaped by...",
       "options": {
-        "A": "attacked Wolfgang",
-        "B": "disappeared by poofing away",
-        "C": "merged back into one Maldred",
-        "D": "were frozen by the dragons"
+        "A": "flying out through a crack in the cave ceiling that led to the sky outside",
+        "B": "running in different directions so fast that no one could catch any of them",
+        "C": "poofing away one by one until every single mini-Maldred had disappeared",
+        "D": "combining back into one Maldred who then teleported to a secret location"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "Each winged Maldred disappeared in an instant with 'poof, poof, poof' - they escaped by poofing away."
     },
     {
       "id": 31,
       "difficulty": "medium",
-      "question": "Wolfgang's mother's death changed Zoltan because he ---.",
+      "question": "Wolfgang explained that after his mother died, his father Zoltan changed because...",
       "options": {
-        "A": "blamed Wolfgang for her death",
-        "B": "started ignoring Wolfgang to study magic all the time",
-        "C": "gave up magic completely",
-        "D": "became afraid of all dragons"
+        "A": "he started ignoring Wolfgang completely and spent all his time studying magic alone",
+        "B": "he became very overprotective and never let Wolfgang leave the house anymore",
+        "C": "he stopped practicing magic entirely and became very sad and quiet all the time",
+        "D": "he blamed Wolfgang for what happened and refused to teach him any more spells"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "Wolfgang said 'Dad started ignoring me to study magic all the time. He was always down in his workshop.'"
     },
     {
       "id": 32,
       "difficulty": "medium",
-      "question": "Drake and Worm were able to follow Wolfgang to Barga because ---.",
+      "question": "Drake and Worm were able to follow Wolfgang to the ice cave in Barga because...",
       "options": {
-        "A": "Jaina gave them directions",
-        "B": "they used a magical map",
-        "C": "Worm could follow Wolfgang's trail of magical energy",
-        "D": "Vulcan flew them there"
+        "A": "Drake's dragon stone started glowing brighter whenever they got closer to Wolfgang",
+        "B": "Worm could sense and follow the trail of magical energy that Wolfgang left behind",
+        "C": "Jaina used her wizard powers to show them exactly where Wolfgang had gone",
+        "D": "they found footprints in the snow that led them all the way to the cave entrance"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "Worm told Drake 'If we transport now, I can follow Wolfgang's trail of magical energy.'"
     },
     {
       "id": 33,
       "difficulty": "medium",
-      "question": "The secret door to the Naga was created ---.",
+      "question": "Nuna explained that the secret door to the Naga in Barga was created long ago so that...",
       "options": {
-        "A": "as a trap for evil wizards",
-        "B": "to hide treasure from enemies",
-        "C": "as a way to reach the Naga if the Dragon Islands are ever destroyed",
-        "D": "to give wizards a shortcut to the temple"
+        "A": "powerful wizards could visit the Naga to learn ancient magic from the great dragon",
+        "B": "Dragon Masters could reach the Naga quickly in case the Dragon Islands were destroyed",
+        "C": "evil villains like Maldred could be brought to the Naga for punishment and prison",
+        "D": "the Naga could escape from the temple if enemies ever tried to attack him there"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "Nuna explained the door 'was created years after the Temple of the Naga was built, as a way to reach the Naga if the Dragon Islands are ever destroyed.'"
     },
     {
       "id": 34,
       "difficulty": "medium",
-      "question": "Wolfgang used the dancing radish spell because ---.",
+      "question": "Wolfgang chose to cast the dancing radish spell against his father because...",
       "options": {
-        "A": "it was the most powerful spell he knew",
-        "B": "it was the first spell Zoltan ever taught him",
-        "C": "Jaina told him to use it",
-        "D": "it could break through Zoltan's shield"
+        "A": "it was the very first spell that Zoltan ever taught him when he was young",
+        "B": "the spell was so powerful that even Zoltan would not be able to block it",
+        "C": "Jaina told him it was the only spell that could break through Zoltan's shield",
+        "D": "he remembered that his father always hated that spell more than any other"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "Wolfgang said 'It's the first spell you ever taught me, Dad' when he cast the dancing radish spell."
     },
     {
       "id": 35,
       "difficulty": "medium",
-      "question": "The dancing radish spell affected Zoltan because ---.",
+      "question": "The dancing radish spell worked on Zoltan because when he saw it, he...",
       "options": {
-        "A": "it was very powerful magic",
-        "B": "it broke his concentration on the door",
-        "C": "it reminded him of happy memories with his son",
-        "D": "Wolfgang cast it perfectly"
+        "A": "became confused and forgot what he was doing because the spell was so strange",
+        "B": "remembered happy memories of teaching young Wolfgang magic when he was five",
+        "C": "realized that Wolfgang had become a more powerful wizard than him already",
+        "D": "felt embarrassed that such a silly spell was being used against a wizard dragon"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "Zoltan stopped and remembered: 'That was so long ago... You were so good at magic, even at age five. I was so proud of you.'"
     },
     {
       "id": 36,
       "difficulty": "medium",
-      "question": "Kinguk escaped Zoltan's attack by ---.",
+      "question": "When Zoltan attacked with his magic, Nuna's dragon Kinguk was able to escape by...",
       "options": {
-        "A": "flying up to the ceiling",
-        "B": "having Worm push her away",
-        "C": "diving headfirst into the cave floor and tunneling into the earth",
-        "D": "Wolfgang creating a shield"
+        "A": "flying up to the ceiling of the cave where Zoltan's magic could not reach her",
+        "B": "hiding behind a large boulder that blocked the blast of Zoltan's powerful spell",
+        "C": "creating a shield of earth energy that absorbed all of Zoltan's magical attack",
+        "D": "diving headfirst into the cave floor and tunneling deep into the earth below"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "Before Zoltan's attack could hit Kinguk, 'she dove headfirst into the cave floor. She tunneled into the earth, escaping the attack.'"
     },
     {
       "id": 37,
       "difficulty": "medium",
-      "question": "Wolfgang convinced Zoltan to stop trying to free Maldred by ---.",
+      "question": "Wolfgang was finally able to calm his father's wild dragon energy by using his new dragon stone to...",
       "options": {
-        "A": "threatening to leave him forever",
-        "B": "using his dragon stone to share happy memories",
-        "C": "promising him more power",
-        "D": "having Jaina cast a calming spell"
+        "A": "send pictures of happy family memories from when they used to play at the beach",
+        "B": "show Zoltan images of what would happen if he continued on his dangerous path",
+        "C": "transfer peaceful energy from his own mind directly into his father's thoughts",
+        "D": "connect to Zoltan's human side that was still trapped inside the dragon body"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "Using his new dragon master connection, Wolfgang sent pictures with his mind of 'playing in the sand at the beach like we used to with Mom.'"
     },
     {
       "id": 38,
       "difficulty": "medium",
-      "question": "The red bottle holding Maldred broke when ---.",
+      "question": "The red bottle containing Maldred finally broke when...",
       "options": {
-        "A": "Zoltan dropped it intentionally",
-        "B": "Wolfgang's spell hit it",
-        "C": "the Naga's final earthquake shook the cave and it tipped over",
-        "D": "Drake knocked it over"
+        "A": "Zoltan hit it with his magic trying to free Maldred as quickly as he could",
+        "B": "the Naga caused a powerful earthquake that made the bottle tip over and shatter",
+        "C": "one of the mini-Maldreds flew into the bottle and knocked it off the shelf",
+        "D": "Drake accidentally bumped into the shelf while trying to escape from the cave"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "During the Naga's strongest earthquake, 'the red bottle... tipped over and shattered into pieces.'"
     },
     {
       "id": 39,
       "difficulty": "medium",
-      "question": "Each mini-Maldred looked like ---.",
+      "question": "When Maldred was freed from the bottle, instead of becoming one wizard again, he...",
       "options": {
-        "A": "a tiny dragon with wings",
-        "B": "a small fly with red wings",
-        "C": "a cat-sized wizard with a red body, eye patch, and pointy beard",
-        "D": "a miniature version of Zoltan"
+        "A": "split into 100 tiny cat-sized versions of himself that each had wings to fly",
+        "B": "transformed into a giant monster that was even more powerful than before",
+        "C": "became invisible and escaped without anyone being able to see where he went",
+        "D": "was so weak that he could barely move and had to be carried out of the cave"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "Each mini-Maldred was 'the size of a cat' and 'a wizard with a red body, an eye patch, and a pointy red beard.'"
     },
     {
       "id": 40,
       "difficulty": "medium",
-      "question": "When Jaina and Zoltan combined their magic to create a shield, the colors were ---.",
+      "question": "Jaina and Zoltan worked together to protect the group by combining their magic to create...",
       "options": {
-        "A": "red and blue",
-        "B": "green and gold",
-        "C": "silver and pink",
-        "D": "purple and orange"
+        "A": "a powerful attack spell that pushed all the mini-Maldreds away from the group",
+        "B": "a teleportation circle that would transport everyone safely back to the castle",
+        "C": "an energy shield made of silver and pink magic to block the mini-Maldreds",
+        "D": "a cage of magical energy that trapped several of the mini-Maldreds inside"
       },
       "answer": "C",
       "explanation": "Jaina's 'silver magic' combined with Zoltan's 'pink magic' to form the energy shield."
@@ -534,12 +534,12 @@
       "difficulty": "hard",
       "question": "Why couldn't Worm's energy bubble alone capture Zoltan?",
       "options": {
-        "A": "Worm was too tired from transporting",
-        "B": "The ice cave blocked earth dragon powers",
-        "C": "The magical symbols on Zoltan's body made the bubble fizzle out",
-        "D": "Zoltan was too fast to be caught"
+        "A": "The magical symbols on Zoltan's body made it fizzle out",
+        "B": "Worm was exhausted from transporting to the ice cave",
+        "C": "The ice cave's cold blocked all earth dragon powers",
+        "D": "Zoltan flew away too fast for the bubble to catch"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "When Worm tried to trap Zoltan, 'the magical symbols on the dragon's body glowed brightly, and the energy bubble fizzled out.'"
     },
     {
@@ -547,12 +547,12 @@
       "difficulty": "hard",
       "question": "What made Zoltan's power shield weaken enough for Wolfgang to break it?",
       "options": {
-        "A": "The Naga's energy interfered with his magic",
-        "B": "Jaina cast a counter-spell",
-        "C": "The ice cave drained his power",
-        "D": "Zoltan was putting all his energy into opening the door"
+        "A": "The Naga's powerful energy interfered with his magic",
+        "B": "Zoltan was putting all his energy into opening the door",
+        "C": "Jaina secretly cast a powerful counter-spell on it",
+        "D": "The freezing ice cave slowly drained all his power"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "Wolfgang said 'He is putting all of his energy into opening the door. That could weaken the shield.'"
     },
     {
@@ -560,10 +560,10 @@
       "difficulty": "hard",
       "question": "Why did Zoltan say he wanted so much power?",
       "options": {
-        "A": "To protect Wolfgang from enemies",
-        "B": "To rule all the kingdoms",
-        "C": "Because if he had more power years ago, he might have saved Wolfgang's mother",
-        "D": "To get revenge on the wizards who expelled him"
+        "A": "To protect Wolfgang from all the dangerous enemies in the world",
+        "B": "To become the supreme ruler of all the magical kingdoms",
+        "C": "Because with more power years ago, he might have saved his wife",
+        "D": "To get revenge on all the wizards who had expelled him"
       },
       "answer": "C",
       "explanation": "Zoltan admitted 'Because I used to be weak... If I had more power years ago, I might have saved your mother.'"
@@ -573,12 +573,12 @@
       "difficulty": "hard",
       "question": "Why was Jaina's suggestion for Wolfgang to become Zoltan's dragon master important?",
       "options": {
-        "A": "It would automatically turn Zoltan human again",
-        "B": "Wolfgang could use the mental connection to calm Zoltan's wild dragon energy",
-        "C": "Dragon masters can control wizard dragons",
-        "D": "It would give Wolfgang power over Zoltan's movements"
+        "A": "It would automatically transform Zoltan back into a human",
+        "B": "Dragon masters have the power to control all wizard dragons",
+        "C": "It would give Wolfgang complete power over Zoltan's body",
+        "D": "Wolfgang could use the mental connection to calm Zoltan"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "Jaina said 'Use your mind to connect to his mind. You can help him calm the wild dragon energy inside him.'"
     },
     {
@@ -586,12 +586,12 @@
       "difficulty": "hard",
       "question": "What does the story suggest about wizards becoming dragon masters?",
       "options": {
-        "A": "Wizards cannot become dragon masters",
-        "B": "It is very rare for wizards to become dragon masters",
-        "C": "All wizards eventually become dragon masters",
-        "D": "Dragon masters are always stronger than wizards"
+        "A": "It is very rare for wizards to become dragon masters",
+        "B": "Wizards are forbidden from becoming dragon masters",
+        "C": "All wizards will eventually become dragon masters",
+        "D": "Dragon masters are always much stronger than wizards"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "Jaina told Wolfgang 'It is very rare for wizards to become dragon masters. But now you can use magic' - showing it's unusual but possible."
     },
     {
@@ -599,12 +599,12 @@
       "difficulty": "hard",
       "question": "Why was the dream amulet the only way to transform Zoltan back?",
       "options": {
-        "A": "It was created specifically for Zoltan",
-        "B": "Only Drake could use it",
-        "C": "Wizard magic cannot undo the magic of the dream world",
-        "D": "The Naga blessed it with special powers"
+        "A": "It was created specifically to work on Zoltan's magic",
+        "B": "Wizard magic cannot undo the magic of the dream world",
+        "C": "Only Drake had the power to activate and use the amulet",
+        "D": "The Naga had blessed it with very special unique powers"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "Jaina explained 'wizard magic cannot help your father... Drake's amulet is the only way I know of to undo the magic of the dream world.'"
     },
     {
@@ -612,12 +612,12 @@
       "difficulty": "hard",
       "question": "What went wrong with Zoltan's spell to free Maldred?",
       "options": {
-        "A": "It killed Maldred instead",
-        "B": "It freed the Naga instead of Maldred",
-        "C": "It made Maldred invisible",
-        "D": "Instead of making one Maldred, it created 100 separate mini-Maldreds"
+        "A": "It accidentally destroyed Maldred instead of freeing him",
+        "B": "It freed the powerful Naga dragon instead of Maldred",
+        "C": "It created 100 separate mini-Maldreds instead of one",
+        "D": "It made Maldred completely invisible and unable to speak"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "Zoltan's spell said 'One hundred flies are in here now, but Maldred there shall be' but instead each fly became a separate mini-Maldred."
     },
     {
@@ -625,12 +625,12 @@
       "difficulty": "hard",
       "question": "Why couldn't Nuna and Kinguk leave to help chase the Maldreds?",
       "options": {
-        "A": "Kinguk was still too weak",
-        "B": "The Naga commanded them to stay",
-        "C": "They are sworn to protect the secret door and cannot leave",
-        "D": "Wolfgang needed them to guard his father"
+        "A": "Kinguk was still too weak from Zoltan's attack",
+        "B": "The Naga had commanded them to stay behind",
+        "C": "Wolfgang needed them to guard his father Zoltan",
+        "D": "They are sworn to protect the secret door always"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "Nuna said 'I wish I could help you go after Maldred, but Kinguk and I cannot leave the Naga door.'"
     },
     {
@@ -638,12 +638,12 @@
       "difficulty": "hard",
       "question": "What is ironic about Zoltan's situation at the end of the story?",
       "options": {
-        "A": "He became more powerful than Maldred",
-        "B": "His son became his dragon master, reversing their roles",
-        "C": "He lost all his wizard powers",
-        "D": "He was trapped in a bottle like Maldred"
+        "A": "His young son became his dragon master now",
+        "B": "He became far more powerful than Maldred",
+        "C": "He lost every single one of his wizard powers",
+        "D": "He was trapped in a bottle just like Maldred"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "The father-son dynamic reversed: the child Wolfgang became the dragon master to his dragon-father Zoltan."
     },
     {
@@ -651,12 +651,12 @@
       "difficulty": "hard",
       "question": "Why did the team of wizards go to the Dragon Islands instead of Barga?",
       "options": {
-        "A": "Jaina sent them there in case Wolfgang was wrong about his father's destination",
-        "B": "They didn't know about the secret door in Barga",
-        "C": "The Naga summoned them there",
-        "D": "They were chasing a different villain"
+        "A": "They didn't know about the secret door located in Barga",
+        "B": "Jaina sent them in case Wolfgang was wrong about Zoltan",
+        "C": "The powerful Naga had summoned them all there",
+        "D": "They were chasing after a completely different villain"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "Jaina said 'We sent them on to the Dragon Islands in case Wolfgang was wrong about where his father went.'"
     },
     {
@@ -664,10 +664,10 @@
       "difficulty": "hard",
       "question": "What does Worm's reaction to seeing Kinguk reveal about earth dragons?",
       "options": {
-        "A": "Earth dragons are very common",
-        "B": "Earth dragons are enemies of each other",
-        "C": "Worm had not seen another earth dragon since leaving King Roland's castle",
-        "D": "Earth dragons cannot communicate with each other"
+        "A": "Earth dragons are very common across all the kingdoms",
+        "B": "Earth dragons are natural enemies that fight each other",
+        "C": "Worm hadn't seen another earth dragon in a long time",
+        "D": "Earth dragons are unable to communicate with each other"
       },
       "answer": "C",
       "explanation": "Worm said 'This is the first time I have seen another earth dragon since I was taken to King Roland's castle.'"
@@ -677,12 +677,12 @@
       "difficulty": "hard",
       "question": "Why was Wolfgang conflicted about stopping his father?",
       "options": {
-        "A": "He wanted the power for himself",
-        "B": "He didn't believe his father was evil",
-        "C": "He was afraid of the other dragon masters",
-        "D": "He wanted to stop Zoltan but also didn't want him to get hurt"
+        "A": "He secretly wanted all the power for himself",
+        "B": "He didn't believe his father was truly evil",
+        "C": "He wanted to stop Zoltan but not hurt him",
+        "D": "He was very afraid of the other dragon masters"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "Wolfgang said 'I don't want him to get hurt' and asked Drake 'You won't hurt him, will you?' showing his conflicted feelings."
     },
     {
@@ -690,12 +690,12 @@
       "difficulty": "hard",
       "question": "What can be inferred about why Zoltan became obsessed with Maldred?",
       "options": {
-        "A": "Maldred was his childhood friend",
-        "B": "He wanted power to cope with grief and feelings of weakness after his wife's death",
-        "C": "The wizard council ordered him to study Maldred",
-        "D": "Maldred threatened to harm Wolfgang"
+        "A": "Maldred was his childhood friend from wizard school",
+        "B": "The wizard council ordered him to study Maldred's magic",
+        "C": "The evil Maldred had threatened to harm his son Wolfgang",
+        "D": "He wanted power to cope with grief after his wife's death"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "Zoltan admitted he felt 'weak' and believed more power could have saved his wife - his grief drove his obsession with gaining power through Maldred."
     },
     {
@@ -703,12 +703,12 @@
       "difficulty": "hard",
       "question": "What does the ending set up for future events?",
       "options": {
-        "A": "The Naga will be freed",
-        "B": "Wolfgang will quit wizard school",
-        "C": "100 Maldreds are now loose in the world and must be stopped",
+        "A": "100 Maldreds are loose and must be stopped",
+        "B": "The Naga will finally be freed from prison",
+        "C": "Wolfgang will quit wizard school and leave",
         "D": "Zoltan will return to being a normal wizard"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "Jaina's final words were 'We have 100 Maldreds to stop' - setting up the next conflict."
     },
     {
@@ -716,10 +716,10 @@
       "difficulty": "hard",
       "question": "Why did Drake think telling Zoltan about the dream amulet was a mistake?",
       "options": {
-        "A": "The amulet only worked if Zoltan didn't know about it",
-        "B": "Knowing about it made Zoltan try to destroy it before Drake could use it",
-        "C": "Jaina had forbidden them from mentioning it",
-        "D": "It made Wolfgang look weak"
+        "A": "The amulet only worked if the target didn't know about it",
+        "B": "Knowing about it made Zoltan try to destroy it first",
+        "C": "Jaina had strictly forbidden them from mentioning it",
+        "D": "It made young Wolfgang look weak to his father"
       },
       "answer": "B",
       "explanation": "When Wolfgang mentioned the amulet, Drake thought 'Telling Zoltan about the stone wasn't part of the plan' - and Zoltan immediately destroyed it."
@@ -729,10 +729,10 @@
       "difficulty": "hard",
       "question": "What lesson does Wolfgang's success in reaching his father suggest?",
       "options": {
-        "A": "Children should always obey their parents",
-        "B": "Magic is always more powerful than emotions",
-        "C": "Emotional connections and happy memories can be more powerful than force",
-        "D": "Wizards are superior to dragon masters"
+        "A": "Children should always listen to and obey their parents",
+        "B": "Magic is always going to be more powerful than emotions",
+        "C": "Emotional connections can be more powerful than force",
+        "D": "Wizards are always going to be superior to dragon masters"
       },
       "answer": "C",
       "explanation": "All the attacks failed, but Wolfgang's emotional appeal through shared memories succeeded in reaching his father."
@@ -742,12 +742,12 @@
       "difficulty": "hard",
       "question": "How did Rory and Jaina find the location of the secret door?",
       "options": {
-        "A": "Wolfgang sent them a magical message",
-        "B": "The Naga guided them there",
-        "C": "Jaina found it in the castle library after Rory told her about Barga",
-        "D": "Vulcan could sense Zoltan's energy"
+        "A": "Wolfgang sent them a magical message with the location",
+        "B": "The powerful Naga used his magic to guide them there",
+        "C": "Vulcan the fire dragon could sense Zoltan's energy",
+        "D": "Jaina found it in the castle library after Rory told her"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "Rory said 'I told Jaina' about Barga, and 'she found the location of the secret door in the castle library.'"
     },
     {
@@ -755,12 +755,12 @@
       "difficulty": "hard",
       "question": "What does Nuna's healing song suggest about her culture?",
       "options": {
-        "A": "Her people worship the Naga",
-        "B": "Her people don't trust wizard magic",
-        "C": "Her people combine traditional practices like songs with other healing methods",
-        "D": "Her people are all dragon masters"
+        "A": "Her people worship the powerful Naga dragon",
+        "B": "Her people combine traditional songs with healing",
+        "C": "Her people don't trust any wizard magic at all",
+        "D": "Her people are all trained to be dragon masters"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "Nuna explained 'it is a song for healing that my people sing when someone is ill. I think it might help' - combining traditional song with the stinkweed medicine."
     },
     {
@@ -768,12 +768,12 @@
       "difficulty": "hard",
       "question": "Why couldn't even two powerful wizards' combined magic stop the 100 Maldreds?",
       "options": {
-        "A": "The Maldreds had absorbed the Naga's power",
-        "B": "Zoltan was secretly helping the Maldreds",
-        "C": "The ice cave weakened their magic",
-        "D": "The collective power of 100 Maldreds was too strong"
+        "A": "The collective power of 100 Maldreds was too strong",
+        "B": "The Maldreds had absorbed all of the Naga's power",
+        "C": "Zoltan was secretly helping all of the Maldreds",
+        "D": "The ice cave had weakened all of their magic"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "Drake realized 'Not even the magic of two powerful wizards can stop 100 Maldreds' - their combined numbers overwhelmed the shield."
     },
     {
@@ -781,12 +781,12 @@
       "difficulty": "hard",
       "question": "What does Zoltan's apology to Wolfgang reveal about his character?",
       "options": {
-        "A": "He was only pretending to change",
-        "B": "He blamed Wolfgang for everything",
-        "C": "He was never truly evil, just lost in grief and obsession",
-        "D": "He wanted Wolfgang to join Maldred"
+        "A": "He was only pretending to change his ways",
+        "B": "He blamed Wolfgang for everything that happened",
+        "C": "He wanted Wolfgang to join the evil Maldred",
+        "D": "He was never truly evil, just lost in grief"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "Zoltan apologized saying 'I lost my focus when your mother died. I should have focused all of my energies on you' - showing grief, not evil, drove his actions."
     }
   ]

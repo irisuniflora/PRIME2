@@ -14,11 +14,11 @@
       "question": "Where is Mount Munch located?",
       "options": {
         "A": "In the Winkie Country",
-        "B": "On the east edge of the Land of Oz, in the Munchkin Country",
-        "C": "In the Quadling Country",
-        "D": "In the Emerald City"
+        "B": "In the Quadling Country",
+        "C": "In the Emerald City center",
+        "D": "In the Munchkin Country"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "Mount Munch is located 'on the east edge of the Land of Oz, in the Munchkin country.'"
     },
     {
@@ -26,12 +26,12 @@
       "difficulty": "easy",
       "question": "What shape is the top of Mount Munch?",
       "options": {
-        "A": "Pointed like a cone",
-        "B": "Shaped like a saucer, broad and deep",
+        "A": "Shaped like a saucer",
+        "B": "Pointed like a cone",
         "C": "Round like a ball",
         "D": "Flat like a table"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "The top of Mount Munch is 'shaped like a saucer, broad and deep.'"
     },
     {
@@ -54,10 +54,10 @@
       "options": {
         "A": "The king of Oz",
         "B": "Kiki's best friend",
-        "C": "A Munchkin farmer",
-        "D": "A wise old Hyup who used to be a sorcerer"
+        "C": "A wise old Hyup sorcerer",
+        "D": "A Munchkin farmer"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "Bini Aru is described as 'a wise old Hyup... who used to be a clever sorcerer.'"
     },
     {
@@ -66,11 +66,11 @@
       "question": "What did Ozma decree about magic in Oz?",
       "options": {
         "A": "Everyone could practice magic freely",
-        "B": "Only men could practice magic",
-        "C": "No one could practice magic except Glinda the Good and the Wizard of Oz",
-        "D": "Magic was completely forbidden for everyone"
+        "B": "Only Glinda and the Wizard could",
+        "C": "Only men could practice magic",
+        "D": "Magic was forbidden for everyone"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "Ozma 'made a decree that no one should practise magic in her dominions except Glinda the Good and the Wizard of Oz.'"
     },
     {
@@ -78,12 +78,12 @@
       "difficulty": "easy",
       "question": "What is the magic word for transformations?",
       "options": {
-        "A": "Open Sesame",
-        "B": "Pyrzqxgl (pronounced Pyres Quicksicle)",
+        "A": "Pyrzqxgl",
+        "B": "Open Sesame",
         "C": "Abracadabra",
         "D": "Alakazam"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "The magic word is 'Pyrzqxgl' which is pronounced 'Pyres Quicksicle.'"
     },
     {
@@ -91,12 +91,12 @@
       "difficulty": "easy",
       "question": "Why was Kiki Aru noted for being cross and disagreeable?",
       "options": {
-        "A": "He wanted to see the world but his father wouldn't let him leave",
-        "B": "He was born that way",
-        "C": "He was always sick",
+        "A": "He was born that way",
+        "B": "He was always very sick",
+        "C": "His father wouldn't let him leave",
         "D": "He didn't have any friends"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Kiki 'was not happy because he wanted to go down the mountain and visit the big world below, and his father would not let him.'"
     },
     {
@@ -104,10 +104,10 @@
       "difficulty": "easy",
       "question": "How did Kiki discover the magic word?",
       "options": {
-        "A": "A wizard told him",
+        "A": "A wizard told him the secret",
         "B": "He read it in a magic book",
-        "C": "His father taught him",
-        "D": "He found it written on the underside of a loose floorboard"
+        "C": "His father taught him directly",
+        "D": "Under a loose floorboard"
       },
       "answer": "D",
       "explanation": "When the board 'slipped from his hand and turned over,' Kiki 'saw something written on the underside of it' describing how to pronounce the magic word."
@@ -130,12 +130,12 @@
       "difficulty": "easy",
       "question": "What surrounds the Land of Oz?",
       "options": {
-        "A": "An ocean",
+        "A": "A deadly sandy desert",
         "B": "A magical forest",
-        "C": "High mountains",
-        "D": "A deadly sandy desert with poisonous fumes"
+        "C": "Very high mountains",
+        "D": "A vast deep ocean"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "Oz is surrounded by 'the Deadly Sandy Desert' with 'poisonous fumes.'"
     },
     {
@@ -144,7 +144,7 @@
       "question": "Who is Ruggedo?",
       "options": {
         "A": "A friendly wizard",
-        "B": "The former Gnome King who was kicked out of his kingdom",
+        "B": "The former Gnome King",
         "C": "Kiki's father",
         "D": "The ruler of Oz"
       },
@@ -156,12 +156,12 @@
       "difficulty": "easy",
       "question": "What does Ruggedo look like?",
       "options": {
-        "A": "Crooked with a fat body, thin limbs, bushy white whiskers, and pointed hair",
-        "B": "Tall and thin with black hair",
-        "C": "Short with red hair and a beard",
-        "D": "Young and handsome"
+        "A": "Tall and thin with black hair",
+        "B": "Short with red hair and beard",
+        "C": "Crooked with bushy whiskers",
+        "D": "Young and very handsome"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Ruggedo is described as crooked, with 'a fat body and thin legs and arms,' 'bushy white whiskers that came to a point,' and 'white hair that came to a point on top of his head.'"
     },
     {
@@ -183,11 +183,11 @@
       "question": "How did Kiki get money when he had none?",
       "options": {
         "A": "Ruggedo gave it to him",
-        "B": "He transformed into a magpie and stole a gold piece",
-        "C": "He earned it by working",
-        "D": "He found it on the ground"
+        "B": "He earned it by working hard",
+        "C": "He found it on the ground",
+        "D": "He stole it as a magpie"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "Kiki 'transformed himself into a magpie and flying through the open window, caught up one of the gold pieces in his beak.'"
     },
     {
@@ -195,10 +195,10 @@
       "difficulty": "easy",
       "question": "What did Ruggedo carry in his bulging pockets?",
       "options": {
-        "A": "Books",
-        "B": "Jewels and precious stones",
+        "A": "Books and scrolls",
+        "B": "Jewels and stones",
         "C": "Magic tools",
-        "D": "Food"
+        "D": "Food supplies"
       },
       "answer": "B",
       "explanation": "Ruggedo says when he left his kingdom, 'they said I could take as many precious stones as I could carry, so I had a lot of pockets made in my clothes and loaded them all up.'"
@@ -210,10 +210,10 @@
       "options": {
         "A": "They use jewels instead",
         "B": "The ruler banned it",
-        "C": "It's too expensive to make",
-        "D": "Everyone is allowed to take what they wish without price"
+        "C": "Everyone takes what they need",
+        "D": "It's too expensive to make"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "In the Land of Oz 'they do not use money at all, every one being allowed to take what he wishes without price.'"
     },
     {
@@ -223,8 +223,8 @@
       "options": {
         "A": "A list of all citizens in Oz",
         "B": "A history of Oz",
-        "C": "A cookbook",
-        "D": "A book that magically records everything people do in Oz the instant they do it"
+        "C": "A cookbook with recipes",
+        "D": "Records everything instantly"
       },
       "answer": "D",
       "explanation": "Glinda has 'a Great Book called the Book of Records, in which is magically written everything that people do in the Land of Oz, just the instant they do it.'"
@@ -235,9 +235,9 @@
       "question": "What is Ozma's magic picture?",
       "options": {
         "A": "A painting of herself",
-        "B": "A picture in which she can see whatever she wishes to see",
-        "C": "A map of Oz",
-        "D": "A photograph of her friends"
+        "B": "Shows whatever she wishes",
+        "C": "A detailed map of Oz",
+        "D": "Photos of her friends"
       },
       "answer": "B",
       "explanation": "Ozma has 'a Magic Picture in which she can see whatever she wishes to see.'"
@@ -247,7 +247,7 @@
       "difficulty": "easy",
       "question": "Who is Mopsi Aru?",
       "options": {
-        "A": "Kiki's mother, famous for making huckleberry pies",
+        "A": "Kiki's mother",
         "B": "Kiki's sister",
         "C": "Ruggedo's wife",
         "D": "A Munchkin woman"
@@ -261,9 +261,9 @@
       "question": "What is the Glass Cat made of?",
       "options": {
         "A": "Crystal and diamonds",
-        "B": "Clear glass with pink brains and ruby heart",
+        "B": "Glass with pink brains",
         "C": "Ice and snow",
-        "D": "Porcelain"
+        "D": "Fine porcelain"
       },
       "answer": "B",
       "explanation": "The Glass Cat 'was made all of glass' with 'a mass of delicate pink balls which looked like jewels but were intended for brains' and 'a heart made of blood-red ruby.'"
@@ -273,10 +273,10 @@
       "difficulty": "medium",
       "question": "Bini Aru discovered a new transformation method that was unknown to any other sorcerer. This method ---.",
       "options": {
-        "A": "required many tools and magical powders",
-        "B": "needed a wand and special potions",
-        "C": "was the simplest thing in the world once you knew how to pronounce the mystical word",
-        "D": "could only be performed during a full moon"
+        "A": "required many tools and powders",
+        "B": "needed a wand and potions",
+        "C": "was simple once you knew the word",
+        "D": "only worked during a full moon"
       },
       "answer": "C",
       "explanation": "By Bini Aru's method, 'it was the simplest thing in the world to transform anyone into beast, bird, or fish, or anything else, and back again, once you knew how to pronounce the mystical word.'"
@@ -286,10 +286,10 @@
       "difficulty": "medium",
       "question": "Bini Aru wrote down the magic word instead of just memorizing it because ---.",
       "options": {
-        "A": "his wife asked him to",
-        "B": "he couldn't remember things well",
+        "A": "his wife asked him to do it",
+        "B": "he couldn't remember well",
         "C": "it was required by law",
-        "D": "he wanted to preserve it in case Ozma changed the magic laws someday"
+        "D": "Ozma might change the laws"
       },
       "answer": "D",
       "explanation": "Bini Aru 'reflected that Ozma was a girl and sometime might change her mind and allow her subjects to practise magic' so he wanted to preserve the secret."
@@ -299,12 +299,12 @@
       "difficulty": "medium",
       "question": "Glinda's Book of Records has a loophole that the villains plan to exploit. The loophole is that the book ---.",
       "options": {
-        "A": "is only read once a week",
+        "A": "only records people, not beasts",
         "B": "only works during the day",
-        "C": "is often wrong",
-        "D": "only records what people do, not what beasts or birds do"
+        "C": "is often wrong about details",
+        "D": "is only read once a week"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "Ruggedo realizes 'The book doesn't make a record of what birds do, or beasts. It only tells the doings of people. So if we fly into the country as birds, Glinda won't know anything about it.'"
     },
     {
@@ -313,8 +313,8 @@
       "question": "Ruggedo's plan for conquering Oz involves ---.",
       "options": {
         "A": "poisoning the water supply",
-        "B": "stealing Ozma's magic",
-        "C": "transforming beasts into people and people into beasts",
+        "B": "stealing Ozma's magic items",
+        "C": "swapping beasts and people",
         "D": "building an army of gnomes"
       },
       "answer": "C",
@@ -325,10 +325,10 @@
       "difficulty": "medium",
       "question": "Kiki refuses to share the magic word with Ruggedo because ---.",
       "options": {
-        "A": "Ruggedo didn't offer enough jewels",
-        "B": "he forgot the word",
-        "C": "he realizes sharing his power would be dangerous to himself",
-        "D": "his father told him not to share it"
+        "A": "Ruggedo didn't offer enough",
+        "B": "he forgot the word completely",
+        "C": "sharing power would be dangerous",
+        "D": "his father told him not to"
       },
       "answer": "C",
       "explanation": "Kiki 'realized that to share his power with another would be dangerous to himself.'"
@@ -339,9 +339,9 @@
       "question": "Both Kiki and Ruggedo are secretly planning to ---.",
       "options": {
         "A": "help each other escape",
-        "B": "become best friends",
+        "B": "become best friends forever",
         "C": "share everything equally",
-        "D": "transform the other into something harmless after conquering Oz"
+        "D": "betray the other after winning"
       },
       "answer": "D",
       "explanation": "Kiki plans to 'transform the old gnome into a marble statue,' while Ruggedo plans to 'transform Kiki Aru into a bundle of faggots and burn him up.'"
@@ -353,8 +353,8 @@
       "options": {
         "A": "They always keep their promises",
         "B": "They trust each other completely",
-        "C": "They are more loyal than good people",
-        "D": "They cannot be trusted even by one another"
+        "C": "They are loyal to each other",
+        "D": "They can't trust one another"
       },
       "answer": "D",
       "explanation": "The narrator states 'This is always the way with wicked people. They cannot be trusted even by one another.'"
@@ -365,9 +365,9 @@
       "question": "When Kiki transforms Ruggedo, he prevents the gnome from learning the magic word by ---.",
       "options": {
         "A": "whispering it very quietly",
-        "B": "walking away and transforming Ruggedo from a distance",
-        "C": "writing it down instead of speaking",
-        "D": "making Ruggedo close his eyes"
+        "B": "walking away to a distance",
+        "C": "writing it down instead",
+        "D": "making Ruggedo close eyes"
       },
       "answer": "B",
       "explanation": "Kiki said 'Remain here for a few minutes, and I'll soon be back' and 'walking swiftly away, he left the gnome standing in the grove' before transforming him."
@@ -377,10 +377,10 @@
       "difficulty": "medium",
       "question": "While Kiki was asleep at the inn, Ruggedo ---.",
       "options": {
-        "A": "searched Kiki's room and pockets for magic tools",
-        "B": "left without paying",
+        "A": "searched for magic tools",
+        "B": "left without paying bill",
         "C": "transformed himself",
-        "D": "stole jewels from other guests"
+        "D": "stole from other guests"
       },
       "answer": "A",
       "explanation": "Ruggedo 'rose softly from his couch, and went into the room of Kiki Aru... and searched everywhere for the magic tool that performed his transformations.'"
@@ -390,7 +390,7 @@
       "difficulty": "medium",
       "question": "The Oz people defeated Ruggedo before by ---.",
       "options": {
-        "A": "having a celebration in his honor",
+        "A": "having a celebration for him",
         "B": "challenging him to a duel",
         "C": "playing a game with him",
         "D": "rolling eggs at him"
@@ -404,9 +404,9 @@
       "question": "Before meeting Ruggedo, Kiki visited several countries including ---.",
       "options": {
         "A": "only the Emerald City",
-        "B": "High Land, Low Land, Merry Land, Noland, Kingdom of Ix, and Land of Ev",
-        "C": "just Mount Munch",
-        "D": "only the desert"
+        "B": "many lands like Noland and Ev",
+        "C": "just Mount Munch area",
+        "D": "only the sandy desert"
       },
       "answer": "B",
       "explanation": "Kiki visited 'High Land,' 'Low Land,' 'Merry Land,' 'the kingdom of Noland,' 'the Kingdom of Ix,' and 'the Land of Ev.'"
@@ -429,10 +429,10 @@
       "difficulty": "medium",
       "question": "After leaving Mount Munch, Kiki's personality changed because ---.",
       "options": {
-        "A": "magic changed him",
+        "A": "magic changed him directly",
         "B": "Ruggedo taught him manners",
-        "C": "having found freedom, he was no longer unhappy and thus no longer cross",
-        "D": "he took medicine"
+        "C": "freedom made him happy",
+        "D": "he took special medicine"
       },
       "answer": "C",
       "explanation": "'Having escaped from his home... the young man was no longer unhappy, and so he was no longer cross and disagreeable.'"
@@ -456,7 +456,7 @@
       "question": "A sparrow witnessed Kiki ---.",
       "options": {
         "A": "meeting his father",
-        "B": "transforming into a magpie, stealing gold, and transforming back",
+        "B": "stealing gold as a magpie",
         "C": "arguing with Ruggedo",
         "D": "flying over the desert"
       },
@@ -469,9 +469,9 @@
       "question": "When the sparrow warned Kiki he would be sorry for being wicked, Kiki responded by saying ---.",
       "options": {
         "A": "he cried and apologized",
-        "B": "he didn't care and was glad to be wicked",
-        "C": "he ignored the sparrow completely",
-        "D": "he thanked the sparrow for the warning"
+        "B": "he was glad to be wicked",
+        "C": "he ignored the sparrow",
+        "D": "he thanked the sparrow"
       },
       "answer": "B",
       "explanation": "Kiki says 'I don't care... I didn't know I was being wicked... but if I was, I'm glad of it. I hate good people. I've always wanted to be wicked.'"
@@ -481,9 +481,9 @@
       "difficulty": "medium",
       "question": "Kiki and Ruggedo plan to base their operations in ---.",
       "options": {
-        "A": "the Emerald City",
-        "B": "the thick forests of the Gillikin Country",
-        "C": "Mount Munch",
+        "A": "the Emerald City center",
+        "B": "forests of Gillikin Country",
+        "C": "Mount Munch area",
         "D": "the Munchkin Country"
       },
       "answer": "B",
@@ -494,10 +494,10 @@
       "difficulty": "medium",
       "question": "Ruggedo promises Kiki that if they conquer Oz, ---.",
       "options": {
-        "A": "Kiki will be the ruler of all Oz while Ruggedo becomes Prime Minister",
-        "B": "they will split the kingdom in half",
+        "A": "Kiki rules, Ruggedo advises",
+        "B": "they split the kingdom in half",
         "C": "Kiki will get all the jewels",
-        "D": "Kiki can return to Mount Munch as a hero"
+        "D": "Kiki returns home a hero"
       },
       "answer": "A",
       "explanation": "Ruggedo says 'I'll agree to make you the ruler of all Oz, and I will be your Prime Minister and see that all your orders are obeyed.'"
@@ -510,7 +510,7 @@
         "A": "kept it in his pocket",
         "B": "hid it in his father's room",
         "C": "put it under his pillow",
-        "D": "placed it in a tin box in a neglected part of the garden, covered with stones"
+        "D": "buried it in the garden"
       },
       "answer": "D",
       "explanation": "To make safety doubly sure 'he placed the paper in a tin box in a neglected part of the garden and covered the box with small stones.'"
@@ -523,7 +523,7 @@
         "A": "travelers from the desert",
         "B": "Li-Mon-Eags from Sky Island",
         "C": "magicians from Mount Munch",
-        "D": "friends of Ozma"
+        "D": "friends of Princess Ozma"
       },
       "answer": "B",
       "explanation": "Ruggedo tells the forest beasts 'We are two Li-Mon-Eags... Our home is in Sky Island.'"
@@ -533,10 +533,10 @@
       "difficulty": "hard",
       "question": "In L. Frank Baum's foreword, he suggests that real world events have become so marvelous that they rival his fantasy stories. What does this imply about the relationship between fantasy and reality?",
       "options": {
-        "A": "Fantasy is always better than reality",
-        "B": "Real world events can be as remarkable as the most imaginative fiction",
-        "C": "Fantasy and reality should never mix",
-        "D": "Reality is boring compared to fantasy"
+        "A": "Fantasy is always better",
+        "B": "Reality can match fiction",
+        "C": "Fantasy and reality shouldn't mix",
+        "D": "Reality is boring"
       },
       "answer": "B",
       "explanation": "Baum writes 'in the events which have taken place in the last few years in our great outside world, we may find incidents so marvelous and inspiring that I cannot hope to equal them with stories of the Land of Oz.'"
@@ -548,8 +548,8 @@
       "options": {
         "A": "Crime always pays in the end",
         "B": "Magic solves all problems",
-        "C": "Two villains working together are stronger",
-        "D": "Evil alliances are inherently unstable because wicked people cannot trust each other"
+        "C": "Two villains are stronger",
+        "D": "Evil alliances are unstable"
       },
       "answer": "D",
       "explanation": "Both plan to betray the other, and the narrator states 'This is always the way with wicked people. They cannot be trusted even by one another.'"
@@ -559,10 +559,10 @@
       "difficulty": "hard",
       "question": "What does Kiki's transformation from unhappy to content after leaving home suggest about his original problems?",
       "options": {
-        "A": "He didn't really change at all",
+        "A": "He didn't really change",
         "B": "He was born evil",
         "C": "Magic made him happy",
-        "D": "His unhappiness came from external restrictions, not internal character flaws"
+        "D": "External restrictions caused it"
       },
       "answer": "D",
       "explanation": "Once free to explore the world, 'the young man was no longer unhappy, and so he was no longer cross and disagreeable' - his bad temper was caused by being trapped."
@@ -572,8 +572,8 @@
       "difficulty": "hard",
       "question": "What does Ruggedo's description of being 'a pretty good king - to myself' reveal about his character?",
       "options": {
-        "A": "He was selfish and ruled only for his own benefit, not his people's",
-        "B": "He was modest about his accomplishments",
+        "A": "He was selfish and self-serving",
+        "B": "He was modest about himself",
         "C": "He was a democratic ruler",
         "D": "He was a fair and just king"
       },
@@ -586,7 +586,7 @@
       "question": "Why does Baum playfully warn readers about pronouncing the magic word correctly?",
       "options": {
         "A": "He was superstitious",
-        "B": "To create narrative immersion and make readers feel the magic could be real",
+        "B": "To create narrative immersion",
         "C": "Because it might actually work",
         "D": "Because it's genuinely dangerous"
       },
@@ -598,10 +598,10 @@
       "difficulty": "hard",
       "question": "The loophole in Glinda's Book of Records (not recording animal actions) suggests what about magical surveillance systems?",
       "options": {
-        "A": "Magic is always perfect and complete",
-        "B": "Even powerful magical systems have limitations and can be circumvented",
-        "C": "Animals are more important than people",
-        "D": "Glinda is careless about her magic"
+        "A": "Magic is always perfect",
+        "B": "Magic systems have limits",
+        "C": "Animals are more important",
+        "D": "Glinda is careless"
       },
       "answer": "B",
       "explanation": "The fact that the Book only records human actions shows that even sophisticated magical systems have blind spots that clever villains can exploit."
@@ -611,8 +611,8 @@
       "difficulty": "hard",
       "question": "The contrast between Oz (no money) and other countries (money required) suggests what about Oz as a society?",
       "options": {
-        "A": "Other countries are better places to live",
-        "B": "Oz represents an ideal society without economic inequality, where needs are freely met",
+        "A": "Other countries are better",
+        "B": "Oz is an ideal society",
         "C": "Oz is actually poor",
         "D": "Money is evil"
       },
@@ -624,10 +624,10 @@
       "difficulty": "hard",
       "question": "The condition that transformations only work on things that can talk represents what theme?",
       "options": {
-        "A": "The power of language and speech as essential to identity and agency",
-        "B": "Magic is unnecessarily complicated",
+        "A": "Speech is essential to identity",
+        "B": "Magic is too complicated",
         "C": "A random magical limitation",
-        "D": "Animals are important in Oz"
+        "D": "Animals are important"
       },
       "answer": "A",
       "explanation": "The requirement that transformed beings must be able to speak to transform back emphasizes that language/voice is essential to agency and identity."
@@ -637,10 +637,10 @@
       "difficulty": "hard",
       "question": "What does Bini Aru's obedience to Ozma's magic ban, despite never meeting her, suggest about legitimate authority?",
       "options": {
-        "A": "No one follows rules",
-        "B": "Authority must be enforced physically",
+        "A": "No one follows any rules",
+        "B": "Authority must be enforced",
         "C": "Magic users are weak",
-        "D": "Legitimate authority can be respected voluntarily when people recognize it as just"
+        "D": "Just authority earns respect"
       },
       "answer": "D",
       "explanation": "Bini Aru 'had never seen Ozma, but he knew she was his ruler and must be obeyed' - showing voluntary respect for legitimate, recognized authority."
@@ -651,9 +651,9 @@
       "question": "The villain's plan to swap humans and animals comments on social hierarchies by suggesting that ---.",
       "options": {
         "A": "it doesn't comment on anything",
-        "B": "categories like 'civilized' vs 'beast' are arbitrary and could be reversed",
-        "C": "only magic matters in determining status",
-        "D": "animals are inherently better than people"
+        "B": "human/beast categories are arbitrary",
+        "C": "only magic matters for status",
+        "D": "animals are better than people"
       },
       "answer": "B",
       "explanation": "The plan to make 'beasts into men and women' and 'people of Oz into beasts' suggests the distinction between them is not natural but a matter of circumstance."
@@ -664,7 +664,7 @@
       "question": "Ruggedo's fear of eggs serves what narrative purpose?",
       "options": {
         "A": "Eggs are sacred in Oz",
-        "B": "It establishes his vulnerability and foreshadows how he might eventually be defeated",
+        "B": "It foreshadows his defeat",
         "C": "It's only for comic relief",
         "D": "He's allergic to eggs"
       },
@@ -676,10 +676,10 @@
       "difficulty": "hard",
       "question": "The phrase 'it's the fashion to kick kings nowadays' reflects what about when Baum wrote this?",
       "options": {
-        "A": "It references the decline of monarchies in the early 20th century, particularly around World War I",
-        "B": "It's pure fantasy with no historical connection",
-        "C": "Baum personally disliked all kings",
-        "D": "It has no historical significance"
+        "A": "It references declining monarchies",
+        "B": "It's pure fantasy",
+        "C": "Baum personally disliked kings",
+        "D": "It has no significance"
       },
       "answer": "A",
       "explanation": "Written in 1919, this references the fall of monarchies (German, Austrian, Russian empires) during and after World War I."
@@ -690,8 +690,8 @@
       "question": "Why does Kiki memorize the magic word rather than just keeping the paper?",
       "options": {
         "A": "His father told him to",
-        "B": "He can't read",
-        "C": "A bird cannot carry paper, so he must memorize it to transform back",
+        "B": "He can't read at all",
+        "C": "A bird can't carry paper",
         "D": "The paper was destroyed"
       },
       "answer": "C",
@@ -704,8 +704,8 @@
       "options": {
         "A": "a spy for Ozma",
         "B": "Kiki's secret friend",
-        "C": "a moral conscience warning against wickedness, and a witness to wrongdoing",
-        "D": "just a random bird with no significance"
+        "C": "a moral conscience and witness",
+        "D": "just a random bird"
       },
       "answer": "C",
       "explanation": "The sparrow witnesses Kiki's crime and warns 'You'll be sorry for this' - representing a moral voice that the villains dismiss."
@@ -715,10 +715,10 @@
       "difficulty": "hard",
       "question": "What irony exists in Kiki saying he 'always wanted to be wicked but didn't know how'?",
       "options": {
-        "A": "He's joking",
-        "B": "There's no irony",
-        "C": "Wickedness is natural to everyone",
-        "D": "It suggests wickedness must be learned, contradicting the idea that it's innate"
+        "A": "He's joking around",
+        "B": "There's no irony at all",
+        "C": "Wickedness is natural",
+        "D": "Wickedness must be learned"
       },
       "answer": "D",
       "explanation": "Kiki's statement implies wickedness is a skill to be acquired, ironically suggesting his current evil acts are a kind of education in wrongdoing."
@@ -728,10 +728,10 @@
       "difficulty": "hard",
       "question": "Ruggedo's failed search for 'magic tools' reveals what about his understanding of magic?",
       "options": {
-        "A": "He expects magic to require physical implements, showing he doesn't understand Kiki's word-based power",
-        "B": "Tools are unnecessary for any magic",
+        "A": "He expects magic needs tools",
+        "B": "Tools are unnecessary",
         "C": "He's just being thorough",
-        "D": "He found the tools but pretended not to"
+        "D": "He found tools and hid them"
       },
       "answer": "A",
       "explanation": "Ruggedo 'searched everywhere for the magic tool' because his own magic 'had to have certain tools' - he can't conceive of magic as simply speaking a word."
@@ -741,9 +741,9 @@
       "difficulty": "hard",
       "question": "The fact that animals can talk in Oz contributes to the transformation rules by ---.",
       "options": {
-        "A": "enabling transformations into any creature while maintaining the ability to speak and change back",
+        "A": "allowing any transformation safely",
         "B": "having no special significance",
-        "C": "only allowing certain animals to be transformed",
+        "C": "limiting which animals work",
         "D": "making the rules confusing"
       },
       "answer": "A",
@@ -756,8 +756,8 @@
       "options": {
         "A": "He's making a joke",
         "B": "He actually visited Oz",
-        "C": "It positions him not as creator but as chronicler, enhancing the illusion that Oz is real",
-        "D": "It's his official government title"
+        "C": "He's a chronicler, not creator",
+        "D": "It's his official title"
       },
       "answer": "C",
       "explanation": "By calling himself 'Royal Historian of Oz,' Baum plays the role of someone recording real events, making the fantasy feel more authentic."
@@ -767,10 +767,10 @@
       "difficulty": "hard",
       "question": "Why does Ruggedo agree to Kiki's condition of not knowing the magic word?",
       "options": {
-        "A": "He doesn't care about magic",
-        "B": "He trusts Kiki completely",
-        "C": "He believes he can spy on Kiki and learn the secret anyway",
-        "D": "He gave up trying to learn it"
+        "A": "He doesn't care about magic at all",
+        "B": "He trusts Kiki to help him later",
+        "C": "He plans to spy and learn it",
+        "D": "He already gave up trying to learn"
       },
       "answer": "C",
       "explanation": "Ruggedo agrees because 'he decided that he could, by careful watching and listening, surprise the boy's secret' - he plans to learn it through espionage."
@@ -778,12 +778,12 @@
     {
       "id": 60,
       "difficulty": "hard",
-      "question": "Mount Munch's isolation has thematic significance because it represents how ---.",
+      "question": "Mount Munch's isolation has thematic significance because it represents how _____.",
       "options": {
-        "A": "isolation can breed discontent (Kiki's unhappiness) but also preserve secrets (the magic word)",
-        "B": "mountains are important geographic features in Oz",
+        "A": "isolation brings both discontent and secrecy",
+        "B": "mountains are important geographic features",
         "C": "it simply protects the Hyups from outsiders",
-        "D": "it's just geography with no deeper meaning"
+        "D": "it's just a place with no deeper meaning"
       },
       "answer": "A",
       "explanation": "The isolation makes Kiki unhappy but also allows Bini Aru to keep his magical secret hidden - showing isolation's dual nature as both prison and protection."
