@@ -130,10 +130,10 @@
       "difficulty": "easy",
       "question": "What does Antonio always carry in his pocket for good luck?",
       "options": {
-        "A": "A peanut butter and jelly sandwich",
-        "B": "A coin",
-        "C": "A rabbit's foot",
-        "D": "A stone"
+        "A": "A peanut butter sandwich",
+        "B": "A small silver coin",
+        "C": "A lucky rabbit's foot",
+        "D": "A smooth river stone"
       },
       "answer": "A",
       "explanation": "Antonio always carries a peanut butter and jelly sandwich in his pocket as his lucky charm."
@@ -780,10 +780,10 @@
       "difficulty": "hard",
       "question": "What is the main message of The School Is Alive?",
       "options": {
-        "A": "Schools are always scary places for students",
-        "B": "Never become a hall monitor at your school",
-        "C": "Adults can never be trusted to help children",
-        "D": "Regular kids can be heroes when they accept responsibility and work with friends"
+        "A": "Schools are always scary and dangerous places for students",
+        "B": "You should never become a hall monitor at your school",
+        "C": "Adults can never be trusted to help children in danger",
+        "D": "Regular kids can be heroes with responsibility and friends"
       },
       "answer": "D",
       "explanation": "Sam goes from a kid who hates his job to a hero who saves everyone with his friends' help."

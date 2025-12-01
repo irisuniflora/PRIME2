@@ -390,10 +390,10 @@
       "difficulty": "medium",
       "question": "Greg's campaign posters were taken down by the vice principal because _____.",
       "options": {
-        "A": "they had too many spelling mistakes",
-        "B": "they were hung in the wrong place",
+        "A": "they had too many spelling mistakes on them",
+        "B": "they were hung in the wrong place at school",
         "C": "they contained false claims about the other candidate",
-        "D": "they were way too big for the walls"
+        "D": "they were way too big to fit on the walls"
       },
       "answer": "C",
       "explanation": "Mr. Roy said you weren't allowed to write fabrications about other candidates."
@@ -598,10 +598,10 @@
       "difficulty": "hard",
       "question": "Why does Greg think Dad 'doesn't understand the concept of Halloween'?",
       "options": {
-        "A": "Dad doesn't like eating any candy at all",
+        "A": "Dad doesn't like eating any candy at all these days",
         "B": "Dad uses Halloween to drench teenagers instead of giving candy",
-        "C": "Dad never wears any kind of costume",
-        "D": "Dad always goes to bed really early"
+        "C": "Dad never wears any kind of costume on Halloween night",
+        "D": "Dad always goes to bed really early on Halloween night"
       },
       "answer": "B",
       "explanation": "While other parents hand out candy, Dad hides in the bushes to drench teenagers with water."
@@ -611,10 +611,10 @@
       "difficulty": "hard",
       "question": "What does the contrast between Mom's and Dad's punishment styles reveal?",
       "options": {
-        "A": "Mom is much stricter than Dad overall",
-        "B": "They always agree on how to punish the kids",
+        "A": "Mom is much stricter than Dad overall when it comes to rules",
+        "B": "They always agree on how to punish the kids at home",
         "C": "Dad reacts immediately but cools off, while Mom waits and surprises you",
-        "D": "Neither parent is very effective at discipline"
+        "D": "Neither parent is very effective at discipline or punishment"
       },
       "answer": "C",
       "explanation": "Dad gets mad but cools off quick; Mom takes days to decide, making you do nice things, then surprises you with punishment."
@@ -663,10 +663,10 @@
       "difficulty": "hard",
       "question": "What does Greg's claim that he's 'super good at video games' and could 'beat anyone' reveal about his self-image?",
       "options": {
-        "A": "He's very humble about all his abilities",
-        "B": "He's actually a professional level gamer",
+        "A": "He's very humble about all his abilities and skills at home",
+        "B": "He's actually a professional level gamer who wins prizes",
         "C": "He overestimates himself and values skills adults don't appreciate",
-        "D": "He never exaggerates about anything"
+        "D": "He never exaggerates about anything at all when talking"
       },
       "answer": "C",
       "explanation": "Greg thinks highly of his gaming skills despite Dad not appreciating them, showing he values things differently than adults."
@@ -715,10 +715,10 @@
       "difficulty": "hard",
       "question": "Why does Greg compare being stuck with Manny's potty routine to losing his appetite?",
       "options": {
-        "A": "He doesn't like the breakfast foods Mom makes",
-        "B": "Manny's food always tastes really bad",
+        "A": "He doesn't like the breakfast foods that Mom makes for him",
+        "B": "Manny's food always tastes really bad to him in the morning",
         "C": "Scraping cereal from a toilet-like object is disgusting even if sanitary",
-        "D": "He's trying to go on a diet"
+        "D": "He's trying to go on a diet and doesn't want to eat breakfast"
       },
       "answer": "C",
       "explanation": "Greg says if Mom had to scrape cornflakes out of a plastic potty every morning, she wouldn't have much appetite either."
@@ -742,9 +742,9 @@
       "question": "Why does Rowley's crying about 'rock and roll ruining his brains' frustrate Greg?",
       "options": {
         "A": "Rowley takes things literally and doesn't understand when adults overreact",
-        "B": "Greg actually agrees with what Mrs. Craig said",
-        "C": "Rowley is being way too loud about it",
-        "D": "Rowley broke the CD player while crying"
+        "B": "Greg actually agrees with everything that Mrs. Craig said to them",
+        "C": "Rowley is being way too loud about it and won't stop crying",
+        "D": "Rowley broke the CD player while crying and that made Greg mad"
       },
       "answer": "A",
       "explanation": "Greg says 'sometimes I don't know about that boy' - Rowley believed Mrs. Craig's exaggeration literally."
@@ -767,10 +767,10 @@
       "difficulty": "hard",
       "question": "What does Greg raising the haunted house price from 50 cents to 2 dollars reveal about him?",
       "options": {
-        "A": "He's a very generous person overall",
-        "B": "He made an honest mistake on the flyer",
+        "A": "He's a very generous person overall and wanted to help kids",
+        "B": "He made an honest mistake on the flyer when he printed it",
         "C": "He's opportunistic and willing to deceive customers for profit",
-        "D": "He didn't want anyone to actually come"
+        "D": "He didn't want anyone to actually come to the haunted house"
       },
       "answer": "C",
       "explanation": "Greg saw a 'chance to make a killing' and lied that the 50 cent price was a typo, showing opportunism."
@@ -780,9 +780,9 @@
       "difficulty": "hard",
       "question": "What is the overall message about Greg's view of himself versus how others might see him?",
       "options": {
-        "A": "Greg is exactly as cool as he thinks he is",
-        "B": "Greg is very self-aware about his flaws",
-        "C": "Greg has really low self-esteem",
+        "A": "Greg is exactly as cool as he thinks he is at school and at home",
+        "B": "Greg is very self-aware about his flaws and tries to fix them",
+        "C": "Greg has really low self-esteem and doesn't believe in himself",
         "D": "Greg sees himself as smarter and more deserving than his situation reflects"
       },
       "answer": "D",

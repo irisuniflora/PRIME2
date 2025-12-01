@@ -2911,9 +2911,9 @@ const quizData = {
         "question": "Why did Black Beauty's mother say 'we are only horses and don't know' after the hunt?",
         "options": {
           "A": "She was ironically mocking humans who do foolish things",
-          "B": "She genuinely believed horses were less intelligent",
-          "C": "She wanted Black Beauty to show more respect to humans",
-          "D": "She was confused and did not understand what happened"
+          "B": "She genuinely believed that horses were less intelligent",
+          "C": "She wanted Black Beauty to show far more respect to humans",
+          "D": "She was confused and simply did not understand the event"
         },
         "answer": "A",
         "explanation": "Her statement is ironic: she questions why intelligent humans enjoy cruel sports, then dismissively says 'we are only horses' - implying horses actually show more sense."
@@ -2923,10 +2923,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the contrast between Black Beauty's upbringing and Ginger's suggest about horse behavior?",
         "options": {
-          "A": "Some horses are simply born bad-tempered by nature",
+          "A": "Some horses are simply born bad-tempered by their nature",
           "B": "Temperament is shaped by treatment, not by birth",
-          "C": "Female horses tend to be more aggressive naturally",
-          "D": "Only purebred horses have the ability to be gentle"
+          "C": "Female horses tend to be more aggressive by their nature",
+          "D": "Only purebred horses have the natural ability to be gentle"
         },
         "answer": "B",
         "explanation": "Ginger says 'if I had had your bringing up I might have had as good a temper as you' - showing that treatment, not birth, shapes horse behavior."
@@ -2936,10 +2936,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Anna Sewell have Black Beauty narrate the story in first person?",
         "options": {
-          "A": "Because first person was easier for her to write well",
-          "B": "Because horses could actually communicate in that era",
+          "A": "Because first person narrative was much easier for her to write",
+          "B": "Because horses could actually communicate back in that era",
           "C": "To help readers see the world through a horse's eyes",
-          "D": "To make the overall story shorter and simpler"
+          "D": "To make the overall story much shorter and simpler to follow"
         },
         "answer": "C",
         "explanation": "First-person narration allows readers to experience cruelty and kindness from the horse's perspective, building empathy for animals."
@@ -2950,8 +2950,8 @@ const quizData = {
         "question": "What is ironic about the fashion of check reins and docked tails?",
         "options": {
           "A": "They were very expensive to buy and maintain properly",
-          "B": "They actually made horses run faster in races",
-          "C": "They were only used on old horses past their prime",
+          "B": "They actually made horses run much faster in races",
+          "C": "They were only used on horses that were past their prime",
           "D": "They caused suffering just to look better to people"
         },
         "answer": "D",
@@ -2962,9 +2962,9 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Merrylegs refuse to kick the children even when provoked?",
         "options": {
-          "A": "He is simply too weak and old to kick anyone",
-          "B": "John gave him strict orders never to kick anyone",
-          "C": "The children always give him treats and carrots",
+          "A": "He is simply much too weak and old to kick anyone now",
+          "B": "John gave him strict orders to never kick anyone at all",
+          "C": "The children always give him special treats and carrots",
           "D": "Bad behavior would get him sold somewhere worse"
         },
         "answer": "D",
@@ -2975,10 +2975,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the story of the fire at the hotel demonstrate about trust between horses and humans?",
         "options": {
-          "A": "Horses should never put their trust in humans",
+          "A": "Horses should never put their trust in any humans",
           "B": "In danger, trust and calm guidance are essential",
-          "C": "Fire is the greatest danger horses can face",
-          "D": "Hotels are always unsafe places for horses"
+          "C": "Fire is the greatest danger horses can ever face",
+          "D": "Hotels are always dangerous and unsafe for horses"
         },
         "answer": "B",
         "explanation": "During the fire, panicked horses can only be saved by a calm handler they trust - demonstrating the importance of the bond built through kind treatment."
@@ -2990,8 +2990,8 @@ const quizData = {
         "options": {
           "A": "Restricting movement looks good but hurts ability",
           "B": "Soldiers should also be forced to wear check reins",
-          "C": "Horses and soldiers are equally important in war",
-          "D": "Military discipline is far too strict these days"
+          "C": "Horses and soldiers are equally important in wars",
+          "D": "Military discipline is just far too strict these days"
         },
         "answer": "A",
         "explanation": "The master argues that forcing an unnatural position may look good on parade but 'how would it be in a bayonet charge' - function matters more than appearance."
@@ -3003,8 +3003,8 @@ const quizData = {
         "options": {
           "A": "Same bloodline, different fates due to human choices",
           "B": "It shows that hunting was very profitable at the time",
-          "C": "It proves that Black Beauty was simply luckier",
-          "D": "It demonstrates that all horses are naturally weak"
+          "C": "It proves that Black Beauty was simply much luckier",
+          "D": "It demonstrates that all horses are just naturally weak"
         },
         "answer": "A",
         "explanation": "Both brothers had the same breeding, but Rob Roy died due to reckless human sport - showing horse welfare depends on human choices, not horse nature."
@@ -3016,8 +3016,8 @@ const quizData = {
         "options": {
           "A": "Young horses should be avoided whenever possible",
           "B": "Early treatment permanently shapes personality",
-          "C": "Old horses can never change their behavior",
-          "D": "Only young horses are able to be trained well"
+          "C": "Old horses can never really change their behavior",
+          "D": "Only young horses are ever able to be trained well"
         },
         "answer": "B",
         "explanation": "Like children who are 'trained up in the way they should go,' horses' early experiences permanently affect their temperament."
@@ -3027,10 +3027,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What point is Sewell making when Sir Oliver says fashion is 'one of the wickedest things in the world'?",
         "options": {
-          "A": "Fashion is far too expensive for most people",
-          "B": "Horses simply do not understand human fashion",
+          "A": "Fashion is far too expensive for most common people",
+          "B": "Horses simply do not understand any human fashion",
           "C": "Following trends causes needless animal suffering",
-          "D": "Only poor people foolishly follow fashion trends"
+          "D": "Only poor people foolishly follow the fashion trends"
         },
         "answer": "C",
         "explanation": "Sir Oliver's anger about docking highlights how society accepts cruelty simply because it's fashionable, without questioning the suffering caused."
@@ -3040,9 +3040,9 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Black Beauty mention that horses 'never know each other after they are sold'?",
         "options": {
-          "A": "Horses have very bad memories of other horses",
-          "B": "Horses simply do not care about their family",
-          "C": "It was the law that horses could not meet again",
+          "A": "Horses have very bad memories of all other horses",
+          "B": "Horses simply do not care about their own family",
+          "C": "It was the law that horses could never meet again",
           "D": "Sales permanently separate families, adding sadness"
         },
         "answer": "D",
@@ -3054,9 +3054,9 @@ const quizData = {
         "question": "What is the purpose of John Manly's joke about 'Birtwick Balls'?",
         "options": {
           "A": "To show kindness, not punishment, reforms horses",
-          "B": "To mock the medicine of the time period",
-          "C": "To advertise his skills to other stables",
-          "D": "To entertain the master with a funny joke"
+          "B": "To mock the common medicine of the time period",
+          "C": "To advertise his special skills to all other stables",
+          "D": "To entertain the master with a really funny joke"
         },
         "answer": "A",
         "explanation": "The 'medicine' of patience, gentleness, firmness, and common sense shows that behavioral problems in horses are solved through relationship, not force."
@@ -3066,10 +3066,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Black Beauty contrast his 'fidgets' with how John handled them?",
         "options": {
-          "A": "To show that John was often lazy at his work",
+          "A": "To show that John was often quite lazy at his work",
           "B": "Understanding energy prevents punishing normal behavior",
-          "C": "To prove he was being poorly fed at the time",
-          "D": "To criticize other horses who behaved badly"
+          "C": "To prove he was being poorly fed at that time period",
+          "D": "To criticize all other horses who behaved very badly"
         },
         "answer": "B",
         "explanation": "John understood that Black Beauty's energy was 'only high spirits' and gave him exercise rather than punishment, unlike grooms who punish 'skittish' behavior."
@@ -3079,10 +3079,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Black Beauty's refusal to cross the broken bridge demonstrate?",
         "options": {
-          "A": "Horses are very stubborn creatures by nature",
-          "B": "Horses are deeply afraid of all water around",
+          "A": "Horses are very stubborn and difficult creatures by nature",
+          "B": "Horses are deeply afraid of all water around them now",
           "C": "Animals sense dangers humans miss and should be trusted",
-          "D": "Proper training can eliminate all fear in horses"
+          "D": "Proper training can eliminate all types of fear in horses"
         },
         "answer": "C",
         "explanation": "The master concludes that 'God had given animals knowledge' that saved their lives - humans should trust animal instincts rather than forcing compliance."
@@ -3093,8 +3093,8 @@ const quizData = {
         "question": "Why is the comparison between how Ginger and Black Beauty were broken important?",
         "options": {
           "A": "Different training methods produce equally good results",
-          "B": "It proves that some horses simply cannot be trained",
-          "C": "It shows that training method does not really matter",
+          "B": "It proves that some horses simply cannot ever be trained",
+          "C": "It shows that the training method does not really matter",
           "D": "Violent breaking creates vicious horses; patience works"
         },
         "answer": "D",
@@ -3105,10 +3105,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the master's statement about judging people 'according to our works toward man or beast' mean?",
         "options": {
-          "A": "It is simply a legal statement about the law",
-          "B": "It means that animals should work harder for us",
+          "A": "It is simply a legal statement about the law of the time",
+          "B": "It means that animals should work much harder for us",
           "C": "Character is revealed by how we treat the powerless",
-          "D": "It criticizes workers who are lazy on the job"
+          "D": "It criticizes workers who are far too lazy on the job"
         },
         "answer": "C",
         "explanation": "This religious reference suggests that cruelty to animals is as morally significant as cruelty to humans - a central theme of the novel."
@@ -3119,9 +3119,9 @@ const quizData = {
         "question": "Why might Sewell have chosen to show both good and bad humans rather than making all humans villains?",
         "options": {
           "A": "To show reform is possible and readers can be kind",
-          "B": "She could not write villain characters very well",
-          "C": "She liked all humans and could not criticize them",
-          "D": "Publishers required a balance of good and bad"
+          "B": "She could not write villain characters very well at all",
+          "C": "She liked all humans and simply could not criticize them",
+          "D": "Publishers required a balance of good and bad characters"
         },
         "answer": "A",
         "explanation": "By showing John, the master, and others as kind, Sewell provides models for readers to follow, making the book a call to action rather than just criticism."
@@ -3131,10 +3131,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Merrylegs mean when he says 'good places make good horses'?",
         "options": {
-          "A": "Expensive stables produce better quality horses",
+          "A": "Expensive stables produce better quality horses overall",
           "B": "Behavior reflects treatment; kindness makes good horses",
-          "C": "Location determines the quality of a horse breed",
-          "D": "The weather greatly affects how horses behave"
+          "C": "Location determines the quality of a horse breed fully",
+          "D": "The weather greatly affects how all horses will behave"
         },
         "answer": "B",
         "explanation": "Merrylegs argues that horse behavior is a response to treatment: 'I wouldn't vex our people for anything; I love them' - love and kindness breed loyalty."
@@ -3144,10 +3144,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the old ostler's story about his crooked leg tell us about Victorian working class life?",
         "options": {
-          "A": "Workers had good healthcare in that time period",
-          "B": "Only people who were injured worked with horses",
+          "A": "Workers had good healthcare in that particular time period",
+          "B": "Only people who were injured really worked with horses",
           "C": "Injured workers had to find new work, not support",
-          "D": "Leg injuries were fashionable among working class"
+          "D": "Leg injuries were fashionable among the working class"
         },
         "answer": "C",
         "explanation": "After breaking his knee as a jockey, the ostler 'was of no more use there' but 'could not live without horses' - showing how injured workers had to adapt or starve."
@@ -3157,10 +3157,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What is the ultimate message of Black Beauty about the relationship between humans and animals?",
         "options": {
-          "A": "Animals exist only to serve human needs and desires",
+          "A": "Animals exist only to serve all human needs and desires at all times",
           "B": "Animals deserve kindness and our treatment of them reflects character",
-          "C": "Humans should not use animals for work at all",
-          "D": "Animals are more intelligent than most humans think"
+          "C": "Humans should not use animals for any kind of work at all nowadays",
+          "D": "Animals are much more intelligent than most humans think they are"
         },
         "answer": "B",
         "explanation": "The novel argues that animals feel pain and respond to kindness, and how we treat them reveals who we are - 'there is no religion without love... to man and beast.'"
@@ -3559,10 +3559,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Greg's campaign posters were taken down by the vice principal because _____.",
         "options": {
-          "A": "they had too many spelling mistakes",
-          "B": "they were hung in the wrong place",
+          "A": "they had too many spelling mistakes on them",
+          "B": "they were hung in the wrong place at school",
           "C": "they contained false claims about the other candidate",
-          "D": "they were way too big for the walls"
+          "D": "they were way too big to fit on the walls"
         },
         "answer": "C",
         "explanation": "Mr. Roy said you weren't allowed to write fabrications about other candidates."
@@ -3767,10 +3767,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Greg think Dad 'doesn't understand the concept of Halloween'?",
         "options": {
-          "A": "Dad doesn't like eating any candy at all",
+          "A": "Dad doesn't like eating any candy at all these days",
           "B": "Dad uses Halloween to drench teenagers instead of giving candy",
-          "C": "Dad never wears any kind of costume",
-          "D": "Dad always goes to bed really early"
+          "C": "Dad never wears any kind of costume on Halloween night",
+          "D": "Dad always goes to bed really early on Halloween night"
         },
         "answer": "B",
         "explanation": "While other parents hand out candy, Dad hides in the bushes to drench teenagers with water."
@@ -3780,10 +3780,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the contrast between Mom's and Dad's punishment styles reveal?",
         "options": {
-          "A": "Mom is much stricter than Dad overall",
-          "B": "They always agree on how to punish the kids",
+          "A": "Mom is much stricter than Dad overall when it comes to rules",
+          "B": "They always agree on how to punish the kids at home",
           "C": "Dad reacts immediately but cools off, while Mom waits and surprises you",
-          "D": "Neither parent is very effective at discipline"
+          "D": "Neither parent is very effective at discipline or punishment"
         },
         "answer": "C",
         "explanation": "Dad gets mad but cools off quick; Mom takes days to decide, making you do nice things, then surprises you with punishment."
@@ -3832,10 +3832,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Greg's claim that he's 'super good at video games' and could 'beat anyone' reveal about his self-image?",
         "options": {
-          "A": "He's very humble about all his abilities",
-          "B": "He's actually a professional level gamer",
+          "A": "He's very humble about all his abilities and skills at home",
+          "B": "He's actually a professional level gamer who wins prizes",
           "C": "He overestimates himself and values skills adults don't appreciate",
-          "D": "He never exaggerates about anything"
+          "D": "He never exaggerates about anything at all when talking"
         },
         "answer": "C",
         "explanation": "Greg thinks highly of his gaming skills despite Dad not appreciating them, showing he values things differently than adults."
@@ -3884,10 +3884,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Greg compare being stuck with Manny's potty routine to losing his appetite?",
         "options": {
-          "A": "He doesn't like the breakfast foods Mom makes",
-          "B": "Manny's food always tastes really bad",
+          "A": "He doesn't like the breakfast foods that Mom makes for him",
+          "B": "Manny's food always tastes really bad to him in the morning",
           "C": "Scraping cereal from a toilet-like object is disgusting even if sanitary",
-          "D": "He's trying to go on a diet"
+          "D": "He's trying to go on a diet and doesn't want to eat breakfast"
         },
         "answer": "C",
         "explanation": "Greg says if Mom had to scrape cornflakes out of a plastic potty every morning, she wouldn't have much appetite either."
@@ -3911,9 +3911,9 @@ const quizData = {
         "question": "Why does Rowley's crying about 'rock and roll ruining his brains' frustrate Greg?",
         "options": {
           "A": "Rowley takes things literally and doesn't understand when adults overreact",
-          "B": "Greg actually agrees with what Mrs. Craig said",
-          "C": "Rowley is being way too loud about it",
-          "D": "Rowley broke the CD player while crying"
+          "B": "Greg actually agrees with everything that Mrs. Craig said to them",
+          "C": "Rowley is being way too loud about it and won't stop crying",
+          "D": "Rowley broke the CD player while crying and that made Greg mad"
         },
         "answer": "A",
         "explanation": "Greg says 'sometimes I don't know about that boy' - Rowley believed Mrs. Craig's exaggeration literally."
@@ -3936,10 +3936,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Greg raising the haunted house price from 50 cents to 2 dollars reveal about him?",
         "options": {
-          "A": "He's a very generous person overall",
-          "B": "He made an honest mistake on the flyer",
+          "A": "He's a very generous person overall and wanted to help kids",
+          "B": "He made an honest mistake on the flyer when he printed it",
           "C": "He's opportunistic and willing to deceive customers for profit",
-          "D": "He didn't want anyone to actually come"
+          "D": "He didn't want anyone to actually come to the haunted house"
         },
         "answer": "C",
         "explanation": "Greg saw a 'chance to make a killing' and lied that the 50 cent price was a typo, showing opportunism."
@@ -3949,9 +3949,9 @@ const quizData = {
         "difficulty": "hard",
         "question": "What is the overall message about Greg's view of himself versus how others might see him?",
         "options": {
-          "A": "Greg is exactly as cool as he thinks he is",
-          "B": "Greg is very self-aware about his flaws",
-          "C": "Greg has really low self-esteem",
+          "A": "Greg is exactly as cool as he thinks he is at school and at home",
+          "B": "Greg is very self-aware about his flaws and tries to fix them",
+          "C": "Greg has really low self-esteem and doesn't believe in himself",
           "D": "Greg sees himself as smarter and more deserving than his situation reflects"
         },
         "answer": "D",
@@ -4091,10 +4091,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What does Antonio always carry in his pocket for good luck?",
         "options": {
-          "A": "A peanut butter and jelly sandwich",
-          "B": "A coin",
-          "C": "A rabbit's foot",
-          "D": "A stone"
+          "A": "A peanut butter sandwich",
+          "B": "A small silver coin",
+          "C": "A lucky rabbit's foot",
+          "D": "A smooth river stone"
         },
         "answer": "A",
         "explanation": "Antonio always carries a peanut butter and jelly sandwich in his pocket as his lucky charm."
@@ -4741,10 +4741,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What is the main message of The School Is Alive?",
         "options": {
-          "A": "Schools are always scary places for students",
-          "B": "Never become a hall monitor at your school",
-          "C": "Adults can never be trusted to help children",
-          "D": "Regular kids can be heroes when they accept responsibility and work with friends"
+          "A": "Schools are always scary and dangerous places for students",
+          "B": "You should never become a hall monitor at your school",
+          "C": "Adults can never be trusted to help children in danger",
+          "D": "Regular kids can be heroes with responsibility and friends"
         },
         "answer": "D",
         "explanation": "Sam goes from a kid who hates his job to a hero who saves everyone with his friends' help."
@@ -8609,10 +8609,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why is this story funny to readers?",
         "options": {
-          "A": "Because Buzz has a very strange and unusual name",
-          "B": "Because the idea of swallowing bigger animals to catch smaller ones is silly and impossible",
-          "C": "Because Grandma is a very old and forgetful lady",
-          "D": "Because flies are always funny insects in stories"
+          "A": "Because Buzz has a very strange and unusual sounding name",
+          "B": "Because swallowing bigger animals to catch smaller ones is silly",
+          "C": "Because Grandma is a very old and forgetful lady in the story",
+          "D": "Because flies are always funny insects in children's stories"
         },
         "answer": "B",
         "explanation": "The humor comes from the absurd chain of swallowing bigger and bigger animals, which is impossible in real life."
@@ -8622,10 +8622,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does this story teach about solving problems?",
         "options": {
-          "A": "You should always ask someone else for help first",
-          "B": "Animals are very good at solving hard problems",
-          "C": "Sometimes simple solutions work better than complicated ones that make things worse",
-          "D": "Grandmas always know the best way to fix things"
+          "A": "You should always ask someone else for help with problems",
+          "B": "Animals are very good at solving hard problems for us",
+          "C": "Simple solutions work better than complicated ones",
+          "D": "Grandmas always know the best way to fix everything"
         },
         "answer": "C",
         "explanation": "Each animal Grandma swallows creates a bigger problem, showing that making solutions more complicated doesn't always help."
@@ -8648,9 +8648,9 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why might the author have chosen a fly as Buzz's pet?",
         "options": {
-          "A": "Because flies are very cute and fluffy animals",
-          "B": "Because having a fly as a pet is unusual and surprising, which adds to the humor",
-          "C": "Because flies are easy to take care of at home",
+          "A": "Because flies are very cute and fluffy animals to keep",
+          "B": "Because a fly as a pet is unusual and adds humor",
+          "C": "Because flies are very easy to take care of at home",
           "D": "Because flies are very colorful and pretty insects"
         },
         "answer": "B",
@@ -8661,10 +8661,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What is the meaning of the ending 'they lived happily ever after'?",
         "options": {
-          "A": "Grandma decided to get a pet fly too",
-          "B": "Buzz moved in with Grandma forever",
-          "C": "The horse became everyone's new pet",
-          "D": "Everyone including Fly Guy and all the animals survived and were okay"
+          "A": "Grandma decided to get a pet fly of her own too",
+          "B": "Buzz moved in with Grandma forever after that day",
+          "C": "The horse became everyone's new pet at the farm",
+          "D": "Fly Guy and all the animals survived and were okay"
         },
         "answer": "D",
         "explanation": "The happy ending shows that Fly Guy and all the animals that came out of Grandma were fine, ending the silly adventure on a positive note."
