@@ -13,10 +13,10 @@
       "difficulty": "easy",
       "question": "What was Black Beauty's first home like?",
       "options": {
-        "A": "A large pleasant meadow with a pond",
-        "B": "A small farm with chickens",
-        "C": "A racing track stable",
-        "D": "A dark stable in the city"
+        "A": "A pleasant meadow with clear water",
+        "B": "A small farm with chickens nearby",
+        "C": "A racing stable near the track",
+        "D": "A dark stable in the big city"
       },
       "answer": "A",
       "explanation": "Black Beauty's first home was 'a large pleasant meadow with a pond of clear water in it.'"
@@ -39,10 +39,10 @@
       "difficulty": "easy",
       "question": "What white markings did Black Beauty have?",
       "options": {
-        "A": "Four white feet",
-        "B": "A white tail",
-        "C": "One white foot and a white star on his forehead",
-        "D": "White spots on his back"
+        "A": "Four white feet and a blaze",
+        "B": "A white tail with gray spots",
+        "C": "One white foot and a star",
+        "D": "White spots across his back"
       },
       "answer": "C",
       "explanation": "Black Beauty had 'one white foot and a pretty white star on my forehead.'"
@@ -91,10 +91,10 @@
       "difficulty": "easy",
       "question": "What happened to Rob Roy during the hunt?",
       "options": {
-        "A": "He won the race",
-        "B": "He ran away to freedom",
-        "C": "He broke his leg and was shot",
-        "D": "He was sold to another owner"
+        "A": "He won the race easily",
+        "B": "He escaped to another farm",
+        "C": "He broke his leg and died",
+        "D": "He was sold to a new owner"
       },
       "answer": "C",
       "explanation": "Rob Roy broke his leg at the hunt and had to be put down. He was Black Beauty's brother."
@@ -104,10 +104,10 @@
       "difficulty": "easy",
       "question": "What did 'breaking in' a horse involve?",
       "options": {
-        "A": "Breaking into a stable",
-        "B": "Racing against other horses",
-        "C": "Breaking a horse's spirit",
-        "D": "Teaching a horse to wear a saddle and bridle"
+        "A": "Forcing entry into a stable building",
+        "B": "Racing against other trained horses",
+        "C": "Making a horse lose its wild spirit",
+        "D": "Training to wear saddle and bridle"
       },
       "answer": "D",
       "explanation": "Breaking in means teaching a horse 'to wear a saddle and bridle and to carry on his back a man, woman, or child.'"
@@ -117,9 +117,9 @@
       "difficulty": "easy",
       "question": "What did Black Beauty's mother advise him?",
       "options": {
-        "A": "To grow up gentle and good and never learn bad ways",
-        "B": "To run away from humans",
-        "C": "To only trust other horses",
+        "A": "To be gentle, good, and avoid bad ways",
+        "B": "To run away from humans if possible",
+        "C": "To only trust horses, not people",
         "D": "To be aggressive to protect himself"
       },
       "answer": "A",
@@ -130,10 +130,10 @@
       "difficulty": "easy",
       "question": "What is a 'loose box' in a stable?",
       "options": {
-        "A": "A box that is falling apart",
-        "B": "A stall where the horse is left free, not tied up",
+        "A": "A broken box that is falling apart",
+        "B": "A stall where the horse is left free",
         "C": "A storage box for horse supplies",
-        "D": "A punishment area"
+        "D": "A small area used for punishment"
       },
       "answer": "B",
       "explanation": "A loose box is 'called so because the horse that was put into it was not tied up, but left loose.'"
@@ -143,10 +143,10 @@
       "difficulty": "easy",
       "question": "Who gave Black Beauty his name?",
       "options": {
-        "A": "John Manly",
-        "B": "His mother Duchess",
-        "C": "Squire Gordon and his wife",
-        "D": "James Howard"
+        "A": "The coachman John Manly",
+        "B": "His own mother Duchess",
+        "C": "The Squire and his wife",
+        "D": "The stable boy James Howard"
       },
       "answer": "C",
       "explanation": "Mrs. Gordon suggested 'Black Beauty' and the master agreed: 'if you like it shall be his name.'"
@@ -156,10 +156,10 @@
       "difficulty": "easy",
       "question": "What happened to Sir Oliver's tail?",
       "options": {
-        "A": "It was naturally short",
-        "B": "It fell off from disease",
-        "C": "He lost it in an accident",
-        "D": "It was cut off cruelly when he was young"
+        "A": "It was naturally short from birth",
+        "B": "It fell off from a disease",
+        "C": "He lost it in a bad accident",
+        "D": "It was cruelly cut off when young"
       },
       "answer": "D",
       "explanation": "Sir Oliver's tail was cut off: 'they came and cut off my long and beautiful tail, through the flesh and through the bone.'"
@@ -169,9 +169,9 @@
       "difficulty": "easy",
       "question": "What were blinkers on a horse?",
       "options": {
-        "A": "Covers that prevented horses from seeing to the side",
-        "B": "Lights attached to the harness",
-        "C": "Decorative ribbons",
+        "A": "Covers blocking side vision",
+        "B": "Lights attached to harness",
+        "C": "Decorative ribbons on mane",
         "D": "Bells that made sounds"
       },
       "answer": "A",
@@ -182,10 +182,10 @@
       "difficulty": "easy",
       "question": "What was the 'check rein'?",
       "options": {
-        "A": "A rein used to check speed",
-        "B": "A rein that held the horse's head unnaturally high",
-        "C": "A special rein for checking direction",
-        "D": "A decorative rein"
+        "A": "A rein used to slow speed down",
+        "B": "A rein forcing head unnaturally high",
+        "C": "A special rein for changing direction",
+        "D": "A decorative rein for show"
       },
       "answer": "B",
       "explanation": "The check rein held horses' heads 'up high' painfully, preventing natural head movement."
@@ -195,9 +195,9 @@
       "difficulty": "easy",
       "question": "Who was James Howard?",
       "options": {
-        "A": "The squire",
-        "B": "The village doctor",
-        "C": "The stable boy who later became a groom",
+        "A": "The wealthy squire of the estate",
+        "B": "The village doctor and surgeon",
+        "C": "A stable boy who became a groom",
         "D": "Black Beauty's previous owner"
       },
       "answer": "C",
@@ -208,10 +208,10 @@
       "difficulty": "easy",
       "question": "Who was killed during the hunt that Black Beauty witnessed?",
       "options": {
-        "A": "The master",
-        "B": "John Manly",
-        "C": "James Howard",
-        "D": "Young George Gordon, the squire's son"
+        "A": "The master of the estate",
+        "B": "The coachman John Manly",
+        "C": "The stable boy James Howard",
+        "D": "George Gordon, the squire's son"
       },
       "answer": "D",
       "explanation": "Young George Gordon, 'the squire's only son,' broke his neck and died during the hunt."
@@ -221,10 +221,10 @@
       "difficulty": "easy",
       "question": "Why was Black Beauty sent to a farm near a railway?",
       "options": {
-        "A": "To learn to race",
-        "B": "To be sold to a new owner",
-        "C": "To get used to trains so he wouldn't be frightened",
-        "D": "To learn to jump fences"
+        "A": "To learn how to race properly",
+        "B": "To be sold to a new owner there",
+        "C": "To get used to trains nearby",
+        "D": "To learn to jump over fences"
       },
       "answer": "C",
       "explanation": "Black Beauty was sent to a farm near a railway to get used to trains so he wouldn't be frightened."
@@ -247,10 +247,10 @@
       "difficulty": "easy",
       "question": "What animal did Dick the ploughboy throw stones at?",
       "options": {
-        "A": "The young colts",
-        "B": "Dogs",
-        "C": "Birds",
-        "D": "Cats"
+        "A": "The young colts in the field",
+        "B": "Dogs running around the farm",
+        "C": "Birds sitting on the fence",
+        "D": "Cats hiding in the stable"
       },
       "answer": "A",
       "explanation": "Dick the ploughboy would throw 'stones and sticks at them to make them gallop.'"
@@ -260,10 +260,10 @@
       "difficulty": "easy",
       "question": "What did the horses do on fine Sundays at Birtwick Park?",
       "options": {
-        "A": "Extra work",
-        "B": "Special baths",
-        "C": "Enjoyed time in the paddock or orchard",
-        "D": "Received medicine"
+        "A": "Extra work in the fields",
+        "B": "Special baths and grooming",
+        "C": "Rest time in the paddock",
+        "D": "Received medicine and care"
       },
       "answer": "C",
       "explanation": "On fine Sundays 'it was a great treat to us to be turned out into the home paddock or the old orchard.'"
@@ -325,10 +325,10 @@
       "difficulty": "medium",
       "question": "When Black Beauty refused to cross the bridge during the storm, John discovered the bridge was _____.",
       "options": {
-        "A": "too narrow for the carriage",
-        "B": "blocked by a fallen tree",
-        "C": "frozen over with ice",
-        "D": "broken in the middle with part carried away"
+        "A": "too narrow for the carriage to pass",
+        "B": "completely blocked by a fallen tree",
+        "C": "dangerously frozen over with ice",
+        "D": "broken with part washed away"
       },
       "answer": "D",
       "explanation": "The toll-gate man shouted 'The bridge is broken in the middle, and part of it is carried away!'"
@@ -377,9 +377,9 @@
       "difficulty": "medium",
       "question": "Ginger was so badly treated with the check rein that the blood from her tongue colored _____.",
       "options": {
-        "A": "the stable floor",
-        "B": "her mane",
-        "C": "her owner's clothes",
+        "A": "the stable floor beneath",
+        "B": "her mane and neck area",
+        "C": "her owner's fine clothes",
         "D": "the froth from her mouth"
       },
       "answer": "D",
@@ -533,10 +533,10 @@
       "difficulty": "hard",
       "question": "Why did Black Beauty's mother say 'we are only horses and don't know' after the hunt?",
       "options": {
-        "A": "She was being ironic about humans who claim superior reason yet do foolish things",
-        "B": "She genuinely believed horses were inferior",
-        "C": "She wanted Black Beauty to respect humans more",
-        "D": "She was confused about what happened"
+        "A": "She was ironically mocking humans who do foolish things",
+        "B": "She genuinely believed horses were less intelligent",
+        "C": "She wanted Black Beauty to show more respect to humans",
+        "D": "She was confused and did not understand what happened"
       },
       "answer": "A",
       "explanation": "Her statement is ironic: she questions why intelligent humans enjoy cruel sports, then dismissively says 'we are only horses' - implying horses actually show more sense."
@@ -546,10 +546,10 @@
       "difficulty": "hard",
       "question": "What does the contrast between Black Beauty's upbringing and Ginger's suggest about horse behavior?",
       "options": {
-        "A": "Some horses are born bad-tempered",
-        "B": "A horse's temperament is shaped by how it is treated, not by its nature",
-        "C": "Female horses are naturally more aggressive",
-        "D": "Only purebred horses can be gentle"
+        "A": "Some horses are simply born bad-tempered by nature",
+        "B": "Temperament is shaped by treatment, not by birth",
+        "C": "Female horses tend to be more aggressive naturally",
+        "D": "Only purebred horses have the ability to be gentle"
       },
       "answer": "B",
       "explanation": "Ginger says 'if I had had your bringing up I might have had as good a temper as you' - showing that treatment, not birth, shapes horse behavior."
@@ -559,10 +559,10 @@
       "difficulty": "hard",
       "question": "Why does Anna Sewell have Black Beauty narrate the story in first person?",
       "options": {
-        "A": "Because it was easier to write",
-        "B": "Because horses could actually talk in Victorian times",
-        "C": "To make readers see the world through a horse's eyes and develop empathy",
-        "D": "To make the story shorter"
+        "A": "Because first person was easier for her to write well",
+        "B": "Because horses could actually communicate in that era",
+        "C": "To help readers see the world through a horse's eyes",
+        "D": "To make the overall story shorter and simpler"
       },
       "answer": "C",
       "explanation": "First-person narration allows readers to experience cruelty and kindness from the horse's perspective, building empathy for animals."
@@ -572,10 +572,10 @@
       "difficulty": "hard",
       "question": "What is ironic about the fashion of check reins and docked tails?",
       "options": {
-        "A": "They were very expensive",
-        "B": "They made horses faster",
-        "C": "They were only used on old horses",
-        "D": "They were meant to look better but actually caused suffering for no purpose"
+        "A": "They were very expensive to buy and maintain properly",
+        "B": "They actually made horses run faster in races",
+        "C": "They were only used on old horses past their prime",
+        "D": "They caused suffering just to look better to people"
       },
       "answer": "D",
       "explanation": "These fashions were done 'just as if the good God that made us did not know what we wanted' - causing pain purely for human vanity."
@@ -585,10 +585,10 @@
       "difficulty": "hard",
       "question": "Why does Merrylegs refuse to kick the children even when provoked?",
       "options": {
-        "A": "He is too weak to kick",
-        "B": "John ordered him never to kick",
-        "C": "The children give him treats",
-        "D": "He knows bad behavior would get him sold to a worse situation"
+        "A": "He is simply too weak and old to kick anyone",
+        "B": "John gave him strict orders never to kick anyone",
+        "C": "The children always give him treats and carrots",
+        "D": "Bad behavior would get him sold somewhere worse"
       },
       "answer": "D",
       "explanation": "Merrylegs says 'if I took to kicking... I might find myself slaved about under a butcher's boy.' He's wise enough to value kindness."
@@ -598,10 +598,10 @@
       "difficulty": "hard",
       "question": "What does the story of the fire at the hotel demonstrate about trust between horses and humans?",
       "options": {
-        "A": "Horses should never trust humans",
-        "B": "In danger, horses and trusted handlers must work together through calm guidance",
-        "C": "Fire is the greatest danger to horses",
-        "D": "Hotels are unsafe for horses"
+        "A": "Horses should never put their trust in humans",
+        "B": "In danger, trust and calm guidance are essential",
+        "C": "Fire is the greatest danger horses can face",
+        "D": "Hotels are always unsafe places for horses"
       },
       "answer": "B",
       "explanation": "During the fire, panicked horses can only be saved by a calm handler they trust - demonstrating the importance of the bond built through kind treatment."
@@ -611,10 +611,10 @@
       "difficulty": "hard",
       "question": "What does the master mean when he compares check reins to soldiers with heads tied to backboards?",
       "options": {
-        "A": "Restricting natural movement looks impressive but reduces effectiveness",
-        "B": "Soldiers should also wear check reins",
-        "C": "Horses and soldiers are equally important",
-        "D": "Military discipline is too strict"
+        "A": "Restricting movement looks good but hurts ability",
+        "B": "Soldiers should also be forced to wear check reins",
+        "C": "Horses and soldiers are equally important in war",
+        "D": "Military discipline is far too strict these days"
       },
       "answer": "A",
       "explanation": "The master argues that forcing an unnatural position may look good on parade but 'how would it be in a bayonet charge' - function matters more than appearance."
@@ -624,10 +624,10 @@
       "difficulty": "hard",
       "question": "Why is it significant that Black Beauty's brother Rob Roy died at the hunt?",
       "options": {
-        "A": "It shows how the same bloodline can have opposite fates based on human choices",
-        "B": "It shows hunting was profitable",
-        "C": "It proves Black Beauty was luckier",
-        "D": "It demonstrates horses are weak"
+        "A": "Same bloodline, different fates due to human choices",
+        "B": "It shows that hunting was very profitable at the time",
+        "C": "It proves that Black Beauty was simply luckier",
+        "D": "It demonstrates that all horses are naturally weak"
       },
       "answer": "A",
       "explanation": "Both brothers had the same breeding, but Rob Roy died due to reckless human sport - showing horse welfare depends on human choices, not horse nature."
@@ -637,10 +637,10 @@
       "difficulty": "hard",
       "question": "What does the old ostler's statement 'their tempers are mostly made when they are young' suggest?",
       "options": {
-        "A": "Young horses should be avoided",
-        "B": "Early treatment permanently shapes a horse's personality and behavior",
-        "C": "Old horses cannot change",
-        "D": "Only young horses can be trained"
+        "A": "Young horses should be avoided whenever possible",
+        "B": "Early treatment permanently shapes personality",
+        "C": "Old horses can never change their behavior",
+        "D": "Only young horses are able to be trained well"
       },
       "answer": "B",
       "explanation": "Like children who are 'trained up in the way they should go,' horses' early experiences permanently affect their temperament."
@@ -650,10 +650,10 @@
       "difficulty": "hard",
       "question": "What point is Sewell making when Sir Oliver says fashion is 'one of the wickedest things in the world'?",
       "options": {
-        "A": "Fashion is expensive",
-        "B": "Horses don't understand fashion",
-        "C": "Following trends blindly causes unnecessary suffering to animals",
-        "D": "Only poor people follow fashion"
+        "A": "Fashion is far too expensive for most people",
+        "B": "Horses simply do not understand human fashion",
+        "C": "Following trends causes needless animal suffering",
+        "D": "Only poor people foolishly follow fashion trends"
       },
       "answer": "C",
       "explanation": "Sir Oliver's anger about docking highlights how society accepts cruelty simply because it's fashionable, without questioning the suffering caused."
@@ -663,10 +663,10 @@
       "difficulty": "hard",
       "question": "Why does Black Beauty mention that horses 'never know each other after they are sold'?",
       "options": {
-        "A": "Horses have bad memories",
-        "B": "Horses don't care about family",
-        "C": "It was the law",
-        "D": "The sale system separates family members permanently, adding emotional weight"
+        "A": "Horses have very bad memories of other horses",
+        "B": "Horses simply do not care about their family",
+        "C": "It was the law that horses could not meet again",
+        "D": "Sales permanently separate families, adding sadness"
       },
       "answer": "D",
       "explanation": "This poignant observation humanizes horses by showing they too lose family connections, making the horse trade more morally complex."
@@ -676,10 +676,10 @@
       "difficulty": "hard",
       "question": "What is the purpose of John Manly's joke about 'Birtwick Balls'?",
       "options": {
-        "A": "To humorously show that kindness and sense, not punishment, reform difficult horses",
-        "B": "To mock medicine",
-        "C": "To advertise his skills",
-        "D": "To entertain the master"
+        "A": "To show kindness, not punishment, reforms horses",
+        "B": "To mock the medicine of the time period",
+        "C": "To advertise his skills to other stables",
+        "D": "To entertain the master with a funny joke"
       },
       "answer": "A",
       "explanation": "The 'medicine' of patience, gentleness, firmness, and common sense shows that behavioral problems in horses are solved through relationship, not force."
@@ -689,10 +689,10 @@
       "difficulty": "hard",
       "question": "Why does Black Beauty contrast his 'fidgets' with how John handled them?",
       "options": {
-        "A": "To show John was lazy",
-        "B": "To demonstrate that understanding natural energy prevents mistaking it for disobedience",
-        "C": "To prove he was poorly fed",
-        "D": "To criticize other horses"
+        "A": "To show that John was often lazy at his work",
+        "B": "Understanding energy prevents punishing normal behavior",
+        "C": "To prove he was being poorly fed at the time",
+        "D": "To criticize other horses who behaved badly"
       },
       "answer": "B",
       "explanation": "John understood that Black Beauty's energy was 'only high spirits' and gave him exercise rather than punishment, unlike grooms who punish 'skittish' behavior."
@@ -702,10 +702,10 @@
       "difficulty": "hard",
       "question": "What does Black Beauty's refusal to cross the broken bridge demonstrate?",
       "options": {
-        "A": "Horses are stubborn",
-        "B": "Horses are afraid of water",
-        "C": "Animals can sense dangers that humans miss, and their warnings should be respected",
-        "D": "Training can eliminate all fear"
+        "A": "Horses are very stubborn creatures by nature",
+        "B": "Horses are deeply afraid of all water around",
+        "C": "Animals sense dangers humans miss and should be trusted",
+        "D": "Proper training can eliminate all fear in horses"
       },
       "answer": "C",
       "explanation": "The master concludes that 'God had given animals knowledge' that saved their lives - humans should trust animal instincts rather than forcing compliance."
@@ -715,10 +715,10 @@
       "difficulty": "hard",
       "question": "Why is the comparison between how Ginger and Black Beauty were broken important?",
       "options": {
-        "A": "It shows different training methods produce equally good results",
-        "B": "It proves some horses cannot be trained",
-        "C": "It shows training doesn't matter",
-        "D": "It demonstrates that violent breaking creates vicious horses while patient training creates willing partners"
+        "A": "Different training methods produce equally good results",
+        "B": "It proves that some horses simply cannot be trained",
+        "C": "It shows that training method does not really matter",
+        "D": "Violent breaking creates vicious horses; patience works"
       },
       "answer": "D",
       "explanation": "Ginger became 'vicious' through cruel treatment while Black Beauty remained gentle through kind training - proving the method matters more than the horse."
@@ -728,10 +728,10 @@
       "difficulty": "hard",
       "question": "What does the master's statement about judging people 'according to our works toward man or beast' mean?",
       "options": {
-        "A": "It's a legal statement",
-        "B": "It means animals should work harder",
-        "C": "Moral character is revealed by how we treat the powerless, including animals",
-        "D": "It criticizes lazy workers"
+        "A": "It is simply a legal statement about the law",
+        "B": "It means that animals should work harder for us",
+        "C": "Character is revealed by how we treat the powerless",
+        "D": "It criticizes workers who are lazy on the job"
       },
       "answer": "C",
       "explanation": "This religious reference suggests that cruelty to animals is as morally significant as cruelty to humans - a central theme of the novel."
@@ -741,10 +741,10 @@
       "difficulty": "hard",
       "question": "Why might Sewell have chosen to show both good and bad humans rather than making all humans villains?",
       "options": {
-        "A": "To show that reform is possible and readers can choose to be kind",
-        "B": "She couldn't write villains well",
-        "C": "She liked all humans",
-        "D": "Publishers required it"
+        "A": "To show reform is possible and readers can be kind",
+        "B": "She could not write villain characters very well",
+        "C": "She liked all humans and could not criticize them",
+        "D": "Publishers required a balance of good and bad"
       },
       "answer": "A",
       "explanation": "By showing John, the master, and others as kind, Sewell provides models for readers to follow, making the book a call to action rather than just criticism."
@@ -754,10 +754,10 @@
       "difficulty": "hard",
       "question": "What does Merrylegs mean when he says 'good places make good horses'?",
       "options": {
-        "A": "Expensive stables produce better horses",
-        "B": "A horse's behavior reflects its treatment - kindness produces good behavior",
-        "C": "Location determines breed quality",
-        "D": "Weather affects horse mood"
+        "A": "Expensive stables produce better quality horses",
+        "B": "Behavior reflects treatment; kindness makes good horses",
+        "C": "Location determines the quality of a horse breed",
+        "D": "The weather greatly affects how horses behave"
       },
       "answer": "B",
       "explanation": "Merrylegs argues that horse behavior is a response to treatment: 'I wouldn't vex our people for anything; I love them' - love and kindness breed loyalty."
@@ -767,10 +767,10 @@
       "difficulty": "hard",
       "question": "What does the old ostler's story about his crooked leg tell us about Victorian working class life?",
       "options": {
-        "A": "Workers had good healthcare",
-        "B": "Only injured people worked with horses",
-        "C": "Workers injured in dangerous jobs had to find new work rather than receive support",
-        "D": "Leg injuries were fashionable"
+        "A": "Workers had good healthcare in that time period",
+        "B": "Only people who were injured worked with horses",
+        "C": "Injured workers had to find new work, not support",
+        "D": "Leg injuries were fashionable among working class"
       },
       "answer": "C",
       "explanation": "After breaking his knee as a jockey, the ostler 'was of no more use there' but 'could not live without horses' - showing how injured workers had to adapt or starve."
@@ -780,10 +780,10 @@
       "difficulty": "hard",
       "question": "What is the ultimate message of Black Beauty about the relationship between humans and animals?",
       "options": {
-        "A": "Animals exist only to serve humans",
-        "B": "Animals deserve kindness, and treating them well reflects our own moral character",
-        "C": "Humans should not use animals at all",
-        "D": "Animals are more intelligent than humans"
+        "A": "Animals exist only to serve human needs and desires",
+        "B": "Animals deserve kindness and our treatment of them reflects character",
+        "C": "Humans should not use animals for work at all",
+        "D": "Animals are more intelligent than most humans think"
       },
       "answer": "B",
       "explanation": "The novel argues that animals feel pain and respond to kindness, and how we treat them reveals who we are - 'there is no religion without love... to man and beast.'"

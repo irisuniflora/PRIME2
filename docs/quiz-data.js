@@ -2390,10 +2390,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What was Black Beauty's first home like?",
         "options": {
-          "A": "A large pleasant meadow with a pond",
-          "B": "A small farm with chickens",
-          "C": "A racing track stable",
-          "D": "A dark stable in the city"
+          "A": "A pleasant meadow with clear water",
+          "B": "A small farm with chickens nearby",
+          "C": "A racing stable near the track",
+          "D": "A dark stable in the big city"
         },
         "answer": "A",
         "explanation": "Black Beauty's first home was 'a large pleasant meadow with a pond of clear water in it.'"
@@ -2416,10 +2416,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What white markings did Black Beauty have?",
         "options": {
-          "A": "Four white feet",
-          "B": "A white tail",
-          "C": "One white foot and a white star on his forehead",
-          "D": "White spots on his back"
+          "A": "Four white feet and a blaze",
+          "B": "A white tail with gray spots",
+          "C": "One white foot and a star",
+          "D": "White spots across his back"
         },
         "answer": "C",
         "explanation": "Black Beauty had 'one white foot and a pretty white star on my forehead.'"
@@ -2468,10 +2468,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What happened to Rob Roy during the hunt?",
         "options": {
-          "A": "He won the race",
-          "B": "He ran away to freedom",
-          "C": "He broke his leg and was shot",
-          "D": "He was sold to another owner"
+          "A": "He won the race easily",
+          "B": "He escaped to another farm",
+          "C": "He broke his leg and died",
+          "D": "He was sold to a new owner"
         },
         "answer": "C",
         "explanation": "Rob Roy broke his leg at the hunt and had to be put down. He was Black Beauty's brother."
@@ -2481,10 +2481,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What did 'breaking in' a horse involve?",
         "options": {
-          "A": "Breaking into a stable",
-          "B": "Racing against other horses",
-          "C": "Breaking a horse's spirit",
-          "D": "Teaching a horse to wear a saddle and bridle"
+          "A": "Forcing entry into a stable building",
+          "B": "Racing against other trained horses",
+          "C": "Making a horse lose its wild spirit",
+          "D": "Training to wear saddle and bridle"
         },
         "answer": "D",
         "explanation": "Breaking in means teaching a horse 'to wear a saddle and bridle and to carry on his back a man, woman, or child.'"
@@ -2494,9 +2494,9 @@ const quizData = {
         "difficulty": "easy",
         "question": "What did Black Beauty's mother advise him?",
         "options": {
-          "A": "To grow up gentle and good and never learn bad ways",
-          "B": "To run away from humans",
-          "C": "To only trust other horses",
+          "A": "To be gentle, good, and avoid bad ways",
+          "B": "To run away from humans if possible",
+          "C": "To only trust horses, not people",
           "D": "To be aggressive to protect himself"
         },
         "answer": "A",
@@ -2507,10 +2507,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What is a 'loose box' in a stable?",
         "options": {
-          "A": "A box that is falling apart",
-          "B": "A stall where the horse is left free, not tied up",
+          "A": "A broken box that is falling apart",
+          "B": "A stall where the horse is left free",
           "C": "A storage box for horse supplies",
-          "D": "A punishment area"
+          "D": "A small area used for punishment"
         },
         "answer": "B",
         "explanation": "A loose box is 'called so because the horse that was put into it was not tied up, but left loose.'"
@@ -2520,10 +2520,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "Who gave Black Beauty his name?",
         "options": {
-          "A": "John Manly",
-          "B": "His mother Duchess",
-          "C": "Squire Gordon and his wife",
-          "D": "James Howard"
+          "A": "The coachman John Manly",
+          "B": "His own mother Duchess",
+          "C": "The Squire and his wife",
+          "D": "The stable boy James Howard"
         },
         "answer": "C",
         "explanation": "Mrs. Gordon suggested 'Black Beauty' and the master agreed: 'if you like it shall be his name.'"
@@ -2533,10 +2533,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What happened to Sir Oliver's tail?",
         "options": {
-          "A": "It was naturally short",
-          "B": "It fell off from disease",
-          "C": "He lost it in an accident",
-          "D": "It was cut off cruelly when he was young"
+          "A": "It was naturally short from birth",
+          "B": "It fell off from a disease",
+          "C": "He lost it in a bad accident",
+          "D": "It was cruelly cut off when young"
         },
         "answer": "D",
         "explanation": "Sir Oliver's tail was cut off: 'they came and cut off my long and beautiful tail, through the flesh and through the bone.'"
@@ -2546,9 +2546,9 @@ const quizData = {
         "difficulty": "easy",
         "question": "What were blinkers on a horse?",
         "options": {
-          "A": "Covers that prevented horses from seeing to the side",
-          "B": "Lights attached to the harness",
-          "C": "Decorative ribbons",
+          "A": "Covers blocking side vision",
+          "B": "Lights attached to harness",
+          "C": "Decorative ribbons on mane",
           "D": "Bells that made sounds"
         },
         "answer": "A",
@@ -2559,10 +2559,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What was the 'check rein'?",
         "options": {
-          "A": "A rein used to check speed",
-          "B": "A rein that held the horse's head unnaturally high",
-          "C": "A special rein for checking direction",
-          "D": "A decorative rein"
+          "A": "A rein used to slow speed down",
+          "B": "A rein forcing head unnaturally high",
+          "C": "A special rein for changing direction",
+          "D": "A decorative rein for show"
         },
         "answer": "B",
         "explanation": "The check rein held horses' heads 'up high' painfully, preventing natural head movement."
@@ -2572,9 +2572,9 @@ const quizData = {
         "difficulty": "easy",
         "question": "Who was James Howard?",
         "options": {
-          "A": "The squire",
-          "B": "The village doctor",
-          "C": "The stable boy who later became a groom",
+          "A": "The wealthy squire of the estate",
+          "B": "The village doctor and surgeon",
+          "C": "A stable boy who became a groom",
           "D": "Black Beauty's previous owner"
         },
         "answer": "C",
@@ -2585,10 +2585,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "Who was killed during the hunt that Black Beauty witnessed?",
         "options": {
-          "A": "The master",
-          "B": "John Manly",
-          "C": "James Howard",
-          "D": "Young George Gordon, the squire's son"
+          "A": "The master of the estate",
+          "B": "The coachman John Manly",
+          "C": "The stable boy James Howard",
+          "D": "George Gordon, the squire's son"
         },
         "answer": "D",
         "explanation": "Young George Gordon, 'the squire's only son,' broke his neck and died during the hunt."
@@ -2598,10 +2598,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "Why was Black Beauty sent to a farm near a railway?",
         "options": {
-          "A": "To learn to race",
-          "B": "To be sold to a new owner",
-          "C": "To get used to trains so he wouldn't be frightened",
-          "D": "To learn to jump fences"
+          "A": "To learn how to race properly",
+          "B": "To be sold to a new owner there",
+          "C": "To get used to trains nearby",
+          "D": "To learn to jump over fences"
         },
         "answer": "C",
         "explanation": "Black Beauty was sent to a farm near a railway to get used to trains so he wouldn't be frightened."
@@ -2624,10 +2624,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What animal did Dick the ploughboy throw stones at?",
         "options": {
-          "A": "The young colts",
-          "B": "Dogs",
-          "C": "Birds",
-          "D": "Cats"
+          "A": "The young colts in the field",
+          "B": "Dogs running around the farm",
+          "C": "Birds sitting on the fence",
+          "D": "Cats hiding in the stable"
         },
         "answer": "A",
         "explanation": "Dick the ploughboy would throw 'stones and sticks at them to make them gallop.'"
@@ -2637,10 +2637,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What did the horses do on fine Sundays at Birtwick Park?",
         "options": {
-          "A": "Extra work",
-          "B": "Special baths",
-          "C": "Enjoyed time in the paddock or orchard",
-          "D": "Received medicine"
+          "A": "Extra work in the fields",
+          "B": "Special baths and grooming",
+          "C": "Rest time in the paddock",
+          "D": "Received medicine and care"
         },
         "answer": "C",
         "explanation": "On fine Sundays 'it was a great treat to us to be turned out into the home paddock or the old orchard.'"
@@ -2702,10 +2702,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "When Black Beauty refused to cross the bridge during the storm, John discovered the bridge was _____.",
         "options": {
-          "A": "too narrow for the carriage",
-          "B": "blocked by a fallen tree",
-          "C": "frozen over with ice",
-          "D": "broken in the middle with part carried away"
+          "A": "too narrow for the carriage to pass",
+          "B": "completely blocked by a fallen tree",
+          "C": "dangerously frozen over with ice",
+          "D": "broken with part washed away"
         },
         "answer": "D",
         "explanation": "The toll-gate man shouted 'The bridge is broken in the middle, and part of it is carried away!'"
@@ -2754,9 +2754,9 @@ const quizData = {
         "difficulty": "medium",
         "question": "Ginger was so badly treated with the check rein that the blood from her tongue colored _____.",
         "options": {
-          "A": "the stable floor",
-          "B": "her mane",
-          "C": "her owner's clothes",
+          "A": "the stable floor beneath",
+          "B": "her mane and neck area",
+          "C": "her owner's fine clothes",
           "D": "the froth from her mouth"
         },
         "answer": "D",
@@ -2910,10 +2910,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why did Black Beauty's mother say 'we are only horses and don't know' after the hunt?",
         "options": {
-          "A": "She was being ironic about humans who claim superior reason yet do foolish things",
-          "B": "She genuinely believed horses were inferior",
-          "C": "She wanted Black Beauty to respect humans more",
-          "D": "She was confused about what happened"
+          "A": "She was ironically mocking humans who do foolish things",
+          "B": "She genuinely believed horses were less intelligent",
+          "C": "She wanted Black Beauty to show more respect to humans",
+          "D": "She was confused and did not understand what happened"
         },
         "answer": "A",
         "explanation": "Her statement is ironic: she questions why intelligent humans enjoy cruel sports, then dismissively says 'we are only horses' - implying horses actually show more sense."
@@ -2923,10 +2923,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the contrast between Black Beauty's upbringing and Ginger's suggest about horse behavior?",
         "options": {
-          "A": "Some horses are born bad-tempered",
-          "B": "A horse's temperament is shaped by how it is treated, not by its nature",
-          "C": "Female horses are naturally more aggressive",
-          "D": "Only purebred horses can be gentle"
+          "A": "Some horses are simply born bad-tempered by nature",
+          "B": "Temperament is shaped by treatment, not by birth",
+          "C": "Female horses tend to be more aggressive naturally",
+          "D": "Only purebred horses have the ability to be gentle"
         },
         "answer": "B",
         "explanation": "Ginger says 'if I had had your bringing up I might have had as good a temper as you' - showing that treatment, not birth, shapes horse behavior."
@@ -2936,10 +2936,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Anna Sewell have Black Beauty narrate the story in first person?",
         "options": {
-          "A": "Because it was easier to write",
-          "B": "Because horses could actually talk in Victorian times",
-          "C": "To make readers see the world through a horse's eyes and develop empathy",
-          "D": "To make the story shorter"
+          "A": "Because first person was easier for her to write well",
+          "B": "Because horses could actually communicate in that era",
+          "C": "To help readers see the world through a horse's eyes",
+          "D": "To make the overall story shorter and simpler"
         },
         "answer": "C",
         "explanation": "First-person narration allows readers to experience cruelty and kindness from the horse's perspective, building empathy for animals."
@@ -2949,10 +2949,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What is ironic about the fashion of check reins and docked tails?",
         "options": {
-          "A": "They were very expensive",
-          "B": "They made horses faster",
-          "C": "They were only used on old horses",
-          "D": "They were meant to look better but actually caused suffering for no purpose"
+          "A": "They were very expensive to buy and maintain properly",
+          "B": "They actually made horses run faster in races",
+          "C": "They were only used on old horses past their prime",
+          "D": "They caused suffering just to look better to people"
         },
         "answer": "D",
         "explanation": "These fashions were done 'just as if the good God that made us did not know what we wanted' - causing pain purely for human vanity."
@@ -2962,10 +2962,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Merrylegs refuse to kick the children even when provoked?",
         "options": {
-          "A": "He is too weak to kick",
-          "B": "John ordered him never to kick",
-          "C": "The children give him treats",
-          "D": "He knows bad behavior would get him sold to a worse situation"
+          "A": "He is simply too weak and old to kick anyone",
+          "B": "John gave him strict orders never to kick anyone",
+          "C": "The children always give him treats and carrots",
+          "D": "Bad behavior would get him sold somewhere worse"
         },
         "answer": "D",
         "explanation": "Merrylegs says 'if I took to kicking... I might find myself slaved about under a butcher's boy.' He's wise enough to value kindness."
@@ -2975,10 +2975,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the story of the fire at the hotel demonstrate about trust between horses and humans?",
         "options": {
-          "A": "Horses should never trust humans",
-          "B": "In danger, horses and trusted handlers must work together through calm guidance",
-          "C": "Fire is the greatest danger to horses",
-          "D": "Hotels are unsafe for horses"
+          "A": "Horses should never put their trust in humans",
+          "B": "In danger, trust and calm guidance are essential",
+          "C": "Fire is the greatest danger horses can face",
+          "D": "Hotels are always unsafe places for horses"
         },
         "answer": "B",
         "explanation": "During the fire, panicked horses can only be saved by a calm handler they trust - demonstrating the importance of the bond built through kind treatment."
@@ -2988,10 +2988,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the master mean when he compares check reins to soldiers with heads tied to backboards?",
         "options": {
-          "A": "Restricting natural movement looks impressive but reduces effectiveness",
-          "B": "Soldiers should also wear check reins",
-          "C": "Horses and soldiers are equally important",
-          "D": "Military discipline is too strict"
+          "A": "Restricting movement looks good but hurts ability",
+          "B": "Soldiers should also be forced to wear check reins",
+          "C": "Horses and soldiers are equally important in war",
+          "D": "Military discipline is far too strict these days"
         },
         "answer": "A",
         "explanation": "The master argues that forcing an unnatural position may look good on parade but 'how would it be in a bayonet charge' - function matters more than appearance."
@@ -3001,10 +3001,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why is it significant that Black Beauty's brother Rob Roy died at the hunt?",
         "options": {
-          "A": "It shows how the same bloodline can have opposite fates based on human choices",
-          "B": "It shows hunting was profitable",
-          "C": "It proves Black Beauty was luckier",
-          "D": "It demonstrates horses are weak"
+          "A": "Same bloodline, different fates due to human choices",
+          "B": "It shows that hunting was very profitable at the time",
+          "C": "It proves that Black Beauty was simply luckier",
+          "D": "It demonstrates that all horses are naturally weak"
         },
         "answer": "A",
         "explanation": "Both brothers had the same breeding, but Rob Roy died due to reckless human sport - showing horse welfare depends on human choices, not horse nature."
@@ -3014,10 +3014,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the old ostler's statement 'their tempers are mostly made when they are young' suggest?",
         "options": {
-          "A": "Young horses should be avoided",
-          "B": "Early treatment permanently shapes a horse's personality and behavior",
-          "C": "Old horses cannot change",
-          "D": "Only young horses can be trained"
+          "A": "Young horses should be avoided whenever possible",
+          "B": "Early treatment permanently shapes personality",
+          "C": "Old horses can never change their behavior",
+          "D": "Only young horses are able to be trained well"
         },
         "answer": "B",
         "explanation": "Like children who are 'trained up in the way they should go,' horses' early experiences permanently affect their temperament."
@@ -3027,10 +3027,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What point is Sewell making when Sir Oliver says fashion is 'one of the wickedest things in the world'?",
         "options": {
-          "A": "Fashion is expensive",
-          "B": "Horses don't understand fashion",
-          "C": "Following trends blindly causes unnecessary suffering to animals",
-          "D": "Only poor people follow fashion"
+          "A": "Fashion is far too expensive for most people",
+          "B": "Horses simply do not understand human fashion",
+          "C": "Following trends causes needless animal suffering",
+          "D": "Only poor people foolishly follow fashion trends"
         },
         "answer": "C",
         "explanation": "Sir Oliver's anger about docking highlights how society accepts cruelty simply because it's fashionable, without questioning the suffering caused."
@@ -3040,10 +3040,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Black Beauty mention that horses 'never know each other after they are sold'?",
         "options": {
-          "A": "Horses have bad memories",
-          "B": "Horses don't care about family",
-          "C": "It was the law",
-          "D": "The sale system separates family members permanently, adding emotional weight"
+          "A": "Horses have very bad memories of other horses",
+          "B": "Horses simply do not care about their family",
+          "C": "It was the law that horses could not meet again",
+          "D": "Sales permanently separate families, adding sadness"
         },
         "answer": "D",
         "explanation": "This poignant observation humanizes horses by showing they too lose family connections, making the horse trade more morally complex."
@@ -3053,10 +3053,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What is the purpose of John Manly's joke about 'Birtwick Balls'?",
         "options": {
-          "A": "To humorously show that kindness and sense, not punishment, reform difficult horses",
-          "B": "To mock medicine",
-          "C": "To advertise his skills",
-          "D": "To entertain the master"
+          "A": "To show kindness, not punishment, reforms horses",
+          "B": "To mock the medicine of the time period",
+          "C": "To advertise his skills to other stables",
+          "D": "To entertain the master with a funny joke"
         },
         "answer": "A",
         "explanation": "The 'medicine' of patience, gentleness, firmness, and common sense shows that behavioral problems in horses are solved through relationship, not force."
@@ -3066,10 +3066,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Black Beauty contrast his 'fidgets' with how John handled them?",
         "options": {
-          "A": "To show John was lazy",
-          "B": "To demonstrate that understanding natural energy prevents mistaking it for disobedience",
-          "C": "To prove he was poorly fed",
-          "D": "To criticize other horses"
+          "A": "To show that John was often lazy at his work",
+          "B": "Understanding energy prevents punishing normal behavior",
+          "C": "To prove he was being poorly fed at the time",
+          "D": "To criticize other horses who behaved badly"
         },
         "answer": "B",
         "explanation": "John understood that Black Beauty's energy was 'only high spirits' and gave him exercise rather than punishment, unlike grooms who punish 'skittish' behavior."
@@ -3079,10 +3079,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Black Beauty's refusal to cross the broken bridge demonstrate?",
         "options": {
-          "A": "Horses are stubborn",
-          "B": "Horses are afraid of water",
-          "C": "Animals can sense dangers that humans miss, and their warnings should be respected",
-          "D": "Training can eliminate all fear"
+          "A": "Horses are very stubborn creatures by nature",
+          "B": "Horses are deeply afraid of all water around",
+          "C": "Animals sense dangers humans miss and should be trusted",
+          "D": "Proper training can eliminate all fear in horses"
         },
         "answer": "C",
         "explanation": "The master concludes that 'God had given animals knowledge' that saved their lives - humans should trust animal instincts rather than forcing compliance."
@@ -3092,10 +3092,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why is the comparison between how Ginger and Black Beauty were broken important?",
         "options": {
-          "A": "It shows different training methods produce equally good results",
-          "B": "It proves some horses cannot be trained",
-          "C": "It shows training doesn't matter",
-          "D": "It demonstrates that violent breaking creates vicious horses while patient training creates willing partners"
+          "A": "Different training methods produce equally good results",
+          "B": "It proves that some horses simply cannot be trained",
+          "C": "It shows that training method does not really matter",
+          "D": "Violent breaking creates vicious horses; patience works"
         },
         "answer": "D",
         "explanation": "Ginger became 'vicious' through cruel treatment while Black Beauty remained gentle through kind training - proving the method matters more than the horse."
@@ -3105,10 +3105,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the master's statement about judging people 'according to our works toward man or beast' mean?",
         "options": {
-          "A": "It's a legal statement",
-          "B": "It means animals should work harder",
-          "C": "Moral character is revealed by how we treat the powerless, including animals",
-          "D": "It criticizes lazy workers"
+          "A": "It is simply a legal statement about the law",
+          "B": "It means that animals should work harder for us",
+          "C": "Character is revealed by how we treat the powerless",
+          "D": "It criticizes workers who are lazy on the job"
         },
         "answer": "C",
         "explanation": "This religious reference suggests that cruelty to animals is as morally significant as cruelty to humans - a central theme of the novel."
@@ -3118,10 +3118,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why might Sewell have chosen to show both good and bad humans rather than making all humans villains?",
         "options": {
-          "A": "To show that reform is possible and readers can choose to be kind",
-          "B": "She couldn't write villains well",
-          "C": "She liked all humans",
-          "D": "Publishers required it"
+          "A": "To show reform is possible and readers can be kind",
+          "B": "She could not write villain characters very well",
+          "C": "She liked all humans and could not criticize them",
+          "D": "Publishers required a balance of good and bad"
         },
         "answer": "A",
         "explanation": "By showing John, the master, and others as kind, Sewell provides models for readers to follow, making the book a call to action rather than just criticism."
@@ -3131,10 +3131,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Merrylegs mean when he says 'good places make good horses'?",
         "options": {
-          "A": "Expensive stables produce better horses",
-          "B": "A horse's behavior reflects its treatment - kindness produces good behavior",
-          "C": "Location determines breed quality",
-          "D": "Weather affects horse mood"
+          "A": "Expensive stables produce better quality horses",
+          "B": "Behavior reflects treatment; kindness makes good horses",
+          "C": "Location determines the quality of a horse breed",
+          "D": "The weather greatly affects how horses behave"
         },
         "answer": "B",
         "explanation": "Merrylegs argues that horse behavior is a response to treatment: 'I wouldn't vex our people for anything; I love them' - love and kindness breed loyalty."
@@ -3144,10 +3144,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the old ostler's story about his crooked leg tell us about Victorian working class life?",
         "options": {
-          "A": "Workers had good healthcare",
-          "B": "Only injured people worked with horses",
-          "C": "Workers injured in dangerous jobs had to find new work rather than receive support",
-          "D": "Leg injuries were fashionable"
+          "A": "Workers had good healthcare in that time period",
+          "B": "Only people who were injured worked with horses",
+          "C": "Injured workers had to find new work, not support",
+          "D": "Leg injuries were fashionable among working class"
         },
         "answer": "C",
         "explanation": "After breaking his knee as a jockey, the ostler 'was of no more use there' but 'could not live without horses' - showing how injured workers had to adapt or starve."
@@ -3157,10 +3157,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What is the ultimate message of Black Beauty about the relationship between humans and animals?",
         "options": {
-          "A": "Animals exist only to serve humans",
-          "B": "Animals deserve kindness, and treating them well reflects our own moral character",
-          "C": "Humans should not use animals at all",
-          "D": "Animals are more intelligent than humans"
+          "A": "Animals exist only to serve human needs and desires",
+          "B": "Animals deserve kindness and our treatment of them reflects character",
+          "C": "Humans should not use animals for work at all",
+          "D": "Animals are more intelligent than most humans think"
         },
         "answer": "B",
         "explanation": "The novel argues that animals feel pain and respond to kindness, and how we treat them reveals who we are - 'there is no religion without love... to man and beast.'"
@@ -3377,10 +3377,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "Where does Fregley live?",
         "options": {
-          "A": "Right next to Greg's house",
-          "B": "Halfway between Greg's and Rowley's houses",
+          "A": "Right next door to Greg's house",
+          "B": "Halfway between Greg and Rowley",
           "C": "Next to the school building",
-          "D": "Across town from Greg"
+          "D": "Across town from Greg's place"
         },
         "answer": "B",
         "explanation": "Fregley lives halfway between Greg's house and Rowley's house."
@@ -3390,10 +3390,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What sport determined popularity in elementary school?",
         "options": {
-          "A": "Playing basketball well",
-          "B": "Playing football well",
-          "C": "Playing soccer well",
-          "D": "Running fast"
+          "A": "Playing basketball",
+          "B": "Playing football",
+          "C": "Playing soccer",
+          "D": "Running the fastest"
         },
         "answer": "D",
         "explanation": "In elementary school, if you were the fastest runner, you got all the girls."
@@ -3442,10 +3442,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "According to Greg, in middle school you have to be careful where you sit on the first day because _____.",
         "options": {
-          "A": "the teacher assigns permanent seats based on where you sit",
+          "A": "your seat becomes permanent for the year",
           "B": "the popular kids will make fun of you",
           "C": "the windows are too bright in some areas",
-          "D": "the teachers move students around constantly"
+          "D": "teachers move students around constantly"
         },
         "answer": "A",
         "explanation": "Greg warns that wherever you sit on the first day becomes your permanent seat for the year."
@@ -3455,9 +3455,9 @@ const quizData = {
         "difficulty": "medium",
         "question": "Roderick tricked Greg at the beginning of summer by _____.",
         "options": {
-          "A": "hiding his video games in the basement",
-          "B": "making him think he slept through the whole summer",
-          "C": "telling him school was cancelled all year",
+          "A": "hiding all his video games in the basement",
+          "B": "making him think he slept through summer",
+          "C": "telling him that school was cancelled all year",
           "D": "pretending their parents went on vacation"
         },
         "answer": "B",
@@ -3469,9 +3469,9 @@ const quizData = {
         "question": "Greg taped his fingers together because _____.",
         "options": {
           "A": "he broke his finger playing sports at school",
-          "B": "it was a trend among popular kids",
-          "C": "he wanted to keep them crossed to avoid the Cheese Touch",
-          "D": "he was copying what Rowley did first"
+          "B": "it was a popular trend among cool kids",
+          "C": "he wanted to stay protected from Cheese Touch",
+          "D": "he was copying what Rowley did at school"
         },
         "answer": "C",
         "explanation": "Greg taped his fingers together so they'd stay crossed all the time to protect from the Cheese Touch."
@@ -3483,7 +3483,7 @@ const quizData = {
         "options": {
           "A": "his friends were all in the easy group",
           "B": "the teacher of that class was very strict",
-          "C": "the books they read were too boring",
+          "C": "the books they read were way too boring",
           "D": "it meant a lot of extra work for him"
         },
         "answer": "D",
@@ -3496,7 +3496,7 @@ const quizData = {
         "options": {
           "A": "using cheat codes he found online",
           "B": "practicing more hours than Rowley does",
-          "C": "naming his car something ridiculous like 'Bad Fart'",
+          "C": "naming his car something ridiculous",
           "D": "using a better controller than Rowley"
         },
         "answer": "C",
@@ -3507,10 +3507,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Rowley got in trouble with Greg because on the first day of school, he asked Greg to _____.",
         "options": {
-          "A": "carry his heavy books to class",
-          "B": "'play' instead of 'hang out' like middle schoolers say",
-          "C": "sit next to him during lunch",
-          "D": "share his food at lunchtime"
+          "A": "carry his heavy books to class for him",
+          "B": "'play' instead of using 'hang out'",
+          "C": "sit next to him during lunch time",
+          "D": "share his food with him at lunchtime"
         },
         "answer": "B",
         "explanation": "Rowley asked to 'play' instead of 'hang out,' which embarrassed Greg in middle school."
@@ -3520,10 +3520,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Mrs. Craig confiscated the CD player and lectured the boys because she thought _____.",
         "options": {
-          "A": "rock and roll music is evil and ruins brains",
+          "A": "rock and roll is evil and ruins brains",
           "B": "they stole it from another student's locker",
           "C": "they were skipping their classes to listen",
-          "D": "the music volume was way too loud"
+          "D": "the music volume was much way too loud"
         },
         "answer": "A",
         "explanation": "Mrs. Craig lectured them about how rock and roll is evil and will ruin their brains."
@@ -3533,8 +3533,8 @@ const quizData = {
         "difficulty": "medium",
         "question": "Greg got in trouble for listening to Roderick's CD because _____.",
         "options": {
-          "A": "he played it way too late at night",
-          "B": "the headphones weren't plugged in and music came through the speakers",
+          "A": "he played it way too late at night time",
+          "B": "headphones were unplugged so speakers played",
           "C": "Roderick caught him with it in his room",
           "D": "Mom found the CD hidden in his backpack"
         },
@@ -3548,7 +3548,7 @@ const quizData = {
         "options": {
           "A": "he failed an important test at school",
           "B": "he broke Greg's favorite video game system",
-          "C": "Manny brought his heavy metal magazine to daycare",
+          "C": "Manny brought his magazine to daycare",
           "D": "he stayed out way too late at night"
         },
         "answer": "C",
@@ -3585,7 +3585,7 @@ const quizData = {
         "difficulty": "medium",
         "question": "Greg and Rowley's haunted house had to close because _____.",
         "options": {
-          "A": "Shane Snella hid under the bed and Rowley's dad found them",
+          "A": "Shane hid and Rowley's dad found them",
           "B": "they completely ran out of all supplies",
           "C": "too many kids complained to their parents",
           "D": "it started raining really hard outside"
@@ -3639,8 +3639,8 @@ const quizData = {
         "options": {
           "A": "listening to music and guessing the song title",
           "B": "passing the headphones around as quickly as possible",
-          "C": "dancing while wearing the headphones on your head",
-          "D": "putting headphones on and shaking them off without using hands"
+          "C": "dancing while wearing headphones on your head",
+          "D": "shaking headphones off without using hands"
         },
         "answer": "D",
         "explanation": "The game was to put headphones on and shake them off in the shortest time without using hands."
@@ -3650,10 +3650,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Greg learned from Roderick to set people's expectations low so that _____.",
         "options": {
-          "A": "nobody ever asks you for any help",
+          "A": "nobody ever asks you for any help at all",
           "B": "teachers will leave you completely alone",
-          "C": "you don't have to do any homework",
-          "D": "you end up surprising them by practically doing nothing"
+          "C": "you don't have to do any homework at all",
+          "D": "you surprise them by doing almost nothing"
         },
         "answer": "D",
         "explanation": "Greg learned to set expectations low so you end up surprising people by practically doing nothing."
@@ -3677,9 +3677,9 @@ const quizData = {
         "question": "Greg sneaks violent video games to Rowley's house by _____.",
         "options": {
           "A": "hiding them deep inside his backpack",
-          "B": "telling Rowley's dad they're educational games",
-          "C": "putting his disc in Manny's 'Discovering the Alphabet' case",
-          "D": "borrowing Rowley's games instead of bringing his"
+          "B": "telling Rowley's dad they're educational",
+          "C": "putting his disc in Manny's game case",
+          "D": "borrowing Rowley's games instead of his"
         },
         "answer": "C",
         "explanation": "Greg puts his game disc in Manny's Discovering the Alphabet case to get past Rowley's dad."
@@ -3729,8 +3729,8 @@ const quizData = {
         "question": "Why is it ironic that Greg was disappointed to be in the gifted reading group?",
         "options": {
           "A": "He actually loves reading more than anyone else",
-          "B": "The gifted group actually has less homework than others",
-          "C": "He tried to act stupid but his mom talked to the principal",
+          "B": "The gifted group actually has less homework",
+          "C": "He acted stupid but Mom got him placed anyway",
           "D": "Rowley is also in the gifted group with him"
         },
         "answer": "C",
@@ -3741,10 +3741,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the Cheese Touch represent in the social world of Greg's school?",
         "options": {
-          "A": "A fun game that everyone at school enjoys playing",
+          "A": "A fun game that everyone at school enjoys",
           "B": "The importance of good personal hygiene",
           "C": "A great way to make new friends at school",
-          "D": "How quickly social status can change through random rules"
+          "D": "How social status changes through random rules"
         },
         "answer": "D",
         "explanation": "The Cheese Touch shows how arbitrary social rules can instantly make someone an outcast, like Abe Hall who nobody would go near."
@@ -3754,9 +3754,9 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Greg's description of middle school mixing kids who 'haven't hit their growth spurt with gorillas who shave twice a day' suggest?",
         "options": {
-          "A": "He's pointing out how physical differences create unfair social dynamics",
+          "A": "Physical differences create unfair social dynamics",
           "B": "He wants to transfer to a completely different school",
-          "C": "He thinks the school should separate grades very differently",
+          "C": "He thinks the school should separate grades differently",
           "D": "He really admires the bigger kids in his school"
         },
         "answer": "A",
@@ -3796,7 +3796,7 @@ const quizData = {
           "A": "It shows girls at school have bad memories",
           "B": "It proves that being mean makes you popular",
           "C": "It shows Bryce changed his personality completely",
-          "D": "It shows popularity rules change unfairly between elementary and middle school"
+          "D": "Popularity rules change unfairly over the years"
         },
         "answer": "D",
         "explanation": "Greg points out how popularity used to be about being fast, but now it's about looks and money - and he doesn't get credit for always liking girls."
@@ -3845,10 +3845,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why is Mom dancing to Roderick's heavy metal music ironic?",
         "options": {
-          "A": "She's actually a really great dancer",
+          "A": "She's actually a really great dancer herself",
           "B": "She used to be in a rock band herself",
           "C": "Roderick taught her all the dance moves",
-          "D": "She treats all music the same, not understanding metal is rebellious"
+          "D": "She thinks all music is the same, missing the point"
         },
         "answer": "D",
         "explanation": "Mom doesn't understand that heavy metal is supposed to be rebellious - to her 'all music is the same,' which bugs Roderick."
@@ -3897,10 +3897,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Greg's numerical ranking of popularity (52nd or 53rd) suggest about middle school social dynamics?",
         "options": {
-          "A": "Everyone at school knows their exact popularity rank",
-          "B": "Teachers officially assign popularity ranks to students",
+          "A": "Everyone at school knows their exact popularity",
+          "B": "Teachers officially assign popularity ranks",
           "C": "Only the top 10 kids actually matter at school",
-          "D": "Greg obsessively measures and calculates social status like a competition"
+          "D": "Greg obsessively measures social status"
         },
         "answer": "D",
         "explanation": "Greg treats popularity like a precise ranking system, even tracking when he might move up a spot due to someone's braces."
@@ -4234,10 +4234,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "When Sam fell asleep on hall monitor duty, he woke up to find the halls _____ and the school coming alive.",
         "options": {
-          "A": "dark",
-          "B": "crowded",
-          "C": "flooded",
-          "D": "frozen"
+          "A": "dark and nearly pitch black",
+          "B": "crowded with strange people",
+          "C": "flooded with dirty water",
+          "D": "frozen with thick ice"
         },
         "answer": "A",
         "explanation": "When Sam woke up, 'The halls were dark, nearly pitch black' and locker doors were slamming."
@@ -4247,10 +4247,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Sam's locker smelled terrible like _____ because the living school was breathing through it.",
         "options": {
-          "A": "garbage",
-          "B": "really bad breath",
-          "C": "rotten eggs",
-          "D": "old cheese"
+          "A": "garbage from the cafeteria",
+          "B": "really bad breath from a mouth",
+          "C": "rotten eggs left in the sun",
+          "D": "old cheese forgotten for weeks"
         },
         "answer": "B",
         "explanation": "The smell was like 'really bad breath' - it was the living school breathing through the locker."
@@ -4260,10 +4260,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Mr. Nekobe was Eerie Elementary's first _____, and now he is too old and weak to fight alone.",
         "options": {
-          "A": "principal",
-          "B": "teacher",
-          "C": "hall monitor",
-          "D": "janitor"
+          "A": "principal of the school",
+          "B": "teacher in the classroom",
+          "C": "hall monitor who protects students",
+          "D": "janitor who cleans the building"
         },
         "answer": "C",
         "explanation": "Mr. Nekobe was the first hall monitor. He says 'I am old and weak' - that's why Sam must take over."
@@ -4273,10 +4273,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "The school planned to attack during the play because hundreds of people were gathered in one place to _____.",
         "options": {
-          "A": "watch",
-          "B": "sing",
-          "C": "dance",
-          "D": "eat"
+          "A": "watch the students perform",
+          "B": "sing along with the actors",
+          "C": "dance together on the stage",
+          "D": "eat, which is what the school wants"
         },
         "answer": "D",
         "explanation": "The school is hungry and wants to eat. The play brings hundreds of people together for it to feed on."
@@ -4286,10 +4286,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Antonio's lucky _____ gave Sam the idea to use peanut butter against the monster.",
         "options": {
-          "A": "coin",
-          "B": "sandwich",
-          "C": "hat",
-          "D": "marble"
+          "A": "coin from his grandfather",
+          "B": "sandwich with peanut butter",
+          "C": "hat that he always wears",
+          "D": "marble from his collection"
         },
         "answer": "B",
         "explanation": "When Antonio's sandwich fell into the mouth and slowed the monster, Sam got the idea."
@@ -4299,10 +4299,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "As hall monitor, Sam has special abilities that let him _____ the school and feel things others cannot.",
         "options": {
-          "A": "control",
-          "B": "destroy",
-          "C": "sense",
-          "D": "talk to"
+          "A": "control with his mind",
+          "B": "destroy with special tools",
+          "C": "sense and feel its presence",
+          "D": "talk to like a friend"
         },
         "answer": "C",
         "explanation": "Mr. Nekobe says Sam can 'sense the school, to see and feel and hear what others cannot.'"
@@ -4312,10 +4312,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "The morning after the school attacked Sam, everything looked normal because the school _____ overnight.",
         "options": {
-          "A": "hid",
-          "B": "slept",
-          "C": "disappeared",
-          "D": "repaired itself"
+          "A": "hid all the broken things",
+          "B": "slept and stopped moving",
+          "C": "disappeared into thin air",
+          "D": "repaired itself completely"
         },
         "answer": "D",
         "explanation": "The school fixed itself: 'Everything was back to normal. It was like nothing had happened.'"
@@ -4325,10 +4325,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Sam didn't want to be hall monitor at first because everyone _____ the hall monitor.",
         "options": {
-          "A": "hates",
-          "B": "ignores",
-          "C": "fears",
-          "D": "laughs at"
+          "A": "hates and avoids seeing",
+          "B": "ignores and walks past",
+          "C": "fears and runs from",
+          "D": "laughs at and makes fun of"
         },
         "answer": "A",
         "explanation": "Sam says 'everyone hates the hall monitor' because they have to yell at people to get to class."
@@ -4338,10 +4338,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "To enter the secret room, Mr. Nekobe tugged twice on a _____.",
         "options": {
-          "A": "door handle",
-          "B": "light bulb",
-          "C": "rope",
-          "D": "bookshelf"
+          "A": "door handle on the wall",
+          "B": "light bulb hanging down",
+          "C": "rope from the ceiling",
+          "D": "bookshelf in the corner"
         },
         "answer": "B",
         "explanation": "Mr. Nekobe 'grabbed hold of a dim, swinging light bulb' and 'tugged twice' to open the door."
@@ -4351,10 +4351,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "When Sam put his hand on the wall in the secret room, he felt it gently _____ like breathing.",
         "options": {
-          "A": "shaking",
-          "B": "warming up",
-          "C": "swaying",
-          "D": "melting"
+          "A": "shaking back and forth",
+          "B": "warming up with heat",
+          "C": "swaying in and out",
+          "D": "melting under his hand"
         },
         "answer": "C",
         "explanation": "Sam 'heard the soft sound of air blowing. And he felt it. The wall was gently swaying.'"
@@ -4364,10 +4364,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "During training, Antonio told Sam to try using things around him as _____ and weapons.",
         "options": {
-          "A": "shields",
-          "B": "tools",
-          "C": "toys",
-          "D": "traps"
+          "A": "shields to block attacks",
+          "B": "tools to fix problems",
+          "C": "toys to play games",
+          "D": "traps to catch enemies"
         },
         "answer": "A",
         "explanation": "Antonio told him 'Try using what's around you!' Sam grabbed a locker door as a shield."
@@ -4377,10 +4377,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Lucy didn't believe Sam about the school because she thought he was losing his _____.",
         "options": {
-          "A": "courage",
-          "B": "memory",
-          "C": "mind",
-          "D": "temper"
+          "A": "courage to face problems",
+          "B": "memory of what happened",
+          "C": "mind and going crazy",
+          "D": "temper and getting angry"
         },
         "answer": "C",
         "explanation": "Lucy 'thought both of her best friends were losing their minds.'"
@@ -4390,10 +4390,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "The school trapped Ms. Grinker by making the _____ slide her into a closet.",
         "options": {
-          "A": "chairs",
-          "B": "curtains",
-          "C": "walls",
-          "D": "floorboards"
+          "A": "chairs move across the room",
+          "B": "curtains wrap around her body",
+          "C": "walls push her from behind",
+          "D": "floorboards lift up and tilt"
         },
         "answer": "D",
         "explanation": "The floorboards 'lifted up to form a slide' and Ms. Grinker 'tumbled backward into the closet.'"
@@ -4403,10 +4403,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Antonio and Lucy were in danger because they were hanging on _____ above the monster mouth.",
         "options": {
-          "A": "ropes",
-          "B": "wires",
-          "C": "ladders",
-          "D": "branches"
+          "A": "ropes tied to the ceiling",
+          "B": "wires high above the stage",
+          "C": "ladders against the wall",
+          "D": "branches from a fake tree"
         },
         "answer": "B",
         "explanation": "They were 'strung up on wires high above the stage' for the flying scene in Peter Pan."
@@ -4416,10 +4416,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Sam got the giant drum of peanut butter from the _____ kitchen.",
         "options": {
-          "A": "teacher's",
-          "B": "principal's",
-          "C": "cafeteria",
-          "D": "janitor's"
+          "A": "teacher's lounge and break room",
+          "B": "principal's private office",
+          "C": "cafeteria in the lunchroom",
+          "D": "janitor's storage closet"
         },
         "answer": "C",
         "explanation": "Sam ran to the lunchroom and into the kitchen where he found 'a giant drum of peanut butter.'"
@@ -4429,10 +4429,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "In the lunchroom, Sam used an orange lunch _____ as a shield against flying water bottles.",
         "options": {
-          "A": "box",
-          "B": "bag",
-          "C": "table",
-          "D": "tray"
+          "A": "box from his backpack",
+          "B": "bag made of plastic",
+          "C": "table flipped on its side",
+          "D": "tray held over his chest"
         },
         "answer": "D",
         "explanation": "Sam 'grabbed an orange lunch tray' and 'held it over his chest' as a shield."
@@ -4442,10 +4442,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Mr. Nekobe couldn't help during the play because curtain _____ grabbed him and threw him in a closet.",
         "options": {
-          "A": "fabric",
-          "B": "ropes",
-          "C": "hooks",
-          "D": "weights"
+          "A": "fabric wrapped around him",
+          "B": "ropes grabbed hold of him",
+          "C": "hooks pulled at his clothes",
+          "D": "weights fell down on him"
         },
         "answer": "B",
         "explanation": "The curtain ropes 'grabbed hold of' Mr. Nekobe and 'flung' him 'inside the closet.'"
@@ -4455,10 +4455,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Sam figured out the school would attack during the play when he read the _____ and realized everyone would be there.",
         "options": {
-          "A": "newspaper",
-          "B": "poster",
-          "C": "invitation",
-          "D": "script"
+          "A": "newspaper article about it",
+          "B": "poster on the hallway wall",
+          "C": "invitation for the families",
+          "D": "script for the Peter Pan play"
         },
         "answer": "C",
         "explanation": "When Sam read the play invitation, he knew 'exactly when the school would strike.'"
@@ -4468,10 +4468,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Lucy finally believed Sam when she saw the monster _____ for herself during the play.",
         "options": {
-          "A": "eyes",
-          "B": "mouth",
-          "C": "hands",
-          "D": "face"
+          "A": "eyes glowing in the dark",
+          "B": "mouth made of metal chairs",
+          "C": "hands reaching for students",
+          "D": "face appearing on the wall"
         },
         "answer": "B",
         "explanation": "Lucy saw the chair monster mouth for herself and then worked with Sam to defeat it."
@@ -4481,10 +4481,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "The training machine was made of old _____, vending machine pieces, lockers, and hockey sticks.",
         "options": {
-          "A": "car parts",
-          "B": "computers",
-          "C": "refrigerator",
-          "D": "washing machine"
+          "A": "car parts from the junkyard",
+          "B": "computers from the lab",
+          "C": "refrigerator from the kitchen",
+          "D": "washing machine from home"
         },
         "answer": "C",
         "explanation": "The machine is made of an old refrigerator, pieces of vending machine, lockers, and hockey sticks."
@@ -4494,10 +4494,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Mr. Nekobe mean when he says the school 'feeds on students'?",
         "options": {
-          "A": "The school is literally trying to eat the students",
-          "B": "The school gives students food",
-          "C": "The school makes students hungry",
-          "D": "The school teaches students lessons"
+          "A": "The school is literally trying to eat students to survive",
+          "B": "The school gives students food in the cafeteria",
+          "C": "The school makes students feel hungry all the time",
+          "D": "The school teaches students important life lessons"
         },
         "answer": "A",
         "explanation": "The school is a monster that actually eats students to survive. It's been hungry for a long time."
@@ -4507,10 +4507,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why is it scary that the school can sense Sam just like Sam can sense it?",
         "options": {
-          "A": "They can become friends",
+          "A": "They can become friends and work together someday",
           "B": "Sam is never truly safe because the school knows he is its enemy",
-          "C": "Sam can talk to the school",
-          "D": "The school wants to help Sam"
+          "C": "Sam can talk to the school and make it listen",
+          "D": "The school wants to help Sam protect the students"
         },
         "answer": "B",
         "explanation": "Mr. Nekobe warns that the school 'knows you are its enemy' - Sam can never hide from it."
@@ -4520,10 +4520,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Sam's story teach us about accepting responsibility?",
         "options": {
-          "A": "Hall monitors are very important",
-          "B": "Schools are always dangerous",
+          "A": "Hall monitors are very important people at school",
+          "B": "Schools are always dangerous places for children",
           "C": "Taking on hard jobs can show us how strong we really are",
-          "D": "Adults can never help kids"
+          "D": "Adults can never help kids when there is danger"
         },
         "answer": "C",
         "explanation": "Sam didn't want the job but accepts it, discovering he has the courage to be a hero."
@@ -4533,9 +4533,9 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why is it funny and surprising that Antonio's silly sandwich saves everyone?",
         "options": {
-          "A": "Sandwiches are magical",
-          "B": "Peanut butter is very expensive",
-          "C": "Antonio is the real hero of the story",
+          "A": "Sandwiches are magical items with special powers",
+          "B": "Peanut butter is very expensive and hard to find",
+          "C": "Antonio is the real hero of the story not Sam",
           "D": "Even silly things can become important when you need them"
         },
         "answer": "D",
@@ -4546,9 +4546,9 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does it mean that the school can repair itself overnight?",
         "options": {
-          "A": "The school is easy to beat forever",
-          "B": "Sam imagined everything",
-          "C": "The school is friendly now",
+          "A": "The school is easy to beat forever and won't return",
+          "B": "Sam imagined everything and nothing really happened",
+          "C": "The school is friendly now and won't attack again",
           "D": "The fight is never really over because the school always comes back"
         },
         "answer": "D",
@@ -4559,10 +4559,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why is it hard for Sam that most people don't believe the school is alive?",
         "options": {
-          "A": "He must protect people who think he's crazy",
-          "B": "It's a secret club",
-          "C": "Adults never care about anything",
-          "D": "The school told everyone to be quiet"
+          "A": "He must protect people who think he's completely crazy",
+          "B": "It's a secret club that only he belongs to now",
+          "C": "Adults never care about anything kids tell them",
+          "D": "The school told everyone to be quiet about it"
         },
         "answer": "A",
         "explanation": "Sam has to protect people like Lucy who think he's 'crazy' without their help."
@@ -4572,10 +4572,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does it show about the school that it waits for the right time to attack?",
         "options": {
-          "A": "The school is random and silly",
+          "A": "The school is random and attacks without thinking",
           "B": "The school is smart and plans carefully like a hunter",
-          "C": "The school is sleeping most of the time",
-          "D": "Mr. Nekobe controls when it attacks"
+          "C": "The school is sleeping most of the time during day",
+          "D": "Mr. Nekobe secretly controls when the school attacks"
         },
         "answer": "B",
         "explanation": "The school is calculating - it waits until Mr. Nekobe is weak and many people gather."
@@ -4585,10 +4585,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Sam thinks 'I'll never make it' but then finds a solution. What does this teach us?",
         "options": {
-          "A": "Giving up is the right choice",
+          "A": "Giving up is the right choice when things get hard",
           "B": "Feeling scared is okay if you keep thinking and trying",
-          "C": "Someone else will always save you",
-          "D": "Lying to yourself helps"
+          "C": "Someone else will always save you in the end",
+          "D": "Lying to yourself helps you feel better about things"
         },
         "answer": "B",
         "explanation": "Sam almost gives up but remembers his training and finds a creative solution."
@@ -4598,10 +4598,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why is it ironic (funny in an unexpected way) that Sam plays a small part in the play?",
         "options": {
-          "A": "Pirates aren't friendly in real life",
-          "B": "He doesn't like pirates",
+          "A": "Pirates aren't friendly people in real life stories",
+          "B": "He doesn't like pirates and wanted a different role",
           "C": "He has almost no lines but becomes the hero who saves everyone",
-          "D": "Pirates aren't real"
+          "D": "Pirates aren't real and shouldn't be in the play"
         },
         "answer": "C",
         "explanation": "Sam has 'the worst part' with few lines, but becomes the most important person when danger strikes."
@@ -4611,9 +4611,9 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does it mean when Mr. Nekobe passes his job to Sam?",
         "options": {
-          "A": "Adults are lazy and don't want to work",
-          "B": "Being old means you're bad at things",
-          "C": "Hall monitors have magical powers",
+          "A": "Adults are lazy and don't want to work anymore",
+          "B": "Being old means you're bad at doing important things",
+          "C": "Hall monitors have magical powers that can be given",
           "D": "Young people must sometimes take over when older people can't continue"
         },
         "answer": "D",
@@ -4624,10 +4624,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does the school attack when the curtain is closed?",
         "options": {
-          "A": "It picks a random time",
-          "B": "The school loves watching plays",
+          "A": "It picks a random time to attack the students",
+          "B": "The school loves watching plays and got excited",
           "C": "The audience can't see what's happening on stage",
-          "D": "It was tired of waiting"
+          "D": "It was tired of waiting and became impatient"
         },
         "answer": "C",
         "explanation": "With the curtain closed, 'The audience can't see the stage' - no adults can witness or stop it."
@@ -4637,10 +4637,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why is Sam's training with the machine important?",
         "options": {
-          "A": "Training is boring but required",
+          "A": "Training is boring but required by Mr. Nekobe",
           "B": "Practice helps you think clearly when real danger comes",
-          "C": "Only people born talented can be heroes",
-          "D": "You don't need any help to be brave"
+          "C": "Only people born talented can be real heroes",
+          "D": "You don't need any help to be brave and strong"
         },
         "answer": "B",
         "explanation": "Sam's training prepares him to think creatively under pressure when the real attacks happen."
@@ -4650,10 +4650,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why is it important that Sam thanks his friends at the end?",
         "options": {
-          "A": "He's just being polite",
-          "B": "Lucy and Antonio did all the work",
+          "A": "He's just being polite because that's what you do",
+          "B": "Lucy and Antonio did all the work by themselves",
           "C": "Even heroes need friends and teamwork to succeed",
-          "D": "He's lying to make them feel good"
+          "D": "He's lying to make them feel good about helping"
         },
         "answer": "C",
         "explanation": "Sam says 'I couldn't have done it without you two' - heroes need their friends."
@@ -4664,9 +4664,9 @@ const quizData = {
         "question": "What does the heartbeat sound from the clock tell us about the school?",
         "options": {
           "A": "The school is truly alive with a beating heart like a living creature",
-          "B": "Time is running out for everyone",
-          "C": "Sam is very scared",
-          "D": "The clock is simply broken"
+          "B": "Time is running out for everyone in the building",
+          "C": "Sam is very scared and imagining scary sounds",
+          "D": "The clock is simply broken and making strange noise"
         },
         "answer": "A",
         "explanation": "The heartbeat shows Eerie Elementary isn't just magical - it's a living organism."
@@ -4676,10 +4676,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Antonio help Sam even when he's not sure the school is really alive?",
         "options": {
-          "A": "Antonio believes everything people tell him",
+          "A": "Antonio believes everything that people tell him always",
           "B": "True friends support each other even when things seem unbelievable",
-          "C": "Lucy told him to help",
-          "D": "Antonio saw proof before anyone else"
+          "C": "Lucy told him to help Sam with the training",
+          "D": "Antonio saw proof before anyone else in the school"
         },
         "answer": "B",
         "explanation": "Antonio helps even while saying 'I'm still not sure we aren't crazy' - that's true friendship."
@@ -4689,10 +4689,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Sam say 'Just trust me' when he leaves Lucy in danger?",
         "options": {
-          "A": "He doesn't care about her",
-          "B": "Lucy is too weak to help",
+          "A": "He doesn't care about her safety at all",
+          "B": "Lucy is too weak to help him fight the school",
           "C": "Sometimes you have to leave loved ones briefly to get help",
-          "D": "He's running away from the fight"
+          "D": "He's running away from the fight because he's scared"
         },
         "answer": "C",
         "explanation": "Sam must leave Lucy and Antonio in danger to get peanut butter - trust is essential."
@@ -4702,10 +4702,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does the author describe the school as old and crumbling?",
         "options": {
-          "A": "Old buildings are very common",
+          "A": "Old buildings are very common in most small towns",
           "B": "The decaying look makes the school seem more scary and wrong",
-          "C": "It saves the town money",
-          "D": "Kids prefer old schools to new ones"
+          "C": "It saves the town money to use old buildings",
+          "D": "Kids prefer old schools to new modern ones"
         },
         "answer": "B",
         "explanation": "The school looks like 'an old castle made of crumbling red brick' - decay suggests something evil."
@@ -4715,9 +4715,9 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why doesn't Sam's mom believe his story about the school?",
         "options": {
-          "A": "Parents are mean to their children",
-          "B": "She's secretly part of the school",
-          "C": "Adults never listen to kids at all",
+          "A": "Parents are mean to their children and don't care",
+          "B": "She's secretly part of the school and hiding it",
+          "C": "Adults never listen to kids at all about anything",
           "D": "The story sounds too crazy for an adult to believe"
         },
         "answer": "D",
@@ -4728,10 +4728,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Mr. Nekobe mean when he calls Sam 'the school's enemy'?",
         "options": {
-          "A": "Sam hates going to school",
+          "A": "Sam hates going to school like most students do",
           "B": "Sam is the only one who can stop the school from hurting students",
-          "C": "The school made a mistake choosing Sam",
-          "D": "Sam failed too many tests"
+          "C": "The school made a mistake choosing Sam as monitor",
+          "D": "Sam failed too many tests and got in trouble"
         },
         "answer": "B",
         "explanation": "As hall monitor, Sam is the school's natural opponent - the one person able to fight it."
@@ -4741,9 +4741,9 @@ const quizData = {
         "difficulty": "hard",
         "question": "What is the main message of The School Is Alive?",
         "options": {
-          "A": "Schools are always scary places",
-          "B": "Never become a hall monitor",
-          "C": "Adults can never be trusted to help",
+          "A": "Schools are always scary places for students",
+          "B": "Never become a hall monitor at your school",
+          "C": "Adults can never be trusted to help children",
           "D": "Regular kids can be heroes when they accept responsibility and work with friends"
         },
         "answer": "D",
@@ -6091,10 +6091,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Wolfgang explained that everyone at wizard school had been teasing him because...",
         "options": {
-          "A": "his father transformed into a dragon and flew past the castle where everyone saw him",
-          "B": "his father accidentally destroyed the school library with a failed magic spell",
-          "C": "his father was caught stealing ancient spell books from the headmaster's office",
-          "D": "his father got into a big fight with the head wizard during a ceremony"
+          "A": "his father transformed into a dragon and flew past the castle",
+          "B": "his father destroyed the school library with a failed spell",
+          "C": "his father was caught stealing books from the headmaster",
+          "D": "his father got into a big fight with the head wizard"
         },
         "answer": "A",
         "explanation": "Wolfgang said 'Ever since my dad turned into a dragon and flew past the castle, everyone's been teasing me.'"
@@ -6104,10 +6104,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Wolfgang told Drake that if Zoltan's dream world plan failed, his father knew about...",
         "options": {
-          "A": "an ancient magic spell that could summon the Naga to any location he wanted",
-          "B": "a secret doorway hidden in Barga that led directly to where the Naga lived",
-          "C": "a powerful wizard who could help him break into the Naga's temple by force",
-          "D": "a magical map showing all the hidden entrances to the Dragon Islands"
+          "A": "an ancient spell that could summon the Naga anywhere",
+          "B": "a secret doorway in Barga that led to the Naga",
+          "C": "a powerful wizard who could break into the temple",
+          "D": "a magical map showing entrances to Dragon Islands"
         },
         "answer": "B",
         "explanation": "Wolfgang said his dad 'knew about a secret doorway to the Naga in a land called Barga.'"
@@ -6117,10 +6117,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "When Drake and Wolfgang arrived in the ice cave in Barga, they discovered...",
         "options": {
-          "A": "a group of snow monsters guarding the entrance to the Naga's secret door",
-          "B": "Zoltan waiting for them with a trap that he had prepared in advance",
-          "C": "a girl named Nuna kneeling beside her injured earth dragon Kinguk",
-          "D": "an old wizard who had been protecting the secret door for many years"
+          "A": "snow monsters guarding the entrance to the secret door",
+          "B": "Zoltan waiting for them with a trap he had prepared",
+          "C": "a girl named Nuna beside her injured dragon Kinguk",
+          "D": "an old wizard who had been protecting the door"
         },
         "answer": "C",
         "explanation": "They found Nuna, a Dragon Master, kneeling next to her injured earth dragon Kinguk."
@@ -6130,10 +6130,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Nuna was able to heal her dragon Kinguk from Zoltan's dark magic by...",
         "options": {
-          "A": "using a special crystal that absorbed all of the dark energy from Kinguk's body",
-          "B": "calling on the power of the Naga to remove the curse from her dragon",
-          "C": "asking Drake to use his dragon stone to transfer healing energy to Kinguk",
-          "D": "making stinkweed tea and singing a traditional healing song from her people"
+          "A": "using a special crystal that absorbed the dark energy",
+          "B": "calling on the Naga's power to remove the curse",
+          "C": "asking Drake to transfer healing energy with his stone",
+          "D": "making stinkweed tea and singing a healing song"
         },
         "answer": "D",
         "explanation": "Nuna made tea from stinkweed and sang a healing song from her people while Kinguk drank it."
@@ -6143,10 +6143,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Drake explained to Wolfgang that the dream amulet from Kishar had the special power to...",
         "options": {
-          "A": "transform Zoltan back into a human if they could get close enough to use it",
-          "B": "control any dragon that looked directly into the glowing light of the amulet",
-          "C": "open a portal to the dream world where Zoltan's transformation first happened",
-          "D": "protect the person wearing it from all wizard magic including Zoltan's spells"
+          "A": "transform Zoltan back into a human if used on him",
+          "B": "control any dragon that looked into its glowing light",
+          "C": "open a portal to the dream world where it happened",
+          "D": "protect the wearer from all wizard magic and spells"
         },
         "answer": "A",
         "explanation": "Drake explained that Kishar gave him the dream amulet, which 'has the power to transform Zoltan back into a human.'"
@@ -6156,10 +6156,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "When a snow monster attacked them in the cave, Nuna commanded Kinguk to...",
         "options": {
-          "A": "shoot a beam of earth energy directly at the monster to knock it backward",
-          "B": "create a wall of rocks to block the monster from reaching the group",
-          "C": "crack open the ground so the snow monster would fall into the hole",
-          "D": "tunnel underground and attack the snow monster from behind by surprise"
+          "A": "shoot a beam of earth energy at the monster",
+          "B": "create a wall of rocks to block the monster",
+          "C": "crack open the ground so the monster would fall",
+          "D": "tunnel underground and attack from behind"
         },
         "answer": "C",
         "explanation": "Nuna commanded 'Kinguk, crack the earth,' and the dragon opened a crack in the floor that trapped the snow monster."
@@ -6169,10 +6169,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "The dream amulet was destroyed when Drake accidentally dropped it and...",
         "options": {
-          "A": "it shattered into a thousand pieces when it hit the hard stone floor of the cave",
-          "B": "Zoltan quickly blasted it with red magic before Drake could pick it back up",
-          "C": "a snow monster grabbed it and crushed it in its powerful frozen claws",
-          "D": "the Naga's earthquake knocked it into a deep crack in the ground forever"
+          "A": "it shattered into pieces when it hit the stone floor",
+          "B": "Zoltan quickly blasted it with red magic attack",
+          "C": "a snow monster grabbed it and crushed it completely",
+          "D": "the Naga's earthquake knocked it into a deep crack"
         },
         "answer": "B",
         "explanation": "When Drake dropped the amulet, Zoltan cried 'Confectus!' and hit it with red magic, causing it to burst into pieces."
@@ -6182,10 +6182,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "When Jaina finally arrived at the ice cave riding on Vulcan, she immediately...",
         "options": {
-          "A": "attacked Zoltan with a powerful spell that pushed him away from the door",
-          "B": "placed a glowing dragon stone around Wolfgang's neck to make him a Dragon Master",
-          "C": "created a magical barrier around the group to protect them from Zoltan",
-          "D": "ordered all the dragons to work together to capture Zoltan in an energy cage"
+          "A": "attacked Zoltan with a spell to push him away",
+          "B": "placed a dragon stone around Wolfgang's neck",
+          "C": "created a magical barrier to protect the group",
+          "D": "ordered all the dragons to capture Zoltan"
         },
         "answer": "B",
         "explanation": "Jaina jumped from Vulcan's back and placed a dragon stone around Wolfgang's neck, making him a Dragon Master."
@@ -6195,10 +6195,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "The closing spell for the secret door to the Naga only worked when...",
         "options": {
-          "A": "all four Dragon Masters joined together and spoke the words at the same time",
-          "B": "Zoltan finally agreed to help Jaina and they both said the spell together",
-          "C": "Wolfgang used his new dragon stone connection to add power to Jaina's spell",
-          "D": "the Naga himself gave permission for the door to be sealed shut forever"
+          "A": "all four Dragon Masters joined and spoke together",
+          "B": "Zoltan finally agreed to help Jaina say the spell",
+          "C": "Wolfgang used his dragon stone to add more power",
+          "D": "the Naga gave permission to seal the door forever"
         },
         "answer": "B",
         "explanation": "Jaina started the spell but it only worked when 'Zoltan joined her in saying the spell. Cloud ostium.'"
@@ -6208,10 +6208,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "After the 100 mini-Maldreds broke through the energy shield, they all escaped by...",
         "options": {
-          "A": "flying out through a crack in the cave ceiling that led to the sky outside",
-          "B": "running in different directions so fast that no one could catch any of them",
-          "C": "poofing away one by one until every single mini-Maldred had disappeared",
-          "D": "combining back into one Maldred who then teleported to a secret location"
+          "A": "flying out through a crack in the cave ceiling",
+          "B": "running in different directions so fast to escape",
+          "C": "poofing away one by one until all had vanished",
+          "D": "combining back into one Maldred who teleported"
         },
         "answer": "C",
         "explanation": "Each winged Maldred disappeared in an instant with 'poof, poof, poof' - they escaped by poofing away."
@@ -6221,10 +6221,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Wolfgang explained that after his mother died, his father Zoltan changed because...",
         "options": {
-          "A": "he started ignoring Wolfgang completely and spent all his time studying magic alone",
-          "B": "he became very overprotective and never let Wolfgang leave the house anymore",
-          "C": "he stopped practicing magic entirely and became very sad and quiet all the time",
-          "D": "he blamed Wolfgang for what happened and refused to teach him any more spells"
+          "A": "he started ignoring Wolfgang and studied magic alone",
+          "B": "he became overprotective and kept Wolfgang home",
+          "C": "he stopped practicing magic and became very sad",
+          "D": "he blamed Wolfgang and refused to teach him spells"
         },
         "answer": "A",
         "explanation": "Wolfgang said 'Dad started ignoring me to study magic all the time. He was always down in his workshop.'"
@@ -6234,10 +6234,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Drake and Worm were able to follow Wolfgang to the ice cave in Barga because...",
         "options": {
-          "A": "Drake's dragon stone started glowing brighter whenever they got closer to Wolfgang",
-          "B": "Worm could sense and follow the trail of magical energy that Wolfgang left behind",
-          "C": "Jaina used her wizard powers to show them exactly where Wolfgang had gone",
-          "D": "they found footprints in the snow that led them all the way to the cave entrance"
+          "A": "Drake's dragon stone glowed brighter when near Wolfgang",
+          "B": "Worm could sense and follow Wolfgang's magical trail",
+          "C": "Jaina used her wizard powers to show them the way",
+          "D": "they found footprints in the snow to the cave"
         },
         "answer": "B",
         "explanation": "Worm told Drake 'If we transport now, I can follow Wolfgang's trail of magical energy.'"
@@ -6247,10 +6247,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Nuna explained that the secret door to the Naga in Barga was created long ago so that...",
         "options": {
-          "A": "powerful wizards could visit the Naga to learn ancient magic from the great dragon",
-          "B": "Dragon Masters could reach the Naga quickly in case the Dragon Islands were destroyed",
-          "C": "evil villains like Maldred could be brought to the Naga for punishment and prison",
-          "D": "the Naga could escape from the temple if enemies ever tried to attack him there"
+          "A": "wizards could visit the Naga to learn ancient magic",
+          "B": "Dragon Masters could reach the Naga if Islands fell",
+          "C": "evil villains could be brought to the Naga for prison",
+          "D": "the Naga could escape if enemies attacked the temple"
         },
         "answer": "B",
         "explanation": "Nuna explained the door 'was created years after the Temple of the Naga was built, as a way to reach the Naga if the Dragon Islands are ever destroyed.'"
@@ -6260,10 +6260,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Wolfgang chose to cast the dancing radish spell against his father because...",
         "options": {
-          "A": "it was the very first spell that Zoltan ever taught him when he was young",
-          "B": "the spell was so powerful that even Zoltan would not be able to block it",
-          "C": "Jaina told him it was the only spell that could break through Zoltan's shield",
-          "D": "he remembered that his father always hated that spell more than any other"
+          "A": "it was the very first spell that Zoltan taught him",
+          "B": "the spell was so powerful that Zoltan couldn't block it",
+          "C": "Jaina said it could break through Zoltan's shield",
+          "D": "he knew his father always hated that spell the most"
         },
         "answer": "A",
         "explanation": "Wolfgang said 'It's the first spell you ever taught me, Dad' when he cast the dancing radish spell."
@@ -6273,10 +6273,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "The dancing radish spell worked on Zoltan because when he saw it, he...",
         "options": {
-          "A": "became confused and forgot what he was doing because the spell was so strange",
-          "B": "remembered happy memories of teaching young Wolfgang magic when he was five",
-          "C": "realized that Wolfgang had become a more powerful wizard than him already",
-          "D": "felt embarrassed that such a silly spell was being used against a wizard dragon"
+          "A": "became confused and forgot what he was doing",
+          "B": "remembered happy memories of teaching Wolfgang",
+          "C": "realized Wolfgang had become more powerful than him",
+          "D": "felt embarrassed that a silly spell was used on him"
         },
         "answer": "B",
         "explanation": "Zoltan stopped and remembered: 'That was so long ago... You were so good at magic, even at age five. I was so proud of you.'"
@@ -6286,10 +6286,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "When Zoltan attacked with his magic, Nuna's dragon Kinguk was able to escape by...",
         "options": {
-          "A": "flying up to the ceiling of the cave where Zoltan's magic could not reach her",
-          "B": "hiding behind a large boulder that blocked the blast of Zoltan's powerful spell",
-          "C": "creating a shield of earth energy that absorbed all of Zoltan's magical attack",
-          "D": "diving headfirst into the cave floor and tunneling deep into the earth below"
+          "A": "flying up to the ceiling where magic couldn't reach",
+          "B": "hiding behind a boulder that blocked the spell",
+          "C": "creating a shield of earth energy to absorb it",
+          "D": "diving headfirst into the floor and tunneling"
         },
         "answer": "D",
         "explanation": "Before Zoltan's attack could hit Kinguk, 'she dove headfirst into the cave floor. She tunneled into the earth, escaping the attack.'"
@@ -6299,10 +6299,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Wolfgang was finally able to calm his father's wild dragon energy by using his new dragon stone to...",
         "options": {
-          "A": "send pictures of happy family memories from when they used to play at the beach",
-          "B": "show Zoltan images of what would happen if he continued on his dangerous path",
-          "C": "transfer peaceful energy from his own mind directly into his father's thoughts",
-          "D": "connect to Zoltan's human side that was still trapped inside the dragon body"
+          "A": "send pictures of happy family memories at the beach",
+          "B": "show Zoltan images of what would happen if he continued",
+          "C": "transfer peaceful energy from his mind to his father",
+          "D": "connect to Zoltan's human side trapped inside"
         },
         "answer": "A",
         "explanation": "Using his new dragon master connection, Wolfgang sent pictures with his mind of 'playing in the sand at the beach like we used to with Mom.'"
@@ -6312,10 +6312,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "The red bottle containing Maldred finally broke when...",
         "options": {
-          "A": "Zoltan hit it with his magic trying to free Maldred as quickly as he could",
-          "B": "the Naga caused a powerful earthquake that made the bottle tip over and shatter",
-          "C": "one of the mini-Maldreds flew into the bottle and knocked it off the shelf",
-          "D": "Drake accidentally bumped into the shelf while trying to escape from the cave"
+          "A": "Zoltan hit it with magic trying to free Maldred",
+          "B": "the Naga's earthquake made the bottle tip and shatter",
+          "C": "a mini-Maldred flew into it and knocked it off",
+          "D": "Drake bumped the shelf while trying to escape"
         },
         "answer": "B",
         "explanation": "During the Naga's strongest earthquake, 'the red bottle... tipped over and shattered into pieces.'"
@@ -6325,10 +6325,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "When Maldred was freed from the bottle, instead of becoming one wizard again, he...",
         "options": {
-          "A": "split into 100 tiny cat-sized versions of himself that each had wings to fly",
-          "B": "transformed into a giant monster that was even more powerful than before",
-          "C": "became invisible and escaped without anyone being able to see where he went",
-          "D": "was so weak that he could barely move and had to be carried out of the cave"
+          "A": "split into 100 tiny cat-sized versions with wings",
+          "B": "transformed into a giant monster more powerful",
+          "C": "became invisible and escaped without being seen",
+          "D": "was so weak he could barely move or do anything"
         },
         "answer": "A",
         "explanation": "Each mini-Maldred was 'the size of a cat' and 'a wizard with a red body, an eye patch, and a pointy red beard.'"
@@ -6338,10 +6338,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Jaina and Zoltan worked together to protect the group by combining their magic to create...",
         "options": {
-          "A": "a powerful attack spell that pushed all the mini-Maldreds away from the group",
-          "B": "a teleportation circle that would transport everyone safely back to the castle",
-          "C": "an energy shield made of silver and pink magic to block the mini-Maldreds",
-          "D": "a cage of magical energy that trapped several of the mini-Maldreds inside"
+          "A": "a powerful attack spell to push all the Maldreds away",
+          "B": "a teleportation circle to transport them to the castle",
+          "C": "an energy shield of silver and pink magic for defense",
+          "D": "a cage of magical energy that trapped some Maldreds"
         },
         "answer": "C",
         "explanation": "Jaina's 'silver magic' combined with Zoltan's 'pink magic' to form the energy shield."
@@ -8947,12 +8947,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "Bluestar offered Rusty a place in ThunderClan because ---.",
         "options": {
-          "A": "she was impressed by his fighting and hunting ability",
-          "B": "she needed someone to do chores",
-          "C": "Graypaw asked her to",
+          "A": "Graypaw asked her to",
+          "B": "she was impressed by his fighting and hunting ability",
+          "C": "she needed someone to do chores",
           "D": "Lionheart recommended him"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Bluestar says 'You fight well for a twoleg pet' and 'You do seem to have a natural hunting ability.'"
       },
       {
@@ -8973,12 +8973,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "Bluestar was deeply troubled after the Sunning Rocks battle because ---.",
         "options": {
-          "A": "she lost her favorite warrior",
+          "A": "ThunderClan hadn't been beaten in its own territory since she became leader",
           "B": "the medicine cat was injured",
           "C": "she wanted to retire soon",
-          "D": "ThunderClan hadn't been beaten in its own territory since she became leader"
+          "D": "she lost her favorite warrior"
         },
-        "answer": "D",
+        "answer": "A",
         "explanation": "Bluestar says 'ThunderClan has not been beaten in its own territory since I became leader.'"
       },
       {
@@ -8986,12 +8986,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "Rusty felt his collar was uncomfortable because ---.",
         "options": {
-          "A": "it rubbed and pinched his neck",
-          "B": "it was too loose on him",
-          "C": "it was made of metal",
-          "D": "it had a bell that hurt his ears"
+          "A": "it was too loose on him",
+          "B": "it was made of metal",
+          "C": "it had a bell that hurt his ears",
+          "D": "it rubbed and pinched his neck"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "The text says 'His collar rubbed uncomfortably around his neck.'"
       },
       {
@@ -9012,12 +9012,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "Smudge warned Rusty about the woods because ---.",
         "options": {
-          "A": "he had been there himself many times",
+          "A": "Henry told him about huge wild cats there",
           "B": "a dog chased him there once",
           "C": "his owner forbade him from going",
-          "D": "Henry told him about huge wild cats there"
+          "D": "he had been there himself many times"
         },
-        "answer": "D",
+        "answer": "A",
         "explanation": "Smudge says 'Henry told me there are all sorts of dangerous animals... huge wild cats who eat live rabbits.'"
       },
       {
@@ -9051,12 +9051,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "Bluestar warned Rusty that if he stayed a kittypet, he would eventually ---.",
         "options": {
-          "A": "become bored with his life",
+          "A": "be taken to the cutter like fat, lazy Henry",
           "B": "run out of food",
           "C": "be abandoned by his owners",
-          "D": "be taken to the cutter like fat, lazy Henry"
+          "D": "become bored with his life"
         },
-        "answer": "D",
+        "answer": "A",
         "explanation": "Bluestar mentions 'the cutter' and Rusty thinks of Henry who 'had become fat and lazy since his visit to the vet.'"
       },
       {
@@ -9077,12 +9077,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "Rusty's mouse escaped during his dream because ---.",
         "options": {
-          "A": "the sound of food being poured woke him",
-          "B": "another cat scared it away",
-          "C": "it was too fast for him",
-          "D": "he fell asleep again"
+          "A": "another cat scared it away",
+          "B": "it was too fast for him",
+          "C": "he fell asleep again",
+          "D": "the sound of food being poured woke him"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "The noise was 'the rattle of hard, dried pellets of food as they were tipped into his dish.'"
       },
       {
@@ -9104,11 +9104,11 @@ const quizData = {
         "question": "Redtail ordered ThunderClan to retreat because ---.",
         "options": {
           "A": "he was a coward",
-          "B": "Bluestar called them back",
+          "B": "there were too many RiverClan warriors",
           "C": "it started raining hard",
-          "D": "there were too many RiverClan warriors"
+          "D": "Bluestar called them back"
         },
-        "answer": "D",
+        "answer": "B",
         "explanation": "Redtail says 'This is useless! There are too many RiverClan warriors!' and 'we cannot afford to lose any more warriors.'"
       },
       {
@@ -9116,12 +9116,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "Rusty impressed Bluestar with his hunting because ---.",
         "options": {
-          "A": "she noticed he'd have caught the mouse if he hadn't hesitated",
-          "B": "he caught a huge mouse",
-          "C": "he tracked a fox successfully",
-          "D": "he brought her a gift"
+          "A": "he caught a huge mouse",
+          "B": "he tracked a fox successfully",
+          "C": "he brought her a gift",
+          "D": "she noticed he'd have caught the mouse if he hadn't hesitated"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Bluestar says 'You would have caught that mouse if you had not hesitated so long.'"
       },
       {
@@ -9156,11 +9156,11 @@ const quizData = {
         "question": "After his first real hunt, Rusty's mouse escaped because ---.",
         "options": {
           "A": "it was too fast",
-          "B": "Graypaw stole it away",
+          "B": "his bell jangled and scared it away",
           "C": "it hid in a tree",
-          "D": "his bell jangled and scared it away"
+          "D": "Graypaw stole it away"
         },
-        "answer": "D",
+        "answer": "B",
         "explanation": "A noise made him jump, 'His bell jangled treacherously, and the mouse darted away.'"
       },
       {
@@ -9168,12 +9168,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "Rusty did something unusual that Bluestar had never seen a kittypet do, which was ---.",
         "options": {
-          "A": "turn to face Graypaw instead of running away",
-          "B": "climb a tree very quickly",
-          "C": "catch a bird",
-          "D": "swim across a stream"
+          "A": "climb a tree very quickly",
+          "B": "catch a bird",
+          "C": "swim across a stream",
+          "D": "turn to face Graypaw instead of running away"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Bluestar says 'you turned to face him when he chased you. I've not seen a kittypet do that before.'"
       },
       {
@@ -9196,10 +9196,10 @@ const quizData = {
         "options": {
           "A": "couldn't be a warrior",
           "B": "wasn't a real cat",
-          "C": "couldn't join ThunderClan",
-          "D": "hadn't lived"
+          "C": "hadn't lived",
+          "D": "couldn't join ThunderClan"
         },
-        "answer": "D",
+        "answer": "C",
         "explanation": "Graypaw says 'Until you've tasted a fresh-killed mouse, you haven't lived.'"
       },
       {
@@ -9222,10 +9222,10 @@ const quizData = {
         "options": {
           "A": "He is ashamed of the collar",
           "B": "He doesn't like cleaning",
-          "C": "He's completely leaving his kittypet life",
-          "D": "He wants to hide evidence"
+          "C": "He wants to hide evidence",
+          "D": "He's completely leaving his kittypet life"
         },
-        "answer": "C",
+        "answer": "D",
         "explanation": "Burying the collar symbolizes his total commitment to clan life and rejection of his kittypet past."
       },
       {
@@ -9234,11 +9234,11 @@ const quizData = {
         "question": "What does Graypaw's description of kittypet life reveal about clan cats' values?",
         "options": {
           "A": "They envy kittypets' comfortable life",
-          "B": "They want to become kittypets",
+          "B": "They value freedom and wildness over comfort",
           "C": "They don't understand kittypets at all",
-          "D": "They value freedom and wildness over comfort"
+          "D": "They want to become kittypets"
         },
-        "answer": "D",
+        "answer": "B",
         "explanation": "Graypaw mocks kittypets for 'eating stuff that doesn't look like food' and 'making dirt in a box' - he values 'wild and free' life."
       },
       {
@@ -9246,12 +9246,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why is it significant that Rusty felt 'no fear, only exhilaration' during his fight?",
         "options": {
-          "A": "He has natural warrior instincts as a kittypet",
-          "B": "He was too tired to be scared",
-          "C": "He knew he would win easily",
-          "D": "Graypaw wasn't fighting seriously"
+          "A": "He was too tired to be scared",
+          "B": "He knew he would win easily",
+          "C": "Graypaw wasn't fighting seriously",
+          "D": "He has natural warrior instincts as a kittypet"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Feeling exhilaration instead of fear during battle suggests he has the warrior spirit Bluestar sees in him."
       },
       {
@@ -9274,10 +9274,10 @@ const quizData = {
         "options": {
           "A": "To scare him randomly",
           "B": "To teach him about veterinarians",
-          "C": "To show what he'll lose as a kittypet",
-          "D": "To make him afraid of humans"
+          "C": "To make him afraid of humans",
+          "D": "To show what he'll lose as a kittypet"
         },
-        "answer": "C",
+        "answer": "D",
         "explanation": "Bluestar warns that staying with twolegs means losing part of himself, like Henry who became 'fat and lazy' after the vet."
       },
       {
@@ -9285,12 +9285,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Lionheart's statement 'You cannot live with a paw in each world' mean?",
         "options": {
-          "A": "Cats can't walk properly",
+          "A": "Rusty must fully commit to one life",
           "B": "The forest floor is uneven",
           "C": "Warriors can't visit twoleg places",
-          "D": "Rusty must fully commit to one life"
+          "D": "Cats can't walk properly"
         },
-        "answer": "D",
+        "answer": "A",
         "explanation": "Lionheart means Rusty must choose completely - no halfway commitment is possible."
       },
       {
@@ -9325,11 +9325,11 @@ const quizData = {
         "question": "What does Rusty's recurring dream about hunting mice suggest about his character?",
         "options": {
           "A": "He's always hungry",
-          "B": "He watches too much TV",
+          "B": "He has natural hunting instincts yearning wild",
           "C": "He doesn't like his cat food",
-          "D": "He has natural hunting instincts yearning wild"
+          "D": "He watches too much TV"
         },
-        "answer": "D",
+        "answer": "B",
         "explanation": "The dreams show Rusty has warrior instincts even before meeting the clan - he's drawn to the wild."
       },
       {
@@ -9352,10 +9352,10 @@ const quizData = {
         "options": {
           "A": "They are unfriendly",
           "B": "They enjoy fighting",
-          "C": "Survival depends on protecting limited resources",
-          "D": "They have too much land"
+          "C": "They have too much land",
+          "D": "Survival depends on protecting limited resources"
         },
-        "answer": "C",
+        "answer": "D",
         "explanation": "Bluestar explains prey is scarce and 'there's never enough to go around' - territory means survival."
       },
       {
@@ -9363,12 +9363,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Smudge's character represent in contrast to Rusty?",
         "options": {
-          "A": "A better fighter",
+          "A": "A cat content with kittypet life who fears unknown",
           "B": "Rusty's enemy",
           "C": "A future warrior",
-          "D": "A cat content with kittypet life who fears unknown"
+          "D": "A better fighter"
         },
-        "answer": "D",
+        "answer": "A",
         "explanation": "Smudge is afraid of the woods and happy as a kittypet - the opposite of Rusty's adventurous spirit."
       },
       {
@@ -9403,11 +9403,11 @@ const quizData = {
         "question": "What theme does the warrior code represent in clan society?",
         "options": {
           "A": "Just rules to follow",
-          "B": "Punishment for wrongdoers",
+          "B": "A sacred system of honor and loyalty",
           "C": "A way to exclude outsiders",
-          "D": "A sacred system of honor and loyalty"
+          "D": "Punishment for wrongdoers"
         },
-        "answer": "D",
+        "answer": "B",
         "explanation": "The code governs all behavior and warriors promise to 'protect and defend this clan, even at the cost of your lives.'"
       },
       {
@@ -9429,11 +9429,11 @@ const quizData = {
         "question": "What does the phrase 'the feel of the wind in your whiskers' represent?",
         "options": {
           "A": "Bad weather",
-          "B": "A disease",
+          "B": "Freedom and wild instincts of a warrior",
           "C": "Cold temperatures",
-          "D": "Freedom and wild instincts of a warrior"
+          "D": "A disease"
         },
-        "answer": "D",
+        "answer": "B",
         "explanation": "Graypaw uses this phrase to describe the wild spirit that kittypets supposedly lack."
       },
       {
