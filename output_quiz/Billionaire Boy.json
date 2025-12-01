@@ -13,12 +13,12 @@
       "difficulty": "easy",
       "question": "What is the main character's full name?",
       "options": {
-        "A": "Joe Spud",
-        "B": "Bob Spud",
+        "A": "Bob Spud",
+        "B": "Tom Spud",
         "C": "Raj Spud",
-        "D": "Tom Spud"
+        "D": "Joe Spud"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "The main character is Joe Spud, a 12-year-old billionaire boy."
     },
     {
@@ -26,12 +26,12 @@
       "difficulty": "easy",
       "question": "How old is Joe at the start of the story?",
       "options": {
-        "A": "10 years old",
-        "B": "11 years old",
-        "C": "12 years old",
-        "D": "13 years old"
+        "A": "11 years old",
+        "B": "12 years old",
+        "C": "13 years old",
+        "D": "10 years old"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "The text says 'He was only 12, but he was ridiculously, preposterously rich.'"
     },
     {
@@ -39,8 +39,8 @@
       "difficulty": "easy",
       "question": "What product made Joe's dad a billionaire?",
       "options": {
-        "A": "Softroll toilet paper",
-        "B": "Cleanwipe tissues",
+        "A": "Cleanwipe tissues",
+        "B": "Softroll toilet paper",
         "C": "Wetwipe baby wipes",
         "D": "Bumfresh moist tissue"
       },
@@ -53,9 +53,9 @@
       "question": "What is Joe's best friend's name?",
       "options": {
         "A": "Raj the shopkeeper",
-        "B": "Dave from school",
+        "B": "Alan the Cub Scout leader",
         "C": "Bob the fat boy",
-        "D": "Alan the Cub Scout leader"
+        "D": "Dave from school"
       },
       "answer": "C",
       "explanation": "Bob is the fat boy who becomes Joe's best friend at his new school."
@@ -65,12 +65,12 @@
       "difficulty": "easy",
       "question": "What job did Mr Spud have before becoming rich?",
       "options": {
-        "A": "He sold newspapers at a shop",
-        "B": "He rolled toilet paper at a factory",
-        "C": "He taught at a local school",
-        "D": "He drove a delivery truck"
+        "A": "He rolled toilet paper at a factory",
+        "B": "He sold newspapers at a shop",
+        "C": "He drove a delivery truck",
+        "D": "He taught at a local school"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "Mr Spud had to roll the paper around the cardboard inner tube at a loo roll factory."
     },
     {
@@ -78,10 +78,10 @@
       "difficulty": "easy",
       "question": "What is the name of Joe's previous posh school?",
       "options": {
-        "A": "Westminster Academy for Boys",
-        "B": "Royal Boys School London",
+        "A": "St. Peter's Boarding School",
+        "B": "Westminster Academy for Boys",
         "C": "St. Cuthbert's School for Boys",
-        "D": "St. Peter's Boarding School"
+        "D": "Royal Boys School London"
       },
       "answer": "C",
       "explanation": "Joe attended St. Cuthbert's School for Boys which cost £200,000 a term."
@@ -91,12 +91,12 @@
       "difficulty": "easy",
       "question": "Who runs the local newsagent shop?",
       "options": {
-        "A": "Mr Spud runs it as a hobby",
-        "B": "Mrs Trafe the dinner lady",
-        "C": "Bob's mum after work",
-        "D": "Raj the friendly shopkeeper"
+        "A": "Mrs Trafe the dinner lady",
+        "B": "Raj the friendly shopkeeper",
+        "C": "Mr Spud runs it as a hobby",
+        "D": "Bob's mum after work"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "Raj runs the local newsagent shop where the boys go to buy chocolate."
     },
     {
@@ -104,12 +104,12 @@
       "difficulty": "easy",
       "question": "What are the names of the twin bullies?",
       "options": {
-        "A": "Dave and Sue Grub",
-        "B": "Tom and Jerry Smith",
-        "C": "Pete and Kate Brown",
-        "D": "Jim and Jane Wilson"
+        "A": "Tom and Jerry Smith",
+        "B": "Jim and Jane Wilson",
+        "C": "Dave and Sue Grub",
+        "D": "Pete and Kate Brown"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "The Grubs are twin bullies named Dave and Sue Grub."
     },
     {
@@ -117,8 +117,8 @@
       "difficulty": "easy",
       "question": "What did Joe crash at the beginning of the story?",
       "options": {
-        "A": "A brand new bicycle",
-        "B": "A fancy golf buggy",
+        "A": "A fancy golf buggy",
+        "B": "A brand new bicycle",
         "C": "A fast speedboat",
         "D": "A Formula One racing car"
       },
@@ -130,12 +130,12 @@
       "difficulty": "easy",
       "question": "How much pocket money does Joe get per week?",
       "options": {
-        "A": "One thousand pounds",
-        "B": "Ten thousand pounds",
-        "C": "One hundred thousand pounds",
-        "D": "One million pounds"
+        "A": "One million pounds",
+        "B": "One hundred thousand pounds",
+        "C": "One thousand pounds",
+        "D": "Ten thousand pounds"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "The text lists £100,000 a week pocket money among Joe's possessions."
     },
     {
@@ -143,12 +143,12 @@
       "difficulty": "easy",
       "question": "What is the dinner lady's name?",
       "options": {
-        "A": "Mrs Spite the witch",
-        "B": "Mrs Grub the bully",
-        "C": "Mrs Cook the chef",
-        "D": "Mrs Trafe the cook"
+        "A": "Mrs Trafe the cook",
+        "B": "Mrs Spite the witch",
+        "C": "Mrs Grub the bully",
+        "D": "Mrs Cook the chef"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "Mrs Trafe is the dinner lady whose cooking is described as truly revolting."
     },
     {
@@ -156,12 +156,12 @@
       "difficulty": "easy",
       "question": "What did Mr Spud put on his bald head?",
       "options": {
-        "A": "An expensive toupee collection",
+        "A": "Nothing, he liked being bald",
         "B": "A designer baseball cap",
-        "C": "Nothing, he liked being bald",
+        "C": "An expensive toupee collection",
         "D": "A fancy top hat"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Mr Spud bought toupees for £10,000 each, including blonde, brown, ginger and afro options."
     },
     {
@@ -169,12 +169,12 @@
       "difficulty": "easy",
       "question": "What is the Spuds' enormous house called?",
       "options": {
-        "A": "Spud Manor Estate",
+        "A": "Bumfresh Towers",
         "B": "Billionaire Palace",
-        "C": "Rich House Tower",
-        "D": "Bumfresh Towers"
+        "C": "Spud Manor Estate",
+        "D": "Rich House Tower"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "Mr Spud named their house Bumfresh Towers after his famous product."
     },
     {
@@ -183,11 +183,11 @@
       "question": "What chocolate bar does Joe buy for Bob?",
       "options": {
         "A": "A large Mars bar",
-        "B": "A big Snickers bar",
-        "C": "A giant Dairy Milk bar",
-        "D": "A huge Kit Kat bar"
+        "B": "A huge Kit Kat bar",
+        "C": "A big Snickers bar",
+        "D": "A giant Dairy Milk bar"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "Bob chooses a giant bar of Cadbury's Dairy Milk which costs £3.20."
     },
     {
@@ -195,12 +195,12 @@
       "difficulty": "easy",
       "question": "What happened to Bob's dad?",
       "options": {
-        "A": "He moved to another country",
+        "A": "He got a new job far away",
         "B": "He went to work abroad",
-        "C": "He died of cancer last year",
-        "D": "He got a new job far away"
+        "C": "He moved to another country",
+        "D": "He died of cancer last year"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "Bob tells Joe 'My dad died last year' from cancer."
     },
     {
@@ -208,12 +208,12 @@
       "difficulty": "easy",
       "question": "What nickname do students call Miss Spite?",
       "options": {
-        "A": "The Dragon Lady",
-        "B": "The Witch",
-        "C": "The Monster",
-        "D": "The Beast"
+        "A": "The Monster",
+        "B": "The Dragon Lady",
+        "C": "The Beast",
+        "D": "The Witch"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "Miss Spite is called 'the Witch' by the students."
     },
     {
@@ -221,12 +221,12 @@
       "difficulty": "easy",
       "question": "How much did Mr Spud give Joe for his 12th birthday?",
       "options": {
-        "A": "One hundred thousand pounds",
-        "B": "Five hundred thousand pounds",
-        "C": "One million pounds",
-        "D": "Two million pounds"
+        "A": "Five hundred thousand pounds",
+        "B": "Two million pounds",
+        "C": "One hundred thousand pounds",
+        "D": "One million pounds"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "Mr Spud initially gave one million but increased it to two million when Joe complained."
     },
     {
@@ -235,11 +235,11 @@
       "question": "Where did Bob's parents first meet each other?",
       "options": {
         "A": "At their local school together",
-        "B": "At a birthday party nearby",
-        "C": "At the Tesco supermarket",
-        "D": "At the church on Sunday"
+        "B": "At the Tesco supermarket",
+        "C": "At the church on Sunday",
+        "D": "At a birthday party nearby"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "Bob's mum works at Tesco, on the checkout. That's where she met his dad."
     },
     {
@@ -248,11 +248,11 @@
       "question": "What unusual animal did the Spuds have as a butler?",
       "options": {
         "A": "A gorilla named George",
-        "B": "An orangutan named Otis",
-        "C": "A chimpanzee named Charlie",
-        "D": "A monkey named Max"
+        "B": "A monkey named Max",
+        "C": "An orangutan named Otis",
+        "D": "A chimpanzee named Charlie"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "They even had a butler called Otis who was also an orangutan."
     },
     {
@@ -273,12 +273,12 @@
       "difficulty": "medium",
       "question": "According to the story, Joe was quite fat because ---.",
       "options": {
-        "A": "he never did any exercise at all",
-        "B": "he ate too much fast food daily",
-        "C": "he had a medical condition problem",
-        "D": "he could buy all the chocolate he wanted"
+        "A": "he ate too much fast food daily",
+        "B": "he never did any exercise at all",
+        "C": "he could buy all the chocolate he wanted",
+        "D": "he had a medical condition problem"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "The text states 'He was quite fat. Well, you would be, wouldn't you, if you could buy all the chocolate in the world.'"
     },
     {
@@ -286,12 +286,12 @@
       "difficulty": "medium",
       "question": "At St Cuthbert's School, the posh kids bullied Joe because ---.",
       "options": {
-        "A": "he was not from an old wealthy family",
-        "B": "he wasn't smart enough for the school",
-        "C": "he couldn't play sports with them well",
-        "D": "his dad's toilet paper business was vulgar"
+        "A": "he couldn't play sports with them well",
+        "B": "his dad's toilet paper business was vulgar",
+        "C": "he was not from an old wealthy family",
+        "D": "he wasn't smart enough for the school"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "The posh kids called Joe names like 'Bum-Boy' because his dad made money from loo rolls, which they said was awfully vulgar."
     },
     {
@@ -301,8 +301,8 @@
       "options": {
         "A": "the expensive car was being repaired",
         "B": "he didn't want kids to know he was rich",
-        "C": "he wanted to walk there for exercise",
-        "D": "his dad wouldn't let him take the car"
+        "C": "his dad wouldn't let him take the car",
+        "D": "he wanted to walk there for exercise"
       },
       "answer": "B",
       "explanation": "He didn't want to arrive by Rolls-Royce because that would be a pretty good hint to the other kids that he was rich."
@@ -312,12 +312,12 @@
       "difficulty": "medium",
       "question": "During cross-country running, Joe paid Bob fifty pounds because ---.",
       "options": {
-        "A": "Bob had won the race against everyone",
-        "B": "Bob needed money for his lunch that day",
-        "C": "Joe wanted Bob to come last instead of him",
-        "D": "Joe felt very sorry for poor Bob"
+        "A": "Bob needed money for his lunch that day",
+        "B": "Bob had won the race against everyone",
+        "C": "Joe felt very sorry for poor Bob",
+        "D": "Joe wanted Bob to come last instead of him"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "Joe had a stitch and didn't want to be last, so he paid Bob fifty pounds to come last."
     },
     {
@@ -326,11 +326,11 @@
       "question": "Mr Spud invented Bumfresh while working at the factory because ---.",
       "options": {
         "A": "his factory boss asked him to invent it",
-        "B": "he had lots of time to daydream at work",
-        "C": "he studied chemistry and science at night",
-        "D": "another factory worker gave him the idea"
+        "B": "another factory worker gave him the idea",
+        "C": "he had lots of time to daydream at work",
+        "D": "he studied chemistry and science at night"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "The only good thing about working in a factory was that Mr Spud had lots of time to daydream. One day, he had a daydream that was to revolutionize bottom wiping forever."
     },
     {
@@ -338,12 +338,12 @@
       "difficulty": "medium",
       "question": "When Joe's parents split up, his mother Carol left because ---.",
       "options": {
-        "A": "she was unhappy with all the money",
-        "B": "Mr Spud was too busy working all day",
-        "C": "she had an affair with Joe's Cub Scout leader",
-        "D": "she wanted to travel the world alone"
+        "A": "she wanted to travel the world alone",
+        "B": "she was unhappy with all the money",
+        "C": "Mr Spud was too busy working all day",
+        "D": "she had an affair with Joe's Cub Scout leader"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "Carol had been having a torrid affair with Joe's Cub Scout leader, Alan."
     },
     {
@@ -351,12 +351,12 @@
       "difficulty": "medium",
       "question": "Raj recognized Joe from a magazine because ---.",
       "options": {
-        "A": "Joe's photo was in the Sunday Times rich list",
-        "B": "Joe had been on television many times",
-        "C": "Raj knew Mr Spud from the old days",
-        "D": "Joe was famous at his previous school"
+        "A": "Joe was famous at his previous school",
+        "B": "Joe's photo was in the Sunday Times rich list",
+        "C": "Joe had been on television many times",
+        "D": "Raj knew Mr Spud from the old days"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "Raj found the Sunday Times rich list showing 'Britain's richest children, number one, Joe Spud.'"
     },
     {
@@ -364,9 +364,9 @@
       "difficulty": "medium",
       "question": "The Grubs threw Bob into a wheelie bin because ---.",
       "options": {
-        "A": "Bob owed them money from before",
-        "B": "Bob had insulted them in the hall",
-        "C": "it was a mean school tradition here",
+        "A": "it was a mean school tradition here",
+        "B": "Bob owed them money from before",
+        "C": "Bob had insulted them in the hall",
         "D": "they wanted to steal his chocolate bar"
       },
       "answer": "D",
@@ -377,10 +377,10 @@
       "difficulty": "medium",
       "question": "Bob didn't tell anyone about the bullying because ---.",
       "options": {
-        "A": "he thought the bullying was funny actually",
+        "A": "the teachers already knew what happened",
         "B": "he didn't know who to tell about it",
         "C": "the Grubs threatened to really beat him up",
-        "D": "the teachers already knew what happened"
+        "D": "he thought the bullying was funny actually"
       },
       "answer": "C",
       "explanation": "Bob said 'The Grubs said if I ever told anyone that they would really beat me up.'"
@@ -391,11 +391,11 @@
       "question": "When Bob found out Joe was a billionaire, he gave back the fifty pounds because ---.",
       "options": {
         "A": "he was very angry at Joe for lying",
-        "B": "he felt too guilty about taking it from Joe",
+        "B": "he just liked hanging out with Joe as friends",
         "C": "Joe asked for the money back from him",
-        "D": "he just liked hanging out with Joe as friends"
+        "D": "he felt too guilty about taking it from Joe"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "Bob said 'I don't want your money... I just liked hanging out with you today.'"
     },
     {
@@ -403,12 +403,12 @@
       "difficulty": "medium",
       "question": "No one ate in the school canteen because ---.",
       "options": {
-        "A": "the food was way too expensive for kids",
-        "B": "Mrs Trafe's cooking was truly revolting",
-        "C": "the Grubs controlled the whole canteen",
+        "A": "the Grubs controlled the whole canteen",
+        "B": "the food was way too expensive for kids",
+        "C": "Mrs Trafe's cooking was truly revolting",
         "D": "the canteen was always closed at lunch"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "The text says 'The kids in the school would rather die than eat anything she cooked.'"
     },
     {
@@ -416,12 +416,12 @@
       "difficulty": "medium",
       "question": "Mr Spud made birthday presents from loo roll tubes because ---.",
       "options": {
-        "A": "Joe loved craft projects so much",
-        "B": "the family was so poor back then",
-        "C": "it was their family tradition always",
-        "D": "Joe always asked for homemade gifts"
+        "A": "Joe always asked for homemade gifts",
+        "B": "it was their family tradition always",
+        "C": "Joe loved craft projects so much",
+        "D": "the family was so poor back then"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "Because the family was so poor, Mr Spud used to make birthday and Christmas presents for his son from the loo roll inner tubes."
     },
     {
@@ -429,12 +429,12 @@
       "difficulty": "medium",
       "question": "Joe wanted to attend a normal school because ---.",
       "options": {
-        "A": "he really hated learning at posh schools",
+        "A": "his dad couldn't afford St Cuthbert's fees",
         "B": "the posh school was too far away now",
-        "C": "he hoped to make friends like normal kids",
-        "D": "his dad couldn't afford St Cuthbert's fees"
+        "C": "he really hated learning at posh schools",
+        "D": "he hoped to make friends like normal kids"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "Joe says 'I want to go to a normal school with normal kids. I want to make a friend, Dad.'"
     },
     {
@@ -442,12 +442,12 @@
       "difficulty": "medium",
       "question": "The Spuds' house was so large that ---.",
       "options": {
-        "A": "it took five minutes to drive up the driveway",
+        "A": "they needed helicopters to travel inside it",
         "B": "Joe often got lost walking around inside",
-        "C": "they needed helicopters to travel inside it",
-        "D": "it required one hundred servants to run"
+        "C": "it required one hundred servants to run",
+        "D": "it took five minutes to drive up the driveway"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "The text says 'It took five minutes just to motor up the drive.'"
     },
     {
@@ -457,8 +457,8 @@
       "options": {
         "A": "he didn't know which bus to take home",
         "B": "the driver wouldn't accept his £50 note",
-        "C": "he missed the bus by just one minute",
-        "D": "there wasn't enough room for him inside"
+        "C": "there wasn't enough room for him inside",
+        "D": "he missed the bus by just one minute"
       },
       "answer": "B",
       "explanation": "Joe hadn't realised that a £50 note was not going to be welcome to pay for a £2 bus fare."
@@ -468,12 +468,12 @@
       "difficulty": "medium",
       "question": "Bob's mum works two jobs as a Tesco worker and ---.",
       "options": {
-        "A": "a teacher at the local primary school",
-        "B": "a cleaner at an old people's home",
-        "C": "a nurse at the hospital at night",
-        "D": "a cook at a restaurant downtown"
+        "A": "a nurse at the hospital at night",
+        "B": "a cook at a restaurant downtown",
+        "C": "a teacher at the local primary school",
+        "D": "a cleaner at an old people's home"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "Bob says 'She's got another job too. She's a cleaner at an old people's home in the evenings.'"
     },
     {
@@ -481,12 +481,12 @@
       "difficulty": "medium",
       "question": "When Miss Spite found out Joe forgot his homework, she gave him ---.",
       "options": {
-        "A": "detention for the whole week ahead",
+        "A": "extra homework as his punishment",
         "B": "a failing grade on his assignment",
-        "C": "extra homework as his punishment",
-        "D": "fifteen minutes to get his essay"
+        "C": "fifteen minutes to get his essay",
+        "D": "detention for the whole week ahead"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "Miss Spite says 'I will give you 15 minutes exactly to place said essay in my hand.'"
     },
     {
@@ -494,12 +494,12 @@
       "difficulty": "medium",
       "question": "At cross-country running, Bob appeared in his vest and Y-fronts because ---.",
       "options": {
-        "A": "he forgot his kit at home that day",
-        "B": "someone had hidden his running kit",
-        "C": "he was trying to be funny for laughs",
-        "D": "his friends dared him to do it"
+        "A": "his friends dared him to do it",
+        "B": "he forgot his kit at home that day",
+        "C": "someone had hidden his running kit",
+        "D": "he was trying to be funny for laughs"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "When Mr Bruce asked about his kit, Bob answered 'Someone must have hidden it, sir.'"
     },
     {
@@ -508,8 +508,8 @@
       "question": "The kids at school chanted 'Blob' at Bob because ---.",
       "options": {
         "A": "it was a nickname mocking his weight",
-        "B": "it was his real name from birth",
-        "C": "he said he liked the name Blob",
+        "B": "he said he liked the name Blob",
+        "C": "it was his real name from birth",
         "D": "the teachers started using it first"
       },
       "answer": "A",
@@ -520,12 +520,12 @@
       "difficulty": "medium",
       "question": "According to the Sunday Times rich list, Joe's worth was ---.",
       "options": {
-        "A": "one billion pounds total",
-        "B": "five billion pounds total",
-        "C": "ten billion pounds total",
+        "A": "ten billion pounds total",
+        "B": "one billion pounds total",
+        "C": "five billion pounds total",
         "D": "one hundred billion total"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "The magazine listed 'Joe Spud, age twelve, Bumfresh heir, estimated worth ten billion.'"
     },
     {
@@ -535,8 +535,8 @@
       "options": {
         "A": "always makes people truly happy inside",
         "B": "doesn't guarantee friendship or happiness",
-        "C": "is what everyone should want in life",
-        "D": "makes rich people better than others"
+        "C": "makes rich people better than others",
+        "D": "is what everyone should want in life"
       },
       "answer": "B",
       "explanation": "Despite having everything money can buy, Joe has no friends and is lonely, showing material wealth doesn't equal happiness."
@@ -546,12 +546,12 @@
       "difficulty": "hard",
       "question": "Joe and Bob both finishing last in cross-country is significant because ---.",
       "options": {
-        "A": "it proves they are both bad at sports",
-        "B": "it starts a friendship based on shared struggle",
-        "C": "it shows the PE teacher was very unfair",
-        "D": "it means they should quit the school team"
+        "A": "it starts a friendship based on shared struggle",
+        "B": "it proves they are both bad at sports",
+        "C": "it means they should quit the school team",
+        "D": "it shows the PE teacher was very unfair"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "The shared experience of struggling together creates the foundation for their friendship based on understanding rather than wealth."
     },
     {
@@ -559,12 +559,12 @@
       "difficulty": "hard",
       "question": "The contrast between St Cuthbert's and the comprehensive school shows ---.",
       "options": {
-        "A": "that posh schools always give better education",
-        "B": "the difference between snobbery and real connection",
-        "C": "that posh schools are always bad for children",
-        "D": "that public schools are always better overall"
+        "A": "that public schools are always better overall",
+        "B": "that posh schools are always bad for children",
+        "C": "that posh schools always give better education",
+        "D": "the difference between snobbery and real connection"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "At St Cuthbert's, Joe was bullied for being 'new money,' but at the comprehensive, he could find genuine friendship."
     },
     {
@@ -573,11 +573,11 @@
       "question": "Bob returning the fifty pounds shows that true friendship ---.",
       "options": {
         "A": "means poor people don't want any money",
-        "B": "values the person more than their wealth",
-        "C": "requires people to be very proud always",
-        "D": "is impossible between rich and poor kids"
+        "B": "requires people to be very proud always",
+        "C": "is impossible between rich and poor kids",
+        "D": "values the person more than their wealth"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "Bob's refusal shows he values Joe for who he is, not what he has, demonstrating the story's theme about authentic friendship."
     },
     {
@@ -585,10 +585,10 @@
       "difficulty": "hard",
       "question": "Mr Spud eating expensive caviar despite hating it shows that ---.",
       "options": {
-        "A": "rich people always love expensive food a lot",
+        "A": "caviar is actually delicious when prepared right",
         "B": "money can make people act against their nature",
-        "C": "caviar is actually delicious when prepared right",
-        "D": "he should buy even more expensive foods"
+        "C": "he should buy even more expensive foods",
+        "D": "rich people always love expensive food a lot"
       },
       "answer": "B",
       "explanation": "Mr Spud admits caviar is 'absolutely disgusting' but says 'we are rich, son. We have to eat all this posh stuff now.'"
@@ -598,12 +598,12 @@
       "difficulty": "hard",
       "question": "The joke about Bob's dad 'going for milk but leaving with a wife' shows ---.",
       "options": {
-        "A": "that shopping at Tesco is very dangerous",
-        "B": "that genuine love comes from ordinary moments",
+        "A": "that genuine love comes from ordinary moments",
+        "B": "that he was a very funny person overall",
         "C": "that his dad was very irresponsible always",
-        "D": "that he was a very funny person overall"
+        "D": "that shopping at Tesco is very dangerous"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "This contrasts with Mr Spud dating Page Three girls, showing the difference between authentic love and superficial relationships."
     },
     {
@@ -611,12 +611,12 @@
       "difficulty": "hard",
       "question": "Mrs Trafe's disgusting menu items like 'hair lasagna' are used to ---.",
       "options": {
-        "A": "show that school food is really that bad",
-        "B": "create comedy while bonding the two boys",
-        "C": "prove that the school needs more money",
-        "D": "make readers feel sick about lunch food"
+        "A": "create comedy while bonding the two boys",
+        "B": "prove that the school needs more money",
+        "C": "make readers feel sick about lunch food",
+        "D": "show that school food is really that bad"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "The ridiculously gross menu uses exaggeration for comic effect while creating another shared experience for Joe and Bob."
     },
     {
@@ -624,12 +624,12 @@
       "difficulty": "hard",
       "question": "Joe hiding his wealth at the new school shows he ---.",
       "options": {
-        "A": "is very ashamed of being rich always",
-        "B": "wants to be valued for who he really is",
+        "A": "wants to be valued for who he really is",
+        "B": "thinks being poor is better than being rich",
         "C": "wants to trick people for fun and games",
-        "D": "thinks being poor is better than being rich"
+        "D": "is very ashamed of being rich always"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "Joe learned from St Cuthbert's that money affects how people treat him, so he wants to be judged on his personality."
     },
     {
@@ -637,12 +637,12 @@
       "difficulty": "hard",
       "question": "Mr Spud's ridiculous toupees looking like 'dead rodents' suggest that ---.",
       "options": {
-        "A": "he simply has very poor fashion taste",
-        "B": "money cannot buy authenticity or self-acceptance",
-        "C": "all toupees look bad on bald people",
-        "D": "he should have bought more expensive ones"
+        "A": "all toupees look bad on bald people",
+        "B": "he should have bought more expensive ones",
+        "C": "he simply has very poor fashion taste",
+        "D": "money cannot buy authenticity or self-acceptance"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "The toupee symbolizes how wealth is used to mask insecurities, but the result is ridiculous rather than convincing."
     },
     {
@@ -650,12 +650,12 @@
       "difficulty": "hard",
       "question": "Bob's advice to 'stand up to bullies' is both wise and problematic because ---.",
       "options": {
-        "A": "standing up to bullies always works out",
-        "B": "it could get Bob seriously hurt in reality",
+        "A": "it means he should fight back violently",
+        "B": "standing up to bullies always works out",
         "C": "bullies always back down when challenged",
-        "D": "it means he should fight back violently"
+        "D": "it could get Bob seriously hurt in reality"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "The advice is morally sound but practically dangerous for Bob, which is why Joe thinks there might be 'another way.'"
     },
     {
@@ -663,10 +663,10 @@
       "difficulty": "hard",
       "question": "The attitudes at St Cuthbert's about 'old money' versus 'new money' show ---.",
       "options": {
-        "A": "that old money families are always better",
+        "A": "that there is no real difference between them",
         "B": "that class prejudice exists even among the wealthy",
         "C": "that new money is more respectable always",
-        "D": "that there is no real difference between them"
+        "D": "that old money families are always better"
       },
       "answer": "B",
       "explanation": "The posh boys with inherited wealth consider Joe's earned fortune 'vulgar,' showing class snobbery among the rich."
@@ -676,12 +676,12 @@
       "difficulty": "hard",
       "question": "The orangutan butler Otis being 'given the sack' shows that ---.",
       "options": {
-        "A": "the Spuds truly love animals very much",
-        "B": "extreme wealth leads to absurd impractical choices",
-        "C": "orangutans actually make excellent butlers",
-        "D": "they simply needed more household staff"
+        "A": "orangutans actually make excellent butlers",
+        "B": "the Spuds truly love animals very much",
+        "C": "they simply needed more household staff",
+        "D": "extreme wealth leads to absurd impractical choices"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "Having an orangutan butler is an example of ridiculous extravagance that was impractical."
     },
     {
@@ -689,12 +689,12 @@
       "difficulty": "hard",
       "question": "Joe keeping the 'sad loo roll space rocket' his dad made shows ---.",
       "options": {
-        "A": "that he collects all space-related things",
-        "B": "a connection to when love meant more than money",
+        "A": "a connection to when love meant more than money",
+        "B": "that he collects all space-related things",
         "C": "that he just forgot to throw it away",
         "D": "that the toy is worth money now"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "The homemade gift represents the authentic parent-child bond from before wealth, contrasting with the £2 million birthday check."
     },
     {
@@ -702,12 +702,12 @@
       "difficulty": "hard",
       "question": "Miss Spite's love of teacher catchphrases shows that ---.",
       "options": {
-        "A": "she is actually a very good teacher",
-        "B": "she enjoys power and control over students",
-        "C": "all teachers use these catchphrases daily",
-        "D": "she is just following school rules strictly"
+        "A": "she enjoys power and control over students",
+        "B": "she is just following school rules strictly",
+        "C": "she is actually a very good teacher",
+        "D": "all teachers use these catchphrases daily"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "Miss Spite uses catchphrases with 'evil relish' and is 'desperate for someone to have failed,' showing she enjoys punishing students."
     },
     {
@@ -715,12 +715,12 @@
       "difficulty": "hard",
       "question": "Making the Grub twins indistinguishable despite being different genders ---.",
       "options": {
-        "A": "is a mistake that the author made",
-        "B": "creates comedy while dehumanizing the bullies",
-        "C": "shows that all twins are exactly identical",
-        "D": "doesn't really mean anything important"
+        "A": "creates comedy while dehumanizing the bullies",
+        "B": "is a mistake that the author made",
+        "C": "doesn't really mean anything important",
+        "D": "shows that all twins are exactly identical"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "The joke that Dave and Sue are indistinguishable uses absurdity to dehumanize the bullies while creating humor."
     },
     {
@@ -728,12 +728,12 @@
       "difficulty": "hard",
       "question": "Joe's guilt about paying Bob to come last shows ---.",
       "options": {
-        "A": "that Joe is very manipulative always",
-        "B": "that he's learning friendship isn't about money",
-        "C": "that Joe wants to control Bob completely",
-        "D": "that he regrets wasting his money"
+        "A": "that Joe wants to control Bob completely",
+        "B": "that he regrets wasting his money",
+        "C": "that Joe is very manipulative always",
+        "D": "that he's learning friendship isn't about money"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "Joe feels guilty about using money to solve problems and wants to help Bob genuinely."
     },
     {
@@ -754,12 +754,12 @@
       "difficulty": "hard",
       "question": "Joe wondering how to 'fit in with normal kids' shows that ---.",
       "options": {
-        "A": "Joe thinks he is better than other kids",
-        "B": "wealth can isolate people from normal experiences",
+        "A": "wealth can isolate people from normal experiences",
+        "B": "public schools are always very scary",
         "C": "rich kids can never make real friends",
-        "D": "public schools are always very scary"
+        "D": "Joe thinks he is better than other kids"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "This shows how extreme wealth creates isolation and makes normal social interactions feel unfamiliar."
     },
     {
@@ -768,11 +768,11 @@
       "question": "Joe asking for a 'friend' as his birthday present reveals that ---.",
       "options": {
         "A": "he is very greedy and wants even more",
-        "B": "money cannot buy genuine human connection",
+        "B": "friends can easily be bought with money",
         "C": "he doesn't really know what he wants",
-        "D": "friends can easily be bought with money"
+        "D": "money cannot buy genuine human connection"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "Despite having unlimited money, Joe cannot purchase the thing he most wants, highlighting the story's central theme."
     },
     {
@@ -780,12 +780,12 @@
       "difficulty": "hard",
       "question": "The overall message of Billionaire Boy is that ---.",
       "options": {
-        "A": "being rich is always terrible for people",
-        "B": "money can't replace genuine relationships and identity",
-        "C": "poor people are always happier than rich",
-        "D": "everyone should give away all their money"
+        "A": "poor people are always happier than rich",
+        "B": "everyone should give away all their money",
+        "C": "money can't replace genuine relationships and identity",
+        "D": "being rich is always terrible for people"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "The story shows that while poverty has hardships, wealth without authentic relationships leads to loneliness."
     }
   ]

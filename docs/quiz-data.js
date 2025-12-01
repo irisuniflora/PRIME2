@@ -14,12 +14,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What was Alice doing at the beginning of the story?",
         "options": {
-          "A": "Reading a book with her sister",
-          "B": "Sitting by her sister on the bank",
-          "C": "Playing with her cat Dinah",
-          "D": "Having tea with the Hatter"
+          "A": "Playing with her cat Dinah",
+          "B": "Having tea with the Hatter",
+          "C": "Sitting by her sister on the bank",
+          "D": "Reading a book with her sister"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "Alice was sitting by her sister on the bank, getting tired of having nothing to do."
       },
       {
@@ -27,10 +27,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What color eyes did the White Rabbit have?",
         "options": {
-          "A": "Blue",
-          "B": "Red",
+          "A": "Red",
+          "B": "White",
           "C": "Pink",
-          "D": "White"
+          "D": "Blue"
         },
         "answer": "C",
         "explanation": "The story describes 'a white rabbit with pink eyes' running close by Alice."
@@ -40,12 +40,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What did the White Rabbit take out of its waistcoat pocket?",
         "options": {
-          "A": "A key",
-          "B": "A fan",
-          "C": "A watch",
-          "D": "A letter"
+          "A": "A fan",
+          "B": "A key",
+          "C": "A letter",
+          "D": "A watch"
         },
-        "answer": "C",
+        "answer": "D",
         "explanation": "The rabbit took a watch out of its waistcoat pocket and looked at it."
       },
       {
@@ -53,12 +53,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What was the name of Alice's cat?",
         "options": {
-          "A": "Mabel",
-          "B": "Dinah",
-          "C": "Ada",
-          "D": "Mary"
+          "A": "Ada",
+          "B": "Mary",
+          "C": "Mabel",
+          "D": "Dinah"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "Alice's cat was named Dinah, whom she mentions missing during her fall."
       },
       {
@@ -66,10 +66,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What label was on the bottle Alice found on the glass table?",
         "options": {
-          "A": "Poison",
-          "B": "Eat Me",
+          "A": "Poison Warning",
+          "B": "Eat Me Now",
           "C": "Drink Me",
-          "D": "Magic"
+          "D": "Pure Magic"
         },
         "answer": "C",
         "explanation": "The bottle had a paper label with the words 'Drink Me' beautifully printed in large letters."
@@ -79,12 +79,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What was written on the cake Alice found?",
         "options": {
-          "A": "Drink Me",
-          "B": "Eat Me",
-          "C": "Try Me",
+          "A": "Eat Me",
+          "B": "Try Me",
+          "C": "Drink Me",
           "D": "Taste Me"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "The words 'Eat Me' were beautifully marked in currants on the cake."
       },
       {
@@ -92,10 +92,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What type of cat is the Cheshire Cat?",
         "options": {
-          "A": "A Persian cat",
+          "A": "A cat belonging to the Queen of Hearts",
           "B": "A Cheshire cat belonging to the Duchess",
-          "C": "Alice's pet cat",
-          "D": "The Queen's cat"
+          "C": "Alice's own pet cat from her home",
+          "D": "A magical Persian cat that talks"
         },
         "answer": "B",
         "explanation": "The Duchess tells Alice 'It's a Cheshire Cat' when Alice asks why it grins."
@@ -106,11 +106,11 @@ const quizData = {
         "question": "Who was smoking a hookah on top of the mushroom?",
         "options": {
           "A": "The Cheshire Cat",
-          "B": "The Dodo",
-          "C": "The Caterpillar",
+          "B": "The Caterpillar",
+          "C": "The Dodo",
           "D": "The Mock Turtle"
         },
-        "answer": "C",
+        "answer": "B",
         "explanation": "Alice found a large Caterpillar sitting on top of a mushroom, smoking a long hookah."
       },
       {
@@ -118,12 +118,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What were the gardeners painting the roses?",
         "options": {
-          "A": "White",
-          "B": "Red",
-          "C": "Pink",
-          "D": "Yellow"
+          "A": "Red",
+          "B": "Pink",
+          "C": "Yellow",
+          "D": "White"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "The three gardeners were busily painting the white roses red."
       },
       {
@@ -131,12 +131,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What did the Queen frequently shout?",
         "options": {
-          "A": "Off with their heads!",
-          "B": "Guards, seize them!",
-          "C": "To the dungeon!",
-          "D": "Bring me tea!"
+          "A": "Bring me tea!",
+          "B": "To the dungeon!",
+          "C": "Off with their heads!",
+          "D": "Guards, seize them!"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "The Queen constantly shouted 'Off with his head!' or 'Off with her head!' about once a minute."
       },
       {
@@ -144,10 +144,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What were used as croquet balls in the Queen's game?",
         "options": {
-          "A": "Painted balls",
+          "A": "Mushrooms",
           "B": "Hedgehogs",
-          "C": "Mushrooms",
-          "D": "Turtles"
+          "C": "Turtles",
+          "D": "Painted balls"
         },
         "answer": "B",
         "explanation": "In the Queen's croquet game, the balls were live hedgehogs."
@@ -159,8 +159,8 @@ const quizData = {
         "options": {
           "A": "Walking sticks",
           "B": "Flamingos",
-          "C": "Umbrellas",
-          "D": "Wooden clubs"
+          "C": "Wooden clubs",
+          "D": "Umbrellas"
         },
         "answer": "B",
         "explanation": "The mallets were live flamingos that Alice had to tuck under her arm."
@@ -171,11 +171,11 @@ const quizData = {
         "question": "What animal did the Duchess's baby turn into?",
         "options": {
           "A": "A cat",
-          "B": "A dog",
-          "C": "A pig",
+          "B": "A pig",
+          "C": "A dog",
           "D": "A rabbit"
         },
-        "answer": "C",
+        "answer": "B",
         "explanation": "The baby gradually turned into a pig while Alice was carrying it."
       },
       {
@@ -184,9 +184,9 @@ const quizData = {
         "question": "Who was always falling asleep at the tea party?",
         "options": {
           "A": "The Hatter",
-          "B": "The March Hare",
+          "B": "Alice",
           "C": "The Dormouse",
-          "D": "Alice"
+          "D": "The March Hare"
         },
         "answer": "C",
         "explanation": "The Dormouse was sitting between them fast asleep and kept dozing off throughout."
@@ -196,12 +196,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What did the Mock Turtle used to be?",
         "options": {
-          "A": "A fish",
-          "B": "A real turtle",
-          "C": "A lobster",
-          "D": "A crab"
+          "A": "A real turtle",
+          "B": "A large fish",
+          "C": "A small crab",
+          "D": "A red lobster"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "The Mock Turtle said with a deep sigh, 'Once I was a real turtle.'"
       },
       {
@@ -209,12 +209,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What did the Knave of Hearts steal?",
         "options": {
-          "A": "The Queen's crown",
-          "B": "Some tarts",
-          "C": "The King's watch",
+          "A": "Some tarts",
+          "B": "The King's watch",
+          "C": "The Queen's crown",
           "D": "Alice's key"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "The accusation read: 'The Knave of Hearts, he stole those tarts.'"
       },
       {
@@ -222,10 +222,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "How tall was Alice when she was too small to reach the key?",
         "options": {
-          "A": "Three inches",
+          "A": "Two feet",
           "B": "Ten inches",
-          "C": "Two feet",
-          "D": "One foot"
+          "C": "One foot",
+          "D": "Three inches"
         },
         "answer": "B",
         "explanation": "After drinking from the bottle, Alice was only ten inches high."
@@ -248,10 +248,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What did Alice give as prizes after the Caucus Race?",
         "options": {
-          "A": "Flowers",
+          "A": "Beautiful flowers",
           "B": "Comfits (candies)",
-          "C": "Coins",
-          "D": "Cakes"
+          "C": "Small sweet cakes",
+          "D": "Shiny gold coins"
         },
         "answer": "B",
         "explanation": "Alice pulled out a box of comfits from her pocket and handed them round as prizes."
@@ -261,12 +261,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "Who was Bill in the story?",
         "options": {
-          "A": "A frog footman",
-          "B": "A guinea pig",
-          "C": "A lizard",
+          "A": "A lizard",
+          "B": "A frog footman",
+          "C": "A guinea pig",
           "D": "A fish"
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "Bill was a lizard who was sent down the chimney and later was a juror at the trial."
       },
       {
@@ -274,12 +274,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "When Alice drank from the bottle, she found it tasted like ---.",
         "options": {
-          "A": "water with a hint of lemon",
-          "B": "a mixed flavor of cherry tart, custard, pineapple, roast turkey, toffee, and hot buttered toast",
-          "C": "sweet honey and milk",
-          "D": "bitter medicine with sugar"
+          "A": "cherry tart, custard, pineapple, turkey, toffee, and buttered toast",
+          "B": "sweet honey mixed with warm milk and a touch of vanilla cream",
+          "C": "cold water with a hint of fresh lemon and mint leaves mixed in",
+          "D": "bitter medicine sweetened with sugar and a spoonful of honey"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "The drink had 'a sort of mixed flavor of cherry tart, custard, pineapple, roast turkey, toffee, and hot buttered toast.'"
       },
       {
@@ -287,12 +287,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "The Pool of Tears was created when ---.",
         "options": {
-          "A": "it rained inside the hall",
-          "B": "Alice cried while she was nine feet tall",
-          "C": "the White Rabbit spilled water",
-          "D": "the Caterpillar made it with magic"
+          "A": "Alice cried while she was nine feet tall",
+          "B": "it rained heavily inside the long hallway",
+          "C": "the White Rabbit accidentally spilled water",
+          "D": "the Caterpillar created it using magic"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Alice realized 'she was in the pool of tears which she had wept when she was nine feet high.'"
       },
       {
@@ -300,12 +300,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "The Mouse became angry with Alice because she kept mentioning ---.",
         "options": {
-          "A": "her sister",
-          "B": "the White Rabbit",
-          "C": "cats and dogs",
-          "D": "food and drink"
+          "A": "cats and dogs that chase mice",
+          "B": "her sister back at home",
+          "C": "the White Rabbit she followed",
+          "D": "food and drink from above"
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "The Mouse got upset when Alice mentioned her cat Dinah and then a dog, saying 'our family always hated cats' and swimming away from talk of dogs."
       },
       {
@@ -313,12 +313,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "The Caterpillar told Alice that one side of the mushroom would make her grow taller and ---.",
         "options": {
-          "A": "the other side would make her invisible",
-          "B": "the other side would make her grow shorter",
-          "C": "the top would make her fly",
-          "D": "the bottom would make her disappear"
+          "A": "the bottom would make her disappear",
+          "B": "the other side would make her invisible",
+          "C": "the other side would make her grow shorter",
+          "D": "the top would make her fly"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "The Caterpillar said 'One side will make you grow taller, and the other side will make you grow shorter.'"
       },
       {
@@ -326,12 +326,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "The Pigeon accused Alice of being ---.",
         "options": {
-          "A": "a thief trying to steal eggs",
-          "B": "a serpent because of her long neck",
-          "C": "a witch from the forest",
-          "D": "a spy for the Queen"
+          "A": "a serpent because of her long neck",
+          "B": "a spy sent by the evil Queen",
+          "C": "a thief trying to steal her eggs",
+          "D": "a forest witch casting spells"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "When Alice's neck stretched very long, the Pigeon screamed 'Serpent!' and accused her of coming to eat eggs."
       },
       {
@@ -339,10 +339,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "At the Mad Tea Party, the Hatter asked Alice ---.",
         "options": {
-          "A": "if she wanted more tea",
+          "A": "what the current time was now",
           "B": "why a raven is like a writing-desk",
-          "C": "what time it was",
-          "D": "where she came from"
+          "C": "if she wanted some more hot tea",
+          "D": "where exactly she came from today"
         },
         "answer": "B",
         "explanation": "The Hatter asked 'Why is a raven like a writing-desk?' as a riddle with no answer."
@@ -352,12 +352,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "The Hatter said it was always six o'clock because ---.",
         "options": {
-          "A": "his watch was broken",
-          "B": "he had quarreled with Time",
-          "C": "the Queen had cursed him",
-          "D": "the March Hare stopped all clocks"
+          "A": "the March Hare had stopped all clocks",
+          "B": "the Queen had placed a curse on him",
+          "C": "his pocket watch was completely broken",
+          "D": "he had quarreled with Time himself"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "The Hatter said 'he won't do a thing I ask' about Time, ever since they quarreled at the Queen's concert."
       },
       {
@@ -365,12 +365,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "The gardeners were painting the roses red because ---.",
         "options": {
-          "A": "the Queen preferred red roses",
-          "B": "they had planted a white rose tree by mistake and would be beheaded if the Queen found out",
-          "C": "there was a painting competition",
-          "D": "white roses were considered unlucky"
+          "A": "they planted a white rose by mistake and feared beheading",
+          "B": "the Queen had specifically ordered all red roses",
+          "C": "white roses were considered very unlucky in court",
+          "D": "there was a royal rose-painting competition happening"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "The gardener explained 'this here ought to have been a red-rose tree, and we put a white one in by mistake, and if the Queen was to find out, we should all have our heads cut off.'"
       },
       {
@@ -378,12 +378,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "The Cheshire Cat's most distinctive feature was that it could ---.",
         "options": {
-          "A": "speak multiple languages",
-          "B": "disappear leaving only its grin behind",
-          "C": "change colors at will",
-          "D": "predict the future"
+          "A": "disappear leaving only its grin visible behind",
+          "B": "change its colors whenever it wanted to",
+          "C": "speak fluently in multiple different languages",
+          "D": "accurately predict events in the future"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "The cat 'vanished quite slowly, beginning with the end of the tail and ending with the grin, which remained some time after the rest of it had gone.'"
       },
       {
@@ -391,10 +391,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "The Duchess kept saying everything has ---.",
         "options": {
-          "A": "a price",
-          "B": "a moral",
-          "C": "a meaning",
-          "D": "a secret"
+          "A": "a hidden meaning to find",
+          "B": "a moral if you look for it",
+          "C": "a secret waiting to be told",
+          "D": "a price that must be paid"
         },
         "answer": "B",
         "explanation": "The Duchess said 'everything's got a moral, if only you can find it' and kept adding morals to everything."
@@ -404,10 +404,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "The Mock Turtle called his teacher 'Tortoise' because ---.",
         "options": {
-          "A": "he looked like a tortoise",
-          "B": "he was very slow",
+          "A": "he moved very slowly like a tortoise",
+          "B": "he actually looked like a real tortoise",
           "C": "he taught us (taught-us sounds like tortoise)",
-          "D": "his name was Mr. Tortoise"
+          "D": "his actual name was Mr. Tortoise"
         },
         "answer": "C",
         "explanation": "The Mock Turtle said angrily 'We called him Tortoise because he taught us.'"
@@ -417,12 +417,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "The subjects at the Mock Turtle's school included ---.",
         "options": {
-          "A": "reading, writing, and arithmetic",
-          "B": "reeling, writhing, and uglification",
+          "A": "singing, dancing, and painting",
+          "B": "reading, writing, and arithmetic",
           "C": "running, swimming, and climbing",
-          "D": "singing, dancing, and painting"
+          "D": "reeling, writhing, and uglification"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "The Mock Turtle said they learned 'Reeling and Writhing' and 'Ambition, Distraction, Uglification, and Derision.'"
       },
       {
@@ -430,12 +430,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "When Alice grew large in the Rabbit's house, the White Rabbit thought she was ---.",
         "options": {
-          "A": "a giant",
-          "B": "his housemaid Marianne",
-          "C": "a monster",
+          "A": "his housemaid Marianne",
+          "B": "a terrifying monster",
+          "C": "an enormous giant girl",
           "D": "the Queen in disguise"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "The Rabbit called out 'Why, Marianne, what are you doing out here?' and Alice thought 'He took me for his housemaid.'"
       },
       {
@@ -443,10 +443,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "The Dormouse's story was about three sisters who lived ---.",
         "options": {
-          "A": "in a castle in the sky",
+          "A": "on a cloud of dreams",
           "B": "at the bottom of a well",
           "C": "inside a giant mushroom",
-          "D": "on a cloud of dreams"
+          "D": "in a castle in the sky"
         },
         "answer": "B",
         "explanation": "The Dormouse began: 'Once upon a time there were three little sisters... and they lived at the bottom of a well.'"
@@ -456,10 +456,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "At the trial, when asked for evidence, the cook said tarts are made mostly of ---.",
         "options": {
-          "A": "butter",
-          "B": "pepper",
-          "C": "sugar",
-          "D": "flour"
+          "A": "butter and cream",
+          "B": "pepper, mostly",
+          "C": "sugar and honey",
+          "D": "flour and eggs"
         },
         "answer": "B",
         "explanation": "When the King asked 'What are tarts made of?' the cook said 'Pepper, mostly.'"
@@ -469,12 +469,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "The King's Rule 42 stated that ---.",
         "options": {
-          "A": "all witnesses must tell the truth",
-          "B": "no one may speak without permission",
-          "C": "all persons more than a mile high must leave the court",
-          "D": "the Queen's word is final"
+          "A": "all persons more than a mile high must leave the court",
+          "B": "no one may speak without the King's express permission",
+          "C": "all witnesses must tell the complete and honest truth",
+          "D": "the Queen's final word is always the absolute law"
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "The King read 'Rule Forty-two. All persons more than a mile high to leave the court.'"
       },
       {
@@ -482,12 +482,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "When Alice kicked Bill up the chimney, the others outside said ---.",
         "options": {
-          "A": "Call the fire brigade!",
-          "B": "There goes Bill!",
-          "C": "The house is falling!",
-          "D": "Run for your lives!"
+          "A": "There goes Bill flying up!",
+          "B": "Quick, call the fire brigade!",
+          "C": "The whole house is falling down!",
+          "D": "Everyone run for your lives!"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "After Alice kicked, she heard a general chorus of 'There goes Bill!'"
       },
       {
@@ -495,12 +495,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "The pebbles thrown at Alice through the window turned into ---.",
         "options": {
-          "A": "diamonds",
-          "B": "flowers",
-          "C": "little cakes",
-          "D": "butterflies"
+          "A": "little cakes on the floor",
+          "B": "colorful butterflies flying",
+          "C": "sparkling diamonds everywhere",
+          "D": "beautiful flowers blooming"
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "Alice noted 'that the pebbles were all turning into little cakes as they lay on the floor.'"
       },
       {
@@ -508,12 +508,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "The Gryphon told Alice that the Queen ---.",
         "options": {
-          "A": "was the kindest ruler in the land",
-          "B": "never actually executes anybody",
+          "A": "was Alice's real mother",
+          "B": "was the kindest ruler in the land",
           "C": "had magical powers",
-          "D": "was Alice's real mother"
+          "D": "never actually executes anybody"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "The Gryphon chuckled and said 'They never execute nobody, you know.'"
       },
       {
@@ -521,12 +521,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "The Lobster Quadrille was a dance that involved ---.",
         "options": {
-          "A": "spinning in circles alone",
-          "B": "throwing lobsters into the sea and swimming after them",
-          "C": "hopping on one foot",
-          "D": "dancing with cards"
+          "A": "spinning around in circles by yourself alone",
+          "B": "dancing elegantly with the playing cards",
+          "C": "hopping continuously on just one foot",
+          "D": "throwing lobsters into the sea and swimming after"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "The Mock Turtle described throwing lobsters 'as far out to sea as you can' then 'swim after them.'"
       },
       {
@@ -534,12 +534,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Alice question her own identity throughout the story?",
         "options": {
-          "A": "She has amnesia from the fall",
-          "B": "The constant physical changes make her feel like a different person",
-          "C": "The Queen cast a spell on her",
-          "D": "She is pretending to be someone else"
+          "A": "The constant physical changes made her feel different",
+          "B": "She developed amnesia from her long fall down",
+          "C": "She was actively pretending to be someone else",
+          "D": "The Queen had cast a confusion spell on her"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Alice says 'being so many different sizes in a day is very confusing' and wonders 'who in the world am I?' after her transformations."
       },
       {
@@ -547,10 +547,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the Caucus Race satirize?",
         "options": {
-          "A": "Children's games",
-          "B": "Political processes where everyone wins and nothing is accomplished",
-          "C": "Athletic competitions",
-          "D": "School examinations"
+          "A": "Children's games that have no rules and make no sense at all",
+          "B": "Political processes where everyone wins but nothing is done",
+          "C": "School examinations that test nothing useful or meaningful",
+          "D": "Athletic competitions judged unfairly by biased officials"
         },
         "answer": "B",
         "explanation": "The race has no clear rules, no defined winner ('Everybody has won, and all must have prizes'), satirizing pointless political activities."
@@ -560,10 +560,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why is the Mad Tea Party 'stuck' at six o'clock?",
         "options": {
-          "A": "The clock is simply broken",
-          "B": "Time has stopped because the Hatter offended Time at the Queen's concert",
-          "C": "They prefer having tea at that time",
-          "D": "The March Hare cast a spell"
+          "A": "The March Hare had cast a time spell",
+          "B": "The Hatter offended Time at the Queen's concert",
+          "C": "They simply preferred having tea at six",
+          "D": "The clock was broken beyond any repair"
         },
         "answer": "B",
         "explanation": "The Hatter quarreled with Time at the Queen's concert, and since then Time won't help him, so 'it's always six o'clock' - always tea-time."
@@ -573,12 +573,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What is ironic about the Queen's justice system?",
         "options": {
-          "A": "She is too lenient with criminals",
-          "B": "She orders executions constantly but they are never carried out",
-          "C": "She lets Alice make all the decisions",
-          "D": "She has no real power"
+          "A": "She orders executions but they're never carried out",
+          "B": "She is actually too lenient with all criminals",
+          "C": "She has no real power over her subjects",
+          "D": "She lets Alice make all the decisions"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Despite shouting 'Off with their heads!' constantly, the Gryphon reveals 'They never execute nobody' - her threats are empty."
       },
       {
@@ -586,10 +586,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Alice's statement 'You're nothing but a pack of cards!' represent?",
         "options": {
-          "A": "Her fear of the Queen",
-          "B": "Her recognition that the authority figures have no real power over her",
-          "C": "Her confusion about reality",
-          "D": "Her desire to play games"
+          "A": "Her growing confusion about what is real",
+          "B": "Her recognition that authority figures have no power",
+          "C": "Her deep fear of the Queen's punishment",
+          "D": "Her strong desire to play card games"
         },
         "answer": "B",
         "explanation": "Alice finally realizes the threatening figures are just cards with no real authority, showing her growth in confidence and understanding."
@@ -599,12 +599,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does the Caterpillar's question 'Who are you?' frustrate Alice?",
         "options": {
-          "A": "She cannot remember her name",
-          "B": "She has changed so much she genuinely doesn't know anymore",
-          "C": "The Caterpillar is being rude",
-          "D": "She is hiding her true identity"
+          "A": "She was hiding her true real identity",
+          "B": "She could not remember her actual name",
+          "C": "The Caterpillar was being extremely rude",
+          "D": "She had changed so much she didn't know anymore"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "Alice says 'I hardly know, sir... I know who I was when I got up this morning, but I think I must have been changed several times since then.'"
       },
       {
@@ -612,12 +612,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the Mock Turtle's sadness despite having 'no sorrow' suggest?",
         "options": {
-          "A": "He is pretending to be sad",
-          "B": "Emotions in Wonderland are performed rather than genuinely felt",
-          "C": "He has forgotten why he was sad",
-          "D": "The Gryphon is lying about him"
+          "A": "He is just pretending to feel sad",
+          "B": "He has completely forgotten why he was sad",
+          "C": "Emotions in Wonderland are performed, not genuine",
+          "D": "The Gryphon is lying about his condition"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "The Gryphon says 'It's all his fancy, that. He hasn't got no sorrow' - suggesting emotions in Wonderland are theatrical performances."
       },
       {
@@ -625,12 +625,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What criticism of education is made through the Mock Turtle's school?",
         "options": {
-          "A": "Teachers are not paid enough",
-          "B": "Schools are too expensive",
-          "C": "Education is full of confusing wordplay with questionable practical value",
-          "D": "Students should have longer holidays"
+          "A": "Education is confusing wordplay with little value",
+          "B": "Students should have much longer holidays",
+          "C": "Schools are far too expensive for families",
+          "D": "Teachers are not paid nearly enough"
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "The punning subjects like 'Reeling and Writhing' instead of 'Reading and Writing' mock how education can be confusing and seemingly meaningless."
       },
       {
@@ -638,12 +638,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the trial scene satirize about the justice system?",
         "options": {
-          "A": "Judges are always fair",
-          "B": "Evidence and logic are often ignored in favor of authority and absurdity",
-          "C": "Criminals always escape punishment",
-          "D": "Juries are very intelligent"
+          "A": "Evidence and logic are ignored for authority",
+          "B": "Criminals somehow always escape their punishment",
+          "C": "Judges are always perfectly fair and just",
+          "D": "Juries are composed of intelligent people"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "The trial is absurd: the jury writes before evidence, the Queen wants 'sentence first - verdict afterwards,' and meaningless verses are treated as key evidence."
       },
       {
@@ -651,12 +651,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Alice's size constantly change throughout the story?",
         "options": {
-          "A": "She has a medical condition",
-          "B": "It symbolizes the confusing physical and emotional changes of growing up",
-          "C": "Wonderland has unstable gravity",
-          "D": "The Queen is testing her"
+          "A": "She has some kind of medical condition",
+          "B": "Wonderland has very unstable gravity levels",
+          "C": "The Queen is constantly testing her abilities",
+          "D": "It symbolizes the confusing changes of growing up"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "Alice's size changes represent the confusing experience of childhood, where one feels 'too big' for some things and 'too small' for others."
       },
       {
@@ -664,12 +664,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the Duchess's obsession with finding 'morals' in everything mock?",
         "options": {
-          "A": "People who read too many books",
-          "B": "The Victorian tendency to attach forced moral lessons to everything",
-          "C": "Religious leaders",
-          "D": "Alice's education"
+          "A": "Alice's formal education at her school",
+          "B": "People who read far too many books",
+          "C": "Religious leaders who preach constantly",
+          "D": "The Victorian tendency to force moral lessons"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "The Duchess's forced, nonsensical morals ('the more there is of mine, the less there is of yours') parody Victorian children's literature that insisted every story have a moral."
       },
       {
@@ -677,12 +677,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Alice check if the bottle is marked 'poison' before drinking?",
         "options": {
-          "A": "She has been poisoned before",
-          "B": "It shows she applies real-world logic even in an illogical world",
-          "C": "Her sister warned her about strange bottles",
-          "D": "The White Rabbit told her to check"
+          "A": "She applies real-world logic in illogical places",
+          "B": "The White Rabbit specifically told her to check",
+          "C": "Her sister had warned about strange bottles",
+          "D": "She had been poisoned sometime before this"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Alice 'remembered the simple rules' about not drinking from bottles marked poison, showing she tries to apply sensible childhood rules to Wonderland's nonsense."
       },
       {
@@ -690,12 +690,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the Cheshire Cat's statement 'we're all mad here' suggest about Wonderland?",
         "options": {
-          "A": "Everyone has a mental illness",
-          "B": "Madness is relative and what seems normal depends on where you are",
-          "C": "Only cats are sane",
-          "D": "Alice should leave immediately"
+          "A": "Everyone there has a serious mental illness",
+          "B": "Alice should leave Wonderland immediately now",
+          "C": "Only cats are actually sane in Wonderland",
+          "D": "Madness is relative depending on where you are"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "The Cat suggests madness is the norm in Wonderland, implying that 'sanity' depends on context - Alice is 'mad' by Wonderland standards too."
       },
       {
@@ -703,10 +703,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does the Mouse's 'long and sad tale' become a visual pun?",
         "options": {
-          "A": "The Mouse is crying while telling it",
-          "B": "Alice confuses 'tale' with 'tail' and imagines it shaped like a mouse's tail",
-          "C": "The story is written in a sad tone",
-          "D": "The Dodo interrupts with jokes"
+          "A": "The story is written in a very sad tone",
+          "B": "Alice confuses 'tale' with 'tail' imagining it curved",
+          "C": "The Mouse is crying while telling the story",
+          "D": "The Dodo keeps interrupting with silly jokes"
         },
         "answer": "B",
         "explanation": "Alice looks at the Mouse's tail and mishears 'tale' as 'tail,' imagining the story text curving down the page like a tail."
@@ -716,12 +716,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What is significant about the Hatter's riddle having no answer?",
         "options": {
-          "A": "He forgot the answer",
-          "B": "It reflects how Wonderland's logic doesn't require things to make sense",
-          "C": "Alice was supposed to make up the answer",
-          "D": "The March Hare knew the answer but wouldn't tell"
+          "A": "Alice was supposed to make up the answer",
+          "B": "He simply forgot what the answer was",
+          "C": "The March Hare knew but wouldn't tell",
+          "D": "Wonderland's logic doesn't require sense"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "When Alice asks for the answer, the Hatter says 'I haven't the slightest idea' - in Wonderland, questions don't require sensible answers."
       },
       {
@@ -729,12 +729,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What is the effect of adults in Wonderland constantly giving Alice contradictory orders?",
         "options": {
-          "A": "It helps her learn to follow instructions",
-          "B": "It mirrors how children experience adult authority as arbitrary and confusing",
-          "C": "It makes her a better person",
-          "D": "It teaches her to be obedient"
+          "A": "It mirrors how children see adult authority as arbitrary",
+          "B": "It makes her become a much better and stronger person",
+          "C": "It teaches her to be properly obedient to authority",
+          "D": "It helps her learn to follow instructions carefully"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Alice thinks 'Everybody says come on here... I never was so ordered about in all my life' - reflecting how adult commands can seem random to children."
       },
       {
@@ -742,10 +742,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Alice wake up at the moment she defies the Queen?",
         "options": {
-          "A": "The dream randomly ended",
-          "B": "Her sister woke her up for tea",
-          "C": "Standing up to authority breaks the dream's hold on her",
-          "D": "The cards attacked her"
+          "A": "The dream simply randomly ended there",
+          "B": "Her sister happened to wake her for tea",
+          "C": "Standing up to authority broke the dream's hold",
+          "D": "The cards actually attacked her physically"
         },
         "answer": "C",
         "explanation": "Alice wakes when she says 'You're nothing but a pack of cards!' - asserting herself against arbitrary authority ends her passive dreaming state."
@@ -755,10 +755,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the croquet game's chaos represent?",
         "options": {
-          "A": "Alice's poor athletic skills",
-          "B": "The impossibility of playing by rules when the rules keep changing arbitrarily",
-          "C": "The Queen's love of sports",
-          "D": "English weather problems"
+          "A": "The unpredictable English weather problems",
+          "B": "The impossibility of playing with arbitrary rules",
+          "C": "Alice's poor athletic skills at croquet",
+          "D": "The Queen's great love of playing sports"
         },
         "answer": "B",
         "explanation": "With live hedgehogs, flamingos, and moving arches, and 'no rules in particular,' the game shows how arbitrary authority makes fair play impossible."
@@ -769,11 +769,11 @@ const quizData = {
         "question": "Why does Alice's sister's daydream at the end repeat elements from Alice's adventure?",
         "options": {
           "A": "She fell asleep and had the same dream",
-          "B": "It shows how stories and imagination connect people across generations",
-          "C": "Wonderland is a real place both can visit",
-          "D": "She read Alice's diary"
+          "B": "She secretly read Alice's private diary",
+          "C": "Stories and imagination connect people across time",
+          "D": "Wonderland is a real place both can visit"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "The sister imagines the same scenes, suggesting how Alice's story (and childhood wonder) will be passed on, keeping 'the simple and loving heart of her childhood.'"
       },
       {
@@ -781,12 +781,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What is the ultimate message about childhood in Alice's Adventures in Wonderland?",
         "options": {
-          "A": "Children should always obey adults",
-          "B": "Childhood is meaningless and should be forgotten",
-          "C": "Childhood wonder and questioning should be preserved even as we grow up",
-          "D": "Dreams are dangerous and should be avoided"
+          "A": "Dreams are dangerous and confusing and should be avoided entirely",
+          "B": "Childhood is meaningless and forgettable and should be forgotten",
+          "C": "Children should always obey adults without questioning anything",
+          "D": "Childhood wonder and questioning should be preserved as we grow"
         },
-        "answer": "C",
+        "answer": "D",
         "explanation": "The ending hopes Alice 'would keep through all her riper years the simple and loving heart of her childhood' - preserving childhood's curious, questioning spirit."
       }
     ]
@@ -806,12 +806,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What is the main character's full name?",
         "options": {
-          "A": "Joe Spud",
-          "B": "Bob Spud",
+          "A": "Bob Spud",
+          "B": "Tom Spud",
           "C": "Raj Spud",
-          "D": "Tom Spud"
+          "D": "Joe Spud"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "The main character is Joe Spud, a 12-year-old billionaire boy."
       },
       {
@@ -819,12 +819,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "How old is Joe at the start of the story?",
         "options": {
-          "A": "10 years old",
-          "B": "11 years old",
-          "C": "12 years old",
-          "D": "13 years old"
+          "A": "11 years old",
+          "B": "12 years old",
+          "C": "13 years old",
+          "D": "10 years old"
         },
-        "answer": "C",
+        "answer": "B",
         "explanation": "The text says 'He was only 12, but he was ridiculously, preposterously rich.'"
       },
       {
@@ -832,8 +832,8 @@ const quizData = {
         "difficulty": "easy",
         "question": "What product made Joe's dad a billionaire?",
         "options": {
-          "A": "Softroll toilet paper",
-          "B": "Cleanwipe tissues",
+          "A": "Cleanwipe tissues",
+          "B": "Softroll toilet paper",
           "C": "Wetwipe baby wipes",
           "D": "Bumfresh moist tissue"
         },
@@ -846,9 +846,9 @@ const quizData = {
         "question": "What is Joe's best friend's name?",
         "options": {
           "A": "Raj the shopkeeper",
-          "B": "Dave from school",
+          "B": "Alan the Cub Scout leader",
           "C": "Bob the fat boy",
-          "D": "Alan the Cub Scout leader"
+          "D": "Dave from school"
         },
         "answer": "C",
         "explanation": "Bob is the fat boy who becomes Joe's best friend at his new school."
@@ -858,12 +858,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What job did Mr Spud have before becoming rich?",
         "options": {
-          "A": "He sold newspapers at a shop",
-          "B": "He rolled toilet paper at a factory",
-          "C": "He taught at a local school",
-          "D": "He drove a delivery truck"
+          "A": "He rolled toilet paper at a factory",
+          "B": "He sold newspapers at a shop",
+          "C": "He drove a delivery truck",
+          "D": "He taught at a local school"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Mr Spud had to roll the paper around the cardboard inner tube at a loo roll factory."
       },
       {
@@ -871,10 +871,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What is the name of Joe's previous posh school?",
         "options": {
-          "A": "Westminster Academy for Boys",
-          "B": "Royal Boys School London",
+          "A": "St. Peter's Boarding School",
+          "B": "Westminster Academy for Boys",
           "C": "St. Cuthbert's School for Boys",
-          "D": "St. Peter's Boarding School"
+          "D": "Royal Boys School London"
         },
         "answer": "C",
         "explanation": "Joe attended St. Cuthbert's School for Boys which cost £200,000 a term."
@@ -884,12 +884,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "Who runs the local newsagent shop?",
         "options": {
-          "A": "Mr Spud runs it as a hobby",
-          "B": "Mrs Trafe the dinner lady",
-          "C": "Bob's mum after work",
-          "D": "Raj the friendly shopkeeper"
+          "A": "Mrs Trafe the dinner lady",
+          "B": "Raj the friendly shopkeeper",
+          "C": "Mr Spud runs it as a hobby",
+          "D": "Bob's mum after work"
         },
-        "answer": "D",
+        "answer": "B",
         "explanation": "Raj runs the local newsagent shop where the boys go to buy chocolate."
       },
       {
@@ -897,12 +897,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What are the names of the twin bullies?",
         "options": {
-          "A": "Dave and Sue Grub",
-          "B": "Tom and Jerry Smith",
-          "C": "Pete and Kate Brown",
-          "D": "Jim and Jane Wilson"
+          "A": "Tom and Jerry Smith",
+          "B": "Jim and Jane Wilson",
+          "C": "Dave and Sue Grub",
+          "D": "Pete and Kate Brown"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "The Grubs are twin bullies named Dave and Sue Grub."
       },
       {
@@ -910,8 +910,8 @@ const quizData = {
         "difficulty": "easy",
         "question": "What did Joe crash at the beginning of the story?",
         "options": {
-          "A": "A brand new bicycle",
-          "B": "A fancy golf buggy",
+          "A": "A fancy golf buggy",
+          "B": "A brand new bicycle",
           "C": "A fast speedboat",
           "D": "A Formula One racing car"
         },
@@ -923,12 +923,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "How much pocket money does Joe get per week?",
         "options": {
-          "A": "One thousand pounds",
-          "B": "Ten thousand pounds",
-          "C": "One hundred thousand pounds",
-          "D": "One million pounds"
+          "A": "One million pounds",
+          "B": "One hundred thousand pounds",
+          "C": "One thousand pounds",
+          "D": "Ten thousand pounds"
         },
-        "answer": "C",
+        "answer": "B",
         "explanation": "The text lists £100,000 a week pocket money among Joe's possessions."
       },
       {
@@ -936,12 +936,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What is the dinner lady's name?",
         "options": {
-          "A": "Mrs Spite the witch",
-          "B": "Mrs Grub the bully",
-          "C": "Mrs Cook the chef",
-          "D": "Mrs Trafe the cook"
+          "A": "Mrs Trafe the cook",
+          "B": "Mrs Spite the witch",
+          "C": "Mrs Grub the bully",
+          "D": "Mrs Cook the chef"
         },
-        "answer": "D",
+        "answer": "A",
         "explanation": "Mrs Trafe is the dinner lady whose cooking is described as truly revolting."
       },
       {
@@ -949,12 +949,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What did Mr Spud put on his bald head?",
         "options": {
-          "A": "An expensive toupee collection",
+          "A": "Nothing, he liked being bald",
           "B": "A designer baseball cap",
-          "C": "Nothing, he liked being bald",
+          "C": "An expensive toupee collection",
           "D": "A fancy top hat"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Mr Spud bought toupees for £10,000 each, including blonde, brown, ginger and afro options."
       },
       {
@@ -962,12 +962,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What is the Spuds' enormous house called?",
         "options": {
-          "A": "Spud Manor Estate",
+          "A": "Bumfresh Towers",
           "B": "Billionaire Palace",
-          "C": "Rich House Tower",
-          "D": "Bumfresh Towers"
+          "C": "Spud Manor Estate",
+          "D": "Rich House Tower"
         },
-        "answer": "D",
+        "answer": "A",
         "explanation": "Mr Spud named their house Bumfresh Towers after his famous product."
       },
       {
@@ -976,11 +976,11 @@ const quizData = {
         "question": "What chocolate bar does Joe buy for Bob?",
         "options": {
           "A": "A large Mars bar",
-          "B": "A big Snickers bar",
-          "C": "A giant Dairy Milk bar",
-          "D": "A huge Kit Kat bar"
+          "B": "A huge Kit Kat bar",
+          "C": "A big Snickers bar",
+          "D": "A giant Dairy Milk bar"
         },
-        "answer": "C",
+        "answer": "D",
         "explanation": "Bob chooses a giant bar of Cadbury's Dairy Milk which costs £3.20."
       },
       {
@@ -988,12 +988,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What happened to Bob's dad?",
         "options": {
-          "A": "He moved to another country",
+          "A": "He got a new job far away",
           "B": "He went to work abroad",
-          "C": "He died of cancer last year",
-          "D": "He got a new job far away"
+          "C": "He moved to another country",
+          "D": "He died of cancer last year"
         },
-        "answer": "C",
+        "answer": "D",
         "explanation": "Bob tells Joe 'My dad died last year' from cancer."
       },
       {
@@ -1001,12 +1001,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What nickname do students call Miss Spite?",
         "options": {
-          "A": "The Dragon Lady",
-          "B": "The Witch",
-          "C": "The Monster",
-          "D": "The Beast"
+          "A": "The Monster",
+          "B": "The Dragon Lady",
+          "C": "The Beast",
+          "D": "The Witch"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "Miss Spite is called 'the Witch' by the students."
       },
       {
@@ -1014,12 +1014,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "How much did Mr Spud give Joe for his 12th birthday?",
         "options": {
-          "A": "One hundred thousand pounds",
-          "B": "Five hundred thousand pounds",
-          "C": "One million pounds",
-          "D": "Two million pounds"
+          "A": "Five hundred thousand pounds",
+          "B": "Two million pounds",
+          "C": "One hundred thousand pounds",
+          "D": "One million pounds"
         },
-        "answer": "D",
+        "answer": "B",
         "explanation": "Mr Spud initially gave one million but increased it to two million when Joe complained."
       },
       {
@@ -1028,11 +1028,11 @@ const quizData = {
         "question": "Where did Bob's parents first meet each other?",
         "options": {
           "A": "At their local school together",
-          "B": "At a birthday party nearby",
-          "C": "At the Tesco supermarket",
-          "D": "At the church on Sunday"
+          "B": "At the Tesco supermarket",
+          "C": "At the church on Sunday",
+          "D": "At a birthday party nearby"
         },
-        "answer": "C",
+        "answer": "B",
         "explanation": "Bob's mum works at Tesco, on the checkout. That's where she met his dad."
       },
       {
@@ -1041,11 +1041,11 @@ const quizData = {
         "question": "What unusual animal did the Spuds have as a butler?",
         "options": {
           "A": "A gorilla named George",
-          "B": "An orangutan named Otis",
-          "C": "A chimpanzee named Charlie",
-          "D": "A monkey named Max"
+          "B": "A monkey named Max",
+          "C": "An orangutan named Otis",
+          "D": "A chimpanzee named Charlie"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "They even had a butler called Otis who was also an orangutan."
       },
       {
@@ -1066,12 +1066,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "According to the story, Joe was quite fat because ---.",
         "options": {
-          "A": "he never did any exercise at all",
-          "B": "he ate too much fast food daily",
-          "C": "he had a medical condition problem",
-          "D": "he could buy all the chocolate he wanted"
+          "A": "he ate too much fast food daily",
+          "B": "he never did any exercise at all",
+          "C": "he could buy all the chocolate he wanted",
+          "D": "he had a medical condition problem"
         },
-        "answer": "D",
+        "answer": "C",
         "explanation": "The text states 'He was quite fat. Well, you would be, wouldn't you, if you could buy all the chocolate in the world.'"
       },
       {
@@ -1079,12 +1079,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "At St Cuthbert's School, the posh kids bullied Joe because ---.",
         "options": {
-          "A": "he was not from an old wealthy family",
-          "B": "he wasn't smart enough for the school",
-          "C": "he couldn't play sports with them well",
-          "D": "his dad's toilet paper business was vulgar"
+          "A": "he couldn't play sports with them well",
+          "B": "his dad's toilet paper business was vulgar",
+          "C": "he was not from an old wealthy family",
+          "D": "he wasn't smart enough for the school"
         },
-        "answer": "D",
+        "answer": "B",
         "explanation": "The posh kids called Joe names like 'Bum-Boy' because his dad made money from loo rolls, which they said was awfully vulgar."
       },
       {
@@ -1094,8 +1094,8 @@ const quizData = {
         "options": {
           "A": "the expensive car was being repaired",
           "B": "he didn't want kids to know he was rich",
-          "C": "he wanted to walk there for exercise",
-          "D": "his dad wouldn't let him take the car"
+          "C": "his dad wouldn't let him take the car",
+          "D": "he wanted to walk there for exercise"
         },
         "answer": "B",
         "explanation": "He didn't want to arrive by Rolls-Royce because that would be a pretty good hint to the other kids that he was rich."
@@ -1105,12 +1105,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "During cross-country running, Joe paid Bob fifty pounds because ---.",
         "options": {
-          "A": "Bob had won the race against everyone",
-          "B": "Bob needed money for his lunch that day",
-          "C": "Joe wanted Bob to come last instead of him",
-          "D": "Joe felt very sorry for poor Bob"
+          "A": "Bob needed money for his lunch that day",
+          "B": "Bob had won the race against everyone",
+          "C": "Joe felt very sorry for poor Bob",
+          "D": "Joe wanted Bob to come last instead of him"
         },
-        "answer": "C",
+        "answer": "D",
         "explanation": "Joe had a stitch and didn't want to be last, so he paid Bob fifty pounds to come last."
       },
       {
@@ -1119,11 +1119,11 @@ const quizData = {
         "question": "Mr Spud invented Bumfresh while working at the factory because ---.",
         "options": {
           "A": "his factory boss asked him to invent it",
-          "B": "he had lots of time to daydream at work",
-          "C": "he studied chemistry and science at night",
-          "D": "another factory worker gave him the idea"
+          "B": "another factory worker gave him the idea",
+          "C": "he had lots of time to daydream at work",
+          "D": "he studied chemistry and science at night"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "The only good thing about working in a factory was that Mr Spud had lots of time to daydream. One day, he had a daydream that was to revolutionize bottom wiping forever."
       },
       {
@@ -1131,12 +1131,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "When Joe's parents split up, his mother Carol left because ---.",
         "options": {
-          "A": "she was unhappy with all the money",
-          "B": "Mr Spud was too busy working all day",
-          "C": "she had an affair with Joe's Cub Scout leader",
-          "D": "she wanted to travel the world alone"
+          "A": "she wanted to travel the world alone",
+          "B": "she was unhappy with all the money",
+          "C": "Mr Spud was too busy working all day",
+          "D": "she had an affair with Joe's Cub Scout leader"
         },
-        "answer": "C",
+        "answer": "D",
         "explanation": "Carol had been having a torrid affair with Joe's Cub Scout leader, Alan."
       },
       {
@@ -1144,12 +1144,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "Raj recognized Joe from a magazine because ---.",
         "options": {
-          "A": "Joe's photo was in the Sunday Times rich list",
-          "B": "Joe had been on television many times",
-          "C": "Raj knew Mr Spud from the old days",
-          "D": "Joe was famous at his previous school"
+          "A": "Joe was famous at his previous school",
+          "B": "Joe's photo was in the Sunday Times rich list",
+          "C": "Joe had been on television many times",
+          "D": "Raj knew Mr Spud from the old days"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Raj found the Sunday Times rich list showing 'Britain's richest children, number one, Joe Spud.'"
       },
       {
@@ -1157,9 +1157,9 @@ const quizData = {
         "difficulty": "medium",
         "question": "The Grubs threw Bob into a wheelie bin because ---.",
         "options": {
-          "A": "Bob owed them money from before",
-          "B": "Bob had insulted them in the hall",
-          "C": "it was a mean school tradition here",
+          "A": "it was a mean school tradition here",
+          "B": "Bob owed them money from before",
+          "C": "Bob had insulted them in the hall",
           "D": "they wanted to steal his chocolate bar"
         },
         "answer": "D",
@@ -1170,10 +1170,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Bob didn't tell anyone about the bullying because ---.",
         "options": {
-          "A": "he thought the bullying was funny actually",
+          "A": "the teachers already knew what happened",
           "B": "he didn't know who to tell about it",
           "C": "the Grubs threatened to really beat him up",
-          "D": "the teachers already knew what happened"
+          "D": "he thought the bullying was funny actually"
         },
         "answer": "C",
         "explanation": "Bob said 'The Grubs said if I ever told anyone that they would really beat me up.'"
@@ -1184,11 +1184,11 @@ const quizData = {
         "question": "When Bob found out Joe was a billionaire, he gave back the fifty pounds because ---.",
         "options": {
           "A": "he was very angry at Joe for lying",
-          "B": "he felt too guilty about taking it from Joe",
+          "B": "he just liked hanging out with Joe as friends",
           "C": "Joe asked for the money back from him",
-          "D": "he just liked hanging out with Joe as friends"
+          "D": "he felt too guilty about taking it from Joe"
         },
-        "answer": "D",
+        "answer": "B",
         "explanation": "Bob said 'I don't want your money... I just liked hanging out with you today.'"
       },
       {
@@ -1196,12 +1196,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "No one ate in the school canteen because ---.",
         "options": {
-          "A": "the food was way too expensive for kids",
-          "B": "Mrs Trafe's cooking was truly revolting",
-          "C": "the Grubs controlled the whole canteen",
+          "A": "the Grubs controlled the whole canteen",
+          "B": "the food was way too expensive for kids",
+          "C": "Mrs Trafe's cooking was truly revolting",
           "D": "the canteen was always closed at lunch"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "The text says 'The kids in the school would rather die than eat anything she cooked.'"
       },
       {
@@ -1209,12 +1209,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "Mr Spud made birthday presents from loo roll tubes because ---.",
         "options": {
-          "A": "Joe loved craft projects so much",
-          "B": "the family was so poor back then",
-          "C": "it was their family tradition always",
-          "D": "Joe always asked for homemade gifts"
+          "A": "Joe always asked for homemade gifts",
+          "B": "it was their family tradition always",
+          "C": "Joe loved craft projects so much",
+          "D": "the family was so poor back then"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "Because the family was so poor, Mr Spud used to make birthday and Christmas presents for his son from the loo roll inner tubes."
       },
       {
@@ -1222,12 +1222,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "Joe wanted to attend a normal school because ---.",
         "options": {
-          "A": "he really hated learning at posh schools",
+          "A": "his dad couldn't afford St Cuthbert's fees",
           "B": "the posh school was too far away now",
-          "C": "he hoped to make friends like normal kids",
-          "D": "his dad couldn't afford St Cuthbert's fees"
+          "C": "he really hated learning at posh schools",
+          "D": "he hoped to make friends like normal kids"
         },
-        "answer": "C",
+        "answer": "D",
         "explanation": "Joe says 'I want to go to a normal school with normal kids. I want to make a friend, Dad.'"
       },
       {
@@ -1235,12 +1235,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "The Spuds' house was so large that ---.",
         "options": {
-          "A": "it took five minutes to drive up the driveway",
+          "A": "they needed helicopters to travel inside it",
           "B": "Joe often got lost walking around inside",
-          "C": "they needed helicopters to travel inside it",
-          "D": "it required one hundred servants to run"
+          "C": "it required one hundred servants to run",
+          "D": "it took five minutes to drive up the driveway"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "The text says 'It took five minutes just to motor up the drive.'"
       },
       {
@@ -1250,8 +1250,8 @@ const quizData = {
         "options": {
           "A": "he didn't know which bus to take home",
           "B": "the driver wouldn't accept his £50 note",
-          "C": "he missed the bus by just one minute",
-          "D": "there wasn't enough room for him inside"
+          "C": "there wasn't enough room for him inside",
+          "D": "he missed the bus by just one minute"
         },
         "answer": "B",
         "explanation": "Joe hadn't realised that a £50 note was not going to be welcome to pay for a £2 bus fare."
@@ -1261,12 +1261,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "Bob's mum works two jobs as a Tesco worker and ---.",
         "options": {
-          "A": "a teacher at the local primary school",
-          "B": "a cleaner at an old people's home",
-          "C": "a nurse at the hospital at night",
-          "D": "a cook at a restaurant downtown"
+          "A": "a nurse at the hospital at night",
+          "B": "a cook at a restaurant downtown",
+          "C": "a teacher at the local primary school",
+          "D": "a cleaner at an old people's home"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "Bob says 'She's got another job too. She's a cleaner at an old people's home in the evenings.'"
       },
       {
@@ -1274,12 +1274,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "When Miss Spite found out Joe forgot his homework, she gave him ---.",
         "options": {
-          "A": "detention for the whole week ahead",
+          "A": "extra homework as his punishment",
           "B": "a failing grade on his assignment",
-          "C": "extra homework as his punishment",
-          "D": "fifteen minutes to get his essay"
+          "C": "fifteen minutes to get his essay",
+          "D": "detention for the whole week ahead"
         },
-        "answer": "D",
+        "answer": "C",
         "explanation": "Miss Spite says 'I will give you 15 minutes exactly to place said essay in my hand.'"
       },
       {
@@ -1287,12 +1287,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "At cross-country running, Bob appeared in his vest and Y-fronts because ---.",
         "options": {
-          "A": "he forgot his kit at home that day",
-          "B": "someone had hidden his running kit",
-          "C": "he was trying to be funny for laughs",
-          "D": "his friends dared him to do it"
+          "A": "his friends dared him to do it",
+          "B": "he forgot his kit at home that day",
+          "C": "someone had hidden his running kit",
+          "D": "he was trying to be funny for laughs"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "When Mr Bruce asked about his kit, Bob answered 'Someone must have hidden it, sir.'"
       },
       {
@@ -1301,8 +1301,8 @@ const quizData = {
         "question": "The kids at school chanted 'Blob' at Bob because ---.",
         "options": {
           "A": "it was a nickname mocking his weight",
-          "B": "it was his real name from birth",
-          "C": "he said he liked the name Blob",
+          "B": "he said he liked the name Blob",
+          "C": "it was his real name from birth",
           "D": "the teachers started using it first"
         },
         "answer": "A",
@@ -1313,12 +1313,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "According to the Sunday Times rich list, Joe's worth was ---.",
         "options": {
-          "A": "one billion pounds total",
-          "B": "five billion pounds total",
-          "C": "ten billion pounds total",
+          "A": "ten billion pounds total",
+          "B": "one billion pounds total",
+          "C": "five billion pounds total",
           "D": "one hundred billion total"
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "The magazine listed 'Joe Spud, age twelve, Bumfresh heir, estimated worth ten billion.'"
       },
       {
@@ -1328,8 +1328,8 @@ const quizData = {
         "options": {
           "A": "always makes people truly happy inside",
           "B": "doesn't guarantee friendship or happiness",
-          "C": "is what everyone should want in life",
-          "D": "makes rich people better than others"
+          "C": "makes rich people better than others",
+          "D": "is what everyone should want in life"
         },
         "answer": "B",
         "explanation": "Despite having everything money can buy, Joe has no friends and is lonely, showing material wealth doesn't equal happiness."
@@ -1339,12 +1339,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Joe and Bob both finishing last in cross-country is significant because ---.",
         "options": {
-          "A": "it proves they are both bad at sports",
-          "B": "it starts a friendship based on shared struggle",
-          "C": "it shows the PE teacher was very unfair",
-          "D": "it means they should quit the school team"
+          "A": "it starts a friendship based on shared struggle",
+          "B": "it proves they are both bad at sports",
+          "C": "it means they should quit the school team",
+          "D": "it shows the PE teacher was very unfair"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "The shared experience of struggling together creates the foundation for their friendship based on understanding rather than wealth."
       },
       {
@@ -1352,12 +1352,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "The contrast between St Cuthbert's and the comprehensive school shows ---.",
         "options": {
-          "A": "that posh schools always give better education",
-          "B": "the difference between snobbery and real connection",
-          "C": "that posh schools are always bad for children",
-          "D": "that public schools are always better overall"
+          "A": "that public schools are always better overall",
+          "B": "that posh schools are always bad for children",
+          "C": "that posh schools always give better education",
+          "D": "the difference between snobbery and real connection"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "At St Cuthbert's, Joe was bullied for being 'new money,' but at the comprehensive, he could find genuine friendship."
       },
       {
@@ -1366,11 +1366,11 @@ const quizData = {
         "question": "Bob returning the fifty pounds shows that true friendship ---.",
         "options": {
           "A": "means poor people don't want any money",
-          "B": "values the person more than their wealth",
-          "C": "requires people to be very proud always",
-          "D": "is impossible between rich and poor kids"
+          "B": "requires people to be very proud always",
+          "C": "is impossible between rich and poor kids",
+          "D": "values the person more than their wealth"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "Bob's refusal shows he values Joe for who he is, not what he has, demonstrating the story's theme about authentic friendship."
       },
       {
@@ -1378,10 +1378,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Mr Spud eating expensive caviar despite hating it shows that ---.",
         "options": {
-          "A": "rich people always love expensive food a lot",
+          "A": "caviar is actually delicious when prepared right",
           "B": "money can make people act against their nature",
-          "C": "caviar is actually delicious when prepared right",
-          "D": "he should buy even more expensive foods"
+          "C": "he should buy even more expensive foods",
+          "D": "rich people always love expensive food a lot"
         },
         "answer": "B",
         "explanation": "Mr Spud admits caviar is 'absolutely disgusting' but says 'we are rich, son. We have to eat all this posh stuff now.'"
@@ -1391,12 +1391,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "The joke about Bob's dad 'going for milk but leaving with a wife' shows ---.",
         "options": {
-          "A": "that shopping at Tesco is very dangerous",
-          "B": "that genuine love comes from ordinary moments",
+          "A": "that genuine love comes from ordinary moments",
+          "B": "that he was a very funny person overall",
           "C": "that his dad was very irresponsible always",
-          "D": "that he was a very funny person overall"
+          "D": "that shopping at Tesco is very dangerous"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "This contrasts with Mr Spud dating Page Three girls, showing the difference between authentic love and superficial relationships."
       },
       {
@@ -1404,12 +1404,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Mrs Trafe's disgusting menu items like 'hair lasagna' are used to ---.",
         "options": {
-          "A": "show that school food is really that bad",
-          "B": "create comedy while bonding the two boys",
-          "C": "prove that the school needs more money",
-          "D": "make readers feel sick about lunch food"
+          "A": "create comedy while bonding the two boys",
+          "B": "prove that the school needs more money",
+          "C": "make readers feel sick about lunch food",
+          "D": "show that school food is really that bad"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "The ridiculously gross menu uses exaggeration for comic effect while creating another shared experience for Joe and Bob."
       },
       {
@@ -1417,12 +1417,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Joe hiding his wealth at the new school shows he ---.",
         "options": {
-          "A": "is very ashamed of being rich always",
-          "B": "wants to be valued for who he really is",
+          "A": "wants to be valued for who he really is",
+          "B": "thinks being poor is better than being rich",
           "C": "wants to trick people for fun and games",
-          "D": "thinks being poor is better than being rich"
+          "D": "is very ashamed of being rich always"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Joe learned from St Cuthbert's that money affects how people treat him, so he wants to be judged on his personality."
       },
       {
@@ -1430,12 +1430,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Mr Spud's ridiculous toupees looking like 'dead rodents' suggest that ---.",
         "options": {
-          "A": "he simply has very poor fashion taste",
-          "B": "money cannot buy authenticity or self-acceptance",
-          "C": "all toupees look bad on bald people",
-          "D": "he should have bought more expensive ones"
+          "A": "all toupees look bad on bald people",
+          "B": "he should have bought more expensive ones",
+          "C": "he simply has very poor fashion taste",
+          "D": "money cannot buy authenticity or self-acceptance"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "The toupee symbolizes how wealth is used to mask insecurities, but the result is ridiculous rather than convincing."
       },
       {
@@ -1443,12 +1443,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Bob's advice to 'stand up to bullies' is both wise and problematic because ---.",
         "options": {
-          "A": "standing up to bullies always works out",
-          "B": "it could get Bob seriously hurt in reality",
+          "A": "it means he should fight back violently",
+          "B": "standing up to bullies always works out",
           "C": "bullies always back down when challenged",
-          "D": "it means he should fight back violently"
+          "D": "it could get Bob seriously hurt in reality"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "The advice is morally sound but practically dangerous for Bob, which is why Joe thinks there might be 'another way.'"
       },
       {
@@ -1456,10 +1456,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "The attitudes at St Cuthbert's about 'old money' versus 'new money' show ---.",
         "options": {
-          "A": "that old money families are always better",
+          "A": "that there is no real difference between them",
           "B": "that class prejudice exists even among the wealthy",
           "C": "that new money is more respectable always",
-          "D": "that there is no real difference between them"
+          "D": "that old money families are always better"
         },
         "answer": "B",
         "explanation": "The posh boys with inherited wealth consider Joe's earned fortune 'vulgar,' showing class snobbery among the rich."
@@ -1469,12 +1469,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "The orangutan butler Otis being 'given the sack' shows that ---.",
         "options": {
-          "A": "the Spuds truly love animals very much",
-          "B": "extreme wealth leads to absurd impractical choices",
-          "C": "orangutans actually make excellent butlers",
-          "D": "they simply needed more household staff"
+          "A": "orangutans actually make excellent butlers",
+          "B": "the Spuds truly love animals very much",
+          "C": "they simply needed more household staff",
+          "D": "extreme wealth leads to absurd impractical choices"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "Having an orangutan butler is an example of ridiculous extravagance that was impractical."
       },
       {
@@ -1482,12 +1482,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Joe keeping the 'sad loo roll space rocket' his dad made shows ---.",
         "options": {
-          "A": "that he collects all space-related things",
-          "B": "a connection to when love meant more than money",
+          "A": "a connection to when love meant more than money",
+          "B": "that he collects all space-related things",
           "C": "that he just forgot to throw it away",
           "D": "that the toy is worth money now"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "The homemade gift represents the authentic parent-child bond from before wealth, contrasting with the £2 million birthday check."
       },
       {
@@ -1495,12 +1495,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Miss Spite's love of teacher catchphrases shows that ---.",
         "options": {
-          "A": "she is actually a very good teacher",
-          "B": "she enjoys power and control over students",
-          "C": "all teachers use these catchphrases daily",
-          "D": "she is just following school rules strictly"
+          "A": "she enjoys power and control over students",
+          "B": "she is just following school rules strictly",
+          "C": "she is actually a very good teacher",
+          "D": "all teachers use these catchphrases daily"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Miss Spite uses catchphrases with 'evil relish' and is 'desperate for someone to have failed,' showing she enjoys punishing students."
       },
       {
@@ -1508,12 +1508,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Making the Grub twins indistinguishable despite being different genders ---.",
         "options": {
-          "A": "is a mistake that the author made",
-          "B": "creates comedy while dehumanizing the bullies",
-          "C": "shows that all twins are exactly identical",
-          "D": "doesn't really mean anything important"
+          "A": "creates comedy while dehumanizing the bullies",
+          "B": "is a mistake that the author made",
+          "C": "doesn't really mean anything important",
+          "D": "shows that all twins are exactly identical"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "The joke that Dave and Sue are indistinguishable uses absurdity to dehumanize the bullies while creating humor."
       },
       {
@@ -1521,12 +1521,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Joe's guilt about paying Bob to come last shows ---.",
         "options": {
-          "A": "that Joe is very manipulative always",
-          "B": "that he's learning friendship isn't about money",
-          "C": "that Joe wants to control Bob completely",
-          "D": "that he regrets wasting his money"
+          "A": "that Joe wants to control Bob completely",
+          "B": "that he regrets wasting his money",
+          "C": "that Joe is very manipulative always",
+          "D": "that he's learning friendship isn't about money"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "Joe feels guilty about using money to solve problems and wants to help Bob genuinely."
       },
       {
@@ -1547,12 +1547,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Joe wondering how to 'fit in with normal kids' shows that ---.",
         "options": {
-          "A": "Joe thinks he is better than other kids",
-          "B": "wealth can isolate people from normal experiences",
+          "A": "wealth can isolate people from normal experiences",
+          "B": "public schools are always very scary",
           "C": "rich kids can never make real friends",
-          "D": "public schools are always very scary"
+          "D": "Joe thinks he is better than other kids"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "This shows how extreme wealth creates isolation and makes normal social interactions feel unfamiliar."
       },
       {
@@ -1561,11 +1561,11 @@ const quizData = {
         "question": "Joe asking for a 'friend' as his birthday present reveals that ---.",
         "options": {
           "A": "he is very greedy and wants even more",
-          "B": "money cannot buy genuine human connection",
+          "B": "friends can easily be bought with money",
           "C": "he doesn't really know what he wants",
-          "D": "friends can easily be bought with money"
+          "D": "money cannot buy genuine human connection"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "Despite having unlimited money, Joe cannot purchase the thing he most wants, highlighting the story's central theme."
       },
       {
@@ -1573,12 +1573,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "The overall message of Billionaire Boy is that ---.",
         "options": {
-          "A": "being rich is always terrible for people",
-          "B": "money can't replace genuine relationships and identity",
-          "C": "poor people are always happier than rich",
-          "D": "everyone should give away all their money"
+          "A": "poor people are always happier than rich",
+          "B": "everyone should give away all their money",
+          "C": "money can't replace genuine relationships and identity",
+          "D": "being rich is always terrible for people"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "The story shows that while poverty has hardships, wealth without authentic relationships leads to loneliness."
       }
     ]
@@ -6623,12 +6623,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What is the narrator's name?",
         "options": {
-          "A": "A.J., the boy who hates school",
-          "B": "Ryan, the sports-loving student",
+          "A": "Andrea, the smart class girl",
+          "B": "A.J., the boy who hates school",
           "C": "Michael, the quiet shy boy",
-          "D": "Andrea, the smart class girl"
+          "D": "Ryan, the sports-loving student"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "The narrator introduces himself as A.J. who hates school."
       },
       {
@@ -6637,8 +6637,8 @@ const quizData = {
         "question": "What subject does A.J. hate the most?",
         "options": {
           "A": "Reading class with stories",
-          "B": "Writing essays and reports",
-          "C": "Math with lots of numbers",
+          "B": "Math with lots of numbers",
+          "C": "Writing essays and reports",
           "D": "Music class with singing"
         },
         "answer": "D",
@@ -6649,12 +6649,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What is the name of the old music teacher?",
         "options": {
-          "A": "Mr. Hind, the new guy",
-          "B": "Mr. Loring, the boring one",
-          "C": "Mr. Klutz, the principal",
-          "D": "Miss Daisy, classroom teacher"
+          "A": "Mr. Loring, the boring one",
+          "B": "Miss Daisy, classroom teacher",
+          "C": "Mr. Hind, the new guy",
+          "D": "Mr. Klutz, the principal"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Mr. Loring is the old music teacher who taught boring songs."
       },
       {
@@ -6662,12 +6662,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What is the new music teacher's name?",
         "options": {
-          "A": "Mr. Loring who is retiring",
-          "B": "Mr. Klutz the bald man",
-          "C": "Mr. Hind who loves rap",
-          "D": "Mr. Ryan the gym teacher"
+          "A": "Mr. Klutz the bald man",
+          "B": "Mr. Hind who loves rap",
+          "C": "Mr. Ryan the gym teacher",
+          "D": "Mr. Loring who is retiring"
         },
-        "answer": "C",
+        "answer": "B",
         "explanation": "Mr. Hind is the new music teacher who likes rap and hip-hop."
       },
       {
@@ -6676,9 +6676,9 @@ const quizData = {
         "question": "Who is A.J.'s classroom teacher?",
         "options": {
           "A": "Miss Daisy who is nice",
-          "B": "Andrea the smart girl",
-          "C": "Emily the quiet friend",
-          "D": "Mrs. Klutz at the office"
+          "B": "Emily the quiet friend",
+          "C": "Mrs. Klutz at the office",
+          "D": "Andrea the smart girl"
         },
         "answer": "A",
         "explanation": "Miss Daisy is A.J.'s classroom teacher."
@@ -6688,12 +6688,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "Who does A.J. call a 'brown-noser'?",
         "options": {
-          "A": "Ryan his best friend",
-          "B": "Michael the quiet boy",
-          "C": "Emily the shy girl",
-          "D": "Andrea the perfect student"
+          "A": "Michael the quiet boy",
+          "B": "Andrea the perfect student",
+          "C": "Ryan his best friend",
+          "D": "Emily the shy girl"
         },
-        "answer": "D",
+        "answer": "B",
         "explanation": "A.J. calls Andrea a brown-noser because she loves school and always tries to impress teachers."
       },
       {
@@ -6701,12 +6701,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "Who are A.J.'s best friends?",
         "options": {
-          "A": "Andrea and Emily together",
-          "B": "Mr. Hind and Mr. Klutz",
-          "C": "Ryan and Michael always",
+          "A": "Ryan and Michael always",
+          "B": "Andrea and Emily together",
+          "C": "Mr. Hind and Mr. Klutz",
           "D": "Miss Daisy and Andrea"
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "Ryan and Michael are A.J.'s best friends who agree with him about most things."
       },
       {
@@ -6714,12 +6714,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What does A.J. want to be when he grows up?",
         "options": {
-          "A": "A famous singer on stage",
-          "B": "A dirt bike racer pro",
-          "C": "A teacher like Mr. Hind",
-          "D": "A rapper making music"
+          "A": "A teacher like Mr. Hind",
+          "B": "A famous singer on stage",
+          "C": "A rapper making music",
+          "D": "A dirt bike racer pro"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "A.J. says when he grows up, he's going to be a professional dirt bike racer."
       },
       {
@@ -6728,11 +6728,11 @@ const quizData = {
         "question": "Who is the school principal?",
         "options": {
           "A": "Mr. Loring the music man",
-          "B": "Mr. Hind the rapper guy",
-          "C": "Miss Daisy the nice lady",
-          "D": "Mr. Klutz the bald one"
+          "B": "Miss Daisy the nice lady",
+          "C": "Mr. Klutz the bald one",
+          "D": "Mr. Hind the rapper guy"
         },
-        "answer": "D",
+        "answer": "C",
         "explanation": "Mr. Klutz is the school principal who is completely bald."
       },
       {
@@ -6740,12 +6740,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What kind of music does Mr. Hind like?",
         "options": {
-          "A": "Rap and hip-hop beats",
-          "B": "Classical piano music",
-          "C": "Country guitar songs",
-          "D": "Opera singing loudly"
+          "A": "Country guitar songs",
+          "B": "Opera singing loudly",
+          "C": "Rap and hip-hop beats",
+          "D": "Classical piano music"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Mr. Hind loves rap and hip-hop music and teaches the kids about it."
       },
       {
@@ -6753,12 +6753,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What instrument does Andrea play?",
         "options": {
-          "A": "Drums with drumsticks",
-          "B": "Guitar with six strings",
-          "C": "Piano and also violin",
-          "D": "Flute made of metal"
+          "A": "Flute made of metal",
+          "B": "Piano and also violin",
+          "C": "Guitar with six strings",
+          "D": "Drums with drumsticks"
         },
-        "answer": "C",
+        "answer": "B",
         "explanation": "Andrea takes piano lessons and violin lessons."
       },
       {
@@ -6766,12 +6766,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What event is announced at the beginning of the story?",
         "options": {
-          "A": "Summer vacation is coming",
-          "B": "Christmas break is here",
-          "C": "Music festival at school",
-          "D": "TV Turn-Off Month now"
+          "A": "TV Turn-Off Month now",
+          "B": "Music festival at school",
+          "C": "Christmas break is here",
+          "D": "Summer vacation is coming"
         },
-        "answer": "D",
+        "answer": "A",
         "explanation": "TV Turn-Off Week became TV Turn-Off Month - four weeks without TV."
       },
       {
@@ -6780,8 +6780,8 @@ const quizData = {
         "question": "What play do the students perform?",
         "options": {
           "A": "The Princess and Pea",
-          "B": "Cinderella at the ball",
-          "C": "Snow White and dwarfs",
+          "B": "Snow White and dwarfs",
+          "C": "Cinderella at the ball",
           "D": "Beauty and the Beast"
         },
         "answer": "D",
@@ -6792,12 +6792,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "Who plays Beauty in the play?",
         "options": {
-          "A": "Emily the quiet one",
-          "B": "Andrea the smart girl",
-          "C": "A.J. the main narrator",
-          "D": "Miss Daisy the teacher"
+          "A": "Andrea the smart girl",
+          "B": "A.J. the main narrator",
+          "C": "Miss Daisy the teacher",
+          "D": "Emily the quiet one"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Andrea is chosen to be Beauty in the play."
       },
       {
@@ -6805,12 +6805,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "Who plays the Beast in the play?",
         "options": {
-          "A": "A.J. who volunteered quick",
-          "B": "Ryan who loves football",
-          "C": "Michael the shy student",
-          "D": "Mr. Hind the teacher"
+          "A": "Michael the shy student",
+          "B": "A.J. who volunteered quick",
+          "C": "Mr. Hind the teacher",
+          "D": "Ryan who loves football"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "A.J. volunteers to be the Beast when he hears he can torture Beauty."
       },
       {
@@ -6818,12 +6818,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What does Mr. Hind wear when he first appears?",
         "options": {
-          "A": "A suit with a nice tie",
-          "B": "A tuxedo black and white",
-          "C": "Regular everyday clothes",
-          "D": "Purple cape with sequins"
+          "A": "Purple cape with sequins",
+          "B": "Regular everyday clothes",
+          "C": "A tuxedo black and white",
+          "D": "A suit with a nice tie"
         },
-        "answer": "D",
+        "answer": "A",
         "explanation": "Mr. Hind wears a purple cape with sequins, sunglasses, and a baseball cap."
       },
       {
@@ -6831,9 +6831,9 @@ const quizData = {
         "difficulty": "easy",
         "question": "What is Mr. Klutz's most noticeable feature?",
         "options": {
-          "A": "He is very tall",
-          "B": "He has a long beard",
-          "C": "He wears big glasses",
+          "A": "He wears big glasses",
+          "B": "He is very tall",
+          "C": "He has a long beard",
           "D": "He is completely bald"
         },
         "answer": "D",
@@ -6844,10 +6844,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What subject does Mr. Hind teach about with rulers?",
         "options": {
-          "A": "Math with measuring stuff",
-          "B": "Reading lines in books",
+          "A": "Reading lines in books",
+          "B": "Dance moving your feet",
           "C": "Percussion hitting things",
-          "D": "Dance moving your feet"
+          "D": "Math with measuring stuff"
         },
         "answer": "C",
         "explanation": "Mr. Hind uses rulers to hit objects and teach about percussion."
@@ -6857,12 +6857,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What does A.J. call the cafeteria?",
         "options": {
-          "A": "The lunchroom for eating",
-          "B": "The eating hall for food",
-          "C": "The food court at school",
-          "D": "The vomitorium always"
+          "A": "The vomitorium always",
+          "B": "The food court at school",
+          "C": "The eating hall for food",
+          "D": "The lunchroom for eating"
         },
-        "answer": "D",
+        "answer": "A",
         "explanation": "A.J. calls the cafeteria the 'vomitorium.'"
       },
       {
@@ -6870,12 +6870,12 @@ const quizData = {
         "difficulty": "easy",
         "question": "What does Mr. Hind want to become someday?",
         "options": {
-          "A": "Principal of the school",
+          "A": "A famous rapper star",
           "B": "Classical music player",
-          "C": "A famous rapper star",
-          "D": "A TV show celebrity"
+          "C": "A TV show celebrity",
+          "D": "Principal of the school"
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "Mr. Hind is working on his own CD and hopes to become a famous rapper."
       },
       {
@@ -6883,12 +6883,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "A.J. didn't like Mr. Loring's music class because...",
         "options": {
-          "A": "they had to sing the same boring old songs over and over again",
-          "B": "Mr. Loring was very mean and yelled at students all the time",
+          "A": "Mr. Loring was very mean and yelled at students all the time",
+          "B": "they had to sing the same boring old songs over and over again",
           "C": "there was way too much homework to do every single night",
           "D": "the music room was always too cold and uncomfortable to sit in"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Mr. Loring made them sing songs like 'Who Stole the Cookie from the Cookie Jar' so many times that A.J. never wanted to eat cookies again."
       },
       {
@@ -6896,12 +6896,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "When Mr. Hind first entered the classroom, there was...",
         "options": {
-          "A": "complete silence with everyone sitting still and waiting quietly",
-          "B": "classical music playing softly from the old record player",
-          "C": "students already singing the boring songs from before",
-          "D": "purple smoke, laser beams, and loud drum music everywhere"
+          "A": "classical music playing softly from the old record player",
+          "B": "students already singing the boring songs from before",
+          "C": "purple smoke, laser beams, and loud drum music everywhere",
+          "D": "complete silence with everyone sitting still and waiting quietly"
         },
-        "answer": "D",
+        "answer": "C",
         "explanation": "Purple smoke, laser beams, and drum beats from a boombox created a dramatic entrance for Mr. Hind."
       },
       {
@@ -6909,12 +6909,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "Andrea wanted to get Mr. Hind fired because...",
         "options": {
-          "A": "he was really mean to her and made her cry in class",
-          "B": "she thought he was incompetent and didn't teach real music",
-          "C": "he gave way too much homework for students to handle",
-          "D": "he yelled at her in front of everyone in the classroom"
+          "A": "she thought he was incompetent and didn't teach real music",
+          "B": "he gave way too much homework for students to handle",
+          "C": "he yelled at her in front of everyone in the classroom",
+          "D": "he was really mean to her and made her cry in class"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Andrea said Mr. Hind was 'incompetent' because he didn't play traditional instruments or teach about classical composers."
       },
       {
@@ -6922,12 +6922,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "When Mr. Klutz walked in on Mr. Hind's noisy lesson, he...",
         "options": {
-          "A": "fired Mr. Hind right away and told him to leave school",
-          "B": "told everyone to be quiet and sit down immediately",
-          "C": "started rapping and said that Mr. Hind was really cool",
+          "A": "started rapping and said that Mr. Hind was really cool",
+          "B": "fired Mr. Hind right away and told him to leave school",
+          "C": "told everyone to be quiet and sit down immediately",
           "D": "left the room without saying a single word to anyone"
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "Mr. Klutz surprised everyone by rapping and saying 'I rule the school, and I say Mr. Hind is cool.'"
       },
       {
@@ -6935,10 +6935,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Mr. Hind played Mr. Klutz's bald head like...",
         "options": {
-          "A": "a piano by tapping different notes with his fingers",
+          "A": "a guitar by strumming across his smooth scalp",
           "B": "a drum by hitting it hard with two wooden sticks",
           "C": "a bongo by drumming the top of his shiny head",
-          "D": "a guitar by strumming across his smooth scalp"
+          "D": "a piano by tapping different notes with his fingers"
         },
         "answer": "C",
         "explanation": "Mr. Hind started drumming the top of Principal Klutz's bald head like it was a bongo."
@@ -6948,12 +6948,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "A.J. volunteered to be the Beast because...",
         "options": {
-          "A": "he really liked acting and wanted to be on stage",
+          "A": "he heard the Beast gets to torture Beauty in dungeon",
           "B": "Andrea asked him nicely to be her partner in play",
           "C": "no one else in the class wanted to take the role",
-          "D": "he heard the Beast gets to torture Beauty in dungeon"
+          "D": "he really liked acting and wanted to be on stage"
         },
-        "answer": "D",
+        "answer": "A",
         "explanation": "When Mr. Hind said 'the Beast gets to lock Beauty in the dungeon and torture her,' A.J. immediately volunteered."
       },
       {
@@ -6962,11 +6962,11 @@ const quizData = {
         "question": "A.J. didn't want to kiss Andrea in the play, so Mr. Hind told him to...",
         "options": {
           "A": "just skip that part and pretend it happened off stage",
-          "B": "pretend she was something he liked, like a dirt bike",
-          "C": "have someone else take over the Beast role instead",
+          "B": "have someone else take over the Beast role instead",
+          "C": "pretend she was something he liked, like a dirt bike",
           "D": "close his eyes tight and think of absolutely nothing"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "Mr. Hind said to pretend Andrea was a dirt bike, just like he pretended green beans were oatmeal cookies when he was young."
       },
       {
@@ -6974,8 +6974,8 @@ const quizData = {
         "difficulty": "medium",
         "question": "Andrea said she would pretend A.J. was...",
         "options": {
-          "A": "a football because she liked sports a lot",
-          "B": "a dirt bike because A.J. mentioned it first",
+          "A": "a dirt bike because A.J. mentioned it first",
+          "B": "a football because she liked sports a lot",
           "C": "an encyclopedia because she loved reading books",
           "D": "a piano because she played music every day"
         },
@@ -6987,12 +6987,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "A.J.'s rule about Andrea is that...",
         "options": {
-          "A": "he agrees with everything Andrea says in class",
-          "B": "anything she likes, he doesn't like, and vice versa",
-          "C": "they are actually best friends who pretend fight",
-          "D": "he ignores her completely and never talks to her"
+          "A": "they are actually best friends who pretend fight",
+          "B": "he ignores her completely and never talks to her",
+          "C": "anything she likes, he doesn't like, and vice versa",
+          "D": "he agrees with everything Andrea says in class"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "A.J. says 'Anything Andrea doesn't like, I like. And anything Andrea likes, I don't like.'"
       },
       {
@@ -7000,12 +7000,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "Mr. Hind taught that percussion is...",
         "options": {
-          "A": "saying bad words that you shouldn't say out loud",
-          "B": "when one object hits against another object hard",
-          "C": "a special type of singing that uses your throat",
+          "A": "when one object hits against another object hard",
+          "B": "a special type of singing that uses your throat",
+          "C": "saying bad words that you shouldn't say out loud",
           "D": "playing piano with your fingers on white keys"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Andrea correctly defined percussion as 'when one object hits against another object.'"
       },
       {
@@ -7013,12 +7013,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "During the percussion lesson, Mr. Hind put a garbage can on his foot and...",
         "options": {
-          "A": "fell over and everyone laughed at him really hard",
-          "B": "sat down because it was too heavy for him",
-          "C": "threw it away into the corner of the room",
-          "D": "tap danced while drumming on things with rulers"
+          "A": "threw it away into the corner of the room",
+          "B": "tap danced while drumming on things with rulers",
+          "C": "sat down because it was too heavy for him",
+          "D": "fell over and everyone laughed at him really hard"
         },
-        "answer": "D",
+        "answer": "B",
         "explanation": "Mr. Hind tap danced with a garbage can on his foot while hitting things with rulers."
       },
       {
@@ -7026,12 +7026,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "A.J. was confused about multiplication because...",
         "options": {
-          "A": "he didn't do his math homework the night before",
-          "B": "2+2 and 2x2 both equal 4, which made no sense",
-          "C": "the teacher didn't explain multiplication clearly enough",
-          "D": "he just didn't like numbers and refused to learn"
+          "A": "2+2 and 2x2 both equal 4, which made no sense",
+          "B": "he didn't do his math homework the night before",
+          "C": "he just didn't like numbers and refused to learn",
+          "D": "the teacher didn't explain multiplication clearly enough"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "A.J. couldn't understand how addition and multiplication could give the same answer for 2+2 and 2x2."
       },
       {
@@ -7039,12 +7039,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "A.J. calls Andrea 'goody two-shoes' because...",
         "options": {
-          "A": "she wears really nice expensive shoes to school",
-          "B": "she loves everything about school and tries to be perfect",
-          "C": "she is really good at playing sports with everyone",
-          "D": "she owns two pairs of the exact same shoes"
+          "A": "she owns two pairs of the exact same shoes",
+          "B": "she wears really nice expensive shoes to school",
+          "C": "she loves everything about school and tries to be perfect",
+          "D": "she is really good at playing sports with everyone"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "Andrea loves school, homework, and always tries to impress teachers, which A.J. finds annoying."
       },
       {
@@ -7054,10 +7054,10 @@ const quizData = {
         "options": {
           "A": "he was just joking around with his friends",
           "B": "A.J. told him that's what he should do",
-          "C": "that's what he really liked more than anything",
-          "D": "it was an actual part of the school play"
+          "C": "it was an actual part of the school play",
+          "D": "that's what he really liked more than anything"
         },
-        "answer": "C",
+        "answer": "D",
         "explanation": "When A.J. said he'd pretend Andrea was a dirt bike, Ryan said he'd kiss a football because that's what he likes."
       },
       {
@@ -7065,12 +7065,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "TV Turn-Off Month was even worse than A.J. expected because...",
         "options": {
-          "A": "it was only supposed to be one short week",
-          "B": "it lasted four whole weeks instead of just one",
-          "C": "there was extra homework on top of no TV",
-          "D": "he also had to read many boring books too"
+          "A": "he also had to read many boring books too",
+          "B": "there was extra homework on top of no TV",
+          "C": "it lasted four whole weeks instead of just one",
+          "D": "it was only supposed to be one short week"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "TV Turn-Off Week had been so 'successful' that they made it TV Turn-Off Month - four weeks."
       },
       {
@@ -7078,12 +7078,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "Mr. Hind introduced himself as...",
         "options": {
-          "A": "a regular boring teacher just like all the others",
-          "B": "Jam Master Hind, the one-man funky groove machine",
-          "C": "a classical musician who plays piano and violin",
-          "D": "the new principal who would run the whole school"
+          "A": "the new principal who would run the whole school",
+          "B": "a classical musician who plays piano and violin",
+          "C": "a regular boring teacher just like all the others",
+          "D": "Jam Master Hind, the one-man funky groove machine"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "Two assistants announced him as 'Jam Master Hind, the one-man funky groove machine.'"
       },
       {
@@ -7091,12 +7091,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "A.J. doesn't want to be in the play after learning he has to...",
         "options": {
-          "A": "memorize way too many difficult lines for the show",
-          "B": "wear an ugly embarrassing costume on the stage",
-          "C": "dance in front of everyone watching in audience",
-          "D": "kiss Andrea at the very end of the whole play"
+          "A": "wear an ugly embarrassing costume on the stage",
+          "B": "memorize way too many difficult lines for the show",
+          "C": "kiss Andrea at the very end of the whole play",
+          "D": "dance in front of everyone watching in audience"
         },
-        "answer": "D",
+        "answer": "C",
         "explanation": "A.J. is horrified when Michael shows him the script says 'Beauty and the Beast kiss.'"
       },
       {
@@ -7104,10 +7104,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "When A.J. asks Andrea if she can 'sing solo,' his joke is...",
         "options": {
-          "A": "that she should sing alone without anyone else",
+          "A": "that she's actually a really good talented singer",
           "B": "that she should sing so low that no one hears",
-          "C": "that solo is another word for being very quiet",
-          "D": "that she's actually a really good talented singer"
+          "C": "that she should sing alone without anyone else",
+          "D": "that solo is another word for being very quiet"
         },
         "answer": "B",
         "explanation": "A.J.'s joke is 'sing solo' meaning 'so low' that no one can hear her."
@@ -7117,12 +7117,12 @@ const quizData = {
         "difficulty": "medium",
         "question": "The play is a 'hip-hop' version which means...",
         "options": {
-          "A": "it's exactly the same as the original fairy tale",
-          "B": "Mr. Hind adds rap and modern music to it",
-          "C": "there's absolutely no music in it at all",
+          "A": "there's absolutely no music in it at all",
+          "B": "it's exactly the same as the original fairy tale",
+          "C": "Mr. Hind adds rap and modern music to it",
           "D": "only classical orchestra music is ever used"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "Mr. Hind makes everything hip-hop style, including the school play."
       },
       {
@@ -7132,10 +7132,10 @@ const quizData = {
         "options": {
           "A": "she can give Andrea lots of extra homework",
           "B": "she chooses which school plays get performed",
-          "C": "she runs the school cafeteria every day",
-          "D": "if enough parents complain, teachers get fired"
+          "C": "if enough parents complain, teachers get fired",
+          "D": "she runs the school cafeteria every day"
         },
-        "answer": "D",
+        "answer": "C",
         "explanation": "Andrea threatens to have her mother complain to get Mr. Hind fired."
       },
       {
@@ -7143,12 +7143,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does A.J. start liking rap music after meeting Mr. Hind?",
         "options": {
-          "A": "Because the rap music is actually really good quality",
-          "B": "Because Andrea hates it, and he likes what she hates",
+          "A": "Because his parents told him he should enjoy it",
+          "B": "Because the rap music is actually really good quality",
           "C": "Because all of his friends started liking it too",
-          "D": "Because his parents told him he should enjoy it"
+          "D": "Because Andrea hates it, and he likes what she hates"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "A.J. admits he 'didn't even like rap music very much, but I think I'm gonna like it now that I know Andrea hates it.'"
       },
       {
@@ -7156,12 +7156,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the story suggest about different styles of teaching?",
         "options": {
-          "A": "Only traditional boring teaching methods actually work",
-          "B": "Teachers should never try to be creative with lessons",
-          "C": "Engaging fun methods can make boring subjects exciting",
-          "D": "Students will always hate every single music class"
+          "A": "Engaging fun methods can make boring subjects exciting",
+          "B": "Students will always hate every single music class",
+          "C": "Only traditional boring teaching methods actually work",
+          "D": "Teachers should never try to be creative with lessons"
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "Mr. Hind's energetic, unconventional methods make music class exciting for students who hated Mr. Loring's boring approach."
       },
       {
@@ -7169,12 +7169,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Mr. Klutz's reaction to Mr. Hind's teaching style reveal?",
         "options": {
-          "A": "Good leaders support teachers who connect with students well",
-          "B": "Principals always hate when teachers have too much fun",
-          "C": "Bald people really enjoy listening to music a lot",
-          "D": "Principals are never able to rap or dance at all"
+          "A": "Principals are never able to rap or dance at all",
+          "B": "Good leaders support teachers who connect with students well",
+          "C": "Principals always hate when teachers have too much fun",
+          "D": "Bald people really enjoy listening to music a lot"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Mr. Klutz supports Mr. Hind by rapping and saying he's cool, showing good leadership means backing effective teachers."
       },
       {
@@ -7182,12 +7182,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why is it ironic that A.J. ends up enjoying music class?",
         "options": {
-          "A": "Because he has always loved music since he was young",
-          "B": "Because he claimed music was most boring but now likes it",
-          "C": "Because Andrea was the one who actually taught him",
-          "D": "Because his parents forced him to enjoy music class"
+          "A": "Because his parents forced him to enjoy music class",
+          "B": "Because Andrea was the one who actually taught him",
+          "C": "Because he has always loved music since he was young",
+          "D": "Because he claimed music was most boring but now likes it"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "A.J. started the story saying he hated music most of all, but Mr. Hind's methods changed his mind."
       },
       {
@@ -7195,12 +7195,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Mr. Hind's green beans story teach about overcoming challenges?",
         "options": {
-          "A": "You should never eat any vegetables at all",
-          "B": "Parents are always wrong about healthy food choices",
-          "C": "You can make hard things easier by changing your thinking",
-          "D": "You should only eat foods that you already like"
+          "A": "You can make hard things easier by changing your thinking",
+          "B": "You should only eat foods that you already like",
+          "C": "Parents are always wrong about healthy food choices",
+          "D": "You should never eat any vegetables at all"
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "By pretending green beans were oatmeal cookies, young Mr. Hind made them easier to eat - similar to A.J. pretending Andrea is a dirt bike."
       },
       {
@@ -7208,12 +7208,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What theme does the rivalry between A.J. and Andrea represent?",
         "options": {
-          "A": "Boys are always much smarter than girls in school",
-          "B": "Different personalities can clash but still work together",
-          "C": "School is always boring and nobody should enjoy it",
-          "D": "Teachers always play favorites with certain students"
+          "A": "School is always boring and nobody should enjoy it",
+          "B": "Boys are always much smarter than girls in school",
+          "C": "Teachers always play favorites with certain students",
+          "D": "Different personalities can clash but still work together"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "Despite constantly disagreeing, A.J. and Andrea end up working together in the play, showing opposites can collaborate."
       },
       {
@@ -7234,12 +7234,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Andrea's complaint that Mr. Hind 'doesn't play any musical instruments' reveal about her thinking?",
         "options": {
-          "A": "She is always completely right about everything",
-          "B": "Turntables and DJing are definitely not real instruments",
-          "C": "She has a narrow definition of what real music is",
-          "D": "Every teacher must know how to play the piano"
+          "A": "She has a narrow definition of what real music is",
+          "B": "She is always completely right about everything",
+          "C": "Every teacher must know how to play the piano",
+          "D": "Turntables and DJing are definitely not real instruments"
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "Andrea dismisses hip-hop and DJing as 'not real music,' showing she has a limited view of what music can be."
       },
       {
@@ -7247,12 +7247,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What is the significance of both A.J. and Andrea going to Mr. Hind about not wanting to kiss each other?",
         "options": {
-          "A": "They both completely hate being in the school play",
-          "B": "Despite being opposites, they share the same fear about kiss",
-          "C": "They both want to quit school and never come back",
+          "A": "Despite being opposites, they share the same fear about kiss",
+          "B": "They both want to quit school and never come back",
+          "C": "They both completely hate being in the school play",
           "D": "They actually secretly like each other very much"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "This shows that even people who seem completely different can have the same worries and insecurities."
       },
       {
@@ -7260,10 +7260,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why is Mr. Hind described as 'out of his mind' in the title?",
         "options": {
-          "A": "He is actually crazy and needs medical help now",
+          "A": "He cannot teach students anything at all ever",
           "B": "His wild teaching style seems crazy but is effective",
-          "C": "He always forgets his lessons and what to teach",
-          "D": "He cannot teach students anything at all ever"
+          "C": "He is actually crazy and needs medical help now",
+          "D": "He always forgets his lessons and what to teach"
         },
         "answer": "B",
         "explanation": "His wild entrances, rap music, and dancing seem 'crazy' compared to traditional teaching, but it's effective."
@@ -7274,11 +7274,11 @@ const quizData = {
         "question": "What does A.J.'s exaggeration 'the most boring subject in the history of the world' tell us about his character?",
         "options": {
           "A": "He is a historian who studies world history",
-          "B": "He uses dramatic language and humor to express himself",
-          "C": "He knows everything about all of history already",
+          "B": "He knows everything about all of history already",
+          "C": "He uses dramatic language and humor to express himself",
           "D": "He is always serious and never jokes around ever"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "A.J. constantly uses hyperbole like 'in the history of the world' for humor and to emphasize his feelings."
       },
       {
@@ -7286,12 +7286,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What is ironic about Andrea wanting Mr. Hind fired?",
         "options": {
-          "A": "She actually loves all teachers no matter what",
-          "B": "She claims to love music but rejects the exciting teacher",
-          "C": "She is the very best singer in the whole class",
-          "D": "Teachers can never be fired from their jobs ever"
+          "A": "Teachers can never be fired from their jobs ever",
+          "B": "She is the very best singer in the whole class",
+          "C": "She claims to love music but rejects the exciting teacher",
+          "D": "She actually loves all teachers no matter what"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "Andrea says she loves music, but she tries to fire the teacher who finally makes music class exciting for everyone else."
       },
       {
@@ -7299,12 +7299,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the story suggest about the definition of 'music'?",
         "options": {
-          "A": "Music can include rap, percussion, and DJ scratching",
-          "B": "Only classical music with instruments counts as real",
-          "C": "Music must always be slow and boring to be real",
+          "A": "Only classical music with instruments counts as real",
+          "B": "Music must always be slow and boring to be real",
+          "C": "Music can include rap, percussion, and DJ scratching",
           "D": "Only singing with your voice is considered music"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Mr. Hind shows that percussion, rap, and turntable scratching are all valid forms of music."
       },
       {
@@ -7312,10 +7312,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why might A.J. keep telling jokes even when no one laughs?",
         "options": {
-          "A": "He doesn't realize that his jokes are actually bad",
+          "A": "All of his friends always tell him to keep joking",
           "B": "He enjoys jokes and believes someone will eventually laugh",
-          "C": "All of his friends always tell him to keep joking",
-          "D": "His teachers require him to tell jokes in class"
+          "C": "His teachers require him to tell jokes in class",
+          "D": "He doesn't realize that his jokes are actually bad"
         },
         "answer": "B",
         "explanation": "A.J. says he'll 'keep telling that joke until somebody laughs,' showing persistence and self-confidence."
@@ -7326,11 +7326,11 @@ const quizData = {
         "question": "What does the contrast between Mr. Loring and Mr. Hind represent?",
         "options": {
           "A": "Old teachers are always bad and young ones good",
-          "B": "Different teaching styles have very different effects on kids",
-          "C": "Only young teachers can ever be good at teaching",
-          "D": "Music as a subject never changes over time ever"
+          "B": "Music as a subject never changes over time ever",
+          "C": "Different teaching styles have very different effects on kids",
+          "D": "Only young teachers can ever be good at teaching"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "The old, traditional Mr. Loring bored students while the young, modern Mr. Hind engages them, showing how approach matters."
       },
       {
@@ -7339,11 +7339,11 @@ const quizData = {
         "question": "What lesson does Mr. Hind's advice about kissing teach?",
         "options": {
           "A": "You should never kiss anyone at all ever",
-          "B": "Only kiss dirt bikes and footballs not people",
-          "C": "Things you don't want to do now might seem different later",
-          "D": "You should avoid being in all school plays"
+          "B": "Things you don't want to do now might seem different later",
+          "C": "You should avoid being in all school plays",
+          "D": "Only kiss dirt bikes and footballs not people"
         },
-        "answer": "C",
+        "answer": "B",
         "explanation": "Mr. Hind says 'someday you're gonna wanna kiss girls' and to take chances now because opportunities may not come later."
       },
       {
@@ -7351,12 +7351,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does A.J.'s comment 'I used to like that song' about the cookie jar song reveal?",
         "options": {
-          "A": "He never actually liked any songs at all ever",
-          "B": "Repetition can ruin something you once really enjoyed",
-          "C": "Cookies are bad and you should not eat them",
-          "D": "All songs are always boring no matter what"
+          "A": "Repetition can ruin something you once really enjoyed",
+          "B": "He never actually liked any songs at all ever",
+          "C": "All songs are always boring no matter what",
+          "D": "Cookies are bad and you should not eat them"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Too much repetition made A.J. hate a song he once liked, showing how overdoing things can backfire."
       },
       {
@@ -7364,12 +7364,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why is it significant that Emily 'always agrees with Andrea'?",
         "options": {
-          "A": "Emily and Andrea are actually twin sisters",
-          "B": "The teachers told them to always agree together",
-          "C": "It shows Emily lacks independent thinking of her own",
-          "D": "Emily and Andrea are sisters who live together"
+          "A": "The teachers told them to always agree together",
+          "B": "Emily and Andrea are actually twin sisters",
+          "C": "Emily and Andrea are sisters who live together",
+          "D": "It shows Emily lacks independent thinking of her own"
         },
-        "answer": "C",
+        "answer": "D",
         "explanation": "A.J. finds Emily annoying because 'Emily agrees with everything Andrea says,' showing she doesn't think for herself."
       },
       {
@@ -7377,12 +7377,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does A.J. mean when he says music class with Mr. Hind is 'better than TV'?",
         "options": {
-          "A": "He completely hates watching TV shows now",
-          "B": "Something he thought was boring became more fun than TV",
-          "C": "The television at his house is broken now",
-          "D": "Mr. Hind has a television in the music room"
+          "A": "The television at his house is broken now",
+          "B": "Mr. Hind has a television in the music room",
+          "C": "He completely hates watching TV shows now",
+          "D": "Something he thought was boring became more fun than TV"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "A.J. loves TV and hated music, so saying music class is better than TV shows how much Mr. Hind changed his view."
       },
       {
@@ -7390,12 +7390,12 @@ const quizData = {
         "difficulty": "hard",
         "question": "What is the overall message of Mr. Hynde Is Out of His Mind?",
         "options": {
-          "A": "School should always be boring and serious",
-          "B": "Music is only for talented people who practice",
-          "C": "Passionate creative teaching can make any subject exciting",
-          "D": "Rules should never be broken by anyone ever"
+          "A": "Music is only for talented people who practice",
+          "B": "Passionate creative teaching can make any subject exciting",
+          "C": "Rules should never be broken by anyone ever",
+          "D": "School should always be boring and serious"
         },
-        "answer": "C",
+        "answer": "B",
         "explanation": "The book shows that an enthusiastic, unconventional teacher can transform a hated subject into something students love."
       }
     ]

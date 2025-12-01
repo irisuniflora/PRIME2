@@ -5,6 +5,7 @@ let questions = [];
 let currentQuestionIndex = 0;
 let selectedAnswer = null;
 let currentGradeFilter = 'all';
+let totalQuestionCount = 12; // 학년별로 동적 변경
 
 // 점수 추적
 let scores = {
@@ -144,17 +145,36 @@ function selectBook(bookKey) {
     renderQuestion();
 }
 
+// 학년별 문제 수 설정 가져오기
+function getQuestionConfig(grade) {
+    if (grade <= 2) {
+        // Grade 1-2: 10문제 (easy 4, medium 3, hard 3)
+        return { total: 10, easy: 4, medium: 3, hard: 3 };
+    } else if (grade <= 4) {
+        // Grade 3-4: 15문제 (easy 5, medium 5, hard 5)
+        return { total: 15, easy: 5, medium: 5, hard: 5 };
+    } else {
+        // Grade 5+: 20문제 (easy 7, medium 7, hard 6)
+        return { total: 20, easy: 7, medium: 7, hard: 6 };
+    }
+}
+
 // 문제 준비
 function prepareQuestions() {
     const allQuestions = currentBook.questions;
+    const grade = getGradeLevel(currentBook);
+    const config = getQuestionConfig(grade);
+
+    // 학년별 문제 수 설정
+    totalQuestionCount = config.total;
 
     const easyQuestions = allQuestions.filter(q => q.difficulty === 'easy');
     const mediumQuestions = allQuestions.filter(q => q.difficulty === 'medium');
     const hardQuestions = allQuestions.filter(q => q.difficulty === 'hard');
 
-    const selectedEasy = shuffleArray(easyQuestions).slice(0, 4);
-    const selectedMedium = shuffleArray(mediumQuestions).slice(0, 4);
-    const selectedHard = shuffleArray(hardQuestions).slice(0, 4);
+    const selectedEasy = shuffleArray(easyQuestions).slice(0, config.easy);
+    const selectedMedium = shuffleArray(mediumQuestions).slice(0, config.medium);
+    const selectedHard = shuffleArray(hardQuestions).slice(0, config.hard);
 
     questions = shuffleArray([...selectedEasy, ...selectedMedium, ...selectedHard]);
     currentQuestionIndex = 0;
@@ -184,7 +204,8 @@ function renderQuestion() {
 
     // 진행 상태 업데이트
     document.getElementById('current-q').textContent = currentQuestionIndex + 1;
-    document.getElementById('progress-fill').style.width = `${((currentQuestionIndex + 1) / 12) * 100}%`;
+    document.querySelector('.progress-text').innerHTML = `<span id="current-q">${currentQuestionIndex + 1}</span> / ${totalQuestionCount}`;
+    document.getElementById('progress-fill').style.width = `${((currentQuestionIndex + 1) / totalQuestionCount) * 100}%`;
 
     // 난이도 배지
     const difficultyBadge = document.getElementById('difficulty-badge');
@@ -304,7 +325,7 @@ function checkAnswer() {
 
     // Update next button text
     const nextBtn = resultBox.querySelector('.next-btn');
-    if (currentQuestionIndex === 11) {
+    if (currentQuestionIndex === totalQuestionCount - 1) {
         nextBtn.textContent = 'View Results';
     } else {
         nextBtn.textContent = 'Next Question';
@@ -313,12 +334,85 @@ function checkAnswer() {
 
 // 다음 문제
 function nextQuestion() {
-    if (currentQuestionIndex < 11) {
+    if (currentQuestionIndex < totalQuestionCount - 1) {
         currentQuestionIndex++;
         renderQuestion();
     } else {
         showResults();
     }
+}
+
+// 맞춤형 피드백 생성
+function generateFeedback() {
+    // 난이도별 정답률 계산
+    const easyRate = scores.easy.total > 0 ? scores.easy.correct / scores.easy.total : 0;
+    const mediumRate = scores.medium.total > 0 ? scores.medium.correct / scores.medium.total : 0;
+    const hardRate = scores.hard.total > 0 ? scores.hard.correct / scores.hard.total : 0;
+    const overallRate = (scores.easy.correct + scores.medium.correct + scores.hard.correct) / totalQuestionCount;
+
+    // 패턴 분석
+    const patterns = {
+        // 전체 우수 (80% 이상)
+        excellent: overallRate >= 0.8,
+        // 기초 탄탄 (easy 높고 hard 낮음)
+        strongBasics: easyRate >= 0.7 && hardRate < 0.5,
+        // 심화 강점 (hard 높고 easy 낮음)
+        strongAdvanced: hardRate >= 0.6 && easyRate < 0.7,
+        // 중간 수준 (medium만 높음)
+        mediumStrong: mediumRate >= 0.7 && easyRate < 0.6 && hardRate < 0.5,
+        // 골고루 부족
+        needsWork: overallRate < 0.5,
+        // 집중력 문제 (easy 낮고 나머지 높음) - 쉬운 문제 실수
+        carelessMistakes: easyRate < 0.6 && mediumRate >= 0.6,
+        // 균형 잡힌 성적
+        balanced: Math.abs(easyRate - hardRate) < 0.2 && overallRate >= 0.5
+    };
+
+    let icon, title, message, tip;
+
+    if (patterns.excellent) {
+        icon = '🌟';
+        title = 'Outstanding Performance!';
+        message = 'You have excellent comprehension across all difficulty levels. Your reading skills are very strong!';
+        tip = '💡 Tip: Challenge yourself with books at the next grade level to keep growing!';
+    } else if (patterns.strongAdvanced && !patterns.strongBasics) {
+        icon = '🧠';
+        title = 'Deep Thinker!';
+        message = 'You excel at complex analysis questions but sometimes miss simpler details. You think deeply but may overlook basic information.';
+        tip = '💡 Tip: When reading, try noting down key facts (names, places, events) to catch the details that support your great analytical skills!';
+    } else if (patterns.carelessMistakes) {
+        icon = '⚡';
+        title = 'Watch the Details!';
+        message = 'You understand complex ideas well, but sometimes rush through easier questions. A little more attention to basics would boost your score!';
+        tip = '💡 Tip: Read each question carefully, even if it seems easy. The answer is often right there in the text!';
+    } else if (patterns.strongBasics) {
+        icon = '📚';
+        title = 'Solid Foundation!';
+        message = 'You have a great grasp of the story basics! Now it\'s time to practice deeper thinking about character motivations and themes.';
+        tip = '💡 Tip: After reading, ask yourself "Why did this happen?" and "What does this mean?" to build analytical skills!';
+    } else if (patterns.mediumStrong) {
+        icon = '🎯';
+        title = 'Middle Ground Master!';
+        message = 'You\'re comfortable with moderate challenges. Focus on building both your basic recall and deeper analysis skills.';
+        tip = '💡 Tip: Re-read important scenes twice - once for facts, once to think about meaning!';
+    } else if (patterns.balanced && overallRate >= 0.6) {
+        icon = '⚖️';
+        title = 'Well-Balanced Reader!';
+        message = 'You show consistent skills across all question types. Keep practicing to strengthen all areas together!';
+        tip = '💡 Tip: You\'re on the right track! Try reading more challenging books to push your limits!';
+    } else if (patterns.needsWork) {
+        icon = '🌱';
+        title = 'Room to Grow!';
+        message = 'This book might be challenging right now. That\'s okay - every reader improves with practice!';
+        tip = '💡 Tip: Try re-reading the book more slowly, or choose a slightly easier book to build confidence first!';
+    } else {
+        icon = '📖';
+        title = 'Keep Reading!';
+        message = 'You\'re making progress! Focus on understanding the main story events before diving into deeper questions.';
+        tip = '💡 Tip: Summarize each chapter in your own words to strengthen comprehension!';
+    }
+
+    return { icon, title, message, tip };
 }
 
 // 결과 화면 표시
@@ -328,12 +422,16 @@ function showResults() {
     const mediumScore = scores.medium.correct * 3;
     const hardScore = scores.hard.correct * 5;
     const totalScore = easyScore + mediumScore + hardScore;
-    const maxScore = 40; // 2×4 + 3×4 + 5×4 = 40
+
+    // 학년별 최대 점수 계산
+    const grade = getGradeLevel(currentBook);
+    const config = getQuestionConfig(grade);
+    const maxScore = (config.easy * 2) + (config.medium * 3) + (config.hard * 5);
     const scaledScore = Math.round((totalScore / maxScore) * 100);
 
     // 총 정답/오답 수
     const totalCorrect = scores.easy.correct + scores.medium.correct + scores.hard.correct;
-    const totalQuestions = 12;
+    const totalQuestions = totalQuestionCount;
 
     // 결과 화면 업데이트
     document.getElementById('result-grade').textContent = scaledScore;
@@ -356,6 +454,13 @@ function showResults() {
     document.getElementById('hard-total').textContent = scores.hard.total;
     document.getElementById('hard-bar').style.width = scores.hard.total > 0
         ? (scores.hard.correct / scores.hard.total * 100) + '%' : '0%';
+
+    // 맞춤형 피드백 표시
+    const feedback = generateFeedback();
+    document.getElementById('feedback-icon').textContent = feedback.icon;
+    document.getElementById('feedback-title').textContent = feedback.title;
+    document.getElementById('feedback-message').textContent = feedback.message;
+    document.getElementById('feedback-tip').textContent = feedback.tip;
 
     showScreen('result-screen');
 }

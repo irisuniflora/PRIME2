@@ -32,7 +32,12 @@
       "Bash(node fix-black-beauty.js:*)",
       "Bash(del \"c:\\Users\\welch\\Desktop\\Enov\\fix-black-beauty.js\")",
       "Bash(node fix-wimpy-kid.js:*)",
-      "Bash(node fix-eerie.js:*)"
+      "Bash(node fix-eerie.js:*)",
+      "Bash(node shuffle-answers.js:*)",
+      "Bash(node fix-quiz-balance.js:*)",
+      "Bash(node check-alice-lengths.js:*)",
+      "Bash(node fix-alice-lengths.js:*)",
+      "Bash(node:*)"
     ],
     "deny": [],
     "ask": []
