@@ -8895,10 +8895,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What does Graypaw say kittypets eat?",
         "options": {
-          "A": "Fresh mice",
-          "B": "Pellets that look like rabbit droppings",
-          "C": "Fish from rivers",
-          "D": "Birds"
+          "A": "Fresh mice and small birds",
+          "B": "Pellets like rabbit droppings",
+          "C": "Fish caught from the rivers",
+          "D": "Birds and forest squirrels"
         },
         "answer": "B",
         "explanation": "Graypaw mocks kittypet food as 'pellets that look like rabbit droppings and soft slop.'"
@@ -8908,10 +8908,10 @@ const quizData = {
         "difficulty": "easy",
         "question": "What is the prophecy Spottedleaf receives?",
         "options": {
-          "A": "Water will flood the forest",
+          "A": "Water will flood the forest soon",
           "B": "Darkness will destroy all clans",
           "C": "Fire alone can save our clan",
-          "D": "A leader will fall"
+          "D": "A great leader will soon fall"
         },
         "answer": "C",
         "explanation": "Spottedleaf receives the prophecy 'Fire alone can save our clan' from StarClan."
@@ -8947,10 +8947,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Bluestar offered Rusty a place in ThunderClan because ---.",
         "options": {
-          "A": "Graypaw asked her to",
-          "B": "she was impressed by his fighting and hunting ability",
-          "C": "she needed someone to do chores",
-          "D": "Lionheart recommended him"
+          "A": "Graypaw begged her to accept him",
+          "B": "she saw his fighting and hunting skill",
+          "C": "she needed help with camp chores",
+          "D": "Lionheart strongly recommended him"
         },
         "answer": "B",
         "explanation": "Bluestar says 'You fight well for a twoleg pet' and 'You do seem to have a natural hunting ability.'"
@@ -8960,10 +8960,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Graypaw told Rusty that kittypets could never understand wild life because ---.",
         "options": {
-          "A": "they are too weak to fight",
-          "B": "they can't climb trees well",
-          "C": "they need warrior blood in their veins",
-          "D": "they don't like mice"
+          "A": "they are too weak to fight well",
+          "B": "they cannot climb trees properly",
+          "C": "they lack warrior blood in them",
+          "D": "they don't enjoy hunting mice"
         },
         "answer": "C",
         "explanation": "Graypaw says 'You need to be born with warrior blood in your veins or the feel of the wind in your whiskers.'"
@@ -8973,10 +8973,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Bluestar was deeply troubled after the Sunning Rocks battle because ---.",
         "options": {
-          "A": "ThunderClan hadn't been beaten in its own territory since she became leader",
-          "B": "the medicine cat was injured",
-          "C": "she wanted to retire soon",
-          "D": "she lost her favorite warrior"
+          "A": "ThunderClan lost on its own territory",
+          "B": "the medicine cat was badly injured",
+          "C": "she was planning to retire soon",
+          "D": "she lost her favorite young warrior"
         },
         "answer": "A",
         "explanation": "Bluestar says 'ThunderClan has not been beaten in its own territory since I became leader.'"
@@ -8999,10 +8999,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "When Rusty's collar snapped during the fight, Bluestar declared that ---.",
         "options": {
-          "A": "Longtail had won the fight",
-          "B": "Rusty should go back home",
-          "C": "StarClan has spoken its approval",
-          "D": "the fight was unfair"
+          "A": "Longtail had won the fight fairly",
+          "B": "Rusty should return home now",
+          "C": "StarClan has given its approval",
+          "D": "the fight was not very fair"
         },
         "answer": "C",
         "explanation": "Bluestar says the collar snapping means 'StarClan has spoken its approval.'"
@@ -9012,10 +9012,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Smudge warned Rusty about the woods because ---.",
         "options": {
-          "A": "Henry told him about huge wild cats there",
-          "B": "a dog chased him there once",
+          "A": "Henry told him about wild cats",
+          "B": "a dog had chased him there once",
           "C": "his owner forbade him from going",
-          "D": "he had been there himself many times"
+          "D": "he visited there many times before"
         },
         "answer": "A",
         "explanation": "Smudge says 'Henry told me there are all sorts of dangerous animals... huge wild cats who eat live rabbits.'"
@@ -9025,9 +9025,9 @@ const quizData = {
         "difficulty": "medium",
         "question": "Bluestar explained that ThunderClan needs more warriors because ---.",
         "options": {
-          "A": "late newleaf means prey is scarce and fewer kits",
-          "B": "many warriors had joined other clans",
-          "C": "Tigerclaw requested more apprentices",
+          "A": "late newleaf means fewer kits born",
+          "B": "many warriors joined other clans",
+          "C": "Tigerclaw requested more trainees",
           "D": "the leader wanted a bigger army"
         },
         "answer": "A",
@@ -9038,10 +9038,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Rusty escaped from Graypaw's attack by ---.",
         "options": {
-          "A": "running away immediately",
-          "B": "biting Graypaw's tail hard",
-          "C": "flipping over to knock breath out of Graypaw",
-          "D": "calling for help loudly"
+          "A": "running away as fast as he could",
+          "B": "biting hard on Graypaw's tail",
+          "C": "flipping over and knocking his breath out",
+          "D": "calling for help from the forest"
         },
         "answer": "C",
         "explanation": "Rusty 'flipped over onto his back' and 'heard a hoof beneath him as the breath was knocked out of his attacker.'"
@@ -9051,10 +9051,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Bluestar warned Rusty that if he stayed a kittypet, he would eventually ---.",
         "options": {
-          "A": "be taken to the cutter like fat, lazy Henry",
-          "B": "run out of food",
-          "C": "be abandoned by his owners",
-          "D": "become bored with his life"
+          "A": "be taken to the cutter like Henry",
+          "B": "run out of food to eat at home",
+          "C": "be abandoned by his twoleg owners",
+          "D": "become very bored with his life"
         },
         "answer": "A",
         "explanation": "Bluestar mentions 'the cutter' and Rusty thinks of Henry who 'had become fat and lazy since his visit to the vet.'"
@@ -9064,10 +9064,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Lionheart told Rusty that joining ThunderClan meant he must ---.",
         "options": {
-          "A": "visit his old home whenever he wants",
-          "B": "live with them and never return to his twoleg place",
-          "C": "bring food from his owners",
-          "D": "spy on other clans"
+          "A": "visit his old home whenever he likes",
+          "B": "stay forever and never go back home",
+          "C": "bring food from his twoleg owners",
+          "D": "spy on all the other forest clans"
         },
         "answer": "B",
         "explanation": "Lionheart says 'You must either live with us... or return to your twoleg place and never come back.'"
@@ -9077,10 +9077,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Rusty's mouse escaped during his dream because ---.",
         "options": {
-          "A": "another cat scared it away",
-          "B": "it was too fast for him",
-          "C": "he fell asleep again",
-          "D": "the sound of food being poured woke him"
+          "A": "another cat scared it away from him",
+          "B": "the mouse was too fast for Rusty",
+          "C": "he fell asleep again in the dream",
+          "D": "the sound of food woke him up"
         },
         "answer": "D",
         "explanation": "The noise was 'the rattle of hard, dried pellets of food as they were tipped into his dish.'"
@@ -9090,10 +9090,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "During the Sunning Rocks battle, Tigerclaw saved Mousefur by ---.",
         "options": {
-          "A": "carrying her to safety",
+          "A": "carrying her quickly to safety nearby",
           "B": "calling for help from other warriors",
-          "C": "knocking away the RiverClan tom pinning her",
-          "D": "creating a distraction"
+          "C": "knocking away the enemy pinning her",
+          "D": "creating a distraction for the enemy"
         },
         "answer": "C",
         "explanation": "Tigerclaw 'let go of Oakheart' and 'with a mighty leap, he knocked the enemy warrior away from the she-cat.'"
@@ -9103,10 +9103,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Redtail ordered ThunderClan to retreat because ---.",
         "options": {
-          "A": "he was a coward",
-          "B": "there were too many RiverClan warriors",
-          "C": "it started raining hard",
-          "D": "Bluestar called them back"
+          "A": "he was a coward and afraid",
+          "B": "there were too many enemies",
+          "C": "it started to rain very hard",
+          "D": "Bluestar called them all back"
         },
         "answer": "B",
         "explanation": "Redtail says 'This is useless! There are too many RiverClan warriors!' and 'we cannot afford to lose any more warriors.'"
@@ -9116,10 +9116,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Rusty impressed Bluestar with his hunting because ---.",
         "options": {
-          "A": "he caught a huge mouse",
-          "B": "he tracked a fox successfully",
-          "C": "he brought her a gift",
-          "D": "she noticed he'd have caught the mouse if he hadn't hesitated"
+          "A": "he caught a huge mouse quickly",
+          "B": "he tracked a fox in the woods",
+          "C": "he brought her a gift of prey",
+          "D": "he nearly caught the mouse he found"
         },
         "answer": "D",
         "explanation": "Bluestar says 'You would have caught that mouse if you had not hesitated so long.'"
@@ -9155,10 +9155,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "After his first real hunt, Rusty's mouse escaped because ---.",
         "options": {
-          "A": "it was too fast",
-          "B": "his bell jangled and scared it away",
-          "C": "it hid in a tree",
-          "D": "Graypaw stole it away"
+          "A": "the mouse was too fast for him",
+          "B": "his bell jangled and scared it",
+          "C": "it hid quickly inside a tree",
+          "D": "Graypaw stole it away from him"
         },
         "answer": "B",
         "explanation": "A noise made him jump, 'His bell jangled treacherously, and the mouse darted away.'"
@@ -9168,10 +9168,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Rusty did something unusual that Bluestar had never seen a kittypet do, which was ---.",
         "options": {
-          "A": "climb a tree very quickly",
-          "B": "catch a bird",
-          "C": "swim across a stream",
-          "D": "turn to face Graypaw instead of running away"
+          "A": "climb a tree very quickly for safety",
+          "B": "catch a bird while being watched",
+          "C": "swim across a deep forest stream",
+          "D": "turn to face Graypaw and fight back"
         },
         "answer": "D",
         "explanation": "Bluestar says 'you turned to face him when he chased you. I've not seen a kittypet do that before.'"
@@ -9181,10 +9181,10 @@ const quizData = {
         "difficulty": "medium",
         "question": "Rusty's owners called him back inside, but he ---.",
         "options": {
-          "A": "ran to them immediately",
-          "B": "meowed loudly in response",
-          "C": "ignored them and kept staring at the forest",
-          "D": "hid under a bush"
+          "A": "ran to them immediately to go in",
+          "B": "meowed loudly in response to them",
+          "C": "ignored them and stared at the forest",
+          "D": "hid under a bush in the garden"
         },
         "answer": "C",
         "explanation": "Rusty 'ignored his owner's voices and turned his gaze back to the forest.'"
@@ -9207,9 +9207,9 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Bluestar's gaze 'flash briefly' when she names Rusty 'Firepaw'?",
         "options": {
-          "A": "She remembers the 'Fire' prophecy",
-          "B": "She doesn't like the name at all",
-          "C": "She is angry at Rusty",
+          "A": "She recalls the fire prophecy",
+          "B": "She doesn't like the name",
+          "C": "She is angry at Rusty now",
           "D": "The sun got in her eyes"
         },
         "answer": "A",
@@ -9220,10 +9220,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Rusty burying his broken collar 'as though burying his dirt' symbolize?",
         "options": {
-          "A": "He is ashamed of the collar",
-          "B": "He doesn't like cleaning",
-          "C": "He wants to hide evidence",
-          "D": "He's completely leaving his kittypet life"
+          "A": "He feels ashamed of the collar",
+          "B": "He doesn't enjoy cleaning things",
+          "C": "He wants to hide all evidence",
+          "D": "He's leaving his kittypet life"
         },
         "answer": "D",
         "explanation": "Burying the collar symbolizes his total commitment to clan life and rejection of his kittypet past."
@@ -9233,9 +9233,9 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Graypaw's description of kittypet life reveal about clan cats' values?",
         "options": {
-          "A": "They envy kittypets' comfortable life",
-          "B": "They value freedom and wildness over comfort",
-          "C": "They don't understand kittypets at all",
+          "A": "They envy kittypets' easy life",
+          "B": "They value freedom over comfort",
+          "C": "They don't understand kittypets",
           "D": "They want to become kittypets"
         },
         "answer": "B",
@@ -9246,10 +9246,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why is it significant that Rusty felt 'no fear, only exhilaration' during his fight?",
         "options": {
-          "A": "He was too tired to be scared",
+          "A": "He was too tired to feel scared",
           "B": "He knew he would win easily",
           "C": "Graypaw wasn't fighting seriously",
-          "D": "He has natural warrior instincts as a kittypet"
+          "D": "He has natural warrior instincts"
         },
         "answer": "D",
         "explanation": "Feeling exhilaration instead of fear during battle suggests he has the warrior spirit Bluestar sees in him."
@@ -9260,9 +9260,9 @@ const quizData = {
         "question": "What theme does the contrast between Rusty's comfortable home and the wild forest represent?",
         "options": {
           "A": "Indoor life is always better",
-          "B": "The choice between safety/comfort and freedom/purpose",
+          "B": "Safety versus freedom and purpose",
           "C": "Cats shouldn't live with humans",
-          "D": "Forests are dangerous"
+          "D": "Forests are very dangerous"
         },
         "answer": "B",
         "explanation": "Rusty must choose between the easy life of a kittypet and the challenging but meaningful life of a warrior."
@@ -9272,10 +9272,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Bluestar mention 'the cutter' when talking to Rusty?",
         "options": {
-          "A": "To scare him randomly",
-          "B": "To teach him about veterinarians",
+          "A": "To scare him for no reason",
+          "B": "To teach about veterinarians",
           "C": "To make him afraid of humans",
-          "D": "To show what he'll lose as a kittypet"
+          "D": "To show what kittypets lose"
         },
         "answer": "D",
         "explanation": "Bluestar warns that staying with twolegs means losing part of himself, like Henry who became 'fat and lazy' after the vet."
@@ -9285,10 +9285,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Lionheart's statement 'You cannot live with a paw in each world' mean?",
         "options": {
-          "A": "Rusty must fully commit to one life",
-          "B": "The forest floor is uneven",
-          "C": "Warriors can't visit twoleg places",
-          "D": "Cats can't walk properly"
+          "A": "Rusty must fully commit to one",
+          "B": "The forest floor is very uneven",
+          "C": "Warriors can't visit twolegs",
+          "D": "Cats cannot walk properly"
         },
         "answer": "A",
         "explanation": "Lionheart means Rusty must choose completely - no halfway commitment is possible."
@@ -9298,10 +9298,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the prophecy 'Fire alone can save our clan' suggest about Rusty's role?",
         "options": {
-          "A": "Rusty's spirit will be crucial to ThunderClan",
+          "A": "Rusty is destined to save them",
           "B": "He will burn down the forest",
           "C": "He should stay away from fire",
-          "D": "ThunderClan will face a fire disaster"
+          "D": "A fire disaster will come soon"
         },
         "answer": "A",
         "explanation": "The prophecy connects Rusty's orange fur to 'fire' - he is destined to save the clan."
@@ -9312,9 +9312,9 @@ const quizData = {
         "question": "Why do the clan cats repeatedly call Rusty 'kittypet' in a scornful way?",
         "options": {
           "A": "They think it's a compliment",
-          "B": "They forgot his name",
-          "C": "'Kittypet' represents weakness in their culture",
-          "D": "It's just a nickname"
+          "B": "They forgot his real name",
+          "C": "It represents weakness to them",
+          "D": "It's just a friendly nickname"
         },
         "answer": "C",
         "explanation": "Clan cats see kittypets as soft, overfed, and lacking the warrior spirit they value."
@@ -9324,8 +9324,8 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Rusty's recurring dream about hunting mice suggest about his character?",
         "options": {
-          "A": "He's always hungry",
-          "B": "He has natural hunting instincts yearning wild",
+          "A": "He's always hungry for food",
+          "B": "He has natural wild instincts",
           "C": "He doesn't like his cat food",
           "D": "He watches too much TV"
         },
@@ -9337,10 +9337,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why is it ironic that Tigerclaw, who saved Mousefur in battle, later becomes suspicious?",
         "options": {
-          "A": "His heroism contrasts with darker intentions hinted",
+          "A": "His heroism hides darker motives",
           "B": "He doesn't remember saving her",
-          "C": "Mousefur doesn't thank him",
-          "D": "He wanted a reward"
+          "C": "Mousefur doesn't thank him at all",
+          "D": "He wanted a reward for it"
         },
         "answer": "A",
         "explanation": "Tigerclaw appears heroic but hints suggest he has darker motives - making his heroism ironic."
@@ -9350,10 +9350,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the clan's strict territorial rules reveal about their society?",
         "options": {
-          "A": "They are unfriendly",
-          "B": "They enjoy fighting",
-          "C": "They have too much land",
-          "D": "Survival depends on protecting limited resources"
+          "A": "They are unfriendly to others",
+          "B": "They enjoy fighting a lot",
+          "C": "They have too much land now",
+          "D": "Survival needs limited resources"
         },
         "answer": "D",
         "explanation": "Bluestar explains prey is scarce and 'there's never enough to go around' - territory means survival."
@@ -9363,10 +9363,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Smudge's character represent in contrast to Rusty?",
         "options": {
-          "A": "A cat content with kittypet life who fears unknown",
-          "B": "Rusty's enemy",
-          "C": "A future warrior",
-          "D": "A better fighter"
+          "A": "A cat content with safety at home",
+          "B": "Rusty's enemy in the story",
+          "C": "A future warrior of the clan",
+          "D": "A better fighter than Rusty"
         },
         "answer": "A",
         "explanation": "Smudge is afraid of the woods and happy as a kittypet - the opposite of Rusty's adventurous spirit."
@@ -9376,8 +9376,8 @@ const quizData = {
         "difficulty": "hard",
         "question": "Why does Bluestar watch Rusty from the forest before meeting him?",
         "options": {
-          "A": "She was evaluating him as the 'fire' prophecy",
-          "B": "She was lost",
+          "A": "She was testing the prophecy",
+          "B": "She was lost in the woods",
           "C": "She wanted to steal his food",
           "D": "She was hiding from enemies"
         },
@@ -9391,8 +9391,8 @@ const quizData = {
         "options": {
           "A": "He has memory problems",
           "B": "He was never really fighting",
-          "C": "Clan cats respect opponents who fight well",
-          "D": "He recognized Rusty"
+          "C": "Clan cats respect good fighters",
+          "D": "He recognized Rusty's face"
         },
         "answer": "C",
         "explanation": "Graypaw says 'You put up quite a fight for a tame kitty' with admiration - he respects Rusty's spirit."
@@ -9402,8 +9402,8 @@ const quizData = {
         "difficulty": "hard",
         "question": "What theme does the warrior code represent in clan society?",
         "options": {
-          "A": "Just rules to follow",
-          "B": "A sacred system of honor and loyalty",
+          "A": "Just simple rules to follow",
+          "B": "A system of honor and loyalty",
           "C": "A way to exclude outsiders",
           "D": "Punishment for wrongdoers"
         },
@@ -9416,9 +9416,9 @@ const quizData = {
         "question": "Why might Bluestar's decision to accept a kittypet be controversial?",
         "options": {
           "A": "Kittypets are too expensive",
-          "B": "She didn't ask permission",
-          "C": "Tradition says warriors should be forest-born",
-          "D": "Kittypets can't hunt"
+          "B": "She didn't ask permission first",
+          "C": "Tradition says be forest-born",
+          "D": "Kittypets cannot hunt well"
         },
         "answer": "C",
         "explanation": "Graypaw says 'kittypets can't be warriors' because they lack 'warrior blood' - Bluestar breaks tradition."
@@ -9428,10 +9428,10 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does the phrase 'the feel of the wind in your whiskers' represent?",
         "options": {
-          "A": "Bad weather",
-          "B": "Freedom and wild instincts of a warrior",
-          "C": "Cold temperatures",
-          "D": "A disease"
+          "A": "Bad weather in the forest",
+          "B": "Freedom and wild instincts",
+          "C": "Cold temperatures outside",
+          "D": "A disease among cats"
         },
         "answer": "B",
         "explanation": "Graypaw uses this phrase to describe the wild spirit that kittypets supposedly lack."
@@ -9441,8 +9441,8 @@ const quizData = {
         "difficulty": "hard",
         "question": "What does Henry's transformation after visiting the vet foreshadow for Rusty?",
         "options": {
-          "A": "Same fate awaits Rusty as a kittypet",
-          "B": "Rusty will also get fat",
+          "A": "Same fate awaits Rusty",
+          "B": "Rusty will also get very fat",
           "C": "Henry will join ThunderClan",
           "D": "Vets are dangerous enemies"
         },
@@ -9455,8 +9455,8 @@ const quizData = {
         "question": "What is the overall message about destiny versus choice in Rusty's story?",
         "options": {
           "A": "Destiny controls everything",
-          "B": "Though prophecy suggests his fate, Rusty still must choose to embrace his potential",
-          "C": "Choices don't matter",
+          "B": "He must choose to embrace his fate",
+          "C": "Choices don't matter at all",
           "D": "Kittypets have no destiny"
         },
         "answer": "B",
