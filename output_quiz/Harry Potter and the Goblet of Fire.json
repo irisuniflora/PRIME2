@@ -533,10 +533,10 @@
       "difficulty": "hard",
       "question": "What does the tournament's manipulation reveal about supposedly 'fair' magical systems?",
       "options": {
-        "A": "They are always perfectly fair",
-        "B": "They can be corrupted by those with dark intentions despite safeguards",
-        "C": "Only the strongest wizard wins",
-        "D": "Competitions have no real danger"
+        "A": "They are always perfectly fair and just",
+        "B": "They can be corrupted despite safeguards",
+        "C": "Only the strongest wizard wins fairly",
+        "D": "Competitions never have real danger"
       },
       "answer": "B",
       "explanation": "Despite age restrictions and the Goblet's supposed impartiality, Barty Crouch Jr. manipulated the entire tournament."
@@ -546,9 +546,9 @@
       "difficulty": "hard",
       "question": "Harry and Cedric touching the Cup together demonstrates the theme of what?",
       "options": {
-        "A": "Competition is everything",
-        "B": "Cedric was the true winner",
-        "C": "Cooperation can lead to shared tragedy",
+        "A": "Competition is everything in life",
+        "B": "Cedric was the one true winner",
+        "C": "Cooperation can lead to tragedy",
         "D": "Rules must always be followed"
       },
       "answer": "C",
@@ -559,10 +559,10 @@
       "difficulty": "hard",
       "question": "What does Cedric's death represent in the series' larger narrative?",
       "options": {
-        "A": "The first innocent death showing Voldemort's return has real consequences",
-        "B": "A minor plot point",
+        "A": "Voldemort's return has real consequences",
+        "B": "A minor plot point in the story",
         "C": "That Hufflepuff students are weak",
-        "D": "A random accident"
+        "D": "A random accident without meaning"
       },
       "answer": "A",
       "explanation": "Cedric's death marks the transition from school adventures to real war with real casualties."
@@ -572,10 +572,10 @@
       "difficulty": "hard",
       "question": "Priori Incantatem symbolizes what about Harry and Voldemort's relationship?",
       "options": {
-        "A": "They are distant relatives",
-        "B": "Their wands are merely similar",
-        "C": "Harry stole Voldemort's wand",
-        "D": "Their fates are deeply intertwined beyond coincidence"
+        "A": "They are distant relatives by blood",
+        "B": "Their wands are merely similar in style",
+        "C": "Harry stole Voldemort's original wand",
+        "D": "Their fates are deeply intertwined"
       },
       "answer": "D",
       "explanation": "The twin cores reveal a destined connection between Harry and Voldemort that neither can escape."
@@ -585,10 +585,10 @@
       "difficulty": "hard",
       "question": "Fudge's denial of Voldemort's return explores what theme about leadership?",
       "options": {
-        "A": "Leaders sometimes choose comfortable denial over difficult truths",
+        "A": "Leaders may choose denial over hard truths",
         "B": "Government officials are always right",
-        "C": "The Ministry was well-prepared",
-        "D": "Dumbledore was lying"
+        "C": "The Ministry was very well-prepared",
+        "D": "Dumbledore was lying about the return"
       },
       "answer": "A",
       "explanation": "Fudge represents how authority figures may prioritize political stability over acknowledging danger."
@@ -598,10 +598,10 @@
       "difficulty": "hard",
       "question": "The Barty Crouch family story reveals what about parenting?",
       "options": {
-        "A": "Parents always know best",
+        "A": "Parents always know what is best",
         "B": "Strict parenting creates perfect children",
-        "C": "Neglect and rigid control can contribute to a child's path toward evil",
-        "D": "Family bonds are unbreakable"
+        "C": "Neglect and control can lead to evil",
+        "D": "Family bonds can never be broken"
       },
       "answer": "C",
       "explanation": "Crouch Sr.'s obsession with his career and strict control contributed to Jr. becoming a Death Eater."
@@ -611,10 +611,10 @@
       "difficulty": "hard",
       "question": "Harry refusing to leave Cedric's body in the graveyard demonstrates what?",
       "options": {
-        "A": "His loyalty and humanity even in mortal danger",
+        "A": "His loyalty and humanity in danger",
         "B": "He needed proof of what happened",
-        "C": "Tournament rules required it",
-        "D": "Cedric asked him to"
+        "C": "Tournament rules required bringing him",
+        "D": "Cedric asked him to do this earlier"
       },
       "answer": "A",
       "explanation": "Harry's insistence on bringing Cedric's body back shows he values human dignity even when threatened."
@@ -624,10 +624,10 @@
       "difficulty": "hard",
       "question": "Harry being bound to compete without entering his name suggests what about magical contracts?",
       "options": {
-        "A": "They can be easily broken",
-        "B": "They are meaningless",
-        "C": "Champions can withdraw anytime",
-        "D": "They are binding regardless of consent"
+        "A": "They can be easily broken by anyone",
+        "B": "They are meaningless in the end",
+        "C": "Champions can withdraw at any time",
+        "D": "They bind regardless of consent"
       },
       "answer": "D",
       "explanation": "Once Harry's name came from the Goblet, he was magically bound to compete against his will."
@@ -638,9 +638,9 @@
       "question": "The treatment of house-elves reveals what about wizarding society?",
       "options": {
         "A": "Wizards are enlightened about equality",
-        "B": "The wizarding world has its own blind spots about oppression",
-        "C": "House-elves prefer their situation",
-        "D": "Hermione is wrong to care"
+        "B": "It has blind spots about oppression",
+        "C": "House-elves prefer their current situation",
+        "D": "Hermione is completely wrong to care"
       },
       "answer": "B",
       "explanation": "Through S.P.E.W. and Winky's treatment, the book shows wizarding society has prejudices like human societies."
@@ -650,10 +650,10 @@
       "difficulty": "hard",
       "question": "The graveyard setting for Voldemort's rebirth is symbolically important because it connects him to what?",
       "options": {
-        "A": "His origins and his first murders there",
-        "B": "Random convenience",
-        "C": "The only place with space",
-        "D": "A potion requirement"
+        "A": "His origins and first murders",
+        "B": "Random convenience for the plot",
+        "C": "The only place with enough space",
+        "D": "A specific potion requirement"
       },
       "answer": "A",
       "explanation": "The graveyard where Voldemort's father is buried represents his origins and first murders."
@@ -663,10 +663,10 @@
       "difficulty": "hard",
       "question": "Rita Skeeter's journalism reflects what about media in society?",
       "options": {
-        "A": "Media always tells the truth",
-        "B": "The press can spread misinformation for personal gain",
+        "A": "Media always tells the truth to readers",
+        "B": "Press can spread lies for profit",
         "C": "Newspapers are always trustworthy",
-        "D": "Journalists never have agendas"
+        "D": "Journalists never have agendas at all"
       },
       "answer": "B",
       "explanation": "Rita's sensationalized articles show how media can distort truth for profit."
@@ -677,9 +677,9 @@
       "question": "Viktor Krum's character challenges what assumption about celebrities?",
       "options": {
         "A": "Famous people are always arrogant",
-        "B": "Athletes are not intelligent",
-        "C": "Fame always corrupts",
-        "D": "Celebrity doesn't define character - he's actually shy and genuine"
+        "B": "Athletes are not very intelligent",
+        "C": "Fame always corrupts the person",
+        "D": "Fame doesn't define character"
       },
       "answer": "D",
       "explanation": "Though a famous athlete, Krum is introverted and genuinely kind, defying expectations."
@@ -689,10 +689,10 @@
       "difficulty": "hard",
       "question": "The ghost figures from Voldemort's wand helping Harry emphasizes what theme?",
       "options": {
-        "A": "Love and connection provide protection even after death",
-        "B": "Ghosts have physical powers",
+        "A": "Love protects even after death",
+        "B": "Ghosts have real physical powers",
         "C": "The echoes were just illusions",
-        "D": "Voldemort let Harry go"
+        "D": "Voldemort chose to let Harry go"
       },
       "answer": "A",
       "explanation": "Harry's parents' echoes buying him time reinforces the theme that love transcends death."
@@ -703,9 +703,9 @@
       "question": "Dumbledore's immediate action after Voldemort's return shows what about his character?",
       "options": {
         "A": "He was surprised and unprepared",
-        "B": "His foresight and leadership in crisis",
+        "B": "His foresight and leadership",
         "C": "He agreed with Fudge to wait",
-        "D": "He was too scared to act"
+        "D": "He was too scared to act quickly"
       },
       "answer": "B",
       "explanation": "Dumbledore immediately begins reconnecting the Order of the Phoenix, showing leadership."
@@ -715,10 +715,10 @@
       "difficulty": "hard",
       "question": "Harry being forced to compete explores what life theme?",
       "options": {
-        "A": "Rules are always fair",
-        "B": "We are sometimes forced into challenges we never chose",
+        "A": "Rules are always fair to everyone",
+        "B": "Life forces us into unchosen challenges",
         "C": "Harry secretly wanted to compete",
-        "D": "The Goblet made a mistake"
+        "D": "The Goblet simply made a mistake"
       },
       "answer": "B",
       "explanation": "Harry being bound to compete despite not entering shows life can thrust us into danger without consent."
@@ -728,9 +728,9 @@
       "difficulty": "hard",
       "question": "The split between those who believe Harry and those who don't foreshadows what?",
       "options": {
-        "A": "A coming conflict between truth-accepters and deniers",
-        "B": "Nothing important",
-        "C": "Harry will be proven wrong",
+        "A": "A conflict between truth and denial",
+        "B": "Nothing important at all later",
+        "C": "Harry will be proven wrong soon",
         "D": "The Ministry will support Harry"
       },
       "answer": "A",
@@ -741,10 +741,10 @@
       "difficulty": "hard",
       "question": "Voldemort insisting on dueling Harry rather than just killing him reveals what fatal flaw?",
       "options": {
-        "A": "His ego and desire to prove superiority is a weakness",
+        "A": "His ego and need to prove superiority",
         "B": "It was required by wizard law",
-        "C": "He needed practice",
-        "D": "Wormtail suggested it"
+        "C": "He needed practice with spells",
+        "D": "Wormtail suggested the duel"
       },
       "answer": "A",
       "explanation": "Voldemort's arrogance in wanting a fair duel gives Harry a chance to survive."
@@ -754,10 +754,10 @@
       "difficulty": "hard",
       "question": "Harry giving his winnings to Fred and George transforms what into something positive?",
       "options": {
-        "A": "Nothing significant",
-        "B": "The prize was cursed",
-        "C": "Money associated with Cedric's tragedy into the joke shop that aids resistance",
-        "D": "A debt he owed"
+        "A": "Nothing significant happens with it",
+        "B": "The prize was cursed by Voldemort",
+        "C": "Tragedy money becomes a helpful shop",
+        "D": "A debt he owed them from before"
       },
       "answer": "C",
       "explanation": "Harry's gift transforms money from tragedy into something that brings joy and later aids the fight."
@@ -767,10 +767,10 @@
       "difficulty": "hard",
       "question": "The Veela at the World Cup introduce themes of what?",
       "options": {
-        "A": "Just entertainment",
-        "B": "No larger meaning",
-        "C": "Voldemort's allies",
-        "D": "Appearances that deceive, paralleling the book's central deceptions"
+        "A": "Just entertainment for the crowd",
+        "B": "No larger meaning in the story",
+        "C": "Voldemort's hidden allies at the Cup",
+        "D": "Appearances that deceive others"
       },
       "answer": "D",
       "explanation": "The Veela's ability to enchant shows how appearances deceive, paralleling the book's themes."
@@ -780,10 +780,10 @@
       "difficulty": "hard",
       "question": "How does Goblet of Fire's ending change the series' tone?",
       "options": {
-        "A": "It doesn't change anything",
+        "A": "It doesn't change anything at all",
         "B": "It remains a light children's story",
-        "C": "It marks a transition to mature themes of death, war, and sacrifice",
-        "D": "It becomes purely comedic"
+        "C": "It shifts to themes of death and war",
+        "D": "It becomes purely comedic now"
       },
       "answer": "C",
       "explanation": "Cedric's murder and Voldemort's return shift the series from school adventures to darker themes."
